@@ -15,9 +15,11 @@ venv/
 # Data files (Raw PDFs and DOCXs are likely copyrighted and large)
 DOCX/
 PDF/
-# Keep the generated JSONs in the web folder, but maybe ignore root JSONs if they are duplicates
-# *_full.json
-# *_vision.json
+# Ignore generated JSONs in root (they are deployed to Web/data)
+*_full.json
+*_vision.json
+*_text*.json
+*.txt
 
 # RenPy SDK
 renpy-*-sdk/
