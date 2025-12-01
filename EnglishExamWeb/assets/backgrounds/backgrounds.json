@@ -1,0 +1,9 @@
+{
+    "horizontal": [
+        "Generated Image December 01, 2025 - 4_26PM.jpeg"
+    ],
+    "vertical": [
+        "Generated Image December 01, 2025 - 4_30PM.png"
+    ],
+    "_comment": "请将背景图片放入 horizontal/ (1920x1080) 和 vertical/ (1080x1920) 文件夹，然后在上面的数组中添加文件名。例如: ['bg1.jpg', 'bg2.png']"
+}

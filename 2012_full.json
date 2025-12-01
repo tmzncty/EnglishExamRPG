@@ -1,0 +1,1242 @@
+{
+  "meta": {
+    "year": 2012,
+    "exam_type": "English I"
+  },
+  "sections": [
+    {
+      "section_info": {
+        "type": "Use of English",
+        "name": "Section I",
+        "q_range": "1-20"
+      },
+      "article": {
+        "paragraphs": [
+          "The ethical judgments of the Supreme Court justices have become an important issue recently. The court cannot _1_ its legitimacy as guardian of the rule of law _2_ justices behave like politicians. Yet, in several instances, justices acted in ways that _3_ the court’s reputation for being independent and impartial.",
+          "Justice Antonin Scalia, for example, appeared at political events. That kind of activity makes it less likely that the court’s decisions will be _4_ as impartial judgments. Part of the problem is that the justices are not _5_ by an ethics code. At the very least, the court should make itself _6_ to the code of conduct that _7_ to the rest of the federal judiciary.",
+          "This and other similar cases _8_ the question of whether there is still a _9_ between the court and politics.",
+          "The framers of the Constitution envisioned law _10_ having authority apart from politics. They gave justices permanent positions _11_ they would be free to _12_ those in power and have no need to _13_ political support. Our legal system was designed to set law apart from politics precisely because they are so closely _14_.",
+          "Constitutional law is political because it results from choices rooted in fundamental social _15_ like liberty and property. When the court deals with social policy decisions, the law it _16_ is inescapably political – which is why decisions split along ideological lines are so easily _17_ as unjust.",
+          "The justices must _18_ doubts about the court’s legitimacy by making themselves _19_ to the code of conduct. That would make rulings more likely to be seen as separate from politics and, _20_, convincing as law."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "ethical",
+          "meanings": [
+            "伦理的",
+            "道德的"
+          ],
+          "context_match": "The ethical judgments of the Supreme Court justices..."
+        },
+        {
+          "word": "legitimacy",
+          "meanings": [
+            "合法性",
+            "合理性",
+            "正当性"
+          ],
+          "context_match": "The court cannot its legitimacy as guardian of the rule of law..."
+        },
+        {
+          "word": "impartial",
+          "meanings": [
+            "公正的",
+            "中立的"
+          ],
+          "context_match": "justices acted in ways that the court's reputation for being independent and impartial."
+        },
+        {
+          "word": "envision",
+          "meanings": [
+            "展望",
+            "想象"
+          ],
+          "context_match": "The framers of the Constitution envisioned law..."
+        },
+        {
+          "word": "constitutional",
+          "meanings": [
+            "宪法的",
+            "立宪的"
+          ],
+          "context_match": "Constitutional law is political..."
+        },
+        {
+          "word": "fundamental",
+          "meanings": [
+            "基本的",
+            "根本的"
+          ],
+          "context_match": "rooted in fundamental social concepts"
+        },
+        {
+          "word": "inescapably",
+          "meanings": [
+            "不可避免地"
+          ],
+          "context_match": "the law it is inescapably political"
+        },
+        {
+          "word": "ideological",
+          "meanings": [
+            "意识形态的"
+          ],
+          "context_match": "decisions split along ideological lines"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "text": "A. emphasize\nB. maintain\nC. modify\nD. recognize",
+          "options": {
+            "A": "emphasize",
+            "B": "maintain",
+            "C": "modify",
+            "D": "recognize"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "首句提到，对最高法院的伦理评判近来已成重要议题;暗示法院正面临职业道德危机。空格句 The court cannot its legitimacy as...应与首句一致，即\"招致道德评判\"，只有\"无法维持合法性\"与之吻合，【B】符合文意。",
+          "ai_persona_prompt": "Honey, 'maintain' is the only word that makes sense here. The court's got to keep up appearances, you know? Can't go around losing its legitimacy, darling. The other options are just plain wrong, like wearing white after Labor Day."
+        },
+        {
+          "id": 2,
+          "text": "A. when\nB. lest\nC. before\nD. unless",
+          "options": {
+            "A": "when",
+            "B": "lest",
+            "C": "before",
+            "D": "unless"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "空格处考查\"法官如政客行事\"与\"最高法院不能维持合法性\"之间的逻辑关系。政客活动关乎\"权势、利益\"，所以前者显然是后者发生的条件/情况，选项中符合要求的只有 when，【A】正确。",
+          "ai_persona_prompt": "Oh, come on, it's 'when'! It's about timing, darling. When those justices act like politicians, that's when the court's legitimacy goes down the drain. 'Lest'? Please, save the drama for your mama."
+        },
+        {
+          "id": 3,
+          "text": "A. restored\nB. weakened\nC. established\nD. eliminated",
+          "options": {
+            "A": "restored",
+            "B": "weakened",
+            "C": "established",
+            "D": "eliminated"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "空格句句首 Yet 表明本句与上文发生句意转折，因此反推得知，法官的行事方式没有维护最高法院独立、公正的声誉，符合该逻辑的选项为【B】。",
+          "ai_persona_prompt": "Seriously, 'weakened'! It's about damaging the reputation, get it? Those justices are messing things up. It's not rocket science. You put bad apples in the mix and the whole thing crumbles."
+        },
+        {
+          "id": 4,
+          "text": "A. challenged\nB. compromised\nC. suspected\nD. accepted",
+          "options": {
+            "A": "challenged",
+            "B": "compromised",
+            "C": "suspected",
+            "D": "accepted"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "首句 for example 表明本段例证上段末\"法官损害了法院声誉\"，由此判断这类行为会\"降低公众对法院裁定的认可度\"，makes it less likely 已表达出否定含义，故空格处应该表明\"公众对法院或法官原本的态度\";accepted 表示\"相信/认为某事为真\"，常用于～ sth as sth结构中，故【D】正确。",
+          "ai_persona_prompt": "Alright, 'accepted' is the word. We are talking about how court decisions were viewed, previously, before the Justices went rogue. 'accepted as impartial judgement' , the others simply don't fit, do they now?"
+        },
+        {
+          "id": 5,
+          "text": "A. advanced\nB. caught\nC. bound\nD. founded",
+          "options": {
+            "A": "advanced",
+            "B": "caught",
+            "C": "bound",
+            "D": "founded"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "Part of the problem 表明本句解释②句\"法院裁定认可度下降\"。而已知\"法官涉政损害了法院声誉\"，因此只能是\"法官无视道德准则\"，也即\"不受准则约束\"，be bound by指\"受（准则、协议、法规等）约束的\"，【C】正确。",
+          "ai_persona_prompt": "Oh darling, 'bound'! As in tied down, restricted by, you know, ethics! It's not that hard. The other choices are just, frankly, ridiculous. Justices aren't 'advanced' by a code, they're supposed to be following it."
+        },
+        {
+          "id": 6,
+          "text": "A. resistant\nB. subject\nC. immune\nD. prone",
+          "options": {
+            "A": "resistant",
+            "B": "subject",
+            "C": "immune",
+            "D": "prone"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "空格后 the code of conduct 与上文 ethics code为对应成分;At the very least（\"最起码、至少\"）暗示此两句逻辑为∶法官不受道德准则约束（就算了），但最少也要受行为准则约束。因此空格部分要和上句 are not bound by 反向对应，be subject to 可以表示\"须遵守某事物\"，符合文意，【B】正确。",
+          "ai_persona_prompt": "Really? 'Subject'! They gotta follow the rules, be accountable, darling! It's not a suggestion, it's the law. The others just make no sense. Are we clear?"
+        },
+        {
+          "id": 7,
+          "text": "A. resorts\nB. sticks\nC. leads\nD. applies",
+          "options": {
+            "A": "resorts",
+            "B": "sticks",
+            "C": "leads",
+            "D": "applies"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "空格句 that 定语从句具体说明 the code of conduct。最高法院属于联邦司法系统的一部分，故其应该遵守的行为准则应是司法系统内其他部门都适用的，【D】符合文意。",
+          "ai_persona_prompt": "Please, it 'applies'! The code is applicable to the rest of the federal judiciary, like it is relevant, it is used there. It does not 'lead' to the rest of the judiciary. Are you even reading the context?"
+        },
+        {
+          "id": 8,
+          "text": "A. evade\nB. raise\nC. deny\nD. settle",
+          "options": {
+            "A": "evade",
+            "B": "raise",
+            "C": "deny",
+            "D": "settle"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "句首 This指代上文\"法官现身政治事件\";下文指出宪法制定初衷就是要法律和政治分离;由此推断本句针对法官不当行为提出质疑，并引出论证。【B】用于\"唤起对问题的思考\"，符合文意。",
+          "ai_persona_prompt": "Oh sweetie, it's 'raise'! We need to raise the question, bring it up, get people talking. The justices need to think of it and make it better; we are not settling it! It's not that hard!"
+        },
+        {
+          "id": 9,
+          "text": "A. line\nB. barrier\nC. similarity\nD. conflict",
+          "options": {
+            "A": "line",
+            "B": "barrier",
+            "C": "similarity",
+            "D": "conflict"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "全文主题关乎\"法官职业操守问题\"，即，\"司法 VS 政治\"应当分离，而近期法官的不当行为引发争议;故推断本句为∶公众对最高法院产生质疑，即这二者之间是否还存在（本应有的）界限;line 常用于指\"两国/地之间的分界线\"，文中喻指\"司法和政治两者互不干涉\"，故【A】正确。",
+          "ai_persona_prompt": "It's all about the 'line,' darling! The boundary between the court and politics. You know, that thing that's supposed to keep them separate? Are we understanding now?"
+        },
+        {
+          "id": 10,
+          "text": "A. by\nB. as\nC. through\nD. towards",
+          "options": {
+            "A": "by",
+            "B": "as",
+            "C": "through",
+            "D": "towards"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "空格句由 The framers of the Constitution 切入，表明作者欲从\"国家成立之初构建法律\"的视角强调\"法律本应有的客观性、独立性\"，空格后 having authority apartfrom politics与之吻合，是制定者认定的内容，as 常与regard/see/envision 等连用，引出观点，【B】正确。",
+          "ai_persona_prompt": "Oh my god, 'as'! The framers envisioned law 'as' having authority. It is a way they see and define the law. This one is a piece of cake."
+        },
+        {
+          "id": 11,
+          "text": "A. so\nB. since\nC. provided\nD. though",
+          "options": {
+            "A": "so",
+            "B": "since",
+            "C": "provided",
+            "D": "though"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "空格句已知信息 be free.those in power、no nced to...political support 暗中呼应上句 authority apart from politics，推断两句间为解释说明的关系，空格句介绍\"法律和政治分离\"的实现方式（实行大法官终身制），通过这一方式，法官得以拥有不受政治影响的权力，从而确保司法公正;so 与情态动词连用，表示想要达成某结果的意愿，【A】符合文意。",
+          "ai_persona_prompt": "Duh, it is 'so'! So that they can be free. Cause and effect. You cannot tell that? So obvious!"
+        },
+        {
+          "id": 12,
+          "text": "A. serve\nB. satisfy\nC. upset\nD. replace",
+          "options": {
+            "A": "serve",
+            "B": "satisfy",
+            "C": "upset",
+            "D": "replace"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "段首句\"宪法制定者们的设想是法律拥有独立于政治的权威\"，也就是说，受终身制保护的情况下，法官无需惧怕或迎合当权者，可以自由行使司法权;符合文意的只有【C】，此处用其僻意\"打败实力被认为远超自己的对手\"，文中表示\"法官可以毫无顾虑地惩治违法的当权者\"。",
+          "ai_persona_prompt": "Are you kidding me? 'Upset'! As in challenge, go against! The justices should be able to 'upset' those in power, not 'serve' them, are you thick? Get it right!"
+        },
+        {
+          "id": 13,
+          "text": "A. confirm\nB. express\nC. cultivate\nD. offer",
+          "options": {
+            "A": "confirm",
+            "B": "express",
+            "C": "cultivate",
+            "D": "offer"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "空格句中 and表明 have no need to_political support 和 be free to upset those in power并列，表现法律制定者\"赋予法官不受政治约束的独立地位\"的目的，故文意只能是\"法官无需寻求政治支持\"，cultivate 有\"争取支持\"的语义，【C】正确。",
+          "ai_persona_prompt": "Okay, pay attention! The answer is 'cultivate', meaning seek, gain, you know? The judges don't have to 'cultivate' political support because they're independent! Got it?"
+        },
+        {
+          "id": 14,
+          "text": "A. guarded\nB. followed\nC. studied\nD. tied",
+          "options": {
+            "A": "guarded",
+            "B": "followed",
+            "C": "studied",
+            "D": "tied"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "precisely（表强调，\"正是、恰恰是\"）修饰 because，使全句传递出\"就是因为……，我们才有意设立将两者分开的法律体系\"的意味，暗示\"法律和政治\"在现实中很难脱离干系，【D】符合文意。",
+          "ai_persona_prompt": "Hello, 'tied'! As in closely linked, connected. The point is they are so intertwined. You have to see, 'tied'!"
+        },
+        {
+          "id": 15,
+          "text": "A. concepts\nB. theories\nC. divisions\nD. conventions",
+          "options": {
+            "A": "concepts",
+            "B": "theories",
+            "C": "divisions",
+            "D": "conventions"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "句中 like表举例，空格词应是\"对自由和财产的总结和归类\"，social concepts 指\"社会观念\"，【A】正确。",
+          "ai_persona_prompt": "Seriously? 'Concepts'! Liberty and property are 'concepts,' ideas! It's not a difficult one, is it?"
+        },
+        {
+          "id": 16,
+          "text": "A. excludes\nB. questions\nC. shapes\nD. controls",
+          "options": {
+            "A": "excludes",
+            "B": "questions",
+            "C": "shapes",
+            "D": "controls"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "空格句中it是省略了 that 的定语从句，修饰 the law，it指代 the court，空格处实际考查\"最高法院\"与\"法律\"间的关系。最高法院基于法律判决社会政策案件，而判决后的案例会对法律的制定或修订产生影响，使之具有政治性。shapes 含\"对某物的发展有重要影响\"之意，故【C】正确。",
+          "ai_persona_prompt": "Good gracious! It 'shapes' the law, influences it! It doesn't 'exclude' the law! Read properly!"
+        },
+        {
+          "id": 17,
+          "text": "A. dismissed\nB. released\nC. ranked\nD. distorted",
+          "options": {
+            "A": "dismissed",
+            "B": "released",
+            "C": "ranked",
+            "D": "distorted"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "空格部分 which 回指破折号前内容∶最高法院对有关社会政策案件的判决难以避免使法律带有政治性，由此推知，人们很容易会对\"意识形态上存分歧的判决\"不接受，只有 dismissed（意为 to refuse to accept or recognize）符合，文中即∶公众不接受判决，认为判决是不公正的，【A】正确。",
+          "ai_persona_prompt": "For Pete's sake, 'dismissed'! As in disregarded, rejected, 'cause they're seen as unfair! Is everything alright at home?"
+        },
+        {
+          "id": 18,
+          "text": "A. suppress\nB. exploit\nC. address\nD. ignore",
+          "options": {
+            "A": "suppress",
+            "B": "exploit",
+            "C": "address",
+            "D": "ignore"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "must（用以引出建议，强调必要性）暗示本段继上文\"分析问题（法律和政治不容易完全分开）\"后开始\"提出建议\";空格后宾语为 doubts about the court'slegitimacy，因此空格词只能表达\"应对\"之意，【C】符合要求，表示\"考虑某问题并决定如何应对\"之意。",
+          "ai_persona_prompt": "Of course 'address' is the correct one! This isn't a suggestion, it is absolutely necessary! You are not ignoring it nor suppressing it!"
+        },
+        {
+          "id": 19,
+          "text": "A. accessible\nB. amiable\nC. agreable\nD. accountable",
+          "options": {
+            "A": "accessible",
+            "B": "amiable",
+            "C": "agreable",
+            "D": "accountable"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "空格所在部分是 by引导的方式状语，说明法官应如何应对人们的质疑∶（法官）使自己行为准则。句中 making themselves___to the code of conduct 近义复现第二段④句...make itself subject to the code of conduct（最高法院应该遵守行为准则），故空格词应能体现\"服从，遵守\"之意，符合要求的只有【D】。",
+          "ai_persona_prompt": "Right, 'accountable'! As in responsible, answerable. They have to answer to that code of conduct. What did you think the answer was, darling?"
+        },
+        {
+          "id": 20,
+          "text": "A. by all means\nB. at all costs\nC. in a word\nD. as a result",
+          "options": {
+            "A": "by all means",
+            "B": "at all costs",
+            "C": "in a word",
+            "D": "as a result"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "空格句指出，这（法官遵守行为准则）会让判决更可能被认为是与政治分离的，像法律一样令人信服。由前文可知，人们对最高法院合法性的质疑原因在于法律与政治界限模糊，因此反推得知，法律和政治分离，判决便会令人信服，空格后内容是两者分离的\"结果\"，【D】正确。",
+          "ai_persona_prompt": "So, so easy. 'As a result'! Consequence! The logic flows! Law and politics can be separated from each other."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 1",
+        "q_range": "21-25"
+      },
+      "article": {
+        "paragraphs": [
+          "Come on – Everybody’s doing it. That whispered message, half invitation and half forcing, is what most of us think of when we hear the words peer pressure. It usually leads to no good – drinking, drugs and casual sex. But in her new book Join the Club, Tina Rosenberg contends that peer pressure can also be a positive force through what she calls the social cure, in which organizations and officials use the power of group dynamics to help individuals improve their lives and possibly the world.",
+          "Rosenberg, the recipient of a Pulitzer Prize, offers a host of examples of the social cure in action: In South Carolina, a state-sponsored antismoking  program called Rage Against the Haze sets out to make cigarettes uncool. In South Africa, an HIV-prevention initiative known as loveLife recruits young people to promote safe sex among their peers.",
+          "The idea seems promising, and Rosenberg is a perceptive observer. Her critique of the lameness of many public-health campaigns is spot-on: they fail to mobilize  peer pressure for healthy habits, and they demonstrate a seriously flawed understanding of psychology. “Dare to be different, please don’t smoke!” pleads one billboard campaign aimed at reducing smoking among teenagers – teenagers, who desire nothing more than fitting in. Rosenberg argues convincingly that public-health advocates ought to take a page from advertisers, so skilled at applying peer pressure.",
+          "But on the general effectiveness of the social cure, Rosenberg is less persuasive. Join the Club is filled with too much irrelevant detail and not enough exploration of the social and biological factors that make peer pressure so powerful. The most glaring flaw of the social cure as it’s presented here is that it doesn’t work very well for very long. Rage Against the Haze failed once state funding was cut. Evidence that the loveLife program produces lasting changes is limited and mixed.",
+          "There’s no doubt that our peer groups exert enormous influence on our behavior. An emerging body of research shows that positive health habits – as well as negative ones – spread through networks of friends via social communication. This is a subtle form of peer pressure: we unconsciously imitate the behavior we see every day.",
+          "Far less certain, however, is how successfully experts and bureaucrats can select our peer groups and steer their activities in virtuous directions. It’s like the teacher who breaks up the troublemakers in the back row by pairing them with better-behaved classmates. The tactic never really works. And that’s the problem with a social cure engineered from the outside: in the real world, as in school, we insist on choosing our own friends."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "peer pressure",
+          "meanings": [
+            "同辈压力",
+            "同侪压力"
+          ],
+          "context_match": "That whispered message, half invitation and half forcing, is what most of us think of when we hear the words peer pressure."
+        },
+        {
+          "word": "contend",
+          "meanings": [
+            "声称",
+            "主张"
+          ],
+          "context_match": "But in her new book Join the Club, Tina Rosenberg contends that peer pressure can also be a positive force..."
+        },
+        {
+          "word": "perceptive",
+          "meanings": [
+            "有洞察力的",
+            "敏锐的"
+          ],
+          "context_match": "The idea seems promising, and Rosenberg is a perceptive observer."
+        },
+        {
+          "word": "spot-on",
+          "meanings": [
+            "准确的",
+            "恰当的"
+          ],
+          "context_match": "Her critique of the lameness of many public-health campaigns is spot-on..."
+        },
+        {
+          "word": "lame",
+          "meanings": [
+            "不足",
+            "有缺陷的"
+          ],
+          "context_match": "Her critique of the lameness of many public-health campaigns is spot-on..."
+        },
+        {
+          "word": "mobilize",
+          "meanings": [
+            "调动",
+            "动员"
+          ],
+          "context_match": "...they fail to mobilize peer pressure for healthy habits..."
+        },
+        {
+          "word": "persuasive",
+          "meanings": [
+            "有说服力的",
+            "令人信服的"
+          ],
+          "context_match": "But on the general effectiveness of the social cure, Rosenberg is less persuasive."
+        },
+        {
+          "word": "glaring",
+          "meanings": [
+            "明显的",
+            "显眼的"
+          ],
+          "context_match": "The most glaring flaw of the social cure as it’s presented here is that it doesn’t work very well for very long."
+        },
+        {
+          "word": "exert",
+          "meanings": [
+            "施加",
+            "发挥"
+          ],
+          "context_match": "There’s no doubt that our peer groups exert enormous influence on our behavior."
+        },
+        {
+          "word": "subtle",
+          "meanings": [
+            "微妙的",
+            "不明显的"
+          ],
+          "context_match": "This is a subtle form of peer pressure: we unconsciously imitate the behavior we see every day."
+        },
+        {
+          "word": "steer",
+          "meanings": [
+            "引导",
+            "控制"
+          ],
+          "context_match": "Far less certain, however, is how successfully experts and bureaucrats can select our peer groups and steer their activities in virtuous directions."
+        },
+        {
+          "word": "virtuous",
+          "meanings": [
+            "高尚的",
+            "有德行的"
+          ],
+          "context_match": "Far less certain, however, is how successfully experts and bureaucrats can select our peer groups and steer their activities in virtuous directions."
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "text": "According to the first paragraph, peer pressure often emerges as",
+          "options": {
+            "A": "a supplement to the social cure.",
+            "B": "a stimulus to group dynamics.",
+            "C": "an obstacle to social progress.",
+            "D": "a cause of undesirable behaviors."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "根据第一段，同侪压力通常会导致不好的结果，如酗酒、吸毒、轻率性行为等。因此【D】选项符合文义。题干＋正确项【D】是对③句的同义改写∶usually→often;leads to→emerges as a cause of;no good—drinking,drugs and casual sex→undesirable behaviors。【A】将④句 through 所传递'同侪压力是社会治疗所借助的力量'曲解为'同侪压力是社会治疗的补充（supplement）'。【B】将①句碎片信息 be a positive force、group dynamics 杂糅并曲解为'同侪压力刺激群体互动'，而'群体互动实为同侪压力的另一种表述'。【C】将④句 help individuals...and possibly the world反向曲解为'同侪压力是社会进步的障碍（obstacle）'。",
+          "ai_persona_prompt": "Okay, so the first paragraph CLEARLY states peer pressure 'usually leads to no good.' Are supplements, stimuli, and progress-blockers really your first thoughts? Come on, read more carefully! The answer is D because it's a direct paraphrase of what the author says. Duh!"
+        },
+        {
+          "id": 22,
+          "text": "Rosenberg holds that public-health advocates should",
+          "options": {
+            "A": "recruit professional advertisers.",
+            "B": "learn from advertisers’ experience.",
+            "C": "stay away from commercial advertisers.",
+            "D": "recognize the limitations of advertisements."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第三段末句介绍罗森伯格针对公共健康运动倡导者提出的建议∶应该向善于运用同侪压力的广告人学习，因此【B】选项正确。题干＋ 正确项【B】是对原文④句的同义改写。【A】误将 take a page from advertisers'向广告人学习（如何调动同侪压力）'过度推断为 recruit professional advertisers'招募职业广告人（以为己用）'。【C】，【D】均误将段中用于批判'公共健康运动倡导者'的信息 lameness/fail to mobilize/a seriously flawed understanding...强加于'广告人'，并由此分别推出'罗森伯格劝诫公共健康运动倡导者应该远离广告人'、'广告具有局限性'。",
+          "ai_persona_prompt": "Seriously? Rosenberg basically says public-health folks should 'take a page' from advertisers, which is another way of saying 'learn from them'. Recruiting them? Staying away? Recognizing limitations? Where did you even get that? The answer's B, use your brain!"
+        },
+        {
+          "id": 23,
+          "text": "In the author’s view, Rosenberg’s book fails to",
+          "options": {
+            "A": "adequately probe social and biological factors.",
+            "B": "effectively evade the flaws of the social cure.",
+            "C": "illustrate the functions of state funding.",
+            "D": "produce a long-lasting social effect."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第四段②句指出∶《加入俱乐部》一书无关细节过多，却没能充分探究使同侪压力发挥如此强大作用的社会和生物因素。故【A】正确。题干＋正确项【A】是对第四段②句的改写，其中 Rosenberg's book 对应原文 Join the Club;fails to adequately probe...同义改写文中is filled with...not enough exploration of...。【B】利用③句 flaw of the social cure、it doesn't work very well捏造出'未能避免社会治疗的缺陷'，而文意实为'书作反映了社会治疗最明显的缺陷'。【C】利用④句意在说明'社会治疗效力不能持续'而列举事例'政府基金一削减，禁烟运动就失效'中的'政府基金'捏造出'该书未能阐明政府基金的作用'。【D】将③句 it doesn't work very well for very long、⑤句evidence that...produces lasting changes is limited and mixed 意在说明的'社会治疗未能产生长期效果'曲解为'书作未能产生长期社会效应'。",
+          "ai_persona_prompt": "Come on, 'adequately probe social and biological factors' is practically verbatim from the paragraph! Filled with irrelevant details but lacking exploration? Sounds like A to me. Are you even reading the same text as I am? Snap out of it!"
+        },
+        {
+          "id": 24,
+          "text": "Paragraph 5 shows that our imitation of behaviors",
+          "options": {
+            "A": "is harmful to our networks of friends.",
+            "B": "will mislead behavioral studies.",
+            "C": "occurs without our realizing it.",
+            "D": "can produce negative health habits."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第五段末句指出∶同侪压力的作用过程微妙，我们每天都在无意识地模仿他人的行为，由此可知【C】选项符合文义。题干 our imitation of behaviors 对应原文 imitate the behavior we see every day，正确项【C】 occurs without our realizing it 同义改写原文 unconsciously。【A】根据②句部分信息 negative ones（ones 指代 health habits）—spread through networks of friends 过度推断出'我们对他人行为的模仿对朋友圈有害'，而未能注意到此信息前还有 positive health habits'积极的健康习惯'。【B】将①②句中碎片信息exert enormous influence on our behavior、An emerging body of research 杂糅而成'我们的模仿行为会误导行为研究'。【D】利用②句 negative ones（health habits）设置干扰，却将句意'我们会模仿朋友圈传播的好/坏习惯'倒置为'这种模仿行为产生不良的健康习惯'。",
+          "ai_persona_prompt": "Unconsciously imitate? Hello? The paragraph practically screams 'without our realizing it'! A and B are pulled from thin air, and D is a twisted interpretation. Get it together, the answer is C because it's literally in the text!"
+        },
+        {
+          "id": 25,
+          "text": "The author suggests in the last paragraph that the effect of peer pressure is",
+          "options": {
+            "A": "harmful.",
+            "B": "desirable.",
+            "C": "profound.",
+            "D": "questionable."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "作者在最后一段中暗示，对于社会治疗而言，同侪压力的效果是值得怀疑的。最后一段提出了关于社会治疗运动的有效性的质疑，暗示了作者对同侪压力的积极作用持保留态度，认为其影响不确定。A选项只体现了负面影响，和原文一部分意思相悖，B选项太过绝对，原文主要表达了不确定性。C选项虽然peer pressure 影响深刻，但原文主要想表达社会治疗不能成功。",
+          "ai_persona_prompt": "The last paragraph is all about how experts *can't* really steer peer groups. If they can't steer them, is the effect really desirable or profound? Hardly! The whole point is that it's 'questionable,' so the answer is D. Pay attention to the author's overall argument!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 2",
+        "q_range": "26-30"
+      },
+      "article": {
+        "paragraphs": [
+          "A deal is a deal – except, apparently, when Entergy is involved. The company, a major energy supplier in New England, provoked justified outrage in Vermont last week when it announced it was reneging on a longstanding commitment to abide by the state’s strict nuclear regulations.",
+          "Instead, the company has done precisely what it had long promised it would not: challenge the constitutionality of Vermont’s rules in the federal court, as part of a desperate effort to keep its Vermont Yankee nuclear power plant running. It’s a stunning move.",
+          "The conflict has been surfacing since 2002, when the corporation bought Vermont’s only nuclear power plant, an aging reactor in Vernon. As a condition of receiving state approval for the sale, the company agreed to seek permission from state regulators to operate past 2012. In 2006, the state went a step further, requiring that any extension of the plant’s license be subject to the Vermont legislature’s approval. Then, too, the company went along.",
+          "Either Entergy never really intended to live by those commitments, or it simply didn’t foresee what would happen next. A string of accidents, including the partial collapse of a cooling tower in 2007 and the discovery of an underground pipe system leakage, raised serious questions about both Vermont Yankee’s safety and Entergy’s management – especially after the company made misleading statements about the pipe. Enraged by Entergy’s behavior, the Vermont Senate voted 26 to 4 last year against allowing an extension.",
+          "Now the company is suddenly claiming that the 2002 agreement is invalid because of the 2006 legislation, and that only the federal government has regulatory power over nuclear issues. The legal issues in the case are obscure: whereas the Supreme Court has ruled that states do have some regulatory authority over nuclear power, legal scholars say that Vermont case will offer a precedent-setting test of how far those powers extend. Certainly, there are valid concerns about the patchwork regulations that could result if every state sets its own rules. But had Entergy kept its word, that debate would be beside the point.",
+          "The company seems to have concluded that its reputation in Vermont is already so damaged that it has nothing left to lose by going to war with the state. But there should be consequences. Permission to run a nuclear plant is a public trust. Entergy runs 11 other reactors in the United States, including Pilgrim Nuclear station in Plymouth. Pledging to run Pilgrim safely, the company has applied for federal permission to keep it open for another 20 years. But as the Nuclear Regulatory Commission (NRC) reviews the company’s application, it should keep in mind what promises from Entergy are worth."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "reneging on",
+          "meanings": [
+            "违背，放弃"
+          ],
+          "context_match": "reneging on a longstanding commitment"
+        },
+        {
+          "word": "constitutionality",
+          "meanings": [
+            "合宪性"
+          ],
+          "context_match": "challenge the constitutionality"
+        },
+        {
+          "word": "desperate",
+          "meanings": [
+            "绝望的，不顾一切的"
+          ],
+          "context_match": "desperate effort"
+        },
+        {
+          "word": "obscure",
+          "meanings": [
+            "模糊的，不清楚的"
+          ],
+          "context_match": "legal issues are obscure"
+        },
+        {
+          "word": "patchwork",
+          "meanings": [
+            "补丁似的，拼凑的"
+          ],
+          "context_match": "patchwork regulations"
+        },
+        {
+          "word": "pledging",
+          "meanings": [
+            "承诺，保证"
+          ],
+          "context_match": "Pledging to run Pilgrim safely"
+        }
+      ],
+      "questions": [
+        {
+          "id": 26,
+          "text": "The phrase “reneging on” (Line 3, Para. 1) is closest in meaning to",
+          "options": {
+            "A": "condemning.",
+            "B": "reaffirming.",
+            "C": "dishonoring.",
+            "D": "securing."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "reneging on意为“违背，放弃”，与dishonoring“不尊重，违背”意思相近。A condemning谴责，B reaffirming重申，D securing获得。",
+          "ai_persona_prompt": "Alright, listen up! 'Reneging on' ain't about 'condemning' (that's just harsh words, sweetie), nor 'reaffirming' (doing the opposite, duh!). It's definitely not 'securing' anything. It's 'dishonoring' – breaking your promise, being a two-faced liar! Got it?"
+        },
+        {
+          "id": 27,
+          "text": "By entering into the 2002 agreement, Entergy intended to",
+          "options": {
+            "A": "obtain protection from Vermont regulators.",
+            "B": "seek favor from the federal legislature.",
+            "C": "acquire an extension of its business license.",
+            "D": "get permission to purchase a power plant."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "根据第三段，2002年协议的目的是为了获得购买核电站的许可。A 获得佛蒙特州监管机构的保护，B 寻求联邦立法机构的支持，C 获得经营许可证的延期，均不是2002年协议的目的。",
+          "ai_persona_prompt": "Seriously? 'Protection'? 'Favor'? Those are for sissies! Entergy wanted one thing: to 'get permission to purchase a power plant.' They played nice, signed the agreement, bam! That's how business, dirty as it is, gets done. The rest is just fluff!"
+        },
+        {
+          "id": 28,
+          "text": "According to Paragraph 4, Entergy seems to have problems with its",
+          "options": {
+            "A": "managerial practices.",
+            "B": "technical innovativeness.",
+            "C": "financial goals.",
+            "D": "business vision."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第四段提到一系列事故以及公司做出误导性陈述，表明Entergy在管理实践方面存在问题。A 管理实践，B 技术创新，C 财务目标，D 商业远见，均不是第四段主要内容。",
+          "ai_persona_prompt": "Wake up! 'Technical innovativeness'? Please, they're dealing with nukes, not inventing the next iPhone! 'Financial goals'? Everyone wants money, that's not the issue. It's their 'managerial practices' that are a dumpster fire! They can't even keep the pipes from leaking! Get your head in the game."
+        },
+        {
+          "id": 29,
+          "text": "In the author’s view, the Vermont case will test",
+          "options": {
+            "A": "Entergy’s capacity to fulfill all its promises.",
+            "B": "the nature of states’ patchwork regulations.",
+            "C": "the federal authority over nuclear issues.",
+            "D": "the limits of states’ power over nuclear issues."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "第五段提到，法律学者认为佛蒙特州案件将会对检验“州政府的权力究竟有多大”提供一个先例。即，测试州在核问题上的权限。",
+          "ai_persona_prompt": "Oh, come on! It's not about Entergy's 'capacity' to keep promises – they've already shown they can't! 'Federal authority'? Please, the states are fighting for their slice of the pie! It boils down to 'the limits of states' power over nuclear issues.' How much control do they REALLY have? That's the question, darling!"
+        },
+        {
+          "id": 30,
+          "text": "It can be inferred from the last paragraph that",
+          "options": {
+            "A": "Entergy’s business elsewhere might be affected.",
+            "B": "the authority of the NRC will be defied.",
+            "C": "Entergy will withdraw its Plymouth application.",
+            "D": "Vermont’s reputation might be damaged."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "最后一段提到NRC在审核Entergy的申请时应该考虑到Entergy公司的承诺到底价值几何，暗示其在其他地方的业务可能会受到影响。",
+          "ai_persona_prompt": "Don't be dense! 'NRC' defied? Nobody's gonna defy the nuclear cops, are they? And Vermont's reputation? Irrelevant! The point is, Entergy screwed up, and now 'Entergy's business elsewhere might be affected.' Other states are watching, and they're not happy. Karma's a B, ain't it?"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 3",
+        "q_range": "31-35"
+      },
+      "article": {
+        "paragraphs": [
+          "In the idealized version of how science is done, facts about the world are waiting to be observed and collected by objective researchers who use the scientific method  to carry out their work. But in the everyday practice of science, discovery frequently follows an ambiguous and complicated route. We aim to be objective, but we cannot escape the context of our unique life experiences. Prior knowledge and interests influence what we experience, what we think our experiences mean, and the subsequent actions we take. Opportunities for misinterpretation, error, and self-deception abound.",
+          "Consequently, discovery claims should be thought of as protoscience. Similar to newly staked mining claims, they are full of potential. But it takes collective scrutiny and acceptance to transform a discovery claim into a mature discovery. This is the credibility process, through which the individual researcher’s me, here, now becomes the community’s anyone, anywhere, anytime. Objective knowledge is the goal, not the starting point.",
+          "Once a discovery claim becomes public, the discoverer receives intellectual credit. But, unlike with mining claims, the community takes control of what happens next. Within the complex social structure of the scientific community, researchers make discoveries; editors and reviewers act as gatekeepers by controlling the publication process; other scientists use the new finding to suit their own purposes; and finally, the public (including other scientists) receives the new discovery and possibly accompanying technology. As a discovery claim works its way through the community, the interaction and confrontation between shared and competing beliefs about the science and the technology involved transforms an individual’s discovery claim into the community’s credible discovery.",
+          "Two paradoxes exist throughout this credibility process. First, scientific work tends to focus on some aspect of prevailing knowledge that is viewed as incomplete  or incorrect. Little reward accompanies duplication and confirmation of what is already known and believed. The goal is new-search, not re-search. Not surprisingly, newly published discovery claims and credible discoveries that appear to be  important and convincing will always be open to challenge and potential modification or refutation by future researchers. Second, novelty itself frequently provokes disbelief. Nobel Laureate and physiologist Albert Szent-Györgyi once described discovery as “seeing what everybody has seen and thinking what nobody has thought.” But thinking what nobody else has thought and telling others what they  have missed may not change their views. Sometimes years are required for  truly novel discovery claims to be accepted and appreciated.",
+          "In the end, credibility “happens” to a discovery claim – a process that corresponds to what philosopher Annette Baier has described as the commons of the mind. “We reason together, challenge, revise, and complete each other’s reasoning  and each other’s conceptions of reason.”"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "objective",
+          "meanings": [
+            "not influenced by personal feelings or opinions; based on facts"
+          ],
+          "context_match": "We aim to be objective, but we cannot escape the context of our unique life experiences."
+        },
+        {
+          "word": "credibility",
+          "meanings": [
+            "the quality of being trusted and believed in"
+          ],
+          "context_match": "This is the credibility process, through which the individual researcher’s me, here, now becomes the community’s anyone, anywhere, anytime."
+        },
+        {
+          "word": "novelty",
+          "meanings": [
+            "the quality of being new, original, or unusual"
+          ],
+          "context_match": "Second, novelty itself frequently provokes disbelief."
+        }
+      ],
+      "questions": [
+        {
+          "id": 31,
+          "text": "According to the first paragraph, the process of discovery is characterized by its",
+          "options": {
+            "A": "uncertainty and complexity.",
+            "B": "misconception and deceptiveness.",
+            "C": "logicality and objectivity.",
+            "D": "systematicness and regularity."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第一段指出科学发现过程并非理想化的客观过程，而是受到主观因素影响的复杂过程。uncertainty and complexity对应原文ambiguous and complicated route。",
+          "ai_persona_prompt": "Alright, listen up! The FIRST paragraph clearly states that discovery isn't some neat, orderly thing. It's a MESS! 'Ambiguous and complicated route' ring a bell? Option A is spot-on, the rest are pure fantasy. Get it memorized!"
+        },
+        {
+          "id": 32,
+          "text": "It can be inferred from Paragraph 2 that credibility process requires",
+          "options": {
+            "A": "strict inspection.",
+            "B": "shared efforts.",
+            "C": "individual wisdom.",
+            "D": "persistent innovation."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第二段强调将发现声明转化为成熟的发现需要集体审查和接受。shared efforts对应原文collective scrutiny and acceptance。",
+          "ai_persona_prompt": "Come on, people! Second paragraph, 'collective scrutiny and acceptance'! Does that sound like a lone wolf operation to you? Option B, 'shared efforts', is the only logical answer. The rest are just fluff. Pay attention!"
+        },
+        {
+          "id": 33,
+          "text": "Paragraph 3 shows that a discovery claim becomes credible after it",
+          "options": {
+            "A": "has attracted the attention of the general public.",
+            "B": "has been examined by the scientific community.",
+            "C": "has received recognition from editors and reviewers.",
+            "D": "has been frequently quoted by peer scientists."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第三段说明发现声明需要经过科学界的审查、编辑的把关以及其他科学家的使用才能成为可信的发现。has been examined by the scientific community是对原文editors and reviewers act as gatekeepers by controlling the publication process; other scientists use the new finding to suit their own purposes的概括。",
+          "ai_persona_prompt": "Ugh, paragraph 3. The WHOLE paragraph is about how the scientific community vets discoveries. 'Editors and reviewers act as gatekeepers,' 'other scientists use the new finding'... Option B is the ONLY answer that makes sense! Wake up and smell the coffee!"
+        },
+        {
+          "id": 34,
+          "text": "Albert Szent-Györgyi would most likely agree that",
+          "options": {
+            "A": "scientific claims will survive challenges.",
+            "B": "discoveries today inspire future research.",
+            "C": "efforts to make discoveries are justified.",
+            "D": "scientific work calls for a critical mind."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "根据Albert Szent-Györgyi的名言“seeing what everybody has seen and thinking what nobody has thought”，可知他认为科学工作需要批判性思维。scientific work calls for a critical mind是对这句话的概括。",
+          "ai_persona_prompt": "Seriously? Szent-Györgyi's quote is all about thinking DIFFERENTLY. 'Seeing what everybody has seen and thinking what nobody has thought.' Option D, 'scientific work calls for a critical mind,' is staring you right in the face! The rest are just trying to trick you. Don't fall for it!"
+        },
+        {
+          "id": 35,
+          "text": "Which of the following would be the best title of the text?",
+          "options": {
+            "A": "Novelty as an Engine of Scientific Development.",
+            "B": "Collective Scrutiny in Scientific Discovery.",
+            "C": "Evolution of Credibility in Doing Science.",
+            "D": "Challenge to Credibility at the Gate to Science."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "全文围绕科学发现的“取信过程”（即，可信度从无到有的发展过程）展开论述。C既锁定全文讨论对象（科学发现的可信度），也覆盖了全篇内容（可信度的发展过程），是对主旨的高度概括。",
+          "ai_persona_prompt": "God, this is basic. The ENTIRE passage is about how scientific claims go from 'maybe' to 'accepted.' It's about the EVOLUTION of CREDIBILITY in science! Option C, duh! The others focus on ONE aspect or detail, but C encompasses THE WHOLE THING. Get it right next time!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 4",
+        "q_range": "36-40"
+      },
+      "article": {
+        "paragraphs": [
+          "If the trade unionist Jimmy Hoffa were alive today, he would probably represent civil servants. When Hoffa’s Teamsters were in their prime in 1960, only one in ten American government workers belonged to a union; now 36% do. In 2009 the  number of unionists in America’s public sector passed that of their fellow members in the private sector. In Britain, more than half of public-sector workers but only about 15% of private-sector ones are unionized.",
+          "There are three reasons for the public-sector unions’ thriving. First, they can shut things down without suffering much in the way of consequences. Second, they are mostly bright and well-educated. A quarter of America’s public-sector workers have a university degree. Third, they now dominate left-of-centre politics. Some of their ties go back a long way. Britain’s Labor Party, as its name implies, has long been associated with trade unionism. Its current leader, Ed Miliband, owes his position to votes from public-sector unions.",
+          "At the state level their influence can be even more fearsome. Mark Baldassare of the Public Policy Institute of California points out that much of the state’s budget is patrolled by unions. The teachers’ unions keep an eye on schools, the CCPOA on prisons and a variety of labor groups on health care.",
+          "In many rich countries average wages in the state sector are higher than in the private one. But the real gains come in benefits and work practices. Politicians have repeatedly “backloaded” public-sector pay deals, keeping the pay increases modest but adding to holidays and especially pensions that are already generous.",
+          "Reform has been vigorously opposed, perhaps most notoriously in education, where charter schools, academies and merit pay all faced drawn-out battles. Even though there is plenty of evidence that the quality of the teachers is the most  important variable, teachers’ unions have fought against getting rid of bad ones and promoting good ones.",
+          "As the cost to everyone else has become clearer, politicians have begun to clamp down. In Wisconsin the unions have rallied thousands of supporters against Scott Walker, the hardline Republican governor. But many within the public sector suffer under the current system, too.",
+          "John Donahue at Harvard’s Kennedy School points out that the norms of culture in Western civil services suit those who want to stay put but is bad for high achievers. The only American public-sector workers who earn well above $250,000 a year are university sports coaches and the president of the United States. Bankers’ fat pay packets have attracted much criticism, but a public-sector system that does not reward high achievers may be a much bigger problem for America."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "norm",
+          "meanings": [
+            "标准",
+            "规范"
+          ],
+          "context_match": "norms of culture"
+        },
+        {
+          "word": "stay put",
+          "meanings": [
+            "保持不变"
+          ],
+          "context_match": "those who want to stay put"
+        },
+        {
+          "word": "high achievers",
+          "meanings": [
+            "成功人士"
+          ],
+          "context_match": "high achievers"
+        },
+        {
+          "word": "fat pay packets",
+          "meanings": [
+            "丰厚工资"
+          ],
+          "context_match": "Bankers’ fat pay packets"
+        },
+        {
+          "word": "attract much criticism",
+          "meanings": [
+            "饱受指摘"
+          ],
+          "context_match": "attracted much criticism"
+        },
+        {
+          "word": "civil services",
+          "meanings": [
+            "行政部门"
+          ],
+          "context_match": "Western civil services"
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "text": "It can be learned from the first paragraph that",
+          "options": {
+            "A": "Teamsters still have a large body of members.",
+            "B": "Jimmy Hoffa used to work as a civil servant.",
+            "C": "unions have enlarged their public-sector membership.",
+            "D": "the government has improved its relationship with unionists."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第一段指出，过去美国政府工作人员中只有十分之一是工会成员，现在是36%。这表明工会在公共部门的成员数量有所增加。选项C是对这一事实的概括。",
+          "ai_persona_prompt": "Okay, sweetie, listen up! The first paragraph clearly shows a rise in union membership within the public sector, right? Option C nails it! Don't overthink it. A, B, and D? Total distractions. Read the darn paragraph!"
+        },
+        {
+          "id": 37,
+          "text": "Which of the following is true of Paragraph 2?",
+          "options": {
+            "A": "Public-sector unions are prudent in taking actions.",
+            "B": "Education is required for public-sector union membership.",
+            "C": "Labor Party has long been fighting against public-sector unions.",
+            "D": "Public-sector unions seldom get in trouble for their actions."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第二段列举了公共部门工会蓬勃发展的原因，包括他们可以停止工作而不受太大影响。选项A的“prudent in taking actions”即工会行动谨慎，与“can shut things down without suffering much in the way of consequences”呼应",
+          "ai_persona_prompt": "Alright, genius, pay attention! Paragraph 2 lists reasons why public sector unions thrive. Option A is the closest. They can shut things down without consequences, so they're prudent. B, C, and D are just plain wrong! Stop guessing and start connecting the dots!"
+        },
+        {
+          "id": 38,
+          "text": "It can be learned from Paragraph 4 that the income in the state sector is",
+          "options": {
+            "A": "illegally secured.",
+            "B": "indirectly augmented.",
+            "C": "excessively increased.",
+            "D": "fairly adjusted."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第四段提到，政客们反复“backloaded”公共部门的工资协议，保持工资增长幅度不大，但增加了假期，尤其是已经很慷慨的养老金。这意味着国家部门的收入是通过福利和工作方式间接增加的。因此，B是正确的答案",
+          "ai_persona_prompt": "Ugh, are you even trying? Paragraph 4 talks about 'backloading' pay deals - small pay raises but HUGE benefits. That's 'indirectly augmented,' duh! A, C, and D are ridiculous! Get a grip!"
+        },
+        {
+          "id": 39,
+          "text": "The example of the unions in Wisconsin shows that unions",
+          "options": {
+            "A": "often run against the current political system.",
+            "B": "can change people’s political attitudes.",
+            "C": "may be a barrier to public-sector reforms.",
+            "D": "are dominant in the government."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "威斯康星州的工会例子显示，他们为了反对共和党州长Scott Walker而团结了成千上万的支持者。这表明工会可能会成为公共部门改革的障碍。因此，C是正确答案。",
+          "ai_persona_prompt": "Seriously? Wisconsin unions rallied against the governor, hindering reform. Hello? Option C! A, B, and D are completely off base! Wake up and smell the coffee!"
+        },
+        {
+          "id": 40,
+          "text": "John Donahue’s attitude towards the public-sector system is one of",
+          "options": {
+            "A": "disapproval.",
+            "B": "appreciation.",
+            "C": "tolerance.",
+            "D": "indifference."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "末段介绍 John Donahue 观点∶政府公共部门文化标准适合那些寻求安稳的人却不利于那些追求事业有成的人，这一缺乏激励的体制是美国面临的严重问题。可见他对当前公共部门体制持不满、担忧态度，【A】符合文意。",
+          "ai_persona_prompt": "Could you be any slower? Donahue thinks the system favors those who 'stay put' and punishes 'high achievers.' That's 'disapproval,' you imbecile! B, C, and D? Get your eyes checked!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Part B",
+        "name": "Part B",
+        "q_range": "41-45"
+      },
+      "article": {
+        "paragraphs": [
+          "Think of those fleeting moments when you look out of an aeroplane window and realise that you are flying, higher than a bird. Now think of your laptop, thinner than a brown-paper envelope, or your cellphone in the palm of your hand. Take a moment or two to wonder at those marvels. You are the lucky inheritor of a dream come true.",
+          "The second half of the 20th century saw a collection of geniuses, warriors, entrepreneurs and visionaries labour to create a fabulous machine that could function as a typewriter and printing press, studio and theatre, paintbrush and gallery, piano and radio, the mail as well as the mail carrier. (41)\t",
+          "The networked computer is an amazing device, the first media machine that serves as the mode of production, means of distribution, site of reception, and place  of praise and critique. The computer is the 21st century’s culture machine.",
+          "But for all the reasons there are to celebrate the computer, we must also act with caution. (42)\tI call it a secret war for two reasons. First, most people do not realise that there are strong commercial agendas at work to keep them in passive consumption mode. Second, the majority of people who use networked computers to upload are not even aware of the significance of what they are doing.",
+          "All animals download, but only a few upload. Beavers build dams and birds make nests. Yet for the most part, the animal kingdom moves through the world downloading. Humans are unique in their capacity to not only make tools but then turn around and use them to create superfluous material goods – paintings, sculpture and architecture – and superfluous experiences – music, literature, religion and philosopy.",
+          "(43)\t",
+          "For all the possibilities of our new culture machines, most people are still stuck in download mode. Even after the advent of widespread social media, a pyramid of production remains, with a small number of people uploading material, a slightly larger group commenting on or modifying that content, and a huge percentage remaining content to just consume. (44)\t",
+          "Television is a one-way tap flowing into our  homes. The  hardest  task that television asks of anyone is to turn the power off  after he  has  turned  it on. (45)\t",
+          "What counts as meaningful uploading? My definition revolves around the concept of “stickiness” – creations and experiences to which others adhere.",
+          "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "fleeting",
+          "meanings": [
+            "passing quickly; brief"
+          ],
+          "context_match": "fleeting moments"
+        },
+        {
+          "word": "marvels",
+          "meanings": [
+            "a wonderful or astonishing thing"
+          ],
+          "context_match": "wonder at those marvels"
+        },
+        {
+          "word": "inheritor",
+          "meanings": [
+            "a person who inherits or is entitled to inherit property"
+          ],
+          "context_match": "lucky inheritor"
+        },
+        {
+          "word": "superfluous",
+          "meanings": [
+            "unnecessary, especially through being more than enough"
+          ],
+          "context_match": "superfluous material goods"
+        },
+        {
+          "word": "advent",
+          "meanings": [
+            "the arrival of a notable person, thing, or event"
+          ],
+          "context_match": "advent of widespread social media"
+        },
+        {
+          "word": "revolves around",
+          "meanings": [
+            "center on; concern"
+          ],
+          "context_match": "definition revolves around"
+        },
+        {
+          "word": "adhere",
+          "meanings": [
+            "stick fast to (a surface or substance)"
+          ],
+          "context_match": "others adhere"
+        },
+        {
+          "word": "constituent",
+          "meanings": [
+            "being a part of a whole"
+          ],
+          "context_match": "defining constituent of humanity"
+        }
+      ],
+      "questions": [
+        {
+          "id": 41,
+          "text": "Choose the most suitable one from the list A – G to fit into the numbered blanks.",
+          "options": {
+            "A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
+            "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
+            "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.",
+            "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.",
+            "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.",
+            "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.",
+            "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "选项C承接前一句对于计算机功能的描述，说明了计算机不仅被发明出来，还在全球范围内被广泛应用。前文描述了计算机的各种功能，C选项是对这些功能的总结和升华，并引出了计算机的广泛应用。",
+          "ai_persona_prompt": "Listen up, buttercup! C is the only answer that makes sense here. We're talking about the miracle machine that is the computer. The previous paragraph details all the crazy things it can do, so logically the next sentence HAS to highlight its ubiquity. Get it? Good."
+        },
+        {
+          "id": 42,
+          "text": "Choose the most suitable one from the list A – G to fit into the numbered blanks.",
+          "options": {
+            "A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
+            "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
+            "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.",
+            "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.",
+            "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.",
+            "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.",
+            "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "选项D引出了下载和上传之间的“秘密战争”，这与后文讨论的被动消费和主动创造相关。D选项是对计算机带来的影响的进一步阐述，并为后文讨论下载和上传的对比埋下伏笔。",
+          "ai_persona_prompt": "Seriously? D! The passage is transitioning from praising the computer to highlighting its potential downside. D is the ONLY option that introduces conflict, the 'secret war' between downloading and uploading! Hello? Are your neurons firing?"
+        },
+        {
+          "id": 43,
+          "text": "Choose the most suitable one from the list A – G to fit into the numbered blanks.",
+          "options": {
+            "A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
+            "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
+            "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.",
+            "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.",
+            "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.",
+            "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.",
+            "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "选项A延续了对人类独特创造能力的讨论，强调了超越下载的重要性。前文提到了人类能够创造各种事物，A选项则进一步强调了这些创造对于人类文化和本质的重要性，并指出仅仅停留在下载是不够的。",
+          "ai_persona_prompt": "Are you even trying? A, obviously! The paragraph before is all about how humans are unique because we UPLOAD, not just download. A is the logical extension of that thought: uploading is essential to being human. Duh!"
+        },
+        {
+          "id": 44,
+          "text": "Choose the most suitable one from the list A – G to fit into the numbered blanks.",
+          "options": {
+            "A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
+            "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
+            "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.",
+            "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.",
+            "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.",
+            "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.",
+            "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+          },
+          "correct_answer": "F",
+          "analysis_raw": "选项F解释了为什么人们仍然停留在下载模式，指出电视作为一种单向媒体对人们的影响。F选项是对金字塔结构形成原因的解释，强调了电视作为单向媒体的地位，为后文对比电视和计算机埋下伏笔。",
+          "ai_persona_prompt": "Wake up and smell the coffee! It's F! The author is lamenting the fact that most people are still in 'download mode'. F gives the historical context: TV has trained us to be passive consumers. It's cause and effect, people!"
+        },
+        {
+          "id": 45,
+          "text": "Choose the most suitable one from the list A – G to fit into the numbered blanks.",
+          "options": {
+            "A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
+            "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
+            "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.",
+            "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.",
+            "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.",
+            "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.",
+            "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
+          },
+          "correct_answer": "G",
+          "analysis_raw": "选项G提出了计算机作为一种可以扭转这种趋势的工具，鼓励人们进行有意义的上传。G选项承接了对电视的批判，并提出了计算机作为一种解决方案，为后文讨论“stickiness”的概念做铺垫。",
+          "ai_persona_prompt": "G, you absolute genius! The paragraph is ending on the depressing note of TV's brainwashing effects. G provides hope! The computer can save us! It's the only logical choice. Now go forth and UPLOAD!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Translation",
+        "name": "Part C",
+        "q_range": "46-50"
+      },
+      "article": {
+        "paragraphs": [
+          "Since the days of Aristotle, a search for universal principles has characterized the scientific enterprise. In some ways, this quest for commonalities defines science. Newton’s laws of motion and Darwinian evolution each bind a host of different phenomena into a single explicatory framework.",
+          "(46) In physics, one approach takes this impulse for unification to its extreme, and seeks a theory of everything – a single generative equation for all we see. It is becoming less clear, however, that such a theory would be a simplification, given the dimensions and universes that it might entail. Nonetheless, unification of sorts remains a major goal.",
+          "This tendency in the natural sciences has long been evident in the social sciences too. (47) Here, Darwinism seems to offer justification, for if all humans share common origins, it seems reasonable to suppose that cultural diversity could also be traced to more constrained beginnings. Just as the bewildering variety of human courtship rituals might all be considered forms of sexual selection, perhaps the world’s languages, music, social and religious customs and even history are governed by universal features. (48) To filter out what is unique from what is shared might enable us to understand how complex cultural behavior arose and what guides it in evolutionary or cognitive terms.",
+          "That, at least, is the hope. But a comparative study of linguistic traits published online today supplies a reality check. Russell Gray at the University of Auckland and his colleagues consider the evolution of grammars in the light of two previous attempts to find universality in language.",
+          "The most famous of these efforts was initiated by Noam Chomsky, who suggested that humans are born with an innate language-acquisition capacity that dictates a universal grammar. A few generative rules are then sufficient to unfold the entire fundamental structure of a language, which is why children can learn it so quickly.",
+          "(49) The second, by Joshua Greenberg, takes a more empirical approach to universality, identifying traits (particularly in word order) shared by many languages, which are considered to represent biases that result from cognitive constraints.",
+          "Gray and his colleagues have put them to the test by examining four family trees that between them represent more than 2,000 languages. (50) Chomsky’s grammar should show patterns of language change that are independent of the family tree or the pathway tracked through it, whereas Greenbergian universality predicts strong co-dependencies between particular types of word-order relations. Neither of these patterns is borne out by the analysis, suggesting that the structures of the languages are lineage-specific and not governed by universals."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "unification",
+          "meanings": [
+            "统一",
+            "联合"
+          ],
+          "context_match": "In physics, one approach takes this impulse for unification to its extreme..."
+        },
+        {
+          "word": "explicatory",
+          "meanings": [
+            "解释的",
+            "说明的"
+          ],
+          "context_match": "Newton’s laws of motion and Darwinian evolution each bind a host of different phenomena into a single explicatory framework."
+        },
+        {
+          "word": "lineage-specific",
+          "meanings": [
+            "谱系特异性的",
+            "种系特异性的"
+          ],
+          "context_match": "suggesting that the structures of the languages are lineage-specific and not governed by universals."
+        }
+      ],
+      "questions": [
+        {
+          "id": 46,
+          "text": "In physics, one approach takes this impulse for unification to its extreme, and seeks a theory of everything – a single generative equation for all we see.",
+          "options": {},
+          "correct_answer": "在物理学领域，一种做法把这种寻求大同理论的冲动推向极端，试图寻找包含一切的理论——一个涵括我们所看到的一切的生成性公式。",
+          "analysis_raw": "本句的主干是one approach takes this impulse to its extreme, and seeks a theory of everything。破折号后面是对theory of everything的解释说明。翻译时，可以按照句子顺序进行翻译，注意一些词组的翻译，例如impulse for unification，generative equation。",
+          "ai_persona_prompt": "Alright, listen up! This sentence is about physics nerds going overboard trying to find one equation to rule them all. 'Impulse for unification'? Think of it as their boner for simplicity. 'Generative equation'? It's their wet dream of explaining everything with one formula. Translate it literally, but make it sound like they're obsessed."
+        },
+        {
+          "id": 47,
+          "text": "Here, Darwinism seems to offer justification, for if all humans share common origins, it seems reasonable to suppose that cultural diversity could also be traced to more constrained beginnings.",
+          "options": {},
+          "correct_answer": "这里，达尔文学说似乎做出了证明，因为如果人类有着共同的起源，那么似乎就有理由认为文化的多样性也可以追溯到更为有限的起源。",
+          "analysis_raw": "本句是一个复杂的因果复合句，主句是Darwinism seems to offer justification，for引导的原因状语从句中又包含一个if引导的条件状语从句。翻译时，注意理清句子之间的逻辑关系，采用顺译的方法即可。",
+          "ai_persona_prompt": "Okay, so Darwinism is being used as an excuse here. The logic is basically: 'We all came from the same goo, so cultures must have a simple, shared origin.' It's like saying everyone loves pizza because we all have mouths. Translate it, but with a sarcastic tone, like you're calling BS on the whole argument."
+        },
+        {
+          "id": 48,
+          "text": "To filter out what is unique from what is shared might enable us to understand how complex cultural behavior arose and what guides it in evolutionary or cognitive terms.",
+          "options": {},
+          "correct_answer": "从共有特征中滤出独有特征，这使我们得以理解复杂的文化行为是如何产生的，并从进化或认知角度理解什么引导了它的走向。",
+          "analysis_raw": "本句的主语是To filter out what is unique from what is shared，谓语是might enable，宾语是us to understand how complex cultural behavior arose and what guides it in evolutionary or cognitive terms。翻译时，可以将主语部分译为动宾短语，并采用顺译的方法。",
+          "ai_persona_prompt": "Alright, this sentence is all about separating the wheat from the chaff in culture. 'Filter out what is unique from what is shared'? It's like saying let's find out what makes us special by figuring out what's just common garbage. 'Evolutionary or cognitive terms'? As if understanding culture is just about biology or brains. Translate it with a tone of mild exasperation."
+        },
+        {
+          "id": 49,
+          "text": "The second, by Joshua Greenberg, takes a more empirical approach to universality, identifying traits (particularly in word order) shared by many languages, which are considered to represent biases that result from cognitive constraints.",
+          "options": {},
+          "correct_answer": "第二次努力——由乔舒亚·格林堡做出——采用更为经验主义的方法来研究语言的普遍性，确定了多种语言（尤其在语法词序方面）的共有特征，这些特征被认为是代表了由认知限制产生的倾向。",
+          "analysis_raw": "本句的主干是The second takes a more empirical approach to universality，by Joshua Greenberg是插入语。identifying traits (particularly in word order) shared by many languages是现在分词短语做状语，which are considered to represent biases that result from cognitive constraints是定语从句，修饰traits。翻译时，注意插入语的处理，以及定语从句的翻译方法。",
+          "ai_persona_prompt": "Okay, Greenberg is trying to be all scientific about this. 'Empirical approach'? He's looking at real languages, not just making stuff up. 'Traits shared by many languages'? He's hunting for patterns. 'Cognitive constraints'? Blaming our limited brains. Translate it like you're rolling your eyes at someone trying too hard to sound smart."
+        },
+        {
+          "id": 50,
+          "text": "Chomsky’s grammar should show patterns of language change that are independent of the family tree or the pathway tracked through it, whereas Greenbergian universality predicts strong co-dependencies between particular types of word-order relations.",
+          "options": {},
+          "correct_answer": "乔姆斯基的语法应该显示出语言变化的模式，这些模式并不受语言谱系或贯穿谱系路径的影响；而格林堡式的普遍性则预言了特定的语法词序关系类型之间所存在的紧密互依性。",
+          "analysis_raw": "本句是由whereas连接的并列句，前半句是Chomsky’s grammar should show patterns of language change，that are independent of the family tree or the pathway tracked through it是定语从句，修饰patterns of language change。后半句是Greenbergian universality predicts strong co-dependencies between particular types of word-order relations。翻译时，注意并列句的连接词，以及定语从句的翻译方法。",
+          "ai_persona_prompt": "Alright, let's break this down. Chomsky's grammar should be like a lone wolf, not tied to any language family. Greenberg's universality? He thinks languages are all clingy and dependent on each other. 'Strong co-dependencies'? It's like saying languages are in a codependent relationship. Translate it, but make sure to emphasize how contradictory these ideas are."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part A",
+        "q_range": "51"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:\nSome international students are coming to your university. Write them an email in the name of the Students’ Union to\nextend your welcome and\nprovide some suggestions for their campus life here. You should write about 100 words on ANSWER SHEET 2.\nDo not sign your name at the end of the letter. Use “Li Ming” instead.\nDo not write the address. (10 points)"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "facilitate",
+          "meanings": [
+            "使便利",
+            "促进"
+          ],
+          "context_match": "to facilitate your stay in China"
+        },
+        {
+          "word": "overcome language barriers",
+          "meanings": [
+            "克服语言障碍"
+          ],
+          "context_match": "to overcome language barriers"
+        },
+        {
+          "word": "practice diligently",
+          "meanings": [
+            "勤练"
+          ],
+          "context_match": "practice Chinese diligently"
+        },
+        {
+          "word": "it is advisable to...",
+          "meanings": [
+            "建议……"
+          ],
+          "context_match": "it is advisable to get acquainted with Chinese culture"
+        },
+        {
+          "word": "boast",
+          "meanings": [
+            "有",
+            "以拥有……而自豪"
+          ],
+          "context_match": "various learning resources boasted by our library"
+        },
+        {
+          "word": "fulfilling",
+          "meanings": [
+            "有意义的",
+            "实现自我的"
+          ],
+          "context_match": "a fulfilling college life here"
+        }
+      ],
+      "questions": [
+        {
+          "id": 51,
+          "text": "Some international students are coming to your university. Write them an email in the name of the Students’ Union to extend your welcome and provide some suggestions for their campus life here. You should write about 100 words on ANSWER SHEET 2. Do not sign your name at the end of the letter. Use “Li Ming” instead. Do not write the address.",
+          "options": {},
+          "correct_answer": "Dear International Students,\n\nOn behalf of the Students' Union, I extend a warm welcome to all of you! We are thrilled to have you join our university community.\n\nTo help you settle in, here are a few suggestions. Firstly, actively participate in orientation events to familiarize yourselves with the campus and resources. Secondly, don't hesitate to reach out to local students for assistance and friendship. Thirdly, explore the city and its cultural attractions during your free time. Finally, take advantage of language exchange programs to improve your Chinese skills.\n\nWe hope you have a wonderful and enriching experience here. If you have any questions or need assistance, please don't hesitate to contact the Students' Union.\n\nYours sincerely,\nLi Ming",
+          "analysis_raw": "这篇范文的写作思路如下：\n1.  **开头**: 明确写信目的，代表学生会表达欢迎。\n2.  **主体**: 提供3-4条切实可行的建议，例如熟悉校园、结交朋友、探索城市、提升语言能力。每条建议都简洁明了。\n3.  **结尾**: 表达祝愿，并告知对方如有问题可联系学生会。\n该范文语言表达流畅自然，用词准确，内容充实，结构完整，符合考研英语写作的要求。",
+          "ai_persona_prompt": "Alright, listen up, newbie email writers! This example isn't terrible, but it needs some oomph! Ditch the robotic 'On behalf of' crap. Start with something like, 'Hey international crew, welcome to the madhouse!' Then, make the suggestions punchy. Instead of 'actively participate', say 'Dive headfirst into orientation – it's survival 101!' And for God's sake, end with something memorable, not that generic 'Yours sincerely' garbage. Try 'Rock this campus! We're here if you need bail money...or just directions.' Get it? More personality, less corporate drone!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part B",
+        "q_range": "52"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions：",
+          "Write an essay of 160-200 words based on the following drawing. In your essay you should",
+          "describe the drawing briefly",
+          "explain its intended meaning, and",
+          "give your comments.",
+          "You should write neatly on ANSWER SHEET 2. (20 points)"
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 52,
+          "text": "Write an essay of 160-200 words based on the following drawing. In your essay you should describe the drawing briefly, explain its intended meaning, and give your comments.",
+          "options": {},
+          "correct_answer": "As is vividly depicted in the cartoon, a bottle has fallen to the ground, and half of the liquid inside has spilled. Two men react differently to this situation. The man on the left, looking distressed, exclaims, \"It's all gone!\" while the man on the right, appearing optimistic, says, \"Luckily there's still some left!\"",
+          "analysis_raw": "本篇范文首先描述了图画的内容，然后解释了图画的含义，最后给出了自己的评论。文章结构清晰，语言流畅，表达准确。范文强调了积极心态的重要性，以及在面对困境时应该如何保持乐观。",
+          "ai_persona_prompt": "Alright, listen up! This cartoon is about perspective, got it? One guy's whining about what's lost, the other's focusing on what's left. Life's like that. Don't be the whiner. Find the silver lining, even if it's tiny. Your whole future depends on how you interpret the spilled milk, you drama queen!"
+        }
+      ]
+    }
+  ]
+}

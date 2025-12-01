@@ -1,0 +1,1242 @@
+{
+  "meta": {
+    "year": 2019,
+    "exam_type": "English I"
+  },
+  "sections": [
+    {
+      "section_info": {
+        "type": "Use of English",
+        "name": "Section I",
+        "q_range": "1-20"
+      },
+      "article": {
+        "paragraphs": [
+          "Today we live in a world where GPS systems, digital maps, and other navigation apps are available on our smartphones. _1_ of us just walk straight into the woods without a phone. But phones _2_ on batteries, and batteries can die faster than we realize. _3_ you get lost without a phone or a compass, and you _4_ can’t find north, we have a few tricks to help you navigate _5_ to civilization, one of which is to follow the land.",
+          "When you find yourself well _6_ a trail, but not in a completely _7_ area, you have to answer two questions: Which _8_ is downhill, in this particular area? And where is the nearest water source? Humans overwhelmingly live in valleys, and on supplies of fresh water. _9_, if you head downhill, and follow any H2O you find, you should _10_ see signs of people.",
+          "If you’ve explored the area before, keep an eye out for familiar sights – you may be _11_ how quickly identifying a distinctive rock or tree can restore your bearings.",
+          "Another _12_: Climb high and look for signs of human habitation. _13_, even in dense forest, you should be able to _14_ gaps in the tree line due to roads, train tracks, and other paths people carve _15_ the woods. Head toward these _16_ to find a way out. At night, scan the horizon for _17_ light sources, such as fires and streetlights, then walk toward the glow of light pollution.",
+          "_18_, assuming you’re lost in an area humans tend to frequent, look for the _19_ we leave on the landscape. Trail blazes, tire tracks, and other features can _20_ you to civilization."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "GPS",
+          "meanings": [
+            "全球定位系统"
+          ],
+          "context_match": "导航"
+        },
+        {
+          "word": "digital maps",
+          "meanings": [
+            "数字地图"
+          ],
+          "context_match": "导航"
+        },
+        {
+          "word": "navigate",
+          "meanings": [
+            "导航",
+            "找到正确的行进方向"
+          ],
+          "context_match": "整个文章"
+        },
+        {
+          "word": "civilization",
+          "meanings": [
+            "文明社会"
+          ],
+          "context_match": "文章主题"
+        },
+        {
+          "word": "downhill",
+          "meanings": [
+            "下坡的"
+          ],
+          "context_match": "寻找方向"
+        },
+        {
+          "word": "habitation",
+          "meanings": [
+            "居住",
+            "住宅"
+          ],
+          "context_match": "寻找人类踪迹"
+        },
+        {
+          "word": "artificial",
+          "meanings": [
+            "人造的",
+            "人工的"
+          ],
+          "context_match": "光源"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "text": "of us just walk straight into the woods without a phone.",
+          "options": {
+            "A": "Some",
+            "B": "Most",
+            "C": "Few",
+            "D": "All"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "首句指出如今我们的智能手机拥有各种导航功能;②句切入具体场景∶我们中会 不带手机走进森林。可见首句意在为②句结论做铺垫∶手机导航功能强大，自然是户外必备'神器'，也即，没有人会不带手机就贸然入林，选项中表否定含义的代词只有【C】 Few。",
+          "ai_persona_prompt": "Okay, picture this: everyone's got a smartphone with GPS. So, realistically, *few* people are gonna ditch their phones and wander into the woods. Common sense, darling! It's C, 'Few'. Don't overthink it; that's what gets you in trouble!"
+        },
+        {
+          "id": 2,
+          "text": "But phones _2_ on batteries, and batteries can die faster than we realize.",
+          "options": {
+            "A": "put",
+            "B": "take",
+            "C": "run",
+            "D": "come"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "空格所在句意为∶但是手机电池，而电池耗尽的速度会比我们意识到的更快。'空格动词＋on'需体现'手机'与'电池'的关系，由句首 But（体现上下文语义转折∶手机功能固然强大，但一切最终取决于电池）以及常识'手机是依靠电池提供能量才得以运转'可以判断【C】正确，run on 为固定搭配，表示'（机器/设备依靠某种能源）运转'。",
+          "ai_persona_prompt": "Seriously? Phones *run* on batteries. It's not rocket science. What else could it be? They don't 'put' on batteries like a coat, or 'take' them, or 'come' on batteries... oh dear. It's C! Run, as in function. Next!"
+        },
+        {
+          "id": 3,
+          "text": "_3_ you get lost without a phone or a compass, and you can't find north, we have a few tricks to help you navigate to civilization, one of which is to follow the land.",
+          "options": {
+            "A": "Since",
+            "B": "If",
+            "C": "Though",
+            "D": "Until"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "本题考查句内逻辑，从句、主句大意分别为'在没有导航工具的情况下迷路'、'我们有一些技巧能助你确定路线……'，很明显，'迷路'构成'帮你找路'的'假设性前提'，【B】 If符合文意。",
+          "ai_persona_prompt": "It's *if*, darling, IF you get lost! We're setting up a hypothetical situation here, not stating a fact or a time limit. A and C are completely out! So the answer is B."
+        },
+        {
+          "id": 4,
+          "text": "and you _4_ can't find north, we have a few tricks to help you navigate to civilization, one of which is to follow the land.",
+          "options": {
+            "A": "formally",
+            "B": "relatively",
+            "C": "gradually",
+            "D": "literally"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "'找不到北'与其前的'在没有手机和指南针的情况下迷路'形式上由 and 相连， 语义统一但更进一步∶迷路→且方向感尽失，故空格处副词只能表示肯定或强调，【D】 literally用于'强调所说内容为真，尽管听起来有些夸张'，符合文意。",
+          "ai_persona_prompt": "You *literally* can't find north. We're stressing that you *really* have no idea where you are. Formally? Relatively? What nonsense! It's D, literally. Now, pay attention!"
+        },
+        {
+          "id": 5,
+          "text": "we have a few tricks to help you navigate _5_ to civilization, one of which is to follow the land.",
+          "options": {
+            "A": "back",
+            "B": "next",
+            "C": "around",
+            "D": "away"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "空格所在句意为，如果你（在林中）迷路，我们有一些技巧可以助你确定路线 __文明社会。上下文语境表明 civilization与 woods构成'文明社会 VS原始丛林'的对立，而 help navigate 意为'助你找回/明确方向'，故__to civilization 应体现'返回文明社会'之意，【A】back 正确。",
+          "ai_persona_prompt": "If you're navigating *to* civilization after being lost in the woods, you're going *back* to it, naturally! It's A, back. The other options don't even make sense in the context."
+        },
+        {
+          "id": 6,
+          "text": "When you find yourself well _6_ a trail, but not in a completely area of land, you have to answer two questions",
+          "options": {
+            "A": "onto",
+            "B": "off",
+            "C": "across",
+            "D": "along"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "上段末句指出，迷路后的对策之一是沿着陆地走。本句指出，当发现自己小路/路线，但又……时，你必须回答两个问题∶在这片区域内哪一……是下坡路?最近的水源在哪里?可见，上段末与本句构成'概说（迷路后的对策）→细说'的语义场，故本句 When you find yourself ___ a trail实际在重申上述假设前提（When 表示'条件'），即'如果迷路'，off 作介词可表'偏离'，由程度副词 well（大大地，远远地）修饰，意为'完全偏离路线/迷路'，故【B】符合文意。",
+          "ai_persona_prompt": "If you're WELL something a trail, that means you're no longer *on* it! You're *off* the trail. It's B. Why are we even discussing this? Stay focused!"
+        },
+        {
+          "id": 7,
+          "text": "When you find yourself well _6_ a trail, but not in a completely _7_ area, you have to answer two questions",
+          "options": {
+            "A": "unattractive",
+            "B": "uncrowded",
+            "C": "unchanged",
+            "D": "unfamiliar"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "but 表明'并非身处完全 ___的区域'与'发现自己远离小路（即迷路）'构成对比转折，而 not 再度转折，则 in a completely ___area 应该与 welloff a trail同指'迷路'，意即'身处完全陌生之地'，故【D】 unfamiliar 符合文意。",
+          "ai_persona_prompt": "If you're lost, you're in an *unfamiliar* area. Makes sense, right? We're not talking about attractiveness or crowds here, people! D, unfamiliar. Keep up!"
+        },
+        {
+          "id": 8,
+          "text": "Which _8_ is downhill, in this particular area? And where is the nearest water source?",
+          "options": {
+            "A": "site",
+            "B": "point",
+            "C": "way",
+            "D": "place"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "空格所在句介绍迷路时必须思考的两个问题∶哪一是下山/下坡/向下的?最近的水源在哪里?由②句'绝大多数人住在山谷中（山谷地势较低）'和③句'如果你朝下坡方向走（head downhill）……就应该能看到人的迹象'可知，下坡方向有人类居住的可能性极大，迷路者的目的地既然是文明社会，downhill 应是其努力辨明并选择走的方向，which way ...为固定用法，表示'某方向、往某方向'，【C】 way 正确。",
+          "ai_persona_prompt": "Which *way* is downhill? It's about direction, not location. So, definitely *way* is correct! It's C. Next."
+        },
+        {
+          "id": 9,
+          "text": "_9_ ,if you head downhill, and follow any H2O you find, you should see signs of people.",
+          "options": {
+            "A": "So",
+            "B": "Yet",
+            "C": "Instead",
+            "D": "Besides"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "本题考查②③句之间的逻辑关联，②句意为∶（森林里）绝大多数人住在山谷中，依靠淡水供应生活，③句意为∶如果你朝下坡且顺着发现的水走，……应该会看到人的迹象。可见③句是基于②句常识得出的逻辑结论，【A】 So 符合文意。",
+          "ai_persona_prompt": "People live in valleys near water. So, going downhill and following water makes sense! It's A, so. Logical deduction, people, logical deduction!"
+        },
+        {
+          "id": 10,
+          "text": "if you head downhill, and follow any H2O you find, you should _10_ see signs of people.",
+          "options": {
+            "A": "immediately",
+            "B": "intentionally",
+            "C": "unexpectedly",
+            "D": "eventually"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "句子架构 if...，you should...（如果……，你应该会……;此处 should 用于'表示预期'，指'应该会、可能'）明确'条件→结果'的句内逻辑，即主句中''看到人的迹象'是从句中条件'朝下坡方向走'达成的结果，选项中符合文意的只有【D】 eventually，该词强调'（经过一番困难后）最终'，符合'一路向下、同时不断追寻水源'的语境。",
+          "ai_persona_prompt": "You won't *immediately* find people, genius! It takes time and effort. *Eventually*, after following the water downhill, you'll see signs of civilization. It's D. Use your brain!"
+        },
+        {
+          "id": 11,
+          "text": "If you've explored the area before, keep an eye out for familiar sights – you may be _11_ how quickly identifying a distinctive rock or tree can restore your bearings.",
+          "options": {
+            "A": "surprised",
+            "B": "annoyed",
+            "C": "frightened",
+            "D": "confused"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "破折号后内容是对其前建议'密切关注熟悉景物'的解释说明（a distinctive rock or tree 具化 familiar sights），表明这么做的意义∶认出某熟悉景物会让人迅速找回方向感。how quickly 引导的感叹句体现对耗时之短的惊叹，空格词应与该惊叹语气一致，为积极正向语义，【A】 surprised符合文意。",
+          "ai_persona_prompt": "You would be *surprised* at how quickly a familiar sight can help you find your way. It's not annoying, frightening, or confusing. Get a grip! A, surprised!"
+        },
+        {
+          "id": 12,
+          "text": "Another _12_: Climb high and look for signs of human habitation.",
+          "options": {
+            "A": "problem",
+            "B": "option",
+            "C": "view",
+            "D": "result"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第二段介绍迷路后的一种对策'朝下坡方向、顺着水源走，以寻找人迹';第三段介绍在曾探索过区域迷路后的对策'寻找熟悉景物'。第四段①句冒号后内容'登高并寻找人类居住的迹象'在语义上与前述内容构成并列关系，故本段应开始介绍第三种对策，option 内涵为'可供选择的事物、选项'，用在此处可以代指'（可供选择的）对策'，故【B】正确。",
+          "ai_persona_prompt": "Another what? Another *option*, obviously. We're giving choices here, people. It's B. Please tell me you didn't think it was 'another problem'!"
+        },
+        {
+          "id": 13,
+          "text": "_13__, even in dense forest, you should be able to gaps in the tree line due to roads, train tracks, and other paths people carve the woods.",
+          "options": {
+            "A": "Above all",
+            "B": "In contrast",
+            "C": "On average",
+            "D": "For example"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "①句引出对策内容;登高并寻找人类居住的迹象。②③句指出，即便身处密林之中，也应该能……由于人们开辟道路、铁轨和其他小路而造成的林木线缺口，朝这些…….走以便找到出路。由文意可知，②句'林木线缺口（gaps in the tree line）'是人力为之的结果，应属于①句'人类居住的迹象（signs of human habitation）'，故①句与②③句构成'抽象→具化'的例证关系，【D】 For example 正确。",
+          "ai_persona_prompt": "We are giving a specific illustration, *for example*. A general point followed by an example! D, of course!"
+        },
+        {
+          "id": 14,
+          "text": "even in dense forest, you should be able to _14_ gaps in the tree line due to roads, train tracks, and other paths people carve the woods.",
+          "options": {
+            "A": "bridge",
+            "B": "avoid",
+            "C": "spot",
+            "D": "separate"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "由上题分析可知，②③句例证说明①句，空格后 gaps in the tree line（林木线缺口）是①句 signs of human habitation（人类居住迹象）的具化，上文指出迷路后可以登高来寻找人类居住的迹象，空格词应该与①句 look for语义接近，说明'寻找、发现（林木线缺口）'的文意，【C】 spot 符合文意。",
+          "ai_persona_prompt": "You should be able to *spot* the gaps! It's about seeing them, noticing them, not bridging or avoiding them! C, spot."
+        },
+        {
+          "id": 15,
+          "text": "you should be able to _14_ gaps in the tree line due to roads, train tracks, and other paths people carve _15_ the woods.",
+          "options": {
+            "A": "from",
+            "B": "through",
+            "C": "beyond",
+            "D": "under"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "空格位于修饰 roads，train tracks and other paths 的定语从句（that）people carve _the woods 中，已知关联为'道路、铁轨等是由人们铺就而成'，故本题实质转化为'考查 roads... 与 woods之间的（方位）关联'。由因果标记词 due to 可知，roads...即为林木线缺口的原因，可见它们位于森林之中，是人们开辟的结果，carve a road through aplace为常见用法，表示'建起贯穿某地的道路'，介词 through 表示'从一端到另一端'，【B】正确。",
+          "ai_persona_prompt": "You carve a path *through* the woods. Are you carving *from* the woods? Or *under* it? Through, darling! It's B, through."
+        },
+        {
+          "id": 16,
+          "text": "Head toward these _16_ to find a way out.",
+          "options": {
+            "A": "posts",
+            "B": "links",
+            "C": "shades",
+            "D": "breaks"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "由 these 的回指功能可知，解题线索在上文②句核心信息中。②句核心内容为∶登高便能发现各种林木线缺口（gaps）。可见本句'朝着它们走应该能找到出路'中'它们'指代'缺口'，空格词应与②句 gaps 近义，【D】 breaks 符合文意。",
+          "ai_persona_prompt": "Head toward the *breaks* in the tree line - it's right there in the previous sentence. It's D, *breaks* - they are the openings!"
+        },
+        {
+          "id": 17,
+          "text": "At night, scan the horizon for _17_ light sources, such as fires and streetlights, then walk toward the glow of light pollution.",
+          "options": {
+            "A": "artificial",
+            "B": "mysterious",
+            "C": "hidden",
+            "D": "limited"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "已知①句总体介绍迷路后的又一项对策，④句 At night 提示③句 Head toward...和④句 scan the...分别是白天和夜晚时的具体做法。因此④句 scan the horizon for__ light sources 应该对应①句 look for signs of human habitation，字格词应与human 对应。再由 such as 可知，fires and streetlights是 light sources 的具体例证，而'火和路灯'的共同特征是'人造光源'，【A】 artificial 正确。",
+          "ai_persona_prompt": "Fires and streetlights are *artificial* light sources, genius. So, the answer is clearly A. Is there even any question?"
+        },
+        {
+          "id": 18,
+          "text": "_18__, assuming you’re lost in an area humans tend to frequent, look for the we leave on the landscape.",
+          "options": {
+            "A": "Finally",
+            "B": "Consequently",
+            "C": "Incidentally",
+            "D": "Generally"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "空格所在句 assuming you're lost in an area 与第二段首句 When you find yourself... but not in a completely...area、第三段首句 If you've explored the area before结构一致、内容呼应，分别引出三种假设下（在'人类经常出没'、'不完全陌生'以及'曾探索过'的地方迷路时）的应对之举，因此可推知空格处应引出最后一种假设下的对策，【A】 Finally 符合文意。",
+          "ai_persona_prompt": "We're wrapping things up. *Finally*, here's the last tip. *Finally* A is correct, darling!"
+        },
+        {
+          "id": 19,
+          "text": "assuming you’re lost in an area humans tend to frequent, look for the _19_ we leave on the landscape.",
+          "options": {
+            "A": "memories",
+            "B": "marks",
+            "C": "notes",
+            "D": "belongings"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "空格所在句指出，假设你在人类经常出没的地方迷路，寻找我们在地面景观上留下的 ___。下文②句指出，小路上的树皮刻痕、轮胎的痕迹和其他特征可以……文明社会。可见②句主语 Trail blazes，tire tracks，and other features 即为①句宾语___ we leave on the landscape 的具体例证，而它们显然是人们在地面景观上留下的痕迹，【B】 marks 符合文意。",
+          "ai_persona_prompt": "Marks! Trail blazes and tire tracks are *marks*. Are you even reading the sentences? The answer is B - *marks*."
+        },
+        {
+          "id": 20,
+          "text": "Trail blazes, tire tracks, and other features can _20_ you to civilization.",
+          "options": {
+            "A": "restrict",
+            "B": "adapt",
+            "C": "lead",
+            "D": "expose"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "由上题分析可知，'小路上的树皮刻痕、轮胎痕迹和其他特征'是迷路时可以借助的线索，而这些线索应该有助于引导人们重返文明社会。此外，本句是介绍迷路时的一种对策，应该与首段末句'一些回到文明世界的技巧'语义方向一致，_____you to civilization 呼应首段 navigate..to civilization，空格词应与 navigate 近义，【C】lead 符合文意，lead sb to/into sth为固定搭配，表示'引领某人到/进入某地'。",
+          "ai_persona_prompt": "Trail blazes and tire tracks *lead* you to civilization. We have been talking about finding the way home the entire article and C is the right answer. It's C - and that completes this rather obvious section!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 1",
+        "q_range": "21-25"
+      },
+      "article": {
+        "paragraphs": [
+          "Financial regulators in Britain have imposed a rather unusual rule on the bosses of big banks. Starting next year, any guaranteed bonus of top executives could be delayed 10 years if their banks are under investigation for wrongdoing. The main purpose of this “clawback” rule is to hold bankers accountable for harmful risk-taking and to restore public trust in financial institutions. Yet officials also hope for a much larger benefit: more long-term decisionmaking, not only by banks but by all corporations, to build a stronger economy for future generations.",
+          "“Short-termism” or the desire for quick profits, has worsened in publicly traded companies, says the Bank of England’s top economist, Andrew Haldane. He quotes a giant of classical economics, Alfred Marshall, in describing this financial impatience as acting like “children who pick the plums out of their pudding to eat them at once” rather than putting them aside to be eaten last.",
+          "The average time for holding a stock in both the United States and Britain, he notes, has dropped from seven years to seven months in recent decades. Transient investors, who demand high quarterly profits from companies, can hinder a firm’s efforts to invest in long-term research or to build up customer loyalty. This has been dubbed “quarterly capitalism.”",
+          "In addition, new digital technologies have allowed more rapid trading of equities, quicker use of information, and thus shorter attention spans in financial markets. “There seems to be a predominance of short-term thinking at the expense of long-term investing,” said Commissioner Daniel Gallagher of the US Securities and Exchange Commission in a speech this week.",
+          "In the US, the Sarbanes-Oxley Act of 2002 has pushed most public companies to defer performance bonuses for senior executives by about a year, slightly helping reduce “short-termism.” In its latest survey of CEO pay, The Wall Street Journal finds that “a substantial part” of executive pay is now tied to performance.",
+          "Much more could be done to encourage “long-termism,” such as changes in the tax code and quicker disclosure of stock acquisitions. In France, shareholders who hold onto a company investment for at least two years can sometimes earn more voting rights in a company.",
+          "Within companies, the right compensation design can provide incentives for executives to think beyond their own time at the company and on behalf of all stakeholders. Britain’s new rule is a reminder to bankers that society has an interest in their performance, not just for the short term but for the long term."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "regulator",
+          "meanings": [
+            "监管人",
+            "监管机构"
+          ],
+          "context_match": "Financial regulators in Britain"
+        },
+        {
+          "word": "impose",
+          "meanings": [
+            "强制推行",
+            "强制实行（规章制度）"
+          ],
+          "context_match": "Financial regulators in Britain have imposed a rather unusual rule"
+        },
+        {
+          "word": "bonus",
+          "meanings": [
+            "奖金"
+          ],
+          "context_match": "any guaranteed bonus of top executives"
+        },
+        {
+          "word": "clawback",
+          "meanings": [
+            "（政府或机构）收回（已给出的钱）"
+          ],
+          "context_match": "The main purpose of this “clawback” rule"
+        },
+        {
+          "word": "transient",
+          "meanings": [
+            "短暂的",
+            "转瞬即逝的"
+          ],
+          "context_match": "Transient investors"
+        },
+        {
+          "word": "commissioner",
+          "meanings": [
+            "委员"
+          ],
+          "context_match": "Commissioner Daniel Gallagher"
+        },
+        {
+          "word": "disclosure",
+          "meanings": [
+            "披露"
+          ],
+          "context_match": "quicker disclosure of stock acquisitions"
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "text": "According to Paragraph 1, one motive in imposing the new rule is to",
+          "options": {
+            "A": "enhance bankers’ sense of responsibility.",
+            "B": "help corporations achieve larger profits.",
+            "C": "build a new system of financial regulation.",
+            "D": "guarantee the bonuses of top executives."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "根据第一段，新规的主要目的是让银行家对有害冒险负责，并重建公众信任，概括即为增强银行家的责任感，【A】正确。",
+          "ai_persona_prompt": "Listen up, buttercup! The whole point of this 'clawback' rule is to make these high-flying bankers actually *feel* responsible for their reckless shenanigans. It's about time they faced the music, right? Option A nails it!"
+        },
+        {
+          "id": 22,
+          "text": "Alfred Marshall is quoted to indicate",
+          "options": {
+            "A": "the conditions for generating quick profits.",
+            "B": "governments’ impatience in decision-making.",
+            "C": "the solid structure of publicly traded companies.",
+            "D": "“short-termism” in economic activities."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "文中引用阿尔弗雷德·马歇尔之言是为了说明经济活动中的“短期主义”，【D】正确。第二段首先指出，Andrew Haldane 提出上市公司中“短期主义”（“Short-termism”）加剧。随后指出他援引 Alfred Marshall 之言，将“这种经济上的烦躁（this financial impatience）”形容为“从布丁里拣出葡萄干马上吃掉的孩子行为”。可见 this financial impatience 与 Short-termism 同指，援引 Marshall 之言意在形象说明经济行为中的“短期主义”。",
+          "ai_persona_prompt": "Seriously? It's like you didn't even read the passage. Marshall's quote is a *classic* example of short-term thinking in action! He's not talking about making money or government red tape, he's talking about grabbing the 'plums' NOW. D is the only one that makes sense."
+        },
+        {
+          "id": 23,
+          "text": "It is argued that the influence of transient investment on public companies can be",
+          "options": {
+            "A": "indirect.",
+            "B": "adverse.",
+            "C": "minimal.",
+            "D": "temporary."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "文章认为，短暂型投资对上市公司的影响是不利的，【B】正确。第三段②句指出，短暂投资者会妨碍公司投资长期研究或提升客户忠诚度。第四段②句也指出;短期主义思维盛行的代价是长期投资受损。可见短暂型投资的影响是消极的、不利的。",
+          "ai_persona_prompt": "Come on, folks, adverse, naturally! The passage makes it crystal clear: transient investors hinder long-term projects and build customer loyalty. They're short-sighted and bad news for companies. Read the darn text!"
+        },
+        {
+          "id": 24,
+          "text": "The US and France examples are used to illustrate",
+          "options": {
+            "A": "the obstacles to preventing “short-termism”.",
+            "B": "the significance of long-term thinking.",
+            "C": "the approaches to promoting “long-termism”.",
+            "D": "the prevalence of short-term thinking."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "美国和法国的例子被用来增进“长期主义”的方法，【C】正确。第五段指出，美国施行《萨班斯—奥克斯利法案》使得短期主义稍有削弱。第六段则先指出鼓励长期主义的方法还有很多，随后例举法国举措。综合可知，文中举美国和法国事例是为了说明“削弱短期主义、增进长期主义的方法”。",
+          "ai_persona_prompt": "Duh! The U.S. and France are examples of what you *can* do, not roadblocks! They're showing how to encourage long-term investment. Option C is the only sensible answer here, Sherlock."
+        },
+        {
+          "id": 25,
+          "text": "Which of the following would be the best title for the text?",
+          "options": {
+            "A": "Failure of Quarterly Capitalism",
+            "B": "Patience as a Corporate Virtue",
+            "C": "Decisiveness Required of Top Executives",
+            "D": "Frustration of Risk-taking Bankers"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "下列哪项是本文的最佳标题?【B】Patience as a Corporate Virtue (耐心，企业的美德)正确。文首段引入“英国银行业监管新规”并说明其长远目的“让银行及其他所有企业能够做出更长远的决策，为后代建立更强健的经济”。第二至四段剖析现状“上市公司中短期主义盛行”并明确其消极影响。第五至七段则说明削弱短期主义、鼓励长期主义的方法，可见，文章旨在倡导企业奉行长期主义、多些耐心，以为后代建立更强健的经济。",
+          "ai_persona_prompt": "Seriously, people, it's not rocket science! The whole article is about how companies need to stop chasing quick bucks and think long-term. It's about *patience* being a virtue. B is a no-brainer."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 2",
+        "q_range": "26-30"
+      },
+      "article": {
+        "paragraphs": [
+          "Grade inflation – the gradual increase in average GPAs (grade-point averages) over the past few decades – is often considered a product of a consumer era in higher education, in which students are treated like customers to be pleased. But another, related force – a policy often buried deep in course catalogs called “grade forgiveness” – is helping raise GPAs.",
+          "Grade forgiveness allows students to retake a course in which they received a low grade, and the most recent grade or the highest grade is the only one that counts  in calculating a student’s overall GPA.",
+          "The use of this little-known practice has accelerated in recent years, as colleges continue to do their utmost to keep students in school (and paying tuition) and improve their graduation rates. When this practice first started decades ago, it was usually limited to freshmen, to give them a second chance to take a class in their first year if they struggled in their transition to college-level courses. But now most colleges, save for many selective campuses, allow all undergraduates, and even graduate students, to get their low grades forgiven.",
+          "College officials tend to emphasize that the goal of grade forgiveness is less about the grade itself and more about encouraging students to retake courses critical  to their degree program and graduation without incurring a big penalty. “Ultimately,” said Jack Miner, Ohio State University’s registrar, “we see students achieve more success because they retake a course and do better in subsequent courses or master  the content that allows them to graduate on time.”",
+          "That said, there is a way in which grade forgiveness satisfies colleges’ own needs as well. For public institutions, state funds are sometimes tied partly to their success on metrics such as graduation rates and student retention – so better grades can, by boosting figures like those, mean more money. And anything that  raises  GPAs  will  likely  make students – who, at the end of the day, are paying the bill – feel they’ve gotten a better value for their tuition dollars, which is another big concern for colleges.",
+          "Indeed, grade forgiveness is just another way that universities are responding to consumers’ expectations for higher education. Since students and parents expect a college degree to lead to a job, it is in the best interest of a school to turn out  graduates who are as qualified as possible – or at least appear to be. On this, students’ and colleges’ incentives seem to be aligned."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "inflation",
+          "meanings": [
+            "膨胀",
+            "通货膨胀"
+          ],
+          "context_match": "Grade inflation"
+        },
+        {
+          "word": "forgiveness",
+          "meanings": [
+            "宽恕",
+            "宽仁之心"
+          ],
+          "context_match": "grade forgiveness"
+        },
+        {
+          "word": "registrar",
+          "meanings": [
+            "教务主任"
+          ],
+          "context_match": "Ohio State University's registrar"
+        },
+        {
+          "word": "aligned",
+          "meanings": [
+            "使一致"
+          ],
+          "context_match": "incentives seem to be aligned"
+        }
+      ],
+      "questions": [
+        {
+          "id": 26,
+          "text": "What is commonly regarded as the cause of grade inflation?",
+          "options": {
+            "A": "The change of course catalogs.",
+            "B": "Students' indifference to GPAs.",
+            "C": "Colleges' neglect of GPAs.",
+            "D": "The influence of consumer culture."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "根据题干关键词 grade inflation 定位至首段①句，该句指出∶\"分数膨胀\"往往被视作高等教育进入消费者时代的产物，即人们通常认为消费者文化是高等教育\"分数膨胀\"的原因，【D】正确。",
+          "ai_persona_prompt": "Alright, listen up! This one's a gimme. 'Commonly regarded' means 'what do most people think?' The first paragraph spells it out: consumer culture. Don't overthink it, people! Consumer culture = everyone wants to be happy = schools want happy customers (students) = inflated grades. Duh."
+        },
+        {
+          "id": 27,
+          "text": "What was the original purpose of grade forgiveness?",
+          "options": {
+            "A": "To help freshmen adapt to college learning.",
+            "B": "To maintain colleges' graduation rates.",
+            "C": "To prepare graduates for a challenging future.",
+            "D": "To increase universities' income from tuition."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "根据题干关键词 the original purpose of grade forgiveness可定位至第三段②句，该句介绍数十年前\"成绩宽恕\"政策刚开始实行时的情形（When this practice first started...）∶仅针对大一新生，旨在为新生提供一次重修课程的机会，帮他们应对高中到大学的过渡，也即适应大学学习，【A】正确。",
+          "ai_persona_prompt": "Okay, people, time travel back in the passage. 'Original purpose' means you need to find the 'way back when' information. Paragraph 3 tells us this used to be a freshman-only thing. Why? To help them adjust! It's A. Don't get distracted by the later, more cynical reasons. Focus!"
+        },
+        {
+          "id": 28,
+          "text": "According to Paragraph 5, grade forgiveness enables colleges to",
+          "options": {
+            "A": "obtain more financial support.",
+            "B": "boost their student enrollments.",
+            "C": "improve their teaching quality.",
+            "D": "meet local governments' needs."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第五段指出\"成绩宽恕\"满足了大学两方面的需要∶1.帮助公立大学获得更多政府拨款;2.提高学生对于学校的满意度。【A】符合第一项内容。",
+          "ai_persona_prompt": "Paragraph 5, people! We're talking about the college's angle now. They want MONEY. How do they get money? By having good graduation rates and student retention. How do they get that? Grade forgiveness. A is the answer. It's all about the Benjamins, baby!"
+        },
+        {
+          "id": 29,
+          "text": "What does the phrase \"to be aligned\" (Line 5, Para. 6) most probably mean?",
+          "options": {
+            "A": "To counterbalance each other.",
+            "B": "To complement each other.",
+            "C": "To be identical with each other.",
+            "D": "To be contradictory to each other."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "所考词组位于第六段③句，而该句中 this 回指前文信息，需综合分析∶本段①句先揭示学校与学生之间关系的实质——商品/服务提供者 VS消费者，②句具体说明这一关系∶作为消费者的学生及其家长希望顺利拿到学位，作为商品/服务提供者的学校尽力产出合格或看起来合格（即符合学位授予条件）的学生，可见两者动机是一致的，to be aligned 意为\"一致的，相同的\"，【C】正确。",
+          "ai_persona_prompt": "Context, people, context! 'To be aligned' means to be on the same page, thinking the same thing. Are the students and colleges fighting? No! They both want degrees! They're identical in their goals. C is the right answer. Stop guessing and start reading!"
+        },
+        {
+          "id": 30,
+          "text": "The author examines the practice of grade forgiveness by",
+          "options": {
+            "A": "assessing its feasibility.",
+            "B": "analyzing the causes behind it.",
+            "C": "comparing different views on it.",
+            "D": "listing its long-run effects."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "本题考查作者写作方式（examines...by...），需结合全文内容进行判断。文章第一至三段先介绍\"成绩宽恕\"政策的内容及其发展情况，特别指出近年来该政策日益普及的现状，第四至六段揭示政策产生和发展的原因，其中第四、五段先分别指出该政策符合学生和大学的需求，第六段总结原因，揭示学生和大学之间关系的实质是消费关系，\"成绩宽恕\"政策的加速施行是双方共同利益驱使的结果。可见，作者是借助\"分析政策背后的原因和动机\"来剖析政策、表明态度的，【B】正确。",
+          "ai_persona_prompt": "Alright, big picture time! What did the author actually DO in this article? Did they say if it was possible? No! Did they compare different sides? Sort of, but not really. Did they list long-term effects? Nope. They dug into WHY this is happening. The answer is B. Learn to see the forest for the trees, people!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 3",
+        "q_range": "31-35"
+      },
+      "article": {
+        "paragraphs": [
+          "This year marks exactly two centuries since the publication of “Frankenstein; or, The Modern Prometheus,” by Mary Shelley. Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come.",
+          "Today the rapid growth of artificial intelligence (AI) raises fundamental questions: “What is intelligence, identity, or consciousness? What makes humans humans? ”",
+          "What is being called artificial general intelligence, machines that would imitate the way humans think, continues to evade scientists. Yet humans remain fascinated by the idea of robots that would look, move, and respond like humans, similar to those recently depicted on popular sci-fi TV series such as “Westworld” and “Humans.”",
+          "Just how people think is still far too complex to be understood, let alone reproduced, says David Eagleman, a Stanford University neuroscientist. “We are just in a situation where there are no good theories explaining what consciousness actually is and how you could ever build a machine to get there.”",
+          "But that doesn’t mean crucial ethical issues involving AI aren’t at hand. The coming use of autonomous vehicles, for example, poses thorny ethical questions. Human drivers sometimes must make split-second decisions. Their reactions may be a complex combination of instant reflexes, input from past driving experiences, and what their eyes and ears tell them in that moment. AI “vision” today is not nearly as sophisticated as that of humans. And to anticipate every imaginable driving situation is a difficult programming problem.",
+          "Whenever decisions are based on masses of data, “you quickly get into a lot of ethical questions,” notes Tan Kiat How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI. Along with Singapore, other governments and mega-corporations are beginning to establish their own guidelines. Britain is setting up a data ethics center. India released its AI ethics strategy this spring.",
+          "On June 7 Google pledged not to “design or deploy AI” that would cause “overall harm,” or to develop AI-directed weapons or use AI for surveillance that would violate international norms. It also pledged not to deploy AI whose use would violate international laws or human rights.",
+          "While the statement is vague, it represents one starting point. So does the idea that decisions made by AI systems should be explainable, transparent, and fair.",
+          "To put it another way: How can we make sure that the thinking of intelligent machines reflects humanity’s highest values? Only then will they be useful servants and not Frankenstein’s out-of-control monster."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "speculative fiction",
+          "meanings": [
+            "推理小说",
+            "推想小说"
+          ],
+          "context_match": "Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come."
+        },
+        {
+          "word": "foreshadow",
+          "meanings": [
+            "预示",
+            "是……的预兆"
+          ],
+          "context_match": "Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come."
+        },
+        {
+          "word": "ethical",
+          "meanings": [
+            "伦理的",
+            "道德的"
+          ],
+          "context_match": "Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come."
+        },
+        {
+          "word": "evade",
+          "meanings": [
+            "难倒",
+            "使困惑"
+          ],
+          "context_match": "What is being called artificial general intelligence, machines that would imitate the way humans think, continues to evade scientists."
+        },
+        {
+          "word": "fascinated",
+          "meanings": [
+            "入迷的",
+            "极感兴趣的"
+          ],
+          "context_match": "Yet humans remain fascinated by the idea of robots that would look, move, and respond like humans, similar to those recently depicted on popular sci-fi TV series such as “Westworld” and “Humans.”"
+        },
+        {
+          "word": "reproduce",
+          "meanings": [
+            "复制"
+          ],
+          "context_match": "Just how people think is still far too complex to be understood, let alone reproduced, says David Eagleman, a Stanford University neuroscientist."
+        },
+        {
+          "word": "autonomous",
+          "meanings": [
+            "自主的"
+          ],
+          "context_match": "But that doesn’t mean crucial ethical issues involving AI aren’t at hand. The coming use of autonomous vehicles, for example, poses thorny ethical questions."
+        },
+        {
+          "word": "pose",
+          "meanings": [
+            "造成",
+            "引起"
+          ],
+          "context_match": "But that doesn’t mean crucial ethical issues involving AI aren’t at hand. The coming use of autonomous vehicles, for example, poses thorny ethical questions."
+        },
+        {
+          "word": "sophisticated",
+          "meanings": [
+            "复杂巧妙的"
+          ],
+          "context_match": "AI “vision” today is not nearly as sophisticated as that of humans."
+        },
+        {
+          "word": "agency",
+          "meanings": [
+            "（政府的）专门机构",
+            "服务机构"
+          ],
+          "context_match": "Whenever decisions are based on masses of data, “you quickly get into a lot of ethical questions,” notes Tan Kiat How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI."
+        },
+        {
+          "word": "pledge",
+          "meanings": [
+            "保证",
+            "正式承诺"
+          ],
+          "context_match": "On June 7 Google pledged not to “design or deploy AI” that would cause “overall harm,” or to develop AI-directed weapons or use AI for surveillance that would violate international norms."
+        },
+        {
+          "word": "deploy",
+          "meanings": [
+            "部署",
+            "有效地利用，调动"
+          ],
+          "context_match": "On June 7 Google pledged not to “design or deploy AI” that would cause “overall harm,” or to develop AI-directed weapons or use AI for surveillance that would violate international norms."
+        },
+        {
+          "word": "surveillance",
+          "meanings": [
+            "监视"
+          ],
+          "context_match": "On June 7 Google pledged not to “design or deploy AI” that would cause “overall harm,” or to develop AI-directed weapons or use AI for surveillance that would violate international norms."
+        },
+        {
+          "word": "transparent",
+          "meanings": [
+            "透明的",
+            "显而易见的"
+          ],
+          "context_match": "While the statement is vague, it represents one starting point. So does the idea that decisions made by AI systems should be explainable, transparent, and fair."
+        }
+      ],
+      "questions": [
+        {
+          "id": 31,
+          "text": "Mary Shelley’s novel Frankenstein is mentioned because it",
+          "options": {
+            "A": "fascinates AI scientists all over the world.",
+            "B": "has remained popular for as long as 200 years.",
+            "C": "involves some concerns raised by AI today.",
+            "D": "has sparked serious ethical controversies."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "由题干关键词 Mary Shelley's novel Frankenstein 虽可直接定位至首段，但由 is mentioned because it 即可推断此题考查写作目的，故应结合文章话题及下文内容予以解答。首段以科幻小说《弗兰肯斯坦》出版 200 周年开篇，称赞著作者极有远见，在书中预言了未来（200 年后的今天）技术将带来的诸多道德问题，浏览下文发现只有篇末复现作品相关词 Frankenstein，而 Al、ethical/ethics却贯穿全篇。由此推知，文章关注点并非《弗兰肯斯坦》本身，该小说只是作为开篇引子用以引出本文核心话题\"与 Al相关的伦理道德问题\"，也即，文章提及《弗兰肯斯坦》是因为书中预言了 200年后的今天新科技（AI）所引发的道德伦理问题，【C】正确。",
+          "ai_persona_prompt": "Alright, listen up! Frankenstein is mentioned because it's a freakin' *foreshadowing* device! Shelley's book anticipated the ethical nightmares we're facing NOW with AI. It's not about scientists being fans or sparking controversies back then, it's about relevance TODAY, got it? Option C, case closed!"
+        },
+        {
+          "id": 32,
+          "text": "In David Eagleman’s opinion, our current knowledge of consciousness",
+          "options": {
+            "A": "helps explain artificial intelligence.",
+            "B": "can be misleading to robot making.",
+            "C": "inspires popular sci-fi TV series.",
+            "D": "is too limited for us to reproduce it."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "由题干关键词 David Eagleman 可直接定 位至第四段。该段通过直接引用、间接引用两种方式指出伊格曼观点∶人类思维方式（文中又指\"意识\"）极其复杂、难于理解，更甭提复制（思维方式/意识）。换言之，人类目前对意识的认识还十分有限、尚且无法复制意识。【D】正确。",
+          "ai_persona_prompt": "Eagleman, that brainiac, is saying our understanding of consciousness is pathetic! We can't even figure out *ourselves* let alone copy it into a robot. Forget inspiring TV shows (seriously?), A and B are just plain wrong. D is the cold, hard truth, so get over it!"
+        },
+        {
+          "id": 33,
+          "text": "The solution to the ethical issues brought by autonomous vehicles",
+          "options": {
+            "A": "can hardly ever be found.",
+            "B": "is still beyond our capacity.",
+            "C": "causes little public concern.",
+            "D": "has aroused much curiosity."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "根据题干关键词 the ethical issues brought by autonomous vehicles 定位至第五段。该段①句概述指出 AI相关伦理问题业已出现，②至⑥句进而以自动驾驶汽车引发的伦理问题予以说明。②句首先指出自动驾驶汽车的投入使用带来了棘手的伦理问题，③至⑥句以\"AI（自动驾驶汽车）与人类驾驶员的差距\"解释其棘手的伦理问题∶人类驾驶员的决策过程十分短暂且极其复杂（③④句）;而目前的AI技术不太成熟∶AI眼力远不及人类，且编程上也很难穷举所有驾驶情景（⑤⑥句）。由此可知，我们目前仍无法解决自动驾驶汽车带来的伦理问题，【B】正确。选项A is incorrect because it says “hardly ever.” The ethical issues might be solved sometime in the future.",
+          "ai_persona_prompt": "Autonomous cars, huh? Ethical nightmare on wheels! The article screams that we are SO not ready for this. Human brains are complex, AI is still kinda dumb. Solution? Not happening anytime soon. Options C and D are irrelevant. B is the only honest answer. Deal with it!"
+        },
+        {
+          "id": 34,
+          "text": "The author's attitude toward Google's pledges is one of",
+          "options": {
+            "A": "affirmation.",
+            "B": "skepticism.",
+            "C": "contempt.",
+            "D": "respect."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "由题干关键词 Google's pledges 初步定位至第七段，但由 The author's attitude 可知本题考查作者态度，故应注意上下文相关内容。第七段具体介绍了谷歌有关 Al的相关承诺，第八段①句作者随即做出点评∶虽然谷歌的声明含混笼统，但它代表了一个起点。由此可知，作者认为谷歌声明虽有瑕疵，但总体值得肯定，【A】正确。",
+          "ai_persona_prompt": "Google's pledges...ugh, vague but a start, right? The author's not doing cartwheels (that's respect), not rolling their eyes (that's contempt), and definitely not calling BS (that's skepticism). It's cautious optimism, a nod of approval. Option A, get it straight!"
+        },
+        {
+          "id": 35,
+          "text": "Which of the following would be the best title for the text?",
+          "options": {
+            "A": "AI's Future: In the Hands of Tech Giants",
+            "B": "Frankenstein, the Novel Predicting the Age of AI",
+            "C": "The Conscience of AI: Complex But Inevitable",
+            "D": "AI Shall Be Killers Once Out of Control"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "文章先以玛丽·雪莱巨著《弗兰肯斯坦》为引，提出全文话题∶技术引发的伦理道德问题;尔后铺垫当前 AI技术的发展现状∶尚且难以复制人类意识;随后指出当前 AI技术已然引发伦理问题，并对各国政府、企业的相关具体措施予以了肯定;最后总结强调 AI必须反映人类最高价值观才能真正造福人类（言外之意∶人类必须将自身价值观灌输给 Al）。综上可知，本文传达的主旨是∶虽然目前的AI无法复制复杂的人类意识（不具备复杂的道德意识），但为了应对日益凸显的 AI伦理问题，人类必须将自身道德观念灌输给 AI，让其具备\"道德意识\"，【C】为最恰当的标题，其中 conscience 意为 the part of your mind that tells you whether your actions are right or wrong\"良心，良知（心智的一部分）\"。",
+          "ai_persona_prompt": "Okay, title time! Tech giants controlling AI is just ONE aspect (A). Frankenstein is the intro, not the whole point (B). AI as killers? Too sensationalist! (D). It's about the ethical minefield, the NEED for AI to have SOME kind of moral compass, even if it's complicated. C is the WINNER!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 4",
+        "q_range": "36-40"
+      },
+      "article": {
+        "paragraphs": [
+          "States will be able to force more people to pay sales tax when they make online purchases under a Supreme Court decision Thursday that will leave shoppers with lighter wallets but is a big financial win for states.",
+          "The Supreme Court’s opinion Thursday overruled a pair of decades-old decisions that states said cost them billions of dollars in lost revenue annually. The decisions made it more difficult for states to collect sales tax on certain online purchases.",
+          "The cases the court overturned said that if a business was shipping a customer’s purchase to a state where the business didn’t have a physical presence such as a warehouse or office, the business didn’t have to collect sales tax for the state. Customers were generally responsible for paying the sales tax to the state themselves if they weren’t charged it, but most didn’t realize they owed it and few paid.",
+          "Justice Anthony Kennedy wrote that the previous decisions were flawed. “Each year the physical presence rule becomes further removed from economic reality and results in significant revenue losses to the States,” he wrote in an opinion joined by four other justices. Kennedy wrote that the rule “limited states’ ability to seek long-term prosperity and has prevented market participants from competing on an even playing field.”",
+          "The ruling is a victory for big chains with a presence in many states, since they usually collect sales tax on online purchases already. Now, rivals will be charging sales tax where they hadn’t before. Big chains have been collecting sales tax nationwide because they typically have physical stores in whatever state a purchase is being shipped to. Amazon.com, with its network of warehouses, also collects sales tax in every state that charges it, though third-party sellers who use the site don’t have to.",
+          "Until now, many sellers that have a physical presence in only a single state or a few states have been able to avoid charging sales taxes when they ship to addresses outside those states. Sellers that use eBay and Etsy, which provide platforms for smaller sellers, also haven’t been collecting sales tax nationwide. Under the ruling Thursday, states can pass laws requiring out-of-state sellers to collect the state’s sales tax from customers and send it to the state.",
+          "Retail trade groups praised the ruling, saying it levels the playing field for local and online businesses. The losers, said retail analyst Neil Saunders, are online-only retailers, especially smaller ones. Those retailers may face headaches complying with various state sales tax laws. The Small Business & Entrepreneurship Council advocacy group said in a statement, “Small businesses and internet entrepreneurs are not well served at all by this decision.”"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "purchase",
+          "meanings": [
+            "购买，采购"
+          ],
+          "context_match": "States will be able to force more people to pay sales tax when they make online purchases"
+        },
+        {
+          "word": "dilemma",
+          "meanings": [
+            "进退两难的境地，困境"
+          ],
+          "context_match": "N/A"
+        },
+        {
+          "word": "overrule",
+          "meanings": [
+            "推翻，否决"
+          ],
+          "context_match": "The Supreme Court’s opinion Thursday overruled a pair of decades-old decisions"
+        },
+        {
+          "word": "revenue",
+          "meanings": [
+            "财政收入，税收收入"
+          ],
+          "context_match": "states said cost them billions of dollars in lost revenue annually"
+        },
+        {
+          "word": "annually",
+          "meanings": [
+            "每年地"
+          ],
+          "context_match": "states said cost them billions of dollars in lost revenue annually"
+        },
+        {
+          "word": "warehouse",
+          "meanings": [
+            "仓库"
+          ],
+          "context_match": "a business didn’t have a physical presence such as a warehouse or office"
+        },
+        {
+          "word": "charge",
+          "meanings": [
+            "（向……）收费"
+          ],
+          "context_match": "Customers were generally responsible for paying the sales tax to the state themselves if they weren’t charged it"
+        },
+        {
+          "word": "flawed",
+          "meanings": [
+            "有错误的，有缺点的"
+          ],
+          "context_match": "Justice Anthony Kennedy wrote that the previous decisions were flawed"
+        },
+        {
+          "word": "significant",
+          "meanings": [
+            "相当数量的，影响明显的"
+          ],
+          "context_match": "results in significant revenue losses to the States"
+        },
+        {
+          "word": "hinder",
+          "meanings": [
+            "阻碍，妨碍"
+          ],
+          "context_match": "N/A"
+        },
+        {
+          "word": "rival",
+          "meanings": [
+            "对手，竞争者"
+          ],
+          "context_match": "Now, rivals will be charging sales tax where they hadn’t before."
+        },
+        {
+          "word": "nationwide",
+          "meanings": [
+            "全国地"
+          ],
+          "context_match": "Big chains have been collecting sales tax nationwide"
+        },
+        {
+          "word": "typically",
+          "meanings": [
+            "一般地，通常地"
+          ],
+          "context_match": "because they typically have physical stores in whatever state a purchase is being shipped to"
+        },
+        {
+          "word": "entrepreneur",
+          "meanings": [
+            "企业家"
+          ],
+          "context_match": "The Small Business & Entrepreneurship Council advocacy group said ina statement,\"Small businesses and internet entrepreneurs are not well served at all by this decision.\""
+        },
+        {
+          "word": "retailer",
+          "meanings": [
+            "零售商;零售商店"
+          ],
+          "context_match": "The losers,said retail analyst Neil Saunders,are online-only retailers,especially smaller ones."
+        },
+        {
+          "word": "platform",
+          "meanings": [
+            "平台"
+          ],
+          "context_match": "Sellers that use eBay and Etsy, which provide platforms for smaller sellers"
+        },
+        {
+          "word": "headache",
+          "meanings": [
+            "使人头痛的事，棘手的事"
+          ],
+          "context_match": "Those retailers may face headaches complying with various state sales tax laws."
+        },
+        {
+          "word": "entrepreneurship",
+          "meanings": [
+            "企业家;企业家精神"
+          ],
+          "context_match": "N/A"
+        },
+        {
+          "word": "factual",
+          "meanings": [
+            "（基于）事实的;与事实相关的"
+          ],
+          "context_match": "N/A"
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "text": "The Supreme Court decision Thursday will",
+          "options": {
+            "A": "better businesses' relations with states.",
+            "B": "put most online businesses in a dilemma.",
+            "C": "make more online shoppers pay sales tax.",
+            "D": "force some states to cut sales tax."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "开篇段指出，最高法院周四裁定各州可强制更多的人为在线购物支付销售税，【C】正确。正确项【C】是对第一段 more people to pay sales tax when they make online purchases的同义改写。【A】利用\"裁定使各州有权（责令企业为它们）收取销售税\"所隐含的\"企业将增加与各州的联系\"错误推断出\"企业与各州之间关系会改善\"，但双方单纯是命令的发布者与命令的执行者，裁定无关双方关系的改善（抑或恶化）。【B】将第二段中新裁定的影响范围\"某些网购商品（certain online purchases）\"窜改为\"大多数在线商家（most online businesses）\"，并捏造出新裁定\"使他们陷入困境\"的说法。【D】与\"裁定使各州有权对更多网购商品征收销售税（即扩大销售税征收范围）\"相悖。",
+          "ai_persona_prompt": "Listen up, buttercup! The Supreme Court decision? It's gonna make your lazy, online-shopping selves actually pay sales tax. Option C, duh! A is just wishful thinking, B is drama, and D? That's just plain wrong. Get it together!"
+        },
+        {
+          "id": 37,
+          "text": "It can be learned from Paragraphs 2 and 3 that the overruled decisions",
+          "options": {
+            "A": "have led to the dominance of e-commerce.",
+            "B": "have cost consumers a lot over the years.",
+            "C": "were widely criticized by online purchasers.",
+            "D": "were considered unfavorable by states."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "第二段首先指出，各州称遭到推翻的两起裁定每年都给他们带来巨额损失，加大了对某些网购商品的销售税征收难度。第三段具体说明州政府财政如何损失：原裁定导致未在本州设立实体存在的州外商家无需为本州代收销售税，而原则上需要交税的消费者也很少自行缴纳。由此可知，各州认为原裁定对他们不利，【D】正确。正确项【D】与第二段①句中的...states said cost them billions of dollars in lost revenue annually 直接对应。【A】将\"原裁定加大对某些网购商品的销售税征收难度\"蕴含的\"某些电商（线上商家）得利\"偷换为\"电子商务取得了主导地位\"，而文中并未对不同商务模式的市场地位进行比较，\"主导地位\"纯属无中生有。【B】、【C】的干扰均源于第三段②句\"大多数消费者不知道自己欠税，上缴销售税的消费者也很少\"，但前者与\"大多数消费者实际得利\"相悖，后者将\"大多数消费者未自行缴税\"错误地归结为\"他们对原裁定不满并广泛批评\"。",
+          "ai_persona_prompt": "Seriously? Paragraphs 2 and 3 scream that the states were NOT happy with the old decisions. Option D, people! A is a massive overreach, B is kinda the opposite, and C is just pulling things out of thin air. Pay attention!"
+        },
+        {
+          "id": 38,
+          "text": "According to Justice Anthony Kennedy, the physical presence rule has",
+          "options": {
+            "A": "hindered economic development.",
+            "B": "brought prosperity to the country.",
+            "C": "harmed fair market competition.",
+            "D": "boosted growth in states' revenue."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第四段②句指出，实体存在规则脱离经济现实，使各州蒙受巨额收入损失；③句进一步指出它使市场参与者无法在公平的环境下展开竞争，【C】正确。正确项【C】是对 has prevented market participants from competing on an even playing field的同义改写。【A】将实体存在规则\"使各州蒙受巨额财政损失\"曲解为它\"阻碍了经济发展\"，但原文讨论的是各州\"税收收入（sales tax、revenue）\"，而非整体\"经济发展（economic development）\"。【B】、【D】分别与第四段②句和③句实体存在规则\"限制了各州寻求长久繁荣的能力\"及\"使各州蒙受巨额收入损失\"相悖。",
+          "ai_persona_prompt": "Kennedy spells it out! The 'physical presence' rule was screwing up the marketplace. That's C! Option A is too broad, B is a joke, and D is the opposite of what he said. Try reading for comprehension, for once."
+        },
+        {
+          "id": 39,
+          "text": "Who are most likely to welcome the Supreme Court ruling?",
+          "options": {
+            "A": "Internet entrepreneurs.",
+            "B": "Big-chain owners.",
+            "C": "Third-party sellers.",
+            "D": "Small retailers."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第五段①句指出，本次裁定对在多州设有实体机构的大型连锁店而言是一次胜利，所以最有可能欢迎此次裁定的应该是大型连锁店店主，【B】正确。正确项【B】 Big-chain owners 与第五段①句 big chains 所指相同，句中 a victory 体现出新裁定给他们带来的巨大利好，因此他们应该最欢迎（welcome）此次裁定。【A】与第七段④句\"互联网企业家完全没有受到本次裁定的周全考虑\"相悖。【C】、【D】与第五段④句和第六段②句\"第三方商家和小型零售商原本无需代收销售税，而此次裁定迫使他们开始收税\"所暗示的\"不会欢迎本次裁定\"相悖。",
+          "ai_persona_prompt": "Come on, it's not rocket science! Big chains are celebrating because their competition now has to play by the same rules. B is the obvious answer! A, C, and D are all gonna be crying in their virtual lemonade stands."
+        },
+        {
+          "id": 40,
+          "text": "In dealing with the Supreme Court decision Thursday, the author",
+          "options": {
+            "A": "gives a factual account of it and discusses its consequences.",
+            "B": "describes the long and complicated process of its making.",
+            "C": "presents its main points with conflicting views on them.",
+            "D": "cites some cases related to it and analyzes their implications."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "通读全文可知，文章首先介绍了最高法院的裁决，接着详细解释了裁决的背景和具体内容，最后分析了裁决可能带来的各种影响，所以A选项描述最为准确。文章以客观事实为基础，没有明显的主观评价和情感倾向，所以排除C。文章没有描述裁决的制定过程，排除B。文章没有引用相关案例，排除D。",
+          "ai_persona_prompt": "Alright, class, what did we just read? The author laid out the facts of the Supreme Court decision and talked about what's gonna happen because of it. A is the only sensible answer! B is a history lesson we didn't get, C is too dramatic, and D is just not how this article rolled. Keep up!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Part B",
+        "name": "Part B",
+        "q_range": "41-45"
+      },
+      "article": {
+        "paragraphs": [
+          "These tools can help you win every argument – not in the unhelpful sense of beating your opponents but in the better sense of learning about the issues that divide people. Learning why they disagree with us and learning to talk and work together with them. If we readjust our view of arguments – from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect, and understanding – then we change the very nature of what it means to “win” an argument.",
+          "Of course, many discussions are not so successful. Still, we need to be careful not to accuse opponents of bad arguments too quickly. We need to learn how to evaluate them properly. A large part of evaluation is calling out bad arguments, but we also need to admit good arguments by opponents and to apply the same critical standards to ourselves. Humility requires you to recognize weakness in your own arguments and sometimes also to accept reasons on the opposite side.",
+          "None of these will be easy but you can start even if others refuse to. Next time you state your position, formulate an argument for what you claim and honestly ask yourself whether your argument is any good. Next time you talk with someone who takes a stand, ask them to give you a reason for their view. Spell out their argument fully and charitably. Assess its strength impartially. Raise objections and listen carefully to their replies.",
+          "Carnegie would be right if arguments were fights, which is how we often think of them. Like physical fights, verbal fights can leave both sides bloodied. Even when you win, you end up no better off. Your prospects would be almost as dismal if arguments were even just competitions – like, say, tennis games. Pairs",
+          "of opponents hit the ball back and forth until one winner emerges from all who entered. Everybody else loses. This kind of thinking is why so many people try to avoid arguments, especially about politics and religion.",
+          "In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote: “There is only one way…to get the best of an argument – and that is to avoid it.” This aversion to arguments is common, but it depends on a mistaken view of arguments that causes profound problems for our personal and social lives – and in many ways misses the point of arguing in the first place.",
+          "These views of arguments also undermine reason. If you see a conversation as a fight or competition, you can win by cheating as long as you don’t get caught. You will be happy to convince people with bad arguments. You can call their views stupid, or joke about how ignorant they are. None of these tricks will help you understand them, their positions or the issues that divide you, but they can help you win – in one way.",
+          "There is a better way to win arguments. Imagine that you favor increasing the minimum wage in our state, and I do not. If you yell, “Yes,” and I yell, “No,” neither of us learns anything. We neither understand nor respect each other, and we have no basis for compromise or cooperation. In contrast, suppose you give a reasonable argument: that full-time workers should not have to live in poverty. Then I counter with another reasonable argument: that a higher minimum wage will force businesses to employ fewer people for less time. Now we can understand each other’s positions and recognize our shared values, since we both care about needy workers."
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 41,
+          "text": null,
+          "options": {},
+          "correct_answer": "E",
+          "analysis_raw": "E选项 logically precedes paragraph D by introducing Dale Carnegie and his viewpoint, which paragraph D then discusses and critiques. E introduces the aversion to arguments. D then expands on why this aversion is common.",
+          "ai_persona_prompt": "Alright, listen up! Option E introduces this Carnegie dude and his wimpy philosophy of avoiding arguments altogether. It sets the stage for why everyone's so afraid of a good debate. Obvious choice, unless you skipped your coffee this morning."
+        },
+        {
+          "id": 42,
+          "text": null,
+          "options": {},
+          "correct_answer": "D",
+          "analysis_raw": "D follows E logically by explaining Carnegie's viewpoint in more detail. It argues against Carnegie's idea by stating arguments are NOT fights, which is how many people see them. The \"This kind of thinking\" references back to the aversion to arguments in E.",
+          "ai_persona_prompt": "Seriously? Option D is the only one that makes sense after E. It's ripping apart Carnegie's flawed logic piece by piece. If you picked anything else, you need to reread both paragraphs. Immediately."
+        },
+        {
+          "id": 43,
+          "text": null,
+          "options": {},
+          "correct_answer": "G",
+          "analysis_raw": "G contrasts the ideas presented in previous paragraphs. It offers 'a better way to win arguments.' This transition signifies a shift from critiquing problematic views to suggesting a solution. It describes productive arguments with respect and understanding.",
+          "ai_persona_prompt": "Is it really that complicated? Paragraph G serves as a beacon of hope, offering a better way to argue after all that doom and gloom. If you missed that contrast, I question your reading comprehension."
+        },
+        {
+          "id": 44,
+          "text": null,
+          "options": {},
+          "correct_answer": "B",
+          "analysis_raw": "B expands on the concept of successful discussions and argues that we need to avoid accusing opponents of bad arguments too quickly. It logically follows G, which proposes productive discussions and then describes how we can achieve that.",
+          "ai_persona_prompt": "B! Paragraph B discusses the problems that arise if one tries to quickly accuse the opponent of bad arguments. It builds upon the respect necessary to make G work, unless you are fine with jumping the gun."
+        },
+        {
+          "id": 45,
+          "text": null,
+          "options": {},
+          "correct_answer": "A",
+          "analysis_raw": "A concludes the essay. It reiterates the benefits of using the described tools of argument to learn about opposing opinions and work together. It references a 'reasoned exchange' and describes 'mutual respect.'",
+          "ai_persona_prompt": "A is a bow on top; a conclusion. It summarizes the entire argument of the passage and gives the reasons arguments exist in the first place. It should be obvious that this wraps things up in a neat little package.",
+          "options_analysis": null
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Translation",
+        "name": "Part C",
+        "q_range": "46-50"
+      },
+      "article": {
+        "paragraphs": [
+          "It was only after I started to write a weekly column about the medical journals, and began to read scientific papers from beginning to end, that I realised just how bad much of the medical literature frequently was. I came to recognise various signs of a bad paper: the kind of paper that purports to show that people who eat more than one kilo of broccoli a week were 1.17 times more likely than those who eat less to suffer late in life from pernicious anaemia. (46) There is a great deal of this kind  of nonsense in the medical journals which, when taken up by broadcasters and the lay press, generates both health scares and short-lived dietary enthusiasms.",
+          "Why is so much bad science published? A recent paper, titled “The Natural Selection of Bad Science”, published on the Royal Society’s open science website, attempts to answer this intriguing and important question. It says that the problem is not merely that people do bad science, but that our current system of career advancement positively encourages it. What is important is not truth, but publication, which has become almost an end in itself. There has been a kind of inflationary process at work: (47) nowadays anyone applying for a research post has to have published twice the number of papers that would have been required for the same post only 10 years ago. Never mind the quality, then, count the number.",
+          "(48) Attempts have been made to curb this tendency, for example, by trying to incorporate some measure of quality as well as quantity into the assessment of an applicant’s papers. This is the famed citation index, that is to say the number of times a paper has been quoted elsewhere in the scientific literature, the assumption being that an important paper will be cited more often than one of small account. (49) This would be reasonable if it were not for the fact that scientists can easily arrange to cite themselves in their future publications, or get associates to do so for them in return for similar favours.",
+          "Boiling down an individual’s output to simple metrics, such as number of publications or journal impacts, entails considerable savings in time, energy and ambiguity. Unfortunately, the long-term costs of using simple quantitative metrics to assess researcher merit are likely to be quite great. (50) If we are serious about ensuring that our science is both meaningful and reproducible, we must ensure that our institutions encourage that kind of science."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "pernicious",
+          "meanings": [
+            "有害的",
+            "恶性的"
+          ],
+          "context_match": "pernicious anaemia"
+        },
+        {
+          "word": "lay",
+          "meanings": [
+            "外行的",
+            "非专业的"
+          ],
+          "context_match": "lay press"
+        },
+        {
+          "word": "entail",
+          "meanings": [
+            "使…成为必需",
+            "使…必然发生"
+          ],
+          "context_match": "entails considerable savings"
+        },
+        {
+          "word": "ambiguity",
+          "meanings": [
+            "含糊不清",
+            "模棱两可"
+          ],
+          "context_match": "time, energy and ambiguity"
+        },
+        {
+          "word": "metrics",
+          "meanings": [
+            "衡量标准",
+            "度量方法"
+          ],
+          "context_match": "simple quantitative metrics"
+        }
+      ],
+      "questions": [
+        {
+          "id": 46,
+          "text": "There is a great deal of this kind  of nonsense in the medical journals which, when taken up by broadcasters and the lay press, generates both health scares and short-lived dietary enthusiasms.",
+          "options": {},
+          "correct_answer": "医学期刊中由许多类似的无稽之谈，这些说法一旦被广播公司和新闻媒体报道，就会引发健康恐慌和短暂的饮食热潮。",
+          "analysis_raw": "本句主干是 There is a great deal of nonsense in medical journals。 which 引导非限制性定语从句，修饰 nonsense。when taken up by broadcasters and the lay press 是一个时间状语从句，修饰 generates。翻译时需要注意语序和词义的准确性。",
+          "ai_persona_prompt": "Alright, so you've got this sentence, right? 'A great deal of nonsense' – that's putting it mildly! Medical journals are overflowing with this garbage, and when the media gets their hands on it, boom! Mass hysteria and fleeting diet fads. It's like a recipe for disaster, I tell ya!"
+        },
+        {
+          "id": 47,
+          "text": "nowadays anyone applying for a research post has to have published twice the number of papers that would have been required for the same post only 10 years ago.",
+          "options": {},
+          "correct_answer": "如今，任何申请研究职位的人都必须发表两倍于10年前同一职位所需的论文数量。",
+          "analysis_raw": "本句主干是 anyone has to have published twice the number of papers。applying for a research post 是现在分词短语作后置定语，修饰 anyone。that 引导定语从句，修饰 papers。 twice the number of 是倍数表达，翻译时要准确表达倍数关系。",
+          "ai_persona_prompt": "Listen up! To get a research gig these days, you gotta pump out double the papers compared to what they wanted just a decade ago. It's all about quantity, baby! Forget quality; just churn 'em out!"
+        },
+        {
+          "id": 48,
+          "text": "Attempts have been made to curb this tendency, for example, by trying to incorporate some measure of quality as well as quantity into the assessment of an applicant’s papers.",
+          "options": {},
+          "correct_answer": "人们已经做出努力来遏制这种趋势，例如，将质量和数量标准纳入申请者的论文评估中。",
+          "analysis_raw": "本句是被动语态，主语是 Attempts。 for example 引导一个介词短语，作方式状语，by trying to incorporate...into... 是固定搭配。翻译时需要注意被动语态的转换和固定搭配的表达。",
+          "ai_persona_prompt": "So, they're trying to stop this madness, huh? They're trying to bring some 'quality' into the mix with all this paper-pushing. Good luck with that! It's like trying to add class to a dumpster fire."
+        },
+        {
+          "id": 49,
+          "text": "This would be reasonable if it were not for the fact that scientists can easily arrange to cite themselves in their future publications, or get associates to do so for them in return for similar favours.",
+          "options": {},
+          "correct_answer": "如果不是因为科学家们可以很容易地在未来的出版物中引用自己，或者让同事为他们这样作以换取类似的好处，这将是合理的。",
+          "analysis_raw": "本句是虚拟语气，主句是 This would be reasonable。 if it were not for 是虚拟语气的标志。 that 引导同位语从句，解释 fact。 or 连接两个并列的动词短语。翻译时需要注意虚拟语气的表达和并列结构的翻译。",
+          "ai_persona_prompt": "Oh, this is rich! It'd be a great idea... if these academics weren't so darn sneaky! They're all citing each other to boost their numbers. It's a total scam! If it weren't for that, it would almost be reasonable, almost."
+        },
+        {
+          "id": 50,
+          "text": "If we are serious about ensuring that our science is both meaningful and reproducible, we must ensure that our institutions encourage that kind of science.",
+          "options": {},
+          "correct_answer": "如果我们确实要保证我们的科学既有意义又可再生，那么我们必须确保我们的机构鼓励这种科学的进步。",
+          "analysis_raw": "本句是一个if引导的条件状语从句。主句是we must ensure that our institutions encourage that kind of science，其中that our institutions encourage that kind of science是ensure的宾语从句。In that condition clause，there is another that our science is both meaningful and reproducible clause acting as the object of ensuring.",
+          "ai_persona_prompt": "Look, if we're actually serious about science being, you know, *useful* and *repeatable*, then we need to make sure these institutions are actually rewarding that kind of work. No more of this paper-churning nonsense!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part A",
+        "q_range": "51"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:\nSuppose you are working for the “Aiding Rural Primary School” project of your university. Write an email to answer the inquiry from an international student volunteer, specifying the details of the project.\nYou should write about 100 words on the ANSWER SHEET.\nDo not use your own name in the email. Use “Li Ming” instead.\t(10 points)"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "inquiry",
+          "meanings": [
+            "询问",
+            "打听"
+          ],
+          "context_match": "answering an inquiry from a student"
+        },
+        {
+          "word": "specify",
+          "meanings": [
+            "详细说明",
+            "明确指出"
+          ],
+          "context_match": "specifying the details of the project"
+        }
+      ],
+      "questions": [
+        {
+          "id": 51,
+          "text": "Suppose you are working for the “Aiding Rural Primary School” project of your university. Write an email to answer the inquiry from an international student volunteer, specifying the details of the project.",
+          "options": {},
+          "correct_answer": "Dear Volunteer,\n\nI am writing to provide details about our “Aiding Rural Primary School” project. We are delighted you are interested in volunteering.\n\nThe project involves spending two weeks at a rural primary school, assisting local teachers with English lessons and extracurricular activities. Volunteers will also help organize sports events and cultural exchange programs. The school is located approximately 100 kilometers from the city, and transportation will be provided.\n\nAccommodation will be arranged in the school dormitory, and meals will be provided by the school canteen. Volunteers are expected to cover their personal expenses. We will hold an orientation session before departure to brief volunteers on the project details and cultural sensitivities.\n\nPlease let me know if you have any further questions. We look forward to welcoming you to the team.\n\nYours sincerely,\nLi Ming",
+          "analysis_raw": "本范文清晰地介绍了帮扶农村小学项目的细节。首先表达了对志愿者参与的欢迎。接着，详细描述了项目的内容，包括支教时间、地点、具体工作（英语课程和课外活动），以及志愿者可以参与组织的活动（运动会和文化交流项目）。然后，说明了交通、住宿和餐饮安排，以及志愿者需要自理的个人费用。最后，提到了行前培训，并表达了期待。全文语言流畅，信息完整，格式规范。",
+          "ai_persona_prompt": "Alright, listen up! This email ain't gonna win any awards for creativity, but it gets the job done. Clear, concise, and covers all the bases: what the project is, where it is, what they gotta do, and how much it's gonna cost 'em. Could use a little more enthusiasm, but hey, maybe Li Ming's just not a people person. Just remember, future emails, show a little spark! Otherwise, solid B+."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part B",
+        "q_range": "52"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "Write an essay of 160-200 words based on the picture below. In your essay, you should",
+          "describe the picture briefly,",
+          "interpret the implied meaning, and",
+          "give your comments.",
+          "You should write neatly on the ANSWER SHEET. (20 points)"
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 52,
+          "text": "Write an essay of 160-200 words based on the picture below. In your essay, you should describe the picture briefly, interpret the implied meaning, and give your comments.",
+          "options": {},
+          "correct_answer": "In the picture, we see two figures on a mountain path. One is sitting down, looking dejected, with the caption 'Tired, I won't climb anymore.' The other is standing, offering encouragement and water, saying 'Don't! Rest for a while and then keep climbing.'\n\nThe picture illustrates the different attitudes people have when facing challenges. The sitting figure represents those who give up easily when faced with difficulties. They lack the perseverance needed to achieve their goals. The standing figure, on the other hand, embodies resilience and determination. They understand that success often requires pushing through moments of doubt and fatigue.\n\nI believe this image highlights a crucial aspect of achieving success. Life is full of obstacles, and it's easy to become discouraged when things get tough. However, it's precisely during these moments that perseverance becomes most important. By embracing a positive mindset, supporting each other, and remembering the ultimate goal, we can overcome challenges and reach our full potential. Giving up is not an option; instead, we should learn to rest and recharge, then continue our climb toward success.",
+          "analysis_raw": "本篇范文首先简要描述了图片内容，然后阐释了图片所蕴含的坚持不懈的重要性。接着，文章结合自身观点，论述了面对困难时应有的态度，即不轻言放弃，而是选择休息并继续努力。文章结构清晰，语言流畅，观点明确，能够有效完成写作任务。",
+          "ai_persona_prompt": "Alright, let's dissect this essay. The description's decent, but could use more vivid imagery – think less 'figure' and more 'weary traveler slumped against a rock.' The interpretation's solid, hammering home the 'perseverance' point. Your personal comment is safe, maybe a bit too safe. Next time, inject some real-world grit – a specific challenge you overcame, or a time you saw someone else quit too soon. Ditch the generic 'full potential' and aim for something memorable."
+        }
+      ]
+    }
+  ]
+}

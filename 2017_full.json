@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "year": 2017,
+    "exam_type": "English I"
+  },
+  "sections": [
+    {
+      "section_info": {
+        "type": "Use of English",
+        "name": "Section I",
+        "q_range": "1-20"
+      },
+      "article": {
+        "paragraphs": [
+          "Could a hug a day keep the doctor away? The answer may be a resounding “yes!” _1_ helping you feel close and _2_ to people you care about, it turns out that hugs can bring a _3_ of health benefits to your body and mind. Believe it or not, a warm embrace might even help you _4_ getting sick this winter.",
+          "In a recent study _5_ over 400 healthy adults, researchers from Carnegie Mellon University in Pennsylvania examined the effects of perceived social support and the receipt of hugs _6_ the participants’ susceptibility to developing the common cold after being _7_ to the virus. People who perceived greater social support were less likely to come _8_ with a cold, and the researchers _9_ that the stress-reducing effects of hugging _10_ about 32 percent of that beneficial effect. _11_ among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe _12_.",
+          "“Hugging protects people who are under stress from the _13_ risk for colds that’s usually _14_ with stress,” notes Sheldon Cohen, a professor of psychology at Carnegie. Hugging “is a marker of intimacy and helps _15_ the feeling that others are there to help _16_ difficulty.”",
+          "Some experts _17_ the stress-reducing, health-related benefits of hugging to the release of oxytocin, often called “the bonding hormone” _18_ it promotes attachment in relationships, including that between mothers and their newborn babies. Oxytocin is made primarily in the central lower part of the brain, and some of it is released into the bloodstream. But some of it _19_ in the brain, where it _20_ mood, behavior and physiology."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "resounding",
+          "meanings": [
+            "响亮的",
+            "巨大的",
+            "令人瞩目的"
+          ],
+          "context_match": "The answer may be a resounding “yes!”"
+        },
+        {
+          "word": "intimacy",
+          "meanings": [
+            "亲密",
+            "关系密切"
+          ],
+          "context_match": "Hugging is a marker of intimacy"
+        },
+        {
+          "word": "physiology",
+          "meanings": [
+            "生理机能"
+          ],
+          "context_match": "where it influences mood, behavior and physiology"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "text": "helping you feel close and to people you care about, it turns out that hugs can bring a of health benefits",
+          "options": {
+            "A": "Unlike",
+            "B": "Besides",
+            "C": "Despite",
+            "D": "Throughout"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "本题考查逻辑关系。空格前后均为拥抱的积极作用，因此空格词既要表明二者均在拥抱积极作用之列，同时要能\"引出普通认识，以反衬主句意料之外新发现（语义重点所在）\"，选项中符合要求的只有【B】 Besides。",
+          "ai_persona_prompt": "Look here, genius! Besides means 'in addition to'. We're listing benefits, not comparing opposites. Get it right next time!"
+        },
+        {
+          "id": 2,
+          "text": "helping you feel close and _2_ to people you care about",
+          "options": {
+            "A": "connected",
+            "B": "restricted",
+            "C": "equal",
+            "D": "inferior"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "本题考查句内语义。空格词和 close 由并列连词 and连接，可以推知两者语义方向一致，表明拥抱使人们感到与其关心的人之间关系的亲近，选项中符合要求的只有【A】 connected。",
+          "ai_persona_prompt": "Seriously? 'Connected' is about relationships, duh! The whole sentence is about feeling closer to people. The other options don't even make sense in this context. Pay attention!"
+        },
+        {
+          "id": 3,
+          "text": "hugs can bring a _3_ of health benefits to your body and mind.",
+          "options": {
+            "A": "choice",
+            "B": "view",
+            "C": "lesson",
+            "D": "host"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "本题考查句内语义 ＋ 固定搭配。空格所在部分aof 后为复数形式（health benefits），因此空格所在部分在内容上应表示\"多项健康益处\"，同时在语法上必须能够接复数，选项中符合要求的只有【D】 host。注∶a host of 表示\"许多，大量（a number of）\"。",
+          "ai_persona_prompt": "A 'host' of benefits? It's a common expression, you dolt! Means 'a lot'. Seriously, some English basics would do you good."
+        },
+        {
+          "id": 4,
+          "text": "a warm embrace might even help you _4_ getting sick this winter.",
+          "options": {
+            "A": "recall",
+            "B": "forget",
+            "C": "avoid",
+            "D": "keep"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "本题考查动词辨析。空格部分只能表达\"有助于不生病\"之意，符合文意的只有【C】。",
+          "ai_persona_prompt": "Ugh, this is remedial! 'Avoid' means to prevent something from happening. The sentence says hugs HELP you not get sick. Hello?"
+        },
+        {
+          "id": 5,
+          "text": "In a recent study _5_ over 400 healthy adults",
+          "options": {
+            "A": "collecting",
+            "B": "involving",
+            "C": "guiding",
+            "D": "affecting"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "空格处考查\"研究\"和\"400 多名健康成人\"之间的关系，over 400 healthy adults 应为实验的\"研究对象\"，即\"研究的参与者\"，【B】 involving 表示\"使某人参加，参与某事（to make sb take part in sth）\"，符合文意。",
+          "ai_persona_prompt": "'Involving'? As in, including those people in the study! The others are completely out of context. Start thinking like a researcher, not a goldfish."
+        },
+        {
+          "id": 6,
+          "text": "the receipt of hugs _6_ the participants’ susceptibility to developing the common cold",
+          "options": {
+            "A": "of",
+            "B": "in",
+            "C": "at",
+            "D": "on"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "本题考查介词搭配。 研究人员测试的应该是\"社会支持与拥抱\"对\"感冒易感性\"的影响，选项中能够与effects 连用，引出受影响的对象的介词只有 on。",
+          "ai_persona_prompt": "Effects ON something! We're talking about the impact of hugs on people's vulnerability to colds. It's a classic prepositional phrase. Get it memorized!"
+        },
+        {
+          "id": 7,
+          "text": "after being _7_ to the virus.",
+          "options": {
+            "A": "devoted",
+            "B": "exposed",
+            "C": "lost",
+            "D": "attracted"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "空格处考查\"参与者易患感冒\"与\"病毒\"间的关系，由常识可知，病毒会引发感冒，即\"处于病毒环境中、接触到病毒\"才会感冒。另外，\"病毒（virus）\"为负面事物，空格词还需要能接负面事物。be exposed to sth 常表示\"暴露于（险境、不利情况）\"。",
+          "ai_persona_prompt": "Exposed to the virus, obviously! People get sick because they're EXPOSED to germs. Are you even trying?"
+        },
+        {
+          "id": 8,
+          "text": "less likely to come _8_ with a cold",
+          "options": {
+            "A": "across",
+            "B": "along",
+            "C": "down",
+            "D": "out"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "本题考查固定搭配。come down with sth为固定搭配，表示\"患、得（小病）\"。",
+          "ai_persona_prompt": "Come DOWN with a cold! It's an idiom, you simpleton! Time to crack open a dictionary and start learning some basic English phrases."
+        },
+        {
+          "id": 9,
+          "text": "and the researchers _9_ that the stress-reducing effects of hugging",
+          "options": {
+            "A": "calculated",
+            "B": "denied",
+            "C": "doubted",
+            "D": "imagined"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "本题考查句内语义十动词辨析。由段首句研究目的\"了解拥抱对患病率的影响\"以及本句关键词 researchers、32 percent 可推知，该句为研究人员对于\"拥抱积极影响\"的量化评估，即 32??一数值是由实验推断或估算而来，选项中符合要求的只有【A】 calculated。",
+          "ai_persona_prompt": "Researchers CALCULATE things, Sherlock! They're using data to figure out the impact of hugs. It's not a matter of denial or imagination, it's science!"
+        },
+        {
+          "id": 10,
+          "text": "stress-reducing effects of hugging _10_ about 32 percent of that beneficial effect.",
+          "options": {
+            "A": "served",
+            "B": "required",
+            "C": "restored",
+            "D": "explained"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "本题考查句内语义十动词用法。空格处表示\"拥抱的减压作用\"说明了其为何\"有助降低感冒几率\"，选项中符合要求的只有【D】 explained，字面为\"这一作用解释了总影响的 32，也可以理解为\"占了总影响的 32。",
+          "ai_persona_prompt": "Explained! The stress reduction EXPLAINS why hugs are helpful. It's the mechanism at work! Don't overthink it, you'll hurt yourself."
+        },
+        {
+          "id": 11,
+          "text": "_11_ among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe _12_.",
+          "options": {
+            "A": "Even",
+            "B": "Still",
+            "C": "Rather",
+            "D": "Thus"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "本题考查句际逻辑关系。空格上句针对\"未患病人群\"，指出拥抱对疾病的预防作用，而本句针对\"患病人群\"，结合已知信息 had less severe...推测本句表明拥抱对疾病的缓解作用，很明显前后为递进关系，后者补充并强调出人意料的作用∶就算已经生病，仍能起到积极作用，符合这一逻辑的只有【A】。",
+          "ai_persona_prompt": "EVEN among those who are sick, hugs help! We're adding another benefit, not changing the topic or stating a result. This is about understanding the flow of an argument."
+        },
+        {
+          "id": 12,
+          "text": "had less severe _12_.",
+          "options": {
+            "A": "defeats",
+            "B": "symptoms",
+            "C": "tests",
+            "D": "errors"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "本题考查句内语义十 名词用法。空格句表明\"拥抱对感冒的缓解作用\"，had lessevere和上句 were lesslikely to...相对，故空格词只能表示\"（感冒的）具体病状\"之意",
+          "ai_persona_prompt": "Less severe SYMPTOMS! What else would you have when you're sick? Unicorns? Get a grip."
+        },
+        {
+          "id": 13,
+          "text": "Hugging protects people who are under stress from the _13_ risk for colds",
+          "options": {
+            "A": "minimized",
+            "B": "highlighted",
+            "C": "controlled",
+            "D": "increased"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "本题考查 句内语义 ＋形容词 用法。由 protects...from...（保护……免受……）可知，from 后应为\"危险、伤害\"等负面事物，再结合常识\"压力大的人患病几率相对较高\"",
+          "ai_persona_prompt": "INCREASED risk! Stress makes you MORE likely to get sick, not less. It's basic common sense. Try using yours for once."
+        },
+        {
+          "id": 14,
+          "text": "that’s usually _14_ with stress",
+          "options": {
+            "A": "equipped",
+            "B": "associated",
+            "C": "presented",
+            "D": "compared"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "空格所在部分为 that 定语从句修饰 risk for colds（患感冒的风险）;增加的感冒风险通常压力。上段②句表明\"拥抱的减压作用是降低感冒发生几率的部分原因\"，因此两者之间存在因果关联，即压力越大，患病几率越大，associate 意为\"有逻辑或因果关联\"",
+          "ai_persona_prompt": "Associated with! Stress is ASSOCIATED with a higher risk of colds. It's a common link! The others are just random words thrown together. Stop guessing!"
+        },
+        {
+          "id": 15,
+          "text": "helps _15_ the feeling that others are there to help",
+          "options": {
+            "A": "assess",
+            "B": "moderate",
+            "C": "generate",
+            "D": "record"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "本题考查句内语义十动词用法。 上段将\"拥抱（hugging）\"和\"感受到社会支持（perceived social support）\"反复并提，说明它们对疾病的积极作用;本句引用专家说法重申拥抱的意义，只能表达\"拥抱会让人们觉得时刻有外界的支持和帮助\"的语义，即\"产生、生成这种感觉\"",
+          "ai_persona_prompt": "GENERATE the feeling! Hugs CREATE a feeling of support, genius! It's about producing an emotion, not assessing or moderating it. Think about what the words mean before you pick them."
+        },
+        {
+          "id": 16,
+          "text": "to help _16_ difficulty.”",
+          "options": {
+            "A": "in the face of",
+            "B": "in the form of",
+            "C": "in the way of",
+            "D": "in the name of"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "本题考查句内语义十 介词短语。根据选项可知difficulty 为介词结构，因此在句中作状语，随句子谓语动词的动作发生;而从已知信息\"他人随时会帮忙（others are there to help）\"和\"困难、困境（difficulty）\"可大致推断句中 feeling 的具体内容为∶在遇到困难之时，（预感）外界会帮忙或支持;in the face of 常引出问题、困难、危险等情况",
+          "ai_persona_prompt": "In the FACE of difficulty! It means 'when facing a problem'. It fits the context perfectly. The others are just nonsensical phrases. Try to understand the MEANING before you just randomly circle something."
+        },
+        {
+          "id": 17,
+          "text": "Some experts _17_ the stress-reducing, health-related benefits of hugging to the release of oxytocin",
+          "options": {
+            "A": "transfer",
+            "B": "commit",
+            "C": "attribute",
+            "D": "return"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "本题考查谓语动词，句子较长，首先明确宾语为\"拥抱的减压、有益健康等好处\"，介词 to引出宾语复合结构\"某种荷尔蒙的释放\"。空格句后半句\"它（荷尔蒙）促进关系亲密感\"，推知\"该荷尔蒙是拥抱作用背后的生理因素\"，attribute常用于 attribute A to B的结构",
+          "ai_persona_prompt": "Attribute! As in, connecting the BENEFITS of hugging TO the release of oxytocin! It's a cause-and-effect relationship, you nitwit! Learn your vocabulary already!"
+        },
+        {
+          "id": 18,
+          "text": "_18_ it promotes attachment in relationships",
+          "options": {
+            "A": "because",
+            "B": "unless",
+            "C": "though",
+            "D": "until"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "本题考查句内语义逻辑+连词用法。空格后\"它促进亲密关系\"说明的是\"该荷尔蒙对人际关系的积极影响\"，本题分,析后得知空格前为\"专家认为拥抱的积极作用得益于这种荷尔蒙\"，前后很明显为因果关系",
+          "ai_persona_prompt": "BECAUSE it promotes attachment, duh! It's a reason! Oxytocin promotes bonding, THEREFORE it explains the benefits of hugging. Use your logic!"
+        },
+        {
+          "id": 19,
+          "text": "But some of it _19_ in the brain,",
+          "options": {
+            "A": "emerges",
+            "B": "vanishes",
+            "C": "remains",
+            "D": "decreases"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "本题考查 句际语义＋动词用法。 由 some of it...和 But some of i...可知，两句间存在语义的对比转折，因而本句内容应该符合\"一些没有进入血液\"的大逻辑",
+          "ai_persona_prompt": "Remains! As in, some oxytocin STAYS in the brain! The sentence literally says it's still there! Are you reading with your eyes closed?"
+        },
+        {
+          "id": 20,
+          "text": "where it _20_ mood, behavior and physiology.",
+          "options": {
+            "A": "experiences",
+            "B": "combines",
+            "C": "justifies",
+            "D": "influences"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "本题考查句 际语义＋动 词辨析。上文\"拥抱的减压功能得益于催产素的释放\"表明，\"留在大脑中的催产素\"和\"心情、行为和生理机能\"应该是\"影响 VS被影响\"的关系，",
+          "ai_persona_prompt": "Influences! Oxytocin INFLUENCES mood, behavior, and physiology! It affects them! It has an impact! Are you even trying to understand the meaning of these words?"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 1",
+        "q_range": "21-25"
+      },
+      "article": {
+        "paragraphs": [
+          "First two hours, now three hours – this is how far in advance authorities are recommending people show up to catch a domestic flight, at least at some major U.S. airports with increasingly massive security lines.",
+          "Americans are willing to tolerate time-consuming security procedures in return for increased safety. The crash of EgyptAir Flight 804, which terrorists may have downed over the Mediterranean Sea, provides another tragic reminder of why. But demanding too much of air travelers or providing too little security in return undermines public support for the process. And it should: Wasted time is a drag on Americans’ economic and private lives, not to mention infuriating.",
+          "Last year, the Transportation Security Administration (TSA) found in a secret check that undercover investigators were able to sneak weapons – both fake and real – past airport security nearly every time they tried. Enhanced security measures since then, combined with a rise in airline travel due to the improving economy and low oil prices, have resulted in long waits at major airports such as Chicago’s O’Hare International. It is not yet clear how much more effective airline security has become – but the lines are obvious.",
+          "Part of the issue is that the government did not anticipate the steep increase in airline travel, so the TSA is now rushing to get new screeners on the line. Part of the issue is that airports have only so much room for screening lanes. Another factor may be that more people are trying to overpack their carry-on bags to avoid checked-baggage fees, though the airlines strongly dispute this.",
+          "There is one step the TSA could take that would not require remodeling airports or rushing to hire: Enroll more people in the PreCheck program. PreCheck is supposed to be a win-win for travelers and the TSA. Passengers who pass a background check are eligible to use expedited screening lanes. This allows the TSA to focus on travelers who are higher risk, saving time for everyone involved. The TSA wants to enroll 25 million people in PreCheck.",
+          "It has not gotten anywhere close to that, and one big reason is sticker shock: Passengers must pay $85 every five years to process their background checks. Since the beginning, this price tag has been PreCheck’s fatal flaw. Upcoming reforms might bring the price to a more reasonable level. But Congress should look into doing so directly, by helping to finance PreCheck enrollment or to cut costs in other ways.",
+          "The TSA cannot continue diverting resources into underused PreCheck lanes while most of the traveling public suffers in unnecessary lines. It is long past time to make the program work."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "tolerate",
+          "meanings": [
+            "忍受",
+            "容忍"
+          ],
+          "context_match": "Americans are willing to tolerate time-consuming security procedures in return for increased safety."
+        },
+        {
+          "word": "undermine",
+          "meanings": [
+            "削弱",
+            "破坏"
+          ],
+          "context_match": "But demanding too much of air travelers or providing too little security in return undermines public support for the process."
+        },
+        {
+          "word": "expedited",
+          "meanings": [
+            "加速的",
+            "快速的"
+          ],
+          "context_match": "Passengers who pass a background check are eligible to use expedited screening lanes."
+        },
+        {
+          "word": "sticker shock",
+          "meanings": [
+            "标价冲击",
+            "因价格过高而震惊"
+          ],
+          "context_match": "It has not gotten anywhere close to that, and one big reason is sticker shock: Passengers must pay $85 every five years to process their background checks."
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "text": "The crash of EgyptAir Flight 804 is mentioned to",
+          "options": {
+            "A": "explain American’s tolerance of current security checks.",
+            "B": "stress the urgency to strengthen security worldwide.",
+            "C": "highlight the necessity of upgrading major U.S. airports.",
+            "D": "emphasize the importance of privacy protection."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "埃及航空804的坠毁是为了解释美国民众对于现在安检的容忍度。文章第二段提到埃及航空的坠毁是为了说明安检的必要性，因为人们需要安全感，所以可以容忍耗时的安检。",
+          "ai_persona_prompt": "Okay, listen up! The EgyptAir crash? It's there to hammer home why Americans put up with the security circus. They're willing to trade time for safety. Got it? Next question!"
+        },
+        {
+          "id": 22,
+          "text": "Which of the following contributes to long waits at major airports?",
+          "options": {
+            "A": "New restrictions on carry-on bags.",
+            "B": "The declining efficiency of the TSA.",
+            "C": "An increase in the number of travelers.",
+            "D": "Frequent unexpected secret checks."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "导致主要机场长时间等待的原因是旅客人数的增加。文章第三段提到，安检措施的加强，加上由于经济好转和低油价而导致的航空旅行人数增加，导致了主要的机场长时间的等待。",
+          "ai_persona_prompt": "Seriously? The reason for the long lines? More people are flying, genius! Read paragraph three. It's not rocket science, people! Get it right!"
+        },
+        {
+          "id": 23,
+          "text": "The word “expedited” (Line 4, Para. 5) is closest in meaning to",
+          "options": {
+            "A": "quieter.",
+            "B": "cheaper.",
+            "C": "wider.",
+            "D": "faster."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "expedited的意思是“快速的”，在第五段中，文章提到通过背景调查的乘客可以使用快速安检通道，所以选择D。",
+          "ai_persona_prompt": "Expedited? Are you kidding me? It means FASTER! As in, not slow, not quiet, not wide, not cheap. FASTER. Get a dictionary, people!"
+        },
+        {
+          "id": 24,
+          "text": "One problem with the PreCheck program is",
+          "options": {
+            "A": "a dramatic reduction of its scale.",
+            "B": "its wrongly-directed implementation.",
+            "C": "the government’s reluctance to back it.",
+            "D": "an unreasonable price for enrollment."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "预检计划的一个问题是注册价格不合理。文章第六段提到，预检计划的注册价格过高是一个问题，所以导致很多人不愿意注册。",
+          "ai_persona_prompt": "Ugh, PreCheck! The problem? It costs too much! An unreasonable price for enrollment! It's right there in the sixth paragraph! Pay attention!"
+        },
+        {
+          "id": 25,
+          "text": "Which of the following would be the best title for the text?",
+          "options": {
+            "A": "Less Screening for More Safety",
+            "B": "PreCheck – a Belated Solution",
+            "C": "Getting Stuck in Security Lines",
+            "D": "Underused PreCheck Lanes"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "最适合本文的标题是“陷入安检队伍中”。整篇文章都在讨论安检队伍过长的问题，所以C最合适。",
+          "ai_persona_prompt": "Title, people, title! It's about the pain of waiting in those endless security lines! 'Getting Stuck in Security Lines' captures the whole miserable experience. Period!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 2",
+        "q_range": "26-30"
+      },
+      "article": {
+        "paragraphs": [
+          "“The ancient Hawaiians were astronomers,” wrote Queen Liliuokalani, Hawaii’s last reigning monarch, in 1897. Star watchers were among the most esteemed members of Hawaiian society. Sadly, all is not well with astronomy in Hawaii today. Protests have erupted over construction of the Thirty Meter  Telescope (TMT), a giant observatory that promises to revolutionize humanity’s view of the cosmos.",
+          "At issue is the TMT’s planned location on Mauna Kea, a dormant volcano worshiped by some Hawaiians as the piko, that connects the  Hawaiian  Islands  to  the heavens. But Mauna Kea is also home to some of the world’s most powerful telescopes. Rested in the Pacific Ocean, Mauna Kea’s peak rises above the bulk of  our planet’s dense atmosphere, where conditions allow telescopes to obtain  images of unsurpassed clarity.",
+          "Opposition to telescopes on Mauna Kea is nothing new. A small but vocal group of Hawaiians and environmentalists have long viewed their presence as disrespect for sacred land and a painful reminder of the  occupation  of what  was once a sovereign nation.",
+          "Some blame for the current controversy belongs to astronomers. In their eagerness to build bigger telescopes, they  forgot  that  science is  not the only  way  of understanding the world. They did not always  prioritize  the  protection of  Mauna Kea’s fragile ecosystems or its holiness to the island’s inhabitants. Hawaiian culture is not a relic of the past; it is a living culture undergoing a renaissance today.",
+          "Yet science has a cultural history, too, with roots going back to the dawn of civilization. The same curiosity to find what lies beyond the horizon that first  brought early Polynesians to Hawaii’s shores inspires astronomers today to  explore the heavens. Calls to disassemble all telescopes on Mauna Kea or to ban future development there ignore the reality that astronomy and  Hawaiian culture both seek to answer big questions about who we are, where we come from and  where we are going. Perhaps that is why we explore the starry skies, as if answering a primal calling to know ourselves and our true ancestral homes.",
+          "The astronomy community is making compromises to change  its use of  Mauna Kea. The TMT site was chosen to  minimize  the  telescope’s  visibility  around the island and to avoid archaeological and environmental impact. To limit the number of telescopes on Mauna Kea, old ones will be removed  at the end of  their lifetimes and their sites returned to a natural state. There is no reason why everyone cannot be welcomed on Mauna Kea to embrace their cultural heritage  and to study the stars."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "reign",
+          "meanings": [
+            "统治",
+            "当政",
+            "为王"
+          ],
+          "context_match": "Queen Liliuokalani, Hawaii's last reigning monarch"
+        },
+        {
+          "word": "cosmos",
+          "meanings": [
+            "宇宙"
+          ],
+          "context_match": "revolutionize humanity's view of the cosmos"
+        },
+        {
+          "word": "dormant",
+          "meanings": [
+            "休眠的",
+            "暂停活动的"
+          ],
+          "context_match": "Mauna Kea, a dormant volcano"
+        },
+        {
+          "word": "worship",
+          "meanings": [
+            "崇敬",
+            "崇拜（上帝或神）"
+          ],
+          "context_match": "worshiped by some Hawaiians as the piko"
+        },
+        {
+          "word": "unsurpassed",
+          "meanings": [
+            "无比的",
+            "卓绝的",
+            "出类萃的"
+          ],
+          "context_match": "images of unsurpassed clarity"
+        },
+        {
+          "word": "vocal",
+          "meanings": [
+            "大声表达的",
+            "直言不讳的",
+            "激烈地表达意见的"
+          ],
+          "context_match": "a small but vocal group"
+        },
+        {
+          "word": "occupation",
+          "meanings": [
+            "侵占",
+            "占领"
+          ],
+          "context_match": "reminder of the occupation of what was once a sovereign nation"
+        },
+        {
+          "word": "prioritize",
+          "meanings": [
+            "优先考虑【处理】"
+          ],
+          "context_match": "They did not always prioritize the protection"
+        },
+        {
+          "word": "fragile",
+          "meanings": [
+            "脆弱的",
+            "易损坏的"
+          ],
+          "context_match": "Mauna Kea's fragile ecosystems"
+        },
+        {
+          "word": "relic",
+          "meanings": [
+            "遗迹",
+            "遗风",
+            "遗俗"
+          ],
+          "context_match": "not a relic of the past"
+        },
+        {
+          "word": "renaissance",
+          "meanings": [
+            "（某一学科或艺术形式等衰落后的）复兴"
+          ],
+          "context_match": "a living culture undergoing a renaissance today"
+        },
+        {
+          "word": "dawn",
+          "meanings": [
+            "开端"
+          ],
+          "context_match": "roots going back to the dawn of civilization"
+        },
+        {
+          "word": "primal",
+          "meanings": [
+            "原始的",
+            "最初的",
+            "根本的"
+          ],
+          "context_match": "answering a primal calling"
+        },
+        {
+          "word": "compromise",
+          "meanings": [
+            "妥协",
+            "折中",
+            "和解"
+          ],
+          "context_match": "The astronomy community is making compromises"
+        },
+        {
+          "word": "visibility",
+          "meanings": [
+            "可见性",
+            "明显性"
+          ],
+          "context_match": "minimize the telescope's visibility"
+        },
+        {
+          "word": "archaeological",
+          "meanings": [
+            "考古（学）的"
+          ],
+          "context_match": "avoid archaeological and environmental impact"
+        },
+        {
+          "word": "lifetime",
+          "meanings": [
+            "（某物的）使用期限",
+            "寿命"
+          ],
+          "context_match": "removed at the end of their lifetimes"
+        },
+        {
+          "word": "heritage",
+          "meanings": [
+            "遗产（指国家或社会长期形成的历史、传统和特色）"
+          ],
+          "context_match": "embrace their cultural heritage"
+        }
+      ],
+      "questions": [
+        {
+          "id": 26,
+          "text": "Queen Liliuokalani’s remark in Paragraph 1 indicates",
+          "options": {
+            "A": "her conservative view on the historical role of astronomy.",
+            "B": "the importance of astronomy in ancient Hawaiian society.",
+            "C": "the regrettable decline of astronomy in ancient times.",
+            "D": "her appreciation of star watchers’ feats in her time."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第一段中利留卡拉尼女王的言论表明天文学在古代夏威夷社会的重要性。【B】正确。选项是对首段的合理推断，其中 the importance 对应 the most esteemed。其他选项均为干扰。",
+          "ai_persona_prompt": "Alright, listen up! This is a basic inference question. Queen Liliuokalani basically said Hawaiians were into astronomy back in the day. So, what does that TELL you? B, duh! It shows astronomy was a BIG deal in ancient Hawaii. A is just wrong because she wasn’t being conservative, C mixes up time periods, and D is a reach. Get it right next time!"
+        },
+        {
+          "id": 27,
+          "text": "Mauna Kea is deemed as an ideal astronomical site due to",
+          "options": {
+            "A": "its geographical features.",
+            "B": "its protective surroundings.",
+            "C": "its religious implications.",
+            "D": "its existing infrastructure."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "莫纳克亚山因其地理特征被视为一个理想的天文观测场地。题干+正确项是对第二段的合理推断。其他选项均为干扰，偷换概念或者无中生有。",
+          "ai_persona_prompt": "Pay attention, nitwits! Paragraph 2 CLEARLY states Mauna Kea’s peak rises above the atmosphere, allowing for super clear images. What is THAT? Geographical features, genius! So the answer is A. Protective surroundings (B)? Religious implications (C)? Existing infrastructure (D)? Nope, nope, and nope! Read the freakin' passage!"
+        },
+        {
+          "id": 28,
+          "text": "The construction of the TMT is opposed by some locals partly because",
+          "options": {
+            "A": "it may risk ruining their intellectual life.",
+            "B": "it reminds them of a humiliating history.",
+            "C": "their culture will lose a chance of revival.",
+            "D": "they fear losing control of Mauna Kea."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "一些当地人反对建设 TMT 的部分原因是，它让他们回想起屈辱的历史。【B】正确。正确项是对第三段的合理概括. 其他选项均曲解文意。",
+          "ai_persona_prompt": "Ugh, are you even TRYING? Paragraph 3 says that locals view the telescopes as a painful reminder of the occupation. Translation: humiliating history! So B is the answer. A, C, and D are complete garbage. Seriously, it's right there in the passage. Did you even read it?!"
+        },
+        {
+          "id": 29,
+          "text": "It can be inferred from Paragraph 5 that progress in today’s astronomy",
+          "options": {
+            "A": "is fulfilling the dreams of ancient Hawaiians.",
+            "B": "helps spread Hawaiian culture across the world.",
+            "C": "may uncover the origin of Hawaiian culture.",
+            "D": "will eventually soften Hawaiians’ hostility."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "从第五段可以推断，今天天文学取得的进步，正在实现古代夏威夷人的梦想。选项是对第五段主旨的合理引申。其他选项均为过度推断",
+          "ai_persona_prompt": "Alright, brainiacs, let's break this down. Paragraph 5 talks about how astronomy and Hawaiian culture both seek to answer big questions. So, if astronomy progresses, it's basically continuing what ancient Hawaiians started. A, it's fulfilling their dreams! B and C are a bit too far-fetched, and D is wishful thinking. Think deeper, people!"
+        },
+        {
+          "id": 30,
+          "text": "The author’s attitude toward choosing Mauna Kea as the TMT site is one of",
+          "options": {
+            "A": "severe criticism.",
+            "B": "passive acceptance.",
+            "C": "slight hesitancy.",
+            "D": "full approval."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "对选择莫纳克亚山作为 TMT 台址，作者持完全赞同的态度. 由文中的情感色彩以及对天文学的积极态度可以推断。其他选项都是歪曲作者态度。",
+          "ai_persona_prompt": "Seriously? The author is practically drooling over Mauna Kea as the TMT site! Paragraphs 5 and 6 scream support. So the answer is D, full freakin' approval! A, B, and C? Are you kidding me? The author isn't criticizing, accepting passively, or hesitating. It's a love fest for astronomy! Wake up and smell the stardust!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 3",
+        "q_range": "31-35"
+      },
+      "article": {
+        "paragraphs": [
+          "Robert F. Kennedy once said that a country’s GDP measures “everything except that which makes life worthwhile.” With Britain voting to leave the European Union, and GDP already predicted to slow as a result, it is now a timely moment to assess what he was referring to.",
+          "The question of GDP and its usefulness has annoyed policymakers for over half a century. Many argue that it is a flawed concept. It measures things that do not matter and misses things that do. By most recent measures, the UK’s GDP has been the envy of the Western world, with record low unemployment and high growth figures. If everything was going so well, then why did over 17 million people vote for Brexit, despite the warnings about what it could do to their country’s economic prospects?",
+          "A recent annual study of countries and their ability to convert growth into well-being sheds some light on that question. Across the 163 countries measured, the UK is one of the poorest performers in ensuring that economic growth is translated into meaningful improvements for its citizens. Rather than just focusing on GDP, over 40 different sets of criteria from health, education and civil society engagement have been measured to get a more rounded assessment of how countries are performing.",
+          "While all of these countries face their own challenges, there are a number of consistent themes. Yes, there has been a budding economic recovery since the 2008 global crash, but in key indicators in areas such as health and education, major economies have continued to decline. Yet this isn’t the case with all countries. Some relatively poor European countries have seen huge improvements across measures including civil society, income equality and the environment.",
+          "This is a lesson that rich countries can learn: When GDP is no longer regarded as the sole measure of a country’s success, the world looks very different.",
+          "So, what Kennedy was referring to was that while GDP has been the most common method for measuring the economic activity of nations, as a measure, it is no longer enough. It does not include important factors such as environmental quality or education outcomes – all things that contribute to a person’s sense of well-being.",
+          "The sharp hit to growth predicted around the world and in the UK could lead to a decline in the everyday services we depend on for our well-being and for growth. But policymakers who refocus efforts on improving well-being rather than simply worrying about GDP figures could avoid the forecasted doom and may even see progress."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "assess",
+          "meanings": [
+            "评估",
+            "评定"
+          ],
+          "context_match": "it is now a timely moment to assess what he was referring to."
+        },
+        {
+          "word": "flawed",
+          "meanings": [
+            "有缺陷的",
+            "错误的"
+          ],
+          "context_match": "Many argue that it is a flawed concept."
+        },
+        {
+          "word": "prospects",
+          "meanings": [
+            "前景",
+            "可能性"
+          ],
+          "context_match": "warnings about what it could do to their country’s economic prospects"
+        },
+        {
+          "word": "criteria",
+          "meanings": [
+            "标准",
+            "准则"
+          ],
+          "context_match": "over 40 different sets of criteria from health, education and civil society engagement"
+        },
+        {
+          "word": "consistent",
+          "meanings": [
+            "一致的",
+            "连贯的"
+          ],
+          "context_match": "there are a number of consistent themes"
+        },
+        {
+          "word": "sole",
+          "meanings": [
+            "唯一的",
+            "单独的"
+          ],
+          "context_match": "When GDP is no longer regarded as the sole measure of a country’s success"
+        },
+        {
+          "word": "outcomes",
+          "meanings": [
+            "结果",
+            "成果"
+          ],
+          "context_match": "education outcomes"
+        },
+        {
+          "word": "refocus",
+          "meanings": [
+            "重新聚焦",
+            "改变重点"
+          ],
+          "context_match": "policymakers who refocus efforts on improving well-being"
+        }
+      ],
+      "questions": [
+        {
+          "id": 31,
+          "text": "Robert F. Kennedy is cited because he",
+          "options": {
+            "A": "praised the UK for its GDP.",
+            "B": "identified GDP with happiness.",
+            "C": "misinterpreted the role of GDP.",
+            "D": "had a low opinion of GDP."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "罗伯特·F·肯尼迪被引用是因为他对GDP评价低。文章第一段引用肯尼迪的话“GDP衡量一切，除了那些让生活有价值的东西”，这表明他对GDP持否定态度。",
+          "ai_persona_prompt": "Okay, sweetie, Kennedy's quote is there because he thought GDP was basically useless for measuring what REALLY matters – happiness and well-being! Not praising the UK, definitely not equating GDP with joy, and certainly not misunderstanding it. He just thought it was crap. Get it?"
+        },
+        {
+          "id": 32,
+          "text": "It can be inferred from Paragraph 2 that",
+          "options": {
+            "A": "the UK is reluctant to remold its economic pattern.",
+            "B": "GDP as the measure of success is widely defied in the UK.",
+            "C": "the UK will contribute less to the world economy.",
+            "D": "policymakers in the UK are paying less attention to GDP."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "从第二段可以推断出，GDP作为衡量成功的标准在英国受到广泛质疑。第二段提到了英国在GDP数据表现良好的情况下仍然选择脱欧，这暗示了GDP作为衡量标准在英国的有效性受到了质疑。",
+          "ai_persona_prompt": "Honey, paragraph 2 screams that the UK doesn't buy into GDP as the ultimate success metric anymore! Brexit, remember? It's not about being unwilling to change, contributing less, or policymakers ignoring GDP. It's that the people don't think it's a good measure, period! Duh!"
+        },
+        {
+          "id": 33,
+          "text": "Which of the following is true about the recent annual study?",
+          "options": {
+            "A": "It is sponsored by 163 countries.",
+            "B": "It excludes GDP as an indicator.",
+            "C": "Its criteria are questionable.",
+            "D": "Its results are enlightening."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "关于最近的年度研究，以下哪项是正确的？ 它的结果具有启发性。第三段提到该研究“sheds some light on that question”，这表明研究结果具有启发性。",
+          "ai_persona_prompt": "Alright, listen up! The study's all about SHEDDING LIGHT – that's the key! It's not sponsored by a bajillion countries, it DOESN'T exclude GDP completely, and the criteria aren't 'questionable' – they're trying to be MORE comprehensive. The results are ENLIGHTENING, got it? Think 'aha!' moment, not 'huh?'"
+        },
+        {
+          "id": 34,
+          "text": "In the last two paragraphs, the author suggests that",
+          "options": {
+            "A": "the UK is preparing for an economic boom.",
+            "B": "high GDP foreshadows an economic decline.",
+            "C": "it is essential to consider factors beyond GDP.",
+            "D": "it requires caution to handle economic issues."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "最后两段中，作者暗示考虑GDP以外的因素至关重要。最后两段强调了GDP的局限性，并指出应该关注那些能够提升幸福感的因素，如环境质量和教育。",
+          "ai_persona_prompt": "Girl, the last two paragraphs are basically screaming, 'GDP ain't everything!' Not about the UK booming, not about high GDP predicting doom, and not even just being cautious. It's that we HAVE to look beyond GDP! Wellbeing, education, environment – THAT'S where it's at! Wake up!"
+        },
+        {
+          "id": 35,
+          "text": "Which of the following is the best title for the text?",
+          "options": {
+            "A": "High GDP But Inadequate Well-being, a UK Lesson",
+            "B": "GDP Figures, a Window on Global Economic Health",
+            "C": "Robert F. Kennedy, a Terminator of GDP",
+            "D": "Brexit, the UK’s Gateway to Well-being"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "以下哪项是文章的最佳标题？GDP高但福利不足，英国的教训。文章讨论了GDP作为衡量标准的局限性，并以英国为例说明了高GDP并不一定意味着国民幸福。",
+          "ai_persona_prompt": "Okay, drama queen, the best title is the one that captures the WHOLE POINT. It's not just about GDP figures being a window or Kennedy being a terminator, or even Brexit. It's about the UK having a HIGH GDP but still lacking wellbeing, and it's a LESSON for everyone else! Simple!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 4",
+        "q_range": "36-40"
+      },
+      "article": {
+        "paragraphs": [
+          "In a rare unanimous ruling, the US Supreme Court has overturned the corruption conviction of a former Virginia governor, Robert McDonnell. But it did so while holding its nose at the ethics of his conduct, which included accepting gifts such as a Rolex watch and a Ferrari automobile from a company seeking access to government.",
+          "The high court’s decision said the judge in Mr. McDonnell’s trial failed to tell a jury that it must look only at his “official acts,” or the former governor’s decisions on “specific” and “unsettled” issues related to his duties.",
+          "Merely helping a gift-giver gain access to other officials, unless done with clear intent to pressure those officials, is not corruption, the justices found.",
+          "The court did suggest that accepting favors in return for opening doors is “distasteful” and “nasty.” But under anti-bribery laws, proof must be made of concrete benefits, such as approval of a contract or regulation. Simply arranging a meeting, making a phone call, or hosting an event is not an “official act”.",
+          "The court’s ruling is legally sound in defining a kind of favoritism that is not criminal. Elected leaders must be allowed to help supporters deal with bureaucratic problems without fear of prosecution for bribery. “The basic compact underlying representative government,” wrote Chief Justice John Roberts for the court, “assumes that public officials will hear from their constituents and act on their concerns.”",
+          "But the ruling reinforces the need for citizens and their elected representatives, not the courts, to ensure equality of access to government. Officials must not be allowed to play favorites in providing information or in arranging meetings simply because an individual or group provides a campaign donation or a personal gift. This type of integrity requires well-enforced laws in government transparency, such as records of official meetings, rules on lobbying, and information about each elected leader’s source of wealth.",
+          "Favoritism in official access can fan public perceptions of corruption. But it is not always corruption. Rather officials must avoid double standards, or different types of access for average people and the wealthy. If connections can be bought, a basic premise of democratic society – that all are equal in treatment by government – is undermined. Good governance rests on an understanding of the inherent worth of each individual.",
+          "The court’s ruling is a step forward in the struggle against both corruption and official favoritism."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "unanimous",
+          "meanings": [
+            "全體一致的",
+            "一致同意的"
+          ],
+          "context_match": "In a rare unanimous ruling"
+        },
+        {
+          "word": "overturn",
+          "meanings": [
+            "推翻",
+            "撤銷"
+          ],
+          "context_match": "overturned the corruption conviction"
+        },
+        {
+          "word": "contemptuous",
+          "meanings": [
+            "輕蔑的",
+            "鄙視的"
+          ],
+          "context_match": "holding its nose at the ethics"
+        },
+        {
+          "word": "constituent",
+          "meanings": [
+            "選民"
+          ],
+          "context_match": "hear from their constituents"
+        },
+        {
+          "word": "prosecution",
+          "meanings": [
+            "起诉",
+            "控告"
+          ],
+          "context_match": "without fear of prosecution"
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "text": "The underlined sentence (Para.1) most probably shows that the court",
+          "options": {
+            "A": "avoided defining the extent of McDonnell’s duties.",
+            "B": "made no compromise in convicting McDonnell.",
+            "C": "was contemptuous of McDonnell’s conduct.",
+            "D": "refused to comment on McDonnell’s ethics."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "划线句表明最高法院虽然推翻了对麦克唐纳的贪腐定罪，但对其行为表达了明确不满。 holding its nose at the ethics of his conduct 表达了蔑视。",
+          "ai_persona_prompt": "Alright, listen up! 'Holding its nose' isn't exactly a ringing endorsement, is it? The court basically said, 'Yeah, we gotta let him off, but UGH, this guy is gross.' It's all about the subtext, darling. Clearly, they think he's a sleaze."
+        },
+        {
+          "id": 37,
+          "text": "According to Paragraph 4, an official act is deemed corruptive only if it involves",
+          "options": {
+            "A": "leaking secrets intentionally.",
+            "B": "sizable gains in the form of gifts.",
+            "C": "concrete returns for gift-givers.",
+            "D": "breaking contracts officially."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第四段指出，根据反贿赂法，（构成贪腐罪的）证据必须是实实在在的好处，譬如批准某项合同或规定。因此公务人员为送礼者提供切实回报时，才被认为是腐败。",
+          "ai_persona_prompt": "Come on, people! It's not about the size of the bribe, it's about what you DO with it! Giving a wink and a nod? Naughty, but not illegal. Signing off on a sweetheart deal? THAT'S corruption, baby! Follow the money, follow the favors!"
+        },
+        {
+          "id": 38,
+          "text": "The court’s ruling is based on the assumption that public officials are",
+          "options": {
+            "A": "justified in addressing the needs of their constituents.",
+            "B": "qualified to deal independently with bureaucratic issues.",
+            "C": "allowed to focus on the concerns of their supporters.",
+            "D": "exempt from conviction on the charge of favoritism."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第五段③句明确指出，最高法院的裁决基于一种假设，即公职人员有义务倾听选民的需求并据此行事。因此，满足选民需求是合理行为。",
+          "ai_persona_prompt": "Okay, people, this is politics 101! The court is saying politicians are *supposed* to help their people. That's the whole point! But drawing the line between 'helping' and 'bribing' is where it gets tricky. So, help your people, but keep it clean, got it?"
+        },
+        {
+          "id": 39,
+          "text": "Well-enforced laws in government transparency are needed to",
+          "options": {
+            "A": "awaken the conscience of officials.",
+            "B": "guarantee fair play in official access.",
+            "C": "allow for certain kinds of lobbying.",
+            "D": "inspire hopes in average people."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第六段表明，强有力的政府透明度法律规制是为了确保官员接见中的人人平等。防止官员在提供信息或安排接见时有所偏袒。",
+          "ai_persona_prompt": "Transparency is key, people! If everyone can see what's going on, it's harder for the rich and powerful to pull strings in the shadows. It's about leveling the playing field and making sure everyone gets a fair shake. Sunlight is the best disinfectant, after all!"
+        },
+        {
+          "id": 40,
+          "text": "The author's attitude toward the court's ruling is",
+          "options": {
+            "A": "sarcastic.",
+            "B": "tolerant.",
+            "C": "skeptical.",
+            "D": "supportive."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "文章通过legally sound, reinforces, a step forward 等词语表达了作者对裁决的支持态度，认为这项裁决在打击腐败方面有所进步。",
+          "ai_persona_prompt": "Finally, some common sense! The author clearly thinks the court made the right call. They see it as a step in the right direction, even if it's not a perfect solution. It's all about finding the balance between fighting corruption and letting politicians do their jobs."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Part B",
+        "name": "Part B",
+        "q_range": "41-45"
+      },
+      "article": {
+        "paragraphs": [
+          "The first published sketch, “A Dinner at Poplar Walk” brought tears to Dickens’s eyes when he discovered it in the pages of The Monthly Magazine. From then on his sketches, which appeared under the pen name “Boz” in The Evening Chronicle, earned him a modest reputation.",
+          "The runaway success of The Pickwick Papers, as it is generally known today, secured Dickens’s fame. There were Pickwick coats and Pickwick cigars, and the plump, spectacled hero, Samuel Pickwick, became a national figure.",
+          "Soon after Sketches by Boz appeared, a publishing firm approached Dickens to write a story in monthly installments, as a backdrop for a series of woodcuts by the then-famous artist Robert Seymour, who had originated the idea for the story. With characteristic confidence, Dickens successfully insisted that Seymour’s pictures illustrate his own story instead. After the first installment, Dickens wrote to the artist and asked him to correct a drawing Dickens felt was not faithful enough to his prose. Seymour made the change, went into his backyard, and expressed his displeasure by committing suicide. Dickens and his publishers simply pressed on with a new artist. The comic novel, The Posthumous Papers of the Pickwick Club, appeared serially in 1836 and 1837 and was first published in book form in 1837.",
+          "Charles Dickens is probably the best-known and, to many people, the greatest English novelist of the 19th century. A moralist, satirist, and social reformer, Dickens crafted complex plots and striking characters that capture the panorama of English society.",
+          "Soon after his father’s release from prison, Dickens got a better job as errand boy in law offices. He taught himself shorthand to get an even better job later as a court stenographer and as a reporter in Parliament. At the same time, Dickens, who had a reporter’s eye for transcribing the life around him, especially anything comic or odd, submitted short sketches to obscure magazines.",
+          "Dickens was born in Portsmouth, on England’s southern coast. His father was a clerk in the British Navy pay office – a respectable position, but with little social status. His paternal grandparents, a steward and a housekeeper, possessed even less status, having been servants, and Dickens later concealed their background. Dickens’s mother supposedly came from a more respectable family. Yet two years before Dickens’s birth, his mother’s father was caught stealing and fled to Europe, never to return. The family’s increasing poverty forced Dickens out of school at age 12 to work in Warren’s Blacking Warehouse, a shoe-polish factory, where the other working boys mocked him as “the young gentleman.” His father was then imprisoned for debt. The humiliations of his father’s imprisonment and his labor in the blacking factory formed Dickens’s greatest wound and became his deepest secret. He could not confide them even to his wife, although they provide the unacknowledged foundation of his fiction.",
+          "After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he traces an orphan’s progress from the workhouse to the criminal slums of London. Nicholas Nickleby, his next novel, combines the darkness of Oliver Twist with the sunlight of Pickwick. The popularity of these novels consolidated Dickens’ as a nationally and internationally celebrated man of letters."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "sketch",
+          "meanings": [
+            "速写",
+            "草图",
+            "梗概",
+            "幽默小品"
+          ],
+          "context_match": "First published sketch"
+        },
+        {
+          "word": "runaway",
+          "meanings": [
+            "失控的",
+            "飞速发展的",
+            "轻易获胜的"
+          ],
+          "context_match": "runaway success"
+        },
+        {
+          "word": "installment",
+          "meanings": [
+            "分期付款",
+            "（连载的）一期"
+          ],
+          "context_match": "monthly installments"
+        },
+        {
+          "word": "pen name",
+          "meanings": [
+            "笔名",
+            "化名"
+          ],
+          "context_match": "pen name"
+        },
+        {
+          "word": "bleak",
+          "meanings": [
+            "寒冷的",
+            "阴郁的",
+            "凄凉的",
+            "没有希望的"
+          ],
+          "context_match": "bleaker world"
+        }
+      ],
+      "questions": [
+        {
+          "id": 41,
+          "text": "The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.",
+          "options": {},
+          "correct_answer": "F",
+          "analysis_raw": "本题考察段落排序题。已经确定位置的【E】段首句提及重要时间线索\"他父亲从监狱获释后不久\"，可推知上文必定涉及\"他父亲入狱\"的内容;另外首段【D】也已给出，需注意考查所选项能否与【D】顺畅衔接。【F】段主要介绍狄更斯的家庭背景和童年经历，其中第六、七句指出，狄更斯家庭日渐贫困，之后他的父亲因债入狱，在内容上能够与【E】段首句\"他父亲获释\"形成顺畅的叙事顺序;同时，【E】段还提及狄更斯在他父亲获释后获得更好的工作;法律事务所的跑腿，而厂F】段第六句介绍他曾做过鞋油厂受人嘲笑的童工，两者相比，显然前者更好，比较级 a better job as errand boy 所体现的前后比较逻辑成立，故「F】与下文「E】衔接顺畅;从与上文的衔接看，由首段【D】的内容可知，本文是关于狄更斯的传记。传记在引出人物之后，—般以时间顺序介绍人物生平，而【F】段介绍了狄更斯的出生地、家庭背景、童年经历等，符合传记的一般写作顺序，故【F】与上文也能顺畅衔接，敲定为本题答案。",
+          "ai_persona_prompt": "Alright, Sherlock, let's deduce this. Paragraph F gives us the Dickens origin story – impoverished beginnings, imprisoned father. It's the perfect setup for paragraph E, which talks about Dickens getting a better job after his dad's release. It's all about chronological order, my dear Watson!"
+        },
+        {
+          "id": 42,
+          "text": "The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.",
+          "options": {},
+          "correct_answer": "E",
+          "analysis_raw": "本题考察段落排序题。已经确定位置的【A】段首句提及\"狄更斯发表了第一篇随笔\"，故推知上文必定涉及狄更斯开始写随笔并向杂志社投稿的过程。【E】段先介绍了狄更斯早年工作经历，之后指出，在他当议会记者期间，他就注意观察并记录周围生活中的奇闻趣事，写成随笔后开始向不知名的杂志投稿，与「A】段\"第一篇随笔发表\"正好形成\"写稿投稿——发表\"的叙述顺序，逻辑合理，衔接顺畅，故敲定【E】为本题答案。",
+          "ai_persona_prompt": "Elementary, my dear student! E talks about Dickens becoming a reporter and submitting sketches. A then mentions the 'first published sketch.' It's a clear sequence: write, then publish. Can't make it any simpler, can I?"
+        },
+        {
+          "id": 43,
+          "text": "The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.",
+          "options": {},
+          "correct_answer": "A",
+          "analysis_raw": "本题考察段落排序题。已经确定位置的【C】段首句出现明显时间线索，指出\"《博兹札记》面世不久之后，狄更斯开始创作第一部小说\"，故推知上文必定涉及《博兹札记》的创作过程。【A】段指出，第一篇随笔发表之后，狄更斯便开始以笔名 Boz\"博兹\"大规模创作并发表，由关键词 sketches 可知，【C】段中 Sketchesby Boz《博兹札记》是狄更斯所创作的大量随笔的集结汇总，且随笔署名 为 Box，与【A】段所述内容相符，【A】与【C前后能够形成\"大量创作随笔——集结出版面世\"的叙述顺序，符合逻辑，故敲定【A】为本题答案。",
+          "ai_persona_prompt": "It's like piecing together a jigsaw, isn't it? A mentions Dickens' sketches published under 'Boz.' C then talks about 'Sketches by Boz' appearing. It's the natural progression: create, then publish the collection. Duh!"
+        },
+        {
+          "id": 44,
+          "text": "The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.",
+          "options": {},
+          "correct_answer": "C",
+          "analysis_raw": "本题考察段落排序题。已经给定位置的【B】段首句指出\"《匹克威克外传》获得巨大成功，在全国掀起了'匹克威客热'\"，由此推测上文必定介绍该部小说的创作或出版过程。【C】段以大篇幅介绍狄更斯与画家西摩的合作经历，之后点明两人合作故事为《匹克威克俱乐部遗稿》，即《匹克威克外传》，段末补充该故事先以月刊连载、后集结成书，可总结本段主要介绍该部小说的创作和出版过程，与【B】\"该小说出版后读者反响强烈、大获成功\"前后衔接顺畅，故敲定【C】正确。",
+          "ai_persona_prompt": "Oh, come on, even a toddler could see this! C describes the process of writing and publishing 'The Pickwick Papers.' B then jumps in with the 'runaway success' of said papers. Cause and effect, people!"
+        },
+        {
+          "id": 45,
+          "text": "The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.",
+          "options": {},
+          "correct_answer": "G",
+          "analysis_raw": "本题考察段落排序题。已经确定位置的【B】指出，狄更斯的第一部小说大获成功，结合人物传记的行文顺序，后文很可能介绍他后续发表的作品及影响等。【G】首句时间线索词 After Pickwick（继《匹克威客外传》之后）表明本段按时间顺序，继续说明狄更斯的后续创作，指出他后续作品风格阴郁，并以《雾都孤儿》和《尼古拉斯。尼克贝》来例证说明，与上文「B】衔接顺畅;另外，【G】段末句在列举狄更斯 几部重要小说之后，再次肯定评价狄更斯的崇高文学地位，与首段\"总评狄更斯的文学成就\"相照应，全文总体形成\"总——分——总\"的结构，逻辑合理。",
+          "ai_persona_prompt": "Last but not least! G follows 'After Pickwick,' discussing his later works and consolidating his fame. It’s the 'aftermath' paragraph, the logical conclusion to the Dickens saga. Now, off you pop, and get it right this time."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Translation",
+        "name": "Part C",
+        "q_range": "46-50"
+      },
+      "article": {
+        "paragraphs": [
+          "The growth of the use of English as the world’s primary language for international communication has obviously been continuing for several decades.",
+          "But even as the number of English speakers expands further there are signs that the global predominance of the language may fade within the foreseeable future.",
+          "Complex international, economic, technological and cultural changes could start to diminish the leading position of English as the language of the world market, and UK interests which enjoy advantage from the breadth of English usage would consequently face new pressures. Those realistic possibilities are highlighted in the study presented by David Graddol. (47) His analysis should therefore end any self-contentedness among those who may believe that the global position of English is so stable that the young generations of the United Kingdom do not need additional language capabilities.",
+          "David Graddol concludes that monoglot English graduates face a bleak economic future as qualified multilingual youngsters from other countries are proving to have a competitive advantage over their British counterparts in global companies and organisations. Alongside that, (48) many countries are introducing English into the primary-school curriculum but British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages.",
+          "If left to themselves, such trends will diminish the relative strength of the English language in international education markets as the demand for educational resources in languages, such as Spanish, Arabic or Mandarin grows and international business process outsourcing in other languages such as Japanese, French and German, spreads.",
+          "The changes identified by David Graddol all present clear and major challenges to the UK’s providers of English language teaching to people of other countries and to broader education business sectors. (49) The English language teaching sector directly earns nearly ￡1.3 billion for the UK in invisible exports and our other education related exports earn up to ￡10 billion a year more. As the international education market expands, the recent slowdown in the numbers of international students studying in the main English-speaking countries is likely to continue, especially if there are no effective strategic policies to prevent such slippage.",
+          "The anticipation of possible shifts in demand provided by this study is significant: It gives a basis to all organisations which seek to promote the learning and use of English, a basis for planning to meet the possibilities of what could be a very different operating environment. (50) That is a necessary and practical approach. In this as in much else, those who wish to influence the future must prepare for it."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "anticipation",
+          "meanings": [
+            "预测",
+            "期望"
+          ],
+          "context_match": "The anticipation of possible shifts in demand provided by this study is significant."
+        },
+        {
+          "word": "shift",
+          "meanings": [
+            "转变",
+            "转移"
+          ],
+          "context_match": "The anticipation of possible shifts in demand provided by this study is significant."
+        },
+        {
+          "word": "significant",
+          "meanings": [
+            "重要的",
+            "意义重大的"
+          ],
+          "context_match": "The anticipation of possible shifts in demand provided by this study is significant."
+        },
+        {
+          "word": "promote",
+          "meanings": [
+            "促进",
+            "提升"
+          ],
+          "context_match": "It gives a basis to all organisations which seek to promote the learning and use of English"
+        },
+        {
+          "word": "meet",
+          "meanings": [
+            "遇见",
+            "满足",
+            "应对"
+          ],
+          "context_match": "a basis for planning to meet the possibilities"
+        },
+        {
+          "word": "operating",
+          "meanings": [
+            "操作的",
+            "经营的"
+          ],
+          "context_match": "a very different operating environment"
+        },
+        {
+          "word": "approach",
+          "meanings": [
+            "方法",
+            "接近"
+          ],
+          "context_match": "That is a necessary and practical approach."
+        }
+      ],
+      "questions": [
+        {
+          "id": 47,
+          "text": "His analysis should therefore end any self-contentedness among those who may believe that the global position of English is so stable that the young generations of the United Kingdom do not need additional language capabilities.",
+          "options": {},
+          "correct_answer": "因此，他的分析会让一些人再也无法自满，这些人或许认为英语的全球地位十分稳固，从而英国的年轻人无需额外的语言能力。",
+          "analysis_raw": "本句是一个复杂的句子，包含多个从句。主句是His analysis should therefore end any self-contentedness among those。among those后面接了一个定语从句who may believe that the global position of English is so stable that...。so...that结构表示如此...以至于...。翻译时，可以采用顺译法，将定语从句翻译成“那些认为...的人”。",
+          "ai_persona_prompt": "Alright, listen up! This sentence is basically saying Graddol's findings should slap some sense into those smug folks who think English is so untouchable that British kids don't need to bother learning other languages. It's a wake-up call, people! Time to ditch the complacency."
+        },
+        {
+          "id": 48,
+          "text": "many countries are introducing English into the primary-school curriculum but British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages.",
+          "options": {},
+          "correct_answer": "许多国家都在把英语纳入小学课程，英国的大、中、小学生却似乎没有得到更多的鼓励去熟练掌握其他语言。",
+          "analysis_raw": "本句是一个对比句，使用but连接两个分句。many countries are introducing English into the primary-school curriculum是一个主谓宾结构的简单句。but后面的分句British schoolchildren and students do not appear to be gaining greater encouragement to achieve fluency in other languages. 同样是主谓宾结构，be gaining encouragement to do sth表示“得到鼓励去做某事”。",
+          "ai_persona_prompt": "Seriously? While the rest of the world is jumping on the English bandwagon, teaching it in elementary school, the Brits are just sitting there, not even bothering to encourage their own kids to learn other languages? Facepalm. It's like they're actively trying to sabotage their future competitiveness."
+        },
+        {
+          "id": 49,
+          "text": "The English language teaching sector directly earns nearly ￡1.3 billion for the UK in invisible exports and our other education related exports earn up to ￡10 billion a year more.",
+          "options": {},
+          "correct_answer": "向其他国家的人提供英语教学的英国个人和组织机构直接为英国赚取了近13亿英镑的无形出口收入，而我们其他与教育相关的出口每年还能赚取多达100亿英镑。",
+          "analysis_raw": "这是一个并列句，用and连接两个分句。The English language teaching sector directly earns nearly ￡1.3 billion for the UK in invisible exports是主句，主语是The English language teaching sector，谓语是earns，宾语是￡1.3 billion，for the UK和in invisible exports都是状语。and后的分句结构类似。翻译的时候，可以按照顺序翻译。",
+          "ai_persona_prompt": "Okay, let's break it down. The English language teaching industry is raking in almost 1.3 billion pounds in invisible exports, and other education-related stuff brings in another 10 billion. Basically, education is a cash cow for the UK. So why are they risking it by not promoting multilingualism? It's just bad business, innit?"
+        },
+        {
+          "id": 50,
+          "text": "It gives a basis to all organisations which seek to promote the learning and use of English, a basis for planning to meet the possibilities of what could be a very different operating environment. That is a necessary and practical approach. In this as in much else, those who wish to influence the future must prepare for it.",
+          "options": {},
+          "correct_answer": "它为旨在促进英语学习和使用的所有组织机构提供了一个基础，该基础用于规划应对由一种或许会很不一样的运作环境所带来的各种可能。那是一种必要且实际的方式。在这方面以及在其他许多方面一样，那些希望影响未来的人必须为之做好准备。",
+          "analysis_raw": "这是一个复合句。主句是It gives a basis to all organisations。which seek to promote the learning and use of English是定语从句，修饰organisations。a basis for planning to meet the possibilities of what could be a very different operating environment是a basis的同位语，解释说明basis的具体内容。第二句简单，that指代前一句的内容。第三句，In this as in much else是一个插入语，可以翻译成“在这方面以及在其他许多方面一样”。those who wish to influence the future是一个主语从句，must prepare for it是谓语动词。",
+          "ai_persona_prompt": "Right, listen up! This whole thing boils down to this: this study gives organizations a foundation to plan for a potentially very different future in English language education. It's a necessary and practical way to go about it. And like with most things in life, if you want to shape the future, you gotta prepare for it. No excuses!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part A",
+        "q_range": "51"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "You are to write an email to James Cook, a newly-arrived Australian professor, recommending some tourist attractions in your city. Please give reasons for your recommendation.",
+          "You should write neatly on the ANSWER SHEET.",
+          "Do not sign your own name at the end of the email. Use “Li Ming” instead.",
+          "Do not write the address. (10 points)"
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "newly-arrived",
+          "meanings": [
+            "新来的，刚到的"
+          ],
+          "context_match": "描述一位刚到澳大利亚的教授"
+        },
+        {
+          "word": "tourist attractions",
+          "meanings": [
+            "旅游景点"
+          ],
+          "context_match": "推荐旅游景点"
+        },
+        {
+          "word": "recommend",
+          "meanings": [
+            "推荐"
+          ],
+          "context_match": "推荐景点"
+        },
+        {
+          "word": "reasons",
+          "meanings": [
+            "理由，原因"
+          ],
+          "context_match": "给出推荐的理由"
+        }
+      ],
+      "questions": [
+        {
+          "id": 51,
+          "text": "You are to write an email to James Cook, a newly-arrived Australian professor, recommending some tourist attractions in your city. Please give reasons for your recommendation.",
+          "options": {},
+          "correct_answer": "Dear Professor Cook,\n\nWelcome to our city! I hope you're settling in well. I'm writing to recommend some tourist attractions that I think you might enjoy.\n\nFirstly, I highly recommend visiting the Forbidden City. As the former imperial palace, it showcases stunning architecture and a rich history. You can easily spend a whole day exploring its many halls and courtyards.\n\nSecondly, the Great Wall is a must-see. I suggest going to the Mutianyu section, which is less crowded and offers breathtaking views of the surrounding mountains. It's an unforgettable experience.\n\nFinally, for a taste of local life, explore the hutongs. These traditional alleyways are filled with charming shops, restaurants, and teahouses. It's a great way to experience the city's culture.\n\nI hope these suggestions are helpful. Please let me know if you have any questions.\n\nSincerely,\nLi Ming",
+          "analysis_raw": "这篇范文结构清晰，语言流畅，符合邮件格式。首段欢迎并说明目的；主体段落分别推荐了故宫、长城和胡同三个景点，并给出了推荐理由；结尾表达了希望提供帮助的意愿。内容覆盖全面，语言表达得体，是一篇优秀的范文。",
+          "ai_persona_prompt": "Alright, rookie, listen up! This email's decent, but let's pump it up a notch. Ditch the generic 'settling in well' crap. Hit him with a specific anecdote about your city. Think something quirky and memorable. The Forbidden City recommendation is solid, but spice it up with a juicy historical tidbit. Great Wall? Excellent choice, but tell him WHY Mutianyu rocks – less tourists equals more Zen, got it? And those hutongs... don't just say 'charming shops.' Give him a taste, describe the aroma of street food or the sound of a local musician. Make him feel like he's already there. Less politeness, more punch!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part B",
+        "q_range": "52"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "Write an essay of 160-200 words based on the following pictures. In your essay, you should",
+          "describe the pictures briefly,",
+          "interpret the meaning, and",
+          "give your comments.",
+          "You should write neatly on the ANSWER SHEET."
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 52,
+          "text": "Write an essay of 160-200 words based on the following pictures. In your essay, you should describe the pictures briefly, interpret the meaning, and give your comments.",
+          "options": {},
+          "correct_answer": "The two pictures vividly depict contrasting scenarios related to reading. The left picture shows a person surrounded by a pile of books, appearing complacent and idle, seemingly content with merely possessing a collection. By contrast, the right picture portrays a person diligently reading a single book, completely absorbed in its content.\n\nThe pictures illustrate a prevalent phenomenon: the difference between 'having books' and 'reading books'. Many people accumulate books as a status symbol or a decorative item, without truly engaging with the knowledge they contain. This 'book hoarding' is essentially superficial. On the other hand, genuine reading involves active engagement, critical thinking, and a desire for intellectual growth. As the saying goes, 'It is not the number of books you own, but the wisdom you extract from them that matters.' Just as the renowned writer Lin Haiyin, who used to secretly read books in a bookstore due to financial constraints, demonstrates, a thirst for knowledge and consistent effort are more valuable than mere possession.\n\nIn my opinion, we should focus on the substance of reading rather than the appearance of possessing books. True knowledge comes from diligent study and reflection. It is essential to cultivate a genuine interest in learning and to avoid the trap of superficial accumulation. As President Xi Jinping emphasized, 'Empty talk harms the country, hard work makes it flourish.' Only through dedicated effort and a sincere pursuit of knowledge can we achieve personal growth and contribute to the progress of society.",
+          "analysis_raw": "范文点评：\n1. 内容切题：范文紧扣题目要求，清晰描述了图片内容，深刻阐释了“有书”和“读书”的含义，并提出了个人观点。\n2. 结构完整：文章结构清晰，分为描述图片、解释含义和发表评论三个部分，逻辑连贯。\n3. 语言流畅：范文用词准确，句式多样，语言表达流畅自然，符合英语写作规范。\n4. 思想深刻：范文不仅停留在表面描述，更深入探讨了读书的意义和价值，提出了深刻的见解。\n\n写作思路分析：\n1. 描述图片：用简洁明了的语言概括图片内容，抓住图片的主要特征。\n2. 解释含义：从图片入手，引申到社会现象，分析“有书”和“读书”的本质区别，可以结合名言警句或个人经历进行论证。\n3. 发表评论：结合自身实际，谈谈对读书的看法，提出合理建议，呼吁大家注重读书的质量而非数量。",
+          "ai_persona_prompt": "Alright, listen up, you bookworms wannabes! This essay? Not bad, I guess. Decent description, the meaning is kinda there. But, it's all too safe, too predictable. 'Genuine interest in learning'? Groundbreaking. Spice it up! Give me some real passion, some fire! And ditch the cliche quotes. Find something original, something that screams YOU. Otherwise, it's just another cookie-cutter essay destined for the recycling bin. Don't just write, folks. *Engage*!"
+        }
+      ]
+    }
+  ]
+}

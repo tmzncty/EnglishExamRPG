@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英语考试 RPG - ACG & AI Enhanced</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme-acg.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+</head>
+<body class="acg-theme">
+    <div id="app">
+        <!-- ==================== 开始界面 ==================== -->
+        <div id="start-screen" class="screen active">
+            <h1><i class="ph-duotone ph-books"></i> 英语考试 RPG</h1>
+            <h2>ACG & AI Enhanced Edition</h2>
+            
+            <div class="year-selector-container" style="margin: 20px 0;">
+                <label for="year-select" style="margin-right: 10px; font-weight: bold; color: var(--text-primary);">选择年份:</label>
+                <select id="year-select" style="padding: 8px 15px; border-radius: 8px; border: 2px solid var(--primary-color); background: var(--bg-secondary); color: var(--text-primary); font-size: 1rem; cursor: pointer;">
+                    <!-- Options populated by JS -->
+                </select>
+            </div>
+
+            <p><span id="selected-year-display">2010</span>年考研真题 · 共 <span id="total-questions">0</span> 道题目</p>
+            
+            <div class="start-buttons">
+                <button id="start-btn" class="btn-primary"><i class="ph-duotone ph-game-controller"></i> 开始答题</button>
+                <button id="continue-btn" class="btn-secondary" style="display: none;"><i class="ph-duotone ph-bookmark-simple"></i> 继续上次</button>
+                <button id="vocab-btn" class="btn-secondary"><i class="ph-duotone ph-notebook"></i> 单词本</button>
+                <button id="settings-btn" class="btn-icon" title="设置"><i class="ph-duotone ph-gear"></i></button>
+            </div>
+
+            <!-- 快速统计 -->
+            <div class="start-stats" style="margin-top: 40px;">
+                <div class="player-info" style="justify-content: center;">
+                    <span class="player-level">Lv.1</span>
+                    <span class="player-title">四级萌新</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 答题界面 ==================== -->
+        <div id="exam-screen" class="screen">
+            <!-- 游戏化 HUD -->
+            <div class="game-hud">
+                <div class="hud-left">
+                    <!-- HP 条 -->
+                    <div class="stat-bar hp">
+                        <span class="icon"><i class="ph-duotone ph-heart"></i></span>
+                        <div class="bar">
+                            <div class="bar-fill" style="width: 100%;"></div>
+                        </div>
+                        <span class="value">100/100</span>
+                    </div>
+                    <!-- EXP 条 -->
+                    <div class="stat-bar exp">
+                        <span class="icon"><i class="ph-duotone ph-star"></i></span>
+                        <div class="bar">
+                            <div class="bar-fill" style="width: 0%;"></div>
+                        </div>
+                        <span class="value">0/100</span>
+                    </div>
+                </div>
+                <div class="hud-right">
+                    <div class="player-info">
+                        <span class="player-level">Lv.1</span>
+                        <span class="player-title">四级萌新</span>
+                    </div>
+                    <button id="settings-btn-exam" class="btn-icon" onclick="UIEffects.openSettings()"><i class="ph-duotone ph-gear"></i></button>
+                </div>
+            </div>
+
+            <!-- 主答题区域 -->
+            <div class="exam-container">
+                <!-- 左侧：文章区 -->
+                <div class="article-panel">
+                    <div class="panel-header">
+                        <span id="section-name">Section</span>
+                        <span style="font-size: 0.85rem; opacity: 0.8;"><i class="ph-duotone ph-lightbulb"></i> 选中文本可获取 AI 解释</span>
+                    </div>
+                    <div class="article-content" id="article-content">
+                        <!-- 文章内容 -->
+                    </div>
+                </div>
+
+                <!-- 右侧：题目区 -->
+                <div class="question-panel">
+                    <div class="panel-header">
+                        <div>
+                            <span>题目 <span id="current-q">1</span>/<span id="total-q">20</span></span>
+                            <span style="margin-left: 15px; color: var(--accent-gold);"><i class="ph-duotone ph-timer"></i> <span id="exam-timer">00:00</span></span>
+                        </div>
+                        <button class="question-selector-btn" onclick="App.openQuestionSelector()"><i class="ph-duotone ph-list-numbers"></i> 选题</button>
+                    </div>
+                    
+                    <div class="question-content">
+                        <div class="question-text" id="question-text">
+                            <!-- 题目文本 -->
+                        </div>
+                        
+                        <div class="options" id="options">
+                            <!-- 选项按钮 -->
+                        </div>
+                    </div>
+
+                    <div class="feedback" id="feedback">
+                        <!-- 答题反馈 -->
+                    </div>
+
+                    <div class="nav-buttons">
+                        <button id="prev-btn" class="btn-secondary" disabled><i class="ph-bold ph-arrow-left"></i> 上一题</button>
+                        <button id="next-btn" class="btn-primary" disabled>下一题 <i class="ph-bold ph-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 结果界面 ==================== -->
+        <div id="result-screen" class="screen">
+            <h1><i class="ph-duotone ph-confetti"></i> 答题完成！</h1>
+            <div class="result-stats">
+                <p><i class="ph-duotone ph-pencil-simple"></i> 总题数: <span id="result-total">0</span></p>
+                <p><i class="ph-duotone ph-check-circle"></i> 正确: <span id="result-correct">0</span></p>
+                <p><i class="ph-duotone ph-chart-pie-slice"></i> 正确率: <span id="result-rate">0%</span></p>
+            </div>
+            <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <button id="restart-btn" class="btn-primary"><i class="ph-duotone ph-arrow-counter-clockwise"></i> 重新开始</button>
+                <button id="review-btn" class="btn-secondary"><i class="ph-duotone ph-book-open"></i> 查看错题</button>
+                <button onclick="App.showScreen(App.elements.startScreen)" class="btn-secondary"><i class="ph-duotone ph-house"></i> 返回主页</button>
+            </div>
+        </div>
+
+        <!-- ==================== 单词本界面 ==================== -->
+        <div id="vocab-screen" class="screen">
+            <div class="vocab-header">
+                <h2><i class="ph-duotone ph-notebook"></i> 单词本</h2>
+                <button class="btn-icon" onclick="App.showScreen(App.elements.startScreen)"><i class="ph-bold ph-x"></i></button>
+            </div>
+            
+            <!-- 单词本标签页 -->
+            <div class="vocab-tabs">
+                <button class="vocab-tab active" data-tab="my-words"><i class="ph-duotone ph-bookmarks"></i> 我的生词 (<span id="vocab-count">0</span>)</button>
+                <button class="vocab-tab" data-tab="word-books"><i class="ph-duotone ph-books"></i> 词书</button>
+                <button class="vocab-tab" data-tab="study"><i class="ph-duotone ph-brain"></i> 背单词</button>
+            </div>
+
+            <!-- 我的生词 -->
+            <div class="vocab-content" id="tab-my-words">
+                <div class="vocab-toolbar">
+                    <input type="text" id="vocab-search" placeholder="🔍 搜索单词...">
+                    <button class="btn-small" onclick="VocabUI.exportVocabulary()"><i class="ph-duotone ph-export"></i> 导出</button>
+                </div>
+                <div class="vocab-list" id="vocab-list">
+                    <!-- 动态生成 -->
+                </div>
+            </div>
+
+            <!-- 词书 -->
+            <div class="vocab-content" id="tab-word-books" style="display: none;">
+                <div class="vocab-toolbar">
+                    <button class="btn-primary btn-small" onclick="VocabUI.showImportDialog()"><i class="ph-duotone ph-download-simple"></i> 导入词书 (CSV)</button>
+                </div>
+                <div class="word-books-list" id="word-books-list">
+                    <!-- 动态生成 -->
+                </div>
+                <div class="word-book-info" style="margin-top: 20px; padding: 15px; background: rgba(0,0,0,0.2); border-radius: 10px;">
+                    <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                        💡 支持导入 <a href="https://github.com/busiyiworld/maimemo-export" target="_blank" style="color: var(--accent-primary);">maimemo-export</a> 格式的词书 CSV 文件<br>
+                        推荐词书：2025考研英语7000词.csv
+                    </p>
+                </div>
+            </div>
+
+            <!-- 背单词 -->
+            <div class="vocab-content" id="tab-study" style="display: none;">
+                <div class="study-options" id="study-options">
+                    <h3>选择学习内容</h3>
+                    <div class="study-option" onclick="VocabUI.startStudy('vocabulary')">
+                        <span class="study-icon"><i class="ph-duotone ph-bookmarks"></i></span>
+                        <div>
+                            <strong>复习生词本</strong>
+                            <p>复习收藏的生词，优先复习不熟悉的</p>
+                        </div>
+                    </div>
+                    <div id="study-book-options">
+                        <!-- 词书学习选项动态生成 -->
+                    </div>
+                </div>
+                
+                <!-- 学习卡片 -->
+                <div class="study-card" id="study-card" style="display: none;">
+                    <div class="card-progress">
+                        <span id="study-progress">1/20</span>
+                        <span id="study-score">✅ 0 | ❌ 0</span>
+                    </div>
+                    <div class="card-word" id="card-word">word</div>
+                    <div class="card-phonetic" id="card-phonetic">/wɜːrd/</div>
+                    <div class="card-translation" id="card-translation" style="display: none;">单词</div>
+                    <div class="card-actions">
+                        <button class="btn-secondary" onclick="VocabUI.showAnswer()"><i class="ph-duotone ph-eye"></i> 显示答案</button>
+                        <button class="btn-primary" onclick="VocabUI.askAI()" id="ai-explain-btn"><i class="ph-duotone ph-robot"></i> AI 讲解</button>
+                    </div>
+                    <div class="card-result" id="card-result" style="display: none;">
+                        <button class="btn-wrong" onclick="VocabUI.recordResult(false)"><i class="ph-bold ph-x"></i> 不认识</button>
+                        <button class="btn-correct" onclick="VocabUI.recordResult(true)"><i class="ph-bold ph-check"></i> 认识</button>
+                    </div>
+                </div>
+                
+                <!-- 学习结果 -->
+                <div class="study-result" id="study-result" style="display: none;">
+                    <h3><i class="ph-duotone ph-confetti"></i> 学习完成！</h3>
+                    <div class="result-stats">
+                        <p><i class="ph-duotone ph-pencil-simple"></i> 学习单词: <span id="study-total">0</span></p>
+                        <p><i class="ph-duotone ph-check-circle"></i> 认识: <span id="study-correct">0</span></p>
+                        <p><i class="ph-duotone ph-chart-pie-slice"></i> 正确率: <span id="study-rate">0%</span></p>
+                    </div>
+                    <button class="btn-primary" onclick="VocabUI.resetStudy()">继续学习</button>
+                </div>
+            </div>
+
+            <!-- AI 讲解弹窗 -->
+            <div class="ai-modal" id="ai-modal" style="display: none;">
+                <div class="ai-modal-content">
+                    <div class="ai-modal-header">
+                        <h3><i class="ph-duotone ph-robot"></i> AI 单词讲解</h3>
+                        <button class="btn-icon" onclick="VocabUI.closeAIModal()"><i class="ph-bold ph-x"></i></button>
+                    </div>
+                    <div class="ai-modal-body" id="ai-modal-body">
+                        <div class="loading">分析中...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 导入词书弹窗 -->
+            <div class="import-modal" id="import-modal" style="display: none;">
+                <div class="import-modal-content">
+                    <h3><i class="ph-duotone ph-download-simple"></i> 导入词书</h3>
+                    <input type="text" id="book-name-input" placeholder="词书名称（可选）">
+                    <input type="file" id="csv-file-input" accept=".csv">
+                    <div style="display: flex; gap: 10px; margin-top: 15px;">
+                        <button class="btn-secondary" onclick="VocabUI.hideImportDialog()">取消</button>
+                        <button class="btn-primary" onclick="VocabUI.importWordBook()">导入</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 题目选择器 ==================== -->
+        <div class="question-selector-overlay" id="question-selector-overlay" onclick="App.closeQuestionSelector(event)">
+            <div class="question-selector" onclick="event.stopPropagation()">
+                <div class="question-selector-header">
+                    <h3><i class="ph-duotone ph-list-numbers"></i> 选择题目</h3>
+                    <button class="btn-icon" onclick="App.closeQuestionSelector()"><i class="ph-bold ph-x"></i></button>
+                </div>
+                <div id="question-selector-content">
+                    <!-- 动态生成题目网格 -->
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== 游戏结束覆盖层 ==================== -->
+        <div class="game-over-overlay">
+            <div class="game-over-text">💀 GAME OVER</div>
+            <div class="game-over-subtext">HP 归零了！休息一下再来吧~</div>
+            <button class="btn-primary"><i class="ph-duotone ph-arrow-counter-clockwise"></i> 重新挑战</button>
+        </div>
+
+        <!-- ==================== 设置面板 ==================== -->
+        <div class="settings-overlay"></div>
+        <div class="settings-panel">
+            <div class="settings-header">
+                <h3><i class="ph-duotone ph-gear"></i> 设置</h3>
+                <button class="btn-icon" onclick="UIEffects.closeSettings()"><i class="ph-bold ph-x"></i></button>
+            </div>
+            <div class="settings-body">
+                <!-- AI 设置 -->
+                <div class="settings-section">
+                    <h4><i class="ph-duotone ph-robot"></i> AI 功能 (Gemini)</h4>
+                    <div class="settings-item">
+                        <label for="apiKeyInput">API Key</label>
+                        <input type="password" id="apiKeyInput" placeholder="输入你的 Gemini API Key">
+                        <p style="font-size: 0.8rem; color: #95a5a6; margin-top: 5px;">
+                            Key 仅保存在本地，不会上传到任何服务器
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 主题设置 -->
+                <div class="settings-section">
+                    <h4><i class="ph-duotone ph-palette"></i> 外观</h4>
+                    <div class="settings-item">
+                        <label for="themeSelect">主题风格</label>
+                        <select id="themeSelect" style="width: 100%; padding: 10px; background: rgba(0,0,0,0.2); border: 1px solid #4a6278; border-radius: 8px; color: white;">
+                            <option value="acg">🌸 二次元风格</option>
+                            <option value="default">📘 经典风格</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- 云端同步 (WebDAV) -->
+                <div class="settings-section">
+                    <h4><i class="ph-duotone ph-cloud"></i> 云端同步 (WebDAV)</h4>
+                    <p style="font-size: 0.8rem; color: #95a5a6; margin-bottom: 10px;">
+                        配置 WebDAV 以在多端同步进度 (支持坚果云等)
+                    </p>
+                    <div class="settings-item">
+                        <label for="webdavUrl">服务器地址 (URL)</label>
+                        <input type="text" id="webdavUrl" placeholder="https://dav.jianguoyun.com/dav/" style="width: 100%; padding: 8px; background: rgba(0,0,0,0.2); border: 1px solid #4a6278; border-radius: 8px; color: white;">
+                    </div>
+                    <div class="settings-item">
+                        <label for="webdavUser">账号</label>
+                        <input type="text" id="webdavUser" placeholder="WebDAV 账号" style="width: 100%; padding: 8px; background: rgba(0,0,0,0.2); border: 1px solid #4a6278; border-radius: 8px; color: white;">
+                    </div>
+                    <div class="settings-item">
+                        <label for="webdavPassword">密码 / 应用授权码</label>
+                        <input type="password" id="webdavPassword" placeholder="WebDAV 密码" style="width: 100%; padding: 8px; background: rgba(0,0,0,0.2); border: 1px solid #4a6278; border-radius: 8px; color: white;">
+                    </div>
+                    <div style="display: flex; gap: 10px; margin-top: 10px;">
+                        <button id="cloudUploadBtn" class="btn-secondary btn-small" style="flex: 1;">
+                            <i class="ph-duotone ph-upload-simple"></i> 上传进度
+                        </button>
+                        <button id="cloudDownloadBtn" class="btn-secondary btn-small" style="flex: 1;">
+                            <i class="ph-duotone ph-download-simple"></i> 下载进度
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 存档管理 -->
+                <div class="settings-section">
+                    <h4><i class="ph-duotone ph-floppy-disk"></i> 存档管理</h4>
+                    <div style="display: flex; gap: 10px;">
+                        <button id="exportSaveBtn" class="btn-secondary btn-small" style="flex: 1;">
+                            <i class="ph-duotone ph-export"></i> 导出存档
+                        </button>
+                        <button id="importSaveBtn" class="btn-secondary btn-small" style="flex: 1;">
+                            <i class="ph-duotone ph-download-simple"></i> 导入存档
+                        </button>
+                    </div>
+                    <input type="file" id="importFileInput" accept=".json" style="display: none;">
+                </div>
+
+                <!-- 保存按钮 -->
+                <div class="settings-section">
+                    <button id="saveSettingsBtn" class="btn-primary" style="width: 100%;">
+                        <i class="ph-duotone ph-floppy-disk"></i> 保存设置
+                    </button>
+                </div>
+
+                <!-- 关于 -->
+                <div class="settings-section" style="border-top: 1px solid #4a6278; padding-top: 20px;">
+                    <h4><i class="ph-duotone ph-info"></i> 关于</h4>
+                    <p style="font-size: 0.85rem; color: #95a5a6; line-height: 1.6;">
+                        英语考试 RPG - ACG & AI Enhanced Edition<br>
+                        将枯燥的刷题游戏化，AI 辅助学习更高效<br>
+                        <br>
+                        开源项目 · 纯前端运行 · 数据本地存储
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 脚本加载 -->
+    <!-- 应用模块 -->
+    <script src="js/storage-manager.js"></script>
+    <script src="js/gemini-service.js"></script>
+    <script src="js/ui-effects.js"></script>
+    <script src="js/background-manager.js"></script>
+    <script src="js/vocabulary-manager.js"></script>
+    <script src="js/vocab-ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

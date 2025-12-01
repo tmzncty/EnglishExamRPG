@@ -1,0 +1,1084 @@
+{
+  "meta": {
+    "year": 2020,
+    "exam_type": "English I"
+  },
+  "sections": [
+    {
+      "section_info": {
+        "type": "Use of English",
+        "name": "Section I",
+        "q_range": "1-20"
+      },
+      "article": {
+        "paragraphs": [
+          "Even if families don’t sit down to eat together as frequently as before, millions of Britons will nonetheless have got a share this weekend of one of that nation’s great traditions:the Sunday roast. _1_ a cold winter’s day, few culinary pleasures can _2_ it. Yet as we report now, the food police are determined that this _3_ should be rendered yet another guilty pleasure _4_ to damage our health.",
+          "The Food Standards Authority (FSA) has _5_ a public warning about the risks of a compound called acrylamide that forms in some foods cooked _6_ high temperatures. This means that people should _7_ crisping their roast potatoes, reject thin- crust pizzas and only _8_ toast their bread.But where is the evidence to support such alarmist advice? _9_ studies have shown that acrylamide can cause neurological damage in mice, there is no _10_ evidence that it causes cancer in humans.",
+          "Scientists say the compound is _11_ to cause cancer but have no hard scientific proof _12_ the precautionary principle, it could be argued that it is _13_ to follow the FSA advice. _14_, it was rumoured that smoking caused cancer for years before the evidence was found to prove a _15_.",
+          "Doubtless a piece of boiled beef can always be _16_ up on Sunday alongside some steamed vegetables, without the Yorkshire pudding and no wine. But would life be worth living? _17_, the FSA says it is not telling people to cut out roast foods _18_,but to reduce their lifetime intake. However, their _19_ risks coming a cross as being pushy and overprotective.Constant health scares just _20_ with one listening."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "nonetheless",
+          "meanings": [
+            "adv. 尽管如此",
+            "adv. 然而"
+          ],
+          "context_match": "millions of Britons will nonetheless have got a share"
+        },
+        {
+          "word": "culinary",
+          "meanings": [
+            "adj. 烹饪的",
+            "adj. 厨房的"
+          ],
+          "context_match": "few culinary pleasures can match it"
+        },
+        {
+          "word": "render",
+          "meanings": [
+            "v. 使成为",
+            "v. 提供",
+            "v. 翻译"
+          ],
+          "context_match": "this should be rendered yet another guilty pleasure"
+        },
+        {
+          "word": "acrylamide",
+          "meanings": [
+            "n. 丙烯酰胺"
+          ],
+          "context_match": "a compound called acrylamide"
+        },
+        {
+          "word": "neurological",
+          "meanings": [
+            "adj. 神经学的"
+          ],
+          "context_match": "neurological damage in mice"
+        },
+        {
+          "word": "alarmist",
+          "meanings": [
+            "adj. 杞人忧天的",
+            "adj. 危言耸听的"
+          ],
+          "context_match": "support such alarmist advice"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "text": "[A] In [B] Towards [C] On [D] Till",
+          "options": {
+            "A": "In",
+            "B": "Towards",
+            "C": "On",
+            "D": "Till"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "On a cold winter's day 在一个寒冷的冬日。此处考查介词的用法，on指在特定的某一天。",
+          "ai_persona_prompt": "Alright, listen up! 'In' is too broad, 'towards' implies approaching, 'till' means until. We're talking about a specific day, a 'cold winter's day', so the correct preposition is 'on'! Got it?"
+        },
+        {
+          "id": 2,
+          "text": "[A] match [B] express [C] satisfy [D] influence",
+          "options": {
+            "A": "match",
+            "B": "express",
+            "C": "satisfy",
+            "D": "influence"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "few culinary pleasures can match it 很少有烹饪的乐趣能与之相比。match表示匹敌，符合语境。",
+          "ai_persona_prompt": "Ugh, this is too easy. 'Express'? We're not talking about feelings here. 'Satisfy'? It's not about needs. 'Influence'? Nope. 'Match' means to be equal or similar, which is what we want. 'Few pleasures can MATCH it.' Duh!"
+        },
+        {
+          "id": 3,
+          "text": "[A] patience [B] enjoyment [C] surprise [D] concern",
+          "options": {
+            "A": "patience",
+            "B": "enjoyment",
+            "C": "surprise",
+            "D": "concern"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "the food police are determined that this enjoyment should be rendered yet another guilty pleasure 食物警察决心将这种乐趣视为另一种有罪的快乐。此空应填入与pleasure相近的词，所以选择enjoyment。",
+          "ai_persona_prompt": "Seriously? 'Patience'? 'Surprise'? 'Concern'? Come on! We're talking about something pleasurable that the 'food police' want to ruin. 'Enjoyment' is the only one that makes sense. Stop overthinking!"
+        },
+        {
+          "id": 4,
+          "text": "[A] intensified [B] privileged [C] compelled [D] guaranteed",
+          "options": {
+            "A": "intensified",
+            "B": "privileged",
+            "C": "compelled",
+            "D": "guaranteed"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "another guilty pleasure guaranteed to damage our health 另一种有罪的快乐，注定会损害我们的健康。guaranteed表示保证，符合语境。",
+          "ai_persona_prompt": "Are you kidding me? 'Intensified' pleasure? 'Privileged' pleasure? This isn't some fancy party! It's about food! The correct answer is 'guaranteed' because it's certain to damage your health, according to them. Wake up!"
+        },
+        {
+          "id": 5,
+          "text": "[A] issued [B] received [C] ignored [D] cancelled",
+          "options": {
+            "A": "issued",
+            "B": "received",
+            "C": "ignored",
+            "D": "cancelled"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "The Food Standards Authority (FSA) has issued a public warning 食品标准管理局发布了一项公共警告。issue表示发布，符合语境。",
+          "ai_persona_prompt": "Hello! Agencies 'issue' warnings, they don't 'receive', 'ignore', or 'cancel' them (unless they're incompetent). So, the answer is 'issued'. Keep it simple!"
+        },
+        {
+          "id": 6,
+          "text": "[A] under [B] at [C] for [D] by",
+          "options": {
+            "A": "under",
+            "B": "at",
+            "C": "for",
+            "D": "by"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "foods cooked at high temperatures 在高温下烹饪的食物。at表示在某种条件下，符合语境。",
+          "ai_persona_prompt": "'Under' high temperatures? You mean buried? 'For' high temperatures? What? 'By' high temperatures? As if food cooks itself. It's 'at' high temperatures, indicating the level. Pay attention!"
+        },
+        {
+          "id": 7,
+          "text": "[A] forget [B] regret [C] finish [D] avoid",
+          "options": {
+            "A": "forget",
+            "B": "regret",
+            "C": "finish",
+            "D": "avoid"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "people should avoid crisping their roast potatoes 人们应该避免把烤土豆烤脆。avoid表示避免，符合语境。",
+          "ai_persona_prompt": "Come on, guys! 'Forget' crisping? Are you going to forget how to make crispy potatoes? 'Regret' it after eating? 'Finish' making them? No! You should 'avoid' doing it in the first place! Use your brains!"
+        },
+        {
+          "id": 8,
+          "text": "[A] partially [B] regularly [C] easily [D] initially",
+          "options": {
+            "A": "partially",
+            "B": "regularly",
+            "C": "easily",
+            "D": "initially"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "only partially toast their bread 只是稍微烤一下他们的面包。partially表示部分地，符合语境。",
+          "ai_persona_prompt": "'Regularly' toast? So, burn it every day? 'Easily' toast? As opposed to struggling with it? 'Initially' toast? What about later? It's 'partially' – just a little bit, not all the way. Simple, isn't it?"
+        },
+        {
+          "id": 9,
+          "text": "[A] Unless [B] Since [C] If [D] While",
+          "options": {
+            "A": "Unless",
+            "B": "Since",
+            "C": "If",
+            "D": "While"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "While studies have shown that acrylamide can cause neurological damage in mice, there is no conclusive evidence that it causes cancer in humans. 虽然研究表明丙烯酰胺会导致老鼠的神经损伤，但没有确凿的证据表明它会导致人类患癌症。while表示转折，符合语境。",
+          "ai_persona_prompt": "Is everyone asleep? 'Unless'…? 'Since'…? 'If'…? Those are conditional. We need a contrast here. Mice get damaged, but humans... maybe not. 'While' shows that contrast. Pay attention!"
+        },
+        {
+          "id": 10,
+          "text": "[A] secondary [B] external [C] conclusive [D] negative",
+          "options": {
+            "A": "secondary",
+            "B": "external",
+            "C": "conclusive",
+            "D": "negative"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "there is no conclusive evidence that it causes cancer in humans. 没有确凿的证据表明它会导致人类患癌症。conclusive表示结论性的，确凿的，符合语境。",
+          "ai_persona_prompt": "'Secondary' evidence? So, it's not important? 'External' evidence? Evidence from Mars? 'Negative' evidence? That proves it doesn't! We need 'conclusive' evidence, a definite answer, which we don't have. Use your common sense!"
+        },
+        {
+          "id": 11,
+          "text": "[A] insufficient [B] bound [C] likely [D] slow",
+          "options": {
+            "A": "insufficient",
+            "B": "bound",
+            "C": "likely",
+            "D": "slow"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "Scientists say the compound is likely to cause cancer 科学家说这种化合物可能致癌。likely表示可能，符合语境。",
+          "ai_persona_prompt": "Ugh, another easy one. 'Insufficient' to cause cancer? So, it doesn't? 'Bound' to cause cancer? Certain to? 'Slow' to cause cancer? It takes its time? 'Likely' is the right answer, showing possibility. You guys are killing me with these basic questions!"
+        },
+        {
+          "id": 12,
+          "text": "[A] On the basis of [B] At the cost of [C] In addition to [D] In contrast to",
+          "options": {
+            "A": "On the basis of",
+            "B": "At the cost of",
+            "C": "In addition to",
+            "D": "In contrast to"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "On the basis of the precautionary principle, it could be argued that it is advisable to follow the FSA advice. 基于预防原则，可以认为听从FSA的建议是明智的。on the basis of表示基于，符合语境。",
+          "ai_persona_prompt": "'At the cost of' the principle? 'In addition to' the principle? 'In contrast to' the principle? What are you even saying? It's 'on the basis of' the principle, meaning it's based on it! Can you guys even read?"
+        },
+        {
+          "id": 13,
+          "text": "[A] interesting [B] advisable [C] urgent [D] fortunate",
+          "options": {
+            "A": "interesting",
+            "B": "advisable",
+            "C": "urgent",
+            "D": "fortunate"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "it could be argued that it is advisable to follow the FSA advice 可以认为听从FSA的建议是明智的。advisable表示明智的，符合语境。",
+          "ai_persona_prompt": "'Interesting' to follow? Like it's a hobby? 'Urgent' to follow? Like it's an emergency? 'Fortunate' to follow? Like you're lucky? 'Advisable' means it's a good idea. Think before you answer!"
+        },
+        {
+          "id": 14,
+          "text": "[A] As usual [B] In particular [C] By definition [D] After all",
+          "options": {
+            "A": "As usual",
+            "B": "In particular",
+            "C": "By definition",
+            "D": "After all"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "After all, it was rumoured that smoking caused cancer for years before the evidence was found to prove a connection. 毕竟，吸烟致癌的说法流传多年之后，才找到证据证明两者之间的联系。after all表示毕竟，符合语境。",
+          "ai_persona_prompt": "'As usual'? What usual? 'In particular'? What's so special? 'By definition'? Are we in a dictionary? 'After all' means consider this, which is what the author is doing. Get with the program!"
+        },
+        {
+          "id": 15,
+          "text": "[A] resemblance [B] combination [C] connection [D] pattern",
+          "options": {
+            "A": "resemblance",
+            "B": "combination",
+            "C": "connection",
+            "D": "pattern"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "the evidence was found to prove a connection 找到证据证明两者之间的联系。connection表示联系，符合语境。",
+          "ai_persona_prompt": "'Resemblance'? Like smoking looks like cancer? 'Combination'? Like they mix together? 'Pattern'? Like a fashion trend? It's a 'connection'! Cause and effect! Simple vocabulary, people!"
+        },
+        {
+          "id": 16,
+          "text": "[A] made [B] served [C] saved [D] used",
+          "options": {
+            "A": "made",
+            "B": "served",
+            "C": "saved",
+            "D": "used"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "Doubtless a piece of boiled beef can always be served up on Sunday 一块煮牛肉总是可以在周日端上来的。serve up表示端上来，符合语境。",
+          "ai_persona_prompt": "'Made' up? Like the beef is fake? 'Saved' up? Like it's been hoarding beef? 'Used' up? Like it's already been eaten? No, you 'serve up' food! It's basic English!"
+        },
+        {
+          "id": 17,
+          "text": "[A] To be fair [B] For instance [C] To be brief [D] In general",
+          "options": {
+            "A": "To be fair",
+            "B": "For instance",
+            "C": "To be brief",
+            "D": "In general"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "To be fair, the FSA says it is not telling people to cut out roast foods. 公平地说，FSA说它并没有告诉人们要停止吃烤制食物。to be fair表示公平地说，符合语境。",
+          "ai_persona_prompt": "'For instance'? Is the author giving an example? 'To be brief'? Is the author summarizing? 'In general'? Is the author generalizing? No, the author is trying to be balanced: 'To be fair'. It's all about tone and context, people!"
+        },
+        {
+          "id": 18,
+          "text": "[A] reluctantly [B] entirely [C] gradually [D] carefully",
+          "options": {
+            "A": "reluctantly",
+            "B": "entirely",
+            "C": "gradually",
+            "D": "carefully"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "the FSA says it is not telling people to cut out roast foods entirely FSA说它并不是告诉人们要完全停止吃烤制食物。entirely表示完全地，符合语境。",
+          "ai_persona_prompt": "'Reluctantly' cut out? 'Gradually' cut out? 'Carefully' cut out? No, we're talking about the extent of cutting out roast foods. It's not 'entirely', just reduce the intake. Simple, isn't it?"
+        },
+        {
+          "id": 19,
+          "text": "[A] promise [B] experience [C] campaign [D] competition",
+          "options": {
+            "A": "promise",
+            "B": "experience",
+            "C": "campaign",
+            "D": "competition"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "However, their campaign risks coming a cross as being pushy and overprotective. 然而，他们的运动有可能会给人一种强硬和过度保护的感觉。campaign表示运动，符合语境。",
+          "ai_persona_prompt": "'Promise' risks coming across? 'Experience' risks coming across? 'Competition' risks coming across? These don't make sense. A 'campaign' is a coordinated effort, and that's what the FSA is doing, but it might be seen as pushy. Connect the dots!"
+        },
+        {
+          "id": 20,
+          "text": "[A] follow up [B] pick up [C] open up [D] end up",
+          "options": {
+            "A": "follow up",
+            "B": "pick up",
+            "C": "open up",
+            "D": "end up"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "Constant health scares just end up with one listening. 不断的健康恐慌最终只会以无人理睬告终。end up表示最终，符合语境。",
+          "ai_persona_prompt": "'Follow up' with no one listening? 'Pick up' with no one listening? 'Open up' with no one listening? These are nonsense. 'End up' means that's the final result, the outcome. It's all about the consequences! Think about the consequences!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 1",
+        "q_range": "21-25"
+      },
+      "article": {
+        "paragraphs": [
+          "A group of Labour MPs, among them Yvette Cooper, are bringing in the new year with a call to institute a UK “town of culture” award. The proposal is that it should sit alongside the existing city of culture title, which was held by Hull in 2017, and has been awarded to Coventry for 2021. Cooper and her colleagues argue that the success of the crown for Hull, where it brought in £220m of investment and an avalanche of arts, ought not to be confined to cities. Britain’s towns, it is true, are not prevented from applying, but they generally lack the resources to put together a bid to beat their bigger competitors. A town of culture award could, it is argued, become an annual event, attracting funding and creating jobs.",
+          "Some might see the proposal as a booby prize for the fact that Britain  is no longer able to apply for the much more prestigious title of European capital of culture, a sought-after award bagged by Glasgow in 1990 and Liverpool in 2008. A cynic might speculate that the UK is on the verge of disappearing into an endless fever of self-celebration in its desperation to reinvent itself for the post-Brexit world: after  town of culture, who knows what will follow-village of culture? Suburb of culture? Hamlet of culture?",
+          "It is also wise to recall that such titles are not a cure-all. A badly run “year of culture” washes in and washes out of a place like the tide, bringing prominence for a spell but leaving no lasting benefits to the community. The really successful  holders of such titles are those that do a great deal more than fill hotel bedrooms and bring in high-profile arts events and good press for a year. They transform the aspirations of the people who live there; they nudge the self-image of the city into a bolder and  more optimistic light. It is hard to get right, and requires a remarkable degree of vision, as well as cooperation between city authorities, the private sector, community groups and cultural organisations. But it can be done: Glasgow's year as European capital of culture can certainly be seen as one of a complex series of factors that have turned the city into the powerhouse of art, music and theatre that it remains today.",
+          "A “town of culture” could be not just about the arts but about honouring a town’s peculiarities—helping  sustain its high street, supporting  local facilities and above all celebrating its people. Jeremy Wright, the culture secretary, should welcome this positive, hope-filled proposal, and tum it into action."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "institute",
+          "meanings": [
+            "建立",
+            "实行",
+            "开始"
+          ],
+          "context_match": "are bringing in the new year with a call to institute a UK"
+        },
+        {
+          "word": "crown",
+          "meanings": [
+            "皇冠",
+            "桂冠"
+          ],
+          "context_match": "argue that the success of the crown for Hull"
+        },
+        {
+          "word": "avalanche",
+          "meanings": [
+            "雪崩",
+            "大量涌现"
+          ],
+          "context_match": "brought in £220m of investment and an avalanche of arts"
+        },
+        {
+          "word": "bid",
+          "meanings": [
+            "努力争取",
+            "投标"
+          ],
+          "context_match": "lack the resources to put together a bid to beat their bigger competitors"
+        },
+        {
+          "word": "prestigious",
+          "meanings": [
+            "有声望的",
+            "有威望的"
+          ],
+          "context_match": "much more prestigious title of European capital of culture"
+        },
+        {
+          "word": "bagged",
+          "meanings": [
+            "获得",
+            "赢得"
+          ],
+          "context_match": "sought-after award bagged by Glasgow in 1990"
+        },
+        {
+          "word": "cynic",
+          "meanings": [
+            "愤世嫉俗者",
+            "怀疑者"
+          ],
+          "context_match": "A cynic might speculate that the UK is on the verge"
+        },
+        {
+          "word": "speculate",
+          "meanings": [
+            "推测",
+            "猜测"
+          ],
+          "context_match": "A cynic might speculate that the UK is on the verge"
+        },
+        {
+          "word": "hamlet",
+          "meanings": [
+            "小村庄"
+          ],
+          "context_match": "Suburb of culture? Hamlet of culture?"
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "text": "Cooper and her colleagues argue that a “town of culture” award could",
+          "options": {
+            "A": "consolidate the town-city ties in Britain.",
+            "B": "promote cooperation among Britain’s towns.",
+            "C": "increase the economic strength of Britain’s towns.",
+            "D": "focus Britain’s limited resources on cultural events."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "库珀及其同事认为，‘文化城镇’奖可以增加英国城镇的经济实力。对应文章首段最后一句“吸引资金和创造就业”，因此C选项正确。",
+          "ai_persona_prompt": "Alright, listen up! Cooper and her crew think this 'town of culture' award is all about the Benjamins – boosting the economy of these little British towns. It's not about holding hands or hogging resources, got it?"
+        },
+        {
+          "id": 22,
+          "text": "According to Paragraph 2, the proposal might be regarded by some as",
+          "options": {
+            "A": "a sensible compromise.",
+            "B": "a self-deceiving attempt.",
+            "C": "an eye-catching bonus.",
+            "D": "an inaccessible target."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "根据第二段，一些人可能认为该提案是一种自欺欺人的尝试。该段表达了质疑者的观点，认为英国失去申请“欧洲文化之都”的资格后，设立“文化城镇”奖是一种自我安慰。",
+          "ai_persona_prompt": "Okay, so some folks think this whole 'town of culture' thing is just Britain patting itself on the back because it can't play with the big boys anymore. It's a self-deception party, and everyone's invited... except reality."
+        },
+        {
+          "id": 23,
+          "text": "The author suggests that a title holder is successful only if it",
+          "options": {
+            "A": "endeavours to maintain its image.",
+            "B": "meets the aspiration of its people.",
+            "C": "brings its local arts to prominence.",
+            "D": "commits to its long-term growth."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "作者认为，只有当头衔持有者致力于长期发展时，才能取得成功。对应第三段“leaving no lasting benefits to the community…transform the aspirations…nudge the self-image into a bolder and more optimistic light”，故选D。",
+          "ai_persona_prompt": "Hold up! The author's not impressed by short-term flashiness. A successful title holder? That's a city that's in it for the long haul, committing to grow, not just throwing a one-year party."
+        },
+        {
+          "id": 24,
+          "text": "Glasgow is mentioned in Paragraph 3 to present",
+          "options": {
+            "A": "a contrasting case.",
+            "B": "a supporting example.",
+            "C": "a background story.",
+            "D": "a related topic."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "格拉斯哥在第三段中被提及，是为了提供一个支持性的例子。格拉斯哥的例子是为了支持第三段的论点：成功的文化头衔持有者能够带来长期的影响。",
+          "ai_persona_prompt": "Glasgow? It's not some random story, darlings. It's Exhibit A! A supporting example that proves a city can turn things around with a 'year of culture' and become a real powerhouse."
+        },
+        {
+          "id": 25,
+          "text": "What is the author’s attitude towards the proposal?",
+          "options": {
+            "A": "Skeptical.",
+            "B": "Objective.",
+            "C": "Favourable.",
+            "D": "Critical."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "作者对该提案的态度是赞成的。文章最后一段作者用should welcome表达了对文化部长的期望，表达了积极支持的态度。",
+          "ai_persona_prompt": "Please, darling, the author's practically waving pom-poms! It's a 'positive, hope-filled proposal,' remember? Favourable! Get it right!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 2",
+        "q_range": "26-30"
+      },
+      "article": {
+        "paragraphs": [
+          "Scientific publishing has long been a licence to print money. Scientists need journals in which to publish their research, so they will supply the articles without monetary reward. Other scientists perform the specialised work of peer review also for free, because it is a central element in the acquisition of status and the production of scientific knowledge.",
+          "With the content of papers secured for free, the publisher needs only find a market for its journal. Until this century, university libraries were not very price sensitive. Scientific publishers routinely report profit margins approaching 40% on their operations at a time when the rest of the publishing industry is in an existential crisis.",
+          "The Dutch giant Elsevier, which claims to publish 25% of the scientific papers produced in the world, made profits of more than £900m last year, while UK universities alone spent more than £210m in 2016 to enable researchers to access their own publicly funded research; both figures seem to rise unstoppably despite increasingly desperate efforts to change them.",
+          "The most drastic, an thoroughly illegal, reaction has been the emergence of Sci-Hub, a kind of global photocopier for scientific papers, set up in 2012, which now claims to offer access to every paywalled article published since 2015. The success of Sci-Hub, which relies on researchers passing on copies they have themselves legally accessed, shows the legal ecosystem has lost legitimacy among its users and must be transformed so that it works for all participants.",
+          "In Britain the move towards open access publishing has been driven by funding bodies. In some ways it has been very successful. More than half of all British scientific research is now published under open access terms: either freely available from the moment of publication, or paywalled for a year or more so that the publishers can make a profit before being placed on general release.",
+          "Yet the new system has not yet worked out any cheaper for the universities. Publishers have responded to the demand that they make their product free to readers by charging their writers fees to cover the costs of prep ring an article. These range from around £500 to $5,000, and apparently the work gets more expensive the more that publishers do it. A report last year pointed out that the costs both of subscriptions and of these “article preparation costs” had been steadily rising at a rate above inflation.",
+          "In some ways the scientific publishing model resembles the economy of the social internet: labour is provided free in exchange for the hope of status, while huge profits are made by a few big firms who run the market places. In both cases, we need a rebalancing of power."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "licence",
+          "meanings": [
+            "许可证",
+            "执照"
+          ],
+          "context_match": "Scientific publishing has long been a licence to print money."
+        },
+        {
+          "word": "existential",
+          "meanings": [
+            "存在的",
+            "关于存在的"
+          ],
+          "context_match": "Scientific publishers routinely report profit margins approaching 40% on their operations at a time when the rest of the publishing industry is in an existential crisis."
+        },
+        {
+          "word": "legitimacy",
+          "meanings": [
+            "合法性",
+            "正当性"
+          ],
+          "context_match": "The success of Sci-Hub, which relies on researchers passing on copies they have themselves legally accessed, shows the legal ecosystem has lost legitimacy among its users and must be transformed so that it works for all participants."
+        }
+      ],
+      "questions": [
+        {
+          "id": 26,
+          "text": "Scientific publishing is seen as “a licence to print money” partly because",
+          "options": {
+            "A": "its funding has enjoyed a steady increase.",
+            "B": "its marketing strategy has been successful.",
+            "C": "its payment for peer review is reduced.",
+            "D": "its content acquisition costs nothing."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "题干问科学出版被视为“印钞机”的部分原因。根据第一段，科学家免费提供文章，同行评审也免费，因此内容获取成本为零，故D正确。A,B,C均未提及。",
+          "ai_persona_prompt": "Alright, listen up, buttercups! The answer is D because scientists are practically GIVING away their precious research. It's like free labor for these publishing houses. No content costs = easy money. Duh!"
+        },
+        {
+          "id": 27,
+          "text": "According to Paragraphs 2 and 3, scientific publishers Elsevier have",
+          "options": {
+            "A": "thrived mainly on university libraries.",
+            "B": "gone through an existential crisis.",
+            "C": "revived the publishing industry.",
+            "D": "financed researchers generously."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "题干问根据第二段和第三段，科学出版商Elsevier怎么样。根据第二段“Until this century, university libraries were not very price sensitive.” 和第三段提到Elsevier的盈利情况，说明Elsevier主要依靠大学图书馆盈利，因此A正确。B,C,D均不符合原文。",
+          "ai_persona_prompt": "Ugh, are you even paying attention? The answer is A! Elsevier is basically leeching off university libraries. They're raking in the dough while universities are struggling to pay. It's highway robbery, I tell ya!"
+        },
+        {
+          "id": 28,
+          "text": "How does the author feel about the success of Sci-Hub?",
+          "options": {
+            "A": "Relieved.",
+            "B": "Puzzled.",
+            "C": "Concerned.",
+            "D": "Encouraged."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "题干问作者对Sci-Hub的成功持何种态度。根据第四段“The success of Sci-Hub… shows the legal ecosystem has lost legitimacy among its users and must be transformed so that it works for all participants.”说明作者认为Sci-Hub的成功反映了现有出版体制的问题，并希望做出改变，所以持担忧态度。选择C。",
+          "ai_persona_prompt": "Honestly, are you dense? It's C! The author's not exactly throwing a party for Sci-Hub. They're pointing out that its success means the whole system's broken! It's like saying, 'Yay, people are stealing because the store's prices are insane!' Not exactly a ringing endorsement, is it?"
+        },
+        {
+          "id": 29,
+          "text": "It can be learned from Paragraphs 5 and 6 that open access terms",
+          "options": {
+            "A": "allow publishers some room to make money.",
+            "B": "render publishing much easier for scientists.",
+            "C": "reduce the cost of publication substantially.",
+            "D": "free universities from financial burdens."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "题干问从第五段和第六段可以得知开放获取条款怎么样。第五段最后一句：“…paywalled for a year or more so that the publishers can make a profit before being placed on general release.”说明出版社可以通过付费墙盈利，A选项正确。B,C,D均与原文不符。",
+          "ai_persona_prompt": "Come on, people! A is the answer! Open access isn't some charity giveaway. Publishers still want their cut. They just delay the free access so they can squeeze some cash out of it first. It's all about the money, honey!"
+        },
+        {
+          "id": 30,
+          "text": "Which of the following characterizes the scientific publishing model?",
+          "options": {
+            "A": "Trial subscription is offered.",
+            "B": "Labour triumphs over status.",
+            "C": "Costs are well controlled.",
+            "D": "The few feed on the many."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "题干问以下哪项描述了科学出版模式的特征。最后一段“labour is provided free in exchange for the hope of status, while huge profits are made by a few big firms who run the market places” 说明少数公司通过免费劳动力获取巨大利润，也就是“少数人靠多数人供养”，D正确。A,B,C均不符合原文。",
+          "ai_persona_prompt": "Wake up and smell the exploitation! It's D! The big publishing companies are basically vampires, sucking the lifeblood (research) from scientists and universities while laughing all the way to the bank. The few are feasting on the many, and it's disgusting!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 3",
+        "q_range": "31-35"
+      },
+      "article": {
+        "paragraphs": [
+          "Progressives often support diversity mandates as a path to equality and a way to level the playing field. But all too often such policies are an insincere form of virtue-signaling that benefits only the most privileged and does little to help average people.",
+          "A pair of bills sponsored by Massachusetts state Senator Jason Lewis and House Speaker Pro Tempore Patricia Haddad, to ensure “gender parity” on boards and commissions, provide a case in point.",
+          "Haddad and Lewis are concerned that more than half the state-government boards are less than 40 percent female. In order to ensure that elite women have more such opportunities, they have proposed imposing government quotas. If the bills become law, state boards and commissions will be required to set aside 50 percent of board seats for women by 2022.",
+          "The bills are similar to a measure recently adopted in California, which last year became the first state to require gender quotas for private companies. In signing the measure, California Governor Jerry Brown admitted that the law, which expressly classifies people on the basis of sex, is probably unconstitutional.",
+          "The US Supreme Court frowns on sex-based classifications unless they are designed to address an “important” policy interest, Because the California law applies to all boards, even where there is no history of prior discrimination, courts are likely to rule that the law violates the constitutional guarantee of “equal protection”.",
+          "But are such government mandates even necessary? Female participation on corporate boards may not currently mirror the percentage of women in the general population, but so what?",
+          "The number of women on corporate boards has been steadily increasing without government interference. According to a study by Catalyst, between 2010 and 2015 the share of women on the boards of global corporations increased by 54 percent.",
+          "Requiring companies to make gender the primary qualification for board membership will inevitably lead to less experienced private sector boards. That is exactly what happened when Norway adopted a nationwide corporate gender quota.",
+          "Writing in The New Republic, Alice Lee notes that increasing the number of opportunities for board membership without increasing the pool of qualified women to serve on such boards has led to a “golden skirt” phenomenon, where the same elite women scoop up multiple seats on a variety of boards.",
+          "Next time somebody pushes corporate quotas as a way to promote gender equity, remember that such policies are largely self-serving measures that make their sponsors feelgood but do little to help average women."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "mandate",
+          "meanings": [
+            "授权",
+            "指令"
+          ],
+          "context_match": "Progressives often support diversity mandates"
+        },
+        {
+          "word": "virtue-signaling",
+          "meanings": [
+            "道德信号",
+            "道德姿态"
+          ],
+          "context_match": "an insincere form of virtue-signaling"
+        },
+        {
+          "word": "parity",
+          "meanings": [
+            "平等",
+            "对等"
+          ],
+          "context_match": "ensure “gender parity”"
+        },
+        {
+          "word": "quota",
+          "meanings": [
+            "配额",
+            "定额"
+          ],
+          "context_match": "government quotas"
+        }
+      ],
+      "questions": [
+        {
+          "id": 31,
+          "text": "The author believes that the bills sponsored by Lewis and Haddad will",
+          "options": {
+            "A": "help little to reduce gender bias.",
+            "B": "pose a threat to the state government.",
+            "C": "raise women’s position in politics.",
+            "D": "greatly broaden career options."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "作者认为Lewis和Haddad发起的议案对于减少性别歧视几乎没有帮助。文章首段指出这种政策是一种虚伪的道德信号，受益者只有特权阶级，普通人无法从中获益。",
+          "ai_persona_prompt": "Okay, so these bills? Total virtue signaling. They're not actually going to help regular women, just the already powerful ones. Waste of time, honestly."
+        },
+        {
+          "id": 32,
+          "text": "Which of the following is true of the California measure?",
+          "options": {
+            "A": "It has irritated private business owners.",
+            "B": "It is welcomed by the Supreme Court.",
+            "C": "It may go against the Constitution.",
+            "D": "It will settle the prior controversies."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "加州的措施可能违宪。文章第四段提到，州长承认该法律可能违宪，因为它明确地基于性别对人进行分类。",
+          "ai_persona_prompt": "That California law? A hot mess. Even the governor knows it's probably unconstitutional. Classifying people based on sex? Come on, the Supreme Court's gonna have a field day with that one."
+        },
+        {
+          "id": 33,
+          "text": "The author mentions the study by Catalyst to illustrate",
+          "options": {
+            "A": "the harm from arbitrary board decision.",
+            "B": "the importance of constitutional guarantees.",
+            "C": "the pressure on women in global corporations.",
+            "D": "the needlessness of government interventions."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "作者提到 Catalyst 的研究是为了说明政府干预是不必要的。第七段指出，女性在公司董事会中的比例一直在稳步增长，无需政府干预。",
+          "ai_persona_prompt": "Catalyst study? Point is, things are already getting better for women on boards. No need for the government to stick its nose in. Let the market do its thing, people!"
+        },
+        {
+          "id": 34,
+          "text": "Norway’s adoption of a nationwide corporate gender quota has led to",
+          "options": {
+            "A": "the underestimation of elite women’s role.",
+            "B": "the objection to female participation on boards.",
+            "C": "the entry of unqualified candidates into the board.",
+            "D": "the growing tension between labor and management."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "挪威采用全国性的公司性别配额导致了不合格的候选人进入董事会。第八段提到，要求公司将性别作为董事会成员的首要资格，将不可避免地导致经验不足的私营部门董事会。",
+          "ai_persona_prompt": "Norway's gender quota? Disaster. It just means unqualified people are getting board seats. Focus on skills, not genitals, people!"
+        },
+        {
+          "id": 35,
+          "text": "Which of the following can be inferred from the text?",
+          "options": {
+            "A": "Women’s need in employment should be considered.",
+            "B": "Feasibility should be a prime concern in policymaking.",
+            "C": "Everyone should try hard to promote social justice.",
+            "D": "Major social issues should be the focus of legislation."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "从文中可以推断出，可行性应该是政策制定的首要考虑因素。作者反对性别配额政策，认为该政策并不能真正帮助到女性，反而可能产生负面影响，这暗示了政策制定时应该考虑可行性。",
+          "ai_persona_prompt": "People, listen up: before you make a law, think about if it'll actually work! This gender quota nonsense? Sounds good, does nothing. Policy should be practical, not just feel-good."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 4",
+        "q_range": "36-40"
+      },
+      "article": {
+        "paragraphs": [
+          "Last Thursday, the French Senate passed a digital services tax, which would impose an entirely new tax on large multinationals that provide digital services to consumers or users in France. Digital services include everything from providing a platform for selling goods and services online to targeting advertising based on user   data, and the tax applies to gross revenue from such services. Many French politicians and media outlets have referred to this as a “ GAFA tax,” meaning that it is designed       to apply primarily to companies such as Google, Apple, Facebook and  Amazon—in other words, multinational tech companies based in the United States.",
+          "The digital services tax now awaits the signature of President Emmanuel Macron, who has expressed support for the measure, and it could go into effect within the next few weeks. But it has already sparked significant controversy, with the United States trade representative opening an investigation into whether the tax discriminates against American companies, which in tum could lead to trade sanctions against France.",
+          "The French tax is not just a unilateral move by one country in need of revenue. Instead, the digital services tax is part of a much larger trend, with countries over the past few years proposing or putting in place an alphabet soup of new international tax provisions. They have included Britain’s DPT. (diverted profits tax), Australia’s MAAL (multinational anti-avoidance  law),  and  India’s  SEP  (significant  economic     presence) test, to name but a few. At the same time, the European Union, Spain, Britain and several other countries have all seriously contemplated digital services taxes.",
+          "These unilateral developments differ in their specifics, but they are all designed     to tax multinationals on income and revenue that countries believe they should have a right to tax, even if international tax rules do not grant them that right. In other words, they all share a view that the international tax system has failed to keep up with the current economy.",
+          "In response to these many unilateral measures, the Organization for Economic Cooperation and Development (OECD) is currently working with 131 countries  to  reach a consensus by the end of 2020 on an international solution. Both France and      the United States are involved in the organization's work, but France's digital services tax and the American response raise questions about what the future holds for the international tax system.",
+          "France’s planned tax is a clear warning: Unless a broad consensus  can  be    reached on reforming the international tax system, other nations are likely to follow    suit, and American companies will face a cascade of different taxes from dozens of nations that will prove burdensome and costly."
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 36,
+          "text": "The French Senate has passed a bill to",
+          "options": {
+            "A": "regulate digital services platforms.",
+            "B": "protect French companies” interests.",
+            "C": "impose a levy on tech multinationals.",
+            "D": "curb the influence of advertising."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "根据第一段第一句, 法国参议院通过了一项法案，旨在对向法国消费者提供数字服务的大型跨国公司征收新的税费。选项C准确概括了法案的目的。",
+          "ai_persona_prompt": "Alright, listen up! The French Senate passed a bill. What's it gonna do? Slam a tax on those big tech multinationals! So, C is your answer, duh! Don't overthink it!"
+        },
+        {
+          "id": 37,
+          "text": "It can be learned from Paragraph 2 that the digital services tax",
+          "options": {
+            "A": "may trigger countermeasures against France.",
+            "B": "is apt to arouse criticism at home and abroad.",
+            "C": "aims to ease international trade tensions.",
+            "D": "will prompt the tech giants to quit France."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第二段指出，美国贸易代表正在调查该税收是否歧视美国公司，这可能导致对法国的贸易制裁。因此，该税收可能引发对法国的对抗措施，选项A正确。",
+          "ai_persona_prompt": "Pay attention, you blithering idiot! Paragraph 2 says the US is investigating France's tax, which could lead to sanctions. That means A, countermeasures! Got it?!"
+        },
+        {
+          "id": 38,
+          "text": "The countries adopting the unilateral measures share the opinion that",
+          "options": {
+            "A": "redistribution of tech giants’ revenue must be ensured.",
+            "B": "the current international tax system needs upgrading.",
+            "C": "tech multinationals’ monopoly should be prevented.",
+            "D": "all countries ought to enjoy equal taxing rights."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第四段指出，采取单边措施的国家都认为，国际税收体系未能跟上当前的经济发展。因此，这些国家普遍认为现行的国际税收体系需要升级改造，选项B正确。",
+          "ai_persona_prompt": "Seriously? It's right there in paragraph 4! Everyone thinks the international tax system is outdated! So B, 'needs upgrading', is the obvious answer! Wake up!"
+        },
+        {
+          "id": 39,
+          "text": "It can be learned from Paragraph 5 that the OECD’s current work",
+          "options": {
+            "A": "is being resisted  by  US  companies.",
+            "B": "needs to be readjusted immediately.",
+            "C": "is faced with uncertain prospects.",
+            "D": "needs to in involve more countries."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第五段提到，尽管法国和美国都参与了OECD的工作，但法国的数字服务税和美国的反应，都引发了对国际税收体系未来走向的疑问，意味着OECD的工作前景不明朗。",
+          "ai_persona_prompt": "Ugh, are you even trying? Paragraph 5 says France's tax and the US response 'raise questions about what the future holds.' That means C, 'uncertain prospects'! It's not rocket science!"
+        },
+        {
+          "id": 40,
+          "text": "Which of the following might be the best title for this text?",
+          "options": {
+            "A": "France Is Confronted with Trade Sanctions",
+            "B": "France leads the charge on Digital Tax",
+            "C": "France Says “ NO ” to Tech Multinationals",
+            "D": "France Demands a Role in the Digital Economy"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "文章主要讲述了法国通过数字服务税，引发国际关注。B选项“法国引领数字税的先锋”最能概括文章主旨。",
+          "ai_persona_prompt": "Use your brain, darling! What's the article about? France doing something new with digital tax! So B, 'France leads the charge,' is the only one that makes sense! Honestly!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Part B",
+        "name": "Part B",
+        "q_range": "41-45"
+      },
+      "article": {
+        "paragraphs": [
+          "In a social situation, eye contact with another person can show that you are paying attention in a friendly way. But it can also be antagonistic such as when a political candidate turns toward their competitor during a debate and makes eye contact that signals hostility.Here’s what hard science reveals about eye contact:",
+          "We know that a typical infant will instinctively gaze into its mother’s eyes, and she will look back. This mutual gaze is a major part of the attachment between mother and child. In adulthood, looking someone else in a pleasant way can be a complimentary sign of paying attention. It can catch someone’s attention in a crowded room, “Eye contact and smile” can signal availability and confidence, a common-sense notion supported in studies by psychologist Monica Moore.",
+          "Neuroscientist Bonnie Auyeung found that the hormone oxytocin increased the amount of eye contact from men toward the interviewer during a brief interview when the direction of their gaze was recorded. This was also found in high-functioning men with some autistic spectrum symptoms, who may tend to avoid eye contact. Specific brain regions that respond during direct gaze are being explored by other researches, using advanced methods of brain scanning.",
+          "With the use of eye-tracking technology, Julia Minson of the Harvard Kennedy School of Government concluded that eye contact can signal very different kinds of messages, depending on the situation. While eye contact may be a sign of connection or trust in friendly situations, it’s more likely to be associated with dominance or intimidation in adversarial situations. “Whether you’re a politician or a parent, it might be helpful to keep in mind that trying to maintain eye contact may backfire if you’re trying to convince someone who has a different set of beliefs than you,”said Minson.",
+          "When we look at a face or a picture, our eyes pause on one spot at a time, often on the eyes or mouth. These pauses typically occur at about three per second, and the eyes then jump to another spot, until several important points in the image are registered like a series of snapshots. How the whole image is then assembled and perceived is still a mystery although it is the subject of current research.",
+          "In people who score high in a test of neuroticism, a personality dimension associated with self-consciousness and anxiety, eye contact triggered more activity associated with avoidance,according to the Finnish researcher Jari Hietanen and colleagues “Our findings indicate that people do not only feel different when they are the centre of attention but that their brain reactions also differ.” A more direct finding is that people who scored highly  for negative emotions like anxiety looked at others for shorter periods of time and reported more comfortable feelings when others did not look directly at them."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "antagonistic",
+          "meanings": [
+            "showing or feeling active opposition or hostility toward someone or something"
+          ],
+          "context_match": "But it can also be antagonistic such as when a political candidate turns toward their competitor during a debate"
+        },
+        {
+          "word": "instinctively",
+          "meanings": [
+            "relating to or prompted by instinct; done without conscious thought"
+          ],
+          "context_match": "We know that a typical infant will instinctively gaze into its mother’s eyes"
+        },
+        {
+          "word": "neuroticism",
+          "meanings": [
+            "a personality trait characterized by anxiety, fear, moodiness, worry, envy, frustration, jealousy, and loneliness."
+          ],
+          "context_match": "In people who score high in a test of neuroticism, a personality dimension associated with self-consciousness and anxiety"
+        }
+      ],
+      "questions": [
+        {
+          "id": 41,
+          "text": "41.",
+          "options": {},
+          "correct_answer": "C",
+          "analysis_raw": "段落2主要描述了眼神交流在母婴关系中的积极作用，以及在成人社交中作为友好信号的作用，因此选择C (Eye contact can be a friendly social signal)。本段的关键词是：mutual gaze, complimentary sign of paying attention, signal availability and confidence。",
+          "ai_persona_prompt": "Alright, listen up! Paragraph 2 is all about how eye contact is like a secret handshake in the social world. It's the \"Hey, I see you, and I'm not going to steal your wallet (probably).\" Especially that baby-mama action – pure connection, folks! So, 'C' is the only one that makes any freakin' sense, got it?"
+        },
+        {
+          "id": 42,
+          "text": "42.",
+          "options": {},
+          "correct_answer": "E",
+          "analysis_raw": "段落3主要探讨了眼神交流背后的生物学因素，如催产素的影响和大脑区域的反应。因此选择E (Biological factors behind eye contact are being investigated)。本段的关键词是：hormone oxytocin, brain regions, brain scanning。",
+          "ai_persona_prompt": "Okay, geniuses, Paragraph 3 dives deep into the brainy side of staring. Oxytocin? Brain scans? It's not about social signals, it's about the gears turning in your head when you lock eyes with someone. So, 'E' is your winner here, because biology is always the answer when you're trying to sound smart. Duh."
+        },
+        {
+          "id": 43,
+          "text": "43.",
+          "options": {},
+          "correct_answer": "G",
+          "analysis_raw": "段落4讨论了眼神交流在不同情境下的不同含义，尤其是在对抗情境下，眼神交流可能与控制和恐吓相关。因此选择G (Eye contact can also be aggressive)。虽然也提到了friendly situations，但adversarial situations是本段的重点。关键词：dominance or intimidation in adversarial situations.",
+          "ai_persona_prompt": "Alright, you bunch of wallflowers, Paragraph 4's about the dark side of staring. It's not all sunshine and rainbows. Sometimes it's 'I'm bigger than you, and I'm gonna prove it with my eyeballs.' 'G' is the obvious answer, because aggression always sells, doesn't it?"
+        },
+        {
+          "id": 44,
+          "text": "44.",
+          "options": {},
+          "correct_answer": "A",
+          "analysis_raw": "段落5描述了我们看人脸或图片时，眼睛会短暂地停留在某些部位（眼睛或嘴巴），然后跳到其他部位。因此选择A (Eye fixations are brief)。本段关键词：pauses, jump to another spot, series of snapshots。",
+          "ai_persona_prompt": "Pay attention, you slackers! Paragraph 5 is about how your eyeballs are spazzy little things, darting around a face like they're playing pinball. 'A' is the only answer that makes any sense, because fixation is a scientific word, and short attention spans are, like, the story of our generation. So, yeah, A is A-okay."
+        },
+        {
+          "id": 45,
+          "text": "45.",
+          "options": {},
+          "correct_answer": "D",
+          "analysis_raw": "段落6讨论了性格如何影响人们对眼神交流的反应，尤其是在神经质人格的人群中，眼神交流会触发更多的回避行为。因此选择D (Personality can affect how a person reacts to eye contact)。关键词：neuroticism, avoidance, negative emotions.",
+          "ai_persona_prompt": "Okay, sensitive souls, Paragraph 6 is about how your personality makes you a weirdo when it comes to eye contact. If you're a nervous Nellie, you're gonna freak out when someone stares at you. 'D' is the only answer that makes sense because everyone knows personality is why you're all messed up. Don't @ me!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Translation",
+        "name": "Part C",
+        "q_range": "46-50"
+      },
+      "article": {
+        "paragraphs": [
+          "Following the explosion of creativity in Florence during the 14th century known as the Renaissance, the modern world saw a departure from what it had once known. It turned from God and the authority of the Roman Catholic Church and instead favoured a more humanistic approach to being. Renaissance ideas had spread throughout Europe well into the 17th century,with the arts and sciences flourishing extraordinarily among those with a more logical disposition.",
+          "During the Renaissance, the great minds of Nicolaus Copernicus, Johannes Kepler and Galileo Galilei demonstrated the power of scientific study and discovery. Before each of their revelations many thinkers at the time had sustained more ancient ways of thinking, including the geocentric view that the Earth was at the centre of our universe. Copernicus theorized in 1543 that all of the planets that we knew of revolved not around the Earth, but the Sun, a system that was later upheld by Galileo at his own expense. Offering up such a theory during a time of high tension between scientific and religious minds was branded as heresy and any such heretics that continued to spread these lies were to be punished by imprisonment or even death.",
+          "Despite attempts by the Church to suppress. this new generation of logicians and rationalists, more explanations for how the universe functioned were being made at a rate that the people could no longer ignore.It was with these great revelations that a new kind of philosophy founded in reason was born.",
+          "The Church’s long-standing dogma was losing the great battle for truth to rationalists and scientists. This very fact embodied the new ways of thinking that swept through Europe during most of 17th century. ",
+          "The 17th and 18th centuries were times of radical change and curiosity, Scientific method, reductionism and the questioning of Church ideals was to be encouraged, as were ideas of liberty, tolerance and progress. Such actions to seek knowledge and to understand what information we already knew were captured by the Latin phrase ‘sapere aude’ or ‘dare to know’, after Immanuel Kant used it in his essay An Answer to the Question: What is Enlightenment?. It was the purpose and responsibility of great minds to go forth and seek out the truth, which they believed to be founded in knowledge."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "explosion",
+          "meanings": [
+            "爆炸",
+            "爆发",
+            "激增"
+          ],
+          "context_match": "Following the explosion of creativity"
+        },
+        {
+          "word": "departure",
+          "meanings": [
+            "背离",
+            "偏离",
+            "离开"
+          ],
+          "context_match": "a departure from what it had once known"
+        },
+        {
+          "word": "humanistic",
+          "meanings": [
+            "人道主义的",
+            "人文主义的"
+          ],
+          "context_match": "a more humanistic approach"
+        },
+        {
+          "word": "flourish",
+          "meanings": [
+            "繁荣",
+            "兴旺",
+            "蓬勃发展"
+          ],
+          "context_match": "arts and sciences flourishing"
+        },
+        {
+          "word": "disposition",
+          "meanings": [
+            "性格",
+            "倾向",
+            "气质"
+          ],
+          "context_match": "a more logical disposition"
+        },
+        {
+          "word": "eclipse",
+          "meanings": [
+            "日蚀",
+            "黯然失色",
+            "衰退"
+          ],
+          "context_match": "being eclipsed by the Renaissance"
+        },
+        {
+          "word": "bridge",
+          "meanings": [
+            "桥梁",
+            "弥合",
+            "连接"
+          ],
+          "context_match": "been bridged"
+        },
+        {
+          "word": "dogma",
+          "meanings": [
+            "教条",
+            "信条"
+          ],
+          "context_match": "The Church’s long-standing dogma"
+        },
+        {
+          "word": "sapere aude",
+          "meanings": [
+            "敢于求知"
+          ],
+          "context_match": "‘sapere aude’ or ‘dare to know’"
+        }
+      ],
+      "questions": [
+        {
+          "id": 46,
+          "text": "with the Church’s teachings and ways of thinking eclipsed by the Renaissance,the gap between the Medieval and modern periods had been bridged leading to new and unexplored intellectual territories.",
+          "options": {},
+          "correct_answer": "随着教会的教义和思维方式因文艺复兴而黯然失色，中世纪与近现代社会之间的鸿沟得以弥合，从而出现了新的未被探索的知识领域。",
+          "analysis_raw": "本句是由with引导的伴随状语结构，主句是the gap...had been bridged，现在分词leading...作结果状语。翻译时可调整语序，先翻译主句，再翻译with引导的状语，最后翻译结果状语。",
+          "ai_persona_prompt": "Alright, let's dissect this sentence. 'With' phrases? Think extra info tacked on. 'Eclipsed'? Means overshadowed, like your potential in that outfit. The gap being 'bridged'? A connection was made! Basically, the Church's old ideas faded, and boom – new, uncharted intellectual lands appeared. Get it? Or do I need to draw you a picture?"
+        },
+        {
+          "id": 47,
+          "text": "Before each of their revelations many thinkers at the time had sustained more ancient ways of thinking, including the geocentric view that the Earth was at the centre of our universe.",
+          "options": {},
+          "correct_answer": "在他们揭示每一个科学真理之前，当时的许多思想家一直沿袭着旧时的思维方式，包括地球是我们宇宙中心的地心说。",
+          "analysis_raw": "本句的主干是many thinkers…had sustained more ancient ways of thinking。before each of their revelations作时间状语，including the geocentric view…是ways of thinking的同位语，that the Earth was at the centre of our universe是the geocentric view 的同位语从句。注意revelations是“启示，揭示”的意思，不能翻译成“革命”。sustained在此处是“坚持，维持”的意思。",
+          "ai_persona_prompt": "Okay, drama queen, let's look at this sentence. 'Before their revelations' - imagine the suspense! 'Sustained more ancient ways of thinking'? They were stuck in the past! 'Geocentric view'? Earth is the center? Seriously? It's like thinking your selfie is the only thing that matters. So, basically, they were old-fashioned thinkers before the science bombshells dropped. Got it? Snap out of it!"
+        },
+        {
+          "id": 48,
+          "text": "Despite attempts by the Church to suppress. this new generation of logicians and rationalists, more explanations for how the universe functioned were being made at a rate that the people could no longer ignore.",
+          "options": {},
+          "correct_answer": "尽管教会试图镇压一个新一代逻辑学家和理性主义者，但有关于宇宙如何运转的阐释却层出不穷，其速度之快不容人们再忽视。",
+          "analysis_raw": "本句是一个由despite引导的让步状语从句，主句是more explanations…were being made…that the people could no longer ignore 是一个定语从句，修饰rate。翻译时可以将语序调整为：关于宇宙如何运转的更多解释正以人们无法忽视的速度涌现，尽管教会试图压制新一代的逻辑学家和理性主义者。",
+          "ai_persona_prompt": "Ugh, Church trying to suppress logic? Predictable. 'Explanations being made at a rate people couldn't ignore'? Things were heating up! Basically, the Church tried to shut them down, but knowledge was spreading faster than gossip at a high school. So, no more hiding under a rock; time for some real talk."
+        },
+        {
+          "id": 49,
+          "text": "As many took on the duty of trying to integrate reasoning and scientific philosophies into the world, the Renaissance was over and it was time for a new era - the Age of Reason.",
+          "options": {},
+          "correct_answer": "当许多人肩负起试图将理性推理和科学信条融入社会的责任时，文艺复兴时代就结束了，而一个崭新的时代——理性时代便开始了。",
+          "analysis_raw": "本句是由as引导的时间状语从句，主句是the Renaissance was over and it was time for a new era。注意integrate…into…是“将…融入…”的意思。翻译时可以按照原文的语序进行翻译。",
+          "ai_persona_prompt": "Alright, let's break this down. 'Many took on the duty...' - sounds noble, doesn't it? 'Integrate reasoning and scientific philosophies...' - trying to make the world smarter. Result? Renaissance out, Age of Reason in! It's like upgrading from a flip phone to a smartphone. Step up your game!"
+        },
+        {
+          "id": 50,
+          "text": "Such actions to seek knowledge and to understand what information we already knew were captured by the Latin phrase ‘sapere aude’ or ‘dare to know’, after Immanuel Kant used it in his essay An Answer to the Question: What is Enlightenment?.",
+          "options": {},
+          "correct_answer": "这种寻求知识和了解已知的行为被拉丁短语“sapere aude”，亦即“敢于求知”，描画得淋漓尽致。",
+          "analysis_raw": "本句主干是Such actions…were captured by the Latin phrase ‘sapere aude’。to seek knowledge and to understand what information we already knew作定语修饰actions，after Immanuel Kant used it in his essay…作后置状语，解释拉丁短语的来源。注意‘sapere aude’ or ‘dare to know’是同位语，对拉丁文短语进行解释。",
+          "ai_persona_prompt": "Oh, 'sapere aude'? Sounds fancy, right? It means 'dare to know'. Like, have the guts to question everything! Kant used it? Even better! This sentence is saying that searching for knowledge is all about daring to understand. So stop scrolling and start thinking for yourself! Go on, I dare you."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part A",
+        "q_range": "51"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "",
+          "The Students Union of your university has assigned you to inform the international students about an upcoming singing contest. White a notice in about 100 words.",
+          "",
+          "Write your answer on the ANSWER SHEET.",
+          "",
+          "Do not use your own name in the notice. (10 points)"
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 51,
+          "text": "The Students Union of your university has assigned you to inform the international students about an upcoming singing contest. White a notice in about 100 words.",
+          "options": {},
+          "correct_answer": "Notice\n\nSinging Contest for International Students\n\nThe Students Union is excited to announce an upcoming singing contest exclusively for international students! This is a fantastic opportunity to showcase your vocal talents and share your culture through music.\n\nThe contest will be held on [Date] at [Time] in the [Location]. We welcome all genres and languages of music. Solo and group performances are both encouraged.\n\nInterested students should register at the Students Union office before [Registration Deadline]. Please prepare a brief audition piece. Prizes will be awarded to the top performers!\n\nWe look forward to seeing you there!\n\nSincerely,\n\nThe Students Union",
+          "analysis_raw": "这篇范文结构清晰，语言简洁明了，很好地完成了通知的任务。第一段点明主旨，激发兴趣；第二段提供具体信息，如时间、地点、形式；第三段说明注册方式和奖励，鼓励参与。全文用词恰当，没有语法错误，符合通知的写作要求。",
+          "ai_persona_prompt": "Alright, listen up, you budding rockstars! This notice is spot on. Clear, concise, and it gets the job done. Good structure: hook 'em, tell 'em the details, and then give 'em a reason to sign up. Just remember, ditch the clichés and keep it real!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part B",
+        "q_range": "52"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "Write an essay of 160-200 words based on the picture below. In your essay, you should",
+          "describe the picture briefly,",
+          "interpret the implied meaning, and",
+          "give your comments.",
+          "You should write neatly on the ANSWER SHEET."
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 52,
+          "text": "Write an essay of 160-200 words based on the picture below. In your essay, you should describe the picture briefly, interpret the implied meaning, and give your comments.",
+          "options": {},
+          "correct_answer": "In the left picture, a girl is concentrating on her assignments, with a strong desire to complete them as soon as possible. In stark contrast to her, the boy in the right picture is resting his back against a chair lazily, with no intention of doing school work. He has a habit of, in his own words, waiting until the last minute to make a start.\n\nThe two pictures serve as a reminder of the significance of self-discipline, the ability to make ourselves do what we ought to do without being urged by someone else. It motivates us to take control of our time and devote our attention to what is truly important and meaningful to us. This in turn ensures quality and productivity. Those who lack self-discipline often fail to get their priorities right, easily falling into the bad habit of procrastination. They will end up either rushing through their assignments or missing the deadlines, which is detrimental to their academic progress and career advancement.\n\nIn summary, self-discipline brings us lifelong benefits. It is thus necessary for us to develop this personal quality as long as we would like to achieve something impressive.",
+          "analysis_raw": "本文通过对比两幅图，揭示了自律的重要性。第一段描述了图画内容，左图描绘了积极主动完成作业的学生，右图则描绘了拖延懒散的学生。第二段深入分析了自律对个人发展的影响，强调了自律能够提高效率和质量，并指出缺乏自律的危害。最后一段总结全文，强调培养自律的重要性，呼吁大家培养自律的习惯。",
+          "ai_persona_prompt": "Alright, listen up! This essay's painting a picture, literally! We've got 'Miss Get-It-Done' versus 'Procrastination Pete.' The essay nails the contrast and spells out why self-discipline is your secret weapon. But remember, real life examples always add extra spice! Next time, throw in a story about how you aced a project because you started early, or bombed one because you waited till the last minute. Show, don't just tell! Otherwise, solid A- work!"
+        }
+      ]
+    }
+  ]
+}

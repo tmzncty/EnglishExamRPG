@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>English Exam - Cheshire Assistant</title>
+    <style>
+        body { margin: 0; background-color: #f0f2f5; height: 100vh; overflow: hidden; }
+        #canvas-container {
+            position: fixed;
+            bottom: 0;
+            right: 0; /* 把猫娘放在右下角 */
+            width: 400px;
+            height: 500px;
+            z-index: 999;
+        }
+        /* 简单的对话气泡样式 */
+        #chat-bubble {
+            position: absolute;
+            bottom: 400px;
+            right: 50px;
+            width: 200px;
+            background: white;
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            font-family: "Microsoft YaHei", sans-serif;
+            font-size: 14px;
+            display: none; /* 默认隐藏 */
+            z-index: 1000;
+        }
+        #chat-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            right: 50px;
+            border-width: 10px 10px 0;
+            border-style: solid;
+            border-color: white transparent;
+        }
+    </style>
+    
+    <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.8/dist/browser/pixi.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.4.0/dist/index.min.js"></script>
+</head>
+<body>
+
+    <div id="chat-bubble">Master，今天要复习哪个 Section 呀？</div>
+
+    <div id="canvas-container">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script>
+        (async function () {
+            // 1. 初始化 Pixi 应用 (背景透明)
+            const app = new PIXI.Application({
+                view: document.getElementById('canvas'),
+                autoStart: true,
+                resizeTo: document.getElementById('canvas-container'),
+                backgroundAlpha: 0 
+            });
+
+            // 2. 指定模型地址 
+            // 这里使用的是碧蓝航线-柴郡的在线地址，开发时建议下载到本地 /assets/models/ 下
+            // 注意：为了演示方便，这里用了一个网上的资源库，如果失效请替换为本地路径
+            const modelUrl = 'https://cdn.jsdelivr.net/gh/Eikanya/Live2d-model/AzurLane/cheshire/cheshire.model3.json';
+
+            // 3. 加载模型
+            const model = await PIXI.live2d.Live2DModel.from(modelUrl);
+
+            app.stage.addChild(model);
+
+            // 4. 调整模型大小和位置
+            // 不同的模型缩放比例不一样，需要微调
+            model.scale.set(0.15); // 柴郡的模型很大，需要缩小
+            model.x = 0;
+            model.y = 50;
+
+            // 5. 交互功能：眼神跟随鼠标
+            // 这一行代码就能让她的头和眼睛跟着鼠标动
+            /* model.trackModel = true; */ // 部分模型支持，如报错可注释掉
+
+            // 6. 交互功能：点击触发动作和语音
+            model.on('hit', (hitAreas) => {
+                if (hitAreas.includes('body')) {
+                    model.motion('tap_body'); // 播放点击身体的动作
+                    showBubble("不、不要乱摸啦！正在考试呢！");
+                }
+                if (hitAreas.includes('head')) {
+                    model.motion('tap_head'); // 摸头
+                    showBubble("喵~ Master 最好了~");
+                }
+            });
+            
+            // 模拟：答题正确时调用
+            window.handleCorrectAnswer = () => {
+                model.motion('win'); // 播放胜利动作
+                showBubble("太棒了！Master 果然是最聪明的！");
+            };
+
+            // 模拟：答题错误时调用
+            window.handleWrongAnswer = () => {
+                model.motion('fail'); // 播放失败动作
+                showBubble("呜... 没关系，我们看解析吧！");
+            };
+
+            // 气泡控制函数
+            function showBubble(text) {
+                const bubble = document.getElementById('chat-bubble');
+                bubble.innerText = text;
+                bubble.style.display = 'block';
+                // 3秒后消失
+                setTimeout(() => {
+                    bubble.style.display = 'none';
+                }, 3000);
+            }
+
+        })();
+    </script>
+</body>
+</html>

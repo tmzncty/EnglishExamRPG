@@ -1,0 +1,1365 @@
+{
+  "meta": {
+    "year": 2014,
+    "exam_type": "English I"
+  },
+  "sections": [
+    {
+      "section_info": {
+        "type": "Use of English",
+        "name": "Section I",
+        "q_range": "1-20"
+      },
+      "article": {
+        "paragraphs": [
+          "As many people hit middle age, they often start to notice that their memory and mental clarity are not what they used to be. We suddenly can’t remember _1_ we put the keys just a moment ago, or an old acquaintance’s name, or the name of an old band we used to love. As the brain _2_, we refer to these occurrences as “senior moments.” _3_ seemingly innocent, this loss of mental focus can potentially have a(n) _4_ impact on our professional, social, and personal _5_.",
+          "Neuroscientists, experts who study the nervous system, are increasingly showing that there’s actually a lot that can be done. It _6_ out that the brain needs exercise in much the same way our muscles do, and the right mental _7_ can significantly improve our basic cognitive _8_. Thinking is essentially a _9_ of making connections in the brain. To a certain extent, our ability to _10_ in making the connections that drive intelligence is inherited. _11_, because these connections are made through effort and practice, scientists believe that intelligence can expand and fluctuate _12_ mental effort.",
+          "Now, a new Web-based company has taken it a step _13_ and developed the first “brain training program” designed to actually help people improve and regain their mental _14_.",
+          "The Web-based program _15_ you to systematically improve your memory and attention skills. The program keeps _16_ of your progress and provides detailed feedback _17_ your performance and improvement. Most importantly, it _18_ modifies and enhances the games you play to _19_ on the strengths you are developing – much like a(n) _20_ exercise routine requires you to increase resistance and vary your muscle use."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "acquaintance",
+          "meanings": [
+            "相识的人",
+            "熟人"
+          ],
+          "context_match": "an old acquaintance’s name"
+        },
+        {
+          "word": "occurrence",
+          "meanings": [
+            "（事件的）发生",
+            "发生的事"
+          ],
+          "context_match": "these occurrences"
+        },
+        {
+          "word": "senior",
+          "meanings": [
+            "老年人",
+            "较年长的人"
+          ],
+          "context_match": "senior moments"
+        },
+        {
+          "word": "innocent",
+          "meanings": [
+            "无害的",
+            "无恶意的"
+          ],
+          "context_match": "seemingly innocent"
+        },
+        {
+          "word": "systematically",
+          "meanings": [
+            "系统地",
+            "成体系地"
+          ],
+          "context_match": "systematically improve"
+        },
+        {
+          "word": "modify",
+          "meanings": [
+            "稍改",
+            "修改",
+            "（尤指）使改进"
+          ],
+          "context_match": "modifies and enhances"
+        },
+        {
+          "word": "resistance",
+          "meanings": [
+            "抵抗力",
+            "抗力",
+            "耐力"
+          ],
+          "context_match": "increase resistance"
+        },
+        {
+          "word": "vary",
+          "meanings": [
+            "使某事物有变化",
+            "改变"
+          ],
+          "context_match": "vary your muscle use"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "text": "we put the keys just a moment ago",
+          "options": {
+            "A": "that",
+            "B": "when",
+            "C": "why",
+            "D": "where"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "从语法上，that, when, why, where都可以引导宾语从句。从语义上来看，本句是忘记把钥匙放在哪里了，所以应该用where引导地点状语。",
+          "ai_persona_prompt": "Oh honey, you can't even remember where you put your keys? It's 'where'! Think location, location, location! Not 'why' you put them there, unless you're having an existential crisis about your keys."
+        },
+        {
+          "id": 2,
+          "text": "",
+          "options": {
+            "A": "fades",
+            "B": "improves",
+            "C": "collapses",
+            "D": "recovers"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "根据前文，人们的记忆力和头脑清晰度不如从前，因此这里应该选择fades，表示大脑功能衰退。",
+          "ai_persona_prompt": "Darling, 'improves' and 'recovers'? Are you living in a fantasy world? The brain *fades* as we age! Like a wilting flower, or your chances of getting a date with that hot barista."
+        },
+        {
+          "id": 3,
+          "text": "",
+          "options": {
+            "A": "Unless",
+            "B": "While",
+            "C": "Once",
+            "D": "If"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "这里表示让步关系，虽然大脑失焦看似无害，但实际上可能对我们的职业、社会和个人生活产生影响。",
+          "ai_persona_prompt": "Honestly, you thought this was a tricky one? 'While'! It's a contrast, duh! 'Unless' and 'If' are conditional, and 'Once' is just... sad. 'While' gives you that nice 'yeah, but...' feeling. Like your last relationship."
+        },
+        {
+          "id": 4,
+          "text": "",
+          "options": {
+            "A": "damaging",
+            "B": "limited",
+            "C": "uneven",
+            "D": "obscure"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "根据上文，大脑失焦可能对我们的生活产生影响，这里应该选择damaging，表示有害的影响。",
+          "ai_persona_prompt": "Limited impact? Please! Losing your marbles is always *damaging*. It's not 'obscure,' it's not 'uneven,' it's a disaster! Like your fashion choices. "
+        },
+        {
+          "id": 5,
+          "text": "",
+          "options": {
+            "A": "relationship",
+            "B": "environment",
+            "C": "wellbeing",
+            "D": "outlook"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "这里指的是对个人幸福造成影响，所以选择wellbeing。",
+          "ai_persona_prompt": "Wellbeing, obviously! It's the overall happiness and health. Not your 'relationship' status, which is probably a mess. Or your 'environment,' unless you live in a dumpster. "
+        },
+        {
+          "id": 6,
+          "text": "",
+          "options": {
+            "A": "figures",
+            "B": "finds",
+            "C": "points",
+            "D": "turns"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "Turn out表示结果是，被证明是，符合语境。",
+          "ai_persona_prompt": "Seriously? 'Figures'? It *turns out*! As in, the research shows. 'Finds' is close, but 'turns out' is way more sophisticated. Try to keep up, darling."
+        },
+        {
+          "id": 7,
+          "text": "",
+          "options": {
+            "A": "responses",
+            "B": "associations",
+            "C": "workouts",
+            "D": "roundabouts"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "大脑需要锻炼，就像肌肉需要锻炼一样，所以这里应该选择workouts。",
+          "ai_persona_prompt": "Workouts! Brain workouts! Not 'responses' like you're a Pavlov's dog. Or 'associations' like you're at a wine tasting. Get your head in the game, literally!"
+        },
+        {
+          "id": 8,
+          "text": "",
+          "options": {
+            "A": "genre",
+            "B": "criterion",
+            "C": "circumstances",
+            "D": "functions"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "认知功能，functions符合语境。",
+          "ai_persona_prompt": "Functions! Cognitive functions! We're talking brainpower here, not 'genre' like you're categorizing your music. Focus, darling, focus!"
+        },
+        {
+          "id": 9,
+          "text": "",
+          "options": {
+            "A": "channel",
+            "B": "process",
+            "C": "condition",
+            "D": "sequence"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "思考本质上是在大脑中建立连接的过程。",
+          "ai_persona_prompt": "Process! It's a *process*! Not a 'channel' like you're flipping through TV stations. Thinking is active, it's a process. Got it? Good."
+        },
+        {
+          "id": 10,
+          "text": "",
+          "options": {
+            "A": "persist",
+            "B": "feature",
+            "C": "excel",
+            "D": "believe"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "我们擅长于建立促进智力的连接，excel符合语境。",
+          "ai_persona_prompt": "Excel! To be good at it! Not just 'believe' in it like it's some kind of religion. You want to *excel* at making those connections, darling. Aim high!"
+        },
+        {
+          "id": 11,
+          "text": "",
+          "options": {
+            "A": "However",
+            "B": "Moreover",
+            "C": "Otherwise",
+            "D": "Therefore"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "However表示转折，上文说能力是遗传的，下文说能力是可以通过后天努力获得的。",
+          "ai_persona_prompt": "However! Because there's a *but* coming! It's like saying 'I love you, *however*, you need a makeover.' Pay attention to the context, sweetie."
+        },
+        {
+          "id": 12,
+          "text": "",
+          "options": {
+            "A": "according to",
+            "B": "regardless of",
+            "C": "apart from",
+            "D": "instead of"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "智力可以根据脑力训练而拓展或波动，according to表示根据。",
+          "ai_persona_prompt": "According to! It depends on! It's not 'regardless of' like your dating standards. Your intelligence fluctuates *according to* your effort. Put in the work!"
+        },
+        {
+          "id": 13,
+          "text": "",
+          "options": {
+            "A": "back",
+            "B": "further",
+            "C": "aside",
+            "D": "around"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "Take it a step further表示更进一步。",
+          "ai_persona_prompt": "Further! Taking it *further*! As in, improving and expanding! Not 'back' like you're running from responsibility. Go *further*, be better!"
+        },
+        {
+          "id": 14,
+          "text": "",
+          "options": {
+            "A": "framework",
+            "B": "stability",
+            "C": "flexibility",
+            "D": "sharpness"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "恢复大脑灵敏度，sharpness符合语境。",
+          "ai_persona_prompt": "Sharpness! We want a *sharp* mind! Not just stability, unless you're aiming to be a rock. Get that brain working and get some *sharpness* back!"
+        },
+        {
+          "id": 15,
+          "text": "",
+          "options": {
+            "A": "hurries",
+            "B": "reminds",
+            "C": "allows",
+            "D": "forces"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "Allow表示允许，许可，程序允许你系统地提高记忆力和注意力技能。",
+          "ai_persona_prompt": "Allows! It *allows* you! It's a gift, not a chore. Not 'forces,' unless you're into that sort of thing. The program *allows* you to improve. Take advantage of it!"
+        },
+        {
+          "id": 16,
+          "text": "",
+          "options": {
+            "A": "order",
+            "B": "track",
+            "C": "pace",
+            "D": "hold"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "Keep track of表示保持知晓，保持联络，程序跟踪你的进步。",
+          "ai_persona_prompt": "Track! Keep *track*! As in, monitor and follow. Not 'order' like you're running a restaurant. Keep *track* of your progress, darling, it's motivational!"
+        },
+        {
+          "id": 17,
+          "text": "",
+          "options": {
+            "A": "on",
+            "B": "to",
+            "C": "for",
+            "D": "with"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "Feedback on表示关于……的反馈。",
+          "ai_persona_prompt": "On! Feedback *on*! As in, relating to. It's feedback *on* your performance, not feedback *with* your performance like you're holding hands. Get it right!"
+        },
+        {
+          "id": 18,
+          "text": "",
+          "options": {
+            "A": "habitually",
+            "B": "constantly",
+            "C": "irregularly",
+            "D": "unusually"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "Constantly表示不断地，持续地，程序不断地调整和加强训练内容。",
+          "ai_persona_prompt": "Constantly! All the time! Not just 'habitually' like you're picking your nose. It's *constantly* adapting, because your brain is worth the effort."
+        },
+        {
+          "id": 19,
+          "text": "",
+          "options": {
+            "A": "carry",
+            "B": "put",
+            "C": "build",
+            "D": "take"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "Build on表示用……作为进一步发展的基础，将……继续推进，继续推进你的优势。",
+          "ai_persona_prompt": "Build! *Build* on! As in, strengthen and develop. Not just 'put' on like you're wearing a new outfit. You want to *build* on those strengths and become a brainiac!"
+        },
+        {
+          "id": 20,
+          "text": "",
+          "options": {
+            "A": "idle",
+            "B": "risky",
+            "C": "familiar",
+            "D": "effective"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "有效的日常锻炼，effective符合语境。",
+          "ai_persona_prompt": "Effective! Obviously, you want something *effective*! Not 'idle' like you're watching Netflix all day. An *effective* routine gets results! What are you waiting for?"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 1",
+        "q_range": "21-25"
+      },
+      "article": {
+        "paragraphs": [
+          "In order to “change lives for the better” and reduce “dependency”, George Osborne, Chancellor of the Exchequer, introduced the “upfront work search”  scheme. Only if the jobless arrive  at the jobcentre with a CV,  register for online job search, and start looking for work will they be eligible for benefit –  and then they should report weekly rather than  fortnightly.  What  could  be  more  reasonable?",
+          "More apparent reasonableness followed. There will now be a seven-day wait   for the jobseeker’s allowance. “Those first few days should be spent looking for work, not looking to sign on,” he claimed. “We’re doing these things because we know they help people stay off benefits and help those on benefits get into work faster.” Help? Really? On first hearing, this was the socially concerned chancellor, trying to change lives for the better, complete with “reforms” to an obviously indulgent system that demands too little effort from the newly unemployed to find work, and subsidises laziness. What motivated him,  we  were to understand, was his zeal for “fundamental fairness” – protecting the taxpayer, controlling spending and ensuring that only the most deserving claimants received their benefits.",
+          "Losing a job is hurting: you don’t skip down to the jobcentre with a song in  your heart, delighted at the prospect of doubling your income from the generous state. It is financially terrifying, psychologically embarrassing and you know that support is minimal and extraordinarily hard to get. You  are  now not  wanted;  you are now excluded from the work environment that offers purpose and structure in your life. Worse, the crucial income to feed yourself and your family and pay the  bills has disappeared. Ask anyone newly unemployed what they want and  the  answer is always: a job.",
+          "But in Osborneland, your first instinct is to fall into dependency – permanent dependency if you can get it – supported by a state only too ready to indulge your falsehood. It is as though 20 years of ever-tougher reforms of the job search and benefit administration system never happened. The principle of  British  welfare  is no longer that you can insure yourself against the risk of unemployment and  receive unconditional payments if the disaster happens. Even the very phrase “jobseeker’s allowance” is about redefining the unemployed as a “jobseeker” who had no fundamental right to a benefit he or  she  has  earned  through  making national insurance contributions. Instead, the claimant receives a time-limited “allowance,” conditional on actively seeking a job; no  entitlement  and  no insurance, at £71.70 a week, one of the least generous in the EU."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "Chancellor",
+          "meanings": [
+            "大臣",
+            "长官"
+          ],
+          "context_match": "Exchequer"
+        },
+        {
+          "word": "Exchequer",
+          "meanings": [
+            "英国财政部"
+          ],
+          "context_match": "Chancellor"
+        },
+        {
+          "word": "upfront",
+          "meanings": [
+            "预先的",
+            "预付的"
+          ],
+          "context_match": "work search"
+        },
+        {
+          "word": "eligible",
+          "meanings": [
+            "有资格的",
+            "符合条件的"
+          ],
+          "context_match": "benefit"
+        },
+        {
+          "word": "fortnightly",
+          "meanings": [
+            "两星期一次地",
+            "每两周地"
+          ],
+          "context_match": "report"
+        },
+        {
+          "word": "allowance",
+          "meanings": [
+            "津贴",
+            "补贴"
+          ],
+          "context_match": "jobseeker's"
+        },
+        {
+          "word": "claim",
+          "meanings": [
+            "声称",
+            "断言"
+          ],
+          "context_match": "looking to sign on"
+        },
+        {
+          "word": "zeal",
+          "meanings": [
+            "热心",
+            "热情"
+          ],
+          "context_match": "fundamental fairness"
+        },
+        {
+          "word": "prospect",
+          "meanings": [
+            "可能性",
+            "机会",
+            "希望"
+          ],
+          "context_match": "doubling your income"
+        },
+        {
+          "word": "instinct",
+          "meanings": [
+            "本能"
+          ],
+          "context_match": "dependency"
+        },
+        {
+          "word": "dependency",
+          "meanings": [
+            "依赖性"
+          ],
+          "context_match": "fall into"
+        },
+        {
+          "word": "falsehood",
+          "meanings": [
+            "错误",
+            "虚伪"
+          ],
+          "context_match": "indulge your"
+        },
+        {
+          "word": "insure",
+          "meanings": [
+            "保证",
+            "确保"
+          ],
+          "context_match": "against the risk of"
+        },
+        {
+          "word": "entitlement",
+          "meanings": [
+            "拥有或获得某物的权利"
+          ],
+          "context_match": "no"
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "text": "George Osborne’s scheme was intended to",
+          "options": {
+            "A": "encourage jobseekers’ active engagement in job seeking.",
+            "B": "provide the unemployed with easier access to benefits.",
+            "C": "guarantee jobseekers’ legitimate right to benefits.",
+            "D": "motivate the unemployed to report voluntarily."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "首段①句指出计划目的∶使生活更好，并降低依赖。②句说明计划内容∶失业者须带简历到求职中心、注册网上求职、并开始寻找工作，才有资格领取失业金;且之后须每周报到一次。结合两句可知，计划旨在鼓励失业者积极寻找工作、而不是依赖失业金，【A】正确。",
+          "ai_persona_prompt": "Alright, listen up! Osborne's scheme? It's all about pushing those jobseekers to actually *seek* jobs! Not just sit around waiting for benefits to magically appear. Option A nails it. The rest? Poppycock! Easy access to benefits? Nope! Guaranteeing rights? Please! Motivating reporting? That's just a side effect. Get it right!"
+        },
+        {
+          "id": 22,
+          "text": "The phrase “to sign on” (Line 3, Para. 2) most probably means",
+          "options": {
+            "A": "to check on the availability of jobs at the jobcentre.",
+            "B": "to accept the government’s restrictions on the allowance.",
+            "C": "to register for an allowance from the government.",
+            "D": "to attend a governmental job-training program."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "由所考词所在句\"失业最初几天应该用于找工作，而不是指望 sign on\"可知∶sign on 是\"找工作\"的对立面。再结合上句\"求职者需要经过七天的等待期才能申请津贴\"及下句\"之所以这样做，是要帮助人们远离救济\"，可确定 sign on 指\"登记领取政府津贴\"，【C】正确。",
+          "ai_persona_prompt": "Ugh, 'to sign on'? Seriously? It's about getting your grubby little hands on that government allowance! Option C, duh! Checking for jobs? Please, that's optional. Accepting restrictions? You do that kicking and screaming. Job training? If you're lucky! It's about the money, honey! Get it through your thick skulls!"
+        },
+        {
+          "id": 23,
+          "text": "What prompted the chancellor to develop his scheme?",
+          "options": {
+            "A": "A desire to secure a better life for all.",
+            "B": "An eagerness to protect the unemployed.",
+            "C": "An urge to be generous to the claimants.",
+            "D": "A passion to ensure fairness for taxpayers."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "根据题干设问直接定位至第二段⑧句（What motivated him...）。该句指出，激励奥斯本制定其计划的是对“基本公平”的热情;保护纳税者，控制开支，确保只有最应资助的申请者才能领到补贴。可见，【D】符合文意。",
+          "ai_persona_prompt": "Oh, please, a better life for all? You actually believe that garbage? The Chancellor's scheme? It's about one thing: protecting the taxpayers' precious money! Option D is the only honest answer here. Protecting the unemployed? Get real! Generous to claimants? As if! Wake up and smell the austerity!"
+        },
+        {
+          "id": 24,
+          "text": "According to Paragraph 3, being unemployed makes one feel",
+          "options": {
+            "A": "uneasy.",
+            "B": "insulted.",
+            "C": "enraged.",
+            "D": "guilty."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第三段集中论述了失业带给人们的打击∶经济窘迫，心理尴尬，感到不被需要，失去原有的目标感及有序感，无比渴望早日找到工作。可见，失业令人内心恐慌不安，【A】正确。",
+          "ai_persona_prompt": "Unemployed? You're not skipping down to the job center, are you? Paragraph 3 screams 'uneasy'! Financially terrified, psychologically embarrassed - Option A nails it. Insulted? Maybe some, but that's not the main vibe. Enraged? Nah, just desperate. Guilty? Please, they're victims here! Get a clue!"
+        },
+        {
+          "id": 25,
+          "text": "To which of the following would the author most probably agree?",
+          "options": {
+            "A": "Unemployment benefits should not be made conditional.",
+            "B": "The British welfare system indulges jobseekers’ laziness.",
+            "C": "The jobseekers’ allowance has met their actual needs.",
+            "D": "Osborne’s reforms will reduce the risk of unemployment."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第四段③④⑤句指出，奥斯本计划完全偏离了英国福利制度“无条件帮助人们度过危机”的原则，使得失业者没有任何权利或保障。可见作者认为救济金不应设为“有条件的”，【A】正确。",
+          "ai_persona_prompt": "Please! Option A is the only sane choice here. The author is clearly against these ridiculous conditions on benefits! Indulging laziness? That's Osborne's twisted view. Meeting needs? Hardly! Reducing unemployment? Don't make me laugh! The author would gag at the thought of agreeing with any of the other options. A is the way to go."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 2",
+        "q_range": "26-30"
+      },
+      "article": {
+        "paragraphs": [
+          "All around the world, lawyers generate more hostility than the members of any other profession – with the possible exception of journalism. But there are few places where clients have more grounds for complaint than America.",
+          "During the decade before the economic crisis, spending on legal services in America grew twice as fast as inflation. The best lawyers made skyscrapers-full of money, tempting ever more students to pile into law schools. But most law graduates never get a big-firm job. Many of them instead become the kind of nuisance-lawsuit filer that makes the tort system a costly nightmare.",
+          "There are many reasons for this. One is the excessive costs of a legal education. There is just one path for a lawyer in most American states: a four-year undergraduate degree in some unrelated subject, then a three-year law degree at one of 200 law schools authorized by the American Bar Association and an expensive preparation for the bar exam. This leaves today’s average law-school graduate with $100,000 of debt on top of undergraduate debts. Law-school debt means that they have to work fearsomely hard.",
+          "Reforming the system would help both lawyers and their customers. Sensible ideas have been around for a long time, but the state-level bodies that govern the profession have been too conservative to implement them. One idea is to allow people to study law as an undergraduate degree. Another is to let students sit for the bar after only two years of law school. If the bar exam is truly a stern enough test for a would-be lawyer, those who can sit it earlier should be allowed to do so. Students who do not need the extra training could cut their debt mountain by a third.",
+          "The other reason why costs are so high is the restrictive guild-like ownership structure of the business. Except in the District of Columbia, non-lawyers may not own any share of a law firm. This keeps fees high and innovation slow. There is pressure for change from within the profession, but opponents of change among the regulators insist that keeping outsiders out of a law firm isolates lawyers from the pressure to make money rather than serve clients ethically.",
+          "In fact, allowing non-lawyers to own shares in law firms would reduce costs and improve services to customers, by encouraging law firms to use technology and to employ professional managers to focus on improving firms’ efficiency. After all, other countries, such as Australia and Britain, have started liberalizing their legal professions. America should follow."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "hostility",
+          "meanings": [
+            "敌意，愤怒"
+          ],
+          "context_match": "lawyers generate more hostility"
+        },
+        {
+          "word": "generate",
+          "meanings": [
+            "引发（某种感情）;造成（某种情况）"
+          ],
+          "context_match": "lawyers generate more hostility"
+        },
+        {
+          "word": "ground",
+          "meanings": [
+            "（常复数）充分的理由"
+          ],
+          "context_match": "have grounds for complaint"
+        },
+        {
+          "word": "inflation",
+          "meanings": [
+            "通货膨胀（率）"
+          ],
+          "context_match": "grew twice as fast as inflation"
+        },
+        {
+          "word": "skyscraper",
+          "meanings": [
+            "摩天大楼"
+          ],
+          "context_match": "made skyscrapers-full of money"
+        },
+        {
+          "word": "pile",
+          "meanings": [
+            "蜂拥，拥挤"
+          ],
+          "context_match": "tempting ever more students to pile into law schools"
+        },
+        {
+          "word": "nuisance",
+          "meanings": [
+            "（法律）妨害公共利益的行为"
+          ],
+          "context_match": "become the kind of nuisance-lawsuit filer"
+        },
+        {
+          "word": "filer",
+          "meanings": [
+            "诉讼律师"
+          ],
+          "context_match": "nuisance-lawsuit filer"
+        },
+        {
+          "word": "tort",
+          "meanings": [
+            "民事侵权行为"
+          ],
+          "context_match": "makes the tort system a costly nightmare"
+        },
+        {
+          "word": "costly",
+          "meanings": [
+            "昂贵的，代价高的"
+          ],
+          "context_match": "makes the tort system a costly nightmare"
+        },
+        {
+          "word": "excessive",
+          "meanings": [
+            "过多的，过分的"
+          ],
+          "context_match": "the excessive costs of a legal education"
+        },
+        {
+          "word": "path",
+          "meanings": [
+            "（达到或成就某事的）途径，方式"
+          ],
+          "context_match": "There is just one path"
+        },
+        {
+          "word": "the bar",
+          "meanings": [
+            "法律专业（人士），法律界"
+          ],
+          "context_match": "preparation for the bar exam"
+        },
+        {
+          "word": "sensible",
+          "meanings": [
+            "明智的，合理的，实际的"
+          ],
+          "context_match": "Sensible ideas have been around"
+        },
+        {
+          "word": "implement",
+          "meanings": [
+            "实施，落实"
+          ],
+          "context_match": "conservative to implement them"
+        },
+        {
+          "word": "stern",
+          "meanings": [
+            "严厉的，严格的"
+          ],
+          "context_match": "If the bar exam is truly a stern enough test"
+        },
+        {
+          "word": "restrictive",
+          "meanings": [
+            "限制性的，约束性的"
+          ],
+          "context_match": "restrictive guild-like ownership structure"
+        },
+        {
+          "word": "guild",
+          "meanings": [
+            "协会，行会"
+          ],
+          "context_match": "restrictive guild-like ownership structure"
+        },
+        {
+          "word": "opponent",
+          "meanings": [
+            "反对者"
+          ],
+          "context_match": "opponents of change among the regulators"
+        },
+        {
+          "word": "regulator",
+          "meanings": [
+            "管理者，管理机构"
+          ],
+          "context_match": "opponents of change among the regulators"
+        },
+        {
+          "word": "isolate",
+          "meanings": [
+            "孤立，隔离"
+          ],
+          "context_match": "isolates lawyers from the pressure"
+        },
+        {
+          "word": "ethically",
+          "meanings": [
+            "合乎道德地"
+          ],
+          "context_match": "serve clients ethically"
+        },
+        {
+          "word": "liberalize",
+          "meanings": [
+            "使自由化，放松对……的限制"
+          ],
+          "context_match": "started liberalizing their legal professions"
+        }
+      ],
+      "questions": [
+        {
+          "id": 26,
+          "text": "A lot of students take up law as their profession due to",
+          "options": {
+            "A": "the growing demand from clients",
+            "B": "the increasing pressure of inflation",
+            "C": "the prospect of working in big firms",
+            "D": "the attraction of financial rewards"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "根据第二段②句'顶尖律师可挣得摩天大楼般高的钱，吸引众多学生涌入法学院'可知'这些学生受高收入诱惑选择法律行业'。故【D】正确。\n【命题解密】 题干＋正确项【D】是对第二段②句的同义改写。\n【A】、【B】首先曲解文意，均根据①句'美国法律服务支出增速是通货膨胀的两倍'曲解出'委托人的需求在日益增长'、'通货膨胀压力不断增加'；其次，即便这种曲解是对的，也并非文中所述原因所在。\n【C】首先曲解文意，与③句'大多数学生根本没机会进入大律所'相悖；其次，即便能去大律所也是出于挣大钱的目的。\n【技巧总结】因果细节题的解答步骤为：一、锁定题干考查对象：'因'还是'果'；二、于文中找寻因果关联词，并于其上下文就'果'找'果'，就'因'找'因'；三、将找寻内容与选项匹配。如本题，由题干due to 知其考查'因'；再由题干关键词 a lots of students take up law as their profession 搜索至第二段②句发现，句中 tempting 为隐性因果关联词，其后为'果'其前为'因'；最后于 tempting 前文找寻发现 skyscrapers-full of money 匹配【D】中 financial rewards。",
+          "ai_persona_prompt": "Alright, listen up! Question 26 is practically GIVEN to you. Remember the line about lawyers making 'skyscrapers-full of money'? Ding ding ding! What attracts students? Financial rewards! It's not rocket science. If you missed this one, go back and read the text like you actually want to understand it. Option D is the only one that makes sense."
+        },
+        {
+          "id": 27,
+          "text": "Which of the following adds to the costs of legal education in most American states?",
+          "options": {
+            "A": "Higher tuition fees for undergraduate studies.",
+            "B": "Receiving training by professional associations.",
+            "C": "Admissions approval from the bar association.",
+            "D": "Pursuing a bachelor's degree in another major."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "【精准定位】第三段③句介绍当前法律教育体制：先要攻读四年非法律专业学士学位，后才可进入法学院攻读法律，最后还得花重金通过律师资格考试;④句指出这种教育体制的后果：给法学院学生带来巨大债务危机。换言之，③句所言三个因素为本题题干考查对象，而唯有【D】切合其中之一，故正确。\n【命题解密】正确项对应第三段③句中 a four-year undergraduate degree in some unrelated subject。\n【A】由④句 undergraduate debts\"本科债务\"捏造出\"本科学费更高\"，而文中并未对比本科教育与法律教育费用高低;【B】由③句 law schools authorized by the American Bar Association 衍生出\"接受专业协会的培训\"，而文意实为\"在美国律师协会许可的法学院学习\";【C】由③句 for the bar exam\"参加律考\"衍生出\"经得律师协会的准入许可\"，而文意实为\"律师资格考试费用高昂（而非准入许可）推高法律教育费用\"。\n「技巧总结】借题干隐性因果表达词 adds to 可知本题亦考查因果关联（解题思路同 26）。解答步骤如下：首先根据题干关键词定位至第三段，尔后搜寻到④句中因果表达词 leaves，然后再沿着其前 This（回指③句内容）搜索至③句中发现句中实含三个因素（A then B and C），最后将三个因素与选项一一匹配可知【D】对应 A。捷径：本题题干中adds to 意表此题考查\"增加的法律教育费用\"，因此可先剔除与正常法律教育费用挂钩的选项，【D】中 another major展示了这一深层含义，并对应③句中 unrelated subject。",
+          "ai_persona_prompt": "Okay, pay attention, because this is about the STRUCTURE of legal education. The text says you have to get a FOUR-YEAR DEGREE IN SOMETHING COMPLETELY UNRELATED first. Think about it! That's extra time, extra tuition, extra debt! That's what ADDS to the cost. Option D, people! If you thought it was the bar association's 'approval', you weren't reading closely enough. Get your head in the game!"
+        },
+        {
+          "id": 28,
+          "text": "Hindrance to the reform of the legal system originates from",
+          "options": {
+            "A": "the rigid bodies governing the profession",
+            "B": "lawyers' and clients' strong resistance",
+            "C": "the stern exam for would-be lawyers",
+            "D": "non-professionals' sharp criticism"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "【精准定位】 第四段②句指出;切实可行的计划早已具备，但各州行业管理机构过于保守不愿推行。可见，保守的州级管理部门阻碍了改革，【A】正确。\n【命题解密】正确项是对第四段②句的同义改写，其中 rigid、bodies governing the profession 分别对应 too conservative、bodies that govern the profession。\n【B】与①句'改革法律教育体制对律师和客户均有益'所暗藏的'律师和客户都支持改革'相悖;【C误将改革措施等同于改革障碍;【D】将第五段②句'非律师身份人士对律师行业行会式限制性所有权机构可能存在的批评'偷换成'非专业人士对法律体制改革的尖锐批评'。\n【技巧总结】借题干隐性因果表达词 originates from 可知本题亦为因果细节题，但并非只有因果表达词能够表达因果关联，有时候也可以通过语义逻辑传递因果关联，故解答时应一反常规'于文中找寻因果关联词'，另辟蹊径'于文中找到与题干 Hindrance 的近义表达（too conservative to implement them，其中 them指代 sensible ideas about/of reforming the system）'，然后再追其施动者（the state-level bodies that govern the prolession）即可快速找寻到正确答案。",
+          "ai_persona_prompt": "Honestly, if you missed this one, you need to work on your reading comprehension skills! The text literally states that 'state-level bodies...have been too conservative to implement' sensible ideas. Is that not a 'hindrance'? Option A is screaming at you from the page! Don't overthink it! Read what's actually written!"
+        },
+        {
+          "id": 29,
+          "text": "The guild-like ownership structure is considered “restrictive” partly because it",
+          "options": {
+            "A": "prevents lawyers from gaining due profits",
+            "B": "bans outsiders' involvement in the profession",
+            "C": "aggravates the ethical situation in the trade",
+            "D": "keeps lawyers from holding law-firm shares"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "【精准定位】 第五段②句解释①句所述概念'限制性所有权结构'：除了哥伦比亚特区，非律师身份的人不允许拥有律师事务所的股份;④句也提到''将非律师身份者排除在律师事务所之外'。可见，【B】正确。\n【命题解密】 正确项是对第五段②句 non-lawyers may not own any share of alaw firm 以及④句 keeping outsiders out of a law firm 的同义替换。\n【A】反向曲解④句'这一限制性所有权结构让律师没有赚钱的压力'，且和题干不构成因果关联;【C】将④句'让律师很好地为委托人服务'曲解为'使得该行业道德恶化'，且和题干不构成因果关联;【D】将'非律师身份者（non-lawyers）'偷换为'律师（lawyers）'。\n技巧总结】 本题形式上是不折不扣的因果细节题，但同 28 题，并不能在文中找寻到因果关联词;进而再仔细琢磨题干可发现，它实质上考查抽象概念'restrictive'；而解答抽象概念的关键在于'借助句群关联'。解答本题逻辑即为;第五段实为'总（①句）—分（②③④句）'结构，其中①句作者使用评注词 restrictive.②④句non-lawyers may not own any share ofa law firm、keeping outsiders out of a law firm 在一定程度上即为restrictive 的注解。",
+          "ai_persona_prompt": "Come ON! The text explicitly states that 'non-lawyers may not own any share of a law firm.' What does that MEAN? It means outsiders are BANNED! Option B is the direct consequence of that 'restrictive' structure. Stop making this harder than it is! Read the text and connect the dots. Seriously!"
+        },
+        {
+          "id": 30,
+          "text": "In this text, the author mainly discusses",
+          "options": {
+            "A": "the factors that help make a successful lawyer in America",
+            "B": "a problem in America's legal profession and solutions to it",
+            "C": "the role of undergraduate studies in America's legal education",
+            "D": "flawed ownership of America's law firms and its causes"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "【精准定位】首两段提出话题'美国法律服务费用高昂'；末四段借助两个回合的'分析问题——给出解决办法'将美国法律服务费用为什么高昂以及如何解决这一问题做了详尽阐述。据此可知，文章的论述中心应该是'美国律师行业的问题与对策'，【B】正确。\n【命题解密】正确项是对全文主述话题及内容的最有力概括，既不显得细节，也不显得脱节。\n「A由第三段③句'想要成为一名律师所必须接受的教育路径'捏造出'在美国成为成功律师的影响因素'这个文中不存在的信息;【C】由第三段③句'成为律师首先必须学习四年非法律本科专业'及第四段③句'本科即可开始学习法律'衍生出文章在探讨'本科教育在美国法律教育中的作用'，而这并非文意重点;【D】将第五六段'美国律师事务所所有权制度有一定缺陷'这一局部内容夸大为文章核心内容。\n【技巧总结】解答主旨题的关键在从主题、脉络、尤其首末段展开。如本文，主题即为美国法律行业（由首段①句 with the possible exception of journalism 即可推知），纵观四个选项发现每个选项都跟法律沾边;故而再看首末段，借首段'美国律师饱受诟病（问题）'及末段'美国应效仿他国（建议）'可初步推断【B】'问题—解决'符合全文结构;然后再根据中间段落逻辑链一 There are many reasons→one→the other reason、逻辑链二 reforming the system would help both lawyers and their customers→allowing non-lawyers...would reduce costs and improve services to customers 可知全文着力'问题原因分析—有效解决途径'可最终敲定【B】正确。",
+          "ai_persona_prompt": "Okay, big picture time! What's the MAIN POINT of the whole text? It's not about the 'factors' for individual success (A), or just undergraduate studies (C), or the ownership structure ALONE (D). It's about a PROBLEM (high costs and public dissatisfaction) and potential SOLUTIONS (education and ownership reform). Option B is the comprehensive answer. Step back, see the forest for the trees, and get it right!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 3",
+        "q_range": "31-35"
+      },
+      "article": {
+        "paragraphs": [
+          "The US$3-million Fundamental Physics Prize is indeed an interesting experiment, as Alexander Polyakov said when he accepted this year’s award in March. And it is far from the only one of its type. As a News Feature article in  Nature discusses, a string of lucrative awards for researchers have joined the Nobel Prizes in recent years. Many, like the  Fundamental  Physics Prize, are  funded from the telephone-number-sized bank accounts of Internet entrepreneurs.These benefactors  have  succeeded  in their  chosen fields,  they say, and they want  to use their wealth to draw attention to those who have succeeded in science.",
+          "What’s not to like? Quite a lot, according to a handful of scientists quoted  in  the News Feature. You cannot buy class, as the old saying goes, and these upstart entrepreneurs cannot buy their prizes  the prestige of the Nobels. The new awards   are an exercise in self-promotion for those behind them, say scientists. They could distort the achievement-based system of peer-review-led research. They could cement the status quo of peer-reviewed research. They do not fund peer-reviewed research. They perpetuate the myth of the lone genius.",
+          "The goals of the prize-givers seem as scattered as the criticism. Some want to shock, others to draw people into science, or to  better  reward  those  who  have  made their careers in research.",
+          "As Nature has pointed out before, there  are some legitimate  concerns about  how science prizes  – both  new  and  old  – are distributed. The Breakthrough Prize in Life Sciences, launched this year, takes an  unrepresentative  view  of  what  the life sciences include. But the Nobel Foundation’s limit  of  three  recipients  per  prize, each of whom must still be living, has long been outgrown by  the  collaborative nature of modern research – as  will  be  demonstrated  by  the inevitable row over who is ignored  when it comes to acknowledging the discovery  of the Higgs boson. The Nobels were, of course, themselves set up by a very rich individual who had decided what he wanted to do with  his  own  money.  Time, rather than intention, has given them legitimacy.",
+          "As much as some scientists may complain about the new awards, two things seem clear. First, most researchers would accept such a prize if they were offered one. Second, it is surely a good thing that the money and attention come to science rather than go elsewhere. It is fair to criticize and question the mechanism– that is the culture of research, after all – but it is the prize-givers’ money to do with as they please. It is wise to take such gifts with gratitude and grace."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "lucrative",
+          "meanings": [
+            "利润丰厚的",
+            "赚大钱的"
+          ],
+          "context_match": "a string of lucrative awards"
+        },
+        {
+          "word": "benefactor",
+          "meanings": [
+            "捐助者",
+            "捐资人"
+          ],
+          "context_match": "These benefactors have succeeded"
+        },
+        {
+          "word": "upstart",
+          "meanings": [
+            "暴富的"
+          ],
+          "context_match": "these upstart entrepreneurs"
+        },
+        {
+          "word": "distort",
+          "meanings": [
+            "扭曲",
+            "使失真"
+          ],
+          "context_match": "They could distort the achievement-based system"
+        },
+        {
+          "word": "status quo",
+          "meanings": [
+            "现状"
+          ],
+          "context_match": "cement the status quo"
+        },
+        {
+          "word": "perpetuate",
+          "meanings": [
+            "使持续"
+          ],
+          "context_match": "perpetuate the myth of the lone genius"
+        },
+        {
+          "word": "scattered",
+          "meanings": [
+            "分散的"
+          ],
+          "context_match": "as scattered as the criticism"
+        },
+        {
+          "word": "legitimacy",
+          "meanings": [
+            "合法性",
+            "正统性"
+          ],
+          "context_match": "given them legitimacy"
+        },
+        {
+          "word": "mechanism",
+          "meanings": [
+            "机制"
+          ],
+          "context_match": "question the mechanism"
+        },
+        {
+          "word": "gratitude",
+          "meanings": [
+            "感激，感谢"
+          ],
+          "context_match": "with gratitude and grace"
+        },
+        {
+          "word": "grace",
+          "meanings": [
+            "优美，优雅"
+          ],
+          "context_match": "with gratitude and grace"
+        }
+      ],
+      "questions": [
+        {
+          "id": 31,
+          "text": "The Fundamental Physics Prize is seen as",
+          "options": {
+            "A": "a symbol of the entrepreneurs’ wealth.",
+            "B": "a handsome reward for researchers.",
+            "C": "a possible replacement of the Nobel Prizes.",
+            "D": "an example of bankers’ investments."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "根据首段内容，尤其是“a string of lucrative awards for researchers have joined the Nobel Prizes in recent years”一句可知，基础物理学奖被看作是对研究人员的丰厚奖赏。选项B是对原文的同义改写。",
+          "ai_persona_prompt": "Alright, listen up! The Fundamental Physics Prize? It's NOT a billionaire's bling showcase (A), nor is it replacing the Nobels anytime soon (C). And bankers investing? Get real (D)! It's a reward, a freakin' pat on the back for scientists who've busted their butts (B). Simple as that!"
+        },
+        {
+          "id": 32,
+          "text": "The critics think that the new awards will most benefit",
+          "options": {
+            "A": "the profit-oriented scientists.",
+            "B": "the achievement-based system.",
+            "C": "the founders of the new awards.",
+            "D": "peer-review-led research."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第二段中，批评者认为新奖项是“an exercise in self-promotion for those behind them”，即新奖项的最大受益者是新奖项的设立者，目的是自我炒作。因此C选项正确。",
+          "ai_persona_prompt": "Oh, here we go with the cynics! The critics aren't worried about benefiting science (B, D) or rewarding the 'good' scientists (A). They're whining that these new awards are just ego boosts for the rich folks who created them (C). It's all about the founders, baby!"
+        },
+        {
+          "id": 33,
+          "text": "The discovery of the Higgs boson is a typical case which involves",
+          "options": {
+            "A": "legitimate concerns over the new prizes.",
+            "B": "controversies over the recipients’ status.",
+            "C": "the joint effort of modern researchers.",
+            "D": "the demonstration of research findings."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第四段提到，诺贝尔基金会对获奖人数的限制已经不适应现代科研合作的性质，并以Higgs boson的发现为例，说明其是现代研究者共同努力的结果。因此C选项正确。",
+          "ai_persona_prompt": "Higgs boson? That's a TEAM effort, people! Not some lone wolf genius (forget that myth!). The Nobels limit the number of recipients, and that rubs the team-oriented folks the wrong way. It highlights THE JOINT EFFORT, alright? (C)."
+        },
+        {
+          "id": 34,
+          "text": "According to Paragraph 4, which of the following is true of the Nobels?",
+          "options": {
+            "A": "History has never cast doubt on them.",
+            "B": "Their endurance has done justice to them.",
+            "C": "They are the most representative honor.",
+            "D": "Their legitimacy has long been in dispute."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第四段提到“Time, rather than intention, has given them legitimacy.”说明诺贝尔奖的合理性来自于时间的积累，因此B选项正确。endurance对应Time, legitimacy对应done justice to them.",
+          "ai_persona_prompt": "The Nobels are old money, honey! They got legitimacy over time, not because they were perfectly conceived (A, D). The test of time did them justice, proving their worth (B). They might be prestigious, but don't call them the MOST representative (C). Come on!"
+        },
+        {
+          "id": 35,
+          "text": "The author believes that the new awards are",
+          "options": {
+            "A": "unworthy of public attention.",
+            "B": "subject to undesirable changes.",
+            "C": "harmful to the culture of research.",
+            "D": "acceptable despite the criticism."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "文章最后一段，作者提到“It is wise to take such gifts with gratitude and grace.”，表明作者认为新奖项尽管受到批评，仍然值得接受。因此D选项正确。",
+          "ai_persona_prompt": "Wake up! These new awards are getting more attention. It's the money! (A) They're here, they're flawed, but at least they're giving science some love. (B, C) Stop moaning. The author makes it clear: take the freakin' gifts with gratitude, despite the inevitable complaints (D)!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 4",
+        "q_range": "36-40"
+      },
+      "article": {
+        "paragraphs": [
+          "“The Heart of the Matter,” the just-released report by the American Academy of Arts and Sciences (AAAS), deserves praise for affirming the importance of the humanities and social sciences to the prosperity and security of liberal democracy     in America. Regrettably, however, the report’s failure to address the true nature of  the crisis facing liberal education may cause more harm than good.",
+          "In 2010, leading congressional Democrats and Republicans sent letters to the AAAS asking that it identify actions that could be taken by “federal, state and local governments, universities, foundations, educators, individual benefactors and others” to “maintain national excellence in  humanities  and  social  scientific  scholarship  and education.” In response, the American Academy formed  the  Commission  on the Humanities and Social Sciences. Among the commission’s 51 members are top-tier-university presidents, scholars, lawyers,  judges,  and  business  executives,  as well as prominent figures from diplomacy, filmmaking, music and journalism.",
+          "The goals identified in the report are generally admirable. Because representative government presupposes an informed citizenry, the report supports  full literacy; stresses the study of history and government, particularly American history and American government; and encourages the use of new digital technologies. To encourage innovation and competition, the  report  calls  for increased investment in research, the crafting of coherent curricula that improve students’ ability to solve problems and communicate  effectively  in  the  21st century, increased funding for teachers and the encouragement of scholars to bring their learning to bear on the great challenges of the day. The report also advocates greater study of foreign languages, international affairs and the expansion of study abroad programs.",
+          "Unfortunately, despite 21/2 years in the making, “The Heart  of  the  Matter” never gets to the heart of the matter: the illiberal nature of liberal education at our leading colleges and universities. The commission ignores that for several decades America’s colleges and universities have produced graduates who don’t know the content and character of liberal education and are thus deprived of  its  benefits. Sadly, the spirit  of inquiry  once at home  on campus has been replaced  by the use   of the humanities and social sciences as vehicles for publicizing “progressive,” or left-liberal propaganda.",
+          "Today, professors routinely treat the progressive interpretation of history and progressive public policy as the proper subject of study while portraying conservative or classical liberal ideas – such as free markets and self-reliance –  as  falling outside the boundaries of routine, and sometimes legitimate, intellectual investigation.",
+          "The AAAS displays great enthusiasm for liberal education. Yet its report may well  set back reform by obscuring the depth and breadth of the challenge that Congress asked it to illuminate."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "affirm",
+          "meanings": [
+            "确认",
+            "证实",
+            "断言"
+          ],
+          "context_match": "affirming the importance of the humanities and social sciences"
+        },
+        {
+          "word": "regrettably",
+          "meanings": [
+            "令人遗憾地"
+          ],
+          "context_match": "Regrettably, however, the report's failure..."
+        },
+        {
+          "word": "address",
+          "meanings": [
+            "处理",
+            "解决"
+          ],
+          "context_match": "failure to address the true nature of the crisis"
+        },
+        {
+          "word": "presuppose",
+          "meanings": [
+            "预先设定",
+            "以...为先决条件"
+          ],
+          "context_match": "representative government presupposes an informed citizenry"
+        },
+        {
+          "word": "coherent",
+          "meanings": [
+            "连贯的"
+          ],
+          "context_match": "crafting of coherent curricula"
+        },
+        {
+          "word": "illiberal",
+          "meanings": [
+            "缺少人文教育的",
+            "无需人文教育的"
+          ],
+          "context_match": "the illiberal nature of liberal education"
+        },
+        {
+          "word": "deprived",
+          "meanings": [
+            "剥夺",
+            "夺去",
+            "使丧失"
+          ],
+          "context_match": "are thus deprived of its benefits"
+        },
+        {
+          "word": "inquiry",
+          "meanings": [
+            "调查",
+            "质询",
+            "探究"
+          ],
+          "context_match": "the spirit of inquiry once at home on campus"
+        },
+        {
+          "word": "routinely",
+          "meanings": [
+            "例行公事地",
+            "惯常地"
+          ],
+          "context_match": "professors routinely treat..."
+        },
+        {
+          "word": "portray",
+          "meanings": [
+            "描述",
+            "描绘"
+          ],
+          "context_match": "portraying conservative or classical liberal ideas"
+        },
+        {
+          "word": "obscure",
+          "meanings": [
+            "掩盖"
+          ],
+          "context_match": "set back reform by obscuring the depth"
+        },
+        {
+          "word": "illuminate",
+          "meanings": [
+            "阐明",
+            "说明"
+          ],
+          "context_match": "challenge that Congress asked it to illuminate"
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "text": "According to Paragraph 1, what is the author’s attitude toward the AAAS’s report?",
+          "options": {
+            "A": "Critical.",
+            "B": "Appreciative.",
+            "C": "Contemptuous.",
+            "D": "Tolerant."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "首段采取欲抑先扬手法，先退而指出报告优点∶肯定了人文社科的重要性;后进而指出其缺点∶未能触及人文教育危机的实质，最终可能是弊大于利。优点的推出旨在引出缺点的所在，故【A】正确。",
+          "ai_persona_prompt": "Alright, listen up, you knuckleheads! The author's attitude is CLEARLY critical. Paragraph 1 slams the report for not getting to the real problem. Appreciative? Contemptuous? Tolerant? Get real! It's a critique, plain and simple. So, A is the only right answer. Now get it right!"
+        },
+        {
+          "id": 37,
+          "text": "Influential figures in the Congress required that the AAAS report on how to",
+          "options": {
+            "A": "define the government’s role in education.",
+            "B": "safeguard individuals’ rights to education.",
+            "C": "retain people’s interest in liberal education.",
+            "D": "keep a leading position in liberal education."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "第二段首句明确指出∶国会重要人物要求 AAAS 确定相关措施以维持国家在人文与社会科学教育研究领域的卓越地位，可 见【D】正确。",
+          "ai_persona_prompt": "Ugh, are you serious with these options? The Congress honchos wanted the AAAS to figure out how to STAY ON TOP! Keep a leading position, got it? Not define roles, not safeguard rights, and certainly not retain interest. D is the only answer that makes sense. Pay attention!"
+        },
+        {
+          "id": 38,
+          "text": "According to Paragraph 3, the report suggests",
+          "options": {
+            "A": "an exclusive study of American history.",
+            "B": "a greater emphasis on theoretical subjects.",
+            "C": "the application of emerging technologies.",
+            "D": "funding for the study of foreign languages."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第三段②句指出∶报告鼓励使用新数字技术。可 见【C】正确。",
+          "ai_persona_prompt": "Seriously, are you even reading the text? Paragraph 3 mentions emerging technologies! Option C is staring you right in the face! It's not about American history, theoretical subjects, or foreign languages. It's about using NEW TECH! Get it straight!"
+        },
+        {
+          "id": 39,
+          "text": "The author implies in Paragraph 5 that professors are",
+          "options": {
+            "A": "supportive of free markets.",
+            "B": "conservative about public policy.",
+            "C": "biased against classical liberal ideas.",
+            "D": "cautious about intellectual investigation."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第五段指出教授们认为古典人文思想属于非常规、非正当合理的学术研究范围，而作者对人文思想是持积极肯定态度。由此可知，作者实质暗示教授们对古典人文思想持有偏见，【C】正确。",
+          "ai_persona_prompt": "Wake up, people! The professors are clearly BIASED against classical liberal ideas! They're pushing their 'progressive' garbage and ignoring anything that doesn't fit their agenda. The author is practically screaming it! C is the answer, so stop with the nonsense!"
+        },
+        {
+          "id": 40,
+          "text": "Which of the following would be the best title for the text?",
+          "options": {
+            "A": "Ways to Grasp “The Heart of the Matter”",
+            "B": "Illiberal Education and “The Heart of the Matter”",
+            "C": "The AAAS’s Contribution to Liberal Education",
+            "D": "Progressive Policy vs. Liberal Education"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "文首段点题∶《问题的核心》虽值得赞赏，却未触及当前美国人文教育危机的本质，其结果最终可能是弊大于利;第二段退而补充《问题的核心》的出台背景;第三至五段详细阐述主题;《问题的核心》所设目标总体而言值得欣赏，但它从未触及'人文教育非人文的本质'这一问题核心;文末段重申主题∶《问题的核心》未能深刻全面分析'人文教育非人文'这一挑战性难题，其结果很可能阻碍人文教育改革。由此可见，【B】最能概括文意。",
+          "ai_persona_prompt": "Come on, this is TITLE material, people! The whole darn thing is about how 'The Heart of the Matter' fails to address the ILLIBERAL nature of education! Not ways to grasp it, not contributions, and certainly not a simple vs. thing. B is the title! Now move on!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Part B",
+        "name": "Part B",
+        "q_range": "41-45"
+      },
+      "article": {
+        "paragraphs": [
+          "Some archaeological sites have always been  easily observable – for example,  the Parthenon in Athens, Greece; the pyramids of Giza in Egypt; and the megaliths of Stonehenge in  southern England.  But  these  sites  are  exceptions to the norm. Most archaeological sites have been located by means of careful searching, while many others have been discovered by accident. Olduvai Gorge, an early hominid site in Tanzania, was found by a butterfly hunter who literally fell into its deep valley in 1911. Thousands of Aztec artifacts came to light  during the digging of the Mexico City subway in the 1970s.",
+          "Most archaeological sites, however, are  discovered  by  archaeologists  who  have set out to look for them. Such searches can take  years.  British archaeologist Howard Carter knew that the tomb of the Egyptian pharaoh Tutankhamun existed from information found in other sites. Carter  sifted  through rubble in the Valley of the  Kings  for  seven  years before  he  located  the tomb in 1922. In the late 1800s British archaeologist Sir Arthur Evans combed antique dealers’ stores in Athens, Greece. He was searching for tiny engraved seals attributed to the ancient Mycenaean culture that dominated  Greece from the 1400s to 1200s BC.  Evans’s  interpretations  of  these engravings eventually led him to find the Minoan palace at Knossos (Knosós),  on the island of Crete, in 1900.",
+          "How do archaeologists know where to find  what they are looking for  when  there is nothing visible on  the surface of  the ground? Typically,  they  survey  and sample (make test excavations on) large areas of  terrain  to  determine  where excavation will yield useful information. Surveys and test samples have also become important for understanding the larger landscapes that contain archaeological sites.",
+          "Surveys can cover a single large settlement or entire landscapes. In one case, many researchers working around the ancient Maya city of Copán, Honduras, have located hundreds of small rural villages  and  individual  dwellings  by  using aerial photographs and by making surveys on foot. The resulting  settlement maps show how the distribution and density of the rural population around the city changed dramatically between AD 500 and 850, when Copán collapsed.",
+          "To find their sites, archaeologists today rely heavily on systematic survey methods and a variety of high-technology tools and techniques. Airborne technologies, such as different types of radar and photographic equipment  carried by airplanes or spacecraft, allow  archaeologists  to  learn  about  what  lies beneath the ground  without  digging. Aerial  surveys  locate  general  areas of interest or larger buried features, such as ancient buildings or fields.",
+          "Ground surveys allow archaeologists to pinpoint the places where digs will be successful. Most ground surveys involve a lot of walking, looking for surface clues such as small fragments of pottery. They often  include a  certain amount  of digging to test for buried materials at selected points across a landscape. Archaeologists also may locate buried remains by using such technologies as ground radar, magnetic-field recording, and metal detectors. Archaeologists commonly use computers to map sites and the  landscapes around  sites. Two-  and three-dimensional maps are helpful tools in planning excavations,  illustrating how sites look, and presenting  the  results  of  archaeological research.",
+          "In another case, American archaeologists René Million and George  Cowgill spent years systematically mapping the  entire  city  of  Teotihuacán  in  the Valley of Mexico near what is now Mexico City. At its peak  around AD  600, this city was one of the largest human  settlements  in  the  world.  The researchers mapped not only the city’s  vast  and ornate ceremonial areas, but  also hundreds of simpler apartment complexes where common people lived."
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 41,
+          "text": "Paragraphs A, B, C, D, E, F, G",
+          "options": {},
+          "correct_answer": "C",
+          "analysis_raw": "本题考察知识点∶首段特点及作用，【C】段作为首段，可与【A】段构成\"设问引题一铺垫背景\"的逻辑顺序;【C】段设问引题\"考古学家遗址搜寻办法\"，并暗示指出\"有迹可循条件下可肉眼观测，无迹可寻条件下则通过勘测及抽样（即试掘）方式\"，【A】随后铺陈背景，明晰三种遗址发现方式（一、地表有迹可循，二、仔细搜寻，三、偶然发现），其中第一种完全对应【C】段 nothing visible on the surface of the ground 暗藏之意。另外，设问也是常用的开篇方法。",
+          "ai_persona_prompt": "Alright, listen up, rookies! Paragraph C kicks things off because it poses the question: how do archaeologists find stuff when there's NOTHING to see? It sets the stage for the rest of the article. Starting with anything else would be like starting a joke without the setup. Get it? Good."
+        },
+        {
+          "id": 42,
+          "text": "Paragraphs A, B, C, D, E, F, G",
+          "options": {},
+          "correct_answer": "F",
+          "analysis_raw": "本题考察知识点∶上下文衔接，【F】段指出\"大多数遗址需要考古学家花费数年专门仔细搜寻才最终被发现\"，与【A】段所述两种考古捷径正好形成转折关系，【F】段首句 however 所示段际逻辑关系成立。同时，【F】段列举的例子中，过去的考古学家只能通过仔细考察碎石瓦砾、排查古董商店等传统方法来寻找遗址的蛛丝马迹，与【E】段\"现在考古学家主要依靠系统的勘测方法和高科技手段搜寻遗址\"在时间上、内容上都衔接紧密，合乎逻辑。",
+          "ai_persona_prompt": "Okay, genius, F follows A because A mentions careful searching but doesn't give any details. F then jumps in with historical examples of archaeologists spending YEARS looking for sites. Plus, F talks about old-school methods, which sets up E's discussion of modern technology. Duh!"
+        },
+        {
+          "id": 43,
+          "text": "Paragraphs A, B, C, D, E, F, G",
+          "options": {},
+          "correct_answer": "G",
+          "analysis_raw": "本题考察知识点∶上下文衔接，【G】段首 Ground surveys 与【E】段末句 Aerial surveys 相对，分别介绍\"用于大致定位考古遗址的空中勘测\"和\"用于准确定位考古遗址的地面勘测\"，两者衔接符合考古勘测的一般步骤\"先粗略后精准\"，照应【E】首句中 systematic survey（系统性勘测）;另外，两段均涉及两种勘测方法所用到的高科技技术，也与【E】首句中a variety of high-technology tools and techniques 相照应，两段构成\"总—分\"结构。",
+          "ai_persona_prompt": "Gotta get this straight: G comes after E. E talks about aerial surveys for a broad overview. G then zooms in on ground surveys for pinpointing locations. See? Big picture, then close-up. Stop making it harder than it is!"
+        },
+        {
+          "id": 44,
+          "text": "Paragraphs A, B, C, D, E, F, G",
+          "options": {},
+          "correct_answer": "D",
+          "analysis_raw": "本题考察知识点∶上下文衔接和逻辑衔接词，在前文【E】、【G】两段已经准确定位考古遗址的基础上，下文很可能涉及在考古遗址上的具体勘测工作。【D】段首句总述\"勘测可以覆盖某一居住点，也可以覆盖整个区域\"，其后以In one casc引出例证\"勘测覆盖某一居住地（a single large settlement）\"",
+          "ai_persona_prompt": "D comes next, because it talks about surveys covering different areas - single settlements or entire landscapes. It's giving examples of the general principles discussed earlier. Honestly, are you even trying?"
+        },
+        {
+          "id": 45,
+          "text": "Paragraphs A, B, C, D, E, F, G",
+          "options": {},
+          "correct_answer": "B",
+          "analysis_raw": "本题考察知识点∶上下文衔接和逻辑衔接词，，剩余两个备选项【B】、【D】由逻辑衔接词 In another case、In one case 即可确定顺序为【D】→【B】。从内容上看，【D】段首句总述\"勘测可以覆盖某一居住点，也可以覆盖整个区域\"，其后以In one casc引出例证\"勘测覆盖某一居住地（a single large settlement）\"，【B】段以 In another case 引出例证\"勘测覆盖整个区域（entire landscapes）\"，两段构成\"总—分\"结构。另外，上文【E】、【G】两段侧重介绍\"考古遗址的定位\"，【D】、【B】两段侧重介绍\"考古勘测的范围\"，两者衔接符合\"先定位，后勘测\"的做事步骤，故【D】【B】.与前文衔接顺畅。",
+          "ai_persona_prompt": "Finally, B goes last. It gives another example, continuing the pattern set by D. The 'In another case' is a HUGE clue. If you missed that, you need to go back to elementary school! Seriously!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Translation",
+        "name": "Part C",
+        "q_range": "46-50"
+      },
+      "article": {
+        "paragraphs": [
+          "Music means different things to different people and sometimes even different things to the same person at different moments of his life. It might be poetic, philosophical, sensual, or mathematical, but in any case it must, in my view, have something to do with the soul of the human being. Hence it is metaphysical; but the means of expression is purely and exclusively physical: sound. I believe it is precisely this permanent coexistence of metaphysical message through physical means that is the strength of music. (46) It is also the reason why when we try to describe music with words, all we can do is articulate our reactions to it, and not grasp music itself.",
+          "Beethoven’s importance in music has been principally defined by the revolutionary nature of his compositions. He freed music from hitherto prevailing conventions of harmony and structure. Sometimes I feel in his late works a will to break all signs of continuity. The music is abrupt and seemingly disconnected, as in the last piano sonata. In musical expression, he did not feel restrained by the weight of convention. (47) By all accounts he was a freethinking person, and a courageous one, and I find courage an essential quality for the understanding, let alone the performance, of his works.",
+          "This courageous attitude in fact becomes a requirement for the performers of Beethoven’s music. His compositions demand the performer to show courage, for example in the use of dynamics. (48) Beethoven’s habit of increasing the volume with an extreme intensity and then abruptly following it with a sudden soft passage was only rarely used by composers before him.",
+          "Beethoven was a deeply political man in the broadest sense of the word. He was not interested in daily politics, but concerned with questions of moral behavior and the larger questions of right and wrong affecting the entire society.",
+          "(49) Especially significant was his view of freedom, which, for him, was associated with the rights and responsibilities of the individual: he advocated freedom of thought and of personal expression.",
+          "Beethoven’s music tends to move from chaos to order as if order were an imperative of human existence. For him, order does not result from forgetting or ignoring the disorders that plague our existence; order is a necessary development, an improvement that may lead to the Greek ideal of spiritual elevation. It is not by chance that the Funeral March is not the last movement of the Eroica Symphony, but the second, so that suffering does not have the last word. (50) One could interpret much of the work of Beethoven by saying that suffering is inevitable, but the courage to fight it renders life worth living."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "metaphysical",
+          "meanings": [
+            "形而上学的",
+            "抽象的"
+          ],
+          "context_match": "Hence it is metaphysical"
+        },
+        {
+          "word": "articulate",
+          "meanings": [
+            "清楚地表达",
+            "说清楚"
+          ],
+          "context_match": "all we can do is articulate our reactions to it"
+        },
+        {
+          "word": "hitherto",
+          "meanings": [
+            "迄今",
+            "至今"
+          ],
+          "context_match": "He freed music from hitherto prevailing conventions"
+        },
+        {
+          "word": "abrupt",
+          "meanings": [
+            "突然的",
+            "意外的"
+          ],
+          "context_match": "The music is abrupt and seemingly disconnected"
+        },
+        {
+          "word": "dynamics",
+          "meanings": [
+            "力度变化"
+          ],
+          "context_match": "the use of dynamics"
+        },
+        {
+          "word": "renders",
+          "meanings": [
+            "使变得",
+            "使处于某状态"
+          ],
+          "context_match": "renders life worth living"
+        }
+      ],
+      "questions": [
+        {
+          "id": 46,
+          "text": "It is also the reason why when we try to describe music with words, all we can do is articulate our reactions to it, and not grasp music itself.",
+          "options": {},
+          "correct_answer": "这也解释了为什么当我们试图用语言去描述音乐的时候，充其量只能是说清楚自己的感受，而无法抓住音乐本身。",
+          "analysis_raw": "本句的重点在于理解“articulate our reactions”和“grasp music itself”之间的对比。前者是我们可以做到的，后者是我们无法做到的，这种对比体现了音乐的抽象性。翻译时注意“articulate”可以根据语境翻译为“表达”或“说清楚”。",
+          "ai_persona_prompt": "Alright, listen up! This sentence is all about how music is too damn complex for words. You can blabber about your feelings all you want, but you'll never truly *get* the music itself. It's like trying to describe a sunset with a shopping list – utterly pointless!"
+        },
+        {
+          "id": 47,
+          "text": "By all accounts he was a freethinking person, and a courageous one, and I find courage an essential quality for the understanding, let alone the performance, of his works.",
+          "options": {},
+          "correct_answer": "总而言之，他是一个思想不受束缚的人，而且是一个富有勇气的人。我认为勇气是理解——更是演奏——其作品不可或缺的品格。",
+          "analysis_raw": "本句包含一个固定短语“By all accounts”，意为“总而言之”。后半句的重点在于理解“let alone”的用法，表示“更不用说”。翻译时注意语气的递进关系，即勇气对于理解作品是重要的，但对于演奏作品来说则更为重要。",
+          "ai_persona_prompt": "Okay, genius, 'By all accounts' just means 'everyone agrees'. And this isn't just some flowery praise; it's saying Beethoven was a rebel AND brave. Get it? To even *get* his music, you need guts, let alone actually playing the damn thing. If you're a coward, stick to Mozart!"
+        },
+        {
+          "id": 48,
+          "text": "Beethoven’s habit of increasing the volume with an extreme intensity and then abruptly following it with a sudden soft passage was only rarely used by composers before him.",
+          "options": {},
+          "correct_answer": "贝多芬惯以超凡的力度加大音响，随后突然进入一个意想不到的柔和乐段，这种手法在前人的作品中极为罕见。",
+          "analysis_raw": "本句是一个长句，主语是“Beethoven’s habit”，后面是由“increasing…and…following…”构成的动名词短语作后置定语。谓语是“was used”。翻译时可以采用拆分法，将长句拆分成几个短句，使表达更为流畅。",
+          "ai_persona_prompt": "Ugh, this sentence is a mouthful. Basically, Beethoven loved going from REALLY LOUD to whisper-quiet, like a maniac. And before him, nobody had the balls to do it! It's like he was trying to give his audience a heart attack...in a good way, obviously."
+        },
+        {
+          "id": 49,
+          "text": "Especially significant was his view of freedom, which, for him, was associated with the rights and responsibilities of the individual: he advocated freedom of thought and of personal expression.",
+          "options": {},
+          "correct_answer": "尤具深意的是他的自由观，在他看来自由关系到个人的权利和责任：他主张思想和个人表达的自由。",
+          "analysis_raw": "本句采用倒装结构，将表语“Especially significant”置于句首，以示强调。翻译时需要将其调整为正常语序。后半句是对“freedom”的解释，可以采用顺译法。",
+          "ai_persona_prompt": "Alright, pay attention! This sentence flips the order to make it sound fancy. The main point is Beethoven cared deeply about freedom and thought it came with a price: responsibility. And he was all about speaking your mind, whether people liked it or not. Total drama queen...with a point!"
+        },
+        {
+          "id": 50,
+          "text": "One could interpret much of the work of Beethoven by saying that suffering is inevitable, but the courage to fight it renders life worth living.",
+          "options": {},
+          "correct_answer": "苦难是不可避免的，但与之抗争的勇气正是生活的意义所在。对贝多芬的诸多作品，我们都可做此解读。",
+          "analysis_raw": "本句的主干是“One could interpret…by saying that…”。“that”引导的是一个宾语从句，其中“suffering is inevitable”和“the courage to fight it renders life worth living”是两个并列的分句。翻译时需要理清句子结构，并注意“render”的用法，表示“使…变得”。",
+          "ai_persona_prompt": "Okay, gloomy Gus, this sentence is saying Beethoven knew life sucks. But! It's not all doom and gloom. What matters is fighting back, having the guts to face the crap. That's what makes life worth living, according to the old genius. So stop whining and get on with it!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part A",
+        "q_range": "51"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "Write a letter of about 100 words to the president of your university, suggesting how to improve students’ physical condition.",
+          "You should include the details you think necessary. You should write neatly on the ANSWER SHEET.",
+          "Do not sign your own name at the end of the letter. Use “Li Ming” instead.",
+          "Do not write the address. (10 points)"
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 51,
+          "text": "Write a letter of about 100 words to the president of your university, suggesting how to improve students’ physical condition.",
+          "options": {},
+          "correct_answer": "Dear Mr. President,\n\nI am writing to you as a concerned student regarding the declining physical condition of our student body. I believe immediate action is necessary to address this issue.\n\nFirstly, I suggest making physical education classes mandatory for all students, regardless of their major. Secondly, the university should invest in upgrading and expanding our sports facilities. More accessible and modern facilities will encourage more students to participate in physical activities.\n\nThirdly, we could organize more university-wide sports events and competitions to foster a culture of fitness and friendly competition. Finally, promoting awareness campaigns about the importance of physical health through posters and workshops could also be beneficial.\n\nI hope you will consider these suggestions. Thank you for your time and attention to this important matter.\n\nSincerely,\nLi Ming",
+          "analysis_raw": "这篇范文的写作思路是：\n1. **开篇点题**：简洁明了地说明写信目的，即对学生体质下降表示担忧并提出建议。\n2. **分点论述**：分别从体育课程、设施建设、活动组织和宣传推广四个方面提出具体建议，每个建议段落结构清晰，逻辑合理。\n3. **语言表达**：使用正式、礼貌的语言，符合给大学校长写信的语域。例如，使用“concerned student”、“immediate action”、“beneficial”等词汇，增强表达的说服力。\n4. **结尾呼应**：再次表达希望校长采纳建议，并表示感谢。\n5. **字数控制**：文章字数适中，符合题目要求。\n\n这篇范文可以作为学生信函写作的优秀参考，它结构完整、内容充实、语言得体，能够有效地传达作者的观点和建议。",
+          "ai_persona_prompt": "Alright, listen up, you slackers! This letter isn't gonna write itself. You need to butter up the President, but get to the point. Mandatory gym classes? Brilliant! More shiny new toys—er, 'sports facilities'? Even better! But don't just whine; give 'em solutions. Think like a politician, not a couch potato. End it sweetly, and remember: Li Ming, not 'Lazy Loser' at the bottom."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part B",
+        "q_range": "52"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "Write an essay of 160-200 words based on the following drawing. In your essay, you should",
+          "describe the drawing briefly,",
+          "interpret its intended meaning, and",
+          "give your comments.",
+          "You should write neatly on the ANSWER SHEET."
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 52,
+          "text": "Write an essay of 160-200 words based on the following drawing. In your essay, you should describe the drawing briefly, interpret its intended meaning, and give your comments.",
+          "options": {},
+          "correct_answer": "The cartoon presents a stark contrast between two scenarios, both involving a mother and daughter. In the first scene, labeled 'Thirty Years Ago,' a young mother joyfully holds her daughter's hand. The second scene, 'Now,' depicts the daughter, now a young woman, supporting her aging mother.\n\nThe drawing profoundly illustrates the cyclical nature of care and responsibility within families. It highlights the transition from parents nurturing their children to children caring for their aging parents. The image conveys a message of filial piety and reciprocal love, emphasizing that the support and guidance provided by parents in early life should be returned as they grow older.\n\nThis cartoon resonates deeply with the traditional Chinese values of respect for elders and the importance of family. In an increasingly fast-paced and individualistic society, it serves as a poignant reminder of our obligations to those who have cared for us. We should strive to maintain strong family bonds, offering both emotional and practical support to our parents in their later years. Neglecting this responsibility not only dishonors our parents but also undermines the very foundation of a caring and compassionate society. The cartoon urges us to reflect on our roles within the family and to embrace the opportunity to reciprocate the love and care we have received.",
+          "analysis_raw": "这篇范文首先简要描述了图画内容，抓住了三十年前和现在两个时间节点的对比以及母女角色的转变。其次，对图画的寓意进行了深刻解读，点明了家庭责任的循环和孝道的重要性。最后，文章结合社会现实，呼吁人们重视家庭纽带，履行赡养父母的义务。文章结构完整，语言流畅，主题明确，是一篇优秀的范文。",
+          "ai_persona_prompt": "Alright, listen up! This essay nails it! Starts with a simple description, gets into the feels with the meaning, and then smacks you with the reality check! Good vocab, solid structure, and a message that'll make your grandma proud. Now, go write something this good, or I'll make you do push-ups!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+# .env file
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.conda/
+
+# Data files (Raw PDFs and DOCXs are likely copyrighted and large)
+DOCX/
+PDF/
+# Keep the generated JSONs in the web folder, but maybe ignore root JSONs if they are duplicates
+# *_full.json
+# *_vision.json
+
+# RenPy SDK
+renpy-*-sdk/
+
+# RenPy Saves and Cache
+EnglishExamRPG/game/cache/
+EnglishExamRPG/game/saves/
+EnglishExamRPG/log.txt
+EnglishExamRPG/traceback.txt
+EnglishExamRPG/errors.txt
+
+# Logs
+*.log
+traceback.txt
+errors.txt
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.lh/

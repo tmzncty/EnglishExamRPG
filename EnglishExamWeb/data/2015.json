@@ -1,0 +1,1552 @@
+{
+  "meta": {
+    "year": 2015,
+    "exam_type": "English I"
+  },
+  "sections": [
+    {
+      "section_info": {
+        "type": "Use of English",
+        "name": "Section I",
+        "q_range": "1-20"
+      },
+      "article": {
+        "paragraphs": [
+          "Though not biologically related, friends are as “related” as fourth cousins, sharing about 1% of genes. That is _1_ a study, published from the University   of California and Yale University in the Proceedings of the National Academy of Sciences, has _2_.",
+          "The study is a genome-wide analysis conducted _3_ 1,932 unique subjects which _4_ pairs of unrelated friends and unrelated strangers. The same  people  were used in both _5_.",
+          "While 1% may seem _6_, it is not so to a geneticist. As James Fowler, professor of medical genetics at UC San Diego, says, “Most people do not even _7_ their fourth cousins but somehow manage to select as friends the people who _8_ our kin.”",
+          "The study _9_ found  that the genes  for  smell  were something  shared in friends but not genes for immunity. Why this similarity exists in smell genes is difficult to explain, for now.  _10_ , as the team suggests, it draws us to similar environments but there  is more _11_ it. There could  be many mechanisms   working together that  _12_ us in choosing genetically similar friends  _13_  “functional kinship” of being friends with _14_ !",
+          "One of the remarkable findings of  the study was that the similar genes seem   to be evolving _15_ than other genes. Studying this could help _16_ why   human evolution picked pace in the last 30,000 years, with social environment  being a major _17_ factor.",
+          "The findings  do not simply explain people’s _18_ to befriend those of   similar _19_ backgrounds, say the researchers. Though all the subjects were    drawn from a population  of  European  extraction, care was taken  to _20_ that all subjects, friends and strangers, were taken from the same population."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "biologically related",
+          "meanings": [
+            "有生物学关联的，有血缘关系的"
+          ],
+          "context_match": "朋友之间没有生物学关联，但基因相似。"
+        },
+        {
+          "word": "genome-wide analysis",
+          "meanings": [
+            "全基因组分析"
+          ],
+          "context_match": "研究人员对1932个个体进行了全基因组分析。"
+        },
+        {
+          "word": "functional kinship",
+          "meanings": [
+            "功能性亲属关系，实用亲密关系"
+          ],
+          "context_match": "与为了利益关系而成为朋友的'实用亲密关系'。"
+        },
+        {
+          "word": "European extraction",
+          "meanings": [
+            "欧洲血统"
+          ],
+          "context_match": "所有研究对象都来自欧洲血统的人群。"
+        }
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "text": "A. when\nB. why\nC. how\nD. what",
+          "options": {
+            "A": "when",
+            "B": "why",
+            "C": "how",
+            "D": "what"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "That is 引导表语从句，that 指代前文内容，表语从句说明研究的结果。选项中，what 作为连接代词，能回指上述研究结果。",
+          "ai_persona_prompt": "Listen up, buttercup! 'What' is the ONLY one that makes sense here! It’s pointing back to the whole idea – the RESULT – not the time, reason, or method. Get it right next time, or you're doing push-ups!"
+        },
+        {
+          "id": 2,
+          "text": "A. defended\nB. concluded\nC. withdrawn\nD. advised",
+          "options": {
+            "A": "defended",
+            "B": "concluded",
+            "C": "withdrawn",
+            "D": "advised"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "根据语境，此处需要一个动词来描述研究的结果，concluded 意为“得出结论”，符合句意。",
+          "ai_persona_prompt": "Are you daft? The study *CONCLUDED* something! It didn’t defend, withdraw, or advise. Use your brain – it's not just for holding your ears apart! 'Concluded', period!"
+        },
+        {
+          "id": 3,
+          "text": "A. for\nB. with\nC. on\nD. by",
+          "options": {
+            "A": "for",
+            "B": "with",
+            "C": "on",
+            "D": "by"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "conducted on 表示“对…进行分析”，符合句意。The study conducted a genome-wide analysis on 1,932 unique subjects",
+          "ai_persona_prompt": "It’s 'ON,' you simpleton! You conduct an analysis *ON* subjects. It’s a fixed phrase. Don’t try to be clever; just memorize it!"
+        },
+        {
+          "id": 4,
+          "text": "A. compared\nB. sought\nC. separated\nD. connected",
+          "options": {
+            "A": "compared",
+            "B": "sought",
+            "C": "separated",
+            "D": "connected"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "定语从句描述分析的内容，研究的目的是比较朋友和陌生人之间的基因，以确定相似性是否与友谊有关。compare 符合题意",
+          "ai_persona_prompt": "You’re comparing things, right? Friends to strangers. It's not rocket science! 'Compared' is the word. The others are just… wrong. Next!"
+        },
+        {
+          "id": 5,
+          "text": "A. tests\nB. objects\nC. samples\nD. examples",
+          "options": {
+            "A": "tests",
+            "B": "objects",
+            "C": "samples",
+            "D": "examples"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "both 指代朋友和陌生人，他们是从总体中选取的用于基因比较的个体，即样本。sample 符合语境。",
+          "ai_persona_prompt": "They used the same PEOPLE in both *SAMPLES*! Think of it like a science experiment; you have samples! This isn’t a test, an object, or a darn example. Use your head!"
+        },
+        {
+          "id": 6,
+          "text": "A. insignificant\nB. unexpected\nC. unreliable\nD. incredible",
+          "options": {
+            "A": "insignificant",
+            "B": "unexpected",
+            "C": "unreliable",
+            "D": "incredible"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "转折关系，1% 的基因相似性对遗传学家来说意义重大，因此对一般人来说，这个数字是微不足道的。 insignificant 符合题意。",
+          "ai_persona_prompt": "One percent seems *INSIGNIFICANT* to most people, but NOT to a geneticist. Hello? Isn’t the word “seem” a clue? Get a grip!"
+        },
+        {
+          "id": 7,
+          "text": "A. visit\nB. miss\nC. seek\nD. know",
+          "options": {
+            "A": "visit",
+            "B": "miss",
+            "C": "seek",
+            "D": "know"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "大部分人可能不熟悉、不认识他们的第四代表亲。know 符合题意",
+          "ai_persona_prompt": "People don’t even *KNOW* their fourth cousins! Are you really struggling with this? Do you even know YOUR immediate family? Seriously!"
+        },
+        {
+          "id": 8,
+          "text": "A. resemble\nB. influence\nC. favor\nD. surpass",
+          "options": {
+            "A": "resemble",
+            "B": "influence",
+            "C": "favor",
+            "D": "surpass"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "朋友和亲戚之间存在相似之处，resemble 符合题意",
+          "ai_persona_prompt": "Friends *RESEMBLE* our kin. It's about SIMILARITY. Is that concept too difficult for you? If they influenced, favored, or surpassed our kin, that wouldn't be the point, would it?"
+        },
+        {
+          "id": 9,
+          "text": "A. again\nB. also\nC. instead\nD. thus",
+          "options": {
+            "A": "again",
+            "B": "also",
+            "C": "instead",
+            "D": "thus"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "补充说明研究发现，递进关系，also 符合题意。",
+          "ai_persona_prompt": "The study *ALSO* found... It's adding information, building upon what was previously stated. Is that so hard to grasp?"
+        },
+        {
+          "id": 10,
+          "text": "A. Meanwhile\nB. Furthermore\nC. Likewise\nD. Perhaps",
+          "options": {
+            "A": "Meanwhile",
+            "B": "Furthermore",
+            "C": "Likewise",
+            "D": "Perhaps"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "推测，猜测，或许是，表不确定性，perharps 符合语境。",
+          "ai_persona_prompt": "It's a guess, an assumption! Therefore, 'PERHAPS' is the obvious choice, you nitwit! Are you even reading the words around the blank?!"
+        },
+        {
+          "id": 11,
+          "text": "A. about\nB. to\nC. from\nD. like",
+          "options": {
+            "A": "about",
+            "B": "to",
+            "C": "from",
+            "D": "like"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "there is more to it 是固定搭配，意为“事情没有那么简单”。",
+          "ai_persona_prompt": "There is more *TO* it! It’s a FIXED expression! Just memorize it and move on. Don’t try to reinvent the English language, please!"
+        },
+        {
+          "id": 12,
+          "text": "A. drive\nB. observe\nC. confuse\nD. limit",
+          "options": {
+            "A": "drive",
+            "B": "observe",
+            "C": "confuse",
+            "D": "limit"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "机制驱使我们选择基因相似的朋友，drive 符合语境。",
+          "ai_persona_prompt": "Mechanisms *DRIVE* us! Forces us! It's about motivation, not observation, confusion or limits. What’s so difficult about that?"
+        },
+        {
+          "id": 13,
+          "text": "A. according to\nB. rather than\nC. regardless of\nD. along with",
+          "options": {
+            "A": "according to",
+            "B": "rather than",
+            "C": "regardless of",
+            "D": "along with"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "基因相似的朋友，而不是因为利益关系，rather than 表示对比，符合题意。",
+          "ai_persona_prompt": "It’s this *RATHER THAN* that. A choice! A contrast! It’s not “according to,” “regardless of,” or “along with.” Read the freakin’ words, kid!"
+        },
+        {
+          "id": 14,
+          "text": "A. chances\nB. responses\nC. missions\nD. benefits",
+          "options": {
+            "A": "chances",
+            "B": "responses",
+            "C": "missions",
+            "D": "benefits"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "functional kinship 强调“能帮助达成特殊目的的”亲密关系，friends with benefits 指“（为互惠互利而结成的）利益朋友”。",
+          "ai_persona_prompt": "Functional kinship is about *BENEFITS*, you dolt! It’s a mutually beneficial relationship. It’s not about “chances,” “responses,” or “missions.” Think a little, will ya?!"
+        },
+        {
+          "id": 15,
+          "text": "A. later\nB. slower\nC. faster\nD. earlier",
+          "options": {
+            "A": "later",
+            "B": "slower",
+            "C": "faster",
+            "D": "earlier"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "相似基因的进化导致人类进化加速， faster 符合题意",
+          "ai_persona_prompt": "Evolving *FASTER*! If they were evolving slower, would it explain accelerated human evolution? Use your brain!"
+        },
+        {
+          "id": 16,
+          "text": "A. forecast\nB. remember\nC. understand\nD. express",
+          "options": {
+            "A": "forecast",
+            "B": "remember",
+            "C": "understand",
+            "D": "express"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "有助于理解，研究的目的在于弄清楚原因。understand 符合语境",
+          "ai_persona_prompt": "You’re trying to *UNDERSTAND* something! It’s research, not fortune-telling, memory games, or emotional expression. Honestly, is this your first time taking a test?"
+        },
+        {
+          "id": 17,
+          "text": "A. unpredictable\nB. contributory\nC. controllable\nD. disruptive",
+          "options": {
+            "A": "unpredictable",
+            "B": "contributory",
+            "C": "controllable",
+            "D": "disruptive"
+          },
+          "correct_answer": "B",
+          "analysis_raw": "社交环境对人类进化有促进作用，contributory 符合题意",
+          "ai_persona_prompt": "A *CONTRIBUTORY* factor! It helps, it supports, it pushes forward. This is a good thing, not disruptive, unpredictable, or controllable. Try to focus for once!"
+        },
+        {
+          "id": 18,
+          "text": "A. endeavor\nB. decision\nC. arrangement\nD. tendency",
+          "options": {
+            "A": "endeavor",
+            "B": "decision",
+            "C": "arrangement",
+            "D": "tendency"
+          },
+          "correct_answer": "D",
+          "analysis_raw": "人们倾向于结交相似背景的朋友，tendency 符合题意",
+          "ai_persona_prompt": "It’s a *TENDENCY*! An inclination! People are *inclined* to do this. It's not a hard decision, a structured arrangement, or a difficult endeavor. What are you even thinking?!"
+        },
+        {
+          "id": 19,
+          "text": "A. political\nB. religious\nC. ethnic\nD. economic",
+          "options": {
+            "A": "political",
+            "B": "religious",
+            "C": "ethnic",
+            "D": "economic"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "强调族群、种族背景相似。 ethnic 符合题意",
+          "ai_persona_prompt": "It’s about *ETHNIC* backgrounds! Race! Ancestry! The other options are just… random. Seriously, have you not paid attention to anything we’ve covered so far?!"
+        },
+        {
+          "id": 20,
+          "text": "A. see\nB. show\nC. prove\nD. tell",
+          "options": {
+            "A": "see",
+            "B": "show",
+            "C": "prove",
+            "D": "tell"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "see 在此表示“确保，设法做到”，保证所有实验对象都来自同一族群。",
+          "ai_persona_prompt": "Take care *TO SEE* that... It means 'ensure'! It's formal, it's precise, and it fits perfectly. The rest are just… wrong. Are you even trying at this point?!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 1",
+        "q_range": "21-25"
+      },
+      "article": {
+        "paragraphs": [
+          "King Juan Carlos of Spain once insisted “kings  don’t abdicate,  they die in  their sleep.” But embarrassing scandals and the popularity of the republican left in the recent Euro-elections have forced him to eat his words and stand down.  So, does the Spanish crisis suggest that monarchy is seeing its last days? Does that  mean the writing is on the wall for all European royals, with their magnificent uniforms and majestic lifestyles?",
+          "The Spanish case provides arguments both for and against monarchy. When public opinion is particularly polarised, as it was following the end of the Franco regime, monarchs can rise above “mere” politics and “embody” a  spirit  of  national unity.",
+          "It is this apparent transcendence of politics that explains  monarchs’  continuing popularity as heads of state. And so, the Middle East excepted, Europe  is the most monarch-infested region in the world, with 10 kingdoms (not counting Vatican city and Andorra). But unlike their absolutist counterparts in the Gulf and Asia, most royal families have survived because they allow voters to avoid the difficult search for a non-controversial but respected public figure.",
+          "Even so, kings and queens undoubtedly have a downside. Symbolic  of  national unity as they claim to be, their very history – and sometimes the way they behave today – embodies outdated and indefensible privileges and inequalities. At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states.",
+          "The most successful monarchies strive to abandon or hide  their  old aristocratic ways. Princes and princesses have day-jobs and ride bicycles, not horses (or helicopters). Even so, these are wealthy families who party with the international 1%, and media intrusiveness makes it increasingly difficult to maintain the right image.",
+          "While Europe’s monarchies will no doubt be smart enough to survive for some time to come, it is the British royals who have most to fear from the Spanish example.",
+          "It is only the Queen who has preserved the monarchy’s reputation with her rather ordinary (if well-heeled) granny style. The danger will come with Charles, who has both an expensive taste of lifestyle and a pretty hierarchical view of the world. He has failed to understand that monarchies have largely survived because they provide a service –as non-controversial and non-political heads of state. Charles ought to know that as English history shows, it is kings, not  republicans,\nwho are the monarchy’s worst enemies."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "abdicate",
+          "meanings": [
+            "放弃王位",
+            "退位",
+            "让位"
+          ],
+          "context_match": "King Juan Carlos of Spain once insisted “kings  don’t abdicate,  they die in  their sleep.”"
+        },
+        {
+          "word": "embarrassing",
+          "meanings": [
+            "令人尴尬的",
+            "令人难堪的"
+          ],
+          "context_match": "embarrassing scandals and the popularity of the republican left in the recent Euro-elections have forced him to eat his words and stand down."
+        },
+        {
+          "word": "scandal",
+          "meanings": [
+            "丑闻",
+            "丑事"
+          ],
+          "context_match": "embarrassing scandals and the popularity of the republican left in the recent Euro-elections have forced him to eat his words and stand down."
+        },
+        {
+          "word": "magnificent",
+          "meanings": [
+            "富丽堂皇的",
+            "华丽的"
+          ],
+          "context_match": "the writing is on the wall for all European royals, with their magnificent uniforms and majestic lifestyles?"
+        },
+        {
+          "word": "majestic",
+          "meanings": [
+            "威严的",
+            "庄严的"
+          ],
+          "context_match": "the writing is on the wall for all European royals, with their magnificent uniforms and majestic lifestyles?"
+        },
+        {
+          "word": "polarize",
+          "meanings": [
+            "使极化",
+            "使两极分化",
+            "使对立"
+          ],
+          "context_match": "When public opinion is particularly polarised, as it was following the end of the Franco regime, monarchs can rise above “mere” politics and “embody” a  spirit  of  national unity."
+        },
+        {
+          "word": "regime",
+          "meanings": [
+            "政治制度",
+            "政权",
+            "政体"
+          ],
+          "context_match": "When public opinion is particularly polarised, as it was following the end of the Franco regime, monarchs can rise above “mere” politics and “embody” a  spirit  of  national unity."
+        },
+        {
+          "word": "embody",
+          "meanings": [
+            "表现",
+            "象征",
+            "使具体化"
+          ],
+          "context_match": "When public opinion is particularly polarised, as it was following the end of the Franco regime, monarchs can rise above “mere” politics and “embody” a  spirit  of  national unity."
+        },
+        {
+          "word": "transcendence",
+          "meanings": [
+            "超越"
+          ],
+          "context_match": "It is this apparent transcendence of politics that explains  monarchs’  continuing popularity as heads of state."
+        },
+        {
+          "word": "infest",
+          "meanings": [
+            "大批出没",
+            "成群出现",
+            "遍布"
+          ],
+          "context_match": "Europe  is the most monarch-infested region in the world, with 10 kingdoms (not counting Vatican city and Andorra)."
+        },
+        {
+          "word": "absolutist",
+          "meanings": [
+            "专制主义者"
+          ],
+          "context_match": "But unlike their absolutist counterparts in the Gulf and Asia, most royal families have survived because they allow voters to avoid the difficult search for a non-controversial but respected public figure."
+        },
+        {
+          "word": "counterpart",
+          "meanings": [
+            "职务相当的人",
+            "作用相当的事物"
+          ],
+          "context_match": "But unlike their absolutist counterparts in the Gulf and Asia, most royal families have survived because they allow voters to avoid the difficult search for a non-controversial but respected public figure."
+        },
+        {
+          "word": "non-controversial",
+          "meanings": [
+            "无争议的"
+          ],
+          "context_match": "But unlike their absolutist counterparts in the Gulf and Asia, most royal families have survived because they allow voters to avoid the difficult search for a non-controversial but respected public figure."
+        },
+        {
+          "word": "downside",
+          "meanings": [
+            "不足",
+            "负面",
+            "缺点"
+          ],
+          "context_match": "Even so, kings and queens undoubtedly have a downside."
+        },
+        {
+          "word": "symbolic",
+          "meanings": [
+            "象征性的"
+          ],
+          "context_match": "Symbolic  of  national unity as they claim to be, their very history – and sometimes the way they behave today – embodies outdated and indefensible privileges and inequalities."
+        },
+        {
+          "word": "outdated",
+          "meanings": [
+            "过时的",
+            "落伍的",
+            "不流行的"
+          ],
+          "context_match": "Symbolic  of  national unity as they claim to be, their very history – and sometimes the way they behave today – embodies outdated and indefensible privileges and inequalities."
+        },
+        {
+          "word": "indefensible",
+          "meanings": [
+            "无法辩解的",
+            "难以捍卫的"
+          ],
+          "context_match": "Symbolic  of  national unity as they claim to be, their very history – and sometimes the way they behave today – embodies outdated and indefensible privileges and inequalities."
+        },
+        {
+          "word": "privilege",
+          "meanings": [
+            "特权"
+          ],
+          "context_match": "Symbolic  of  national unity as they claim to be, their very history – and sometimes the way they behave today – embodies outdated and indefensible privileges and inequalities."
+        },
+        {
+          "word": "inherit",
+          "meanings": [
+            "继承"
+          ],
+          "context_match": "At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states."
+        },
+        {
+          "word": "bizarre",
+          "meanings": [
+            "离奇的",
+            "奇特的",
+            "奇怪的"
+          ],
+          "context_match": "At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states."
+        },
+        {
+          "word": "aristocratic",
+          "meanings": [
+            "贵族的",
+            "贵族气派的"
+          ],
+          "context_match": "At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states."
+        },
+        {
+          "word": "democratic",
+          "meanings": [
+            "民主的"
+          ],
+          "context_match": "At a time when Thomas Piketty and other economists are warning of rising inequality and the increasing power of inherited wealth, it is bizarre that wealthy aristocratic families should still be the symbolic heart of modern democratic states."
+        },
+        {
+          "word": "strive",
+          "meanings": [
+            "努力",
+            "奋斗"
+          ],
+          "context_match": "The most successful monarchies strive to abandon or hide  their  old aristocratic ways."
+        },
+        {
+          "word": "helicopter",
+          "meanings": [
+            "直升机"
+          ],
+          "context_match": "Princes and princesses have day-jobs and ride bicycles, not horses (or helicopters)."
+        },
+        {
+          "word": "party with",
+          "meanings": [
+            "与……聚会",
+            "与……社交"
+          ],
+          "context_match": "Even so, these are wealthy families who party with the international 1%, and media intrusiveness makes it increasingly difficult to maintain the right image."
+        },
+        {
+          "word": "preserve",
+          "meanings": [
+            "保护",
+            "保持"
+          ],
+          "context_match": "It is only the Queen who has preserved the monarchy’s reputation with her rather ordinary ( if\nwell-heeled)granny style."
+        },
+        {
+          "word": "hierarchical",
+          "meanings": [
+            "按等级划分的",
+            "等级（制度）的",
+            "等级森严的"
+          ],
+          "context_match": "The danger will come with Charles, who has both an expensive taste of lifestyle and a pretty hierarchical view of the world."
+        },
+        {
+          "word": "republican",
+          "meanings": [
+            "拥护共和政体的人",
+            "共和主义者"
+          ],
+          "context_match": "Charles ought to know that as English history shows, it is kings, not republicans,\nwho are the monarchy’s worst enemies."
+        }
+      ],
+      "questions": [
+        {
+          "id": 21,
+          "text": "According to the first two paragraphs, King Juan Carl of Spain",
+          "options": {
+            "A": "eased his relationship with his rivals.",
+            "B": "used to enjoy high public support.",
+            "C": "was unpopular among European royals.",
+            "D": "ended his reign in embarrassment."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "由首段②句\"令人尴尬的丑闻及新近欧洲选举中左翼共和党的人气迫使胡安·卡洛斯退位\"可知\"卡洛斯尴尬地结束了他的统治\"，故【D】正确。\n【命题解密】正 确项【D】是 对②句 的概括与改写，其中 ended his reign 替换 stand down，in embarrassment对 应 embarrassing scandals。",
+          "ai_persona_prompt": "Alright, listen up! The first two paragraphs basically scream that King Juan Carlos's reign ended like a bad reality TV show finale – tons of drama and a forced exit. So, 'ended his reign in embarrassment' is the only answer that makes sense. Get it right next time, or face my royal wrath!"
+        },
+        {
+          "id": 22,
+          "text": "Monarchs are kept as heads of state in Europe mostly",
+          "options": {
+            "A": "to give voters more public figures to look up to.",
+            "B": "to achieve a balance between tradition and reality.",
+            "C": "owing to their undoubted and respectable status.",
+            "D": "due to their everlasting political embodiment."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第三段首句指出君主作为国家元首受到持续欢迎是因为其应然的政治超越性;末句进一步指出大多数欧洲王室为何存留至今是因为他们为选民提供了一位无可争议且备受尊敬的公众人物。由此可知，欧洲君主作为国家元首被保留重点是因为他们无可争辩且受人尊重的地位，【C】正确。\n【命题解密】题干＋正确项是对第三段首末句间因果逻辑链接的概括与改写，正确项完全对应末句中 a non-controversial but respected public figure。",
+          "ai_persona_prompt": "Ugh, this is so basic. Monarchs are basically preserved relics of a bygone era, but people still respect them (for some reason). 'Owing to their undoubted and respectable status' is the only option that captures this weird dynamic. If you chose anything else, you need a history lesson ASAP!"
+        },
+        {
+          "id": 23,
+          "text": "Which of the following is shown to be odd, according to Paragraph 4?",
+          "options": {
+            "A": "Aristocrats’ excessive reliance on inherited wealth.",
+            "B": "The role of the nobility in modern democracies.",
+            "C": "The simple lifestyle of the aristocratic families.",
+            "D": "The nobility’s adherence to their privileges."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "第四段末句指出∶在经济学家就“日益加深的不平等和世袭财富权力”发出警告的今日，“贵族世家竟然还是现代民主国家的核心象征”非常奇怪，可见【B】正确。\n【命题解密】题干和正确项【B】所做问答共同构成对③句的同义改写∶题干 odd 对应 bizarre，选项 the role、the nobility、modern democracies 分别对应 still be the symbolic heart、that wealthy aristocratic families smodern democratic states。",
+          "ai_persona_prompt": "Seriously? It's glaringly obvious! Paragraph 4 practically screams that it's bizarre for nobles to have *any* role in modern democracies, given all their inherited wealth and privilege. 'The role of the nobility in modern democracies' is the only right answer. Try paying attention, darling!"
+        },
+        {
+          "id": 24,
+          "text": "The British royals “have most to fear” because Charles",
+          "options": {
+            "A": "fails to adapt himself to his future role.",
+            "B": "fails to change his lifestyle as advised.",
+            "C": "takes republicans as his potential allies.",
+            "D": "takes a tough line on political issues."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "文末段指出英国王室危险源于查尔斯王子生活方式奢侈、等级观念严重、未能意识到王室君主存留的原因在于他们为民众提供了一位无可争议且备受尊重的国家元首而非一个生活极尽奢 侈、等级观念极为严重的真正意义上的君主。可见，英国王室危机感来自“没能调整自己，适应未来君主角色”的查尔斯王子，【A】正确。\n【命题解密】A】是对末段所述查尔斯王子不当行为的高度概括，且体现了段中表明的“国王行为”和“王室危机”的直接因果关系。",
+          "ai_persona_prompt": "Oh, come on! It's practically written in neon lights! Charles is a dinosaur clinging to antiquated traditions. He 'fails to adapt himself to his future role' – that's the *entire* problem. If he doesn't get with the times, the monarchy is doomed. Don't be dense!"
+        },
+        {
+          "id": 25,
+          "text": "Which of the following is the best title of the text?",
+          "options": {
+            "A": "Carlos, Glory and Disgrace Combined",
+            "B": "Charles, Anxious to Succeed to the Throne",
+            "C": "Carlos, a Lesson for All European Monarchs",
+            "D": "Charles, Slow to React to the Coming Threats"
+          },
+          "correct_answer": "C",
+          "analysis_raw": "文首段以“西班牙国王卡洛斯被迫退位”事件引发全文探讨问题∶欧洲王室是否行将就木? 第二至五段分析指出欧洲各王室靠其努力调整仍将持续一段时日;末两段聚焦英国王室，指出查尔斯王子不当行为致其面临危机。纵观全文，作者实以卡洛斯事例警示欧洲王室做出调整，【C】正确。\n【命题解密】正确项恰当涵盖全文主要内容∶从“卡洛斯退位”看“整个欧洲王室备受争议”的现状。",
+          "ai_persona_prompt": "For crying out loud, it's 'Carlos, a Lesson for All European Monarchs'! The whole article is about how the Spanish king's downfall should be a warning to other royals. If you can't see that, you're missing the entire point! Get it together!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 2",
+        "q_range": "26-30"
+      },
+      "article": {
+        "paragraphs": [
+          "Just how much does the Constitution protect your digital data? The Supreme Court will now consider whether police can search the contents of a mobile phone without a warrant if the phone is on or around a person during an arrest.",
+          "California has asked the justices to refrain from a sweeping ruling, particularly one that upsets the old assumption that authorities may search through the possessions of suspects at the time of their arrest. It is hard, the state argues, for judges to assess the implications of new and rapidly changing technologies.",
+          "The court would be recklessly modest if it followed California’s advice. Enough of the implications are discernable, even obvious, so that the justices can and should provide updated guidelines to police, lawyers and defendants.",
+          "They should start by discarding California’s lame argument that exploring the contents of a smartphone – a vast storehouse of digital information – is similar to, say, going through a suspect’s purse. The court has ruled that police don’t violate the Fourth Amendment when they go through the wallet or pocketbook of an arrestee without a warrant. But exploring one’s smartphone is more like entering his or her home. A smartphone may contain an arrestee’s reading history, financial history, medical history and comprehensive records of recent correspondence. The development of “cloud computing”, meanwhile, has made that exploration so much the easier.",
+          "Americans should take steps to protect their digital privacy. But keeping sensitive information on these devices is increasingly a requirement of normal life. Citizens still have a right to expect private documents to remain private and protected by the Constitution’s prohibition on unreasonable searches.",
+          "As so often is the case, stating that principle doesn’t ease the challenge of line-drawing. In many cases, it would not be overly burdensome for authorities to obtain a warrant to search through phone contents. They could still invalidate Fourth Amendment protections when facing severe, urgent circumstances, and they could take reasonable measures to ensure that phone data are not erased or altered while waiting for a warrant. The court, though, may want to allow room for police to cite situations where they are entitled to more freedom.",
+          "But the justices should not swallow California’s argument whole. New, disruptive technology sometimes demands novel applications of the Constitution’s protections. Orin Kerr, a law professor, compares the explosion and accessibility of digital information in the 21st century with the establishment of automobile use as a virtual necessity of life in the 20th: The justices had to specify novel rules for the new personal domain of the passenger car then; they must sort out how the Fourth Amendment applies to digital information now."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "warrant",
+          "meanings": [
+            "授权令",
+            "搜查令"
+          ],
+          "context_match": "The Supreme Court will now consider whether police can search the contents of a mobile phone without a warrant"
+        },
+        {
+          "word": "sweeping",
+          "meanings": [
+            "彻底的",
+            "影响广泛的"
+          ],
+          "context_match": "California has asked the justices to refrain from a sweeping ruling"
+        },
+        {
+          "word": "assumption",
+          "meanings": [
+            "假定",
+            "假设"
+          ],
+          "context_match": "particularly one that upsets the old assumption that authorities may search through the possessions of suspects at the time of their arrest"
+        },
+        {
+          "word": "implications",
+          "meanings": [
+            "(行动、事件、决定等)可能的影响或后果"
+          ],
+          "context_match": "It is hard, the state argues, for judges to assess the implications of new and rapidly changing technologies."
+        },
+        {
+          "word": "discard",
+          "meanings": [
+            "丢弃",
+            "抛弃"
+          ],
+          "context_match": "They should start by discarding California’s lame argument"
+        },
+        {
+          "word": "lame",
+          "meanings": [
+            "差劲的",
+            "无说服力的",
+            "拙劣的"
+          ],
+          "context_match": "They should start by discarding California’s lame argument"
+        },
+        {
+          "word": "correspondence",
+          "meanings": [
+            "通信",
+            "信件"
+          ],
+          "context_match": "A smartphone may contain an arrestee’s reading history, financial history, medical history and comprehensive records of recent correspondence."
+        },
+        {
+          "word": "prohibition",
+          "meanings": [
+            "禁令",
+            "禁律"
+          ],
+          "context_match": "Citizens still have a right to expect private documents to remain private and protected by the Constitution’s prohibition on unreasonable searches."
+        },
+        {
+          "word": "burdensome",
+          "meanings": [
+            "繁重的",
+            "麻烦的"
+          ],
+          "context_match": "it would not be overly burdensome for authorities to obtain a warrant"
+        },
+        {
+          "word": "invalidate",
+          "meanings": [
+            "使无效",
+            "使无价值"
+          ],
+          "context_match": "They could still invalidate Fourth Amendment protections when facing severe, urgent circumstances"
+        },
+        {
+          "word": "swallow",
+          "meanings": [
+            "轻信",
+            "全盘接受"
+          ],
+          "context_match": "But the justices should not swallow California’s argument whole."
+        },
+        {
+          "word": "disruptive",
+          "meanings": [
+            "破坏性的",
+            "扰乱的"
+          ],
+          "context_match": "New, disruptive technology sometimes demands novel applications of the Constitution’s protections."
+        },
+        {
+          "word": "specify",
+          "meanings": [
+            "具体指定",
+            "详述"
+          ],
+          "context_match": "The justices had to specify novel rules for the new personal domain of the passenger car then"
+        },
+        {
+          "word": "sort out",
+          "meanings": [
+            "解决"
+          ],
+          "context_match": "they must sort out how the Fourth Amendment applies to digital information now."
+        }
+      ],
+      "questions": [
+        {
+          "id": 26,
+          "text": "The Supreme Court will work out whether, during an arrest, it is legitimate to",
+          "options": {
+            "A": "prevent suspects from deleting their phone contents.",
+            "B": "search for suspects’ mobile phones without a warrant.",
+            "C": "check suspects’ phone contents without being authorized.",
+            "D": "prohibit suspects from using their mobile phones."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "第一段指出，最高法院即将讨论在逮捕过程中，警方可否无证搜查嫌疑人的手机内容。即，最高法院将要解决的问题是\"逮捕过程中，未经授权搜查嫌疑人手机内容是否合法\"。",
+          "ai_persona_prompt": "Alright, listen up! The Supreme Court is figuring out if cops can snoop through your phone *without* permission when they arrest you. So, 'check suspects’ phone contents without being authorized' is the only one that matches the main point of the paragraph. Don't overthink it!"
+        },
+        {
+          "id": 27,
+          "text": "The author’s attitude toward California’s argument is one of",
+          "options": {
+            "A": "disapproval.",
+            "B": "indifference.",
+            "C": "tolerance.",
+            "D": "cautiousness."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "第三段指出，最高法院若听从加州建议，则是谦虚到不计后果。第四段①句提议最高法院摒弃加州的蹩脚言论。可见作者并不赞同加州观点。",
+          "ai_persona_prompt": "Seriously? The author *disapproves* of California's argument! He calls it 'recklessly modest' and a 'lame argument.' Does that sound like someone who's indifferent, tolerant, or cautious? Nope. Disapproval is the only logical answer here."
+        },
+        {
+          "id": 28,
+          "text": "The author believes that exploring one’s phone contents is comparable to",
+          "options": {
+            "A": "going through one’s wallet.",
+            "B": "handling one’s historical records.",
+            "C": "scanning one’s correspondences.",
+            "D": "getting into one’s residence."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "第四段指出：查看一个人的手机就犹如进入他或她的家（entering his or her home）。",
+          "ai_persona_prompt": "Wake up! The author compares phone snooping to 'getting into one’s residence'! Not a wallet, not some records, not letters. Your phone is like your *house* – a private space! The author is trying to say it's a big deal."
+        },
+        {
+          "id": 29,
+          "text": "In Paragraphs 5 and 6, the author shows his concern that",
+          "options": {
+            "A": "principles are hard to be clearly expressed.",
+            "B": "the court is giving police less room for action.",
+            "C": "phones are used to store sensitive information.",
+            "D": "citizens’ privacy is not effectively protected."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "第五段末句指出：公民有权要求私人文件得到宪法禁止无理搜查的保护。第六段转而指出，申明原则并不能减轻界限划定的挑战：搜查证并不难获取，紧急情况下可越过第四修正案进行搜查，等待搜查证时可采取措施不让嫌疑人删除信息。可见作者认为公民隐私并未受到有效保护。",
+          "ai_persona_prompt": "Ugh, this one's obvious. The author is *concerned* that 'citizens’ privacy is not effectively protected.' He talks about principles not easing the challenge, and authorities getting warrants easily. It all boils down to privacy being at risk!"
+        },
+        {
+          "id": 30,
+          "text": "Orin Kerr's comparison is quoted to indicate that",
+          "options": {
+            "A": "the Constitution should be implemented flexibly.",
+            "B": "principles of the Constitution should never be altered.",
+            "C": "California's argument violates principles of the Constitution.",
+            "D": "new technology requires reinterpretation of the Constitution."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "末段③句，该句类比指出：当初汽车成为生活必需品时，法官们不得不为其确新规，同理，如今数字信息成为人类日常生活一部分，法官也应为该新兴领域明令新规。再根据\"所举事例旨在为观点服务\"原则，可将类比意图追溯到②句：新的颠覆性技术有时需要对宪法保护条例有新的运用。可见，作者类比意图在于说明新技术需要宪法新解释。",
+          "ai_persona_prompt": "Duh! Orin Kerr is saying 'new technology requires reinterpretation of the Constitution!' He's comparing it to cars back in the day! It's all about adapting the rules to a new world. Option D is the only one making any sense here."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 3",
+        "q_range": "31-35"
+      },
+      "article": {
+        "paragraphs": [
+          "The journal Science is adding an extra round of statistical checks to its peer-review process, editor-in-chief Marcia McNutt announced today. The policy follows similar efforts from other journals, after widespread concern that basic mistakes in data analysis are contributing to the irreproducibility of many published research findings.",
+          "“Readers must have confidence in the conclusions published in our journal,” writes McNutt in an editorial. Working with the American Statistical Association, the journal has appointed seven experts to a statistics board of reviewing editors (SBoRE). Manuscripts will be flagged up for additional scrutiny by the journal’s internal editors, or by its existing Board of Reviewing Editors or by outside peer reviewers. The SBoRE panel will then find external statisticians to review these manuscripts.",
+          "Asked whether any particular papers had impelled the change, McNutt said: “The creation of the ‘statistics board’ was motivated by concerns broadly with the application of statistics and data analysis in scientific research and is part of Science’s overall drive to increase reproducibility in the research we publish.”",
+          "Giovanni Parmigiani, a biostatistician at the Harvard School of Public Health, a member of the SBoRE group, says he expects the board to “play primarily an advisory role.” He agreed to join because he “found the foresight behind the establishment of the SBoRE to be novel, unique and likely to have a lasting impact. This impact will not only be through the publications in Science itself, but hopefully through a larger group of publishing places that may want to model their approach after Science.”",
+          "John Ioannidis, a physician who studies research methodology, says that the policy is “a most welcome step forward” and “long overdue”. “Most journals are weak in statistical review, and this damages the quality of what they publish. I think that, for the majority of scientific papers nowadays, statistical review is more essential than expert review,” he says, but he noted that biomedical journals such as Annals of Internal Medicine, the Journal of the American Medical Association and The Lancet pay strong attention to statistical review.",
+          "Professional scientists are expected to know how to analyse data, but statistical errors are alarmingly common in published research, according to David Vaux, a cell biologist. Researchers should improve their standards, he wrote in 2012, but journals should also take a tougher line, “engaging reviewers who are statistically literate and editors who can verify the process”. Vaux says that Science’s idea to pass some papers to statisticians “has some merit, but a weakness is that it relies on the board of reviewing editors to identify ‘the papers that need scrutiny’ in the first place”."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "statistical",
+          "meanings": [
+            "统计的",
+            "统计学的"
+          ],
+          "context_match": "statistical checks"
+        },
+        {
+          "word": "peer-review",
+          "meanings": [
+            "同行评审"
+          ],
+          "context_match": "peer-review process"
+        },
+        {
+          "word": "irreproducibility",
+          "meanings": [
+            "不可复制性"
+          ],
+          "context_match": "irreproducibility of many published research findings"
+        },
+        {
+          "word": "scrutiny",
+          "meanings": [
+            "细看",
+            "仔细的观察",
+            "监督"
+          ],
+          "context_match": "additional scrutiny"
+        },
+        {
+          "word": "editorial",
+          "meanings": [
+            "社论"
+          ],
+          "context_match": "writes McNutt in an editorial"
+        },
+        {
+          "word": "foresight",
+          "meanings": [
+            "先见",
+            "预见",
+            "深谋远虑"
+          ],
+          "context_match": "found the foresight behind the establishment"
+        },
+        {
+          "word": "advisory",
+          "meanings": [
+            "咨询的",
+            "顾问的"
+          ],
+          "context_match": "primarily an advisory role"
+        }
+      ],
+      "questions": [
+        {
+          "id": 31,
+          "text": "It can be learned from Paragraph 1 that",
+          "options": {
+            "A": "Science intends to simplify its peer-review process.",
+            "B": "journals are strengthening their statistical checks.",
+            "C": "few journals are blamed for mistakes in data analysis.",
+            "D": "lack of data analysis is common in research projects."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "根据第一段，《科学》期刊增加统计审查，其他期刊也在效仿，可知期刊正在加强统计审查。【B】正确。",
+          "ai_persona_prompt": "Alright, listen up! Paragraph 1 clearly states Science is *adding* checks, not simplifying. And it's not just Science, other journals are doing it too! Strengthening, people, strengthening! B is the only logical answer."
+        },
+        {
+          "id": 32,
+          "text": "The phrase “flagged up” (Para. 2) is the closest in meaning to",
+          "options": {
+            "A": "found.",
+            "B": "revised.",
+            "C": "marked.",
+            "D": "stored."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "根据第二段，原稿会被“flagged up”以接受额外审查，应理解为“标记”。【C】正确。",
+          "ai_persona_prompt": "Seriously? 'Flagged up'? Think about it! You flag something to get attention, right? That means it's 'marked'! A is finding, which makes no sense in the context of reviewing articles. The answer is C."
+        },
+        {
+          "id": 33,
+          "text": "Giovanni Parmigiani believes that the establishment of the SBoRE may",
+          "options": {
+            "A": "pose a threat to all its peers.",
+            "B": "meet with strong opposition.",
+            "C": "increase Science’s circulation.",
+            "D": "set an example for other journals."
+          },
+          "correct_answer": "D",
+          "analysis_raw": "Parmigiani认为SBoRE的创立具有持久影响，并可能被其他期刊效仿。【D】正确。",
+          "ai_persona_prompt": "Come on, this is a no-brainer. Parmigiani says the SBoRE's impact will hopefully inspire other journals. 'Set an example,' 'model their approach,' it's all the same! D is the obvious choice. Don't overthink it."
+        },
+        {
+          "id": 34,
+          "text": "David Vaux holds that what Science is doing now",
+          "options": {
+            "A": "adds to researchers’ workload.",
+            "B": "diminishes the role of reviewers.",
+            "C": "has room for further improvement.",
+            "D": "is to fail in the foreseeable future."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "Vaux认为《科学》的做法有优点，但也有缺点，意味着有进一步改进的空间。【C】正确。",
+          "ai_persona_prompt": "Vaux literally says there's a 'weakness'! That's code for 'needs improvement'! The fact that he also sees merit suggests he doesn't think it's going to fail entirely. C is the correct answer, obviously."
+        },
+        {
+          "id": 35,
+          "text": "Which of the following is the best title of the text?",
+          "options": {
+            "A": "Science Joins Push to Screen Statistics in Papers",
+            "B": "Professional Statisticians Deserve More Respect",
+            "C": "Data Analysis Finds Its Way onto Editors’ Desks",
+            "D": "Statisticians Are Coming Back with Science"
+          },
+          "correct_answer": "A",
+          "analysis_raw": "文章主要讲述《科学》期刊加入到加强论文统计审查的行列中来，【A】最能概括文章主旨。",
+          "ai_persona_prompt": "Title, people, title! What's the *whole* article about? Science is screening statistics in papers. Option A is the only one that encompasses that. Don't fall for the distractions. A is the best title."
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Text",
+        "name": "Text 4",
+        "q_range": "36-40"
+      },
+      "article": {
+        "paragraphs": [
+          "Two years ago, Rupert Murdoch’s daughter, Elisabeth, spoke of the “unsettling dearth of integrity across so many of our institutions”. Integrity had collapsed, she argued, because of a collective acceptance that the only “sorting mechanism” in society should be profit and the market. But “it’s us, human beings, we the people who create the society we want, not profit.”",
+          "Driving her point home, she continued: “It’s increasingly apparent that the absence of purpose, of a moral language within government, media or business could become one of the most dangerous goals for capitalism and freedom.” This same absence of moral purpose was wounding companies such as News International, she thought, making it more likely that it would lose its way as it had with widespread illegal telephone hacking.",
+          "As the hacking trial concludes – finding guilty one ex-editor of the News of the World, Andy Coulson, for conspiring to hack phones, and finding his predecessor, Rebekah Brooks, innocent of the same charge – the wider issue of dearth of integrity still stands. Journalists are known to have hacked the phones of up to 5,500 people. This is hacking on an industrial scale, as was acknowledged by Glenn Mulcaire, the man hired by the News of the World in 2001 to be the point person for phone hacking. Others await trial. This long story still unfolds.",
+          "In many respects, the dearth of moral purpose frames not only the fact of such widespread phone hacking but the terms on which the trial took place. One of the astonishing revelations was how little Rebekah Brooks knew of what went on in her newsroom, how little she thought to ask and the fact that she never inquired how the stories arrived. The core of her successful defence was that she knew nothing.",
+          "In today’s world, it has become normal that well-paid executives should not be accountable for what happens in the organisations that they run. Perhaps we should not be so surprised. For a generation, the collective doctrine has been that the sorting mechanism of society should be profit. The words that have mattered are efficiency, flexibility, shareholder value, business-friendly, wealth generation, sales, impact and, in newspapers, circulation. Words degraded to the margin have been justice, fairness, tolerance, proportionality and accountability.",
+          "The purpose of editing the News of the World was not to promote reader understanding, to be fair in what was written or to betray any common humanity. It was to ruin lives in the quest for circulation and impact. Ms Brooks may or may not have had suspicions about how her journalists got their stories, but she asked no questions, gave no instructions – nor received traceable, recorded answers."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "unsettling",
+          "meanings": [
+            "使人不安的",
+            "混乱的"
+          ],
+          "context_match": "“unsettling dearth of integrity”"
+        },
+        {
+          "word": "dearth",
+          "meanings": [
+            "缺乏",
+            "稀少"
+          ],
+          "context_match": "“unsettling dearth of integrity”"
+        },
+        {
+          "word": "integrity",
+          "meanings": [
+            "正直",
+            "诚实",
+            "完整"
+          ],
+          "context_match": "“unsettling dearth of integrity”"
+        },
+        {
+          "word": "collapse",
+          "meanings": [
+            "倒塌",
+            "崩溃"
+          ],
+          "context_match": "“Integrity had collapsed”"
+        },
+        {
+          "word": "collective",
+          "meanings": [
+            "集体的",
+            "共同的",
+            "集合的"
+          ],
+          "context_match": "“collective acceptance”"
+        },
+        {
+          "word": "accountable",
+          "meanings": [
+            "负有责任的",
+            "应对自己的行为做出说明的",
+            "可解释的"
+          ],
+          "context_match": "“should not be accountable”"
+        },
+        {
+          "word": "doctrine",
+          "meanings": [
+            "教条",
+            "教诲",
+            "教导"
+          ],
+          "context_match": "“collective doctrine”"
+        },
+        {
+          "word": "flexibility",
+          "meanings": [
+            "弹性",
+            "机动性",
+            "灵活性"
+          ],
+          "context_match": "“efficiency, flexibility, shareholder”"
+        },
+        {
+          "word": "shareholder",
+          "meanings": [
+            "股东",
+            "股票持有者"
+          ],
+          "context_match": "“efficiency, flexibility, shareholder”"
+        },
+        {
+          "word": "circulation",
+          "meanings": [
+            "发行量",
+            "流通"
+          ],
+          "context_match": "“circulation”"
+        },
+        {
+          "word": "proportionality",
+          "meanings": [
+            "比例(性)",
+            "均衡"
+          ],
+          "context_match": "“proportionality”"
+        },
+        {
+          "word": "conspire",
+          "meanings": [
+            "阴谋",
+            "策划"
+          ],
+          "context_match": "“conspiring to hack phones”"
+        },
+        {
+          "word": "predecessor",
+          "meanings": [
+            "前任",
+            "前辈"
+          ],
+          "context_match": "“his predecessor, Rebekah Brooks”"
+        },
+        {
+          "word": "revelation",
+          "meanings": [
+            "揭发",
+            "暴露"
+          ],
+          "context_match": "“astonishing revelations”"
+        },
+        {
+          "word": "inquire",
+          "meanings": [
+            "打听",
+            "询问",
+            "查究",
+            "查问"
+          ],
+          "context_match": "“she never inquired how the stories arrived”"
+        }
+      ],
+      "questions": [
+        {
+          "id": 36,
+          "text": "According to the first two paragraphs, Elisabeth was upset by",
+          "options": {
+            "A": "the consequences of the current sorting mechanism.",
+            "B": "companies’ financial loss due to immoral practices.",
+            "C": "governmental ineffectiveness on moral issues.",
+            "D": "the wide misuse of integrity among institutions."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "题干＋正确项【A】是对前两段的概括∶题干中 upset 对应原文 unsettling，表明 Elisabeth 的担忧态度;the consequences of the current sorting mechanism 对应第二段①②句 could become one of the most dangerous goals、was wounding...，would lose its way...，是担忧的具体内容。",
+          "ai_persona_prompt": "Alright, listen up! Elisabeth wasn't just throwing a tantrum. She was properly cheesed off by what happens when everyone's only chasing the dosh. It's the rotten outcome of that profit-obsessed 'sorting mechanism,' you numpty!"
+        },
+        {
+          "id": 37,
+          "text": "It can be inferred from Paragraph 3 that",
+          "options": {
+            "A": "Glenn Mulcaire may deny phone hacking as a crime.",
+            "B": "more journalists may be found guilty of phone hacking.",
+            "C": "Andy Coulson should be held innocent of the charge.",
+            "D": "phone hacking will be accepted on certain occasions."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "【B】是对第三段④⑤句 Others await trial（其他人尚待审判）、This long story still unfolds（这一长串事件仍在展开）以及首句 the wider issue of dearth of integrity still stands 的明确解读。",
+          "ai_persona_prompt": "Oi, pay attention! It's bleedin' obvious. With 'others await trial' and that whole 'wider issue of integrity' business, it's saying more journos are gonna get nicked for this hacking lark. Use your loaf, will ya?"
+        },
+        {
+          "id": 38,
+          "text": "The author believes that Rebekah Brooks’s defence",
+          "options": {
+            "A": "was hardly convincing.",
+            "B": "centered on trivial issues.",
+            "C": "revealed a cunning personality.",
+            "D": "was part of a conspiracy."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "【A】概括了排比强调结构 how little she knew...how little she thought...she never inquired 以及 astonishing 一词所反映的作者的质疑态度。",
+          "ai_persona_prompt": "Seriously? The author ain't buyin' Brooks' 'I knew nuffin'' routine. 'Astonishing' revelations and all that 'how little she knew' crap? It stinks of BS. It was hardly bloody convincing!"
+        },
+        {
+          "id": 39,
+          "text": "The author holds that the current collective doctrine shows",
+          "options": {
+            "A": "a marginalized lifestyle.",
+            "B": "unfair wealth distribution.",
+            "C": "generally distorted values.",
+            "D": "a rigid moral code."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "【C】既提炼了④⑤句所述信条表现中所蕴含的作者批驳和愤懑之情，又反映了①句所述这一信条所导致的畸形现象。",
+          "ai_persona_prompt": "Wake up! The author's shoutin' that everyone's got their priorities arse-backwards. 'Profit above all else'? It's a load of bollocks and shows our values are completely twisted. Get it now, yeah?"
+        },
+        {
+          "id": 40,
+          "text": "Which of the following is suggested in the last paragraph?",
+          "options": {
+            "A": "The quality of writings is of primary importance.",
+            "B": "Moral awareness matters in editing a newspaper.",
+            "C": "Common humanity is central to news reporting.",
+            "D": "Journalists need stricter industrial regulations."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "【B】是从末段①②句对《世界新闻报》错误做法的批驳中反向推知的正确方式，是对 to be fair in what was written、to betray common humanity、not to ruin lives...的准确概括。",
+          "ai_persona_prompt": "Oi, last orders! The point of that last bit is simple: editors need a bleedin' conscience! All that 'ruin lives in the quest for circulation' business? Editors need to consider morals BEFORE chasing ratings and profits! Simple!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Reading Part B",
+        "name": "Part B",
+        "q_range": "41-45"
+      },
+      "article": {
+        "paragraphs": [
+          "How does your reading proceed? Clearly you try to comprehend, in the sense of identifying meanings for individual words and working out relationships between them, drawing on your implicit knowledge of English grammar. (41) \tYou begin to infer a context for the text, for instance by making decisions about what kind of speech event is involved: Who is making the utterance, to whom, when and where.",
+          "The ways of reading indicated here are without doubt kinds of comprehension. But they show comprehension to consist not just of passive assimilation but of active engagement in inference and problem-solving. You infer information you feel the writer has invited you to grasp by presenting you with specific evidence and clues. (42) \t",
+          "Conceived in this way, comprehension will not follow exactly the same track for each reader. What is in question is not the retrieval of an absolute, fixed or “true” meaning that can be read off and checked for accuracy, or some timeless relation of the text to the world. (43) \t",
+          "Such background material inevitably reflects who we are. (44) \t This doesn’t, however, make interpretation merely relative or even pointless. Precisely because readers from different historical periods, places and social experiences produce different but overlapping readings of the same words on the page– including for texts that engage with fundamental human concerns – debates about texts can play an important role in social discussion of beliefs and values.",
+          "How we read a given text also depends to some extent on our particular interest in reading it. (45) \tSuch dimensions of reading suggest – as others introduced later in the book will also do – that we bring an implicit（often unacknowledged）agenda to any act of reading. It doesn’t then necessarily follow that one kind of reading is fuller, more advanced or more worthwhile than another. Ideally, different kinds of reading inform each other, and act as useful reference points for and counterbalances to one another. Together, they make up the reading component of your overall literacy, or relationship to your surrounding textual environment."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "proceed",
+          "meanings": [
+            "继续进行",
+            "行进"
+          ],
+          "context_match": "How does your reading proceed?"
+        },
+        {
+          "word": "comprehend",
+          "meanings": [
+            "理解",
+            "领悟"
+          ],
+          "context_match": "Clearly you try to comprehend"
+        },
+        {
+          "word": "implicit",
+          "meanings": [
+            "含蓄的",
+            "不言而喻的"
+          ],
+          "context_match": "drawing on your implicit knowledge"
+        },
+        {
+          "word": "infer",
+          "meanings": [
+            "推断",
+            "推论"
+          ],
+          "context_match": "You begin to infer a context"
+        },
+        {
+          "word": "utterance",
+          "meanings": [
+            "说话",
+            "表达"
+          ],
+          "context_match": "Who is making the utterance"
+        },
+        {
+          "word": "assimilation",
+          "meanings": [
+            "吸收",
+            "同化"
+          ],
+          "context_match": "passive assimilation"
+        },
+        {
+          "word": "engagement",
+          "meanings": [
+            "参与",
+            "投入"
+          ],
+          "context_match": "active engagement"
+        },
+        {
+          "word": "retrieve",
+          "meanings": [
+            "检索",
+            "取回"
+          ],
+          "context_match": "not the retrieval of an absolute"
+        },
+        {
+          "word": "timeless",
+          "meanings": [
+            "永恒的",
+            "不受时间影响的"
+          ],
+          "context_match": "some timeless relation"
+        },
+        {
+          "word": "interpretation",
+          "meanings": [
+            "解释",
+            "理解"
+          ],
+          "context_match": "make interpretation merely relative"
+        },
+        {
+          "word": "agenda",
+          "meanings": [
+            "议程",
+            "计划",
+            "动机"
+          ],
+          "context_match": "we bring an implicit agenda"
+        },
+        {
+          "word": "literacy",
+          "meanings": [
+            "读写能力",
+            "识字"
+          ],
+          "context_match": "your overall literacy"
+        }
+      ],
+      "questions": [
+        {
+          "id": 41,
+          "text": "Choose the most suitable one from the list A-G to fit into the numbered blanks.",
+          "options": {
+            "A": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
+            "B": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others.",
+            "C": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them.",
+            "D": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended.",
+            "E": "You make further inferences, for instance, about how the text may be significant to you, or about its validity – inferences that form the basis of a personal response for which the author will inevitably be far less responsible.",
+            "F": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts.",
+            "G": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text."
+          },
+          "correct_answer": "C",
+          "analysis_raw": "本题考察上下文衔接和内容一致性。空格前一句指出，阅读理解包括识别单词的含义和理解它们之间的关系，即从字面意思理解；空格后一句提到要推断文本的语境，即理解文本背后的含义。选项C“如果你不熟悉某些单词或习语，你可以利用上下文中出现的线索来猜测词义”正好衔接了字面理解和语境理解，符合逻辑。",
+          "ai_persona_prompt": "Alright, darling, you're staring blankly at a vocabulary list longer than your arm? Option C it is. The text is already harping on about deciphering individual words, isn't it? Then boom! It needs a segue to making sense of the whole shebang – the context! C is the missing link. The words are just a gateway to the party darling, not the party itself!"
+        },
+        {
+          "id": 42,
+          "text": "Choose the most suitable one from the list A-G to fit into the numbered blanks.",
+          "options": {
+            "A": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
+            "B": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others.",
+            "C": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them.",
+            "D": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended.",
+            "E": "You make further inferences, for instance, about how the text may be significant to you, or about its validity – inferences that form the basis of a personal response for which the author will inevitably be far less responsible.",
+            "F": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts.",
+            "G": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text."
+          },
+          "correct_answer": "E",
+          "analysis_raw": "本题考察上下文逻辑和语义衔接。空格前一句提到，你推断作者希望你通过呈现的具体证据和线索来掌握的信息。选项E“读者继续深入推理，比如，文本对你有何意义，或文本效度如何——这些推理构成读者个人反应的基础，而读者个人反应受到文本作者的影响必然要小得多”进一步说明了“推理”的内容，而且“个人反应”与后文“comprehension will not follow exactly the same track for each reader.”形成了呼应，因此E是正确答案。",
+          "ai_persona_prompt": "Oh, honey, thinking caps on! Option E screams the right answer. The previous sentence is all airy-fairy about 'grasping' clues and whatnot. But where does it *lead*? E shows the evolution of thought – from clues to personal connection. You *feel* the text, not just read it. Plus, the author influence fading? Genius!"
+        },
+        {
+          "id": 43,
+          "text": "Choose the most suitable one from the list A-G to fit into the numbered blanks.",
+          "options": {
+            "A": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
+            "B": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others.",
+            "C": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them.",
+            "D": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended.",
+            "E": "You make further inferences, for instance, about how the text may be significant to you, or about its validity – inferences that form the basis of a personal response for which the author will inevitably be far less responsible.",
+            "F": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts.",
+            "G": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text."
+          },
+          "correct_answer": "G",
+          "analysis_raw": "本题考察上下文逻辑和语义衔接。空格前一句否定了绝对的、固定的意义，而是和世界的关系。G选项“相反，我们赋予文本含义是基于我们称之为'文本材料'和'语境材料'之间的相互作用：基于我们从文本的形式结构（尤其是其语言结构）中洞悉的各种组织架构或行文模式与我们带入文本的各种背景信息、社会知识、信仰以及态度之间的相互作用”正好进行了转折，说明了意义的来源是文本和读者背景的相互作用。",
+          "ai_persona_prompt": "Oh, darling, are we just robots spitting back dictionary definitions? Please, no. That's why it's G. The paragraph rejects some stuffy 'true meaning'. Then G comes along and is like, 'Nah, it's a dance between the text and *you*. Text giving you the moves, you bringing your baggage. Get it right this time. No excuses!'"
+        },
+        {
+          "id": 44,
+          "text": "Choose the most suitable one from the list A-G to fit into the numbered blanks.",
+          "options": {
+            "A": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
+            "B": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others.",
+            "C": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them.",
+            "D": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended.",
+            "E": "You make further inferences, for instance, about how the text may be significant to you, or about its validity – inferences that form the basis of a personal response for which the author will inevitably be far less responsible.",
+            "F": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts.",
+            "G": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text."
+          },
+          "correct_answer": "B",
+          "analysis_raw": "本题考察语义衔接和内容连贯性。选项B“诸如阅读的地点、时期，读者的性别、种族、年龄和社会阶层这些因素会促使读者倾向于某种解读，但与此同时会遮掩甚或阻绝其他解读”说明了个人因素如何影响文本的解读，和前文的“Such background material inevitably reflects who we are.”形成了上下衔接。",
+          "ai_persona_prompt": "If B isn’t slapping you in the face, go back to remedial English, sweetie. The whole argument hinges on 'who we are', and B lists all the ingredients that make up 'who we are'. Gender? Class? It all clouds your judgment! You’re biased and you don’t even know it! Harsh? Maybe, but you'll remember it."
+        },
+        {
+          "id": 45,
+          "text": "Choose the most suitable one from the list A-G to fit into the numbered blanks.",
+          "options": {
+            "A": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
+            "B": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and social class will encourage us towards certain interpretations but at the same time obscure or even close off others.",
+            "C": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues presented in the context. On the assumption that they will become relevant later, you make a mental note of discourse entities as well as possible links between them.",
+            "D": "In effect, you try to reconstruct the likely meanings or effects that any given sentence, image or reference might have had: These might be the ones the author intended.",
+            "E": "You make further inferences, for instance, about how the text may be significant to you, or about its validity – inferences that form the basis of a personal response for which the author will inevitably be far less responsible.",
+            "F": "In plays, novels and narrative poems, characters speak as constructs created by the author, not necessarily as mouthpieces for the author’s own thoughts.",
+            "G": "Rather, we ascribe meanings to texts on the basis of interaction between what we might call textual and contextual material: between kinds of organization or patterning we perceive in a text’s formal structures (so especially its language structures) and various kinds of background, social knowledge, belief and attitude that we bring to the text."
+          },
+          "correct_answer": "A",
+          "analysis_raw": "本题考察语义的连贯性和内容的一致性。题干讲的是如何阅读一篇文章还取决于阅读兴趣。A选项给出了不同的阅读目的，比如为了完成课程要求、简单娱乐，浏览信息。不同的目的，对应的阅读方式也会不同。后面紧接着的就是阅读方式的层级。",
+          "ai_persona_prompt": "For goodness sake, A is the correct choice here. How do you read? Depends on why, doesn’t it? Pleasure versus homework – two entirely different beasts! A lists all the flavors of motivation, and boom! Makes complete sense after the 'interest' remark. Honestly, if you picked something else, I weep for you! Don't be a ditz!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Translation",
+        "name": "Part C",
+        "q_range": "46-50"
+      },
+      "article": {
+        "paragraphs": [
+          "Within the span of a hundred years, in the seventeenth and early eighteenth centuries, a tide of emigration – one of the great folk wanderings of history – swept from Europe to America. (46) This movement, driven by powerful and diverse motivations, built a nation out of  a wilderness and,  by its nature, shaped  the character and destiny of an uncharted continent.",
+          "(47) The United States is the product of two principal forces – the immigration of European peoples with their varied ideas, customs, and national characteristics and the impact of a new country which modified these traits. Of necessity, colonial America was a projection of Europe. Across the Atlantic came successive groups of Englishmen, Frenchmen, Germans, Scots, Irishmen, Dutchmen, Swedes, and many others who attempted to transplant their habits and traditions to the new world. (48) But the force  of geographic conditions  peculiar  to America, the interplay of the varied national groups upon one another, and the sheer difficulty of maintaining old-world ways in a raw, new continent caused significant changes. These changes were gradual and at first scarcely  visible. But the result was a new social pattern which, although it resembled European society  in many ways, had a character that was distinctly American.",
+          "(49) The first shiploads of immigrants bound for the  territory which  is now the United States crossed the Atlantic more than a hundred years after the 15th-and-16th-century explorations of North America. In the meantime, thriving Spanish colonies had been established in Mexico, the West Indies, and South America. These travelers to North America came in small, unmercifully overcrowded craft. During their six- to twelve-week  voyage, they survived on barely enough  food allotted to them. Many of  the ships were  lost in  storms, many passengers  died of disease, and infants rarely survived  the journey. Sometimes  storms  blew the vessels far off their course, and often calm brought unbearably long delay.",
+          "To the anxious travelers the sight of the American shore brought almost inexpressible relief. Said one recorder of events, “The air at twelve leagues’  distance smelt as sweet  as a new-blown garden.” The colonists’ first glimpse of   the new land was a sight of dense woods. (50) The virgin forest  with its richness and variety of trees was a real treasure-house which extended from Maine all the way down to Georgia. Here was abundant fuel and lumber. Here was the raw material of houses and furniture, ships and potash, dyes and naval stores."
+        ]
+      },
+      "vocabulary": [
+        {
+          "word": "span",
+          "meanings": [
+            "跨度",
+            "一段时间"
+          ],
+          "context_match": "within the span of a hundred years"
+        },
+        {
+          "word": "diverse",
+          "meanings": [
+            "多种多样的",
+            "形形色色的"
+          ],
+          "context_match": "driven by powerful and diverse motivations"
+        },
+        {
+          "word": "uncharted",
+          "meanings": [
+            "未知的",
+            "图上未标明的"
+          ],
+          "context_match": "character and destiny of an uncharted continent"
+        },
+        {
+          "word": "peculiar",
+          "meanings": [
+            "奇怪的",
+            "古怪的",
+            "异常的",
+            "特有的",
+            "特殊的"
+          ],
+          "context_match": "geographic conditions peculiar to America"
+        },
+        {
+          "word": "sheer",
+          "meanings": [
+            "完全的",
+            "全然的",
+            "绝对的"
+          ],
+          "context_match": "the sheer difficulty"
+        },
+        {
+          "word": "allotted",
+          "meanings": [
+            "分配",
+            "分给",
+            "为特定用途而拨出，指定给"
+          ],
+          "context_match": "barely enough food allotted to them"
+        },
+        {
+          "word": "abundant",
+          "meanings": [
+            "大量的",
+            "充足的"
+          ],
+          "context_match": "Here was abundant fuel and lumber"
+        }
+      ],
+      "questions": [
+        {
+          "id": 46,
+          "text": "This movement, driven by powerful and diverse motivations, built a nation out of a wilderness and, by its nature, shaped the character and destiny of an uncharted continent.",
+          "options": {},
+          "correct_answer": "在各种强大动机的推动下，这场迁移从荒野中造就了一个民族，并循其本质塑造了一片全新大陆的特点，决定了它的命运。",
+          "analysis_raw": "本句主要考察过去分词短语作状语的用法以及动词的准确选择。driven by powerful and diverse motivations是过去分词作状语，翻译时置于句首，表示原因。build a nation out of a wilderness指在荒野上建立国家。shape用在此处引申为“塑造，决定”的意思，而非简单的“使成形”。uncharted continent指“未知的，未经勘探的大陆”。",
+          "ai_persona_prompt": "Alright, listen up! This sentence is all about cause and effect. 'Driven by' tells you WHY this happened, so put it first in your translation! 'Built a nation' isn't just about throwing up some buildings – it's about CREATING something new. And 'uncharted continent'? Make sure you convey the sense of the unknown and the boundless potential! Don't just translate words; translate the *impact*!"
+        },
+        {
+          "id": 47,
+          "text": "The United States is the product of two principal forces – the immigration of European peoples with their varied ideas, customs, and national characteristics and the impact of a new country which modified these traits.",
+          "options": {},
+          "correct_answer": "合众国是两股主要力量作用的产物——一是具有不同思想、风俗和民族特点的欧洲各民族的迁入，二是一个新国家因改变了这些特性而产生的影响。",
+          "analysis_raw": "本句的结构是“A is the product of B and C”，注意理解 B 和 C 的具体内容。with their varied ideas, customs, and national characteristics修饰 European peoples，说明欧洲移民的多样性。which modified these traits是定语从句，修饰 a new country，说明新国家对原有特性的改造作用。翻译时需要理清修饰关系，并使用适当的连接词。",
+          "ai_persona_prompt": "Pay attention, you slackers! This sentence is all about the *origins* of the United States. 'The product of' means 'the result of', so make sure your translation shows that cause-and-effect relationship. 'Varied ideas, customs, and national characteristics'? Don't just list them – show how diverse these Europeans were! And 'modified these traits'? Emphasize that the new country *changed* things, didn't just copy them!"
+        },
+        {
+          "id": 48,
+          "text": "But the force of geographic conditions peculiar to America, the interplay of the varied national groups upon one another, and the sheer difficulty of maintaining old-world ways in a raw, new continent caused significant changes.",
+          "options": {},
+          "correct_answer": "但是美洲特有地理条件的作用，不同族群间的相互影响，加上在一片荒蛮新大陆上维持旧大陆方式的巨大困难，所有这一切引起了意义深远的变化。",
+          "analysis_raw": "本句的主语是由三个并列成分构成，即 the force of geographic conditions..., the interplay of the varied national groups...和 the sheer difficulty of maintaining old-world ways...。peculiar to America是后置定语，修饰geographic conditions。the interplay of...upon one another指的是不同民族之间的相互作用。sheer difficulty表示“巨大的困难”。翻译时注意主谓一致，以及理清修饰关系。",
+          "ai_persona_prompt": "Wake up, buttercups! This sentence is a *monster* with that long, complicated subject. Break it down! 'Peculiar to America' means it's *unique* to America, so make sure your translation shows that. 'Interplay' means they're all *messing with each other*, influencing each other, got it? And 'sheer difficulty'? That's not just a little hard; it's a HUGE challenge. Get those nuances right, or you fail!"
+        },
+        {
+          "id": 49,
+          "text": "The first shiploads of immigrants bound for the territory which is now the United States crossed the Atlantic more than a hundred years after the 15th-and-16th-century explorations of North America.",
+          "options": {},
+          "correct_answer": "在十五、十六世纪的北美大陆探险过去一百多年后，首批满载移民驶向今天合众国这片疆土的船只横穿过了大西洋。",
+          "analysis_raw": "本句的时间状语较长，且含有定语从句，需要仔细分析。bound for the territory是过去分词短语作后置定语，修饰 immigrants。which is now the United States是定语从句，修饰 the territory。more than a hundred years after...是时间状语，翻译时可以提前，也可以放在句末，根据语感选择。",
+          "ai_persona_prompt": "Listen up, slowpokes! This is a sentence about *timing*. 'Bound for' means 'headed to,' so make sure your translation reflects that direction. 'More than a hundred years after'? Don't just say 'after' – emphasize that it was a *long time* after! Get the timeline straight, or you'll lose the whole point!"
+        },
+        {
+          "id": 50,
+          "text": "The virgin forest with its richness and variety of trees was a real treasure-house which extended from Maine all the way down to Georgia.",
+          "options": {},
+          "correct_answer": "郁郁葱葱、树种繁多的原始森林是一座从缅因一直向南绵延到佐治亚的天然宝库。",
+          "analysis_raw": "本句考察的是with引导的短语以及定语从句的翻译。with its richness and variety of trees 用来描述 the virgin forest，可译为“郁郁葱葱、树种繁多的”。which extended from Maine all the way down to Georgia 是定语从句，修饰 treasure-house，说明了宝库的范围。all the way down to Georgia 说明宝库从北到南的跨度很大，要翻译出这种空间感。",
+          "ai_persona_prompt": "Ugh, another descriptive sentence. But don't phone it in! 'Virgin forest' means it's untouched, pristine – make sure your translation conveys that sense of wildness. 'Richness and variety'? Don't be lazy – use some adjectives that show how AMAZING this forest is. And 'extended from Maine all the way down to Georgia'? It's HUGE, people! Gigantic! Make it sound impressive!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part A",
+        "q_range": "51"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "You are going to host a club reading session. Write an email of about 100 words recommending a book to the club members.",
+          "You should state reasons for your recommendation. You should write neatly on the ANSWER SHEET.",
+          "Do not sign your own name at the end of the letter, use “Li Ming ” instead.",
+          "Do not write the address. (10 points)"
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 51,
+          "text": "You are going to host a club reading session. Write an email of about 100 words recommending a book to the club members. You should state reasons for your recommendation.",
+          "options": {},
+          "correct_answer": "Dear Club Members,\n\nI hope this email finds you well. As the host of our upcoming reading session, I'd like to recommend \"Sapiens: A Brief History of Humankind\" by Yuval Noah Harari. \n\nThis book offers a fascinating and thought-provoking exploration of the history of our species, from the Stone Age to the present day. Harari's writing is engaging and accessible, making complex ideas easy to understand. It provides a broad perspective on human progress and the challenges we face as a global society. I believe it will spark lively discussions and encourage us to think critically about our past, present, and future.\n\nI look forward to seeing you all at the session!\n\nBest regards,\nLi Ming",
+          "analysis_raw": "该范文结构清晰，语言流畅，完全符合题目要求。首先，开门见山地表明推荐书籍及其作者。其次，用简洁的语言概括了书籍的内容和特点，并阐述了推荐的理由，例如“视角广阔”、“发人深省”、“激发讨论”。最后，表达了对读书会的美好期待。全文逻辑清晰，语言表达准确、地道，书写规范。",
+          "ai_persona_prompt": "Alright, listen up bookworms! That \"Sapiens\" recommendation is solid, but let's spice it up. Ditch the polite fluff and get real. Tell 'em it'll blow their minds with historical trivia and existential crises. Promise lively debates fueled by intellectual one-upmanship. Basically, sell it like the intellectual smackdown it's gonna be. And Li Ming, next time, pick something edgier. This is a book club, not a tea party!"
+        }
+      ]
+    },
+    {
+      "section_info": {
+        "type": "Writing",
+        "name": "Part B",
+        "q_range": "52"
+      },
+      "article": {
+        "paragraphs": [
+          "Directions:",
+          "Write an essay of 160-200 words based on the following picture. In your essay, you should",
+          "describe the picture briefly,",
+          "interpret its intended meaning, and 3）give your comments.",
+          "You should write neatly on ANSWER SHEET."
+        ]
+      },
+      "vocabulary": [],
+      "questions": [
+        {
+          "id": 52,
+          "text": "Write an essay of 160-200 words based on the following picture. In your essay, you should describe the picture briefly, interpret its intended meaning, and give your comments.",
+          "options": {},
+          "correct_answer": "The cartoon depicts a dinner gathering in the smartphone era. Around a table laden with dishes, four individuals are engrossed in their mobile phones, seemingly oblivious to each other's presence. The scene underscores the pervasive influence of technology on human interaction.\n\nThe cartoon effectively conveys the detrimental impact of excessive smartphone use on interpersonal relationships. In an age of digital connectivity, people often prioritize virtual interactions over face-to-face communication. This can lead to a decline in genuine connections and a sense of isolation, even when physically surrounded by others. The intended meaning highlights the irony of being 'connected' online while disconnected from those nearby.\n\nWhile smartphones offer numerous benefits, it's crucial to strike a balance between technology and real-life engagement. We must be mindful of the potential for digital devices to erode the quality of our relationships. Prioritizing genuine human connection, active listening, and shared experiences can help us combat the isolating effects of technology and foster more meaningful interactions in an increasingly digital world.",
+          "analysis_raw": "This essay effectively addresses the prompt by providing a clear description of the picture, a thoughtful interpretation of its meaning, and insightful comments. The essay is well-organized with a clear introduction, body, and conclusion. The language is precise and appropriate for the task. The first paragraph provides a concise description of the picture, setting the stage for the essay. The second paragraph delves into the interpretation of the picture's meaning, highlighting the negative impact of smartphone use on interpersonal relationships. The third paragraph offers a balanced perspective, acknowledging the benefits of smartphones while emphasizing the importance of real-life engagement. The essay also correctly points out the sense of irony in the image. The structure is logical, and the conclusion nicely summarizes the main points and offers a solution.",
+          "ai_persona_prompt": "Alright, listen up! This essay's decent, but it's playing it too safe. It's like the teacher's pet of essays – technically correct, but lacks punch. The description is solid, the interpretation is accurate, but where's the fire? Where's the raw emotion of being ignored by your friends while they're scrolling through cat videos? You need to inject some passion, some personal experience! Tone down the academic language and let your voice shine through. It's a good start, but it needs more 'oomph'!"
+        }
+      ]
+    }
+  ]
+}
