@@ -44,3 +44,23 @@ Thumbs.db
 .vscode/
 .idea/
 .lh/
+
+# Local development files (CLI tools, not part of Web app)
+main.py
+database.py
+grader.py
+prompts.py
+scheduler.py
+vocab_manager.py
+test_system.py
+install.bat
+start.bat
+study_data.db
+extracted_images/
+images/
+
+# Redundant documentation
+QUICKSTART.md
+PROJECT_README.md
+USER_GUIDE.md
+IMAGE_HANDLING.md
