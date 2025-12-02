@@ -85,12 +85,13 @@
                     </div>
                 </div>
 
-                <!-- 右侧：题目区 -->
+                <!-- 中间：题目区 -->
                 <div class="question-panel">
                     <div class="panel-header">
                         <div>
                             <span>题目 <span id="current-q">1</span>/<span id="total-q">20</span></span>
                             <span style="margin-left: 15px; color: var(--accent-gold);"><i class="ph-duotone ph-timer"></i> <span id="exam-timer">00:00</span></span>
+                            <span style="margin-left: 15px; color: var(--text-secondary); font-size: 0.9rem;"><i class="ph-duotone ph-check-square"></i> 已答: <span id="answered-count">0</span></span>
                         </div>
                         <button class="question-selector-btn" onclick="App.openQuestionSelector()"><i class="ph-duotone ph-list-numbers"></i> 选题</button>
                     </div>
@@ -114,6 +115,33 @@
                         <button id="next-btn" class="btn-primary" disabled>下一题 <i class="ph-bold ph-arrow-right"></i></button>
                     </div>
                 </div>
+
+                <!-- 右侧：解析面板（PDF + AI） -->
+                <div class="analysis-panel" id="analysis-panel" style="display: none;">
+                    <div class="panel-header">
+                        <span><i class="ph-duotone ph-book-open-text"></i> 解析</span>
+                        <div class="analysis-tabs">
+                            <button class="analysis-tab active" data-tab="pdf" onclick="App.switchAnalysisTab('pdf')">📕 官方解析</button>
+                            <button class="analysis-tab" data-tab="ai" onclick="App.switchAnalysisTab('ai')">🤖 AI 解析</button>
+                        </div>
+                        <button class="btn-icon" onclick="App.toggleAnalysisPanel()" title="关闭解析"><i class="ph-bold ph-x"></i></button>
+                    </div>
+                    <div class="analysis-content">
+                        <!-- PDF 解析 -->
+                        <div class="analysis-tab-content" id="pdf-analysis-content">
+                            <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+                        </div>
+                        <!-- AI 解析 -->
+                        <div class="analysis-tab-content" id="ai-analysis-content" style="display: none;">
+                            <div id="ai-analysis-area">
+                                <p class="analysis-placeholder">点击下方按钮获取 AI 详细解析</p>
+                                <button class="btn-ai-analyze" onclick="App.getAIAnalysis()">
+                                    <i class="ph-duotone ph-robot"></i> 获取 AI 解析
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -128,6 +156,7 @@
             <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
                 <button id="restart-btn" class="btn-primary"><i class="ph-duotone ph-arrow-counter-clockwise"></i> 重新开始</button>
                 <button id="review-btn" class="btn-secondary"><i class="ph-duotone ph-book-open"></i> 查看错题</button>
+                <button onclick="App.openFullPDFAnalysis()" class="btn-secondary"><i class="ph-duotone ph-file-pdf"></i> 官方解析</button>
                 <button onclick="App.showScreen(App.elements.startScreen)" class="btn-secondary"><i class="ph-duotone ph-house"></i> 返回主页</button>
             </div>
         </div>

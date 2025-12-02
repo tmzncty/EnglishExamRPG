@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'LXGWWenKaiMono', monospace !important;
 }
 
 :root {
@@ -264,26 +265,145 @@ body {
    ======================================== */
 .exam-container {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     height: calc(100vh - 140px);
+    padding: 0 10px;
+}
+
+.exam-container.with-analysis {
+    /* 当解析面板打开时，调整布局 */
 }
 
 .article-panel {
-    flex: 0.6;
+    flex: 1;
     background: #ecf0f1;
     border-radius: var(--radius-lg);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    min-width: 250px;
+    transition: flex 0.3s ease;
+}
+
+.exam-container.with-analysis .article-panel {
+    flex: 0.8;
 }
 
 .question-panel {
-    flex: 0.4;
+    flex: 1;
     background: var(--bg-card);
     border-radius: var(--radius-lg);
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    min-width: 280px;
+    transition: flex 0.3s ease;
+}
+
+.exam-container.with-analysis .question-panel {
+    flex: 0.8;
+}
+
+/* 解析面板 */
+.analysis-panel {
+    flex: 1.2;
+    background: var(--bg-card);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    resize: horizontal; /* 允许水平拖拽调整大小 */
+}
+
+.analysis-panel .panel-header {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    color: white;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.analysis-tabs {
+    display: flex;
+    gap: 5px;
+}
+
+.analysis-tab {
+    padding: 6px 12px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+}
+
+.analysis-tab:hover {
+    background: rgba(255,255,255,0.3);
+}
+
+.analysis-tab.active {
+    background: white;
+    color: #c0392b;
+    font-weight: 600;
+}
+
+.analysis-content {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.analysis-tab-content {
+    flex: 1;
+    overflow: hidden;
+}
+
+#pdf-viewer {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#ai-analysis-content {
+    padding: 15px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+#ai-analysis-area {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.analysis-placeholder {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.btn-ai-analyze {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-ai-analyze:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(155, 89, 182, 0.4);
 }
 
 .panel-header {
@@ -317,6 +437,51 @@ body {
 /* 文本选择高亮 */
 .article-content::selection {
     background: rgba(52, 152, 219, 0.3);
+}
+
+/* 题目图片容器 */
+.question-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 300px;
+}
+
+.question-image {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: var(--radius-md);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    transition: transform var(--transition-normal);
+}
+
+.question-image:hover {
+    transform: scale(1.02);
+    cursor: zoom-in;
+}
+
+/* 图片放大查看 */
+.image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    cursor: zoom-out;
+    animation: fadeIn 0.3s ease;
+}
+
+.image-modal img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
 }
 
 .question-content {
@@ -421,6 +586,186 @@ body {
 .feedback-content h4 {
     margin-bottom: 10px;
     color: var(--accent-gold);
+}
+
+/* PDF 解析按钮 */
+.btn-pdf-analysis {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: var(--transition-normal);
+}
+
+.btn-pdf-analysis:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+}
+
+.btn-pdf-analysis i {
+    font-size: 1.1rem;
+}
+
+/* 查看解析按钮 */
+.btn-show-analysis {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: var(--transition-normal);
+}
+
+.btn-show-analysis:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(52, 152, 219, 0.4);
+}
+
+.btn-show-analysis i {
+    font-size: 1.2rem;
+}
+
+/* AI 问答按钮 */
+.btn-ai-ask {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: var(--transition-normal);
+}
+
+.btn-ai-ask:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(155, 89, 182, 0.4);
+}
+
+.btn-ai-ask i {
+    font-size: 1.1rem;
+}
+
+/* 反馈区域操作按钮组 */
+.feedback-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+/* AI 响应区域 */
+#ai-response-area {
+    margin-top: 15px;
+}
+
+.ai-response {
+    background: rgba(155, 89, 182, 0.1);
+    border: 1px solid rgba(155, 89, 182, 0.3);
+    border-radius: var(--radius-md);
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.ai-response.loading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--text-secondary);
+}
+
+.ai-response.error {
+    background: rgba(231, 76, 60, 0.1);
+    border-color: rgba(231, 76, 60, 0.3);
+}
+
+.ai-response h5 {
+    color: #9b59b6;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ai-response .ai-content {
+    line-height: 1.8;
+    color: var(--text-primary);
+}
+
+.ai-response .ai-content p {
+    margin-bottom: 10px;
+}
+
+.ai-response .ai-content ul,
+.ai-response .ai-content ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* AI 缓存信息 */
+.ai-cache-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(155, 89, 182, 0.2);
+}
+
+.ai-cache-info i {
+    color: #27ae60;
+}
+
+.btn-refresh-ai {
+    margin-left: auto;
+    background: transparent;
+    border: 1px solid rgba(155, 89, 182, 0.3);
+    color: #9b59b6;
+    padding: 4px 8px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.2s ease;
+}
+
+.btn-refresh-ai:hover {
+    background: rgba(155, 89, 182, 0.1);
+    border-color: #9b59b6;
+}
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(155, 89, 182, 0.3);
+    border-top-color: #9b59b6;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
 }
 
 /* ========================================
@@ -695,22 +1040,68 @@ body {
 /* ========================================
    响应式设计
    ======================================== */
+
+/* 大屏幕 1400px+ */
+@media (min-width: 1400px) {
+    .exam-container {
+        gap: 20px;
+    }
+    
+    .article-panel {
+        flex: 1;
+    }
+    
+    .question-panel {
+        flex: 1;
+    }
+    
+    .analysis-panel {
+        flex: 1.5;
+    }
+}
+
+/* 中等屏幕 900px - 1400px */
+@media (max-width: 1400px) {
+    .exam-container {
+        gap: 12px;
+    }
+    
+    .panel-header {
+        padding: 12px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .article-content {
+        padding: 15px;
+        font-size: 0.95rem;
+    }
+}
+
+/* 小屏幕 < 900px - 竖向布局 */
 @media (max-width: 900px) {
     .exam-container {
         flex-direction: column;
         height: auto;
+        min-height: calc(100vh - 140px);
     }
 
-    .article-panel, .question-panel {
+    .article-panel, .question-panel, .analysis-panel {
         flex: none;
+        min-width: unset;
+        width: 100%;
     }
 
     .article-panel {
-        max-height: 40vh;
+        max-height: 35vh;
     }
 
     .question-panel {
-        min-height: 55vh;
+        min-height: 40vh;
+    }
+    
+    .analysis-panel {
+        min-height: 50vh;
+        resize: vertical; /* 竖向时允许垂直调整 */
     }
 
     #start-screen h1 {
@@ -734,6 +1125,11 @@ body {
     .settings-panel {
         width: 100%;
         right: -100%;
+    }
+    
+    .analysis-tabs {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -765,6 +1161,11 @@ body {
 
     .question-grid {
         grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .analysis-panel .panel-header {
+        flex-direction: column;
+        gap: 8px;
     }
 }
 
@@ -887,6 +1288,11 @@ body {
     font-size: 0.6rem;
     top: 2px;
     right: 3px;
+}
+
+.question-grid-item.pending {
+    border-color: var(--accent-gold);
+    background: rgba(241, 196, 15, 0.2);
 }
 
 .question-grid-item.wrong {

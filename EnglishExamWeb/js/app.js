@@ -9,8 +9,11 @@ const App = {
     allQuestions: [],
     currentQuestionIndex: 0,
     isReviewMode: false,
+    examMode: 'exam', // 默认考试模式
+    isSubmitted: false,
     currentYear: '2010', // Default year
     availableYears: Array.from({length: 16}, (_, i) => (2010 + i).toString()), // 2010-2025
+    pdfMappings: null, // PDF 页码映射
     
     // 计时器
     examTimer: null,
@@ -41,6 +44,9 @@ const App = {
         // 应用主题
         const settings = StorageManager.getSettings();
         UIEffects.applyTheme(settings?.theme || 'acg');
+
+        // 加载 PDF 映射
+        await this.loadPDFMappings();
 
         // 加载题目数据
         await this.loadExamData();
@@ -78,6 +84,7 @@ const App = {
             sectionName: document.getElementById('section-name'),
             currentQ: document.getElementById('current-q'),
             totalQ: document.getElementById('total-q'),
+            answeredCount: document.getElementById('answered-count'),
             totalQuestions: document.getElementById('total-questions'),
             yearSelect: document.getElementById('year-select'),
             yearDisplay: document.getElementById('selected-year-display')
@@ -167,6 +174,86 @@ const App = {
     },
 
     /**
+     * 加载 PDF 映射数据
+     */
+    async loadPDFMappings() {
+        try {
+            const response = await fetch('data/pdf_mappings.json');
+            if (response.ok) {
+                this.pdfMappings = await response.json();
+                console.log('[App] PDF 映射加载成功');
+            }
+        } catch (error) {
+            console.warn('[App] PDF 映射加载失败:', error);
+        }
+    },
+
+    /**
+     * 获取题目对应的 PDF 页码
+     */
+    getPDFPageForQuestion(questionId) {
+        if (!this.pdfMappings || !this.pdfMappings[this.currentYear]) {
+            return null;
+        }
+        
+        const yearMapping = this.pdfMappings[this.currentYear];
+        const qId = parseInt(questionId);
+        
+        // 遍历所有 section 找到包含该题目的 section
+        for (const [sectionKey, sectionData] of Object.entries(yearMapping.sections)) {
+            const questions = sectionData.questions;
+            // questions 可能是 [start, end] 或 [single]
+            if (questions.length === 2) {
+                if (qId >= questions[0] && qId <= questions[1]) {
+                    return {
+                        page: sectionData.start_page,
+                        pdf: yearMapping.pdf_file
+                    };
+                }
+            } else if (questions.length === 1 && qId === questions[0]) {
+                return {
+                    page: sectionData.start_page,
+                    pdf: yearMapping.pdf_file
+                };
+            }
+        }
+        
+        return null;
+    },
+
+    /**
+     * 打开 PDF 解析
+     */
+    openPDFAnalysis(questionId) {
+        const pdfInfo = this.getPDFPageForQuestion(questionId);
+        if (!pdfInfo) {
+            UIEffects.showToast('暂无该题目的 PDF 解析', 'warning');
+            return;
+        }
+        
+        // 构建 PDF URL（带页码参数）
+        const pdfUrl = `assets/pdf/${encodeURIComponent(pdfInfo.pdf)}#page=${pdfInfo.page}`;
+        
+        // 在新标签页打开
+        window.open(pdfUrl, '_blank');
+    },
+
+    /**
+     * 打开完整 PDF 解析（从第一页）
+     */
+    openFullPDFAnalysis() {
+        if (!this.pdfMappings || !this.pdfMappings[this.currentYear]) {
+            UIEffects.showToast('暂无该年份的 PDF 解析', 'warning');
+            return;
+        }
+        
+        const pdfFile = this.pdfMappings[this.currentYear].pdf_file;
+        const pdfUrl = `assets/pdf/${encodeURIComponent(pdfFile)}`;
+        
+        window.open(pdfUrl, '_blank');
+    },
+
+    /**
      * 绑定事件
      */
     bindEvents() {
@@ -215,13 +302,15 @@ const App = {
      */
     restoreProgress() {
         const gameData = StorageManager.getGameData();
+        const pendingAnswers = StorageManager.getPendingAnswers();
         
-        if (gameData && Object.keys(gameData.answers).length > 0) {
+        if ((gameData && Object.keys(gameData.answers).length > 0) || 
+            (pendingAnswers && Object.keys(pendingAnswers).length > 0)) {
             // 有进度，显示继续按钮
             if (this.elements.continueBtn) {
                 this.elements.continueBtn.style.display = 'inline-block';
             }
-            this.currentQuestionIndex = gameData.currentQuestionIndex || 0;
+            this.currentQuestionIndex = gameData?.currentQuestionIndex || 0;
         }
 
         // 更新 HUD
@@ -310,8 +399,18 @@ const App = {
         this.elements.currentQ.textContent = this.currentQuestionIndex + 1;
         this.elements.sectionName.textContent = q.sectionName;
 
-        // 显示文章
-        if (q.article && q.article.length > 0) {
+        // 显示文章（或图片）
+        if (q.image) {
+            // 如果题目包含图片（如图片作文题）
+            this.elements.articleContent.innerHTML = `
+                <div class="question-image-container">
+                    <img src="${q.image}" alt="题目图片" class="question-image" onclick="App.zoomImage(this.src)" />
+                    <p style="text-align:center; margin-top:10px; color:#7f8c8d; font-size:0.9rem;">
+                        <i class="ph-duotone ph-magnifying-glass-plus"></i> 点击图片放大查看
+                    </p>
+                </div>
+            `;
+        } else if (q.article && q.article.length > 0) {
             this.elements.articleContent.innerHTML = q.article
                 .map(p => `<p>${this.formatText(p)}</p>`)
                 .join('');
@@ -336,6 +435,7 @@ const App = {
 
         // 更新导航按钮
         this.updateNavButtons(q);
+        this.updateAnsweredCount();
     },
 
     /**
@@ -465,6 +565,7 @@ const App = {
         StorageManager.recordAnswer(q.id, userAnswer, true);
         StorageManager.addExp(15); // 主观题给更多经验
         UIEffects.animateEXPIncrease();
+        this.updateAnsweredCount();
 
         // 检查是否有 AI
         if (GeminiService.isConfigured()) {
@@ -507,6 +608,7 @@ const App = {
     showSubjectiveAnswer() {
         const q = this.allQuestions[this.currentQuestionIndex];
         StorageManager.recordAnswer(q.id, 'VIEWED', true);
+        this.updateAnsweredCount();
 
         this.elements.feedback.classList.add('show');
         this.elements.feedback.innerHTML = `
@@ -541,6 +643,7 @@ const App = {
             
             // 启用下一题按钮
             this.elements.nextBtn.disabled = false;
+            this.updateAnsweredCount();
             
             // 可以继续修改，不锁定
             return;
@@ -551,6 +654,7 @@ const App = {
 
         // 记录答案
         StorageManager.recordAnswer(q.id, key, isCorrect);
+        this.updateAnsweredCount();
 
         if (isCorrect) {
             // 答对
@@ -602,15 +706,238 @@ const App = {
      */
     showFeedback(q, userAnswer) {
         const isCorrect = userAnswer === q.correct_answer || userAnswer === 'VIEWED';
+        const pdfInfo = this.getPDFPageForQuestion(q.id);
+        
+        // 显示解析面板按钮
+        let analysisButton = '';
+        if (pdfInfo) {
+            analysisButton = `
+                <button class="btn-show-analysis" onclick="App.showAnalysisPanel(${q.id})">
+                    <i class="ph-duotone ph-book-open-text"></i> 查看解析
+                </button>
+            `;
+        }
         
         this.elements.feedback.classList.add('show');
         this.elements.feedback.innerHTML = `
             <div class="feedback-content ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}">
                 <h4>${isCorrect ? '✓ 回答正确！' : '✗ 回答错误'}</h4>
                 ${q.correct_answer ? `<p><strong>正确答案:</strong> ${q.correct_answer}</p>` : ''}
-                <p><strong>解析:</strong> ${q.analysis_raw || q.ai_persona_prompt || '暂无解析'}</p>
+                <p><strong>简要解析:</strong> ${q.analysis_raw || '暂无解析'}</p>
+                <div class="feedback-actions">
+                    ${analysisButton}
+                </div>
             </div>
         `;
+    },
+    
+    /**
+     * 显示解析面板
+     */
+    showAnalysisPanel(questionId) {
+        const panel = document.getElementById('analysis-panel');
+        const container = document.querySelector('.exam-container');
+        const pdfInfo = this.getPDFPageForQuestion(questionId);
+        
+        if (!panel || !pdfInfo) return;
+        
+        // 显示面板
+        panel.style.display = 'flex';
+        container.classList.add('with-analysis');
+        
+        // 加载 PDF
+        const pdfUrl = `assets/pdf/${encodeURIComponent(pdfInfo.pdf)}#page=${pdfInfo.page}`;
+        const pdfViewer = document.getElementById('pdf-viewer');
+        pdfViewer.src = pdfUrl;
+        
+        // 切换到 PDF 标签
+        this.switchAnalysisTab('pdf');
+        
+        // 重置 AI 解析区域
+        document.getElementById('ai-analysis-area').innerHTML = `
+            <p class="analysis-placeholder">点击下方按钮获取 AI 详细解析</p>
+            <button class="btn-ai-analyze" onclick="App.getAIAnalysis()">
+                <i class="ph-duotone ph-robot"></i> 获取 AI 解析
+            </button>
+        `;
+    },
+    
+    /**
+     * 切换解析标签页
+     */
+    switchAnalysisTab(tab) {
+        // 更新标签状态
+        document.querySelectorAll('.analysis-tab').forEach(t => {
+            t.classList.toggle('active', t.dataset.tab === tab);
+        });
+        
+        // 显示对应内容
+        document.getElementById('pdf-analysis-content').style.display = tab === 'pdf' ? 'block' : 'none';
+        document.getElementById('ai-analysis-content').style.display = tab === 'ai' ? 'block' : 'none';
+    },
+    
+    /**
+     * 关闭解析面板
+     */
+    toggleAnalysisPanel() {
+        const panel = document.getElementById('analysis-panel');
+        const container = document.querySelector('.exam-container');
+        
+        panel.style.display = 'none';
+        container.classList.remove('with-analysis');
+        
+        // 清空 PDF viewer
+        document.getElementById('pdf-viewer').src = '';
+    },
+    
+    /**
+     * 获取 AI 解析缓存 key
+     */
+    getAICacheKey(questionId) {
+        return `ai_analysis_${this.currentYear}_${questionId}`;
+    },
+    
+    /**
+     * 从缓存获取 AI 解析
+     */
+    getCachedAIAnalysis(questionId) {
+        const key = this.getAICacheKey(questionId);
+        const cached = localStorage.getItem(key);
+        if (cached) {
+            try {
+                return JSON.parse(cached);
+            } catch (e) {
+                return null;
+            }
+        }
+        return null;
+    },
+    
+    /**
+     * 保存 AI 解析到缓存
+     */
+    saveAIAnalysisToCache(questionId, analysis) {
+        const key = this.getAICacheKey(questionId);
+        const data = {
+            analysis: analysis,
+            timestamp: Date.now()
+        };
+        localStorage.setItem(key, JSON.stringify(data));
+    },
+    
+    /**
+     * 获取 AI 解析
+     */
+    async getAIAnalysis() {
+        const q = this.allQuestions[this.currentQuestionIndex];
+        if (!q) return;
+        
+        const aiArea = document.getElementById('ai-analysis-area');
+        if (!aiArea) return;
+        
+        // 先检查缓存
+        const cached = this.getCachedAIAnalysis(q.id);
+        if (cached) {
+            const cacheDate = new Date(cached.timestamp).toLocaleString('zh-CN');
+            aiArea.innerHTML = `
+                <div class="ai-response">
+                    <div class="ai-cache-info">
+                        <i class="ph-duotone ph-database"></i> 已缓存 (${cacheDate})
+                        <button class="btn-refresh-ai" onclick="App.refreshAIAnalysis()" title="重新生成">
+                            <i class="ph-duotone ph-arrow-clockwise"></i>
+                        </button>
+                    </div>
+                    <div class="ai-content">${UIEffects.renderMarkdown(cached.analysis)}</div>
+                </div>
+            `;
+            return;
+        }
+        
+        // 检查 AI 是否配置
+        if (!GeminiService.isConfigured()) {
+            aiArea.innerHTML = `
+                <div class="ai-response">
+                    <p style="color: var(--warning);">⚠️ 请先在设置中配置 Gemini API Key</p>
+                </div>
+            `;
+            return;
+        }
+        
+        // 显示加载状态
+        aiArea.innerHTML = `
+            <div class="ai-response loading">
+                <div class="spinner"></div>
+                <span>AI 正在分析...</span>
+            </div>
+        `;
+        
+        try {
+            // 构建提问内容
+            const questionContext = q.article?.length > 0 
+                ? `文章内容:\n${q.article.join('\n')}\n\n题目: ${q.text}` 
+                : `题目: ${q.text}`;
+            
+            const optionsText = q.options 
+                ? Object.entries(q.options).map(([k, v]) => `${k}. ${v}`).join('\n')
+                : '';
+            
+            const prompt = `请详细解释这道考研英语题目：
+
+${questionContext}
+
+选项：
+${optionsText}
+
+正确答案：${q.correct_answer}
+
+请从以下几个方面分析：
+1. 为什么正确答案是对的
+2. 其他选项为什么错误
+3. 相关的语法/词汇知识点
+4. 解题技巧`;
+
+            const response = await GeminiService.askQuestion(prompt);
+            
+            // 保存到缓存
+            this.saveAIAnalysisToCache(q.id, response);
+            
+            const cacheDate = new Date().toLocaleString('zh-CN');
+            aiArea.innerHTML = `
+                <div class="ai-response">
+                    <div class="ai-cache-info">
+                        <i class="ph-duotone ph-check-circle"></i> 刚刚生成
+                        <button class="btn-refresh-ai" onclick="App.refreshAIAnalysis()" title="重新生成">
+                            <i class="ph-duotone ph-arrow-clockwise"></i>
+                        </button>
+                    </div>
+                    <div class="ai-content">${UIEffects.renderMarkdown(response)}</div>
+                </div>
+            `;
+        } catch (error) {
+            aiArea.innerHTML = `
+                <div class="ai-response error">
+                    <p>❌ AI 分析失败: ${error.message}</p>
+                    <button class="btn-ai-analyze" onclick="App.getAIAnalysis()" style="margin-top: 10px;">
+                        <i class="ph-duotone ph-arrow-clockwise"></i> 重试
+                    </button>
+                </div>
+            `;
+        }
+    },
+    
+    /**
+     * 强制刷新 AI 解析（忽略缓存）
+     */
+    async refreshAIAnalysis() {
+        const q = this.allQuestions[this.currentQuestionIndex];
+        if (!q) return;
+        
+        // 删除缓存
+        const key = this.getAICacheKey(q.id);
+        localStorage.removeItem(key);
+        
+        // 重新获取
+        await this.getAIAnalysis();
     },
 
     // ==================== 题目选择器 ====================
@@ -636,6 +963,7 @@ const App = {
         // 生成内容
         let html = '';
         const gameData = StorageManager.getGameData();
+        const pendingAnswers = StorageManager.getPendingAnswers();
 
         for (const [sectionName, questions] of Object.entries(sections)) {
             html += `
@@ -646,13 +974,16 @@ const App = {
 
             questions.forEach(q => {
                 const answer = gameData.answers[q.id];
+                const pending = pendingAnswers[q.id];
                 const isCurrent = q.index === this.currentQuestionIndex;
                 const isAnswered = !!answer;
+                const isPending = !!pending;
                 const isWrong = answer && !answer.isCorrect;
 
                 let classes = 'question-grid-item';
                 if (isCurrent) classes += ' current';
                 if (isAnswered) classes += isWrong ? ' wrong' : ' answered';
+                else if (isPending) classes += ' pending';
 
                 html += `
                     <button class="${classes}" 
@@ -692,6 +1023,20 @@ const App = {
             this.showQuestion();
             this.closeQuestionSelector();
         }
+    },
+
+    /**
+     * 更新已答题数
+     */
+    updateAnsweredCount() {
+        if (!this.elements.answeredCount) return;
+        const pending = StorageManager.getPendingAnswers();
+        const gameData = StorageManager.getGameData();
+        const answers = gameData ? gameData.answers : {};
+        
+        // Count unique answered questions
+        const answeredIds = new Set([...Object.keys(pending), ...Object.keys(answers)]);
+        this.elements.answeredCount.textContent = answeredIds.size;
     },
 
     /**
@@ -996,6 +1341,36 @@ const App = {
         const minutes = Math.floor(this.examElapsedSeconds / 60);
         const seconds = this.examElapsedSeconds % 60;
         timerEl.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+    },
+    
+    // ==================== 图片功能 ====================
+    
+    /**
+     * 放大图片
+     */
+    zoomImage(imageSrc) {
+        // 创建模态框
+        const modal = document.createElement('div');
+        modal.className = 'image-modal';
+        modal.innerHTML = `
+            <img src="${imageSrc}" alt="放大图片" />
+        `;
+        
+        // 点击关闭
+        modal.addEventListener('click', () => {
+            modal.remove();
+        });
+        
+        // ESC 键关闭
+        const escHandler = (e) => {
+            if (e.key === 'Escape') {
+                modal.remove();
+                document.removeEventListener('keydown', escHandler);
+            }
+        };
+        document.addEventListener('keydown', escHandler);
+        
+        document.body.appendChild(modal);
     }
 };
 

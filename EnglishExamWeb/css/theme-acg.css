@@ -123,6 +123,12 @@ body.acg-theme .option-btn:hover:not(:disabled) {
     box-shadow: 0 0 15px rgba(255, 107, 157, 0.3);
 }
 
+body.acg-theme .option-btn.selected {
+    border-color: var(--acg-pink);
+    background: rgba(255, 107, 157, 0.2);
+    box-shadow: 0 0 15px rgba(255, 107, 157, 0.3);
+}
+
 body.acg-theme .option-btn.correct {
     border-color: var(--acg-green);
     background: rgba(107, 203, 119, 0.2);
@@ -477,6 +483,12 @@ body.acg-theme .question-grid-item.answered {
     background: linear-gradient(135deg, rgba(107, 203, 119, 0.3), rgba(107, 203, 119, 0.1));
     border-color: var(--acg-green);
     box-shadow: 0 0 10px rgba(107, 203, 119, 0.3);
+}
+
+body.acg-theme .question-grid-item.pending {
+    background: linear-gradient(135deg, rgba(255, 217, 61, 0.3), rgba(255, 217, 61, 0.1));
+    border-color: var(--acg-yellow);
+    box-shadow: 0 0 10px rgba(255, 217, 61, 0.3);
 }
 
 body.acg-theme .question-grid-item.wrong {

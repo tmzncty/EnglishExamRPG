@@ -7,7 +7,7 @@
     {
       "section_info": {
         "type": "Use of English",
-        "name": "Section I",
+        "name": "Section I Use of English",
         "q_range": "1-20"
       },
       "article": {
@@ -352,7 +352,7 @@
     {
       "section_info": {
         "type": "Reading Text",
-        "name": "Text 1",
+        "name": "Section II Part A Text 1",
         "q_range": "21-25"
       },
       "article": {
@@ -545,7 +545,7 @@
     {
       "section_info": {
         "type": "Reading Text",
-        "name": "Text 2",
+        "name": "Section II Part A Text 2",
         "q_range": "26-30"
       },
       "article": {
@@ -792,7 +792,7 @@
     {
       "section_info": {
         "type": "Reading Text",
-        "name": "Text 3",
+        "name": "Section II Part A Text 3",
         "q_range": "31-35"
       },
       "article": {
@@ -958,7 +958,7 @@
     {
       "section_info": {
         "type": "Reading Text",
-        "name": "Text 4",
+        "name": "Section II Part A Text 4",
         "q_range": "36-40"
       },
       "article": {
@@ -1140,7 +1140,7 @@
     {
       "section_info": {
         "type": "Reading Part B",
-        "name": "Part B",
+        "name": "Section II Part B",
         "q_range": "41-45"
       },
       "article": {
@@ -1201,7 +1201,7 @@
     {
       "section_info": {
         "type": "Translation",
-        "name": "Part C",
+        "name": "Section II Part C",
         "q_range": "46-50"
       },
       "article": {
@@ -1309,7 +1309,7 @@
     {
       "section_info": {
         "type": "Writing",
-        "name": "Part A",
+        "name": "Section III Part A",
         "q_range": "51"
       },
       "article": {
@@ -1336,7 +1336,7 @@
     {
       "section_info": {
         "type": "Writing",
-        "name": "Part B",
+        "name": "Section III Part B",
         "q_range": "52"
       },
       "article": {
