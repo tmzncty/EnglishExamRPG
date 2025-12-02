@@ -25,18 +25,25 @@
 
 ## 📂 项目结构
 
-*   `EnglishExamWeb/`: **核心 Web 应用程序**。
-    *   `data/`: 存放处理好的历年真题 JSON 数据 (2010-2025)。
-    *   `assets/backgrounds/`: 壁纸与背景图片资源。
-    *   `assets/pdf/`: 官方解析 PDF 文件。
-    *   `js/`: 前端逻辑。
-    *   `css/`: 样式文件。
-*   根目录下的 Python 脚本:
-    *   `pdf_to_json.py`: 核心处理脚本，将 DOCX/PDF 转换为 JSON。
-    *   `process_2025_from_images.py`: 针对 2025 扫描版真题的视觉处理脚本。
-    *   `deploy_data.py`: 将生成的 JSON 数据部署到 Web 目录。
-    *   `extract_docx_images.py`: 从 DOCX 提取图片。
-    *   `sync_web_data.py`: 同步数据到 Web 目录。
+```
+├── EnglishExamWeb/          # 核心 Web 应用程序
+│   ├── index.html           # 主入口
+│   ├── css/                 # 样式文件
+│   ├── js/                  # 前端逻辑
+│   ├── data/                # 历年真题 JSON 数据 (2010-2025)
+│   └── assets/              # 静态资源 (背景图、PDF解析等)
+│
+├── scripts/                 # 数据处理脚本
+│   ├── pdf_to_json.py       # 核心：DOCX/PDF → JSON
+│   ├── extract_all_images.py # 从 DOCX 批量提取图片
+│   ├── deploy_data.py       # 部署数据到 Web 目录
+│   └── ...                  # 其他辅助脚本
+│
+├── DOCX/                    # 原始真题 Word 文档
+├── PDF/                     # 原始真题 PDF 文档
+├── *_full.json              # 生成的完整数据文件
+└── requirements.txt         # Python 依赖
+```
 
 ## 🛠️ 如何使用
 
@@ -57,8 +64,9 @@ python -m http.server 8080
 1.  安装依赖: `pip install -r requirements.txt`
 2.  配置 `.env` 文件 (GEMINI_API_KEY)。
 3.  将真题放入 `DOCX/` 和 `PDF/` 目录。
-4.  运行 `python pdf_to_json.py` 生成数据。
-5.  运行 `python deploy_data.py` 将数据部署到 Web 目录。
+4.  运行 `python scripts/pdf_to_json.py` 生成数据。
+5.  运行 `python scripts/extract_all_images.py` 提取图片。
+6.  运行 `python scripts/deploy_data.py` 将数据部署到 Web 目录。
 
 ## 📅 未来计划
 
@@ -68,14 +76,15 @@ python -m http.server 8080
 
 ## 📝 更新日志
 
-### v1.1 (2024-12-02)
+### v1.1 (2025-12-02)
 *   ✨ **新增**: 嵌入式 PDF 官方解析查看器，答题后可直接查看原版解析。
 *   ✨ **新增**: AI 解析本地缓存功能，同一题目只需调用一次 API。
 *   ✨ **新增**: 响应式三栏布局，适配大屏/平板/手机。
-*   🐛 **修复**: 2015/2022 年 Writing Part B (Q52) 图片显示问题。
-*   🎨 **优化**: 字体强制使用系统中文字体，解决乱码问题。
+*   ✨ **新增**: 所有年份 (2010-2024) Writing Part B 图片支持。
+*   🐛 **修复**: 字体强制使用系统中文字体，解决乱码问题。
+*   📁 **整理**: Python 脚本统一移至 `scripts/` 目录。
 
-### v1.0 (2024-12-01)
+### v1.0 (2025-12-01)
 *   🎉 初始发布版本。
 *   ✨ 支持 2010-2025 年考研英语一真题。
 *   ✨ WebDAV 云同步功能。
