@@ -2,6 +2,13 @@
    二次元风格 - 英语词汇学习 CSS
    ============================================ */
 
+@font-face {
+    font-family: 'LXGWWenKaiMono';
+    src: url('../fonts/LXGWWenKaiMono-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 :root {
     /* ACG 配色方案 */
     --primary-color: #ff6b9d;
@@ -25,7 +32,7 @@
 }
 
 body {
-    font-family: 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
+    font-family: 'LXGWWenKaiMono', 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', sans-serif;
     background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
     min-height: 100vh;
     color: var(--text-primary);
@@ -554,6 +561,44 @@ body {
     width: 20px;
     height: 20px;
     cursor: pointer;
+}
+
+/* API Key 输入组 */
+.api-key-input-group {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+}
+
+.api-key-input-group input {
+    flex: 1;
+}
+
+.btn-icon {
+    padding: 12px 16px;
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    min-width: 50px;
+}
+
+.btn-icon:hover {
+    background: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.btn-icon:active {
+    transform: translateY(0);
+}
+
+.setting-item .hint {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-top: 4px;
 }
 
 /* ============================================

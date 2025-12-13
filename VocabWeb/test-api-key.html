@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Key 同步测试</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+        }
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f5f5f5;
+            border-radius: 10px;
+        }
+        .input-group {
+            margin: 15px 0;
+            display: flex;
+            gap: 10px;
+        }
+        input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        button {
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+        button:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+        button:active {
+            transform: translateY(0);
+        }
+        .btn-icon {
+            padding: 12px 16px;
+            min-width: 50px;
+        }
+        .result {
+            margin-top: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+        .success {
+            border-left-color: #26de81;
+            color: #26de81;
+        }
+        .error {
+            border-left-color: #fc5c65;
+            color: #fc5c65;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🔑 API Key 同步功能测试</h1>
+        
+        <!-- 模拟电脑端：保存配置 -->
+        <div class="test-section">
+            <h2>💻 电脑端：保存配置</h2>
+            <div class="input-group">
+                <input type="password" id="apiKeyInput" placeholder="输入 API Key">
+                <button class="btn-icon" id="toggleBtn" onclick="togglePassword()">👁️</button>
+            </div>
+            <button onclick="saveConfig()">💾 保存到服务器</button>
+            <div id="saveResult" class="result" style="display:none;"></div>
+        </div>
+
+        <!-- 模拟手机端：同步配置 -->
+        <div class="test-section">
+            <h2>📱 手机端：同步配置</h2>
+            <button onclick="syncConfig()">🔄 从服务器同步</button>
+            <div id="syncResult" class="result" style="display:none;"></div>
+        </div>
+
+        <!-- 服务器状态 -->
+        <div class="test-section">
+            <h2>📊 服务器状态</h2>
+            <button onclick="checkStatus()">🔍 检查状态</button>
+            <div id="statusResult" class="result" style="display:none;"></div>
+        </div>
+
+        <!-- 使用说明 -->
+        <div class="test-section" style="background: #e3f2fd;">
+            <h3>📖 测试步骤</h3>
+            <ol>
+                <li>在"电脑端"输入框输入任意 API Key（如：AIzaSyXXXXXX）</li>
+                <li>点击"💾 保存到服务器"</li>
+                <li>点击"📱 手机端"的"🔄 从服务器同步"</li>
+                <li>查看是否成功获取相同的 API Key</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        // 显示/隐藏密码
+        function togglePassword() {
+            const input = document.getElementById('apiKeyInput');
+            const btn = document.getElementById('toggleBtn');
+            if (input.type === 'password') {
+                input.type = 'text';
+                btn.textContent = '🙈';
+            } else {
+                input.type = 'password';
+                btn.textContent = '👁️';
+            }
+        }
+
+        // 保存配置到服务器
+        async function saveConfig() {
+            const apiKey = document.getElementById('apiKeyInput').value;
+            const resultDiv = document.getElementById('saveResult');
+            
+            if (!apiKey) {
+                showResult(resultDiv, '请输入 API Key', false);
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/save-config', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ geminiApiKey: apiKey })
+                });
+
+                const data = await response.json();
+                
+                if (data.success) {
+                    showResult(resultDiv, `✅ 保存成功！\n\nAPI Key: ${apiKey}\n保存时间: ${data.lastModified || '刚刚'}`, true);
+                } else {
+                    showResult(resultDiv, `❌ 保存失败: ${data.error}`, false);
+                }
+            } catch (error) {
+                showResult(resultDiv, `❌ 网络错误: ${error.message}`, false);
+            }
+        }
+
+        // 从服务器同步配置
+        async function syncConfig() {
+            const resultDiv = document.getElementById('syncResult');
+
+            try {
+                const response = await fetch('/api/get-config');
+                const data = await response.json();
+
+                if (data.success) {
+                    if (data.geminiApiKey) {
+                        showResult(resultDiv, `✅ 同步成功！\n\nAPI Key: ${data.geminiApiKey}\n最后修改: ${data.lastModified || '未知'}`, true);
+                    } else {
+                        showResult(resultDiv, '⚠️ 服务器上没有保存配置\n\n请先在电脑端保存 API Key', false);
+                    }
+                } else {
+                    showResult(resultDiv, `❌ 同步失败: ${data.error || '未知错误'}`, false);
+                }
+            } catch (error) {
+                showResult(resultDiv, `❌ 网络错误: ${error.message}`, false);
+            }
+        }
+
+        // 检查服务器状态
+        async function checkStatus() {
+            const resultDiv = document.getElementById('statusResult');
+
+            try {
+                const response = await fetch('/api/status');
+                const data = await response.json();
+
+                if (data.success) {
+                    const status = `✅ 服务器运行正常\n\n服务器: ${data.server}\n版本: ${data.version}\n\n数据库状态:\n- 存在: ${data.database.exists ? '是' : '否'}\n- 大小: ${(data.database.size / 1024).toFixed(2)} KB\n- 最后修改: ${data.database.lastModified || '无'}`;
+                    showResult(resultDiv, status, true);
+                } else {
+                    showResult(resultDiv, `❌ 状态检查失败`, false);
+                }
+            } catch (error) {
+                showResult(resultDiv, `❌ 无法连接到服务器: ${error.message}`, false);
+            }
+        }
+
+        // 显示结果
+        function showResult(div, message, success) {
+            div.textContent = message;
+            div.style.display = 'block';
+            div.className = success ? 'result success' : 'result error';
+        }
+
+        // 页面加载时自动检查状态
+        window.addEventListener('load', () => {
+            checkStatus();
+        });
+    </script>
+</body>
+</html>

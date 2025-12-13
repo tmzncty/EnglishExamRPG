@@ -139,12 +139,19 @@
                     </div>
                     <div class="setting-item">
                         <label for="geminiApiKey">Gemini API Key</label>
-                        <input type="password" id="geminiApiKey" placeholder="输入你的API Key">
+                        <div class="api-key-input-group">
+                            <input type="password" id="geminiApiKey" placeholder="输入你的API Key">
+                            <button class="btn btn-icon" id="toggleApiKeyBtn" title="显示/隐藏密钥">👁️</button>
+                        </div>
+                        <small class="hint">💡 手机用户：在电脑上配置后点击"同步配置"按钮</small>
                     </div>
                     <div class="setting-item">
-                        <button class="btn btn-primary" id="saveSettings">保存设置</button>
-                        <button class="btn btn-secondary" id="exportData">导出数据</button>
-                        <button class="btn btn-secondary" id="importData">导入数据</button>
+                        <button class="btn btn-primary" id="saveSettings">💾 保存设置</button>
+                        <button class="btn btn-primary" id="syncConfigBtn">🔄 同步配置</button>
+                    </div>
+                    <div class="setting-item">
+                        <button class="btn btn-secondary" id="exportData">📤 导出数据</button>
+                        <button class="btn btn-secondary" id="importData">📥 导入数据</button>
                     </div>
                 </div>
             </div>

@@ -78,6 +78,26 @@ class VocabApp {
             document.getElementById('settingsModal').classList.remove('active');
         });
 
+        // 显示/隐藏 API Key
+        document.getElementById('toggleApiKeyBtn').addEventListener('click', () => {
+            const input = document.getElementById('geminiApiKey');
+            const btn = document.getElementById('toggleApiKeyBtn');
+            if (input.type === 'password') {
+                input.type = 'text';
+                btn.textContent = '🙈';
+                btn.title = '隐藏密钥';
+            } else {
+                input.type = 'password';
+                btn.textContent = '👁️';
+                btn.title = '显示密钥';
+            }
+        });
+
+        // 同步配置按钮
+        document.getElementById('syncConfigBtn').addEventListener('click', async () => {
+            await this.syncConfig();
+        });
+
         // 保存设置
         document.getElementById('saveSettings').addEventListener('click', () => {
             this.saveSettings();
@@ -127,29 +147,37 @@ class VocabApp {
 
     async loadTodayWords() {
         console.log('加载今日词汇...');
-        const dailyGoal = this.settings.dailyGoal;
         
-        // 获取错题（最多占20%）
-        const mistakeCount = Math.min(Math.floor(dailyGoal * 0.2), db.getMistakeCount());
-        const mistakeWords = db.getMistakeWords(mistakeCount);
-        
-        // 获取新词和复习词
-        const normalWords = db.getTodayWords(dailyGoal - mistakeCount);
-        
-        // 合并并打乱顺序
-        this.currentWords = [...normalWords, ...mistakeWords];
-        this.currentWords = this.shuffleArray(this.currentWords);
-        
-        console.log(`📚 今日学习: ${normalWords.length}个常规词 + ${mistakeWords.length}个错题`);
-        
-        if (this.currentWords.length === 0) {
-            this.showCompletionMessage();
-            return;
-        }
+        try {
+            const dailyGoal = this.settings.dailyGoal || 20;
+            
+            // 获取错题（最多占20%）
+            const mistakeCount = Math.min(Math.floor(dailyGoal * 0.2), db.getMistakeCount());
+            const mistakeWords = db.getMistakeWords(mistakeCount) || [];
+            
+            // 获取新词和复习词
+            const normalWords = db.getTodayWords(dailyGoal - mistakeCount) || [];
+            
+            // 合并并打乱顺序
+            this.currentWords = [...normalWords, ...mistakeWords];
+            this.currentWords = this.shuffleArray(this.currentWords);
+            
+            console.log(`📚 今日学习: ${normalWords.length}个常规词 + ${mistakeWords.length}个错题`);
+            console.log('当前词汇列表:', this.currentWords);
+            
+            if (this.currentWords.length === 0) {
+                console.warn('⚠️ 没有可学习的词汇');
+                this.showCompletionMessage();
+                return;
+            }
 
-        this.currentIndex = 0;
-        this.showQuestion();
-        this.updateProgress();
+            this.currentIndex = 0;
+            this.showQuestion();
+            this.updateProgress();
+        } catch (error) {
+            console.error('❌ 加载词汇失败:', error);
+            alert('加载词汇失败，请刷新页面重试');
+        }
     }
 
     shuffleArray(array) {
@@ -451,6 +479,8 @@ class VocabApp {
         
         if (geminiApiKey) {
             db.setSetting('geminiApiKey', geminiApiKey);
+            // 同时保存到服务器（供其他设备同步）
+            this.saveConfigToServer(geminiApiKey);
             initAIService(geminiApiKey);
         }
 
@@ -468,6 +498,57 @@ class VocabApp {
         // 重新设置通知
         if (notificationEnabled) {
             notificationManager.checkDailyReminder(this.settings, this.currentWords.length);
+        }
+    }
+
+    async saveConfigToServer(apiKey) {
+        try {
+            const response = await fetch('/api/save-config', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ geminiApiKey: apiKey })
+            });
+
+            if (response.ok) {
+                console.log('✅ 配置已保存到服务器');
+            }
+        } catch (error) {
+            console.error('❌ 保存配置到服务器失败:', error);
+        }
+    }
+
+    async syncConfig() {
+        try {
+            const btn = document.getElementById('syncConfigBtn');
+            btn.disabled = true;
+            btn.textContent = '🔄 同步中...';
+
+            const response = await fetch('/api/get-config');
+            if (!response.ok) {
+                throw new Error('获取配置失败');
+            }
+
+            const data = await response.json();
+            
+            if (data.geminiApiKey) {
+                // 更新UI和本地存储
+                document.getElementById('geminiApiKey').value = data.geminiApiKey;
+                db.setSetting('geminiApiKey', data.geminiApiKey);
+                initAIService(data.geminiApiKey);
+                
+                alert('✅ 配置同步成功！API Key 已从服务器获取。');
+            } else {
+                alert('⚠️ 服务器上没有保存配置，请先在电脑上配置并保存。');
+            }
+        } catch (error) {
+            console.error('同步配置失败:', error);
+            alert('❌ 同步配置失败: ' + error.message);
+        } finally {
+            const btn = document.getElementById('syncConfigBtn');
+            btn.disabled = false;
+            btn.textContent = '🔄 同步配置';
         }
     }
 }
