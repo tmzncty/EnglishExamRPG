@@ -49,6 +49,24 @@ Thumbs.db
 main.py
 database.py
 grader.py
+vocab_manager.py
+scheduler.py
+prompts.py
+test_system.py
+install.bat
+start.bat
+
+# Database files
+*.db
+study_data.db
+VocabWeb/vocab_prebuilt.db
+
+# Temporary files
+README_NEW.md
+README_OLD_BACKUP.md
+VocabWeb/README_NEW.md
+deploy_to_github.py
+grader.py
 prompts.py
 scheduler.py
 vocab_manager.py
