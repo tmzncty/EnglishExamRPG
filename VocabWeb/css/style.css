@@ -605,26 +605,56 @@ body {
    响应式设计
    ============================================ */
 @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
     .header {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
+        padding: 15px;
+        margin-bottom: 20px;
     }
 
     .header-stats {
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(0,0,0,0.05);
+    }
+    
+    .stat-item {
+        min-width: 80px;
     }
 
     .options-container {
         grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .option-btn {
+        padding: 15px; /* Slightly smaller padding */
     }
 
     .stats-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr); /* Keep 2 columns if possible, looks better */
+        gap: 10px;
+    }
+    
+    .stat-box {
+        padding: 15px;
     }
 
     .logo h1 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+    }
+    
+    /* Adjust main content buttons */
+    .action-buttons, .result-buttons {
+        flex-direction: column;
     }
 
     .sentence {

@@ -101,6 +101,10 @@
                         <span class="stat-desc">正确率</span>
                     </div>
                     <div class="stat-box">
+                        <span class="stat-number" id="estimatedDays">--</span>
+                        <span class="stat-desc">预计完成天数</span>
+                    </div>
+                    <div class="stat-box">
                         <span class="stat-number" id="mistakeCount" style="color: #ff6b6b;">0</span>
                         <span class="stat-desc">错题本</span>
                     </div>
@@ -118,9 +122,9 @@
                 <div class="modal-body">
                     <div class="setting-item">
                         <label for="dailyGoal">每日新词数量</label>
-                        <input type="number" id="dailyGoal" min="5" max="100" value="20">
+                        <input type="number" id="dailyGoal" min="5" max="100" value="40">
                         <small style="color: #666; display: block; margin-top: 5px;">
-                            ⚠️ 这是最低目标，可以多学但不能少学。错题会自动混入每日学习。
+                            设置每天学习的新单词数量（复习单词不包含在此数量中）。
                         </small>
                     </div>
                     <div class="setting-item">

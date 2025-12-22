@@ -311,6 +311,31 @@ class DatabaseManager {
                 console.warn('添加 is_mistake 失败:', error);
             }
         }
+
+        // 添加首次学习时间字段 (用于更准确的统计)
+        try {
+            this.db.run(`ALTER TABLE learning_records ADD COLUMN first_learned_at DATETIME`);
+            console.log('✅ 添加字段: first_learned_at');
+            schemaUpdated = true;
+            
+            // 尝试修复今日数据的统计偏差
+            // 如果 last_review 是今天，且 repetition 很低，大概率是今天新学的
+            // 我们将这些记录的 first_learned_at 设为 last_review
+            const today = new Date().toISOString().split('T')[0];
+            this.db.run(`
+                UPDATE learning_records 
+                SET first_learned_at = last_review 
+                WHERE date(last_review) = date('${today}') 
+                AND repetition <= 2
+                AND first_learned_at IS NULL
+            `);
+            console.log('🔄 已尝试修复今日新词的首次学习时间');
+
+        } catch (error) {
+            if (!String(error).includes('duplicate column name')) {
+                console.warn('添加 first_learned_at 失败:', error);
+            }
+        }
         
         // 如果有更新，保存数据库
         if (schemaUpdated) {
@@ -503,8 +528,9 @@ class DatabaseManager {
 
     // 学习记录操作
     addLearningRecord(wordId, sentenceId, isCorrect) {
+        // 插入时记录 first_learned_at 为当前时间
         this.db.run(
-            'INSERT INTO learning_records (word_id, sentence_id, is_correct) VALUES (?, ?, ?)',
+            'INSERT INTO learning_records (word_id, sentence_id, is_correct, first_learned_at) VALUES (?, ?, ?, CURRENT_TIMESTAMP)',
             [wordId, sentenceId, isCorrect ? 1 : 0]
         );
         this.save();
@@ -607,13 +633,14 @@ class DatabaseManager {
     }
 
     // 获取今日需要学习的词汇
-    getTodayWords(limit) {
-        console.log(`📖 getTodayWords: 请求 ${limit} 个单词`);
+    // limit 现在代表"每日新词目标"，而不是总数
+    getTodayWords(newWordLimit) {
+        console.log(`📖 getTodayWords: 请求 ${newWordLimit} 个新词 + 所有复习词`);
         const today = new Date().toISOString().split('T')[0];
         
         try {
-            // 获取需要复习的词汇
-            const reviewWords = this.db.exec(`
+            // 1. 获取所有需要复习的词汇 (不限制数量)
+            const reviewWordsResult = this.db.exec(`
                 SELECT DISTINCT 
                     v.*, 
                     s.id as sentence_id, 
@@ -627,27 +654,25 @@ class DatabaseManager {
                     s.question_range as sentence_question_range,
                     s.question_label as sentence_question_label,
                     s.source_label as sentence_source_label,
-                    s.question_text as sentence_question_text
+                    s.question_text as sentence_question_text,
+                    lr.repetition
                 FROM vocabulary v
                 JOIN sentences s ON v.id = s.word_id
                 JOIN learning_records lr ON v.id = lr.word_id AND s.id = lr.sentence_id
                 WHERE date(lr.next_review) <= date('${today}')
                 ORDER BY lr.next_review
-                LIMIT ${limit}
             `);
 
-            let words = [];
-            if (reviewWords.length > 0) {
-                words = this.rowsToObjects(reviewWords[0]);
+            let reviewWords = [];
+            if (reviewWordsResult.length > 0) {
+                reviewWords = this.rowsToObjects(reviewWordsResult[0]);
             }
-            console.log(`📝 复习词汇: ${words.length} 个`);
+            console.log(`📝 复习词汇: ${reviewWords.length} 个 (全部)`);
 
-            // 如果不足，添加新词
-            if (words.length < limit) {
-                const remaining = limit - words.length;
-                console.log(`➕ 需要添加 ${remaining} 个新词`);
-                
-                const newWords = this.db.exec(`
+            // 2. 获取指定数量的新词
+            let newWords = [];
+            if (newWordLimit > 0) {
+                const newWordsResult = this.db.exec(`
                     SELECT DISTINCT 
                         v.*, 
                         s.id as sentence_id, 
@@ -667,18 +692,19 @@ class DatabaseManager {
                     LEFT JOIN learning_records lr ON v.id = lr.word_id AND s.id = lr.sentence_id
                     WHERE lr.id IS NULL
                     ORDER BY v.frequency DESC, RANDOM()
-                    LIMIT ${remaining}
+                    LIMIT ${newWordLimit}
                 `);
 
-                if (newWords.length > 0) {
-                    const newWordsList = this.rowsToObjects(newWords[0]);
-                    console.log(`✅ 获取到 ${newWordsList.length} 个新词`);
-                    words = words.concat(newWordsList);
+                if (newWordsResult.length > 0) {
+                    newWords = this.rowsToObjects(newWordsResult[0]);
+                    console.log(`🆕 新词: ${newWords.length} 个`);
                 }
             }
 
-            console.log(`🎯 总共返回 ${words.length} 个单词`);
-            return words;
+            // 合并列表 (复习词 + 新词)
+            const allWords = reviewWords.concat(newWords);
+            console.log(`🎯 总共返回 ${allWords.length} 个单词`);
+            return allWords;
         } catch (error) {
             console.error('❌ getTodayWords 错误:', error);
             return [];
@@ -728,7 +754,7 @@ class DatabaseManager {
         
         // 返回默认值
         const defaults = {
-            'dailyGoal': '20',
+            'dailyGoal': '40',
             'sleepTime': '23:00',
             'notificationEnabled': 'false',
             'notificationTime': '20:00'
@@ -741,16 +767,19 @@ class DatabaseManager {
     getTodayStats() {
         const today = new Date().toISOString().split('T')[0];
         
+        // 修改：使用 first_learned_at 判断是否是今天新学的
         const learned = this.db.exec(`
             SELECT COUNT(DISTINCT word_id) as count 
             FROM learning_records 
-            WHERE date(last_review) = date('${today}') AND repetition = 0
+            WHERE date(first_learned_at) = date('${today}')
         `);
 
+        // 修改：复习是今天复习了 (last_review=today) 且 不是今天第一次学的
         const reviewed = this.db.exec(`
             SELECT COUNT(DISTINCT word_id) as count 
             FROM learning_records 
-            WHERE date(last_review) = date('${today}') AND repetition > 0
+            WHERE date(last_review) = date('${today}') 
+            AND (first_learned_at IS NULL OR date(first_learned_at) != date('${today}'))
         `);
 
         const totalLearned = this.db.exec(`

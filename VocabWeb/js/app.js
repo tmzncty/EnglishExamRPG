@@ -51,7 +51,7 @@ class VocabApp {
 
     async loadSettings() {
         this.settings = {
-            dailyGoal: parseInt(db.getSetting('dailyGoal') || '20'),
+            dailyGoal: parseInt(db.getSetting('dailyGoal') || '40'),
             sleepTime: db.getSetting('sleepTime') || '23:00',
             notificationEnabled: db.getSetting('notificationEnabled') || 'false',
             notificationTime: db.getSetting('notificationTime') || '20:00',
@@ -149,24 +149,41 @@ class VocabApp {
         console.log('加载今日词汇...');
         
         try {
-            const dailyGoal = this.settings.dailyGoal || 20;
+            // 获取用户设置的每日新词目标（默认40）
+            // 只要刷新页面，就尝试加载这么多新词，允许用户超额学习
+            const dailyNewGoal = this.settings.dailyGoal || 40;
             
-            // 获取错题（最多占20%）
-            const mistakeCount = Math.min(Math.floor(dailyGoal * 0.2), db.getMistakeCount());
+            // 1. 获取错题 (不计入新词额度)
+            const mistakeCount = Math.min(20, db.getMistakeCount());
             const mistakeWords = db.getMistakeWords(mistakeCount) || [];
             
-            // 获取新词和复习词
-            const normalWords = db.getTodayWords(dailyGoal - mistakeCount) || [];
+            // 2. 获取新词 + 复习词
+            // 直接传入 dailyNewGoal，无论今天已经学了多少
+            const normalAndReviewWords = db.getTodayWords(dailyNewGoal) || [];
             
-            // 合并并打乱顺序
-            this.currentWords = [...normalWords, ...mistakeWords];
+            // 3. 合并并去重
+            const wordMap = new Map();
+            mistakeWords.forEach(w => wordMap.set(w.id, w));
+            normalAndReviewWords.forEach(w => {
+                if (!wordMap.has(w.id)) {
+                    wordMap.set(w.id, w);
+                }
+            });
+            
+            this.currentWords = Array.from(wordMap.values());
             this.currentWords = this.shuffleArray(this.currentWords);
             
-            console.log(`📚 今日学习: ${normalWords.length}个常规词 + ${mistakeWords.length}个错题`);
-            console.log('当前词汇列表:', this.currentWords);
+            const reviewCount = normalAndReviewWords.filter(w => w.repetition > 0).length;
+            const newCount = normalAndReviewWords.filter(w => !w.repetition).length;
+            
+            console.log(`📚 今日计划更新 (允许超额):`);
+            console.log(`   - 本轮计划新词: ${dailyNewGoal}`);
+            console.log(`   - 实际获取新词: ${newCount}`);
+            console.log(`   - 待复习: ${reviewCount}`);
+            console.log(`   - 错题复习: ${mistakeWords.length}`);
             
             if (this.currentWords.length === 0) {
-                console.warn('⚠️ 没有可学习的词汇');
+                // 只有真的连新词库都空了，或者所有复习都做完了才提示完成
                 this.showCompletionMessage();
                 return;
             }
@@ -457,6 +474,21 @@ class VocabApp {
         document.getElementById('totalLearned').textContent = this.stats.totalLearned;
         document.getElementById('accuracy').textContent = this.stats.accuracy + '%';
         document.getElementById('totalWords').textContent = totalWords;
+        
+        // 计算预计完成时间
+        // 总词数 - 累计学习过的词数 = 剩余新词数 (注意：totalLearned 是学习记录数，代表已经学过至少一次)
+        const remainingNewWords = Math.max(0, totalWords - this.stats.totalLearned);
+        const dailyNewGoal = this.settings.dailyGoal || 40;
+        
+        if (remainingNewWords > 0) {
+            const daysRemaining = Math.ceil(remainingNewWords / dailyNewGoal);
+            const date = new Date();
+            date.setDate(date.getDate() + daysRemaining);
+            const dateStr = `${date.getMonth() + 1}/${date.getDate()}`;
+            document.getElementById('estimatedDays').textContent = `${daysRemaining} 天 (${dateStr}完)`;
+        } else {
+             document.getElementById('estimatedDays').textContent = "已完成";
+        }
         
         // 更新错题数量显示
         const mistakeElement = document.getElementById('mistakeCount');
