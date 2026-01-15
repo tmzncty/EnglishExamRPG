@@ -1,7 +1,7 @@
 # English Exam RPG & VocabWeb (ACG & AI Enhanced)
 
-> **Version 2.0**  
-> 这是一个结合了 **ACG 游戏化体验** 与 **AI 辅助解析** 的考研英语全方位学习项目。
+> **Version 3.0** 🎭  
+> 考研英语学习 + **AI Galgame剧情系统** + ACG游戏化体验
 
 本项目包含两大核心系统：
 1. **EnglishExamWeb** - 真题练习与解析系统
@@ -17,6 +17,13 @@
 
 ### 📝 EnglishExamWeb - 真题练习系统
 - ✅ 2010-2025 年完整真题
+- ✅ **AI Galgame剧情系统** 🎭 NEW in v3.0
+  - 傲娇猫娘Mia陪伴答题
+  - 上下文完整剧情（基于题目内容生成）
+  - 双语支持（中英文）
+  - 120-150字详细互动对话
+- ✅ **智能题目打乱** - 按Section打乱，保持Part完整性
+- ✅ **集成绘图模式** - 边做题边画标记，无需切换
 - ✅ 沉浸式答题体验（背景音乐、音效、动态背景）
 - ✅ AI 深度解析（划词查看单词/句子分析）
 - ✅ RPG 游戏化系统（经验值、等级、HP）
@@ -446,6 +453,31 @@ db.save();
 **推荐方法（最简单）**：
 1. 在电脑上打开 VocabWeb，配置 API Key 并保存
 ## 📝 更新日志
+
+### v3.0 (2026-01-15) - AI Galgame Story System 🎭
+
+**重磅更新**：
+*   🎭 **新增**: AI-Powered Galgame剧情系统
+    - 傲娇猫娘Mia陪伴学习
+    - 上下文完整剧情生成（基于文章+选项+题型）
+    - 双语支持（VectorEngine Gemini + DeepSeek-V3.2翻译）
+    - SQLite数据库存储，优雅降级fallback
+*   🎲 **新增**: Section-based问题打乱
+    - 保持Part A/B/C完整性
+    - 防止逻辑分组被打散
+*   ✏️ **新增**: 集成绘图模式
+    - 移除模式切换，绘图始终可用
+    - 智能pointer-events，不阻挡答题点击
+*   🖱️ **修复**: 对话框拖拽累积偏移bug
+    - 不再自动跳到屏幕顶部
+
+**技术细节**：
+- 新增文件：`js/story-service.js`, `server.py`增强
+- 数据库：`story_content.db` (SQLite)
+- API端点：`POST /api/get_story`
+- 生成脚本：`gen_final.py`, `translate_stories.py`
+
+**详细说明**：[EnglishExamWeb/CHANGELOG_v3.0.md](EnglishExamWeb/CHANGELOG_v3.0.md)
 
 ### v2.1.0 (2025-12-13) - 多设备协同学习 🔥
 
