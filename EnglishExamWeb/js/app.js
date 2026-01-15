@@ -11,10 +11,11 @@ const App = {
     isReviewMode: false,
     examMode: 'exam', // 默认考试模式
     isSubmitted: false,
-    currentYear: '2010', // Default year
-    availableYears: Array.from({length: 16}, (_, i) => (2010 + i).toString()), // 2010-2025
+    currentYear: '2010', // Default year (for backward compatibility)
+    selectedYears: ['2010'], // Multi-year selection
+    availableYears: Array.from({ length: 16 }, (_, i) => (2010 + i).toString()), // 2010-2025
     pdfMappings: null, // PDF 页码映射
-    
+
     // 计时器
     examTimer: null,
     examStartTime: null,
@@ -37,6 +38,18 @@ const App = {
 
         // 初始化存储管理器
         StorageManager.init();
+
+        // NEW: Auto-migrate localStorage to backend on first load
+        const migrated = await StorageManager.migrateToBackend();
+        if (migrated) {
+            UIEffects.showToast('已将本地进度迁移到云端存档 #1', 'success');
+        }
+
+        // NEW: Try to load auto-save (slot 0)
+        const autoSave = await StorageManager.loadFromBackend(0);
+        if (autoSave && autoSave.currentQuestionIndex > 0) {
+            console.log('[App] Auto-save found, progress restored');
+        }
 
         // 初始化 UI 效果
         UIEffects.init();
@@ -92,70 +105,157 @@ const App = {
     },
 
     /**
-     * 初始化年份选择器
+     * 初始化年份选择器 (多选复选框版本)
      */
     initYearSelector() {
-        const select = this.elements.yearSelect;
-        if (!select) return;
+        const grid = document.getElementById('year-checkbox-grid');
+        if (!grid) return;
 
-        // Populate options
-        select.innerHTML = '';
+        grid.innerHTML = '';
         this.availableYears.forEach(year => {
-            const option = document.createElement('option');
-            option.value = year;
-            option.textContent = `${year}年真题`;
-            if (year === this.currentYear) {
-                option.selected = true;
-            }
-            select.appendChild(option);
+            const item = document.createElement('label');
+            item.className = 'year-checkbox-item';
+            item.innerHTML = `
+                <input type="checkbox" value="${year}" 
+                       ${this.selectedYears.includes(year) ? 'checked' : ''}>
+                <span>${year}</span>
+            `;
+            item.querySelector('input').addEventListener('change', (e) => {
+                this.toggleYear(year, e.target.checked);
+            });
+            grid.appendChild(item);
         });
 
-        // Event listener
-        select.addEventListener('change', async (e) => {
-            const newYear = e.target.value;
-            if (newYear !== this.currentYear) {
-                this.currentYear = newYear;
-                if (this.elements.yearDisplay) {
-                    this.elements.yearDisplay.textContent = newYear;
-                }
-                
-                // Reload data
-                await this.loadExamData();
-                
-                // Update UI stats
-                if (this.elements.totalQuestions) {
-                    this.elements.totalQuestions.textContent = this.allQuestions.length;
-                }
-                
-                // Reset progress if needed or just notify user
-                console.log(`Switched to year ${newYear}`);
-            }
+        this.updateYearStats();
+    },
+
+    /**
+     * 切换年份选择
+     */
+    toggleYear(year, isSelected) {
+        if (isSelected && !this.selectedYears.includes(year)) {
+            this.selectedYears.push(year);
+        } else if (!isSelected) {
+            this.selectedYears = this.selectedYears.filter(y => y !== year);
+        }
+
+        // Ensure at least one year is selected
+        if (this.selectedYears.length === 0) {
+            this.selectedYears = [year];
+            // Re-check the checkbox
+            const checkbox = document.querySelector(`.year-checkbox-item input[value="${year}"]`);
+            if (checkbox) checkbox.checked = true;
+            UIEffects.showToast('至少需要选择一个年份', 'warning');
+            return;
+        }
+
+        this.selectedYears.sort();
+        this.updateYearStats();
+    },
+
+    /**
+     * 全选年份
+     */
+    selectAllYears() {
+        this.selectedYears = [...this.availableYears];
+        document.querySelectorAll('.year-checkbox-item input').forEach(cb => cb.checked = true);
+        this.updateYearStats();
+    },
+
+    /**
+     * 清空年份（保留第一个）
+     */
+    clearYears() {
+        this.selectedYears = [this.availableYears[0]];
+        document.querySelectorAll('.year-checkbox-item input').forEach((cb) => {
+            cb.checked = cb.value === this.availableYears[0];
         });
+        this.updateYearStats();
+    },
+
+    /**
+     * 更新年份统计并重新加载数据
+     */
+    async updateYearStats() {
+        // Update counts UI immediately for feedback
+        const countSpan = document.getElementById('selected-year-count');
+        if (countSpan) countSpan.textContent = this.selectedYears.length;
+
+        // Reload data
+        await this.loadExamData();
+    },
+
+    /**
+     * 数组随机打乱 (Fisher-Yates)
+     */
+    shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
     },
 
     /**
      * 加载题目数据
      */
+
+    /**
+     * 加载题目数据 (支持多年份)
+     */
     async loadExamData() {
         try {
-            console.log(`Loading data for year: ${this.currentYear}`);
-            const response = await fetch(`data/${this.currentYear}.json`);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            this.examData = await response.json();
-
-            // 收集所有题目
+            console.log(`Loading data for years: ${this.selectedYears.join(', ')}`);
             this.allQuestions = [];
-            this.examData.sections.forEach((section) => {
-                section.questions.forEach(q => {
-                    this.allQuestions.push({
-                        ...q,
-                        sectionName: section.section_info.name,
-                        sectionType: section.section_info.type,
-                        article: section.article?.paragraphs || []
-                    });
-                });
+            const allSections = []; // Store complete sections for shuffle
+
+            // Loop through all selected years
+            for (const year of this.selectedYears) {
+                try {
+                    const response = await fetch(`data/${year}.json`);
+                    if (!response.ok) {
+                        console.warn(`Failed to load data for ${year}`);
+                        continue;
+                    }
+                    const examData = await response.json();
+
+                    // Collect sections as complete units
+                    if (examData.sections) {
+                        examData.sections.forEach((section) => {
+                            const sectionQuestions = [];
+                            if (section.questions) {
+                                section.questions.forEach(q => {
+                                    sectionQuestions.push({
+                                        ...q,
+                                        year: year,
+                                        sectionName: section.section_info.name,
+                                        sectionType: section.section_info.type,
+                                        article: section.article?.paragraphs || []
+                                    });
+                                });
+                            }
+                            // Store complete section
+                            allSections.push({
+                                year: year,
+                                sectionInfo: section.section_info,
+                                questions: sectionQuestions
+                            });
+                        });
+                    }
+                } catch (e) {
+                    console.error(`Error processing year ${year}:`, e);
+                }
+            }
+
+            // Shuffle sections (not individual questions)
+            const shuffleEnabled = document.getElementById('shuffle-toggle')?.checked;
+            if (shuffleEnabled && this.selectedYears.length > 0) {
+                this.shuffleArray(allSections);
+            }
+
+            // Flatten sections into questions array
+            allSections.forEach(section => {
+                this.allQuestions.push(...section.questions);
             });
 
             // 更新显示
@@ -166,7 +266,13 @@ const App = {
                 this.elements.totalQ.textContent = this.allQuestions.length;
             }
 
-            console.log(`[App] 加载了 ${this.allQuestions.length} 道题目`);
+            console.log(`[App] 加载了 ${this.allQuestions.length} 道题目 (来自 ${this.selectedYears.length} 个年份, ${allSections.length} 个sections)`);
+
+            // Update currentYear for compatibility
+            if (this.selectedYears.length > 0) {
+                this.currentYear = this.selectedYears[0];
+            }
+
         } catch (error) {
             console.error('[App] 加载数据失败:', error);
             UIEffects.showToast('加载题目数据失败', 'error');
@@ -195,10 +301,10 @@ const App = {
         if (!this.pdfMappings || !this.pdfMappings[this.currentYear]) {
             return null;
         }
-        
+
         const yearMapping = this.pdfMappings[this.currentYear];
         const qId = parseInt(questionId);
-        
+
         // 遍历所有 section 找到包含该题目的 section
         for (const [sectionKey, sectionData] of Object.entries(yearMapping.sections)) {
             const questions = sectionData.questions;
@@ -217,7 +323,7 @@ const App = {
                 };
             }
         }
-        
+
         return null;
     },
 
@@ -230,10 +336,10 @@ const App = {
             UIEffects.showToast('暂无该题目的 PDF 解析', 'warning');
             return;
         }
-        
+
         // 构建 PDF URL（带页码参数）
         const pdfUrl = `assets/pdf/${encodeURIComponent(pdfInfo.pdf)}#page=${pdfInfo.page}`;
-        
+
         // 在新标签页打开
         window.open(pdfUrl, '_blank');
     },
@@ -246,10 +352,10 @@ const App = {
             UIEffects.showToast('暂无该年份的 PDF 解析', 'warning');
             return;
         }
-        
+
         const pdfFile = this.pdfMappings[this.currentYear].pdf_file;
         const pdfUrl = `assets/pdf/${encodeURIComponent(pdfFile)}`;
-        
+
         window.open(pdfUrl, '_blank');
     },
 
@@ -259,12 +365,13 @@ const App = {
     bindEvents() {
         // 开始按钮
         this.elements.startBtn?.addEventListener('click', () => this.startExam());
-        
+
         // 继续按钮
         this.elements.continueBtn?.addEventListener('click', () => this.continueExam());
-        
+
         // 单词本按钮
         this.elements.vocabBtn?.addEventListener('click', () => this.showScreen(this.elements.vocabScreen));
+        document.getElementById('vocab-card-btn')?.addEventListener('click', () => this.showScreen(this.elements.vocabScreen));
 
         // 导航按钮
         this.elements.prevBtn?.addEventListener('click', () => this.prevQuestion());
@@ -303,14 +410,19 @@ const App = {
     restoreProgress() {
         const gameData = StorageManager.getGameData();
         const pendingAnswers = StorageManager.getPendingAnswers();
-        
-        if ((gameData && Object.keys(gameData.answers).length > 0) || 
-            (pendingAnswers && Object.keys(pendingAnswers).length > 0)) {
+
+        // Check if there's any progress (from localStorage, or already loaded from backend in init())
+        if ((gameData && Object.keys(gameData.answers).length > 0) ||
+            (pendingAnswers && Object.keys(pendingAnswers).length > 0) ||
+            this.currentQuestionIndex > 0) {
             // 有进度，显示继续按钮
             if (this.elements.continueBtn) {
                 this.elements.continueBtn.style.display = 'inline-block';
             }
-            this.currentQuestionIndex = gameData?.currentQuestionIndex || 0;
+            // Prioritize gameData's index if available, otherwise keep current
+            if (gameData?.currentQuestionIndex !== undefined) {
+                this.currentQuestionIndex = gameData.currentQuestionIndex;
+            }
         }
 
         // 更新 HUD
@@ -326,7 +438,7 @@ const App = {
         [this.elements.startScreen, this.elements.examScreen, this.elements.resultScreen, this.elements.vocabScreen]
             .forEach(s => s?.classList.remove('active'));
         screen?.classList.add('active');
-        
+
         // 进入单词本时刷新数据
         if (screen === this.elements.vocabScreen && typeof VocabUI !== 'undefined') {
             VocabUI.refreshVocabulary();
@@ -338,26 +450,39 @@ const App = {
     /**
      * 开始新考试
      */
-    startExam() {
+    /**
+     * 开始新考试
+     */
+    startExam(mode = 'exam') {
         this.currentQuestionIndex = 0;
         this.isReviewMode = false;
         this.isSubmitted = false;
-        this.examMode = 'exam';  // 默认考试模式
+        this.examMode = mode;
+
         StorageManager.clearAnswers();
         StorageManager.clearPendingAnswers();
+
+        // 恢复HP
         StorageManager.restoreHP();
         UIEffects.updateHUD();
-        
+
         // 启动计时器
         this.startTimer();
-        
+
         this.showScreen(this.elements.examScreen);
         this.showQuestion();
-        
-        // 显示考试模式提示
-        UIEffects.showToast('考试模式：答题不会立即判分，完成后统一提交', 'info');
+
+        // 模式分支
+        if (this.examMode === 'story') {
+            document.body.classList.add('story-mode-active');
+            UIEffects.startStoryMode(); // 播放开场剧情
+        } else {
+            document.body.classList.remove('story-mode-active');
+            // 显示考试模式提示
+            UIEffects.showToast('考试模式：答题不会立即判分，完成后统一提交', 'info');
+        }
     },
-    
+
     /**
      * 切换答题模式
      */
@@ -395,9 +520,20 @@ const App = {
         // 保存当前进度
         StorageManager.updateGameData({ currentQuestionIndex: this.currentQuestionIndex });
 
+        // Auto-save every 5 questions
+        if ((this.currentQuestionIndex + 1) % 5 === 0) {
+            this.autoSave();
+        }
+
         // 更新进度显示
         this.elements.currentQ.textContent = this.currentQuestionIndex + 1;
-        this.elements.sectionName.textContent = q.sectionName;
+
+        // Multi-year support: show year badge
+        if (q.year && this.selectedYears.length > 1) {
+            this.elements.sectionName.textContent = `[${q.year}] ${q.sectionName}`;
+        } else {
+            this.elements.sectionName.textContent = q.sectionName;
+        }
 
         // 显示文章（或图片）
         if (q.image) {
@@ -415,7 +551,7 @@ const App = {
                 .map(p => `<p>${this.formatText(p)}</p>`)
                 .join('');
         } else {
-            this.elements.articleContent.innerHTML = 
+            this.elements.articleContent.innerHTML =
                 '<p style="color:#95a5a6; text-align:center; padding: 50px 20px;">本题无阅读材料</p>';
         }
 
@@ -496,7 +632,7 @@ const App = {
      */
     renderSubjectiveQuestion(q) {
         const savedAnswer = StorageManager.getAnswer(q.id);
-        
+
         this.elements.optionsDiv.innerHTML = `
             <div class="subjective-input">
                 <textarea id="subjectiveAnswer" placeholder="请在此输入你的答案..." 
@@ -583,7 +719,7 @@ const App = {
             try {
                 const referenceAnswer = q.reference_answer || q.analysis_raw || '';
                 const result = await GeminiService.scoreTranslation(q.text, referenceAnswer, userAnswer);
-                
+
                 this.elements.feedback.innerHTML = `
                     <div class="feedback-content feedback-correct">
                         <h4>🤖 AI 批改结果</h4>
@@ -627,12 +763,12 @@ const App = {
      */
     selectOption(key) {
         const q = this.allQuestions[this.currentQuestionIndex];
-        
+
         // 考试模式：只记录选择，不判断对错
         if (this.examMode === 'exam' && !this.isSubmitted) {
             // 临时记录答案（不判断对错）
             StorageManager.recordPendingAnswer(q.id, key);
-            
+
             // 更新按钮状态 - 只显示选中状态
             document.querySelectorAll('.option-btn').forEach(btn => {
                 btn.classList.remove('selected');
@@ -640,15 +776,15 @@ const App = {
                     btn.classList.add('selected');
                 }
             });
-            
+
             // 启用下一题按钮
             this.elements.nextBtn.disabled = false;
             this.updateAnsweredCount();
-            
+
             // 可以继续修改，不锁定
             return;
         }
-        
+
         // 练习模式或已提交：立即判断
         const isCorrect = key === q.correct_answer;
 
@@ -661,30 +797,25 @@ const App = {
             StorageManager.addExp(10);
             UIEffects.onCorrectAnswer();
             UIEffects.animateEXPIncrease();
-            // Live2D 反应
-            if (typeof Live2DManager !== 'undefined') {
-                Live2DManager.onCorrect();
-            }
         } else {
             // 答错
             StorageManager.recordWrong();
             const hp = StorageManager.decreaseHP(10);
             UIEffects.onWrongAnswer();
             UIEffects.animateHPDecrease();
-            // Live2D 反应
-            if (typeof Live2DManager !== 'undefined') {
-                Live2DManager.onWrong();
-            }
 
             // 检查游戏结束
             if (hp <= 0) {
                 setTimeout(() => {
                     UIEffects.onGameOver();
-                    if (typeof Live2DManager !== 'undefined') {
-                        Live2DManager.onGameOver();
-                    }
                 }, 500);
             }
+        }
+
+        // Live2D 反应 (通用)
+        if (typeof Live2DManager !== 'undefined') {
+            if (isCorrect) Live2DManager.onCorrect();
+            else Live2DManager.onWrong();
         }
 
         // 更新按钮状态
@@ -697,8 +828,27 @@ const App = {
             }
         });
 
-        this.showFeedback(q, key);
-        this.elements.nextBtn.disabled = false;
+        // 剧情模式反馈 vs 普通模式反馈
+        if (this.examMode === 'story') {
+            UIEffects.handleStoryFeedback(isCorrect, q);
+            // 剧情模式下，也可以延迟显示常规反馈作为补充，或者不显示
+            // 这里选择不显示常规 feedback，完全依赖对话框
+            this.elements.feedback.classList.remove('show');
+
+            // CRITICAL FIX: Ensure next button is enabled even if dialog fails
+            // This prevents navigation lockup
+            setTimeout(() => {
+                this.elements.nextBtn.disabled = false;
+                this.elements.nextBtn.classList.add('pulse-hint'); // Visual cue
+            }, 500);
+        } else {
+            this.showFeedback(q, key);
+        }
+
+        // In non-story modes, enable immediately
+        if (this.examMode !== 'story') {
+            this.elements.nextBtn.disabled = false;
+        }
     },
 
     /**
@@ -707,7 +857,7 @@ const App = {
     showFeedback(q, userAnswer) {
         const isCorrect = userAnswer === q.correct_answer || userAnswer === 'VIEWED';
         const pdfInfo = this.getPDFPageForQuestion(q.id);
-        
+
         // 显示解析面板按钮
         let analysisButton = '';
         if (pdfInfo) {
@@ -717,7 +867,7 @@ const App = {
                 </button>
             `;
         }
-        
+
         this.elements.feedback.classList.add('show');
         this.elements.feedback.innerHTML = `
             <div class="feedback-content ${isCorrect ? 'feedback-correct' : 'feedback-wrong'}">
@@ -730,7 +880,7 @@ const App = {
             </div>
         `;
     },
-    
+
     /**
      * 显示解析面板
      */
@@ -738,21 +888,21 @@ const App = {
         const panel = document.getElementById('analysis-panel');
         const container = document.querySelector('.exam-container');
         const pdfInfo = this.getPDFPageForQuestion(questionId);
-        
+
         if (!panel || !pdfInfo) return;
-        
+
         // 显示面板
         panel.style.display = 'flex';
         container.classList.add('with-analysis');
-        
+
         // 加载 PDF
         const pdfUrl = `assets/pdf/${encodeURIComponent(pdfInfo.pdf)}#page=${pdfInfo.page}`;
         const pdfViewer = document.getElementById('pdf-viewer');
         pdfViewer.src = pdfUrl;
-        
+
         // 切换到 PDF 标签
         this.switchAnalysisTab('pdf');
-        
+
         // 重置 AI 解析区域
         document.getElementById('ai-analysis-area').innerHTML = `
             <p class="analysis-placeholder">点击下方按钮获取 AI 详细解析</p>
@@ -761,7 +911,7 @@ const App = {
             </button>
         `;
     },
-    
+
     /**
      * 切换解析标签页
      */
@@ -770,33 +920,33 @@ const App = {
         document.querySelectorAll('.analysis-tab').forEach(t => {
             t.classList.toggle('active', t.dataset.tab === tab);
         });
-        
+
         // 显示对应内容
         document.getElementById('pdf-analysis-content').style.display = tab === 'pdf' ? 'block' : 'none';
         document.getElementById('ai-analysis-content').style.display = tab === 'ai' ? 'block' : 'none';
     },
-    
+
     /**
      * 关闭解析面板
      */
     toggleAnalysisPanel() {
         const panel = document.getElementById('analysis-panel');
         const container = document.querySelector('.exam-container');
-        
+
         panel.style.display = 'none';
         container.classList.remove('with-analysis');
-        
+
         // 清空 PDF viewer
         document.getElementById('pdf-viewer').src = '';
     },
-    
+
     /**
      * 获取 AI 解析缓存 key
      */
     getAICacheKey(questionId) {
         return `ai_analysis_${this.currentYear}_${questionId}`;
     },
-    
+
     /**
      * 从缓存获取 AI 解析
      */
@@ -812,7 +962,7 @@ const App = {
         }
         return null;
     },
-    
+
     /**
      * 保存 AI 解析到缓存
      */
@@ -824,17 +974,17 @@ const App = {
         };
         localStorage.setItem(key, JSON.stringify(data));
     },
-    
+
     /**
      * 获取 AI 解析
      */
     async getAIAnalysis() {
         const q = this.allQuestions[this.currentQuestionIndex];
         if (!q) return;
-        
+
         const aiArea = document.getElementById('ai-analysis-area');
         if (!aiArea) return;
-        
+
         // 先检查缓存
         const cached = this.getCachedAIAnalysis(q.id);
         if (cached) {
@@ -852,7 +1002,7 @@ const App = {
             `;
             return;
         }
-        
+
         // 检查 AI 是否配置
         if (!GeminiService.isConfigured()) {
             aiArea.innerHTML = `
@@ -862,7 +1012,7 @@ const App = {
             `;
             return;
         }
-        
+
         // 显示加载状态
         aiArea.innerHTML = `
             <div class="ai-response loading">
@@ -870,17 +1020,17 @@ const App = {
                 <span>AI 正在分析...</span>
             </div>
         `;
-        
+
         try {
             // 构建提问内容
-            const questionContext = q.article?.length > 0 
-                ? `文章内容:\n${q.article.join('\n')}\n\n题目: ${q.text}` 
+            const questionContext = q.article?.length > 0
+                ? `文章内容:\n${q.article.join('\n')}\n\n题目: ${q.text}`
                 : `题目: ${q.text}`;
-            
-            const optionsText = q.options 
+
+            const optionsText = q.options
                 ? Object.entries(q.options).map(([k, v]) => `${k}. ${v}`).join('\n')
                 : '';
-            
+
             const prompt = `请详细解释这道考研英语题目：
 
 ${questionContext}
@@ -897,10 +1047,10 @@ ${optionsText}
 4. 解题技巧`;
 
             const response = await GeminiService.askQuestion(prompt);
-            
+
             // 保存到缓存
             this.saveAIAnalysisToCache(q.id, response);
-            
+
             const cacheDate = new Date().toLocaleString('zh-CN');
             aiArea.innerHTML = `
                 <div class="ai-response">
@@ -924,18 +1074,18 @@ ${optionsText}
             `;
         }
     },
-    
+
     /**
      * 强制刷新 AI 解析（忽略缓存）
      */
     async refreshAIAnalysis() {
         const q = this.allQuestions[this.currentQuestionIndex];
         if (!q) return;
-        
+
         // 删除缓存
         const key = this.getAICacheKey(q.id);
         localStorage.removeItem(key);
-        
+
         // 重新获取
         await this.getAIAnalysis();
     },
@@ -948,7 +1098,7 @@ ${optionsText}
     openQuestionSelector() {
         const overlay = document.getElementById('question-selector-overlay');
         const content = document.getElementById('question-selector-content');
-        
+
         if (!overlay || !content) return;
 
         // 按 Section 分组题目
@@ -1009,7 +1159,7 @@ ${optionsText}
      */
     closeQuestionSelector(event) {
         if (event && event.target !== event.currentTarget) return;
-        
+
         const overlay = document.getElementById('question-selector-overlay');
         overlay?.classList.remove('show');
     },
@@ -1033,7 +1183,7 @@ ${optionsText}
         const pending = StorageManager.getPendingAnswers();
         const gameData = StorageManager.getGameData();
         const answers = gameData ? gameData.answers : {};
-        
+
         // Count unique answered questions
         const answeredIds = new Set([...Object.keys(pending), ...Object.keys(answers)]);
         this.elements.answeredCount.textContent = answeredIds.size;
@@ -1045,17 +1195,17 @@ ${optionsText}
     updateNavButtons(q) {
         const savedAnswer = StorageManager.getAnswer(q.id);
         const pendingAnswer = StorageManager.getPendingAnswer(q.id);
-        
+
         this.elements.prevBtn.disabled = this.currentQuestionIndex === 0;
-        
+
         // 考试模式：有待提交答案或无选项题目可继续
         // 练习模式：有已保存答案可继续
-        const canProceed = this.examMode === 'exam' 
+        const canProceed = this.examMode === 'exam'
             ? (pendingAnswer || !q.options || Object.keys(q.options).length === 0)
             : (savedAnswer || !q.options || Object.keys(q.options).length === 0);
-        
+
         this.elements.nextBtn.disabled = !canProceed;
-        
+
         // 最后一题显示"提交"或"完成"
         if (this.currentQuestionIndex === this.allQuestions.length - 1) {
             this.elements.nextBtn.textContent = this.examMode === 'exam' && !this.isSubmitted ? '提交考试' : '完成';
@@ -1090,7 +1240,7 @@ ${optionsText}
             }
         }
     },
-    
+
     /**
      * 确认提交考试
      */
@@ -1099,34 +1249,34 @@ ${optionsText}
         const answeredCount = Object.keys(pendingAnswers).length;
         const totalCount = this.allQuestions.filter(q => q.options).length;
         const unansweredCount = totalCount - answeredCount;
-        
+
         let message = `确定要提交考试吗？\n\n已答：${answeredCount} 题`;
         if (unansweredCount > 0) {
             message += `\n未答：${unansweredCount} 题`;
         }
-        
+
         if (confirm(message)) {
             this.submitExam();
         }
     },
-    
+
     /**
      * 提交考试并评分
      */
     submitExam() {
         // 停止计时器
         this.stopTimer();
-        
+
         this.isSubmitted = true;
         const pendingAnswers = StorageManager.getPendingAnswers();
-        
+
         let correctCount = 0;
         let wrongCount = 0;
-        
+
         // 遍历所有题目进行评分
         this.allQuestions.forEach(q => {
             if (!q.options) return; // 跳过主观题
-            
+
             const userAnswer = pendingAnswers[q.id];
             if (!userAnswer) {
                 // 未作答视为错误
@@ -1134,10 +1284,10 @@ ${optionsText}
                 wrongCount++;
                 return;
             }
-            
+
             const isCorrect = userAnswer === q.correct_answer;
             StorageManager.recordAnswer(q.id, userAnswer, isCorrect);
-            
+
             if (isCorrect) {
                 correctCount++;
                 StorageManager.addExp(10);
@@ -1146,19 +1296,19 @@ ${optionsText}
                 StorageManager.recordWrong();
             }
         });
-        
+
         // 根据正确率扣HP
         const wrongPenalty = Math.min(wrongCount * 5, 50);
         if (wrongPenalty > 0) {
             StorageManager.decreaseHP(wrongPenalty);
         }
-        
+
         UIEffects.updateHUD();
         UIEffects.showToast(`考试已提交！正确 ${correctCount} 题，错误 ${wrongCount} 题`, 'success');
-        
+
         // 清空待提交答案
         StorageManager.clearPendingAnswers();
-        
+
         // 显示结果
         this.showResult();
     },
@@ -1168,9 +1318,9 @@ ${optionsText}
      */
     showResult() {
         this.showScreen(this.elements.resultScreen);
-        
+
         const stats = StorageManager.getStats();
-        
+
         document.getElementById('result-total').textContent = stats.totalCorrect + stats.totalWrong;
         document.getElementById('result-correct').textContent = stats.totalCorrect;
         document.getElementById('result-rate').textContent = stats.accuracy + '%';
@@ -1197,7 +1347,7 @@ ${optionsText}
      */
     reviewWrongQuestions() {
         const gameData = StorageManager.getGameData();
-        
+
         if (!gameData.wrongQuestions || gameData.wrongQuestions.length === 0) {
             UIEffects.showToast('恭喜！没有错题！', 'success');
             return;
@@ -1205,15 +1355,15 @@ ${optionsText}
 
         // 只显示错题
         this.isReviewMode = true;
-        this.allQuestions = this.allQuestions.filter(q => 
+        this.allQuestions = this.allQuestions.filter(q =>
             gameData.wrongQuestions.includes(q.id)
         );
         this.currentQuestionIndex = 0;
         this.elements.totalQ.textContent = this.allQuestions.length;
-        
+
         // 清除这些题的答案记录
         StorageManager.clearAnswers();
-        
+
         this.showScreen(this.elements.examScreen);
         this.showQuestion();
     },
@@ -1240,7 +1390,7 @@ ${optionsText}
                 return;
             }
         }
-        
+
         if (!this.elements.examScreen?.classList.contains('active')) return;
 
         // J 键打开题目选择器
@@ -1303,9 +1453,9 @@ ${optionsText}
 
         e.target.value = '';
     },
-    
+
     // ==================== 计时器功能 ====================
-    
+
     /**
      * 启动计时器
      */
@@ -1313,14 +1463,14 @@ ${optionsText}
         this.examStartTime = Date.now();
         this.examElapsedSeconds = 0;
         this.updateTimerDisplay();
-        
+
         // 每秒更新一次
         this.examTimer = setInterval(() => {
             this.examElapsedSeconds = Math.floor((Date.now() - this.examStartTime) / 1000);
             this.updateTimerDisplay();
         }, 1000);
     },
-    
+
     /**
      * 停止计时器
      */
@@ -1330,21 +1480,21 @@ ${optionsText}
             this.examTimer = null;
         }
     },
-    
+
     /**
      * 更新计时器显示
      */
     updateTimerDisplay() {
         const timerEl = document.getElementById('exam-timer');
         if (!timerEl) return;
-        
+
         const minutes = Math.floor(this.examElapsedSeconds / 60);
         const seconds = this.examElapsedSeconds % 60;
         timerEl.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
     },
-    
+
     // ==================== 图片功能 ====================
-    
+
     /**
      * 放大图片
      */
@@ -1355,12 +1505,12 @@ ${optionsText}
         modal.innerHTML = `
             <img src="${imageSrc}" alt="放大图片" />
         `;
-        
+
         // 点击关闭
         modal.addEventListener('click', () => {
             modal.remove();
         });
-        
+
         // ESC 键关闭
         const escHandler = (e) => {
             if (e.key === 'Escape') {
@@ -1369,8 +1519,201 @@ ${optionsText}
             }
         };
         document.addEventListener('keydown', escHandler);
-        
+
         document.body.appendChild(modal);
+    },
+
+    // ==================== Save/Load System ====================
+
+    /**
+     * Open save/load panel
+     */
+    async openSavePanel() {
+        const panel = document.getElementById('save-panel-overlay');
+        panel.classList.add('active');
+        await this.refreshSaveSlots();
+    },
+
+    /**
+     * Close save panel
+     */
+    closeSavePanel(event) {
+        // Only close if clicking overlay (not the panel itself)
+        if (event && event.target.id !== 'save-panel-overlay') return;
+        document.getElementById('save-panel-overlay').classList.remove('active');
+    },
+
+    /**
+     * Switch between save and load tabs
+     */
+    switchSaveTab(tab) {
+        document.querySelectorAll('.save-tab').forEach(t => {
+            t.classList.toggle('active', t.dataset.tab === tab);
+        });
+
+        // For auto-save slot, disable click in save mode
+        const autoSlot = document.querySelector('.save-slot.auto-save');
+        if (tab === 'save') {
+            autoSlot.style.opacity = '0.5';
+            autoSlot.style.pointerEvents = 'none';
+        } else {
+            autoSlot.style.opacity = '1';
+            autoSlot.style.pointerEvents = 'auto';
+        }
+    },
+
+    /**
+     * Refresh all save slot previews
+     */
+    async refreshSaveSlots() {
+        try {
+            const saves = await StorageManager.listSaveSlots();
+
+            for (let i = 0; i <= 5; i++) {
+                const slot = saves.find(s => s.slotId === i);
+                const timeEl = document.getElementById(`slot-${i}-time`);
+                const previewEl = document.getElementById(`slot-${i}-preview`);
+
+                if (slot && timeEl && previewEl) {
+                    const meta = slot.metadata || {};
+                    const date = new Date(slot.timestamp);
+                    timeEl.textContent = date.toLocaleString('zh-CN', {
+                        month: '2-digit',
+                        day: '2-digit',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+
+                    const modeText = meta.examMode === 'story' ? '剧情模式' :
+                        meta.examMode === 'exam' ? '考试模式' : '练习模式';
+
+                    previewEl.innerHTML = `
+                        <p><strong>进度:</strong> ${meta.questionProgress || '?'}</p>
+                        <p><strong>模式:</strong> ${modeText}</p>
+                        <p><strong>等级:</strong> Lv.${meta.level || 1} | HP: ${meta.hp || 100}</p>
+                    `;
+                } else if (timeEl && previewEl) {
+                    timeEl.textContent = '空';
+                    previewEl.innerHTML = '<p class="slot-empty">空存档位</p>';
+                }
+            }
+        } catch (e) {
+            console.error('[App] Refresh save slots failed:', e);
+        }
+    },
+
+    /**
+     * Handle slot click (save or load based on active tab)
+     */
+    async handleSlotClick(slotId) {
+        const activeTab = document.querySelector('.save-tab.active').dataset.tab;
+
+        // Don't allow saving to auto-save slot manually
+        if (activeTab === 'save' && slotId === 0) {
+            UIEffects.showToast('自动存档位仅用于自动保存', 'warning');
+            return;
+        }
+
+        if (activeTab === 'save') {
+            // Manual save
+            const confirm = window.confirm(`确定要保存到存档 #${slotId} 吗？`);
+            if (confirm) {
+                const gameData = StorageManager.getGameData();
+                gameData.currentQuestionIndex = this.currentQuestionIndex;
+                gameData.examMode = this.examMode;
+                gameData.currentYear = this.currentYear;
+                gameData.selectedYears = this.selectedYears; // Save multi-year selection
+                gameData.totalQuestions = this.allQuestions.length;
+
+                const success = await StorageManager.saveToBackend(slotId, gameData);
+                if (success) {
+                    await this.refreshSaveSlots();
+                    UIEffects.showToast(`已保存到存档 #${slotId}`, 'success');
+                } else {
+                    UIEffects.showToast('保存失败', 'error');
+                }
+            }
+        } else {
+            // Load
+            const confirm = window.confirm(`确定要读取存档 #${slotId} 吗？当前进度未保存将丢失！`);
+            if (confirm) {
+                const data = await StorageManager.loadFromBackend(slotId);
+                if (data) {
+                    this.currentQuestionIndex = data.currentQuestionIndex || 0;
+                    this.currentYear = data.currentYear || '2010';
+                    this.examMode = data.examMode || 'practice';
+
+                    // Restore multi-year selection
+                    if (data.selectedYears && Array.isArray(data.selectedYears)) {
+                        this.selectedYears = data.selectedYears;
+                    } else {
+                        // Fallback for old saves
+                        this.selectedYears = [this.currentYear];
+                    }
+
+                    // Update checkbox UI
+                    document.querySelectorAll('.year-checkbox-item input').forEach(cb => {
+                        cb.checked = this.selectedYears.includes(cb.value);
+                    });
+                    const countSpan = document.getElementById('selected-year-count');
+                    if (countSpan) countSpan.textContent = this.selectedYears.length;
+
+                    // Reload year data
+                    await this.loadExamData();
+
+                    // Show question or return to start
+                    if (this.currentQuestionIndex > 0) {
+                        this.showScreen(this.elements.examScreen);
+                        this.showQuestion();
+                    } else {
+                        this.showScreen(this.elements.startScreen);
+                    }
+
+                    this.closeSavePanel();
+                    UIEffects.showToast(`已读取存档 #${slotId}`, 'success');
+                    UIEffects.updateHUD();
+                } else {
+                    UIEffects.showToast('读取失败：存档不存在', 'error');
+                }
+            }
+        }
+    },
+
+    /**
+     * Auto-save to slot 0 (called every 5 questions)
+     */
+    async autoSave() {
+        try {
+            const gameData = StorageManager.getGameData();
+            gameData.currentQuestionIndex = this.currentQuestionIndex;
+            gameData.examMode = this.examMode;
+            gameData.currentYear = this.currentYear;
+            gameData.selectedYears = this.selectedYears; // Save multi-year selection
+            gameData.totalQuestions = this.allQuestions.length;
+
+            await StorageManager.saveToBackend(0, gameData);
+            console.log('[App] Auto-saved to slot 0');
+        } catch (e) {
+            console.warn('[App] Auto-save failed:', e);
+        }
+    },
+
+    /**
+     * Return to main menu (preserve progress via auto-save)
+     */
+    async returnToMainMenu() {
+        // Auto-save before leaving
+        await this.autoSave();
+
+        // Don't clear answers or reset index
+        this.showScreen(this.elements.startScreen);
+
+        // Update continue button
+        if (this.currentQuestionIndex > 0 && this.elements.continueBtn) {
+            this.elements.continueBtn.style.display = 'inline-block';
+        }
+
+        UIEffects.showToast('进度已自动保存', 'success');
     }
 };
 

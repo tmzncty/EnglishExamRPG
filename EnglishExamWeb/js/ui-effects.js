@@ -8,44 +8,69 @@ const UIEffects = {
     mascotState: 'normal', // normal | happy | sad | thinking
 
     // 看板娘台词
-    dialogues: {
-        welcome: [
-            'Master，今天也要努力学习哦！',
-            '欢迎回来！准备好刷题了吗？',
-            '加油！我相信你可以的！'
+    // 看板娘台词 (Refactored to storyScripts)
+
+    // ==================== 剧情模式脚本 ====================
+    storyScripts: {
+        start: [
+            { text: "Link Start! 神经连接正常... 全系统自检完成。", mood: "normal" },
+            { text: "欢迎回来，指挥官 (Master)！检测到前方有大量考研真题反应！", mood: "happy" },
+            { text: "本次作战目标是「完美通关」，请务必保持专注！我会一直在你身边的！", mood: "happy" }
         ],
         correct: [
-            '太棒了！答对了！✨',
-            'Master 真厉害！',
-            '正确！继续保持！',
-            '你真是太聪明了！'
+            { text: "哼，算你小子蒙对了！(눈_눈) 不过这次做得不错嘛，继续保持这个状态，别骄傲哦！(๑•̀ㅂ•́)و✧", mood: "happy" },
+            { text: "呜喵~ 居然答对了！(｡･ω･｡) 看来主人还是有在认真学习嘛~ 继续加油喵！", mood: "happy" },
+            { text: "不、不是因为我想夸你... (￣へ￣) 只是这道题你确实做对了而已！下一题也要这样哦！", mood: "normal" },
+            { text: "Nice nya~! ✧٩(ˊωˋ*)و✧ 主人这个知识点掌握得很稳呢！", mood: "happy" }
+        ],
+        correctWithTip: [
+            { text: "正确！(๑´ㅂ`๑) 这种题型要注意【上下文逻辑】，你做得很好喵~", mood: "happy", tip: "context" },
+            { text: "答对啦！(｡･ω･｡) 记住：完形填空要【瞻前顾后】，别只看空格那一句哦~", mood: "happy", tip: "cloze" },
+            { text: "Bingo nya~! (๑•̀ㅂ•́)و 阅读理解的关键是【定位原文】，你找得很准！", mood: "happy", tip: "reading" }
         ],
         wrong: [
-            '呜呜，答错了...',
-            '没关系，下次一定能答对！',
-            '别灰心，我们再想想~',
-            '这道题有点难呢...'
+            { text: "哎呀呀... 又错了喵... (｡•́︿•̀｡) 不过没关系，Mia会陪着你的！振作起来～", mood: "sad" },
+            { text: "呜... 这题有点难对吧？(｡ŏ_ŏ) 看看解析，下次肯定能做对的喵！", mood: "thinking" },
+            { text: "主、主人你是故意答错的吧！(｀ε´) 哼！下一题给我认真点！", mood: "angry" },
+            { text: "錯了喵... (´；ω；`) 但是Master已经很努力了，Mia看得到哦~ 加油！", mood: "sad" }
         ],
-        thinking: [
-            '让我想想...',
-            '这道题很有意思呢~',
-            'Master 在认真思考呢！'
-        ],
-        gameOver: [
-            '胜败乃兵家常事，大侠请重新来过！',
-            'HP 归零了！休息一下吧~',
-            '不要气馁，重新开始！'
+        wrongWithTip: [
+            { text: "错啦... (｡•́︿•̀｡) 这种题要注意【同义替换】，原文和选项用词可能不一样喵~", mood: "sad", tip: "synonym" },
+            { text: "哎呀喵~ (ó﹏ò｡) 记住：做题时要【排除干扰项】，有些选项就是来骗人的！", mood: "thinking", tip: "elimination" },
+            { text: "又掉坑里了喵... (；′⌓‵) 长难句要先找【主谓宾】，别被修饰成分迷惑了～", mood: "sad", tip: "grammar" }
         ],
         levelUp: [
-            '恭喜升级！🎉',
-            'Master 变强了！',
-            '太厉害了，升级啦！'
+            { text: "Level Up! 指挥官的能力值提升了！", mood: "happy" },
+            { text: "恭喜！解锁了新的成就称号！距离上岸又近了一步！", mood: "happy" }
         ],
-        idle: [
-            '要选哪个选项呢~',
-            '认真读题哦！',
-            '加油加油！'
-        ]
+        lowHp: [
+            { text: "警报！精神力 (HP) 低于30%！请立即调整状态！", mood: "sad" },
+            { text: "指挥官，你还好吗？不要勉强自己哦...", mood: "sad" }
+        ],
+        // AI Persona Prompt
+        systemPrompt: `You are Mia, a tsundere cat girl helping Master study English.
+
+Personality: Playful, caring but pretends not to care, uses "nya~" and cute emoticons.
+
+CRITICAL RULES:
+1. Keep replies ULTRA SHORT (under 30 characters!)
+2. ALWAYS use emoticons
+3. NEVER repeat question details or answers - Master sees them already!
+4. Only express emotions and encouragement
+5. Sound like a real tsundere catgirl
+
+Examples:
+GOOD: "Hmph! Not bad! (๑´ㅂ\`๑) Keep going nya~"
+GOOD: "Aww wrong! (｡•́︿•̀｡) Try harder!"  
+BAD: "The correct answer is B." - Too mechanical!
+
+Be Mia now!`
+    },
+
+    currentTypingInterval: null,
+    storyState: {
+        isDialogActive: false,
+        pendingCallback: null
     },
 
     // 当前气泡计时器
@@ -59,7 +84,63 @@ const UIEffects = {
         this.initTextSelection();
         this.initTooltip();
         this.initSettingsEvents();
+        if (window.DrawingBoard) {
+            DrawingBoard.init();
+        }
+        this.initDialogDrag(); // Initialize dialog dragging
         console.log('[UIEffects] 初始化完成');
+    },
+
+    // Dialog minimize/restore functions
+    minimizeDialog() {
+        document.getElementById('galgame-dialog-overlay').classList.add('hidden');
+        document.getElementById('minimized-dialog-btn').classList.remove('hidden');
+    },
+
+    restoreDialog() {
+        document.getElementById('galgame-dialog-overlay').classList.remove('hidden');
+        document.getElementById('minimized-dialog-btn').classList.add('hidden');
+    },
+
+    // Make dialog draggable
+    initDialogDrag() {
+        const dialog = document.getElementById('draggable-dialog');
+        const handle = document.querySelector('.dialog-drag-handle');
+
+        if (!dialog || !handle) return;
+
+        let isDragging = false;
+        let currentX = 0, currentY = 0; // Cumulative offset
+        let initialX, initialY;
+
+        handle.addEventListener('mousedown', (e) => {
+            if (e.target.closest('button')) return; // Don't drag when clicking buttons
+
+            isDragging = true;
+            dialog.classList.add('dragging');
+
+            initialX = e.clientX - currentX;
+            initialY = e.clientY - currentY;
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+
+            e.preventDefault();
+            const overlay = document.getElementById('galgame-dialog-overlay');
+
+            currentX = e.clientX - initialX;
+            currentY = e.clientY - initialY;
+
+            overlay.style.transform = `translate(${currentX}px, ${currentY}px)`;
+        });
+
+        document.addEventListener('mouseup', () => {
+            if (isDragging) {
+                isDragging = false;
+                dialog.classList.remove('dragging');
+            }
+        });
     },
 
     /**
@@ -153,7 +234,7 @@ const UIEffects = {
      */
     updateHUD() {
         const stats = StorageManager.getStats();
-        
+
         // 更新 HP 条
         const hpFill = document.querySelector('.stat-bar.hp .bar-fill');
         const hpValue = document.querySelector('.stat-bar.hp .value');
@@ -169,7 +250,7 @@ const UIEffects = {
         if (expFill && expValue) {
             const currentLevelExp = StorageManager.titles.find(t => t.level === stats.level)?.expRequired || 0;
             const nextLevelExp = StorageManager.titles.find(t => t.level === stats.level + 1)?.expRequired;
-            
+
             if (nextLevelExp) {
                 const progress = ((stats.exp - currentLevelExp) / (nextLevelExp - currentLevelExp)) * 100;
                 expFill.style.width = `${progress}%`;
@@ -223,11 +304,11 @@ const UIEffects = {
     playCorrectEffect() {
         // 创建星星特效
         this.createParticles('✨', 5);
-        
+
         // ACG 主题下创建 CSS 星星粒子
         if (document.body.classList.contains('acg-theme')) {
             this.createStarParticles(8);
-            
+
             // Live2D 容器弹跳动画
             const live2dContainer = document.getElementById('live2d-container');
             if (live2dContainer) {
@@ -248,7 +329,7 @@ const UIEffects = {
         setTimeout(() => {
             document.body.classList.remove('shake-animation');
         }, 500);
-        
+
         // ACG 主题下 Live2D 容器抖动
         if (document.body.classList.contains('acg-theme')) {
             const live2dContainer = document.getElementById('live2d-container');
@@ -287,7 +368,7 @@ const UIEffects = {
                 animation: particleFade 1s ease-out forwards;
             `;
             document.body.appendChild(particle);
-            
+
             setTimeout(() => particle.remove(), 1000);
         }
     },
@@ -300,27 +381,27 @@ const UIEffects = {
         const live2dContainer = document.getElementById('live2d-container');
         let centerX = window.innerWidth - 150;
         let centerY = window.innerHeight - 200;
-        
+
         if (live2dContainer) {
             const rect = live2dContainer.getBoundingClientRect();
             centerX = rect.left + rect.width / 2;
             centerY = rect.top + rect.height / 2;
         }
-        
+
         for (let i = 0; i < count; i++) {
             const star = document.createElement('div');
             star.className = 'star-particle';
-            
+
             // 随机位置偏移
             const offsetX = (Math.random() - 0.5) * 200;
             const offsetY = (Math.random() - 0.5) * 200;
-            
+
             star.style.left = `${centerX + offsetX}px`;
             star.style.top = `${centerY + offsetY}px`;
             star.style.animationDelay = `${Math.random() * 0.3}s`;
-            
+
             document.body.appendChild(star);
-            
+
             setTimeout(() => star.remove(), 1500);
         }
     },
@@ -399,7 +480,7 @@ const UIEffects = {
         if (!tooltip) return;
 
         const content = tooltip.querySelector('.ai-tooltip-content');
-        
+
         // 定位
         tooltip.style.left = `${Math.min(x, window.innerWidth - 380)}px`;
         tooltip.style.top = `${Math.min(y + 20, window.innerHeight - 300)}px`;
@@ -556,6 +637,23 @@ const UIEffects = {
         if (mascotToggle) {
             mascotToggle.checked = settings?.showMascot !== false;
         }
+
+        // AI 设置加载
+        const aiSaved = JSON.parse(localStorage.getItem('ai_settings') || '{}');
+        const providerSelect = document.getElementById('aiProvider');
+        if (providerSelect) {
+            providerSelect.value = aiSaved.provider || 'gemini';
+            this.toggleAIProviderFields(); // 触发显示刷新
+        }
+
+        // Gemini Key
+        // reused apiKeyInput from above
+        if (apiKeyInput) apiKeyInput.value = (aiSaved.provider === 'gemini' ? aiSaved.apiKey : StorageManager.getApiKey()) || '';
+
+        // OpenAI Fields
+        if (aiSaved.openaiBaseUrl) document.getElementById('openaiBaseUrl').value = aiSaved.openaiBaseUrl;
+        if (aiSaved.openaiModel) document.getElementById('openaiModel').value = aiSaved.openaiModel;
+        if (aiSaved.provider === 'openai' && aiSaved.apiKey) document.getElementById('openaiApiKey').value = aiSaved.apiKey;
     },
 
     /**
@@ -578,7 +676,7 @@ const UIEffects = {
         const webdavUrl = document.getElementById('webdavUrl')?.value.trim();
         const webdavUser = document.getElementById('webdavUser')?.value.trim();
         const webdavPassword = document.getElementById('webdavPassword')?.value.trim();
-        
+
         if (webdavUrl) {
             StorageManager.saveWebDAVConfig({
                 url: webdavUrl,
@@ -586,6 +684,33 @@ const UIEffects = {
                 password: webdavPassword
             });
         }
+
+        // 保存 AI 设置
+        const provider = document.getElementById('aiProvider')?.value;
+        const geminiKey = document.getElementById('apiKeyInput')?.value;
+        const openaiUrl = document.getElementById('openaiBaseUrl')?.value;
+        const openaiKey = document.getElementById('openaiApiKey')?.value;
+        const openaiModel = document.getElementById('openaiModel')?.value;
+
+        // 如果是 Gemini 模式，优先保存 Key 到旧版位置以兼容
+        if (provider === 'gemini' && geminiKey) {
+            StorageManager.saveApiKey(geminiKey);
+        }
+
+        // 保存完整 AI 配置到 LocalStorage (需要 StorageManager 支持，这里直接用 LS 暂存或后续添加)
+        // 简单处理：将配置合并保存
+        const aiSettings = {
+            provider,
+            apiKey: provider === 'gemini' ? geminiKey : openaiKey,
+            baseUrl: provider === 'gemini' ? null : openaiUrl,
+            model: provider === 'gemini' ? null : openaiModel,
+            openaiBaseUrl: openaiUrl,
+            openaiModel: openaiModel
+        };
+        // 这里需要 StorageManager.saveAISettings，暂时没有，手动存一下
+        localStorage.setItem('ai_settings', JSON.stringify(aiSettings));
+        // 重新注入到 Service
+        // GeminiService.loadConfig() ? Service 会在每次调用 config时读取
 
         // 保存其他设置
         const themeSelect = document.getElementById('themeSelect');
@@ -612,6 +737,215 @@ const UIEffects = {
         } else {
             document.body.classList.remove('acg-theme');
         }
+    },
+
+    // ==================== 剧情模式逻辑 ====================
+
+    /**
+     * 启动剧情模式
+     */
+    startStoryMode() {
+        const overlay = document.getElementById('galgame-dialog-overlay');
+        overlay.classList.remove('hidden');
+        this.playStorySequence(this.storyScripts.start);
+    },
+
+    /**
+     * 处理剧情模式反馈（新版 - 使用预生成数据库剧情）
+     */
+    async handleStoryFeedback(isCorrect, question) {
+        const overlay = document.getElementById('galgame-dialog-overlay');
+        overlay.classList.remove('hidden');
+
+        // 尝试从数据库获取预生成的剧情
+        if (window.StoryService && question.id && question.year) {
+            const story = await StoryService.getStory(
+                question.id,
+                question.year,
+                isCorrect,
+                'cn'  // 默认中文，可以根据设置切换
+            );
+
+            if (story) {
+                // 使用数据库剧情
+                const mood = isCorrect ? 'happy' : 'sad';
+                this.showStoryDialog(story, mood, () => { });
+                return;
+            }
+        }
+
+        // Fallback：使用静态剧情
+        const useTip = Math.random() < 0.3;
+        const scriptPool = isCorrect
+            ? (useTip && this.storyScripts.correctWithTip ? this.storyScripts.correctWithTip : this.storyScripts.correct)
+            : (useTip && this.storyScripts.wrongWithTip ? this.storyScripts.wrongWithTip : this.storyScripts.wrong);
+
+        const randomScript = scriptPool[Math.floor(Math.random() * scriptPool.length)];
+        this.showStoryDialog(randomScript.text, randomScript.mood, () => { });
+    },
+
+    playStaticStoryFeedback(isCorrect, question) {
+        // 随机选择一句台词 (原有逻辑)
+        const scriptPool = isCorrect ? this.storyScripts.correct : this.storyScripts.wrong;
+        const randomScript = scriptPool[Math.floor(Math.random() * scriptPool.length)];
+
+        let finalText = randomScript.text;
+        if (!isCorrect) {
+            finalText += `\n虽然答错了，但只要记住正确答案是 ${question.correct_answer} 就好啦。`;
+            if (question.analysis_raw) {
+                finalText += ` (AI提示: ${question.analysis_raw.substring(0, 30)}...)`;
+            }
+        }
+        this.showStoryDialog(finalText, randomScript.mood, () => { });
+    },
+
+    async generateAIStoryFeedback(isCorrect, question) {
+        try {
+            const context = `
+题目：${question.question_text || '无题面'}
+正确答案：${question.correct_answer}
+用户的选择：${isCorrect ? '正确' : '错误'}
+题目解析摘要：${(question.analysis_raw || '').substring(0, 100)}
+            `;
+
+            const prompt = `${this.storyScripts.systemPrompt}
+当前情况：用户${isCorrect ? '做对了！夸奖他，并鼓励继续保持。' : '做错了。安慰他，并根据解析给出一点点提示(不要太长)。'}
+上下文：${context}
+请直接以角色口吻回复：`;
+
+            // 显示 "思考中..."
+            this.showStoryDialog('AI 正在思考中...', 'thinking', null);
+
+            const response = await GeminiService.callAPI(prompt);
+            return response;
+        } catch (e) {
+            console.error('AI Story Feedback Failed:', e);
+            return null;
+        }
+    },
+
+    /**
+     * 播放一连串剧情
+     */
+    async playStorySequence(scripts) {
+        for (const script of scripts) {
+            await new Promise(resolve => {
+                this.showStoryDialog(script.text, script.mood, resolve);
+            });
+        }
+    },
+
+    /**
+     * 显示单条剧情对话
+     */
+    showStoryDialog(text, mood, callback) {
+        const overlay = document.getElementById('galgame-dialog-overlay');
+        if (!overlay) {
+            console.error('[UIEffects] galgame-dialog-overlay not found');
+            if (callback) callback();
+            return;
+        }
+
+        const dialogBox = document.querySelector('.galgame-dialog-box');
+        const nameTag = document.getElementById('dialog-name');
+        const contentDiv = document.getElementById('dialog-text');
+        const nextIndicator = overlay.querySelector('.dialog-next-indicator');
+
+        if (!contentDiv) {
+            console.error('[UIEffects] dialog-text element not found');
+            if (callback) callback();
+            return;
+        }
+
+        // 更新状态
+        this.storyState.isDialogActive = true;
+        this.storyState.pendingCallback = callback;
+
+        // Update name tag if exists
+        if (nameTag) {
+            nameTag.textContent = 'Mia 喵~'; // Catgirl name
+        }
+
+        // Add mood class to dialog box for animations
+        if (dialogBox) {
+            dialogBox.className = 'galgame-dialog-box compact mood-' + (mood || 'normal');
+        }
+
+        // CRITICAL: Force overlay to be visible
+        overlay.classList.remove('hidden');
+        overlay.style.display = 'block';
+
+        // 打字机效果
+        this.typeWriter(text, contentDiv, () => {
+            // 打字完成，显示继续箭头
+            if (nextIndicator) {
+                nextIndicator.style.display = 'block';
+            }
+
+            // 绑定点击继续事件
+            const nextHandler = () => {
+                if (dialogBox) {
+                    dialogBox.removeEventListener('click', nextHandler);
+                }
+
+                // 如果还有回调，执行回调
+                if (this.storyState.pendingCallback) {
+                    const cb = this.storyState.pendingCallback;
+                    this.storyState.pendingCallback = null;
+                    this.storyState.isDialogActive = false;
+                    cb();
+                }
+
+                // Enable next question button as failsafe
+                const nextBtn = document.getElementById('next-btn');
+                if (nextBtn) {
+                    nextBtn.disabled = false;
+                }
+            };
+
+            if (dialogBox) {
+                dialogBox.addEventListener('click', nextHandler);
+            }
+        });
+    },
+
+    /**
+     * 打字机效果工具
+     */
+    typeWriter(text, element, onComplete) {
+        if (this.currentTypingInterval) clearInterval(this.currentTypingInterval);
+
+        element.innerHTML = ''; // 清空
+        const cursor = document.querySelector('.dialog-next-indicator');
+        if (cursor) cursor.style.display = 'none'; // 隐藏继续箭头
+
+        let i = 0;
+        const speed = 30; // ms per char
+
+        this.currentTypingInterval = setInterval(() => {
+            if (i < text.length) {
+                element.textContent += text.charAt(i);
+                i++;
+            } else {
+                clearInterval(this.currentTypingInterval);
+                this.currentTypingInterval = null;
+                if (onComplete) onComplete();
+            }
+        }, speed);
+
+        // 点击加速完成
+        const skipHandler = () => {
+            if (this.currentTypingInterval) {
+                clearInterval(this.currentTypingInterval);
+                this.currentTypingInterval = null;
+                element.textContent = text;
+                element.removeEventListener('click', skipHandler); // 移除监听，避免误触下一句
+                if (onComplete) onComplete();
+            }
+        };
+        // 绑定到 document 或 dialogBox，需要注意冒泡和事件解绑较为复杂
+        // 这里简化：只有打字时点击才会直接显示全文字
+        // 由于上面 showStoryDialog 也绑定了 click，可能会冲突，所以这里暂时不加点击加速，或者小心处理
     },
 
     /**
@@ -644,6 +978,68 @@ const UIEffects = {
             toast.style.animation = 'fadeOut 0.3s ease forwards';
             setTimeout(() => toast.remove(), 300);
         }, 3000);
+    },
+
+    // ==================== 新增 UI 交互 ====================
+
+    toggleStoryCharacter() {
+        const overlay = document.getElementById('galgame-dialog-overlay');
+        const btn = document.querySelector('.dialog-header-tools .btn-icon-small i');
+        if (overlay) {
+            overlay.classList.toggle('char-hidden');
+            if (overlay.classList.contains('char-hidden')) {
+                btn.className = 'ph-bold ph-eye';
+            } else {
+                btn.className = 'ph-bold ph-eye-slash';
+            }
+        }
+    },
+
+    toggleAIProviderFields() {
+        const provider = document.getElementById('aiProvider').value;
+        const geminiFields = document.getElementById('geminiFields');
+        const openaiFields = document.getElementById('openaiFields');
+
+        if (provider === 'gemini') {
+            geminiFields.style.display = 'block';
+            openaiFields.style.display = 'none';
+        } else {
+            geminiFields.style.display = 'none';
+            openaiFields.style.display = 'block';
+        }
+    },
+
+    async testAIConnection() {
+        const provider = document.getElementById('aiProvider').value;
+        let config = {};
+
+        if (provider === 'gemini') {
+            config = {
+                provider: 'gemini',
+                apiKey: document.getElementById('apiKeyInput').value
+            };
+        } else {
+            config = {
+                provider: 'openai',
+                apiKey: document.getElementById('openaiApiKey').value,
+                openaiBaseUrl: document.getElementById('openaiBaseUrl').value,
+                openaiModel: document.getElementById('openaiModel').value
+            };
+        }
+
+        if (!config.apiKey) {
+            this.showToast('请填写 API Key', 'warning');
+            return;
+        }
+
+        this.showToast('正在测试连接...', 'info');
+        const result = await GeminiService.testConnection(config);
+
+        if (result.success) {
+            this.showToast(result.message, 'success');
+        } else {
+            this.showToast('连接失败: ' + result.message, 'error');
+        }
     }
 };
 
