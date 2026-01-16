@@ -1,7 +1,7 @@
 # English Exam RPG & VocabWeb (ACG & AI Enhanced)
 
-> **Version 3.0** 🎭  
-> 考研英语学习 + **AI Galgame剧情系统** + ACG游戏化体验
+> **Version 3.1** 🎭✨  
+> 考研英语学习 + **完整双语AI剧情库** (831题) + ACG游戏化体验
 
 本项目包含两大核心系统：
 1. **EnglishExamWeb** - 真题练习与解析系统
@@ -453,6 +453,33 @@ db.save();
 **推荐方法（最简单）**：
 1. 在电脑上打开 VocabWeb，配置 API Key 并保存
 ## 📝 更新日志
+
+### v3.1 (2026-01-16) - Complete Bilingual Story Database 🎊
+
+**重磅完成**：
+*   🎊 **完整剧情库**: 831道题目的双语Galgame剧情
+    - 覆盖2010-2025所有年份
+    - 每题4个版本（中英×答对答错）
+    - 总计3,324篇剧情对话
+*   📦 **预生成资源**: data/stories.json (2.5 MB)
+    - Clone即用，无需API Key
+    - 零token成本
+    - 离线访问
+*   🔧 **生成工具链**:
+    - batch_generate_concurrent.py (16路并发)
+    - check_quality.py (质量验证)
+    - fix_problems.py (选择性重新生成)
+    - export_stories.py (JSON导出)
+*   ✅ **质量保证**:
+    - 自动质量检查系统
+    - 只重新生成有问题的2题
+    - 100%合格率
+
+**技术亮点**：
+- 16路并发API调用
+- VectorEngine Gemini + DeepSeek-V3.2
+- 智能重试和错误处理
+- Token优化策略
 
 ### v3.0 (2026-01-15) - AI Galgame Story System 🎭
 
