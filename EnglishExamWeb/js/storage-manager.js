@@ -397,7 +397,7 @@ const StorageManager = {
     addVocabulary(word, meaning, context) {
         const data = this.getGameData();
         const exists = data.vocabulary.find(v => v.word.toLowerCase() === word.toLowerCase());
-        
+
         if (!exists) {
             data.vocabulary.push({
                 word,
@@ -441,16 +441,16 @@ const StorageManager = {
             settings: this.getSettings()
             // 注意：不导出 API Key
         };
-        
+
         const jsonString = JSON.stringify(exportData, null, 2);
         const blob = new Blob([jsonString], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
-        
+
         const a = document.createElement('a');
         a.href = url;
         a.download = `english_exam_save_${new Date().toISOString().split('T')[0]}.json`;
         a.click();
-        
+
         URL.revokeObjectURL(url);
         return jsonString;
     },
@@ -461,11 +461,11 @@ const StorageManager = {
     async importSave(file) {
         return new Promise((resolve, reject) => {
             const reader = new FileReader();
-            
+
             reader.onload = (e) => {
                 try {
                     const data = JSON.parse(e.target.result);
-                    
+
                     if (!data.version || !data.gameData) {
                         reject(new Error('无效的存档文件'));
                         return;
@@ -515,7 +515,7 @@ const StorageManager = {
     importSaveFromText(text) {
         try {
             const data = JSON.parse(text);
-            
+
             if (!data.version || !data.gameData) {
                 return { success: false, message: '无效的存档数据' };
             }
@@ -604,7 +604,7 @@ const StorageManager = {
         }
 
         const data = await response.json();
-        
+
         if (data.gameData) this.saveGameData(data.gameData);
         if (data.settings) this.saveSettings(data.settings);
         if (data.answersHistory) localStorage.setItem(this.KEYS.ANSWERS_HISTORY, data.answersHistory);
@@ -624,12 +624,12 @@ const StorageManager = {
             answersHistory: localStorage.getItem(this.KEYS.ANSWERS_HISTORY),
             vocabulary: localStorage.getItem(this.KEYS.VOCABULARY)
         };
-        
+
         const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `english_exam_rpg_save_${new Date().toISOString().slice(0,10)}.json`;
+        a.download = `english_exam_rpg_save_${new Date().toISOString().slice(0, 10)}.json`;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
@@ -680,6 +680,112 @@ const StorageManager = {
             vocabularyCount: data.vocabulary.length,
             notesCount: Object.keys(data.notes).length
         };
+    },
+
+    // ==================== Backend Save/Load (SQLite) ====================
+
+    /**
+     * Save game data to backend (SQLite)
+     * @param {number} slotId - 0 = auto-save, 1-5 = manual slots
+     * @param {object} customData - optional override for game data
+     */
+    async saveToBackend(slotId = 0, customData = null) {
+        try {
+            const dataToSave = customData || this.getGameData();
+
+            // Add metadata for UI preview
+            const saveData = {
+                ...dataToSave,
+                saveMetadata: {
+                    slotId,
+                    timestamp: new Date().toISOString(),
+                    questionProgress: `${(dataToSave.currentQuestionIndex || 0) + 1}/${dataToSave.totalQuestions || '?'}`,
+                    examMode: dataToSave.examMode || 'unknown',
+                    selectedYears: dataToSave.selectedYears || [dataToSave.currentYear],
+                    level: dataToSave.level,
+                    hp: dataToSave.hp
+                }
+            };
+
+            const response = await fetch('/api/save_game', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    slot_id: slotId,
+                    data: saveData
+                })
+            });
+
+            const result = await response.json();
+            if (result.success) {
+                console.log(`[StorageManager] Saved to backend slot ${slotId}`);
+                return true;
+            }
+            throw new Error(result.message);
+        } catch (e) {
+            console.error('[StorageManager] Backend save failed:', e);
+            return false;
+        }
+    },
+
+    /**
+     * Load game data from backend
+     */
+    async loadFromBackend(slotId = 0) {
+        try {
+            const response = await fetch('/api/load_game', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ slot_id: slotId })
+            });
+
+            const result = await response.json();
+            if (result.success && result.data) {
+                // Update localStorage as cache
+                this.saveGameData(result.data);
+                console.log(`[StorageManager] Loaded from backend slot ${slotId}`);
+                return result.data;
+            }
+            return null;
+        } catch (e) {
+            console.error('[StorageManager] Backend load failed:', e);
+            return null;
+        }
+    },
+
+    /**
+     * List all save slots with metadata
+     */
+    async listSaveSlots() {
+        try {
+            const response = await fetch('/api/list_saves', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ user_id: 1 })
+            });
+
+            const result = await response.json();
+            return result.success ? result.saves : [];
+        } catch (e) {
+            console.error('[StorageManager] List saves failed:', e);
+            return [];
+        }
+    },
+
+    /**
+     * Auto-migrate localStorage to backend on first load
+     */
+    async migrateToBackend() {
+        const localData = this.getGameData();
+        if (localData && (Object.keys(localData.answers || {}).length > 0 || localData.currentQuestionIndex > 0)) {
+            console.log('[StorageManager] Migrating localStorage to backend slot #1...');
+            const success = await this.saveToBackend(1, localData);
+            if (success) {
+                console.log('[StorageManager] Migration complete');
+                return true;
+            }
+        }
+        return false;
     }
 };
 

@@ -1,7 +1,7 @@
 # English Exam RPG & VocabWeb (ACG & AI Enhanced)
 
-> **Version 3.1** 🎭✨  
-> 考研英语学习 + **完整双语AI剧情库** (831题) + ACG游戏化体验
+> **Version 2.0**  
+> 这是一个结合了 **ACG 游戏化体验** 与 **AI 辅助解析** 的考研英语全方位学习项目。
 
 本项目包含两大核心系统：
 1. **EnglishExamWeb** - 真题练习与解析系统
@@ -17,13 +17,6 @@
 
 ### 📝 EnglishExamWeb - 真题练习系统
 - ✅ 2010-2025 年完整真题
-- ✅ **AI Galgame剧情系统** 🎭 NEW in v3.0
-  - 傲娇猫娘Mia陪伴答题
-  - 上下文完整剧情（基于题目内容生成）
-  - 双语支持（中英文）
-  - 120-150字详细互动对话
-- ✅ **智能题目打乱** - 按Section打乱，保持Part完整性
-- ✅ **集成绘图模式** - 边做题边画标记，无需切换
 - ✅ 沉浸式答题体验（背景音乐、音效、动态背景）
 - ✅ AI 深度解析（划词查看单词/句子分析）
 - ✅ RPG 游戏化系统（经验值、等级、HP）
@@ -31,8 +24,6 @@
 - ✅ AI 解析本地缓存
 
 ### 📚 VocabWeb - 智能词汇系统
-- ✅ **多设备数据同步** - 手机、电脑协同学习，进度实时同步 🔄
-- ✅ **API Key 配置优化** - 电脑配置后，手机一键同步 🔑
 - ✅ 基于遗忘曲线的记忆算法（SuperMemo 2）
 - ✅ 真题例句学习（从真题中提取）
 - ✅ AI 智能讲解（Gemini 2.0 Flash）
@@ -41,7 +32,7 @@
 - ✅ 灵活每日目标（可多学不可少学）
 - ✅ 上一题回顾功能
 - ✅ AI 讲解缓存（节省 API 成本）
-- ✅ Flask 服务器支持（跨设备同步）
+- ✅ 完全本地化（SQLite 浏览器存储）
 
 ---
 
@@ -57,27 +48,19 @@
 │
 ├── VocabWeb/                # 📚 词汇学习系统
 │   ├── index.html           # 学习界面
-│   ├── server.py            # Flask 服务器（多设备同步）
-│   ├── start.bat            # Windows 一键启动
-│   ├── clear.html           # 缓存清理工具
-│   ├── test.html            # 服务器测试页面
-│   ├── test-api-key.html    # API Key 同步测试
+│   ├── import_data.html     # 数据导入工具
 │   ├── css/                 # 样式文件
 │   ├── js/                  
 │   │   ├── app.js           # 主应用逻辑
-│   │   ├── db.js            # 数据库操作（支持同步）
+│   │   ├── db.js            # 数据库操作
 │   │   ├── ai-service.js    # AI 服务集成
 │   │   └── learning-algorithm.js  # 记忆算法
 │   ├── data/                
 │   │   ├── exam_vocabulary.json    # 词汇数据
 │   │   └── vocab_prebuilt.txt      # 预构建数据库
-│   ├── fonts/               # 霞鹜文楷等宽字体
 │   ├── extract_vocab.py     # 从真题提取词汇
 │   ├── prebuild_database.py # 预构建数据库
-│   ├── README.md            # 完整使用指南
-│   ├── API_KEY_SETUP.md     # API Key 配置教程
-│   ├── CHANGELOG.md         # 更新日志
-│   └── RELEASE_NOTES_v2.1.0.md  # 发布说明
+│   └── README.md            # 详细文档
 │
 ├── scripts/                 # 🛠️ 数据处理脚本
 │   ├── pdf_to_json.py       # 核心：DOCX/PDF → JSON
@@ -100,31 +83,15 @@
 两个系统都是纯静态 Web 应用，可直接部署到任何静态服务器。
 
 **本地预览**：
-
-**真题系统**：
 ```bash
-# 在项目根目录启动简单服务器
+# 在项目根目录启动服务器
 python -m http.server 8080
 
 # 访问真题系统
 # http://localhost:8080/EnglishExamWeb/
-```
 
-**词汇系统（推荐使用 Flask 服务器）**：
-```bash
-# 进入 VocabWeb 目录
-cd VocabWeb
-
-# 安装依赖（仅需一次）
-pip install flask flask-cors
-
-# 启动服务器
-python server.py
-# 或 Windows 用户双击 start.bat
-
-# 访问应用
-# 💻 电脑: http://localhost:8080
-# 📱 手机: http://你的电脑IP:8080
+# 访问词汇系统
+# http://localhost:8080/VocabWeb/
 ```
 
 **在线部署**：
@@ -299,38 +266,31 @@ python prebuild_database.py
 
 #### 使用流程
 
-**首次使用（多设备同步模式）**：
+**首次使用**：
 ```
-1. 启动服务器
-   python server.py  (或双击 start.bat)
-
-2. 电脑端配置
-   打开 http://localhost:8080
-   设置 → 输入 API Key → 保存
-   ↓ 自动保存到服务器
-
-3. 手机端同步
-   打开 http://你的IP:8080
-   设置 → 点击"🔄 同步配置" → 完成！
+打开 VocabWeb/index.html
+    ↓
+系统自动加载预构建数据库（6131 个单词）
+    ↓
+开始学习！
 ```
 
-**日常学习（多设备协同）**：
+**日常学习**：
 ```
-早上地铁 (手机): 学习 20 词
-  ↓ 自动同步到服务器
-中午休息 (手机): 复习 10 词  
-  ↓ 自动同步
-晚上回家 (电脑): 继续学习 20 词
-  ↓
-进度完美累加: 50 词 ✅
-
-系统分配内容:
-├─ 新词（根据每日目标）
-├─ 需要复习的词（根据遗忘曲线）
-└─ 错题（自动混入，占比 20%）
+打开应用 → 系统分配今日学习内容
+    ↓
+    ├─ 新词（根据每日目标）
+    ├─ 需要复习的词（根据遗忘曲线）
+    └─ 错题（自动混入，占比 20%）
+    ↓
+查看例句 → 选择正确释义
+    ↓
+显示答案 → 点击"AI 讲解"（可选）
+    ↓
+下一题 / 上一题
+    ↓
+完成当日目标 → 查看统计
 ```
-
-详细教程：[VocabWeb/README.md](VocabWeb/README.md)
 
 #### 数据来源
 
@@ -346,33 +306,30 @@ python prebuild_database.py
 ## ⚙️ 配置说明
 
 ### EnglishExamWeb 配置
+
+在 `EnglishExamWeb/js/config.js` 中可配置：
+- Gemini API Key
+- 背景音乐路径
+- 音效开关
+- 经验值倍率
+
 ### VocabWeb 配置
 
 在应用的"设置"页面可配置：
-- **每日新词数量**：5-100 个（每个设备可单独设置）
+- **每日新词数量**：5-100 个
 - **睡眠时间**：一天结束的时间点
-- **学习提醒**：启用/禁用通知（各设备独立）
+- **学习提醒**：启用/禁用通知
 - **提醒时间**：每日提醒时间
 - **Gemini API Key**：AI 讲解功能必需
-  - 💡 电脑端配置后，手机端点击"同步配置"即可
-  - 📖 详细教程：[API_KEY_SETUP.md](VocabWeb/API_KEY_SETUP.md)
 
-在应用的"设置"页面可配置：
-- **每日新词数量**：5-100 个
+---
+
+## 🛠️ 技术栈
+
 ### 前端
 - **纯原生 JavaScript**（无框架依赖）
 - **SQL.js**：浏览器端 SQLite
 - **Fetch API**：与 Gemini API 通信
-- **LocalStorage**：本地配置存储
-- **CSS3 动画**：流畅的界面效果
-
-### 后端
-- **Flask 3.0**：跨设备同步服务器
-- **Python 3.8+**：数据处理脚本
-- **python-docx**：解析 Word 文档
-- **PyMuPDF (fitz)**：解析 PDF
-- **Pillow**：图片处理
-- **Google Generative AI**：AI 数据生成
 - **LocalStorage**：数据持久化
 - **CSS3 动画**：流畅的界面效果
 
@@ -411,20 +368,14 @@ python prebuild_database.py
 
 1. 访问 [Google AI Studio](https://aistudio.google.com/app/apikey)
 2. 登录 Google 账号
+3. 点击"Create API Key"
+4. 复制密钥并填入设置中
+
 ### Q2: VocabWeb 数据加载失败？
 
-**解决方案 1 - 使用清理工具**：
-```
-访问 http://localhost:8080/clear.html
-点击"清除缓存"按钮
-```
-
-**解决方案 2 - 手动清理**：
+**解决方案**：
 ```javascript
 // 在浏览器控制台执行
-localStorage.clear()
-// 然后刷新页面，会重新加载预构建数据库
-```在浏览器控制台执行
 localStorage.clear()
 // 然后刷新页面，会重新加载预构建数据库
 ```
@@ -436,6 +387,15 @@ localStorage.clear()
 cd VocabWeb
 python prebuild_database.py  # 重新生成数据库
 ```
+
+### Q4: AI 讲解总是失败？
+
+检查：
+1. ✅ API Key 是否正确
+2. ✅ 网络是否能访问 Google API
+3. ✅ API 配额是否充足
+4. ✅ 浏览器控制台是否有错误信息
+
 ### Q5: 错题本如何清空？
 
 在 VocabWeb 设置中点击"清空数据库"（⚠️ 会删除所有学习记录）
@@ -448,77 +408,9 @@ db.db.run("UPDATE learning_records SET is_mistake = 0, consecutive_correct = 0")
 db.save();
 ```
 
-### Q6: 手机端如何配置 API Key？
+---
 
-**推荐方法（最简单）**：
-1. 在电脑上打开 VocabWeb，配置 API Key 并保存
 ## 📝 更新日志
-
-### v3.1 (2026-01-16) - Complete Bilingual Story Database 🎊
-
-**重磅完成**：
-*   🎊 **完整剧情库**: 831道题目的双语Galgame剧情
-    - 覆盖2010-2025所有年份
-    - 每题4个版本（中英×答对答错）
-    - 总计3,324篇剧情对话
-*   📦 **预生成资源**: data/stories.json (2.5 MB)
-    - Clone即用，无需API Key
-    - 零token成本
-    - 离线访问
-*   🔧 **生成工具链**:
-    - batch_generate_concurrent.py (16路并发)
-    - check_quality.py (质量验证)
-    - fix_problems.py (选择性重新生成)
-    - export_stories.py (JSON导出)
-*   ✅ **质量保证**:
-    - 自动质量检查系统
-    - 只重新生成有问题的2题
-    - 100%合格率
-
-**技术亮点**：
-- 16路并发API调用
-- VectorEngine Gemini + DeepSeek-V3.2
-- 智能重试和错误处理
-- Token优化策略
-
-### v3.0 (2026-01-15) - AI Galgame Story System 🎭
-
-**重磅更新**：
-*   🎭 **新增**: AI-Powered Galgame剧情系统
-    - 傲娇猫娘Mia陪伴学习
-    - 上下文完整剧情生成（基于文章+选项+题型）
-    - 双语支持（VectorEngine Gemini + DeepSeek-V3.2翻译）
-    - SQLite数据库存储，优雅降级fallback
-*   🎲 **新增**: Section-based问题打乱
-    - 保持Part A/B/C完整性
-    - 防止逻辑分组被打散
-*   ✏️ **新增**: 集成绘图模式
-    - 移除模式切换，绘图始终可用
-    - 智能pointer-events，不阻挡答题点击
-*   🖱️ **修复**: 对话框拖拽累积偏移bug
-    - 不再自动跳到屏幕顶部
-
-**技术细节**：
-- 新增文件：`js/story-service.js`, `server.py`增强
-- 数据库：`story_content.db` (SQLite)
-- API端点：`POST /api/get_story`
-- 生成脚本：`gen_final.py`, `translate_stories.py`
-
-**详细说明**：[EnglishExamWeb/CHANGELOG_v3.0.md](EnglishExamWeb/CHANGELOG_v3.0.md)
-
-### v2.1.0 (2025-12-13) - 多设备协同学习 🔥
-
-**核心更新**：
-*   🎉 **新增**: 多设备数据同步（手机+电脑协同学习）
-*   🔑 **新增**: API Key 配置优化（电脑配置+手机同步）
-*   🔄 **新增**: Flask 服务器支持跨设备同步
-*   👁️ **新增**: 显示/隐藏密码功能
-*   ⚙️ **优化**: 配置与数据分离（灵活个性化）
-*   🐛 **修复**: 数据库加载验证机制
-*   📚 **文档**: 完整的配置指南和技术文档
-
-**详细说明**：[VocabWeb/RELEASE_NOTES_v2.1.0.md](VocabWeb/RELEASE_NOTES_v2.1.0.md)  
-**更新日志**：[VocabWeb/CHANGELOG.md](VocabWeb/CHANGELOG.md)
 
 ### v2.0 (2025-12-13)
 *   🎉 **新增**: VocabWeb 词汇学习系统
@@ -527,39 +419,6 @@ db.save();
 *   ✨ **新增**: AI 讲解缓存功能
 *   ✨ **新增**: 上一题回顾功能
 *   ✨ **新增**: 灵活每日目标（可多学不可少学）
-*   ✨ **新增**: 预构建数据库（首次加载更快）
-*   🐛 **修复**: 大数据导入栈溢出问题
-*   📖 **文档**: 完善双系统说明文档80
-3. 学习数据自动同步，配置各设备独立
-
-**详细说明**：[VocabWeb/DATA_SYNC.md](VocabWeb/DATA_SYNC.md)
-在 VocabWeb 设置中点击"清空数据库"（⚠️ 会删除所有学习记录）
-
-## 🎯 未来计划
-
-### v2.2.0（进行中）
-- [x] ✅ 多设备数据同步
-- [x] ✅ API Key 配置优化
-- [ ] 二维码配置功能
-- [ ] PWA 离线支持
-
-### 短期目标
-- [ ] 错题本导出/导入功能
-- [ ] 单词本自定义标签
-- [ ] 学习数据可视化图表
-- [ ] 数据加密传输（HTTPS）
-
-### 中期目标
-- [ ] 支持考研英语二数据
-- [ ] 增加更多 RPG 元素（道具、技能）
-- [ ] 移动端 APP（PWA）
-- [ ] 多用户系统
-
-### 长期目标
-- [ ] 云端同步（可选）
-- [ ] 社区分享功能
-- [ ] AI 智能推荐学习路径
-- [ ] 引入更多 ACG 主题包目标（可多学不可少学）
 *   ✨ **新增**: 预构建数据库（首次加载更快）
 *   🐛 **修复**: 大数据导入栈溢出问题
 *   📖 **文档**: 完善双系统说明文档

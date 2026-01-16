@@ -68,16 +68,27 @@
 
                 <div class="bottom-tools">
                     <button id="settings-btn" class="btn-icon" title="设置"><i class="ph-duotone ph-gear"></i> 设置</button>
+                    <button id="load-save-btn" class="btn-icon" onclick="App.openSavePanel('load')" title="存档/读档"><i
+                            class="ph-duotone ph-floppy-disk"></i> 存档</button>
                     <!-- 隐藏的原按钮，用于兼容现有 JS -->
                     <button id="vocab-btn" style="display:none;"></button>
                 </div>
             </div>
 
-            <!-- 快速统计 -->
+            <!-- 快速统计和存档 -->
             <div class="start-stats">
                 <div class="player-info" style="justify-content: center;">
-                    <span class="player-level">Lv.1</span>
-                    <span class="player-title">四级萌新</span>
+                    <span class="player-level" id="start-level">Lv.1</span>
+                    <span class="player-title" id="start-title">四级萌新</span>
+                </div>
+                <!-- 存档预览 -->
+                <div class="save-preview hidden" id="save-preview" onclick="App.loadSaveAndContinue()">
+                    <i class="ph-duotone ph-floppy-disk"></i>
+                    <div class="save-preview-info">
+                        <span class="save-preview-label">上次进度</span>
+                        <span class="save-preview-detail" id="save-preview-detail">-</span>
+                    </div>
+                    <i class="ph-bold ph-caret-right"></i>
                 </div>
             </div>
         </div>
@@ -104,6 +115,20 @@
                         <span class="value">0/100</span>
                     </div>
                 </div>
+
+                <div id="drawing-toolbar-dock" class="hud-middle">
+                    <div class="mini-draw-tools">
+                        <button id="draw-toggle" class="btn-icon-sm" title="开启绘图"><i
+                                class="ph-duotone ph-pencil-simple"></i></button>
+                        <input type="color" id="draw-color" value="#ff4757">
+                        <input type="range" id="draw-size" min="1" max="10" value="3">
+                        <button id="draw-eraser" class="btn-icon-sm" title="橡皮擦"><i
+                                class="ph-duotone ph-eraser"></i></button>
+                        <button id="draw-clear" class="btn-icon-sm" title="清空"><i
+                                class="ph-duotone ph-trash"></i></button>
+                    </div>
+                </div>
+
                 <div class="hud-right">
                     <div class="player-info">
                         <span class="player-level">Lv.1</span>
@@ -380,11 +405,11 @@
                 <div class="settings-section">
                     <h4><i class="ph-duotone ph-robot"></i> AI 功能配置</h4>
                     <div class="settings-item">
-                        <label>AI 服务提供商</label>
+                        <label>AI 服务提供商 (Provider)</label>
                         <select id="aiProvider" onchange="UIEffects.toggleAIProviderFields()"
                             style="width: 100%; padding: 8px; border-radius: 8px;">
-                            <option value="gemini">Google Gemini (默认)</option>
-                            <option value="openai">OpenAI 兼容接口 (DeepSeek/ChatGPT)</option>
+                            <option value="gemini">Google Gemini</option>
+                            <option value="openai">OpenAI / DeepSeek (自定义)</option>
                         </select>
                     </div>
 
@@ -511,23 +536,31 @@
             <div class="dialog-header-tools dialog-drag-handle" style="cursor: move;">
                 <div style="display: flex; align-items: center; gap: 10px;">
                     <img src="assets/images/catgirl.png" alt="Mia" class="dialog-avatar-icon"
-                        style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover; border: 2px solid var(--acg-pink);">
+                        style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover; border: 2px solid var(--acg-pink); box-shadow: 0 2px 8px rgba(255, 107, 157, 0.3);">
                     <div class="dialog-name-tag" id="dialog-name"
                         style="position: static; margin: 0; transform: none; box-shadow: none;">Mia 喵~</div>
                 </div>
                 <div style="display: flex; gap: 5px;">
-                    <button class="btn-icon-small" onclick="UIEffects.minimizeDialog()" title="最小化">
-                        <i class="ph-bold ph-minus"></i>
+                    <button class="btn-icon-small" onclick="UIEffects.toggleAskMia()" title="问问Mia" id="ask-mia-btn">
+                        <i class="ph-bold ph-chat-circle-dots"></i>
                     </button>
-                    <!-- Hide icon button removed as it's now small icon -->
-                    <button class="btn-icon-small"
-                        onclick="document.getElementById('galgame-dialog-overlay').classList.add('hidden')" title="关闭">
+                    <button class="btn-icon-small" onclick="UIEffects.closeStoryDialog()" title="关闭">
                         <i class="ph-bold ph-x"></i>
                     </button>
                 </div>
             </div>
             <div class="dialog-content" id="dialog-text" style="font-size: 1rem; padding-top: 5px;">
                 <!-- Text typed here -->
+            </div>
+            <!-- Ask Mia Input Area -->
+            <div class="ask-mia-input-area hidden" id="ask-mia-input-area">
+                <div class="ask-mia-input-wrapper">
+                    <input type="text" id="ask-mia-input" placeholder="问问Mia关于这道题的问题..."
+                        onkeypress="if(event.key==='Enter')UIEffects.sendMiaQuestion()">
+                    <button class="btn-send-mia" onclick="UIEffects.sendMiaQuestion()">
+                        <i class="ph-bold ph-paper-plane-tilt"></i>
+                    </button>
+                </div>
             </div>
             <div class="dialog-next-indicator">
                 <i class="ph-duotone ph-caret-down"></i>

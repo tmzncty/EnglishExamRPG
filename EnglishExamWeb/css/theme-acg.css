@@ -76,6 +76,78 @@ body.acg-theme .game-hud {
     background: rgba(37, 29, 53, 0.8);
     border: 1px solid rgba(255, 107, 157, 0.2);
     backdrop-filter: blur(10px);
+    /* 容器居中对齐 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    z-index: 1001;
+    /* 确保高于绘图层 (z-999) */
+    position: relative;
+}
+
+.hud-middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    pointer-events: auto;
+    /* 确保中间区域可以点击 */
+}
+
+/* 工具栏样式微调 */
+.mini-draw-tools {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    /* 极淡的背景区分感 */
+    padding: 4px 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* 缩小控件尺寸以适应 HUD */
+.mini-draw-tools #draw-size {
+    width: 60px;
+    height: 4px;
+    accent-color: var(--accent-primary);
+}
+
+.mini-draw-tools #draw-color {
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn-icon-sm {
+    background: none;
+    border: none;
+    color: var(--text-color, #fff);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.btn-icon-sm:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.1);
+}
+
+.btn-icon-sm.active {
+    background: var(--acg-pink);
+    color: white;
+    opacity: 1;
 }
 
 body.acg-theme .stat-bar.hp .bar-fill {
@@ -396,7 +468,7 @@ body.acg-theme .ai-loading .spinner {
 }
 
 .correct-effect::after {
-    content: '鉁?;
+    content: '✓';
     position: absolute;
     top: -20px;
     right: -20px;
@@ -829,66 +901,61 @@ body.acg-theme .star-particle {
     margin: 30px auto;
     padding: 15px 30px;
     background: rgba(37, 29, 53, 0.6);
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
 
-    /* Dialog Header Tools (Close/Hide Character) */
-    .dialog-header-tools {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 5px;
-    }
+.btn-icon-small {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 2px 5px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
 
-    .btn-icon-small {
-        background: transparent;
-        border: none;
-        color: rgba(255, 255, 255, 0.6);
-        cursor: pointer;
-        font-size: 1.1rem;
-        padding: 2px 5px;
-        border-radius: 4px;
-        transition: all 0.2s;
-    }
+.btn-icon-small:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
 
-    .btn-icon-small:hover {
-        color: white;
-        background: rgba(255, 255, 255, 0.1);
-    }
+/* Settings Input Refinements */
+.settings-item input,
+.settings-item select {
+    background: rgba(0, 0, 0, 0.2) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+}
 
-    /* Settings Input Refinements */
-    .settings-item input,
-    .settings-item select {
-        background: rgba(0, 0, 0, 0.2) !important;
-        border: 1px solid rgba(255, 255, 255, 0.1) !important;
-        color: white !important;
-    }
+/* Character Hidden State */
+.galgame-overlay.char-hidden .galgame-character-container {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-20px);
+}
 
-    /* Character Hidden State */
-    .galgame-overlay.char-hidden .galgame-character-container {
-        opacity: 0;
-        pointer-events: none;
-        transform: translateX(-20px);
-    }
+/* Drawing Toolbar */
+#drawing-toolbar .btn-icon {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    border: 1px solid transparent;
+}
 
-    /* Drawing Toolbar */
-    #drawing-toolbar .btn-icon {
-        width: 36px;
-        height: 36px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 6px;
-        border: 1px solid transparent;
-    }
+#drawing-toolbar .btn-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
 
-    #drawing-toolbar .btn-icon:hover {
-        background: rgba(255, 255, 255, 0.1);
-    }
-
-    #drawing-toolbar .btn-icon.active {
-        background: var(--primary-color);
-        color: white;
-        box-shadow: 0 0 10px var(--primary-color);
-    }
+#drawing-toolbar .btn-icon.active {
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0 0 10px var(--primary-color);
+}
 
 
 /* Minimized Dialog Button */
@@ -918,12 +985,19 @@ body.acg-theme .star-particle {
 }
 
 .minimized-dialog-btn img {
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 @keyframes bounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .galgame-overlay.char-hidden .galgame-character-container {
@@ -939,27 +1013,33 @@ body.acg-theme .star-particle {
     position: fixed !important;
     bottom: 20px !important;
     right: 20px !important;
-    left: auto !important; /* Override left: 0 */
+    left: auto !important;
+    /* Override left: 0 */
     top: auto !important;
     width: auto !important;
     height: auto !important;
     max-width: 400px !important;
     z-index: 2000 !important;
     display: block !important;
-    pointer-events: none !important; /* Allow clicking through transparent areas */
+    pointer-events: none !important;
+    /* Allow clicking through transparent areas */
     padding: 0 !important;
 }
 
 .galgame-dialog-box.compact {
     position: relative !important;
-    width: 350px !important;
-    max-width: 90vw !important;
+    width: 420px !important;
+    max-width: 95vw !important;
     height: auto !important;
-    min-height: 120px !important;
-    max-height: 250px !important;
+    min-height: 150px !important;
+    max-height: 400px !important;
     pointer-events: auto !important;
     margin: 0 !important;
     padding: 15px !important;
+    resize: both !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 /* Hide the old character container totally */
@@ -969,6 +1049,249 @@ body.acg-theme .star-particle {
 
 /* Adjust text size for compact mode */
 .galgame-dialog-box.compact .dialog-content {
-    font-size: 1rem !important;
-    line-height: 1.4 !important;
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+    flex: 1 !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding-right: 8px !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+}
+
+/* Dialog content scrollbar styling */
+.galgame-dialog-box.compact .dialog-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.galgame-dialog-box.compact .dialog-content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.galgame-dialog-box.compact .dialog-content::-webkit-scrollbar-thumb {
+    background: var(--acg-pink);
+    border-radius: 3px;
+}
+
+.galgame-dialog-box.compact .dialog-content::-webkit-scrollbar-thumb:hover {
+    background: var(--acg-purple);
+}
+
+/* Markdown styles in dialog */
+.galgame-dialog-box .dialog-content strong {
+    color: var(--acg-yellow);
+    font-weight: bold;
+}
+
+.galgame-dialog-box .dialog-content em {
+    color: var(--acg-pink);
+    font-style: italic;
+}
+
+.galgame-dialog-box .dialog-content code {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Consolas', monospace;
+    font-size: 0.9em;
+    color: var(--acg-blue);
+}
+
+.galgame-dialog-box .dialog-content hr {
+    border: none;
+    border-top: 1px dashed rgba(255, 107, 157, 0.4);
+    margin: 12px 0;
+}
+
+/* Avatar icon in compact mode */
+.galgame-dialog-box.compact .dialog-avatar-icon {
+    width: 48px !important;
+    height: 48px !important;
+    border: 2px solid var(--acg-pink) !important;
+    box-shadow: 0 2px 8px rgba(255, 107, 157, 0.3);
+}
+
+/* Dialog header tools */
+.galgame-dialog-box .dialog-header-tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+}
+
+.galgame-dialog-box .btn-icon-small {
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.galgame-dialog-box .btn-icon-small:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Mood styles */
+.galgame-dialog-box.mood-happy {
+    border-color: var(--acg-yellow);
+    box-shadow: 0 10px 50px rgba(255, 217, 61, 0.3);
+}
+
+.galgame-dialog-box.mood-sad {
+    border-color: var(--acg-blue);
+    box-shadow: 0 10px 50px rgba(76, 201, 255, 0.3);
+}
+
+.galgame-dialog-box.mood-angry {
+    border-color: #ff4757;
+    box-shadow: 0 10px 50px rgba(255, 71, 87, 0.3);
+}
+
+/* Resize handle styling */
+.galgame-dialog-box.compact::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(135deg, transparent 50%, rgba(255, 107, 157, 0.3) 50%);
+    cursor: nwse-resize;
+    border-radius: 0 0 18px 0;
+}
+
+/* Ask Mia Input Area */
+.ask-mia-input-area {
+    padding: 10px 0 5px;
+    border-top: 1px solid rgba(255, 107, 157, 0.2);
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+
+.ask-mia-input-area.hidden {
+    display: none;
+}
+
+.ask-mia-input-wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.ask-mia-input-wrapper input {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 107, 157, 0.3);
+    border-radius: 20px;
+    padding: 8px 15px;
+    color: white;
+    font-size: 0.9rem;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.ask-mia-input-wrapper input:focus {
+    border-color: var(--acg-pink);
+    box-shadow: 0 0 10px rgba(255, 107, 157, 0.2);
+}
+
+.ask-mia-input-wrapper input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.btn-send-mia {
+    background: linear-gradient(135deg, var(--acg-pink), var(--acg-purple));
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    flex-shrink: 0;
+}
+
+.btn-send-mia:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 107, 157, 0.5);
+}
+
+.btn-send-mia:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Ask Mia button active state */
+#ask-mia-btn.active {
+    background: var(--acg-pink);
+    color: white;
+}
+
+/* Save Preview on Start Screen */
+.save-preview {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+    border: 1px solid rgba(255, 107, 157, 0.3);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 15px;
+}
+
+.save-preview:hover {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.4), rgba(118, 75, 162, 0.4));
+    border-color: var(--acg-pink);
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(255, 107, 157, 0.2);
+}
+
+.save-preview.hidden {
+    display: none;
+}
+
+.save-preview i:first-child {
+    font-size: 1.5rem;
+    color: var(--acg-yellow);
+}
+
+.save-preview i:last-child {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s;
+}
+
+.save-preview:hover i:last-child {
+    transform: translateX(3px);
+    color: white;
+}
+
+.save-preview-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.save-preview-label {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.save-preview-detail {
+    font-size: 0.95rem;
+    color: white;
+    font-weight: 500;
 }

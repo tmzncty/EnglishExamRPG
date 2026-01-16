@@ -411,10 +411,20 @@ const App = {
         const gameData = StorageManager.getGameData();
         const pendingAnswers = StorageManager.getPendingAnswers();
 
+        // Update start screen level/title display
+        const levelEl = document.getElementById('start-level');
+        const titleEl = document.getElementById('start-title');
+        if (gameData && levelEl && titleEl) {
+            levelEl.textContent = `Lv.${gameData.level || 1}`;
+            titleEl.textContent = gameData.title || '四级萌新';
+        }
+
         // Check if there's any progress (from localStorage, or already loaded from backend in init())
-        if ((gameData && Object.keys(gameData.answers).length > 0) ||
+        const hasProgress = (gameData && Object.keys(gameData.answers).length > 0) ||
             (pendingAnswers && Object.keys(pendingAnswers).length > 0) ||
-            this.currentQuestionIndex > 0) {
+            this.currentQuestionIndex > 0;
+
+        if (hasProgress) {
             // 有进度，显示继续按钮
             if (this.elements.continueBtn) {
                 this.elements.continueBtn.style.display = 'inline-block';
@@ -423,10 +433,46 @@ const App = {
             if (gameData?.currentQuestionIndex !== undefined) {
                 this.currentQuestionIndex = gameData.currentQuestionIndex;
             }
+
+            // Show save preview on start screen
+            const savePreview = document.getElementById('save-preview');
+            const saveDetail = document.getElementById('save-preview-detail');
+            if (savePreview && saveDetail) {
+                const answeredCount = Object.keys(gameData?.answers || {}).length;
+                const lastTime = gameData?.lastPlayTime ? new Date(gameData.lastPlayTime) : null;
+                const timeStr = lastTime ?
+                    `${lastTime.getMonth() + 1}/${lastTime.getDate()} ${lastTime.getHours()}:${String(lastTime.getMinutes()).padStart(2, '0')}` :
+                    '';
+                saveDetail.textContent = `已答 ${answeredCount} 题 ${timeStr ? '· ' + timeStr : ''}`;
+                savePreview.classList.remove('hidden');
+            }
         }
 
         // 更新 HUD
         UIEffects.updateHUD();
+    },
+
+    /**
+     * 从首页快速加载存档并继续
+     */
+    loadSaveAndContinue() {
+        const gameData = StorageManager.getGameData();
+        if (!gameData) {
+            UIEffects.showToast('没有找到存档', 'warning');
+            return;
+        }
+
+        // Restore progress index
+        if (gameData.currentQuestionIndex !== undefined) {
+            this.currentQuestionIndex = gameData.currentQuestionIndex;
+        }
+
+        // Continue exam
+        this.isReviewMode = false;
+        this.showScreen(this.elements.examScreen);
+        this.showQuestion();
+
+        UIEffects.showToast(`已恢复进度：第 ${this.currentQuestionIndex + 1} 题`, 'success');
     },
 
     // ==================== 屏幕切换 ====================
@@ -517,6 +563,9 @@ const App = {
         const q = this.allQuestions[this.currentQuestionIndex];
         if (!q) return;
 
+        // Set current question for AI features (Ask Mia, etc.)
+        this.currentQuestion = q;
+
         // 保存当前进度
         StorageManager.updateGameData({ currentQuestionIndex: this.currentQuestionIndex });
 
@@ -572,6 +621,16 @@ const App = {
         // 更新导航按钮
         this.updateNavButtons(q);
         this.updateAnsweredCount();
+
+        // Load drawing for this question
+        if (window.DrawingBoard && DrawingBoard.loadDrawingForQuestion) {
+            DrawingBoard.loadDrawingForQuestion(q.id);
+        }
+
+        // Clear conversation history when switching questions
+        if (window.UIEffects && UIEffects.clearConversation) {
+            UIEffects.clearConversation();
+        }
     },
 
     /**
@@ -582,7 +641,14 @@ const App = {
         const savedAnswer = StorageManager.getAnswer(q.id);
         const pendingAnswer = StorageManager.getPendingAnswer(q.id);
 
-        if (q.options && Object.keys(q.options).length > 0) {
+        // Improved question type detection
+        const hasValidOptions = q.options &&
+            typeof q.options === 'object' &&
+            !Array.isArray(q.options) &&
+            Object.keys(q.options).length > 0;
+
+        if (hasValidOptions) {
+            // Objective question - render option buttons
             Object.entries(q.options).sort().forEach(([key, value]) => {
                 const btn = document.createElement('button');
                 btn.className = 'option-btn';
@@ -623,6 +689,7 @@ const App = {
             });
         } else {
             // 主观题
+            console.log(`[App] Rendering subjective question for Q${q.id} - No valid options found`);
             this.renderSubjectiveQuestion(q);
         }
     },
@@ -1528,9 +1595,12 @@ ${optionsText}
     /**
      * Open save/load panel
      */
-    async openSavePanel() {
+    async openSavePanel(tab = null) {
         const panel = document.getElementById('save-panel-overlay');
         panel.classList.add('active');
+        if (tab) {
+            this.switchSaveTab(tab);
+        }
         await this.refreshSaveSlots();
     },
 

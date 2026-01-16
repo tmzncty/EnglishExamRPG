@@ -61,6 +61,19 @@ start.bat
 study_data.db
 VocabWeb/vocab_prebuilt.db
 
+# Story Generation Scripts (Secrets)
+EnglishExamWeb/test_*.py
+EnglishExamWeb/gen_*.py
+EnglishExamWeb/batch_*.py
+EnglishExamWeb/fix_problems.py
+EnglishExamWeb/translate_stories.py
+EnglishExamWeb/generate_stories.py
+EnglishExamWeb/scan_stories.py
+EnglishExamWeb/upgrade_db.py
+EnglishExamWeb/view_stories.py
+EnglishExamWeb/check_story_db.py
+EnglishExamWeb/init_db.py
+
 # Temporary files
 README_NEW.md
 README_OLD_BACKUP.md

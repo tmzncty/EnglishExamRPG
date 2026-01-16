@@ -76,6 +76,9 @@ Be Mia now!`
     // 当前气泡计时器
     bubbleTimer: null,
 
+    // Conversation history for Ask Mia
+    conversationHistory: [],
+
     /**
      * 初始化 UI 效果
      */
@@ -88,20 +91,223 @@ Be Mia now!`
             DrawingBoard.init();
         }
         this.initDialogDrag(); // Initialize dialog dragging
+        this.initMiaEvents(); // Initialize Mia chat events
+
+        // Load AI provider settings on init
+        this.loadAIProviderSettings();
+
         console.log('[UIEffects] 初始化完成');
     },
 
-    // Dialog minimize/restore functions
-    minimizeDialog() {
-        document.getElementById('galgame-dialog-overlay').classList.add('hidden');
-        document.getElementById('minimized-dialog-btn').classList.remove('hidden');
+    /**
+     * Initialize Mia chat events (Fix for Enter key conflict)
+     */
+    initMiaEvents() {
+        const input = document.getElementById('ask-mia-input');
+        if (input) {
+            input.addEventListener('keydown', (e) => {
+                // Prevent global shortcuts (like Next Question) from firing
+                e.stopPropagation();
+            });
+        }
     },
 
+    /**
+     * Load AI Provider settings from localStorage
+     */
+    loadAIProviderSettings() {
+        const aiSaved = JSON.parse(localStorage.getItem('ai_settings') || '{}');
+        const providerSelect = document.getElementById('aiProvider');
+
+        // 1. Restore OpenAI specific fields
+        if (aiSaved.openaiBaseUrl) {
+            const el = document.getElementById('openaiBaseUrl');
+            if (el) el.value = aiSaved.openaiBaseUrl;
+        }
+        if (aiSaved.openaiModel) {
+            const el = document.getElementById('openaiModel');
+            if (el) el.value = aiSaved.openaiModel;
+        }
+
+        // Restore OpenAI Key (Prefer explicit field, fallback to generic if provider was openai)
+        const savedOpenAIKey = aiSaved.openaiApiKey || (aiSaved.provider === 'openai' ? aiSaved.apiKey : '');
+        if (savedOpenAIKey) {
+            const el = document.getElementById('openaiApiKey');
+            if (el) el.value = savedOpenAIKey;
+        }
+
+        // 2. Set Provider Selection (Default to OpenAI if not set)
+        const targetProvider = aiSaved.provider || 'openai';
+
+        if (providerSelect) {
+            providerSelect.value = targetProvider;
+            this.toggleAIProviderFields();
+        }
+    },
+
+    // Ask Mia AI functions
+    toggleAskMia() {
+        const inputArea = document.getElementById('ask-mia-input-area');
+        const askBtn = document.getElementById('ask-mia-btn');
+        if (inputArea && askBtn) {
+            inputArea.classList.toggle('hidden');
+            askBtn.classList.toggle('active');
+            if (!inputArea.classList.contains('hidden')) {
+                document.getElementById('ask-mia-input').focus();
+            }
+        }
+    },
+
+    clearConversation() {
+        this.conversationHistory = [];
+        console.log('[Ask Mia] Conversation history cleared');
+    },
+
+    // Close the Mia story dialog properly
+    closeStoryDialog() {
+        const overlay = document.getElementById('galgame-dialog-overlay');
+        if (overlay) {
+            overlay.classList.add('hidden');
+            overlay.style.display = ''; // Reset inline style that was set by showStoryDialog
+        }
+        // Clear any pending callbacks
+        if (this.storyState) {
+            this.storyState.isDialogActive = false;
+            this.storyState.pendingCallback = null;
+        }
+    },
+
+    // Restore dialog (from minimized state)
     restoreDialog() {
-        document.getElementById('galgame-dialog-overlay').classList.remove('hidden');
-        document.getElementById('minimized-dialog-btn').classList.add('hidden');
+        const overlay = document.getElementById('galgame-dialog-overlay');
+        const minimizedBtn = document.getElementById('minimized-dialog-btn');
+        if (overlay) {
+            overlay.classList.remove('hidden');
+            overlay.style.display = 'block';
+        }
+        if (minimizedBtn) {
+            minimizedBtn.classList.add('hidden');
+        }
     },
 
+    async sendMiaQuestion() {
+        const input = document.getElementById('ask-mia-input');
+        const question = input?.value.trim();
+        if (!question) return;
+
+        // 获取当前题目上下文
+        const currentQuestion = window.App?.currentQuestion;
+        if (!currentQuestion) {
+            this.showStoryDialog('喵？现在没有题目哦，先去答题再来问我吧！(´・ω・`)', 'normal', () => { });
+            return;
+        }
+
+        // 清空输入并关闭输入框
+        input.value = '';
+        this.toggleAskMia();
+
+        // 显示思考中 (Stream will replace this)
+        this.showStoryDialog('让我想想喵... 🤔', 'thinking', null);
+
+        // 构建更详细的上下文 (Context)
+        // 包含解析和参考答案
+        const context = `
+Current Question Info:
+- Year/ID: ${currentQuestion.year} (Q${currentQuestion.id})
+- Type: ${currentQuestion.section_type || 'Unknown'}
+- Question Text: ${currentQuestion.question_text || 'No text'}
+- Options: ${JSON.stringify(currentQuestion.options || {})}
+- Correct Answer: ${currentQuestion.correct_answer}
+- Reference Answer / Analysis (USE THIS TO EXPLAIN): ${currentQuestion.analysis_raw || currentQuestion.reference_answer || '暂无解析'}
+- Passage Context (Excerpt): ${(currentQuestion.passage_text || '').substring(0, 800)}...
+        `;
+
+        const systemPrompt = `You are Mia, a smart but slightly tsundere catgirl tutor helping Master study English.
+        
+CORE INSTRUCTIONS:
+1.  **Personality**: Tsundere (mocking but caring), cute, uses emoticons (e.g., (๑•̀ㅂ•́)و✧, (｡•́︿•̀｡)). BUT do not overdo it to the point of being useless.
+2.  **Helpfulness**: Your PRIMARY goal is to help the user understand the question.
+    - If asked about the answer, explain *why* it is correct using the provided **Analysis**.
+    - If asked about a word, explain it in the context of the passage.
+3.  **Tone**: "Hmph! Since you asked so nicely..." or "Baka! How could you not know this?" but then immediately provide a clear, logical explanation.
+4.  **Format**: Use Markdown. Keep it concise but sufficient.
+5.  **Context**: Use the provided question details and analysis to give accurate answers. Do not hallucinate.
+
+Be Mia now! Respond to the user's question based on the current question context.`;
+
+        try {
+            if (!GeminiService.isConfigured()) {
+                this.showStoryDialog('喵？主人还没有配置API Key呢！去设置里面填一下吧~ (｡•́︿•̀｡)', 'sad', () => { });
+                return;
+            }
+
+            // Add user message to history
+            this.conversationHistory.push({
+                role: 'user',
+                content: question
+            });
+
+            // Build conversation with history
+            const messages = [
+                { role: 'system', content: systemPrompt + '\n\n' + context }
+            ];
+
+            // Add conversation history (last 10 messages)
+            const recentHistory = this.conversationHistory.slice(-10);
+            messages.push(...recentHistory);
+
+            // Stream handler
+            let fullResponse = '';
+            const onStream = (chunk) => {
+                fullResponse += chunk;
+                // Update UI with current validation
+                // Note: We use a simple render here for streaming. Markdown might be partial.
+                // To avoid breaking markdown, we might just append text or try to render.
+                // For safety, we use a custom stream renderer that handles basic text update.
+                this.streamDialogText(fullResponse);
+            };
+
+            // Call API with streaming
+            const response = await GeminiService.callAPI(messages, true, onStream);
+
+            // Add assistant response to history
+            this.conversationHistory.push({
+                role: 'assistant',
+                content: response
+            });
+
+            // Final render to ensure markdown is perfect
+            // The streaming might have finished but we want to ensure the final state is clean markdown HTML
+            const mood = response.includes('正确') || response.includes('答对') ? 'happy' : 'normal';
+            // We reuse showStoryDialog but without typing effect (instant)
+            this.showStoryDialog(response, mood, () => { }, true);
+
+        } catch (error) {
+            console.error('[Ask Mia] AI error:', error);
+            this.showStoryDialog('呜...召唤AI失败了喵~ 可能网络不太好？(´；ω；`)', 'sad', () => { });
+        }
+    },
+
+    /**
+     * Update dialog text during streaming
+     */
+    streamDialogText(text) {
+        const contentDiv = document.getElementById('dialog-text');
+        if (contentDiv) {
+            // Simple render: Convert newlines to <br>. 
+            // For full markdown streaming, we'd need a robust incremental parser.
+            // Here we just show text to be responsive.
+            // contentDiv.textContent = text; // Too raw
+            // contentDiv.innerHTML = text.replace(/\n/g, '<br>'); // Better
+
+            // Try using the existing markdown renderer on the full buffer? 
+            // It might flicker but it supports bolding during stream.
+            contentDiv.innerHTML = this.renderDialogMarkdown(text);
+
+            // Auto scroll to bottom
+            // contentDiv.scrollTop = contentDiv.scrollHeight;
+        }
+    },
     // Make dialog draggable
     initDialogDrag() {
         const dialog = document.getElementById('draggable-dialog');
@@ -660,72 +866,103 @@ Be Mia now!`
      * 保存设置
      */
     async saveSettings() {
-        // 保存 API Key
-        const apiKeyInput = document.getElementById('apiKeyInput');
-        if (apiKeyInput?.value) {
-            const result = await GeminiService.validateApiKey(apiKeyInput.value);
-            if (result.valid) {
-                this.showToast('API Key 保存成功！', 'success');
-            } else {
-                this.showToast(result.message, 'error');
-                return;
+        try {
+            console.log('[UIEffects] saveSettings called');
+
+            const provider = document.getElementById('aiProvider')?.value || 'openai';
+            const apiKeyInput = document.getElementById('apiKeyInput'); // Gemini Input
+            const openaiKeyInput = document.getElementById('openaiApiKey'); // OpenAI Input
+
+            // 1. Validation Logic
+            if (provider === 'gemini') {
+                if (apiKeyInput?.value) {
+                    const result = await GeminiService.validateApiKey(apiKeyInput.value);
+                    if (result.valid) {
+                        this.showToast(result.message, 'success');
+                    } else {
+                        this.showToast(result.message, 'error');
+                        // Optional: Block save? User might want to save anyway.
+                        // Let's allow save but warn.
+                    }
+                }
+            } else if (provider === 'openai') {
+                // Validate OpenAI
+                const config = {
+                    openaiBaseUrl: document.getElementById('openaiBaseUrl')?.value,
+                    openaiApiKey: openaiKeyInput?.value,
+                    openaiModel: document.getElementById('openaiModel')?.value
+                };
+
+                if (config.openaiApiKey) {
+                    const result = await GeminiService.validateOpenAI(config);
+                    if (result.valid) {
+                        this.showToast(`OpenAI 验证成功！模型: ${result.model}`, 'success');
+                    } else {
+                        this.showToast(`OpenAI 验证失败: ${result.message}`, 'error');
+                    }
+                }
             }
-        }
 
-        // 保存 WebDAV 配置
-        const webdavUrl = document.getElementById('webdavUrl')?.value.trim();
-        const webdavUser = document.getElementById('webdavUser')?.value.trim();
-        const webdavPassword = document.getElementById('webdavPassword')?.value.trim();
+            // 保存 WebDAV 配置
+            const webdavUrl = document.getElementById('webdavUrl')?.value.trim();
+            const webdavUser = document.getElementById('webdavUser')?.value.trim();
+            const webdavPassword = document.getElementById('webdavPassword')?.value.trim();
 
-        if (webdavUrl) {
-            StorageManager.saveWebDAVConfig({
-                url: webdavUrl,
-                user: webdavUser,
-                password: webdavPassword
+            if (webdavUrl) {
+                StorageManager.saveWebDAVConfig({
+                    url: webdavUrl,
+                    user: webdavUser,
+                    password: webdavPassword
+                });
+            }
+
+            // 保存 AI 设置
+            const geminiKey = apiKeyInput?.value;
+            const openaiUrl = document.getElementById('openaiBaseUrl')?.value;
+            const openaiKey = document.getElementById('openaiApiKey')?.value;
+            const openaiModel = document.getElementById('openaiModel')?.value;
+
+            // 如果是 Gemini 模式，优先保存 Key 到旧版位置以兼容
+            if (provider === 'gemini' && geminiKey) {
+                StorageManager.saveApiKey(geminiKey);
+            }
+
+            const aiSettings = {
+                provider,
+                apiKey: provider === 'gemini' ? geminiKey : openaiKey,
+                baseUrl: provider === 'gemini' ? null : openaiUrl,
+                model: provider === 'gemini' ? null : openaiModel,
+                openaiBaseUrl: openaiUrl,
+                openaiModel: openaiModel,
+                openaiApiKey: openaiKey
+            };
+
+            localStorage.setItem('ai_settings', JSON.stringify(aiSettings));
+
+            // 保存其他设置
+            const themeSelect = document.getElementById('themeSelect');
+            const mascotToggle = document.getElementById('mascotToggle');
+
+            StorageManager.updateSettings({
+                theme: themeSelect?.value || 'acg',
+                showMascot: mascotToggle?.checked !== false
             });
+
+            // 应用主题
+            this.applyTheme(themeSelect?.value || 'acg');
+
+            // Only show generic save toast if validation didn't already show success?
+            // Actually, showing both is fine, or update logic.
+            // Let's show a "Configuration Saved" message too.
+            this.showToast('配置已保存 (Configuration Saved)', 'info');
+
+            // Delay closing slightly so user can see the validation toast
+            setTimeout(() => this.closeSettings(), 1500);
+
+        } catch (e) {
+            console.error('Save Settings Error:', e);
+            alert('保存失败: ' + e.message);
         }
-
-        // 保存 AI 设置
-        const provider = document.getElementById('aiProvider')?.value;
-        const geminiKey = document.getElementById('apiKeyInput')?.value;
-        const openaiUrl = document.getElementById('openaiBaseUrl')?.value;
-        const openaiKey = document.getElementById('openaiApiKey')?.value;
-        const openaiModel = document.getElementById('openaiModel')?.value;
-
-        // 如果是 Gemini 模式，优先保存 Key 到旧版位置以兼容
-        if (provider === 'gemini' && geminiKey) {
-            StorageManager.saveApiKey(geminiKey);
-        }
-
-        // 保存完整 AI 配置到 LocalStorage (需要 StorageManager 支持，这里直接用 LS 暂存或后续添加)
-        // 简单处理：将配置合并保存
-        const aiSettings = {
-            provider,
-            apiKey: provider === 'gemini' ? geminiKey : openaiKey,
-            baseUrl: provider === 'gemini' ? null : openaiUrl,
-            model: provider === 'gemini' ? null : openaiModel,
-            openaiBaseUrl: openaiUrl,
-            openaiModel: openaiModel
-        };
-        // 这里需要 StorageManager.saveAISettings，暂时没有，手动存一下
-        localStorage.setItem('ai_settings', JSON.stringify(aiSettings));
-        // 重新注入到 Service
-        // GeminiService.loadConfig() ? Service 会在每次调用 config时读取
-
-        // 保存其他设置
-        const themeSelect = document.getElementById('themeSelect');
-        const mascotToggle = document.getElementById('mascotToggle');
-
-        StorageManager.updateSettings({
-            theme: themeSelect?.value || 'acg',
-            showMascot: mascotToggle?.checked !== false
-        });
-
-        // 应用主题
-        this.applyTheme(themeSelect?.value || 'acg');
-
-        this.showToast('设置已保存！', 'success');
-        this.closeSettings();
     },
 
     /**
@@ -763,13 +1000,22 @@ Be Mia now!`
                 question.id,
                 question.year,
                 isCorrect,
-                'cn'  // 默认中文，可以根据设置切换
+                'both'  // 双语模式，显示中英文
             );
 
             if (story) {
                 // 使用数据库剧情
                 const mood = isCorrect ? 'happy' : 'sad';
-                this.showStoryDialog(story, mood, () => { });
+                // 处理双语对象
+                let displayText = '';
+                if (story.bilingual && story.cn && story.en) {
+                    displayText = `${story.en}\n\n---\n\n${story.cn}`;
+                } else if (typeof story === 'string') {
+                    displayText = story;
+                } else {
+                    displayText = story.cn || story.en || '';
+                }
+                this.showStoryDialog(displayText, mood, () => { });
                 return;
             }
         }
@@ -838,7 +1084,7 @@ Be Mia now!`
     /**
      * 显示单条剧情对话
      */
-    showStoryDialog(text, mood, callback) {
+    showStoryDialog(text, mood, callback, skipTyping = false) {
         const overlay = document.getElementById('galgame-dialog-overlay');
         if (!overlay) {
             console.error('[UIEffects] galgame-dialog-overlay not found');
@@ -875,8 +1121,7 @@ Be Mia now!`
         overlay.classList.remove('hidden');
         overlay.style.display = 'block';
 
-        // 打字机效果
-        this.typeWriter(text, contentDiv, () => {
+        const onFinish = () => {
             // 打字完成，显示继续箭头
             if (nextIndicator) {
                 nextIndicator.style.display = 'block';
@@ -906,11 +1151,24 @@ Be Mia now!`
             if (dialogBox) {
                 dialogBox.addEventListener('click', nextHandler);
             }
-        });
+        };
+
+        if (skipTyping) {
+            // Immediate display for streaming completion or fast path
+            contentDiv.innerHTML = this.renderDialogMarkdown(text);
+            if (this.currentTypingInterval) {
+                clearInterval(this.currentTypingInterval);
+                this.currentTypingInterval = null;
+            }
+            onFinish();
+        } else {
+            // 打字机效果
+            this.typeWriter(text, contentDiv, onFinish);
+        }
     },
 
     /**
-     * 打字机效果工具
+     * 打字机效果工具 (支持Markdown)
      */
     typeWriter(text, element, onComplete) {
         if (this.currentTypingInterval) clearInterval(this.currentTypingInterval);
@@ -919,16 +1177,30 @@ Be Mia now!`
         const cursor = document.querySelector('.dialog-next-indicator');
         if (cursor) cursor.style.display = 'none'; // 隐藏继续箭头
 
+        // 先将Markdown渲染为HTML
+        const renderedHTML = this.renderDialogMarkdown(text);
+
+        // 创建一个临时容器来解析HTML
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = renderedHTML;
+        const fullText = tempDiv.textContent || tempDiv.innerText || '';
+
         let i = 0;
-        const speed = 30; // ms per char
+        const speed = 25; // ms per char
 
         this.currentTypingInterval = setInterval(() => {
-            if (i < text.length) {
-                element.textContent += text.charAt(i);
+            if (i < fullText.length) {
+                // 逐步显示渲染后的HTML内容（通过截取文本长度来模拟）
+                const partialText = fullText.substring(0, i + 1);
+                element.innerHTML = this.renderDialogMarkdown(
+                    this.getPartialMarkdownText(text, partialText.length)
+                );
                 i++;
             } else {
                 clearInterval(this.currentTypingInterval);
                 this.currentTypingInterval = null;
+                // 确保最终显示完整内容
+                element.innerHTML = renderedHTML;
                 if (onComplete) onComplete();
             }
         }, speed);
@@ -938,14 +1210,61 @@ Be Mia now!`
             if (this.currentTypingInterval) {
                 clearInterval(this.currentTypingInterval);
                 this.currentTypingInterval = null;
-                element.textContent = text;
-                element.removeEventListener('click', skipHandler); // 移除监听，避免误触下一句
+                element.innerHTML = renderedHTML;
+                element.removeEventListener('click', skipHandler);
                 if (onComplete) onComplete();
             }
         };
-        // 绑定到 document 或 dialogBox，需要注意冒泡和事件解绑较为复杂
-        // 这里简化：只有打字时点击才会直接显示全文字
-        // 由于上面 showStoryDialog 也绑定了 click，可能会冲突，所以这里暂时不加点击加速，或者小心处理
+        element.addEventListener('click', skipHandler, { once: true });
+    },
+
+    /**
+     * 获取部分Markdown文本（按纯文本长度截取）
+     */
+    getPartialMarkdownText(fullMarkdown, charCount) {
+        let textLen = 0;
+        let result = '';
+        let inTag = false;
+        let tagBuffer = '';
+
+        for (let i = 0; i < fullMarkdown.length && textLen < charCount; i++) {
+            const char = fullMarkdown[i];
+            result += char;
+
+            // 跳过Markdown标记字符的计数
+            if (char === '*' || char === '_' || char === '`' || char === '#') {
+                continue;
+            }
+            if (char === '\n') {
+                textLen++;
+                continue;
+            }
+            textLen++;
+        }
+        return result;
+    },
+
+    /**
+     * 对话框Markdown渲染（支持中英双语）
+     */
+    renderDialogMarkdown(text) {
+        if (!text) return '';
+
+        // 处理换行和分隔符
+        let html = text
+            // 横线分隔符 (---)
+            .replace(/^---$/gm, '<hr>')
+            .replace(/\n---\n/g, '<hr>')
+            // 粗体 **text**
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+            // 斜体 *text*（避免和粗体冲突）
+            .replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>')
+            // 代码 `text`
+            .replace(/`([^`]+)`/g, '<code>$1</code>')
+            // 换行
+            .replace(/\n/g, '<br>');
+
+        return html;
     },
 
     /**
@@ -1011,34 +1330,45 @@ Be Mia now!`
 
     async testAIConnection() {
         const provider = document.getElementById('aiProvider').value;
-        let config = {};
-
-        if (provider === 'gemini') {
-            config = {
-                provider: 'gemini',
-                apiKey: document.getElementById('apiKeyInput').value
-            };
-        } else {
-            config = {
-                provider: 'openai',
-                apiKey: document.getElementById('openaiApiKey').value,
-                openaiBaseUrl: document.getElementById('openaiBaseUrl').value,
-                openaiModel: document.getElementById('openaiModel').value
-            };
-        }
-
-        if (!config.apiKey) {
-            this.showToast('请填写 API Key', 'warning');
-            return;
-        }
-
         this.showToast('正在测试连接...', 'info');
-        const result = await GeminiService.testConnection(config);
 
-        if (result.success) {
-            this.showToast(result.message, 'success');
-        } else {
-            this.showToast('连接失败: ' + result.message, 'error');
+        try {
+            if (provider === 'gemini') {
+                const apiKey = document.getElementById('apiKeyInput').value;
+                if (!apiKey) {
+                    this.showToast('请填写 Gemini API Key', 'warning');
+                    return;
+                }
+                const result = await GeminiService.validateApiKey(apiKey);
+                if (result.valid) {
+                    this.showToast(result.message, 'success');
+                } else {
+                    this.showToast(result.message, 'error');
+                }
+            } else {
+                // OpenAI
+                const config = {
+                    openaiBaseUrl: document.getElementById('openaiBaseUrl').value,
+                    openaiApiKey: document.getElementById('openaiApiKey').value,
+                    openaiModel: document.getElementById('openaiModel').value
+                };
+
+                if (!config.openaiApiKey) {
+                    this.showToast('请填写 API Key', 'warning');
+                    return;
+                }
+
+                const result = await GeminiService.validateOpenAI(config);
+                if (result.valid) {
+                    // Show detailed model info as requested
+                    this.showToast(`OpenAI 验证成功！\n模型: ${result.model}`, 'success');
+                } else {
+                    this.showToast(`连接失败: ${result.message}`, 'error');
+                }
+            }
+        } catch (e) {
+            console.error('Test Connection Error:', e);
+            this.showToast('测试出错: ' + e.message, 'error');
         }
     }
 };

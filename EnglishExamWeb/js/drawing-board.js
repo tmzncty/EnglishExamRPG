@@ -8,6 +8,7 @@ const DrawingBoard = {
     ctx: null,
     isDrawing: false,
     isVisible: false,
+    drawModeActive: false, // Whether drawing is currently enabled
 
     // 配置
     config: {
@@ -48,9 +49,11 @@ const DrawingBoard = {
         this.ctx = this.canvas.getContext('2d');
         this.resize();
         window.addEventListener('resize', () => this.resize());
+        window.addEventListener('scroll', () => this.redraw()); // Redraw on scroll to adjust positions
+
 
         this.bindEvents();
-        this.createToolbar();
+        this.bindToolbarEvents();
 
         // 加载云端笔记
         this.loadFromBackend();
@@ -61,39 +64,9 @@ const DrawingBoard = {
     },
 
     /**
-     * 创建工具栏
+     * 绑定工具栏事件
      */
-    createToolbar() {
-        const toolbar = document.createElement('div');
-        toolbar.id = 'drawing-toolbar';
-        toolbar.className = 'glass-panel';
-        toolbar.style.cssText = `
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-            padding: 10px;
-            display: flex;
-            gap: 10px;
-            border-radius: 12px;
-            background: rgba(30, 30, 40, 0.85);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255,255,255,0.1);
-            transition: all 0.3s ease;
-        `;
-
-        toolbar.innerHTML = `
-            <div id="draw-tools" style="display: flex; gap: 8px; align-items: center;">
-                <span style="color: #fff; font-size: 0.85rem; opacity: 0.7;">✏️ 绘图</span>
-                <input type="color" id="draw-color" value="${this.config.color}" style="width: 30px; height: 30px; border: none; background: none; cursor: pointer;">
-                <input type="range" id="draw-size" min="1" max="10" value="${this.config.lineWidth}" style="width: 60px;">
-                <button id="draw-eraser" class="btn-icon" title="橡皮擦"><i class="ph-duotone ph-eraser"></i></button>
-                <button id="draw-clear" class="btn-icon" title="清空"><i class="ph-duotone ph-trash"></i></button>
-            </div>
-        `;
-
-        document.body.appendChild(toolbar);
-
+    bindToolbarEvents() {
         // 绑定工具栏事件
         document.getElementById('draw-color')?.addEventListener('input', (e) => {
             this.config.color = e.target.value;
@@ -111,9 +84,36 @@ const DrawingBoard = {
         document.getElementById('draw-clear')?.addEventListener('click', () => {
             if (confirm('确定要清空所有笔记吗？')) this.clear();
         });
+
+        // Toggle draw mode
+        document.getElementById('draw-toggle')?.addEventListener('click', () => {
+            this.toggleDrawMode();
+        });
     },
 
-    // Removed toggle function - drawing is always available
+
+
+    // Toggle drawing mode on/off
+    toggleDrawMode() {
+        this.drawModeActive = !this.drawModeActive;
+        const toggleBtn = document.getElementById('draw-toggle');
+
+        if (this.drawModeActive) {
+            this.canvas.style.pointerEvents = 'auto';
+            this.canvas.style.cursor = 'crosshair';
+            if (toggleBtn) {
+                toggleBtn.classList.add('active');
+            }
+            console.log('[DrawingBoard] 绘图模式已开启');
+        } else {
+            this.canvas.style.pointerEvents = 'none';
+            this.canvas.style.cursor = 'default';
+            if (toggleBtn) {
+                toggleBtn.classList.remove('active');
+            }
+            console.log('[DrawingBoard] 绘图模式已关闭');
+        }
+    },
     /**
      * 切换绘画模式 (已移除 - 绘图始终可用)
      */
@@ -128,9 +128,17 @@ const DrawingBoard = {
         if (!this.ctx) return;
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
 
+        // Apply scroll offset transformation
+        // Strokes are stored in absolute document coordinates
+        // Translate back to viewport coordinates for rendering
+        this.ctx.save();
+        this.ctx.translate(-window.scrollX, -window.scrollY);
+
         this.strokes.forEach(stroke => {
             this.drawStroke(stroke);
         });
+
+        this.ctx.restore();
     },
 
     drawStroke(stroke) {
@@ -158,8 +166,8 @@ const DrawingBoard = {
 
     bindEvents() {
         const start = (e) => {
-            // Always allow drawing, temporarily enable pointer events
-            this.canvas.style.pointerEvents = 'auto';
+            // Only draw if draw mode is active
+            if (!this.drawModeActive) return;
             this.isDrawing = true;
             const { x, y } = this.getPos(e);
 
@@ -207,8 +215,7 @@ const DrawingBoard = {
                 this.currentStroke = null;
                 this.saveToBackend(); // 自动保存
 
-                // Disable pointer events after drawing to allow clicking
-                this.canvas.style.pointerEvents = 'none';
+                // Don't disable pointer events here, let toggleDrawMode handle it
             }
         };
 
@@ -222,10 +229,15 @@ const DrawingBoard = {
     },
 
     getPos(e) {
-        if (e.touches && e.touches.length > 0) {
-            return { x: e.touches[0].clientX, y: e.touches[0].clientY };
-        }
-        return { x: e.clientX, y: e.clientY };
+        // Get viewport coordinates
+        const clientX = e.touches && e.touches.length > 0 ? e.touches[0].clientX : e.clientX;
+        const clientY = e.touches && e.touches.length > 0 ? e.touches[0].clientY : e.clientY;
+
+        // Convert to absolute document coordinates by adding scroll offset
+        return {
+            x: clientX + window.scrollX,
+            y: clientY + window.scrollY
+        };
     },
 
     clear() {
@@ -274,6 +286,24 @@ const DrawingBoard = {
         } catch (e) {
             console.error('Failed to load drawing:', e);
         }
+    },
+
+    /**
+     *  Load drawing for a specific question
+     */
+    async loadDrawingForQuestion(questionId) {
+        // Save current drawing before switching
+        if (this.currentPaperId && this.strokes.length > 0) {
+            await this.saveToBackend();
+        }
+
+        // Update paper ID to question-specific
+        this.currentPaperId = `q_${questionId}`;
+
+        // Load drawing for this question
+        await this.loadFromBackend();
+
+        console.log(`[DrawingBoard] Loaded drawing for question ${questionId}`);
     }
 };
 
