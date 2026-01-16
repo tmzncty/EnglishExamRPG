@@ -1,6 +1,6 @@
 # English Exam RPG & VocabWeb (ACG & AI Enhanced)
 
-> **Version 2.0**  
+> **Version 3.2** 🎭✨  
 > 这是一个结合了 **ACG 游戏化体验** 与 **AI 辅助解析** 的考研英语全方位学习项目。
 
 本项目包含两大核心系统：
@@ -411,6 +411,53 @@ db.save();
 ---
 
 ## 📝 更新日志
+
+### v3.2 (2026-01-16) - Drawing Board & AI Experience Upgrade 🚀
+
+**核心优化**:
+*   ✏️ **绘图工具栏 (Drawing Toolbar)**:
+    - 修复了绘图模式切换问题，现在可以正常开启/关闭。
+    - 优化了 HUD 交互，绘图时依然可以点击其他按钮。
+    - 解决了翻页/滚动时的显示冲突。
+*   💬 **Mia Chat 增强**:
+    - 修复了输入框按 Enter 键意外切换题目的问题，现在只发送消息。
+    - 优化了对话上下文，确保 Mia 始终记住当前讨论的题目。
+*   ⚙️ **AI 设置重构**:
+    - 新增 "Test Connection" 按钮，可真实验证 API Key 有效性。
+    - 验证成功后会显示具体的模型名称（如 `gemini-2.0-flash-exp`）。
+    - 修复了设置面板无法打开或保存无反馈的问题。
+*   🔒 **安全与部署 (Security & Deployment)**:
+    - 🛡️ 安全审计：扫描并移除了 Python 脚本中的硬编码 API Key。
+    - ⚡ 部署优化：更新 .gitignore 排除敏感生成脚本，防止密钥泄露。
+*   🎨 **Galgame 界面优化**:
+    - 对话框现在支持双语显示（Markdown 解析）。
+    - 窗口大小可自由调整，Avatar 大小自适应。
+    - 新增 "Load Latest Save" 快速入口。
+
+### v3.1 (2026-01-16) - Complete Bilingual Story Database 🎊
+
+**重磅完成**：
+*   🎊 **完整剧情库**: 831道题目的双语Galgame剧情
+    - 覆盖2010-2025所有年份
+    - 每题4个版本（中英×答对答错）
+    - 总计3,324篇剧情对话
+*   📦 **预生成资源**: data/stories.json (2.5 MB)
+    - Clone即用，无需API Key
+    - 零token成本
+    - 离线访问
+*   🔧 **生成工具链**:
+    - batch_generate_concurrent.py (16路并发)
+    - check_quality.py (质量验证)
+
+### v3.0 (2026-01-15) - AI Galgame Story System 🎭
+
+**重磅更新**：
+*   🎭 **新增**: AI-Powered Galgame剧情系统
+    - 傲娇猫娘Mia陪伴学习
+    - 上下文完整剧情生成（基于文章+选项+题型）
+    - 双语支持
+*   🎲 **新增**: Section-based问题打乱
+*   ✏️ **新增**: 集成绘图模式
 
 ### v2.0 (2025-12-13)
 *   🎉 **新增**: VocabWeb 词汇学习系统
