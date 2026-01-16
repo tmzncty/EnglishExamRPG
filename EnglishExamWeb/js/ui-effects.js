@@ -994,8 +994,11 @@ Be Mia now! Respond to the user's question based on the current question context
         const overlay = document.getElementById('galgame-dialog-overlay');
         overlay.classList.remove('hidden');
 
+        console.log('[DEBUG] handleStoryFeedback received - questionId:', question.id, 'year:', question.year, 'isCorrect:', isCorrect);
+
         // 尝试从数据库获取预生成的剧情
         if (window.StoryService && question.id && question.year) {
+            console.log('[DEBUG] Calling StoryService.getStory with qId:', question.id, 'year:', question.year);
             const story = await StoryService.getStory(
                 question.id,
                 question.year,
@@ -1095,7 +1098,6 @@ Be Mia now! Respond to the user's question based on the current question context
         const dialogBox = document.querySelector('.galgame-dialog-box');
         const nameTag = document.getElementById('dialog-name');
         const contentDiv = document.getElementById('dialog-text');
-        const nextIndicator = overlay.querySelector('.dialog-next-indicator');
 
         if (!contentDiv) {
             console.error('[UIEffects] dialog-text element not found');
@@ -1122,11 +1124,6 @@ Be Mia now! Respond to the user's question based on the current question context
         overlay.style.display = 'block';
 
         const onFinish = () => {
-            // 打字完成，显示继续箭头
-            if (nextIndicator) {
-                nextIndicator.style.display = 'block';
-            }
-
             // 绑定点击继续事件
             const nextHandler = () => {
                 if (dialogBox) {
@@ -1174,8 +1171,6 @@ Be Mia now! Respond to the user's question based on the current question context
         if (this.currentTypingInterval) clearInterval(this.currentTypingInterval);
 
         element.innerHTML = ''; // 清空
-        const cursor = document.querySelector('.dialog-next-indicator');
-        if (cursor) cursor.style.display = 'none'; // 隐藏继续箭头
 
         // 先将Markdown渲染为HTML
         const renderedHTML = this.renderDialogMarkdown(text);

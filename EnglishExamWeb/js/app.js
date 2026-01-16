@@ -489,6 +489,21 @@ const App = {
         if (screen === this.elements.vocabScreen && typeof VocabUI !== 'undefined') {
             VocabUI.refreshVocabulary();
         }
+
+        // CRITICAL FIX: Hide drawing canvas when not in exam screen
+        if (window.DrawingBoard && DrawingBoard.canvas) {
+            if (screen === this.elements.examScreen) {
+                // Show canvas in exam screen
+                DrawingBoard.canvas.style.display = 'block';
+            } else {
+                // Hide canvas in other screens (home, vocab, etc.)
+                DrawingBoard.canvas.style.display = 'none';
+                // Also disable draw mode to prevent accidental drawing
+                if (DrawingBoard.drawModeActive) {
+                    DrawingBoard.toggleDrawMode();
+                }
+            }
+        }
     },
 
     // ==================== 考试流程 ====================
@@ -897,6 +912,7 @@ const App = {
 
         // 剧情模式反馈 vs 普通模式反馈
         if (this.examMode === 'story') {
+            console.log('[DEBUG] handleStoryFeedback called - currentIndex:', this.currentQuestionIndex, 'questionId:', q.id, 'questionYear:', q.year);
             UIEffects.handleStoryFeedback(isCorrect, q);
             // 剧情模式下，也可以延迟显示常规反馈作为补充，或者不显示
             // 这里选择不显示常规 feedback，完全依赖对话框
