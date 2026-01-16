@@ -1028,16 +1028,20 @@ body.acg-theme .star-particle {
 
 .galgame-dialog-box.compact {
     position: relative !important;
-    width: 420px !important;
+    width: 420px;
+    /* Removed !important to allow resize */
     max-width: 95vw !important;
-    height: auto !important;
+    height: 200px;
+    /* Changed from auto to fixed, removed !important */
     min-height: 150px !important;
-    max-height: 400px !important;
+    max-height: 600px !important;
+    /* Increased max height */
     pointer-events: auto !important;
     margin: 0 !important;
     padding: 15px !important;
     resize: both !important;
-    overflow: hidden !important;
+    overflow: auto !important;
+    /* Changed from hidden to auto */
     display: flex !important;
     flex-direction: column !important;
 }

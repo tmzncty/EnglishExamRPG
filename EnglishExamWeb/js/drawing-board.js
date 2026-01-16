@@ -279,12 +279,15 @@ const DrawingBoard = {
                 body: JSON.stringify({ paper_id: this.currentPaperId })
             });
             const data = await res.json();
-            if (data.success && data.strokes) {
-                this.strokes = data.strokes;
+            if (data.success) {
+                // Always set strokes, even if it's an empty array
+                this.strokes = data.strokes || [];
                 this.redraw();
             }
         } catch (e) {
             console.error('Failed to load drawing:', e);
+            // Ensure strokes is at least an empty array on error
+            this.strokes = [];
         }
     },
 
@@ -300,7 +303,11 @@ const DrawingBoard = {
         // Update paper ID to question-specific
         this.currentPaperId = `q_${questionId}`;
 
-        // Load drawing for this question
+        // CRITICAL FIX: Clear current strokes first to prevent old drawings from persisting
+        this.strokes = [];
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+
+        // Load drawing for this question (if any exists)
         await this.loadFromBackend();
 
         console.log(`[DrawingBoard] Loaded drawing for question ${questionId}`);
