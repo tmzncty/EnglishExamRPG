@@ -115,6 +115,16 @@ EnglishExamWeb/
 
 ## 📝 更新日志
 
+### v3.2 (2026-01-16) - Drawing Board & AI Experience Upgrade 🚀
+*   ✏️ **绘图工具栏优化**: 修复模式切换，支持HUD交互，解决滚动冲突。
+*   💬 **Mia Chat 增强**: 修复输入框 Enter 键冲突，优化对话上下文记忆。
+*   ⚙️ **AI 设置重构**: 新增连接测试按钮，显示模型名称，修复设置面板 bug。
+*   🎨 **Galgame 界面优化**: 双语对话框支持，窗口/Avatar自适应调整。
+
+### v3.1 (2026-01-16) - Complete Bilingual Story Database 🎊
+*   🎊 **完整剧情库**: 覆盖2010-2025全真题，预生成831道题目的双语剧情。
+*   📦 **离线优先**: 剧情数据内置，无需消耗 API Token 即可体验完整 Galgame 流程。
+
 ### v3.0 (2026-01-15)
 *   🎭 **新增**: AI Galgame剧情系统
     - 傲娇猫娘Mia陪伴答题
