@@ -1185,12 +1185,18 @@ ${optionsText}
         if (!overlay || !content) return;
 
         // 按 Section 分组题目
+        // When multiple years are selected, group by year + section to avoid merging
         const sections = {};
         this.allQuestions.forEach((q, index) => {
-            if (!sections[q.sectionName]) {
-                sections[q.sectionName] = [];
+            // Use year prefix when multiple years selected to keep sections separate
+            const sectionKey = this.selectedYears.length > 1 && q.year
+                ? `${q.year} - ${q.sectionName}`
+                : q.sectionName;
+
+            if (!sections[sectionKey]) {
+                sections[sectionKey] = [];
             }
-            sections[q.sectionName].push({ ...q, index });
+            sections[sectionKey].push({ ...q, index });
         });
 
         // 生成内容
