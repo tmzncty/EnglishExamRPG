@@ -1,0 +1,663 @@
+{
+  "id": "2010-eng1",
+  "title": "2010年考研英语一真题",
+  "year": 2010,
+  "sections": {
+    "use_of_english": {
+      "passage": "In 1924 America’s National Research Council sent two engineers to supervise a series of experiments at a telephone-parts factory called the Hawthorne Plant near Chicago. It hoped they would learn how shop-floor lighting _1_ workers’ productivity. Instead, the studies ended _2_ giving their name to the “Hawthorne effect,” the extremely influential idea that the very _3_ of being experimented upon changed subjects’ behavior.\n\nThe idea arose because of the _4_ behavior of the women in the plant. According to _5_ of the experiments, their hourly output rose when lighting was increased, but also when it was dimmed. It did not _6_ what was done in the experiment; _7_ something was changed, productivity rose. A(n) _8_ that they were being experimented upon seemed to be _9_ to alter workers’ behavior _10_ itself.\n\nAfter several decades, the same data were _11_ to econometric analysis. The Hawthorne experiments had another surprise in store. _12_ the descriptions on record, no systematic _13_ was found that levels of productivity were related to changes in lighting.\n\nIt turns out that the peculiar way of conducting the experiments may have led to _14_ interpretations of what happened. _15_, lighting was always changed on a Sunday. When work started again on Monday, output _16_ rose compared with the previous Saturday and _17_ to rise for the next couple of days. _18_, a comparison with data for weeks when there was no experimentation showed that output always went up on Mondays. Workers _19_ to be diligent for the first few days of the week in any case, before _20_ a plateau and then slackening off. This suggests that the alleged “Hawthorne effect” is hard to pin down.",
+      "questions": [
+        {
+          "q_id": "2010-eng1-use_of_english-q1",
+          "question_number": 1,
+          "content": "shop-floor lighting _1_ workers’ productivity",
+          "options": {
+            "A": "affected",
+            "B": "achieved",
+            "C": "extracted",
+            "D": "restored"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q2",
+          "question_number": 2,
+          "content": "the studies ended _2_ giving their name to the “Hawthorne effect,”",
+          "options": {
+            "A": "at",
+            "B": "up",
+            "C": "with",
+            "D": "off"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q3",
+          "question_number": 3,
+          "content": "the very _3_ of being experimented upon changed subjects’ behavior.",
+          "options": {
+            "A": "truth",
+            "B": "sight",
+            "C": "act",
+            "D": "proof"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q4",
+          "question_number": 4,
+          "content": "The idea arose because of the _4_ behavior of the women in the plant.",
+          "options": {
+            "A": "controversial",
+            "B": "perplexing",
+            "C": "mischievous",
+            "D": "ambiguous"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q5",
+          "question_number": 5,
+          "content": "According to _5_ of the experiments, their hourly output rose when lighting was increased",
+          "options": {
+            "A": "requirements",
+            "B": "explanations",
+            "C": "accounts",
+            "D": "assessments"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q6",
+          "question_number": 6,
+          "content": "It did not _6_ what was done in the experiment",
+          "options": {
+            "A": "conclude",
+            "B": "matter",
+            "C": "indicate",
+            "D": "work"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q7",
+          "question_number": 7,
+          "content": "_7_ something was changed, productivity rose.",
+          "options": {
+            "A": "as far as",
+            "B": "for fear that",
+            "C": "in case that",
+            "D": "so long as"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q8",
+          "question_number": 8,
+          "content": "A(n) _8_ that they were being experimented upon seemed to be _9_ to alter workers’ behavior",
+          "options": {
+            "A": "awareness",
+            "B": "expectation",
+            "C": "sentiment",
+            "D": "illusion"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q9",
+          "question_number": 9,
+          "content": "A(n) _8_ that they were being experimented upon seemed to be _9_ to alter workers’ behavior",
+          "options": {
+            "A": "suitable",
+            "B": "excessive",
+            "C": "enough",
+            "D": "abundant"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q10",
+          "question_number": 10,
+          "content": "A(n) _8_ that they were being experimented upon seemed to be _9_ to alter workers’ behavior _10_ itself.",
+          "options": {
+            "A": "about",
+            "B": "for",
+            "C": "on",
+            "D": "by"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q11",
+          "question_number": 11,
+          "content": "After several decades, the same data were _11_ to econometric analysis.",
+          "options": {
+            "A": "compared",
+            "B": "shown",
+            "C": "subjected",
+            "D": "conveyed"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q12",
+          "question_number": 12,
+          "content": "_12_ the descriptions on record, no systematic _13_ was found that levels of productivity were related to changes in lighting.",
+          "options": {
+            "A": "Contrary to",
+            "B": "Consistent with",
+            "C": "Parallel with",
+            "D": "Peculiar to"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q13",
+          "question_number": 13,
+          "content": "_12_ the descriptions on record, no systematic _13_ was found that levels of productivity were related to changes in lighting.",
+          "options": {
+            "A": "evidence",
+            "B": "guidance",
+            "C": "implication",
+            "D": "source"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q14",
+          "question_number": 14,
+          "content": "It turns out that the peculiar way of conducting the experiments may have led to _14_ interpretations of what happened.",
+          "options": {
+            "A": "disputable",
+            "B": "enlightening",
+            "C": "reliable",
+            "D": "misleading"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q15",
+          "question_number": 15,
+          "content": "_15_, lighting was always changed on a Sunday.",
+          "options": {
+            "A": "In contrast",
+            "B": "For example",
+            "C": "In consequence",
+            "D": "As usual"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q16",
+          "question_number": 16,
+          "content": "When work started again on Monday, output _16_ rose compared with the previous Saturday",
+          "options": {
+            "A": "duly",
+            "B": "accidentally",
+            "C": "unpredictably",
+            "D": "suddenly"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q17",
+          "question_number": 17,
+          "content": "output _16_ rose compared with the previous Saturday and _17_ to rise for the next couple of days.",
+          "options": {
+            "A": "failed",
+            "B": "ceased",
+            "C": "started",
+            "D": "continued"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q18",
+          "question_number": 18,
+          "content": "_18_, a comparison with data for weeks when there was no experimentation showed that output always went up on Mondays.",
+          "options": {
+            "A": "Therefore",
+            "B": "Furthermore",
+            "C": "However",
+            "D": "Meanwhile"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q19",
+          "question_number": 19,
+          "content": "Workers _19_ to be diligent for the first few days of the week in any case, before _20_ a plateau and then slackening off.",
+          "options": {
+            "A": "attempted",
+            "B": "tended",
+            "C": "chose",
+            "D": "intended"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        },
+        {
+          "q_id": "2010-eng1-use_of_english-q20",
+          "question_number": 20,
+          "content": "Workers _19_ to be diligent for the first few days of the week in any case, before _20_ a plateau and then slackening off.",
+          "options": {
+            "A": "breaking",
+            "B": "climbing",
+            "C": "surpassing",
+            "D": "hitting"
+          },
+          "q_type": "cloze",
+          "score": 0.5
+        }
+      ]
+    },
+    "reading_a": [
+      {
+        "group_name": "Text 1",
+        "passage": "Of all the changes that have taken place in English-language newspapers during the past quarter-century, perhaps the most far-reaching has been the inexorable decline in the scope and seriousness of their arts coverage.\n\nIt is difficult to the point of impossibility for the average reader under the age of forty to imagine a time when high-quality arts criticism could be found in most big-city newspapers. Yet a considerable number of the most significant collections of criticism published in the 20th century consisted in large part of newspaper reviews. To read such books today is to marvel at the fact that their learned contents were once deemed suitable for publication in general-circulation dailies.\n\nWe are even farther removed from the unfocused newspaper reviews published in England between the turn of the 20th century and the eve of World War II, at a time when newsprint was dirt-cheap and stylish arts criticism was considered an ornament to the publications in which it appeared. In those far-off days, it was taken for granted that the critics of major papers would write in detail and at length about the events they covered. Theirs was a serious business, and even those reviewers who wore their learning lightly, like George Bernard Shaw and Ernest Newman, could be trusted to know what they were about. These men believed in journalism as a calling, and were proud to be published in the daily press. “So few authors have brains enough or literary gift enough to keep their own end up in journalism, ” Newman wrote, “that I am tempted to define ‘journalism’ as ‘a term of contempt applied by writers who are not read to writers who are ’.”\n\nUnfortunately, these critics are virtually forgotten. Neville Cardus, who wrote for the Manchester Guardian from 1917 until shortly before his death in 1975, is now known solely as a writer of essays on the game of cricket. During his lifetime, though, he was also one of England’s foremost classical-music critics, and a stylist so widely admired that his Autobiography (1947) became a best-seller. He was knighted in 1967, the first music critic to be so honored. Yet only one of his books is now in print, and his vast body of writings on music is unknown save to specialists.\n\nIs there any chance that Cardus’s criticism will enjoy a revival? The prospect seems remote. Journalistic tastes had changed long before his death, and postmodern readers have little use for the richly upholstered Vicwardian prose in which he specialized. Moreover, the amateur tradition in music criticism has been in headlong retreat.",
+        "questions": [
+          {
+            "q_id": "2010-eng1-reading_a-q21",
+            "question_number": 21,
+            "content": "It is indicated in Paragraphs 1 and 2 that",
+            "options": {
+              "A": "arts criticism has disappeared from big-city newspapers.",
+              "B": "English-language newspapers used to carry more arts reviews.",
+              "C": "high-quality newspapers retain a large body of readers.",
+              "D": "young readers doubt the suitability of criticism on dailies."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q22",
+            "question_number": 22,
+            "content": "Newspaper reviews in England before World War II were characterized by",
+            "options": {
+              "A": "free themes.",
+              "B": "casual style.",
+              "C": "elaborate layout.",
+              "D": "radical viewpoints."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q23",
+            "question_number": 23,
+            "content": "Which of the following would Shaw and Newman most probably agree on?",
+            "options": {
+              "A": "It is writers’ duty to fulfill journalistic goals.",
+              "B": "It is contemptible for writers to be journalists.",
+              "C": "Writers are likely to be tempted into journalism.",
+              "D": "Not all writers are capable of journalistic writing."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q24",
+            "question_number": 24,
+            "content": "What can be learned about Cardus according to the last two paragraphs?",
+            "options": {
+              "A": "His music criticism may not appeal to readers today.",
+              "B": "His reputation as a music critic has long been in dispute.",
+              "C": "His style caters largely to modern specialists.",
+              "D": "His writings fail to follow the amateur tradition."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q25",
+            "question_number": 25,
+            "content": "What would be the best title for the text?",
+            "options": {
+              "A": "Newspapers of the Good Old Days",
+              "B": "The Lost Horizon in Newspapers",
+              "C": "Mournful Decline of Journalism",
+              "D": "Prominent Critics in Memory"
+            },
+            "q_type": "reading",
+            "score": 2.0
+          }
+        ]
+      },
+      {
+        "group_name": "Text 2",
+        "passage": "Over the past decade, thousands of patents have been granted for what are called business methods. Amazon.com received one for its “one-click” online payment system. Merrill Lynch got legal protection for an asset allocation strategy. One inventor patented a technique for lifting a box.\n\nNow the nation’s top patent court appears completely ready to scale back on business-method patents, which have been controversial ever since they were first authorized 10 years ago. In a move that has intellectual-property lawyers abuzz, the U.S. Court of Appeals for the Federal Circuit said it would use a particular case to conduct a broad review of business-method patents. In re Bilski, as the case is known, is “a very big deal,” says Dennis D. Crouch of the University of Missouri School of Law. It “has the potential to eliminate an entire class of patents.”\n\nCurbs on business-method claims would be a dramatic about-face, because it was the Federal Circuit itself that introduced such patents with its 1998 decision in the so-called State Street Bank case, approving a patent on a way of pooling mutual-fund assets. That ruling produced an explosion in business-method patent filings, initially by emerging Internet companies trying to stake out exclusive rights to specific types of online transactions. Later, more established companies raced to add such patents to their files, if only as a defensive move against rivals that might beat them to the punch. In 2005, IBM noted in a court filing that it had been issued more than 300 business-method patents, despite the fact that it questioned the legal basis for granting them. Similarly, some Wall Street investment firms armed themselves with patents for financial products, even as they took positions in court cases opposing the practice.\n\nThe Bilski case involves a claimed patent on a method for hedging risk in the energy market. The Federal Circuit issued an unusual order stating that the case would be heard by all 12 of the court’s judges, rather than a typical panel of three, and that one issue it wants to evaluate is whether it should “reconsider” its State Street Bank ruling.\n\nThe Federal Circuit’s action comes in the wake of a series of recent decisions by the Supreme Court that has narrowed the scope of protections for patent holders. Last April, for example, the justices signaled that too many patents were being upheld for “inventions” that are obvious. The judges on the Federal Circuit are “reacting to the anti-patent trend at the Supreme Court,” says Harold C. Wegner, a patent attorney and professor at George Washington University Law School.",
+        "questions": [
+          {
+            "q_id": "2010-eng1-reading_a-q26",
+            "question_number": 26,
+            "content": "Business-method patents have recently aroused concern because of",
+            "options": {
+              "A": "their limited value to businesses.",
+              "B": "their connection with asset allocation.",
+              "C": "the possible restriction on their granting.",
+              "D": "the controversy over their authorization."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q27",
+            "question_number": 27,
+            "content": "Which of the following is true of the Bilski case?",
+            "options": {
+              "A": "Its ruling complies with the court decisions.",
+              "B": "It involves a very big business transaction.",
+              "C": "It has been dismissed by the Federal Circuit.",
+              "D": "It may change the legal practices in the U.S."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q28",
+            "question_number": 28,
+            "content": "The word “about-face” (Line 1, Para. 3) most probably means",
+            "options": {
+              "A": "loss of goodwill.",
+              "B": "increase of hostility.",
+              "C": "change of attitude.",
+              "D": "enhancement of dignity."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q29",
+            "question_number": 29,
+            "content": "We learn from the last two paragraphs that business-method patents",
+            "options": {
+              "A": "are immune to legal challenges.",
+              "B": "are often unnecessarily issued.",
+              "C": "lower the esteem for patent holders.",
+              "D": "increase the incidence of risks."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q30",
+            "question_number": 30,
+            "content": "Which of the following would be the subject of the text?",
+            "options": {
+              "A": "A looming threat to business-method patents.",
+              "B": "Protection for business-method patent holders.",
+              "C": "A legal case regarding business-method patents.",
+              "D": "A prevailing trend against business-method patents."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          }
+        ]
+      },
+      {
+        "group_name": "Text 3",
+        "passage": "In his book The Tipping Point, Malcolm Gladwell argues that “social epidemics” are driven in large part by the actions of a tiny minority of special individuals, often called influentials, who are unusually informed, persuasive, or well connected. The idea is intuitively compelling, but it doesn’t explain how ideas actually spread.\n\nThe supposed importance of influentials derives from a plausible-sounding but largely untested theory called the “two-step flow of communication”: Information flows from the media to the influentials and from them to everyone else. Marketers have embraced the two-step flow because it suggests that if they can just find and influence the influentials, those select people will do most of the work for them. The theory also seems to explain the sudden and unexpected popularity of certain looks, brands, or neighborhoods. In many such cases, a cursory search for causes finds that some small group of people was wearing, promoting, or developing whatever it is before anyone else paid attention. Anecdotal evidence of this kind fits nicely with the idea that only certain special people can drive trends.\n\nIn their recent work, however, some researchers have come up with the finding that influentials have far less impact on social epidemics than is generally supposed. In fact, they don’t seem to be required at all.\n\nThe researchers’ argument stems from a simple observation about social influence: With the exception of a few celebrities like Oprah Winfrey – whose outsize presence is primarily a function of media, not interpersonal, influence – even the most influential members of a population simply don’t interact with that many others. Yet it is precisely these non-celebrity influentials who, according to the two-step-flow theory, are supposed to drive social epidemics, by influencing their friends and colleagues directly. For a social epidemic to occur, however, each person so affected must then influence his or her own acquaintances, who must in turn influence theirs, and so on; and just how many others pay attention to each of these people has little to do with the initial influential. If people in the network just two degrees removed from the initial influential prove resistant, for example, the cascade of change won’t propagate very far or affect many people.\n\nBuilding on this basic truth about interpersonal influence, the researchers studied the dynamics of social influence by conducting thousands of computer simulations of populations, manipulating a number of variables relating to people’s ability to influence others and their tendency to be influenced. They found that the principal requirement for what is called “global cascades” – the widespread propagation of influence through networks – is the presence not of a few influentials but, rather, of a critical mass of easily influenced people.",
+        "questions": [
+          {
+            "q_id": "2010-eng1-reading_a-q31",
+            "question_number": 31,
+            "content": "By citing the book The Tipping Point, the author intends to",
+            "options": {
+              "A": "analyze the consequences of social epidemics.",
+              "B": "discuss influentials’ function in spreading ideas.",
+              "C": "exemplify people’s intuitive response to social epidemics.",
+              "D": "describe the essential characteristics of influentials."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q32",
+            "question_number": 32,
+            "content": "The author suggests that the “two-step-flow theory”",
+            "options": {
+              "A": "serves as a solution to marketing problems.",
+              "B": "has helped explain certain prevalent trends.",
+              "C": "has won support from influentials.",
+              "D": "requires solid evidence for its validity."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q33",
+            "question_number": 33,
+            "content": "What the researchers have observed recently shows that",
+            "options": {
+              "A": "the power of influence goes with social interactions.",
+              "B": "interpersonal links can be enhanced through the media.",
+              "C": "influentials have more channels to reach the public.",
+              "D": "most celebrities enjoy wide media attention."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q34",
+            "question_number": 34,
+            "content": "The underlined phrase “these people” in Paragraph 4 refers to the ones who",
+            "options": {
+              "A": "stay outside the network of social influence.",
+              "B": "have little contact with the source of influence.",
+              "C": "are influenced and then influence others.",
+              "D": "are influenced by the initial influential."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q35",
+            "question_number": 35,
+            "content": "What is the essential element in the dynamics of social influence?",
+            "options": {
+              "A": "The eagerness to be accepted.",
+              "B": "The impulse to influence others.",
+              "C": "The readiness to be influenced.",
+              "D": "The inclination to rely on others."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          }
+        ]
+      },
+      {
+        "group_name": "Text 4",
+        "passage": "Bankers have been blaming themselves for their troubles in public. Behind the scenes, they have been taking aim at someone else: the accounting standard-setters. Their rules, moan the banks, have forced them to report enormous losses, and it’s just not fair. These rules say they must value some assets at the price a third party would pay, not the price managers and regulators would like them to fetch.\n\nUnfortunately, banks’ lobbying now seems to be working. The details may be unknowable, but the independence of standard-setters, essential to the proper functioning of capital markets, is being compromised. And, unless banks carry toxic assets at prices that attract buyers, reviving the banking system will be difficult.\n\nAfter a bruising encounter with Congress, America’s Financial Accounting Standards Board (FASB) rushed through rule changes. These gave banks more freedom to use models to value illiquid assets and more flexibility in recognizing losses on long-term assets in their income statements. Bob Herz, the FASB’s chairman, cried  out against those who “question our motives.” Yet bank shares rose and the changes enhance what one lobbying group politely calls “the use of judgment by management.”\n\nEuropean ministers instantly demanded that the International Accounting Standards Board (IASB) do likewise. The IASB says it does not want to act without overall planning, but the pressure to fold when it completes its reconstruction of rules later this year is strong. Charlie McCreevy, a European commissioner, warned the IASB that it did “not live in a political vacuum” but “in the real world” and that Europe could yet develop different rules.\n\nIt was banks that were on the wrong planet, with accounts that vastly overvalued assets. Today they argue that market prices overstate losses, because they largely reflect the temporary illiquidity of markets, not the likely extent of bad debts. The truth will not be known for years. But banks’ shares trade below their book value, suggesting that investors are skeptical. And dead markets partly reflect the paralysis of banks which will not sell assets for fear of booking losses, yet are reluctant to buy all those supposed bargains.\n\nTo get the system working again, losses must be recognized and dealt with. America’s new plan to buy up toxic assets will not work unless banks mark assets to levels which buyers find attractive. Successful markets require independent and even combative standard-setters. The FASB and IASB have been exactly that, cleaning up rules on stock options and pensions, for example, against hostility from special interests. But by giving in to critics now they are inviting pressure to make more concessions.",
+        "questions": [
+          {
+            "q_id": "2010-eng1-reading_a-q36",
+            "question_number": 36,
+            "content": "Bankers complained that they were forced to",
+            "options": {
+              "A": "follow unfavorable asset evaluation rules.",
+              "B": "collect payments from third parties.",
+              "C": "cooperate with the price managers.",
+              "D": "reevaluate some of their assets."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q37",
+            "question_number": 37,
+            "content": "According to the author, the rule changes of the FASB may result in",
+            "options": {
+              "A": "the diminishing role of management.",
+              "B": "the revival of the banking system.",
+              "C": "the banks’ long-term asset losses.",
+              "D": "the weakening of its independence."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q38",
+            "question_number": 38,
+            "content": "According to Paragraph 4, McCreevy objects to the IASB’s attempt to",
+            "options": {
+              "A": "keep away from political influences.",
+              "B": "evade the pressure from their peers.",
+              "C": "act on their own in rule-setting.",
+              "D": "take gradual measures in reform."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q39",
+            "question_number": 39,
+            "content": "The author thinks the banks were “on the wrong planet” in that they",
+            "options": {
+              "A": "misinterpreted market price indicators.",
+              "B": "exaggerated the real value of their assets.",
+              "C": "neglected the likely existence of bad debts.",
+              "D": "denied booking losses in their sale of assets."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_a-q40",
+            "question_number": 40,
+            "content": "The author’s attitude towards standard-setters is one of",
+            "options": {
+              "A": "satisfaction.",
+              "B": "skepticism.",
+              "C": "objectiveness.",
+              "D": "sympathy."
+            },
+            "q_type": "reading",
+            "score": 2.0
+          }
+        ]
+      }
+    ],
+    "reading_b": [
+      {
+        "group_name": "Text 1",
+        "passage": "Retail sales of food and drink in Europe’s largest markets are at a standstill, leaving European grocery retailers hungry for opportunities to grow. Most leading retailers have already tried e-commerce, with limited success, and expansion abroad. But almost all have ignored the big, profitable opportunity in their own backyard: the wholesale food and drink trade, which appears to be just the kind of market retailers need.\n\nFor example, wholesale food and drink sales came to ＄ 268 billion in France, Germany, Italy, Spain, and the United Kingdom in 2000 – more than 40 percent of retail sales. Moreover, average overall margins are higher in wholesale than in retail; wholesale demand from the food service sector is growing quickly as more Europeans eat out more often; and changes in the competitive dynamics of this fragmented industry are at last making it feasible for wholesalers to consolidate.\n\nAll in all, this clearly seems to be a market in which big retailers could profitably apply their gigantic scale, existing infrastructure, and proven skills in the management of product ranges, logistics, and marketing intelligence. Retailers that master the intricacies of wholesaling in Europe may well expect to rake in substantial profits thereby. At least, that is how it looks as a whole. Closer inspection reveals important differences among the biggest national markets, especially in their customer segments and wholesale structures, as well as the competitive dynamics of individual food and drink categories. Big retailers must understand these differences before they can identify the segments of European wholesaling in which their particular abilities might unseat smaller but entrenched competitors. New skills and unfamiliar business models are needed too.\n\nDespite variations in detail, wholesale markets in the countries that have been closely examined – France, Germany, Italy and Spain – are made out of the same building blocks. Demand comes mainly from two sources: independent mom-and-pop grocery stores which, unlike large retail chains, are too small to buy straight from producers, and food service operators that cater to consumers when they don’t eat at home. Such food service operators range from snack machines to large institutional catering ventures, but most of these businesses are known in the trade as “horeca”：hotels, restaurants, and cafés. Overall, Europe’s wholesale market for food and drink is growing at the same sluggish pace as the retail market, but the figures, when added together, mask two opposing trends.\n\nThe first and more important is the consumer’s growing preference for eating out: the consumption of food and drink in places other than homes has risen from about 32 percent of total consumption in 1995 to 35 percent in 2000 and is expected to approach 38 percent by 2005. This development is boosting wholesale demand from the food service segment by 4 to 5 percent a year across Europe, compared with growth in retail demand of 1 to 2 percent. Meanwhile, as the recession is looming large, people are getting anxious. They tend to keep a tighter hold on their purse and consider eating at home a realistic alternative.\n\nHowever, none of these requirements should deter large retailers (and even some large food producers and existing wholesalers) from trying their hand, for those that master the intricacies of wholesaling in Europe stand to reap considerable gains.",
+        "questions": [
+          {
+            "q_id": "2010-eng1-reading_b-q41",
+            "question_number": 41,
+            "content": "选择最合适的段落填入 41",
+            "options": null,
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_b-q42",
+            "question_number": 42,
+            "content": "选择最合适的段落填入 42",
+            "options": null,
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_b-q43",
+            "question_number": 43,
+            "content": "选择最合适的段落填入 43",
+            "options": null,
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_b-q44",
+            "question_number": 44,
+            "content": "选择最合适的段落填入 44",
+            "options": null,
+            "q_type": "reading",
+            "score": 2.0
+          },
+          {
+            "q_id": "2010-eng1-reading_b-q45",
+            "question_number": 45,
+            "content": "选择最合适的段落填入 45",
+            "options": null,
+            "q_type": "reading",
+            "score": 2.0
+          }
+        ]
+      }
+    ],
+    "translation": {
+      "passage": "One basic weakness in a conservation system based wholly on economic motives is that most members of the land community have no economic value. Yet these creatures are members of the biotic community and, if its  stability depends on  its integrity, they are entitled to continuance.\n\nWhen one of these noneconomic categories is threatened and, if we happen to love it, we invent excuses to give it economic importance. At the beginning of the century songbirds were supposed to be disappearing. (46) Scientists jumped to the rescue with some distinctly shaky evidence to the effect that insects would eat us up if birds failed to control them. The evidence had to be economic in order to be valid.\n\nIt is painful to read these roundabout accounts today. We have no land ethic yet, but we have at least drawn nearer the point of admitting that birds should continue as a matter of intrinsic right, regardless of the presence or absence of economic advantage to us.\n\nA parallel situation exists in respect of predatory mammals and fish-eating birds. Time was when biologists somewhat overworked the evidence that these creatures preserve the health of game by killing the physically weak, or that they prey only on “worthless” species. Here again, the evidence had to be economic in order to be valid. It is only in recent years that we hear the more honest argument that predators are members of the community, and that no special interest has the right to exterminate them for the sake of benefit, real or fancied, to itself.\n\nSome species of trees have been “read out of the party” by economics-minded foresters because they grow too slowly, or have too low a sale value to pay as timber crops. (49) In Europe, where forestry is ecologically more advanced, the noncommercial tree species are recognized as members of the native forest community, to be preserved as such, within reason. Moreover, some have been found to have a valuable function in building up soil fertility. The interdependence of the forest and its constituent tree species, ground flora, and fauna is taken for granted.\n\nTo sum up: a system of conservation based solely on economic self-interest is hopelessly lopsided. (50) It tends to ignore, and thus eventually to eliminate, many elements in the land community that lack commercial value, but that are essential to its healthy functioning. It assumes, falsely, that the economic parts of the biotic clock will function without the uneconomic parts.",
+      "questions": [
+        {
+          "q_id": "2010-eng1-translation-q46",
+          "question_number": 46,
+          "content": "Scientists jumped to the rescue with some distinctly shaky evidence to the effect that insects would eat us up if birds failed to control them.",
+          "options": null,
+          "q_type": "translation",
+          "score": 2.0
+        },
+        {
+          "q_id": "2010-eng1-translation-q47",
+          "question_number": 47,
+          "content": "But we have at least drawn nearer the point of admitting that birds should continue as a matter of intrinsic right, regardless of the presence or absence of economic advantage to us.",
+          "options": null,
+          "q_type": "translation",
+          "score": 2.0
+        },
+        {
+          "q_id": "2010-eng1-translation-q48",
+          "question_number": 48,
+          "content": "Time was when biologists somewhat overworked the evidence that these creatures preserve the health of game by killing the physically weak, or that they prey only on “worthless” species.",
+          "options": null,
+          "q_type": "translation",
+          "score": 2.0
+        },
+        {
+          "q_id": "2010-eng1-translation-q49",
+          "question_number": 49,
+          "content": "In Europe, where forestry is ecologically more advanced, the noncommercial tree species are recognized as members of the native forest community, to be preserved as such, within reason.",
+          "options": null,
+          "q_type": "translation",
+          "score": 2.0
+        },
+        {
+          "q_id": "2010-eng1-translation-q50",
+          "question_number": 50,
+          "content": "It tends to ignore, and thus eventually to eliminate, many elements in the land community that lack commercial value, but that are essential to its healthy functioning.",
+          "options": null,
+          "q_type": "translation",
+          "score": 2.0
+        }
+      ]
+    },
+    "writing_a": {
+      "q_id": "2010-eng1-writing_a-q51",
+      "prompt": "You are supposed to write for the Postgraduates’ Association a notice to recruit volunteers for an international conference on globalization. The notice should include the basic qualifications for applicants and the other information which you think is relevant.",
+      "image": null,
+      "passage": "Directions:\n\nYou are supposed to write for the Postgraduates’ Association a notice to recruit volunteers for an international conference on globalization. The notice should include the basic qualifications for applicants and the other information which you think is relevant.\n\nYou should write about 100 words on ANSWER SHEET 2.\n\nDo not sign your own name at the end of the notice. Use “Postgraduates’ Association” instead. (10 points)"
+    },
+    "writing_b": {
+      "q_id": "2010-eng1-writing_b-q52",
+      "prompt": "Write an essay of 160-200 words based on the drawing, describe the drawing briefly, explain its intended meaning, and give your comments.",
+      "image": "data:image/jpeg;base64,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i4vhwIVPQ+9AHakgVlaj4m0bSlzeajbxn+7vBP5CvAX8W+OPHd20FgJkjY42xAqoFdFpPwU1S7kWXXNSCg8sisWagD1nRvFGka/I6adeJM6DLKOuK2CQoJJwB1Ncp4W+H+keE7h7iyMrSsNuXboK6mZQ8Lq3QqQaAIrW+tb1Wa2njlVTglDnBqxXgHw88QXen/EqfSBKz200rIRnI9q9/oAKKKKACq93f2lhCZbu4igQfxSMBVLxFrtt4d0afUbo/LGvyrnlm7CvBtOtfEPxa8SzTzXD2+nocnk7UXPQUAemar8YPDljJ5Nq0t5Lu2/u1wv511vh/V31vTEvGt2gDnhWHUVz+j/C7wzpKRH7IbiZDnfKc5P0rtFRUUKqhVAwABgCgBaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAKuo38OmadPe3DbYoULsa+S7nUxq/jK41W/iaW2eckqOnWvZvjj4k/s/w7HpMD/v7tgXAPIUf41Y8GfDvTLj4f2iXkJF1dRiVpO6k9KAOw8HSabPoEM2mWa20JGNoXBJAroK8g03VNW+HWotZaojy6Y7fIwGQB6g16XpHiDTNbthPZXSOD1UnDD8KANSs/XILu50W7gsWC3LxlUJ960M0UAeSeAvhfe6L4iOuanKvnAkqgOc5r1uiigAooooA8b+N17O8umaZGw8qQ7mX1OcV6P4T0K10HQLa2towpZFdzjksRXl3xNlVviNp0c+RGqpjjtmva4seUm37uBigDK8SW+q3Okumj3AhugwYE9wO1eXRfFTXtC1NbPXrJXjVtruFw2K9pryP4z6/osWjtpzCOTUCchlAylAHpOi6/p2v2ouNPuFlXA3AdV+tadfPfwBu/+J7ewPKfmiJVSevIr6EoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApk0qwQvK5wiKWY+wp9cL8VfEiaB4QnRXxcXX7tADzjuaAPIJxP8AEH4utBuLW3m8Z6Kgr6VghS3gjhjUKkah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",
+      "passage": "Directions:\n\nWrite an essay of 160-200 words based on the following drawing. In your essay, you should\n\ndescribe the drawing briefly,\n\nexplain its intended meaning, and\n\ngive your comments.\n\nYou should write neatly on ANSWER SHEET 2."
+    }
+  }
+}

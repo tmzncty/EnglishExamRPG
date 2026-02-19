@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'WenKai';
+  src: url('./assets/fonts/LXGWWenKaiMono-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── 全局基础 (Paper Mode) — body 和 html 都要设字体 ── */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f5f5f0;
+  color: #1a1a1a;
+  overflow: hidden;
+  /* WenKai 必须在 body 上才会覆盖 Tailwind preflight */
+  font-family: "WenKai", "LXGW WenKai Mono", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0ec;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c5c0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff69b4;
+}
+
+/* 文字选中 */
+::selection {
+  background-color: #ffb6c1;
+  color: #1a1a1a;
+}
