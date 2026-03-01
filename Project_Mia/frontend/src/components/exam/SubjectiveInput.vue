@@ -69,7 +69,7 @@
 </template>
 
 <script setup>
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, onMounted } from 'vue'
 import request from '../../utils/request'
 import { useUserStore } from '../../stores/useUserStore'
 import { useMiaStore } from '../../stores/useMiaStore'
@@ -94,6 +94,8 @@ watch(() => props.qId, (newVal) => {
   aiFeedback.value = ''
   submitted.value  = false
   isSubmitting.value = false
+  // 尝试恢复
+  restoreHistory()
 })
 
 const userStore = useUserStore()
@@ -106,6 +108,32 @@ const isSubmitting = ref(false)
 const submitted    = ref(false)
 const aiFeedback   = ref('')
 const score        = ref(null)
+
+// [Stage 14.0] 恢复历史记录
+const restoreHistory = () => {
+    const history = examStore.answerHistory[props.qId]
+    if (history) {
+        userAnswer.value = history.user_answer
+        score.value      = history.score
+        aiFeedback.value = history.ai_feedback
+        submitted.value  = true
+    } else {
+        // [新增] 切换到无记录的存档时，清空当前状态
+        userAnswer.value = ''
+        score.value      = null
+        aiFeedback.value = ''
+        submitted.value  = false
+        isSubmitting.value = false
+    }
+}
+
+onMounted(() => {
+    restoreHistory()
+})
+
+watch(() => examStore.answerHistory, () => {
+    restoreHistory()
+}, { deep: true })
 
 const wordCount = computed(() =>
   userAnswer.value.trim().split(/[\s\n]+/).filter(Boolean).length
@@ -124,6 +152,7 @@ const submitForGrading = async () => {
       q_id:         props.qId,
       answer:       userAnswer.value,
       section_type: props.sectionType,
+      slot_id:      userStore.currentSlotId // [Stage 15.0]
     })
 
     // 分数和评语
@@ -132,7 +161,8 @@ const submitForGrading = async () => {
     submitted.value  = true
 
     // HP 扣减（主观题写了就扣消耗，答得好少扣）
-    const hpDelta = res.hp_change ?? -3
+    // 🌟 核心修正：确保 0 或负数都能被正确执行
+    const hpDelta = (res.hp_change !== undefined) ? res.hp_change : -3
     userStore.animateHpChange(hpDelta)
 
     // Mia 说话
@@ -144,7 +174,8 @@ const submitForGrading = async () => {
     score.value      = props.maxScore * 0.6
     aiFeedback.value = '（离线模式）Mia 暂时连不上服务器，不过你写得很认真哦！等网络恢复后再重新提交吧～'
     submitted.value  = true
-    userStore.animateHpChange(-2)
+    // 🌟 修正：网络错误时仅扣除极小值
+    userStore.animateHpChange(-0.5)
   } finally {
     isSubmitting.value = false
   }

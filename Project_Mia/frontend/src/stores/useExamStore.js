@@ -1,5 +1,6 @@
 import { defineStore } from 'pinia'
 import request from '../utils/request'
+import { useUserStore } from './useUserStore'
 
 export const useExamStore = defineStore('exam', {
     state: () => ({
@@ -13,6 +14,9 @@ export const useExamStore = defineStore('exam', {
 
         // Active Question Tracking for Context Injection
         activeQuestionId: null,
+
+        // [Stage 14.0] 用户答题历史回显 { q_id: { user_answer, score, is_correct, ai_feedback } }
+        answerHistory: {},
     }),
 
     actions: {
@@ -20,6 +24,21 @@ export const useExamStore = defineStore('exam', {
             this.activeQuestionId = qId
             this.activeQuestionId = qId
             // console.log("[ExamStore] Active question set to:", qId)
+        },
+
+        // [Stage 14.0] 拉取答题历史
+        async fetchAnswerHistory() {
+            try {
+                const userStore = useUserStore()
+                const res = await request.get('/exam/history', {
+                    params: { slot_id: userStore.currentSlotId }
+                })
+                if (res) {
+                    this.answerHistory = res
+                }
+            } catch (e) {
+                console.error("Failed to fetch answer history:", e)
+            }
         },
 
         // 获取试卷列表
@@ -42,6 +61,10 @@ export const useExamStore = defineStore('exam', {
                 const res = await request.get(`/exam/${id}`)
                 this.currentPaper = res
                 this.paperId = id
+                
+                // 加载试卷顺便加载历史记录
+                await this.fetchAnswerHistory()
+                
                 return res
             } catch (e) {
                 console.error(e)

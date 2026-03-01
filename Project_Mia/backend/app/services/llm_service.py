@@ -271,8 +271,11 @@ class LLMService:
                 if parsed and "score" in parsed:
                     return parsed
             except Exception as e:
+                import traceback
+                print(f"\n[🔥 LLM Grading Error] Attempt {attempt} Failed: {e}")
+                print(traceback.format_exc())
+                
                 with open("llm_debug.log", "a") as f:
-                    import traceback
                     f.write(f"Attempt {attempt} failed: {e}\n")
                     f.write(traceback.format_exc())
                     f.write("\n")
@@ -430,6 +433,32 @@ class LLMService:
             user_prompt += f"\n薄弱词汇: {', '.join(context['weak_words'][:3])}"
 
         return await self.generate(user_prompt, system_prompt, 0.8, 200)
+
+    # ==================================================================
+    #  [Stage 17.0] Vocab Word Explanation
+    # ==================================================================
+
+    async def explain_vocab_word(self, word: str) -> str:
+        """
+        用赛博猫娘 Mia 的语气讲解单词。
+        提供词根词缀、记忆口诀和考研常考搭配，100字内。
+        """
+        system_prompt = (
+            "你是赛博猫娘Mia，一位既精通语言学、又充满活力的考研英语导师。"
+            "你的讲解简洁、有趣、带点傲娇感，使用emoji，回复严格在100字以内。"
+        )
+        user_prompt = (
+            f"请讲解考研英语单词 **{word}**：\n"
+            "1. 词根/词缀助记\n"
+            "2. 记忆口诀（一句话）\n"
+            "3. 考研常考搭配（1-2个）"
+        )
+        try:
+            result = await self.generate(user_prompt, system_prompt=system_prompt, temperature=0.8, max_tokens=200)
+            return result.strip()
+        except Exception as e:
+            print(f"[llm] explain_vocab_word failed: {e}")
+            return f"Mia暂时累了，请稍后再试喵... ({word}的讲解生成失败)"
 
 
 # 单例

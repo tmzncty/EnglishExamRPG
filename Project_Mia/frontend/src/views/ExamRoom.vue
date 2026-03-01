@@ -8,6 +8,27 @@
       <div class="text-mia-pink font-bold text-lg mr-4">
           {{ examStore.currentPaper?.title || 'Loading...' }}
       </div>
+
+      <!-- [Stage 17.0] Progress Bar + Reset Button -->
+      <div class="flex items-center gap-2">
+        <div class="flex flex-col min-w-[120px]">
+          <div class="flex justify-between text-[10px] text-gray-400 mb-0.5">
+            <span>{{ progress.answered }}/{{ progress.total }}</span>
+            <span>{{ progress.percentage }}%</span>
+          </div>
+          <div class="h-1.5 w-32 bg-gray-100 rounded-full overflow-hidden">
+            <div
+              class="h-full bg-emerald-400 rounded-full transition-all duration-500"
+              :style="{ width: progress.percentage + '%' }"
+            ></div>
+          </div>
+        </div>
+        <button
+          @click="resetPaper"
+          class="text-[11px] px-2 py-1 bg-white border border-gray-200 rounded text-gray-400 hover:text-rose-500 hover:border-rose-300 transition-all"
+          title="清空重做本卷"
+        >🔄 二刷</button>
+      </div>
       
       <!-- Font Size Slider -->
       <div class="flex items-center gap-2">
@@ -200,6 +221,8 @@ import { ref, computed, watch, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useExamStore } from '../stores/useExamStore'
 import { useMiaStore } from '../stores/useMiaStore'
+import { useUserStore } from '../stores/useUserStore'
+import request from '../utils/request'
 import InkCanvas from '../components/InkCanvas.vue'
 import SingleChoice from '../components/exam/SingleChoice.vue'
 import EssayBox from '../components/exam/EssayBox.vue'
@@ -208,6 +231,37 @@ import SubjectiveInput from '../components/exam/SubjectiveInput.vue'
 const route = useRoute()
 const examStore = useExamStore()
 const miaStore = useMiaStore()
+const userStore = useUserStore()
+
+// [Stage 17.0] Progress state
+const progress = ref({ answered: 0, total: 0, percentage: 0 })
+
+const fetchProgress = async () => {
+    const paperId = route.params.paperId
+    try {
+        const res = await request.get(`/exam/${paperId}/progress`, {
+            params: { slot_id: userStore.currentSlotId }
+        })
+        if (res) progress.value = res
+    } catch(e) {
+        console.error('Progress fetch failed:', e)
+    }
+}
+
+const resetPaper = async () => {
+    const paperId = route.params.paperId
+    if (!confirm('确定要清空本卷的当前作答记录开启二刷吗？历史轨迹将被保留。')) return
+    try {
+        await request.delete(`/exam/${paperId}/reset`, {
+            params: { slot_id: userStore.currentSlotId }
+        })
+        // Refresh answer state and progress
+        await examStore.fetchAnswerHistory()
+        await fetchProgress()
+    } catch(e) {
+        alert('重置失败：' + e.message)
+    }
+}
 
 // State
 const fontSize = ref(18)
@@ -273,6 +327,9 @@ onMounted(async () => {
     console.log('ExamRoom Mounted. Fetching paper:', route.params.paperId)
     await examStore.fetchPaper(route.params.paperId)
     console.log('Paper Loaded:', examStore.currentPaper)
+    
+    // [Stage 17.0] Fetch progress
+    await fetchProgress()
     
     // Select first item
     if (navItems.value.length > 0) {

@@ -98,9 +98,101 @@ def ensure_auto_save(conn: sqlite3.Connection):
             level INTEGER DEFAULT 1,
             mia_mood TEXT DEFAULT 'normal',
             mia_affection INTEGER DEFAULT 50,
+            daily_new_words_limit INTEGER DEFAULT 30, -- [Stage 17.0]
             snapshot_json TEXT,  -- JSON
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+    
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS user_answers (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            slot_id INTEGER DEFAULT 0,
+            q_id TEXT NOT NULL,
+            section_type TEXT,
+            user_answer TEXT,
+            score REAL,
+            is_correct BOOLEAN,
+            ai_feedback TEXT,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(slot_id, q_id)
+        )
+    """)
+    
+    # [Stage 14.1 Fix] 确保 user_answers 表有 slot_id 字段 (Migration)
+    try:
+        # Check if slot_id exists
+        cursor = conn.execute("PRAGMA table_info(user_answers)")
+        columns = [col["name"] for col in cursor.fetchall()]
+        if "slot_id" not in columns:
+            print("[helpers] Migrating user_answers: Adding slot_id column...")
+            try:
+                # SQLite doesn't support ADD COLUMN + UNIQUE constraint easily in one go for existing,
+                # but we just need the column for now.
+                # However, the UNIQUE constraint index might need recreation. 
+                # For simplicity in this hotfix, we add the column.
+                conn.execute("ALTER TABLE user_answers ADD COLUMN slot_id INTEGER DEFAULT 0")
+                
+                # We might need to recreate the index/unique constraint, but SQLite ALTER TABLE is limited.
+                # Let's trust that basic functionality works, or if critical, we recreate table.
+                # Given 'UNIQUE(slot_id, q_id)' is in CREATE statement, it won't be enforcing for old table unless we recreate.
+                # Let's recreate index manually to be safe.
+                conn.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_user_answers_slot_q ON user_answers(slot_id, q_id)")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed: {e}")
+    except Exception as e:
+        print(f"[helpers] Schema check failed: {e}")
+
+    # [Stage 17.0] Migrations for daily_new_words_limit
+    try:
+        cursor = conn.execute("PRAGMA table_info(game_saves)")
+        columns = [col["name"] for col in cursor.fetchall()]
+        if "daily_new_words_limit" not in columns:
+            print("[helpers] Migrating game_saves: Adding daily_new_words_limit column...")
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN daily_new_words_limit INTEGER DEFAULT 30")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for daily_new_words_limit: {e}")
+    except Exception as e:
+        print(f"[helpers] Schema check failed for game_saves: {e}")
+
+    # [Stage 17.0] Attempt History Logs (Replayability)
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS answer_history_logs (
+            log_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            slot_id INTEGER DEFAULT 0,
+            q_id TEXT NOT NULL,
+            user_answer TEXT,
+            score REAL,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+
+    # [Stage 17.0] Vocab AI Cache Table
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS vocab_ai_cache (
+            word TEXT PRIMARY KEY,
+            ai_explanation TEXT NOT NULL,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+
+    # [Stage 16.0] Vocab Memory Table
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS user_vocab_memory (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            slot_id INTEGER DEFAULT 0,
+            word TEXT NOT NULL,
+            easiness_factor REAL DEFAULT 2.5,
+            interval INTEGER DEFAULT 0,
+            repetitions INTEGER DEFAULT 0,
+            next_review_date TEXT, -- YYYY-MM-DD
+            last_review_date TEXT,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            UNIQUE(slot_id, word)
         )
     """)
     

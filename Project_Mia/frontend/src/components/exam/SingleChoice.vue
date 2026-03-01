@@ -55,7 +55,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import request from '../../utils/request'
 import { useUserStore } from '../../stores/useUserStore'
 import { useMiaStore } from '../../stores/useMiaStore'
@@ -71,6 +71,29 @@ const selected      = ref(null)
 const submitted     = ref(false)
 const isCorrect     = ref(false)
 const correctAnswer = ref(null)
+
+// [Stage 14.0] 恢复历史记录
+const restoreHistory = () => {
+    const history = examStore.answerHistory[props.question.q_id]
+    if (history) {
+        selected.value = history.user_answer
+        submitted.value = true
+        isCorrect.value = history.is_correct
+    } else {
+        // [新增] 切换到无记录的存档时，清空当前状态
+        selected.value = null
+        submitted.value = false
+        isCorrect.value = false
+    }
+}
+
+onMounted(() => {
+    restoreHistory()
+})
+
+watch(() => examStore.answerHistory, () => {
+    restoreHistory()
+}, { deep: true })
 
 const setFocus = () => {
     examStore.setActiveQuestion(props.question.q_id)
@@ -99,7 +122,8 @@ const submit = async () => {
     try {
         const res = await request.post('/exam/submit_objective', {
             q_id: props.question.q_id,
-            answer: selected.value
+            answer: selected.value,
+            slot_id: userStore.currentSlotId // [Stage 15.0]
         })
         // console.log('[SingleChoice] API 响应:', res)
 
@@ -107,11 +131,17 @@ const submit = async () => {
         correctAnswer.value = res.correct_answer
 
         // ── 交互链路：HP 扣减 + Mia 反馈 ──
+        // 🌟 核心修正：绝对服从后端返回的扣血数值
+        if (res && res.hp_change !== undefined) {
+            userStore.animateHpChange(res.hp_change)
+        } else if (!res.correct) {
+            // 只有在后端没返回的极端异常下，才给个极小的兜底
+            userStore.animateHpChange(-0.5)
+        }
+
         if (res.correct) {
-            userStore.animateHpChange(0)  // 答对不扣血
             miaStore.history.push({ role: 'assistant', content: '答对了！你真棒 ✨ 继续保持！' })
         } else {
-            userStore.animateHpChange(-10) // 答错扣 10 血
             userStore.setMood('worried')
             miaStore.history.push({
                 role: 'assistant',
@@ -132,7 +162,8 @@ const submit = async () => {
         if (mockCorrect) {
             miaStore.history.push({ role: 'assistant', content: '（Mock）答对了！✨' })
         } else {
-            userStore.animateHpChange(-10)
+            // 🌟 修正：网络错误时仅扣除极小值
+            userStore.animateHpChange(-0.5)
             userStore.setMood('worried')
             miaStore.history.push({ role: 'assistant', content: `（Mock）答错了，正确是 A。` })
         }

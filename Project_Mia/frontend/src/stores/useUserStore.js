@@ -9,6 +9,8 @@ export const useUserStore = defineStore('user', {
         exp: 0,
         mood: 'focused', // focused, happy, worried, exhausted
         token: null,     // JWT token (Phase 5)
+        currentSlotId: 0, // [Stage 15.0] 当前存档槽位
+        availableSlots: [], // [Stage 16.0] 可用存档列表
     }),
 
     getters: {
@@ -48,10 +50,14 @@ export const useUserStore = defineStore('user', {
         },
 
         // 从后端加载用户进度
-        async loadUser() {
+        async loadUser(slotId = null) {
+            if (slotId !== null) this.currentSlotId = slotId
+
             try {
-                // GET /api/user/load
-                const res = await request.get('/user/load')
+                // GET /api/user/load?slot_id=...
+                const res = await request.get('/user/load', {
+                    params: { slot_id: this.currentSlotId }
+                })
                 if (res) {
                     this.hp = res.hp
                     this.maxHp = res.max_hp
@@ -70,6 +76,7 @@ export const useUserStore = defineStore('user', {
             try {
                 // POST /api/user/save
                 await request.post('/user/save', {
+                    slot_id: this.currentSlotId,
                     hp: this.hp,
                     max_hp: this.maxHp,
                     level: this.level,
@@ -115,6 +122,37 @@ export const useUserStore = defineStore('user', {
         // 初始化用户状态
         async init() {
             await this.loadUser()
+            await this.fetchSlots()
+        },
+
+        // [Stage 16.0] Fetch available slots
+        async fetchSlots() {
+            try {
+                const res = await request.get('/user/slots')
+                if (res) {
+                    this.availableSlots = res
+                }
+            } catch (e) {
+                console.error("Failed to fetch slots:", e)
+            }
+        },
+
+        // [Stage 16.0] Create new slot
+        async createSlot() {
+            try {
+                const res = await request.post('/user/slots/new')
+                if (res && res.success) {
+                    await this.fetchSlots()
+                    // Switch to new slot
+                    this.currentSlotId = res.slot_id
+                    await this.loadUser(res.slot_id)
+                } else {
+                    throw new Error(res.error || "Unknown error")
+                }
+            } catch (e) {
+                console.error("Failed to create slot:", e)
+                throw e
+            }
         }
     }
 })
