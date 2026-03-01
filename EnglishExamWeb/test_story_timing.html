@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Story Timing Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+
+        .test-section {
+            background: #16213e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            background: #0f3460;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #205280;
+        }
+
+        .result {
+            margin-top: 10px;
+            padding: 10px;
+            background: #0a0e27;
+            border-radius: 5px;
+        }
+
+        .error {
+            color: #e74c3c;
+        }
+
+        .success {
+            color: #2ecc71;
+        }
+
+        .info {
+            color: #3498db;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Story Timing Debug Test</h1>
+
+    <div class="test-section">
+        <h3>Test 1: 验证数据库数据</h3>
+        <button onclick="testDatabase()">测试数据库</button>
+        <div id="db-result" class="result"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 2: 模拟答题流程</h3>
+        <p>当前题目索引: <span id="current-index">0</span></p>
+        <p>当前题目ID: <span id="current-id">-</span></p>
+        <button onclick="simulateAnswer()">模拟答题（获取Story）</button>
+        <button onclick="nextQuestion()">下一题</button>
+        <div id="answer-result" class="result"></div>
+    </div>
+
+    <div class="test-section">
+        <h3>Test 3: 检查实际问题数据</h3>
+        <button onclick="checkQuestions()">检查2010年21-25题</button>
+        <div id="question-result" class="result"></div>
+    </div>
+
+    <script>
+        let currentIndex = 13; // 模拟从第13题开始（索引12）
+        let questions = [
+            { id: 10, year: 2010, text: "Question 10" },
+            { id: 11, year: 2010, text: "Question 11" },
+            { id: 12, year: 2010, text: "Question 12" },
+            { id: 13, year: 2010, text: "Question 13 - Shaw and Newman" },
+            { id: 14, year: 2010, text: "Question 14 - Cardus" },
+            { id: 15, year: 2010, text: "Question 15" }
+        ];
+
+        function updateDisplay() {
+            const q = questions[currentIndex - 10];
+            document.getElementById('current-index').textContent = currentIndex;
+            document.getElementById('current-id').textContent = q ? q.id : 'N/A';
+        }
+
+        async function testDatabase() {
+            const result = document.getElementById('db-result');
+            result.innerHTML = '<div class="info">正在查询...</div>';
+
+            try {
+                // 测试几个题目的story
+                const testIds = [13, 14, 24];
+                let html = '';
+
+                for (const qId of testIds) {
+                    const response = await fetch('/api/get_story', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            q_id: qId,
+                            year: 2010,
+                            is_correct: true,
+                            lang: 'cn'
+                        })
+                    });
+
+                    const data = await response.json();
+                    const preview = data.story ? data.story.substring(0, 100) : 'N/A';
+                    const hasShaw = data.story && data.story.includes('Shaw');
+                    const hasCardus = data.story && data.story.includes('卡达斯');
+
+                    html += `<div style="margin: 10px 0; border-left: 3px solid ${data.success ? '#2ecc71' : '#e74c3c'}; padding-left: 10px;">
+                        <strong>题号 ${qId}:</strong><br>
+                        成功: ${data.success}<br>
+                        包含Shaw: ${hasShaw}<br>
+                        包含卡达斯: ${hasCardus}<br>
+                        内容预览: ${preview}...
+                    </div>`;
+                }
+
+                result.innerHTML = html;
+            } catch (error) {
+                result.innerHTML = `<div class="error">错误: ${error.message}</div>`;
+            }
+        }
+
+        async function simulateAnswer() {
+            const result = document.getElementById('answer-result');
+            const q = questions[currentIndex - 10];
+
+            if (!q) {
+                result.innerHTML = '<div class="error">无效的题目索引</div>';
+                return;
+            }
+
+            result.innerHTML = `<div class="info">正在获取题目 ${q.id} 的 story...</div>`;
+
+            try {
+                console.log('[DEBUG] 请求story - qId:', q.id, 'year:', q.year);
+
+                const response = await fetch('/api/get_story', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        q_id: q.id,
+                        year: q.year,
+                        is_correct: true,
+                        lang: 'cn'
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    const hasShaw = data.story.includes('Shaw');
+                    const hasCardus = data.story.includes('卡达斯');
+                    const preview = data.story.substring(0, 200);
+
+                    result.innerHTML = `
+                        <div class="success">
+                            <strong>当前题目: ID=${q.id}</strong><br>
+                            包含Shaw: ${hasShaw ? '✓' : '✗'}<br>
+                            包含卡达斯: ${hasCardus ? '✓' : '✗'}<br>
+                            <br>
+                            内容预览:<br>
+                            ${preview}...
+                        </div>
+                    `;
+                } else {
+                    result.innerHTML = `<div class="error">获取失败: ${data.message}</div>`;
+                }
+            } catch (error) {
+                result.innerHTML = `<div class="error">错误: ${error.message}</div>`;
+            }
+        }
+
+        function nextQuestion() {
+            currentIndex++;
+            updateDisplay();
+            document.getElementById('answer-result').innerHTML = '<div class="info">已切换到下一题，点击"模拟答题"测试</div>';
+        }
+
+        async function checkQuestions() {
+            const result = document.getElementById('question-result');
+            result.innerHTML = '<div class="info">正在加载考试数据...</div>';
+
+            try {
+                const response = await fetch('data/2010.json');
+                const data = await response.json();
+
+                // 找出21-25题
+                const targetQuestions = data.filter(q => q.id >= 21 && q.id <= 25);
+
+                let html = '<h4>2010年 题号21-25:</h4>';
+                targetQuestions.forEach(q => {
+                    html += `<div style="margin: 10px 0; padding: 10px; background: #0a0e27; border-radius: 5px;">
+                        <strong>题号 ${q.id}</strong> - ${q.sectionName}<br>
+                        问题: ${q.text.substring(0, 100)}...<br>
+                    </div>`;
+                });
+
+                result.innerHTML = html;
+            } catch (error) {
+                result.innerHTML = `<div class="error">错误: ${error.message}</div>`;
+            }
+        }
+
+        // 初始化
+        updateDisplay();
+    </script>
+</body>
+
+</html>
