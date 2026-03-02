@@ -95,3 +95,16 @@ QUICKSTART.md
 PROJECT_README.md
 USER_GUIDE.md
 IMAGE_HANDLING.md
+
+# Global Security
+*.env
+*.log
+*user_config.json
+*femo_profile.db
+*user_vocab.db*
+__pycache__/
+node_modules/
+.DS_Store
+
+# Explicitly allow the core question bank database
+!Project_Mia/backend/data/static_content.db
