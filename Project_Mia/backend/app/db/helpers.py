@@ -99,6 +99,8 @@ def ensure_auto_save(conn: sqlite3.Connection):
             mia_mood TEXT DEFAULT 'normal',
             mia_affection INTEGER DEFAULT 50,
             daily_new_words_limit INTEGER DEFAULT 30, -- [Stage 17.0]
+            slot_name TEXT DEFAULT 'Auto Save',       -- [Stage 20.0]
+            daily_reset_time TEXT DEFAULT '04:00',     -- [Stage 20.0]
             snapshot_json TEXT,  -- JSON
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
@@ -159,6 +161,27 @@ def ensure_auto_save(conn: sqlite3.Connection):
     except Exception as e:
         print(f"[helpers] Schema check failed for game_saves: {e}")
 
+    # [Stage 20.0] Migrations for slot_name and daily_reset_time
+    try:
+        cursor = conn.execute("PRAGMA table_info(game_saves)")
+        columns = [col["name"] for col in cursor.fetchall()]
+        if "slot_name" not in columns:
+            print("[helpers] Migrating game_saves: Adding slot_name column...")
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN slot_name TEXT DEFAULT 'Auto Save'")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for slot_name: {e}")
+        if "daily_reset_time" not in columns:
+            print("[helpers] Migrating game_saves: Adding daily_reset_time column...")
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN daily_reset_time TEXT DEFAULT '04:00'")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for daily_reset_time: {e}")
+    except Exception as e:
+        print(f"[helpers] Schema check failed for slot_name/daily_reset_time: {e}")
+
     # [Stage 17.0] Attempt History Logs (Replayability)
     conn.execute("""
         CREATE TABLE IF NOT EXISTS answer_history_logs (
@@ -180,7 +203,7 @@ def ensure_auto_save(conn: sqlite3.Connection):
         )
     """)
 
-    # [Stage 16.0] Vocab Memory Table
+    # [Stage 16.0 / 21.0] Vocab Memory Table
     conn.execute("""
         CREATE TABLE IF NOT EXISTS user_vocab_memory (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -191,10 +214,67 @@ def ensure_auto_save(conn: sqlite3.Connection):
             repetitions INTEGER DEFAULT 0,
             next_review_date TEXT, -- YYYY-MM-DD
             last_review_date TEXT,
+            mastery_level INTEGER DEFAULT 0,       -- [Stage 21.0]
+            success_streak INTEGER DEFAULT 0,      -- [Stage 21.0]
+            total_recall_count INTEGER DEFAULT 0,  -- [Stage 21.0]
+            total_error_count INTEGER DEFAULT 0,   -- [Stage 21.0]
             updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
             UNIQUE(slot_id, word)
         )
     """)
+
+    # [Stage 21.0] Migrations for game_saves Session Progress
+    try:
+        cursor = conn.execute("PRAGMA table_info(game_saves)")
+        columns = [col["name"] for col in cursor.fetchall()]
+
+        if "today_learned_count" not in columns:
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN today_learned_count INTEGER DEFAULT 0")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for today_learned_count: {e}")
+                
+        if "today_reviewed_count" not in columns:
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN today_reviewed_count INTEGER DEFAULT 0")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for today_reviewed_count: {e}")
+
+        if "last_reset_day" not in columns:
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN last_reset_day TEXT DEFAULT ''")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for last_reset_day: {e}")
+
+    except Exception as e:
+        print(f"[helpers] Schema check failed for game_saves 21.0 columns: {e}")
+
+    # [Stage 21.0] Migrations for user_vocab_memory Pro-Level SRS Schema
+    try:
+        cursor = conn.execute("PRAGMA table_info(user_vocab_memory)")
+        columns = [col["name"] for col in cursor.fetchall()]
+
+        new_vocab_cols = {
+            "mastery_level": "INTEGER DEFAULT 0",
+            "success_streak": "INTEGER DEFAULT 0",
+            "total_recall_count": "INTEGER DEFAULT 0",
+            "total_error_count": "INTEGER DEFAULT 0"
+        }
+        
+        for col_name, col_def in new_vocab_cols.items():
+            if col_name not in columns:
+                print(f"[helpers] Migrating user_vocab_memory: Adding {col_name} column...")
+                try:
+                    conn.execute(f"ALTER TABLE user_vocab_memory ADD COLUMN {col_name} {col_def}")
+                    conn.commit()
+                except Exception as e:
+                    print(f"[helpers] Migration failed for {col_name}: {e}")
+                    
+    except Exception as e:
+        print(f"[helpers] Schema check failed for user_vocab_memory extensions: {e}")
     
     # 2. 检查 slot_id=0 是否存在
     try:

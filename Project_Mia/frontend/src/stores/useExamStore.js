@@ -8,6 +8,7 @@ export const useExamStore = defineStore('exam', {
         currentPaper: null, // 试卷详情
         examList: [], // 试卷列表
         loading: false,
+        lastError: null, // [Stage 25.0] User-facing error message
 
         // Annotations: { [paperId]: { [sectionId]: base64 } }
         annotations: {},
@@ -57,17 +58,21 @@ export const useExamStore = defineStore('exam', {
         // 获取试卷详情
         async fetchPaper(id) {
             this.loading = true
+            this.lastError = null
             try {
                 const res = await request.get(`/exam/${id}`)
                 this.currentPaper = res
                 this.paperId = id
-                
+
                 // 加载试卷顺便加载历史记录
                 await this.fetchAnswerHistory()
-                
+
                 return res
             } catch (e) {
                 console.error(e)
+                this.lastError = `未找到对应试卷 (${id})`
+                this.currentPaper = null
+                return null
             } finally {
                 this.loading = false
             }

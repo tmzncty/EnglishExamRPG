@@ -11,6 +11,7 @@ export const useUserStore = defineStore('user', {
         token: null,     // JWT token (Phase 5)
         currentSlotId: 0, // [Stage 15.0] 当前存档槽位
         availableSlots: [], // [Stage 16.0] 可用存档列表
+        dailyLimit: 30,  // [Stage 20.0] 当前存档的每日新词上限
     }),
 
     getters: {
@@ -69,6 +70,17 @@ export const useUserStore = defineStore('user', {
             } catch (error) {
                 console.error("Failed to load user progress:", error)
             }
+
+            // [Stage 20.0] Sync dailyLimit from current slot info
+            this._syncDailyLimit()
+        },
+
+        // [Stage 20.0] Sync dailyLimit from availableSlots
+        _syncDailyLimit() {
+            const current = this.availableSlots.find(s => s.slot_id === this.currentSlotId)
+            if (current) {
+                this.dailyLimit = current.daily_new_words_limit || 30
+            }
         },
 
         // 保存用户进度到后端
@@ -121,26 +133,37 @@ export const useUserStore = defineStore('user', {
 
         // 初始化用户状态
         async init() {
-            await this.loadUser()
             await this.fetchSlots()
+            await this.loadUser()
         },
 
-        // [Stage 16.0] Fetch available slots
+        // [Stage 16.0 / 21.0] Fetch available slots
         async fetchSlots() {
             try {
                 const res = await request.get('/user/slots')
                 if (res) {
-                    this.availableSlots = res
+                    // Apply explicit naming rules for Phase 21.0
+                    this.availableSlots = res.map(slot => {
+                        let displayName = slot.slot_name
+                        if (slot.slot_id === 0) {
+                            displayName = "主存档 (Main Save)"
+                        } else if (!displayName || displayName === "Auto Save" || displayName.startsWith("Save ")) {
+                            displayName = `Custom Save #${slot.slot_id}`
+                        }
+                        return { ...slot, slot_name: displayName }
+                    })
+                    this._syncDailyLimit()
                 }
             } catch (e) {
                 console.error("Failed to fetch slots:", e)
             }
         },
 
-        // [Stage 16.0] Create new slot
-        async createSlot() {
+        // [Stage 16.0 / 20.0] Create new slot (with optional name)
+        async createSlot(slotName = null) {
             try {
-                const res = await request.post('/user/slots/new')
+                const payload = slotName ? { slot_name: slotName } : {}
+                const res = await request.post('/user/slots/new', payload)
                 if (res && res.success) {
                     await this.fetchSlots()
                     // Switch to new slot

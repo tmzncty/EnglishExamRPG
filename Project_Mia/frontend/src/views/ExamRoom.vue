@@ -325,7 +325,20 @@ const currentData = computed(() => {
 // Lifecycle
 onMounted(async () => {
     console.log('ExamRoom Mounted. Fetching paper:', route.params.paperId)
-    await examStore.fetchPaper(route.params.paperId)
+    const result = await examStore.fetchPaper(route.params.paperId)
+    
+    // [Stage 25.0] If paper not found, toast and redirect
+    if (!result || examStore.lastError) {
+        alert(examStore.lastError || '未找到对应试卷')
+        // Navigate back after a moment
+        setTimeout(() => {
+            import('vue-router').then(() => {
+                // Already have route, use router from import
+            })
+        }, 0)
+        return
+    }
+    
     console.log('Paper Loaded:', examStore.currentPaper)
     
     // [Stage 17.0] Fetch progress

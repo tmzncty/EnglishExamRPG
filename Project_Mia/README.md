@@ -1,8 +1,8 @@
-# Project Mia: 赛博猫娘 AI 考研陪练 🐱🎮✨
+# Project Mia: 赛博猫娘 AI 考研陪练 🐱🎮✨ v2.0 — The Peaceful Garden Update
 
-> **v1.5 — E2E Verified Core Loop & Peaceful Vocab Garden**
+> **v2.0 — The Peaceful Garden Update**
 >
-> *"Study, or lose HP. The choice is yours, Master."* — Mia
+> *"Study honestly, or deceive yourself. The SRS engine knows all."* — Mia
 
 **Project Mia** 是一款结合了 **赛博猫娘人设**、**沉浸式 RPG 体验** 与 **考研英语一真题** 的多模态 AI 辅导系统。
 拒绝枯燥的刷题，用 ACG 的灵魂重塑备考体验。
@@ -11,15 +11,16 @@
 
 ## 🌟 核心特性
 
-| 功能          | 说明                                             |
-| ------------- | ------------------------------------------------ |
-| 🧠 AI 批改引擎 | 翻译 / 写作 由 Gemini 2.0 深度语义打分，1:1 扣血 |
-| 👁️ 多模态视觉  | Writing B 图表题直接识图，无需 OCR               |
-| 💬 Mia Shell   | SSE 流式对话，带上下文题目记忆                   |
-| 🎮 RPG 系统    | HP / EXP / Level，多存档 (Infinite Slots)        |
-| 🌱 单词花园    | SM-2 算法间隔复习，Mia AI 讲解单词，DB 缓存      |
-| 🔄 二刷机制    | 一键重置当前面板，历史轨迹永久保留               |
-| 📊 答题进度条  | 实时显示当前试卷完成度                           |
+| 功能          | 说明                                                                        |
+| ------------- | --------------------------------------------------------------------------- |
+| 🧠 AI 批改引擎 | 翻译 / 写作 由 Gemini 2.0 深度语义打分，1:1 扣血                            |
+| 👁️ 多模态视觉  | Writing B 图表题直接识图，无需 OCR                                          |
+| 💬 Mia Shell   | SSE 流式对话，带上下文题目记忆                                              |
+| 🎮 RPG 系统    | HP / EXP / Level 无损溢出升级，支持多存档 (Infinite Slots) 与自定义跨夜时间 |
+| 🌱 单词花园    | 纯正 SQLite SRS 引擎，支持连击暴击、诚实反馈后置打分机制                    |
+| 🔗 全局联动    | 语境溯源，真题例句一键跨路由无缝跳转至原卷，并调用全局 AI 讲解              |
+| 🔄 二刷机制    | 一键重置当前面板，历史轨迹永久保留                                          |
+| 📊 答题进度条  | 实时显示当前试卷完成度                                                      |
 
 ---
 

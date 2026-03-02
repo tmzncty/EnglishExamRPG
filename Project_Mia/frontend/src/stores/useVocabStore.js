@@ -7,6 +7,7 @@ export const useVocabStore = defineStore('vocab', {
         todayTasks: [],
         currentIndex: 0,
         loading: false,
+        submitting: false,
         dailyProgress: {
             reviewed: 0,
             total: 0
@@ -52,8 +53,9 @@ export const useVocabStore = defineStore('vocab', {
         async submitReview(quality) {
             const userStore = useUserStore()
             const word = this.currentWord
-            if (!word) return
+            if (!word || this.submitting) return
 
+            this.submitting = true;
             try {
                 const res = await request.post('/vocab/review', {
                     slot_id: userStore.currentSlotId,
@@ -65,14 +67,11 @@ export const useVocabStore = defineStore('vocab', {
                     // Reward handling
                     if (res.reward) {
                         const { hp, exp, leveled_up } = res.reward
-                        if (hp > 0 || exp > 0) {
+                        if (hp !== 0 || exp > 0) {
                             // Update User Store locally to reflect change instantly
-                            // The backend already updated DB, but frontend store needs sync
-                            // We can fetch user or manual update.
-                            // Manual update for animation effect
-                            userStore.hp = Math.min(userStore.maxHp, userStore.hp + hp)
+                            // Ensure HP doesn't go below 0 visually
+                            userStore.hp = Math.min(userStore.maxHp, Math.max(0, userStore.hp + hp))
                             userStore.exp += exp
-                            // Trigger simple visual feedback (handled by View usually, but store can emit or set flag)
                         }
                         if (leveled_up) {
                             // Ideally fetch full user to get new level/maxHP correctly
@@ -88,6 +87,8 @@ export const useVocabStore = defineStore('vocab', {
             } catch (error) {
                 console.error("Review failed:", error)
                 return { success: false }
+            } finally {
+                this.submitting = false;
             }
         },
 
@@ -95,5 +96,6 @@ export const useVocabStore = defineStore('vocab', {
             this.currentIndex++
             this.dailyProgress.reviewed++
         }
-    }
+    },
+    persist: true
 })
