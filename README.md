@@ -102,7 +102,7 @@ npm run dev
 ```
 backend/data/
 ├── static_content.db      ← 题库 (Git 追踪，随代码分发)
-├── exam_vocabulary.json   ← 词库 (Git 追踪，随代码分发)
+├── exam_vocabulary.json   ← 词库 (Git 追踪，随代码分发) #已去除，直接用数据库就行了
 └── femo_profile.db        ← 玩家存档 (已加入 .gitignore，绝不上云)
 ```
 
