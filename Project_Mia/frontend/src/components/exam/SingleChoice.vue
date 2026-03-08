@@ -123,7 +123,8 @@ const submit = async () => {
         const res = await request.post('/exam/submit_objective', {
             q_id: props.question.q_id,
             answer: selected.value,
-            slot_id: userStore.currentSlotId // [Stage 15.0]
+            slot_id: userStore.currentSlotId, // [Stage 15.0]
+            attempt_id: examStore.attemptId   // [Stage 31.0]
         })
         // console.log('[SingleChoice] API 响应:', res)
 
@@ -131,12 +132,12 @@ const submit = async () => {
         correctAnswer.value = res.correct_answer
 
         // ── 交互链路：HP 扣减 + Mia 反馈 ──
-        // 🌟 核心修正：绝对服从后端返回的扣血数值
+        // 🌟 核心修正：绝对服从后端返回的扣血数值，转而扣除考场护盾
         if (res && res.hp_change !== undefined) {
-            userStore.animateHpChange(res.hp_change)
+            examStore.animateHpChange(res.hp_change)
         } else if (!res.correct) {
             // 只有在后端没返回的极端异常下，才给个极小的兜底
-            userStore.animateHpChange(-0.5)
+            examStore.animateHpChange(-0.5)
         }
 
         if (res.correct) {
@@ -148,7 +149,7 @@ const submit = async () => {
                 content: `答错了，正确答案是 ${res.correct_answer}。别气馁，下次一定！`
             })
         }
-        // console.log('[UserStore] HP 现在:', userStore.hp)
+        // console.log('[ExamStore] Paper HP 现在:', examStore.paperHp)
 
     } catch (e) {
         // ── API 不可用时的 Mock 反馈（保证前端闭环）──
@@ -163,11 +164,10 @@ const submit = async () => {
             miaStore.history.push({ role: 'assistant', content: '（Mock）答对了！✨' })
         } else {
             // 🌟 修正：网络错误时仅扣除极小值
-            userStore.animateHpChange(-0.5)
+            examStore.animateHpChange(-0.5)
             userStore.setMood('worried')
             miaStore.history.push({ role: 'assistant', content: `（Mock）答错了，正确是 A。` })
         }
-        // console.log('[Mock] HP 现在:', userStore.hp)
     }
 }
 </script>

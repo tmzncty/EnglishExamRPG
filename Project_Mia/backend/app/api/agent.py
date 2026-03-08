@@ -204,6 +204,8 @@ async def mia_interact(body: MiaInteractRequest):
     is_rpg_mode = context_data.get("rpg_mode", False)
     is_attach_context = context_data.get("attach_context", False)
     q_id = context_data.get("q_id", None)
+    attempt_id = context_data.get("attempt_id", None)  # [Stage 31.0]
+    word_id = context_data.get("word_id", None)        # [Stage 31.0]
 
     dynamic_prompt = BASE_SYSTEM_PROMPT
 
@@ -286,13 +288,15 @@ async def mia_interact(body: MiaInteractRequest):
         if not conv_id:
             # Create new conversation
             title = user_msg_content[:20] if user_msg_content else "New Chat"
-            cur = pconn.execute("INSERT INTO conversations (title, bound_q_id, created_at, updated_at) VALUES (?, ?, ?, ?)", 
-                                (title, q_id, current_time, current_time))
+            cur = pconn.execute("INSERT INTO conversations (title, bound_q_id, attempt_id, word_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?)", 
+                                (title, q_id, attempt_id, word_id, current_time, current_time))
             conv_id = cur.lastrowid
-            print(f"✨ [Backend] Created NEW Conversation ID: {conv_id}")
+            print(f"✨ [Backend] Created NEW Conversation ID: {conv_id} (attempt_id={attempt_id}, word_id={word_id})")
         else:
             print(f"🔗 [Backend] Reusing EXISTING Conversation ID: {conv_id}")
-            pconn.execute("UPDATE conversations SET updated_at = ? WHERE id = ?", (current_time, conv_id))
+            # Optional: [Stage 31.0] update attempt_id / word_id if it changed mid-conversation
+            pconn.execute("UPDATE conversations SET updated_at = ?, attempt_id = COALESCE(?, attempt_id), word_id = COALESCE(?, word_id) WHERE id = ?", 
+                          (current_time, attempt_id, word_id, conv_id))
         
         # Insert User Message
         pconn.execute(

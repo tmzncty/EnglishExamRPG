@@ -9,6 +9,36 @@
           {{ examStore.currentPaper?.title || 'Loading...' }}
       </div>
 
+      <!-- [Stage 28.1] Exam Shield Visual Tracker -->
+      <div class="flex items-center gap-2 bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 px-3 py-1.5 rounded-full shadow-inner tooltip-container group cursor-help transition-all hover:scale-105">
+          <span class="text-lg animate-pulse" :class="examStore.paperHp < 50 ? 'text-red-500' : 'text-blue-500'">🛡️</span>
+          <div class="flex flex-col min-w-[60px]">
+             <span class="text-[9px] font-black text-blue-400 leading-none uppercase tracking-widest">Exam Shield</span>
+             <span class="text-sm font-bold leading-tight" :class="examStore.paperHp < 50 ? 'text-red-600' : 'text-blue-700'">{{ examStore.paperHp }} <span class="text-blue-300 text-[10px]">/ {{ examStore.maxPaperHp }}</span></span>
+          </div>
+          <!-- Tooltip -->
+          <div class="absolute top-[120%] left-1/2 -translate-x-1/2 bg-gray-800 text-white text-xs px-3 py-2 rounded shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none w-48 z-50">
+             这是当前考卷的专属“精神护盾”。答错题会消耗它，别让主观情绪干扰了全局学习状态！
+          </div>
+      </div>
+      
+      <!-- [Stage 30.0] Time Engine Dashboard -->
+      <div class="flex items-center gap-3 bg-white border border-gray-200 px-3 py-1 rounded-full shadow-sm ml-2">
+         <div class="flex flex-col items-center min-w-[50px]">
+            <span class="text-[9px] font-black text-gray-400 uppercase tracking-widest leading-none mb-0.5">Total</span>
+            <span class="text-sm font-mono font-bold leading-none" :class="examStore.isPaused ? 'text-rose-400' : 'text-gray-700'">
+               {{ examStore.isPaused ? '[暂停]' : formatTime(examStore.totalExamTime) }}
+            </span>
+         </div>
+         <div class="w-px h-6 bg-gray-200"></div>
+         <div class="flex flex-col items-center min-w-[50px]">
+            <span class="text-[9px] font-black text-teal-400 uppercase tracking-widest leading-none mb-0.5">Task</span>
+            <span class="text-sm font-mono font-bold leading-none" :class="examStore.isPaused ? 'text-gray-300' : 'text-teal-600'">
+               {{ formatTime(examStore.currentQuestionTime) }}
+            </span>
+         </div>
+      </div>
+
       <!-- [Stage 17.0] Progress Bar + Reset Button -->
       <div class="flex items-center gap-2">
         <div class="flex flex-col min-w-[120px]">
@@ -217,7 +247,7 @@
 </template>
 
 <script setup>
-import { ref, computed, watch, onMounted } from 'vue'
+import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
 import { useExamStore } from '../stores/useExamStore'
 import { useMiaStore } from '../stores/useMiaStore'
@@ -350,7 +380,26 @@ onMounted(async () => {
     } else {
         console.warn('No nav items found! Check backend response sections.')
     }
+    
+    // [Stage 30.0] Start Time Engine
+    examStore.startExamTimer()
 })
+
+onBeforeUnmount(() => {
+    examStore.stopExamTimer()
+})
+
+// [Stage 30.0] Time Engine formatter
+const formatTime = (seconds) => {
+    if (!seconds) return '00:00'
+    const m = Math.floor(seconds / 60).toString().padStart(2, '0')
+    const s = (seconds % 60).toString().padStart(2, '0')
+    if (seconds >= 3600) {
+        const h = Math.floor(seconds / 3600).toString()
+        return `${h}:${m}:${s}`
+    }
+    return `${m}:${s}`
+}
 
 // Switching Sections
 // CRITICAL: Manage InkCanvas State

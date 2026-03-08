@@ -12,6 +12,8 @@
     <div class="relative">
       <textarea
         v-model="userAnswer"
+        @focus="setFocus"
+        @click="setFocus"
         :placeholder="placeholder || '在此输入你的答案…'"
         :rows="rows"
         :disabled="isSubmitting || submitted"
@@ -152,7 +154,8 @@ const submitForGrading = async () => {
       q_id:         props.qId,
       answer:       userAnswer.value,
       section_type: props.sectionType,
-      slot_id:      userStore.currentSlotId // [Stage 15.0]
+      slot_id:      userStore.currentSlotId, // [Stage 15.0]
+      attempt_id:   examStore.attemptId      // [Stage 31.0]
     })
 
     // 分数和评语
@@ -161,9 +164,9 @@ const submitForGrading = async () => {
     submitted.value  = true
 
     // HP 扣减（主观题写了就扣消耗，答得好少扣）
-    // 🌟 核心修正：确保 0 或负数都能被正确执行
+    // 🌟 核心修正：确保 0 或负数都能被正确执行，转而扣除考场护盾
     const hpDelta = (res.hp_change !== undefined) ? res.hp_change : -3
-    userStore.animateHpChange(hpDelta)
+    examStore.animateHpChange(hpDelta)
 
     // Mia 说话
     await miaStore.speak(aiFeedback.value)
@@ -175,10 +178,14 @@ const submitForGrading = async () => {
     aiFeedback.value = '（离线模式）Mia 暂时连不上服务器，不过你写得很认真哦！等网络恢复后再重新提交吧～'
     submitted.value  = true
     // 🌟 修正：网络错误时仅扣除极小值
-    userStore.animateHpChange(-0.5)
+    examStore.animateHpChange(-0.5)
   } finally {
     isSubmitting.value = false
   }
+}
+
+const setFocus = () => {
+    examStore.setActiveQuestion(props.qId)
 }
 </script>
 

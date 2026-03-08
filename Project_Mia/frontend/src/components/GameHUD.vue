@@ -12,7 +12,8 @@
       </div>
       
       <div class="flex flex-col gap-1 w-48">
-        <!-- HP Track -->
+        <template v-if="!isExamRoute">
+            <!-- HP Track -->
         <div class="h-3 bg-gray-100 rounded-full overflow-hidden border border-gray-200 relative">
           <!-- HP Fill — Dynamic Width & Color -->
           <div
@@ -66,6 +67,13 @@
           <span class="absolute inset-0 flex items-center justify-center text-xs font-bold text-sky-900 drop-shadow-sm">
             EXP {{ userStore.exp }} / {{ nextLevelExp }}
           </span>
+        </div>
+        </template>
+        <!-- Exam Mode Visual -->
+        <div v-else class="h-8 bg-blue-50 border border-blue-100 rounded-lg flex items-center justify-center pointer-events-none">
+            <span class="text-xs font-bold text-blue-600 tracking-widest flex items-center gap-2">
+               <span>🛡️</span> Immersed in Exam
+            </span>
         </div>
       </div>
     </div>
@@ -170,14 +178,20 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import { useDraggable } from '@vueuse/core'
 import { useUserStore } from '../stores/useUserStore'
 import { useExamStore } from '../stores/useExamStore'
 import request from '../utils/request'
 
+const route = useRoute()
 const userStore = useUserStore()
 const examStore = useExamStore()
 const hudRef    = ref(null)
+
+const isExamRoute = computed(() => {
+    return route.path.startsWith('/exam/')
+})
 
 const { style } = useDraggable(hudRef, {
   initialValue: { x: 20, y: 72 },

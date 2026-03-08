@@ -75,6 +75,18 @@ export const useMiaStore = defineStore('mia', {
                     ? { message: contextData }
                     : (contextData || {})
 
+                // [Stage 31.0] 动态获取 attempt_id 和 word_id
+                let attemptId = null
+                let wordId = null
+                if (contextType === 'exam') {
+                    const { useExamStore } = await import('./useExamStore')
+                    attemptId = useExamStore().attemptId
+                } else if (contextType === 'vocab') {
+                    const { useVocabStore } = await import('./useVocabStore')
+                    const wordObj = useVocabStore().currentWord
+                    if (wordObj) wordId = wordObj.word
+                }
+
                 // Prepare Payload
                 // console.log("🚀 [Frontend] Sending request with Conversation ID:", this.conversationId);
                 const payload = {
@@ -83,6 +95,8 @@ export const useMiaStore = defineStore('mia', {
                     context_data: {
                         ...safeContext,
                         q_id: safeContext.q_id || null,
+                        attempt_id: attemptId,  // [Stage 31.0]
+                        word_id: wordId,        // [Stage 31.0]
                         rpg_mode: safeContext.rpg_mode !== undefined ? safeContext.rpg_mode : true,
                         // Fix History Fragmentation: Slice off the last user message to avoid duplication 
                         // (Agent constructs user_prompt separately), AND exclude the ghost bubble we are about to push?

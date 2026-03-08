@@ -131,6 +131,21 @@ export const useUserStore = defineStore('user', {
             await this.loadUser()
         },
 
+        // [Stage 34.1] 更新每日新词上限
+        async updateDailyLimit(newLimit) {
+            this.dailyLimit = newLimit
+            try {
+                await request.put(`/user/slots/${this.currentSlotId}`, {
+                    daily_new_words_limit: newLimit
+                })
+                // 同时更新 availableSlots，防崩溃
+                const current = this.availableSlots.find(s => s.slot_id === this.currentSlotId)
+                if (current) current.daily_new_words_limit = newLimit
+            } catch (error) {
+                console.error("Failed to update daily limit:", error)
+            }
+        },
+
         // 初始化用户状态
         async init() {
             await this.fetchSlots()

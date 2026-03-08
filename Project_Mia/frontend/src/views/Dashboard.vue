@@ -43,14 +43,23 @@
           {{ paper.title }}
         </h3>
 
-        <!-- Progress Bar -->
-        <div class="relative z-10 mb-3">
-          <div class="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+        <!-- Progress Bar & Actions -->
+        <div class="relative z-10 mt-auto pt-3">
+          <div class="h-1.5 bg-gray-100 rounded-full overflow-hidden mb-2">
             <div class="h-full bg-mia-pink rounded-full transition-all" style="width: 0%"></div>
           </div>
-          <div class="flex justify-between text-xs text-gray-400 mt-1">
+          <div class="flex justify-between items-center text-xs text-gray-400 mt-1">
             <span>0% 完成</span>
-            <span class="group-hover:translate-x-1 transition-transform inline-block">开始 →</span>
+            <div class="flex items-center gap-2">
+                <button 
+                  @click.stop="goToReport(paper.paper_id)" 
+                  class="px-2 py-1 bg-gray-50 hover:bg-gray-100 text-gray-500 rounded border border-gray-100 transition-colors z-20 tooltip"
+                  title="查看历史批次记录"
+                >
+                  <span class="mr-1">📚</span>历史
+                </button>
+                <span class="group-hover:translate-x-1 transition-transform inline-block font-semibold">开始 →</span>
+            </div>
           </div>
         </div>
       </div>
@@ -74,6 +83,10 @@ onMounted(() => {
 
 const goToPaper = (id) => {
   router.push(`/exam/${id}`)
+}
+
+const goToReport = (id) => {
+  router.push(`/report/${id}`)
 }
 </script>
 

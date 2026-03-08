@@ -17,6 +17,11 @@ const routes = [
         path: '/garden',
         name: 'VocabGarden',
         component: () => import('../views/VocabGarden.vue') // Lazy load
+    },
+    {
+        path: '/report/:paperId',
+        name: 'ExamReport',
+        component: () => import('../views/ExamReport.vue')
     }
 ]
 
