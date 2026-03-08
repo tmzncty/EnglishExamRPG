@@ -1,8 +1,8 @@
-# Project Mia: 赛博猫娘 AI 考研陪练 🐱🎮✨ v2.0 — The Peaceful Garden Update
+# Project Mia: 赛博猫娘 AI 考研陪练 🐱🎮✨
 
-> **v2.0 — The Peaceful Garden Update**
+> **v3.3 — The SRS Debt Collector Update**
 >
-> *"Study honestly, or deceive yourself. The SRS engine knows all."* — Mia
+> *"Review what you owe, learn only what you can afford."* — Mia
 
 **Project Mia** 是一款结合了 **赛博猫娘人设**、**沉浸式 RPG 体验** 与 **考研英语一真题** 的多模态 AI 辅导系统。
 拒绝枯燥的刷题，用 ACG 的灵魂重塑备考体验。
@@ -15,12 +15,14 @@
 | ------------- | --------------------------------------------------------------------------- |
 | 🧠 AI 批改引擎 | 翻译 / 写作 由 Gemini 2.0 深度语义打分，1:1 扣血                            |
 | 👁️ 多模态视觉  | Writing B 图表题直接识图，无需 OCR                                          |
-| 💬 Mia Shell   | SSE 流式对话，带上下文题目记忆                                              |
+| 💬 Mia Shell   | SSE 流式对话，带上下文题目记忆，语境感知 AI 讲解                            |
 | 🎮 RPG 系统    | HP / EXP / Level 无损溢出升级，支持多存档 (Infinite Slots) 与自定义跨夜时间 |
-| 🌱 单词花园    | 纯正 SQLite SRS 引擎，支持连击暴击、诚实反馈后置打分机制                    |
+| 🌱 单词花园    | **True SRS 动态配额**：复习欠债全量偿还，新词坑位按剩余预算动态分配         |
 | 🔗 全局联动    | 语境溯源，真题例句一键跨路由无缝跳转至原卷，并调用全局 AI 讲解              |
-| 🔄 二刷机制    | 一键重置当前面板，历史轨迹永久保留                                          |
-| 📊 答题进度条  | 实时显示当前试卷完成度                                                      |
+| � 答题报告    | 考试结束后生成完整答题报告：每题得分、AI 批改评语、正确答案对照             |
+| �🔄 二刷机制   | 一键重置当前面板，历史轨迹永久保留                                          |
+| � 数据面板    | 全局交叉过滤看板，多维度分析答题数据（省份 / 年份 / 题型）                  |
+| 🔴 答题进度条  | 实时显示当前试卷完成度                                                      |
 
 ---
 
@@ -31,8 +33,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/Project_Mia.git
-cd Project_Mia
+git clone https://github.com/tmzncty/EnglishExamRPG.git
+cd EnglishExamRPG/Project_Mia
 ```
 
 ### 2. 后端启动 — The Brain 🧠
@@ -108,6 +110,72 @@ backend/data/
 
 ---
 
+## 📜 版本历史 (Changelog)
+
+### v3.3 — The SRS Debt Collector Update *(2026-03-08)*
+
+**核心架构升级**
+
+- 🔁 **True SRS 动态配额引擎**（`Stage 35.4`）：
+  - 移除复习队列的 `LIMIT 20` 上限，到期词汇**无限全量返还**
+  - 动态配额公式：`new_word_quota = max(0, daily_limit - due_reviews)`
+  - 复习欠债 > 每日上限时，自动停发新词，先清债务
+  - 最终任务列表经由 Seeded Shuffle 稳定混排（复习词 + 新词交错）
+
+**前端修复**
+
+- 🐛 **词汇花园路由修复**：`goToExam` 函数正确生成 `paper_id` 格式，修复跳题空白
+- 📜 **例句 overflow 修复**：单词卡正面例句区域添加最大高度 + 滚动条，防止内容溢出
+- 💾 **状态持久化**：离开词汇花园后返回页面，当前单词下标正确恢复（不再从头开始）
+- ⚠️ **错误反馈**：查题 404 时有 Toast 提示，不再静默失败
+- 🔗 **Mia Chat 语境修复**：AI 讲解时正确传递当前题目的例句到提示词
+
+**新功能**
+
+- 📊 **ExamReport 考试报告页**：完成卷子后可查看完整答题报告，包含每题得分、AI 批改内容、正确答案对照
+- 🌐 **全局交叉过滤看板**：Dashboard 支持多维度联动筛选（题型 / 年份 / 省份），图表和地图实时响应
+
+---
+
+### v3.2 — Drawing Board & Context Fix *(2026-03-07)*
+
+- ✏️ Drawing Board 画图功能修复（绘图上下文正确传递给 Mia）
+- 🧠 Mia Chat 上下文修复：对话时携带当前题目原文
+- 🎨 Galgame UI 优化：对话界面视觉调整
+- 🔒 `.gitignore` 清理：排除本地开发文件和冗余缓存
+
+---
+
+### v3.1 — Complete Bilingual Story Database *(2026-03-06)*
+
+- 📚 831 道题全部完成中英双语故事补录
+- 🌱 单词花园初版上线（SRS 闪卡 + 连击暴击系统）
+- 🔗 语境溯源：真题例句一键跳转原卷
+
+---
+
+### v3.0 — AI Galgame Story System *(2026-03-05)*
+
+- 🎭 Galgame 故事系统：每道题结束后触发世界观剧情叙述
+- 🎮 RPG 核心系统完整实装（HP / EXP / Level / 多存档）
+- ⏰ 自定义跨夜时间（daily_reset_time），不再被强制凌晨重置
+
+---
+
+### v2.0 — The Peaceful Garden *(2026-02-28)*
+
+- 🌱 VocabWeb 独立词汇学习系统（已合并进 Project Mia）
+- 📱 多设备协同学习支持
+- 🔑 API Key 配置优化
+
+---
+
+### v1.0 — First Release *(2026-02-19)*
+
+- 🏗️ 项目初始化，考卷大厅 + AI 批改引擎 MVP
+
+---
+
 ## ☠️ 避坑指南与废案记录
 
 ### 1. 幻觉的血量控制
@@ -122,6 +190,10 @@ backend/data/
 ### 3. 前端 UI 焦点陷阱
 **Case**: `@focus` 自动全选导致提交按钮无法点击。  
 **Fix**: 移除自动聚焦，Axios 超时延长至 60s+，增加 loading 遮罩。
+
+### 4. SRS 配额陷阱
+**Case**: 复习队列 `LIMIT 20` 导致到期词汇无法全量返还，积攒"隐形债务"。  
+**Fix**: 移除 LIMIT，改用动态配额公式，复习欠债 > 每日上限时停发新词。
 
 ---
 
