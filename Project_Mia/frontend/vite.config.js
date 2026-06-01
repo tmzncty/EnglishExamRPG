@@ -15,13 +15,17 @@ export default defineConfig(({ mode }) => {
       },
     },
     server: {
+    allowedHosts: true,  // 允许所有域名访问（Nginx 已做 auth_request 验证）
       host: '0.0.0.0',
-      port: 5173,
+      port: 18006,
       proxy: {
         '/api': {
-          target: 'http://localhost:8000',
+          target: 'http://127.0.0.1:18005',
           changeOrigin: true,
-          // rewrite: (path) => path.replace(/^\/api/, '') // 后端路由本身带 /api 前缀，不需要 rewrite
+          // SSE 流式响应 + AI 批改最长约 35s，给足 3 分钟余量
+          timeout: 180000,       // 连接超时 3min
+          proxyTimeout: 180000,  // 等待上游响应超时 3min
+          // rewrite: (path) => path.replace(/^\/api/, '')
         }
       }
     }

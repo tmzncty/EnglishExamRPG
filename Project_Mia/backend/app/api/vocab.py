@@ -2,8 +2,10 @@ from fastapi import APIRouter, Depends, Query
 from typing import Dict, Any, List
 from datetime import datetime, timedelta, timezone
 import json
+import math
 
 from app.db.helpers import get_profile_conn, get_static_conn, ensure_auto_save, update_user_hp
+from app.services.sm2 import sm2_service
 
 router = APIRouter()
 
@@ -64,25 +66,53 @@ def get_todays_vocab(slot_id: int = 0):
         
         # Fetch slot settings for reset time and daily limit
         slot_row = conn.execute(
-            "SELECT daily_new_words_limit, daily_reset_time FROM game_saves WHERE slot_id=?", (slot_id,)
+            "SELECT daily_new_words_limit, daily_reset_time, last_reset_day, daily_streak, last_goal_met_date, today_focus_time FROM game_saves WHERE slot_id=?", (slot_id,)
         ).fetchone()
         
         daily_limit = 30
         reset_time = "04:00"
+        last_reset_day = ""
+        daily_streak = 0
+        last_goal_met_date = ""
+        today_focus_time = 0
+        
         if slot_row:
             daily_limit = slot_row.get("daily_new_words_limit") or 30
             reset_time = slot_row.get("daily_reset_time") or "04:00"
+            last_reset_day = slot_row.get("last_reset_day") or ""
+            daily_streak = slot_row.get("daily_streak") or 0
+            last_goal_met_date = slot_row.get("last_goal_met_date") or ""
+            today_focus_time = slot_row.get("today_focus_time") or 0
         
         # Calculate logical date using UTC+8 + reset_time
         today_str = get_logical_date(reset_time)
         
-        # 1. Get Due Reviews
+        if last_reset_day != today_str:
+            conn.execute("""
+                UPDATE game_saves 
+                SET today_learned_count=0, today_reviewed_count=0, today_focus_time=0, last_reset_day=? 
+                WHERE slot_id=?
+            """, (today_str, slot_id))
+            conn.commit()
+            today_focus_time = 0
+            
+        # ── [Stage 35.5] Emergency Debt Restructuring ──────────
+        # Heal words that have a good streak but a bugged short interval
+        conn.execute("""
+            UPDATE user_vocab_memory
+            SET next_review_date = date(?, '+4 days'),
+                interval = 4
+            WHERE slot_id = ? AND success_streak >= 1 AND interval < 3 AND next_review_date <= ?
+        """, (today_str, slot_id, today_str))
+        conn.commit()
+        
+        # ── [Stage 35.4] True SRS Engine: Dynamic Quota Algorithm ──────────
+        # 1. Get ALL Due Reviews — NO LIMIT! SRS debt must be repaid.
         rows = conn.execute("""
             SELECT word, easiness_factor, interval, repetitions 
             FROM user_vocab_memory
             WHERE slot_id = ? AND next_review_date <= ?
             ORDER BY next_review_date ASC
-            LIMIT 20
         """, (slot_id, today_str)).fetchall()
         
         for r in rows:
@@ -97,9 +127,16 @@ def get_todays_vocab(slot_id: int = 0):
                     "reps": r["repetitions"]
                 }
             })
-            
-        # 2. Get New Words — respect per-slot daily_new_words_limit
-        if len(review_words) < 50:  # Only fetch new words when not already overwhelmed
+        
+        # 2. Dynamic Quota Calculation
+        #    daily_limit = user's slider value = TOTAL daily learning budget
+        #    Scenario A: DueReviews < DailyLimit → new_word_quota = DailyLimit - DueReviews
+        #    Scenario B: DueReviews >= DailyLimit → new_word_quota = 0 (clear debt first!)
+        due_review_count = len(review_words)
+        new_word_quota = max(0, daily_limit - due_review_count)
+        
+        # 3. Get New Words (only if quota > 0)
+        if new_word_quota > 0:
             existing = {r["word"] for r in conn.execute("SELECT word FROM user_vocab_memory WHERE slot_id=?", (slot_id,)).fetchall()}
             
             # Fetch all vocabulary words, prioritize ones with sentences
@@ -128,17 +165,51 @@ def get_todays_vocab(slot_id: int = 0):
                     data = parse_vocab_row(static_row)
                     new_words.append({**data, "type": "new"})
                     count += 1
-                    if count >= daily_limit: # Respect per-slot daily limit
+                    if count >= new_word_quota:
                         break
     
+    # [Stage 35.3 / 35.4] 终极混排：新旧词汇无缝穿插 (Mix New & Review)
+    tasks = review_words + new_words
+    import random
+    random.seed(f"slot_{slot_id}_{today_str}_mix")
+    random.shuffle(tasks)
+    random.seed() # Reset to system entropy
+
     return {
         "date": today_str,
         "daily_limit": daily_limit,
-        "tasks": review_words + new_words,
+        "daily_streak": daily_streak,
+        "last_goal_met_date": last_goal_met_date,
+        "today_focus_time": today_focus_time,
+        "tasks": tasks,
         "review_count": len(review_words),
         "new_count": len(new_words),
-        "total_count": len(review_words) + len(new_words)
+        "total_count": len(review_words) + len(new_words),
+        "today_learned_count": slot_row.get("today_learned_count", 0) if slot_row else 0,
+        "today_reviewed_count": slot_row.get("today_reviewed_count", 0) if slot_row else 0
     }
+
+# Constant for Mastery Level Threshold
+MASTERY_THRESHOLD = 4
+
+@router.get("/global_stats")
+def get_global_stats(slot_id: int = 0):
+    with get_profile_conn() as pconn, get_static_conn() as sconn:
+        # Total static words
+        total_words_row = sconn.execute("SELECT COUNT(1) as cnt FROM vocabulary").fetchone()
+        total_words = total_words_row["cnt"] if total_words_row else 5500
+        
+        # Mastered words
+        mastered_row = pconn.execute(
+            "SELECT COUNT(1) as cnt FROM user_vocab_memory WHERE slot_id = ? AND mastery_level >= ?", 
+            (slot_id, MASTERY_THRESHOLD)
+        ).fetchone()
+        mastered_words = mastered_row["cnt"] if mastered_row else 0
+        
+        return {
+            "total_words": total_words,
+            "mastered_words": mastered_words
+        }
 
 @router.post("/review")
 def submit_review(data: Dict[str, Any]):
@@ -147,13 +218,15 @@ def submit_review(data: Dict[str, Any]):
     """
     slot_id = data.get("slot_id", 0)
     word = data.get("word")
-    quality = data.get("quality", 0) # 0-5
-    
-    now_utc8 = datetime.now(UTC8)
-    today = now_utc8.date()
+    quality = max(0, min(5, int(data.get("quality", 0))))  # 0-5 边界校验
     
     with get_profile_conn() as conn:
         ensure_auto_save(conn)
+        
+        slot_info = conn.execute("SELECT daily_reset_time FROM game_saves WHERE slot_id=?", (slot_id,)).fetchone()
+        reset_time = slot_info["daily_reset_time"] if slot_info and slot_info["daily_reset_time"] else "04:00"
+        logical_today_str = get_logical_date(reset_time)
+        logical_today_dt = datetime.strptime(logical_today_str, "%Y-%m-%d").date()
         
         row = conn.execute(
             "SELECT easiness_factor, interval, repetitions, mastery_level, success_streak, total_recall_count, total_error_count FROM user_vocab_memory WHERE slot_id=? AND word=?",
@@ -181,18 +254,20 @@ def submit_review(data: Dict[str, Any]):
         is_success = quality >= 3
             
         if is_success:
-            if reps == 0:
-                interval = 1
-            elif reps == 1:
-                interval = 6
-            else:
-                interval = int(interval * ef)
+            # Call unified SM-2 service (aggressive mode)
+            sm2_result = sm2_service.calculate(
+                quality=quality,
+                repetition=reps,
+                easiness_factor=ef,
+                interval=interval,
+                aggressive=True,
+                success_streak=success_streak,
+            )
+            ef = sm2_result["easiness_factor"]
+            interval = sm2_result["interval"]
+            reps = sm2_result["repetition"]
             
-            reps += 1
-            ef = ef + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
-            if ef < 1.3: ef = 1.3
-            
-            # [Stage 21.0] Pro-level SRS Update
+            # Pro-level SRS Update
             success_streak += 1
             total_recall_count += 1
             
@@ -206,9 +281,19 @@ def submit_review(data: Dict[str, Any]):
             reward["exp"] = exp_gain
             
         else:
-            reps = 0
-            interval = 1
-            # [Stage 21.0] Punishment logic
+            # Call unified SM-2 service (failure reset)
+            sm2_result = sm2_service.calculate(
+                quality=quality,
+                repetition=reps,
+                easiness_factor=ef,
+                interval=interval,
+                aggressive=True,
+                success_streak=success_streak,
+            )
+            ef = sm2_result["easiness_factor"]
+            interval = sm2_result["interval"]
+            reps = sm2_result["repetition"]
+            
             success_streak = 0
             total_error_count += 1
             mastery_level = max(0, mastery_level - 1)
@@ -216,7 +301,8 @@ def submit_review(data: Dict[str, Any]):
             # Damage HP
             reward["hp"] = -5 # Fixed damage for mistake
             
-        next_date = today + timedelta(days=interval)
+        # Calculate next_date based on *Logical Today*, not actual time!
+        next_date = logical_today_dt + timedelta(days=interval)
         next_date_str = next_date.strftime("%Y-%m-%d")
         
         # Save to user_vocab_memory
@@ -225,7 +311,7 @@ def submit_review(data: Dict[str, Any]):
             (slot_id, word, easiness_factor, interval, repetitions, next_review_date, last_review_date, 
              mastery_level, success_streak, total_recall_count, total_error_count, updated_at)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now', 'localtime'))
-        """, (slot_id, word, ef, interval, reps, next_date_str, today.strftime("%Y-%m-%d"), 
+        """, (slot_id, word, ef, interval, reps, next_date_str, logical_today_str, 
               mastery_level, success_streak, total_recall_count, total_error_count))
         
         # Apply HP / EXP to game_saves
@@ -330,9 +416,12 @@ def get_vocab_list(slot_id: int = 0):
                 "status": "unlearned"
             })
             
+    mastered_count = sum(1 for item in vocab_list if item["mastery_level"] >= MASTERY_THRESHOLD)
+            
     return {
         "total": total_count,
         "learned": learned_count,
+        "mastered": mastered_count,
         "unlearned": total_count - learned_count,
         "items": vocab_list
     }
@@ -377,3 +466,276 @@ async def explain_word(data: Dict[str, Any]):
         print(f"[vocab] Cache write failed: {e}")
 
     return {"success": True, "word": word, "explanation": explanation, "cached": False}
+
+@router.post("/sync_progress")
+def sync_progress(data: Dict[str, Any]):
+    """
+    [Stage 30.0] 同步专注时间和打卡进度
+    """
+    slot_id = data.get("slot_id", 0)
+    focus_time = data.get("focus_time", 0)
+    goal_met = data.get("goal_met", False)
+    
+    with get_profile_conn() as conn:
+        ensure_auto_save(conn)
+        
+        row = conn.execute(
+            "SELECT daily_reset_time, daily_streak, last_goal_met_date, today_focus_time FROM game_saves WHERE slot_id=?", 
+            (slot_id,)
+        ).fetchone()
+        
+        if not row:
+            return {"success": False, "error": "Slot not found"}
+            
+        reset_time = row["daily_reset_time"] or "04:00"
+        daily_streak = row["daily_streak"] or 0
+        last_goal_met_date = row["last_goal_met_date"] or ""
+        today_focus_time = row["today_focus_time"] or 0
+        
+        today_logical = get_logical_date(reset_time)
+        
+        from datetime import datetime, timedelta
+        yesterday_dt = datetime.strptime(today_logical, "%Y-%m-%d") - timedelta(days=1)
+        yesterday_logical = yesterday_dt.strftime("%Y-%m-%d")
+        
+        is_new_streak = False
+        
+        # Streak Update Logic
+        if goal_met and last_goal_met_date != today_logical:
+            if last_goal_met_date == yesterday_logical:
+                daily_streak += 1
+            else:
+                daily_streak = 1 # Streak broken or brand new
+            last_goal_met_date = today_logical
+            is_new_streak = True
+            
+        # Update focus time 
+        new_focus_time = max(today_focus_time, focus_time)
+        
+        conn.execute("""
+            UPDATE game_saves 
+            SET daily_streak = ?, last_goal_met_date = ?, today_focus_time = ?, updated_at = datetime('now', 'localtime')
+            WHERE slot_id = ?
+        """, (daily_streak, last_goal_met_date, new_focus_time, slot_id))
+        conn.commit()
+        
+    return {
+        "success": True,
+        "daily_streak": daily_streak,
+        "last_goal_met_date": last_goal_met_date,
+        "today_focus_time": new_focus_time,
+        "is_new_streak": is_new_streak
+    }
+
+
+# ── [Stage 31.0] Vocab Session Lifecycle APIs ──────────────────────────
+
+@router.post("/start_session")
+def start_vocab_session(data: Dict[str, Any]):
+    """
+    [Stage 31.0] 开启一个新的背词会话
+    """
+    slot_id = data.get("slot_id", 0)
+    try:
+        with get_profile_conn() as pconn:
+            ensure_auto_save(pconn)
+            cursor = pconn.execute("""
+                INSERT INTO vocab_sessions (slot_id, started_at) 
+                VALUES (?, datetime('now', 'localtime'))
+            """, (slot_id,))
+            session_id = cursor.lastrowid
+            pconn.commit()
+            return {"success": True, "session_id": session_id}
+    except Exception as e:
+        print(f"[vocab] start_session error: {e}")
+        return {"success": False, "error": str(e)}
+
+@router.post("/log_word")
+def log_vocab_word(data: Dict[str, Any]):
+    """
+    [Stage 31.0] 记录会话中的单个单词作答
+    """
+    session_id = data.get("session_id")
+    word = data.get("word")
+    action = data.get("action", "learn") # learn/review
+    time_spent = data.get("time_spent", 0)
+    result = data.get("result", "") # correct/forgot
+    
+    if not session_id or not word:
+        return {"success": False, "error": "session_id and word required"}
+        
+    try:
+        with get_profile_conn() as pconn:
+            pconn.execute("""
+                INSERT INTO vocab_session_words (session_id, word, action, time_spent, result)
+                VALUES (?, ?, ?, ?, ?)
+            """, (session_id, word, action, time_spent, result))
+            pconn.commit()
+            return {"success": True}
+    except Exception as e:
+        print(f"[vocab] log_word error: {e}")
+        return {"success": False, "error": str(e)}
+
+@router.post("/finish_session")
+def finish_vocab_session(data: Dict[str, Any]):
+    """
+    [Stage 31.0] 结束且结算会话
+    """
+    session_id = data.get("session_id")
+    total_time = data.get("total_time", 0)
+    words_learned = data.get("words_learned", 0)
+    words_reviewed = data.get("words_reviewed", 0)
+    
+    if not session_id:
+        return {"success": False, "error": "session_id required"}
+        
+    try:
+        with get_profile_conn() as pconn:
+            pconn.execute("""
+                UPDATE vocab_sessions
+                SET finished_at = datetime('now', 'localtime'),
+                    total_time = ?, words_learned = ?, words_reviewed = ?
+                WHERE session_id = ?
+            """, (total_time, words_learned, words_reviewed, session_id))
+            pconn.commit()
+            return {"success": True}
+    except Exception as e:
+        print(f"[vocab] finish_session error: {e}")
+        return {"success": False, "error": str(e)}
+
+@router.get("/vocab/sessions")
+def get_vocab_sessions(slot_id: int = 0):
+    try:
+        with get_profile_conn() as pconn:
+            ensure_auto_save(pconn)
+            sessions = pconn.execute("""
+                SELECT * FROM vocab_sessions 
+                WHERE slot_id = ? AND finished_at IS NOT NULL
+                ORDER BY started_at DESC
+            """, (slot_id,)).fetchall()
+            
+            return [dict(s) for s in sessions]
+    except Exception as e:
+        print(f"[vocab] get_vocab_sessions error: {e}")
+        return []
+
+
+# ══════════════════════════════════════════════════════════════
+#  进度统计 / 筛选 / 批量标记
+# ══════════════════════════════════════════════════════════════
+
+EXAM_DATE = "2026-12-20"
+
+
+@router.get("/progress_stats")
+def get_progress_stats(slot_id: int = 0):
+    """返回背单词进度统计"""
+    with get_profile_conn() as pconn, get_static_conn() as sconn:
+        total_words = sconn.execute("SELECT COUNT(1) as cnt FROM vocabulary").fetchone()["cnt"]
+
+        learned = pconn.execute(
+            "SELECT COUNT(1) as cnt FROM user_vocab_memory WHERE slot_id=?", (slot_id,)
+        ).fetchone()["cnt"]
+
+        mastered = pconn.execute(
+            "SELECT COUNT(1) as cnt FROM user_vocab_memory WHERE slot_id=? AND mastery_level >= 4",
+            (slot_id,)
+        ).fetchone()["cnt"]
+
+        graduated = pconn.execute(
+            "SELECT COUNT(1) as cnt FROM user_vocab_memory WHERE slot_id=? AND mastery_level >= 4 AND interval > 90",
+            (slot_id,)
+        ).fetchone()["cnt"]
+
+        mistake_book = pconn.execute(
+            "SELECT COUNT(1) as cnt FROM user_vocab_memory WHERE slot_id=? AND easiness_factor < 1.8",
+            (slot_id,)
+        ).fetchone()["cnt"]
+
+        unseen = max(0, total_words - learned)
+
+        # UTC+8 今天 vs 考研日期
+        today_utc8 = datetime.now(UTC8).date()
+        exam_date = datetime.strptime(EXAM_DATE, "%Y-%m-%d").date()
+        days_until_exam = max(1, (exam_date - today_utc8).days)
+
+        daily_needed = math.ceil(unseen / days_until_exam) if unseen > 0 else 0
+
+        return {
+            "total_words": total_words,
+            "learned": learned,
+            "mastered": mastered,
+            "graduated": graduated,
+            "mistake_book": mistake_book,
+            "unseen": unseen,
+            "days_until_exam": days_until_exam,
+            "daily_needed": daily_needed,
+        }
+
+
+@router.get("/screening")
+def get_screening(slot_id: int = 0, limit: int = 50):
+    """返回未学新词列表（优先有例句、高频词）"""
+    with get_profile_conn() as pconn, get_static_conn() as sconn:
+        learned_words = {
+            r["word"] for r in
+            pconn.execute("SELECT word FROM user_vocab_memory WHERE slot_id=?", (slot_id,)).fetchall()
+        }
+
+        # 优先有例句的，按 ROWID 作为自然顺序（高频靠前）
+        all_words = sconn.execute(
+            "SELECT * FROM vocabulary ORDER BY (sentences != '[]' AND sentences IS NOT NULL) DESC, ROWID ASC"
+        ).fetchall()
+
+        words = []
+        for row in all_words:
+            if row["word"] not in learned_words:
+                parsed = parse_vocab_row(row)
+                words.append({**parsed, "type": "new"})
+                if len(words) >= limit:
+                    break
+
+        return {"words": words}
+
+
+@router.post("/batch_mark")
+def batch_mark(data: Dict[str, Any]):
+    """
+    批量标记单词。
+    action=skip: 标记为已掌握（mastery_level=4, interval=365 天）
+    action=reset: 从记忆中移除，回退到未学状态
+    """
+    slot_id = data.get("slot_id", 0)
+    words = data.get("words", [])
+    action = data.get("action", "skip")
+
+    if not words or action not in ("skip", "reset"):
+        return {"ok": False, "count": 0, "error": "invalid params"}
+
+    count = 0
+    review_date = (datetime.now(UTC8) + timedelta(days=365)).strftime("%Y-%m-%d")
+
+    with get_profile_conn() as conn:
+        ensure_auto_save(conn)
+
+        if action == "skip":
+            for word in words:
+                conn.execute("""
+                    INSERT OR REPLACE INTO user_vocab_memory
+                    (slot_id, word, easiness_factor, interval, repetitions, mastery_level,
+                     success_streak, total_recall_count, total_error_count,
+                     next_review_date, last_review_date, updated_at)
+                    VALUES (?, ?, 2.5, 365, 5, 4, 5, 5, 0, ?, ?, datetime('now', 'localtime'))
+                """, (slot_id, word, review_date, datetime.now(UTC8).strftime("%Y-%m-%d")))
+                count += 1
+        elif action == "reset":
+            for word in words:
+                cur = conn.execute(
+                    "DELETE FROM user_vocab_memory WHERE slot_id=? AND word=?",
+                    (slot_id, word)
+                )
+                count += cur.rowcount
+
+        conn.commit()
+
+    return {"ok": True, "count": count}

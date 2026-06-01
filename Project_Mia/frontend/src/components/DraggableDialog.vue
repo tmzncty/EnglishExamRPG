@@ -1,14 +1,16 @@
 <template>
-  <div
-    ref="hudRef"
-    :style="style"
-    class="fixed z-50 flex flex-col rounded-2xl overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-200 bg-white/95 backdrop-blur-sm"
-    style="min-width: 320px; width: 360px; height: 600px; resize: both; overflow: hidden;"
-  >
+  <!-- [T1] 对话框收起过渡 -->
+  <transition name="mia-dialog">
+    <div
+      v-show="!miaStore.miaCollapsed"
+      ref="hudRef"
+      :style="[style, dialogSizeStyle]"
+      class="fixed z-50 flex flex-col rounded-2xl overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.12)] border border-gray-200 bg-white/95 backdrop-blur-sm transition-all duration-300 touch-none-important resize-dialog"
+    >
     <!-- ── 标题栏 / 拖拽区 ── -->
     <div
       ref="handle"
-      class="flex items-center justify-between px-3 py-2 bg-white border-b border-gray-100 cursor-move select-none shrink-0"
+      class="flex items-center justify-between px-3 py-2 bg-white border-b border-gray-100 select-none shrink-0" :class="isFullscreen ? 'cursor-default' : 'cursor-move'"
     >
       <div class="flex items-center gap-2.5">
         <!-- 头像：w-14 h-14 = 56px -->
@@ -43,6 +45,13 @@
             class="w-7 h-7 rounded-full text-gray-400 hover:text-mia-pink hover:bg-rose-50 transition-all flex items-center justify-center text-xs"
         >
             {{ isCollapsed ? '▲' : '▼' }}
+        </button>
+        <button
+            @click="isFullscreen = !isFullscreen"
+            class="w-7 h-7 rounded-full text-gray-400 hover:text-mia-pink hover:bg-rose-50 transition-all flex items-center justify-center text-xs"
+            title="全屏 / 退出全屏"
+        >
+            {{ isFullscreen ? '🔲' : '⬜' }}
         </button>
       </div>
     </div>
@@ -111,15 +120,30 @@
     </div>
 
     <!-- ── 功能开关栏 ── -->
-    <div v-show="!isCollapsed" class="px-3 py-1 bg-white border-t border-gray-50 flex gap-3 text-[10px] text-gray-400 select-none">
-        <label class="flex items-center gap-1 cursor-pointer hover:text-rose-400 transition-colors">
-            <input type="checkbox" v-model="attachContext" class="accent-rose-400 rounded-sm w-3 h-3" />
-            <span>携带题目上下文</span>
-        </label>
-        <label class="flex items-center gap-1 cursor-pointer hover:text-rose-400 transition-colors">
-            <input type="checkbox" v-model="rpgMode" class="accent-rose-400 rounded-sm w-3 h-3" />
-            <span>启用扣血机制</span>
-        </label>
+    <div v-show="!isCollapsed" class="px-3 py-1.5 bg-white border-t border-gray-50 flex flex-col gap-1 text-[10px] text-gray-400 select-none">
+        <div class="flex gap-3">
+            <label class="flex items-center gap-1.5 cursor-pointer hover:text-rose-400 transition-colors py-1 touch-target">
+                <input type="checkbox" v-model="attachContext" class="accent-rose-400 rounded-sm w-4 h-4" />
+                <span>携带题目上下文</span>
+            </label>
+            <label class="flex items-center gap-1.5 cursor-pointer hover:text-rose-400 transition-colors py-1 touch-target">
+                <input type="checkbox" v-model="rpgMode" class="accent-rose-400 rounded-sm w-4 h-4" />
+                <span>启用扣血机制</span>
+            </label>
+        </div>
+        <!-- 勾选时显示绑定的题目，没有 activeQuestionId 则橙色警告 -->
+        <transition name="ctx-fade">
+            <div v-if="attachContext" class="flex items-center gap-1 pl-0.5 leading-none">
+                <template v-if="activeQLabel">
+                    <span class="text-emerald-400">📎</span>
+                    <span class="text-emerald-600 font-medium">{{ activeQLabel }}</span>
+                </template>
+                <template v-else>
+                    <span class="text-amber-400">⚠</span>
+                    <span class="text-amber-500">未选中题目 — 请先点击一道题</span>
+                </template>
+            </div>
+        </transition>
     </div>
 
     <!-- ── 输入栏 (Textarea) ── -->
@@ -143,15 +167,16 @@
       </button>
     </div>
   </div>
+  </transition>
 </template>
 
 <script setup>
-import { ref, nextTick, watch } from 'vue'
-import { useDraggable } from '@vueuse/core'
+import { ref, computed, nextTick, watch } from 'vue'
+import { useDraggable, useWindowSize } from '@vueuse/core'
 import { ASSETS } from '../config/assets'
 import { useMiaStore } from '../stores/useMiaStore'
 import { useExamStore } from '../stores/useExamStore'
-import { marked } from 'marked'
+import { marked, parse } from 'marked'
 
 const miaStore = useMiaStore()
 const examStore = useExamStore()
@@ -162,10 +187,55 @@ const chatContainer = ref(null)
 const textareaRef   = ref(null)
 const isCollapsed   = ref(false)
 const inputText     = ref('')
+const isFullscreen  = ref(false)
+
+// 响应式窗口尺寸（适配平板高分屏）
+const { width: winWidth } = useWindowSize()
+const isTablet = computed(() => winWidth.value >= 2000)
+
+const dialogSizeStyle = computed(() => {
+  if (isFullscreen.value) {
+    return { width: '100vw', height: '100dvh', top: 0, left: 0 }
+  }
+  if (isTablet.value) {
+    return {
+      minWidth: '380px',
+      width: 'clamp(380px, 15vw, 640px)',
+      height: 'clamp(550px, 45vh, 850px)'
+    }
+  }
+  return {
+    minWidth: '320px',
+    width: 'clamp(320px, 18vw, 480px)',
+    height: 'clamp(500px, 55vh, 700px)'
+  }
+})
 
 // Toggles
 const attachContext = ref(false)
 const rpgMode       = ref(false)
+
+// 题目类型短名映射
+const SECTION_SHORT = {
+    'translation':    '翻译',
+    'writing_a':      '写作A',
+    'writing_b':      '写作B',
+    'use_of_english': '完形填空',
+    'reading':        '阅读理解',
+}
+
+// "2025-eng1-translation-q46" → "2025 · 翻译 · 第46题"
+const activeQLabel = computed(() => {
+    const qid = examStore.activeQuestionId
+    if (!qid) return null
+    const parts = qid.split('-')
+    const year  = parts[0]
+    const qNum  = (parts[parts.length - 1] || '').replace('q', '')
+    // section 是去掉 year / eng1 / qN 之后的中间段
+    const sectionRaw = parts.slice(2, parts.length - 1).join('_')
+    const name  = SECTION_SHORT[sectionRaw] || sectionRaw
+    return `${year} · ${name} · 第${qNum}题`
+})
 
 const { style } = useDraggable(hudRef, {
   initialValue: { x: 24, y: window.innerHeight - 500 },
@@ -184,7 +254,28 @@ watch(inputText, async () => {
 // Markdown Renderer
 const renderMarkdown = (text) => {
     if (!text) return ''
-    return marked.parse(text)
+    try {
+        let result;
+        if (typeof marked?.parse === 'function') {
+            result = marked.parse(text);
+        } else if (typeof parse === 'function') {
+            result = parse(text);
+        } else if (typeof marked === 'function') {
+            result = marked(text);
+        } else {
+            console.error("Marked instance missing parse method:", marked);
+            return text; // Fallback raw
+        }
+        
+        if (result instanceof Promise) {
+            console.error("Marked unexpectedly returned a Promise. Using raw text fallback.");
+            return text; // Fallback raw if marked is running in async mode
+        }
+        return result || text;
+    } catch (e) {
+        console.error("Markdown parse error:", e)
+        return text; // Fallback raw text if crash occurs
+    }
 }
 
 // 新消息时自动滚到底
@@ -237,4 +328,27 @@ const toggleHistory = () => {
 <style scoped>
 .custom-scrollbar::-webkit-scrollbar { width: 3px; }
 .custom-scrollbar::-webkit-scrollbar-thumb { background: #ffb6c1; border-radius: 2px; }
+
+/* 上下文绑定提示的淡入淡出 */
+.ctx-fade-enter-active, .ctx-fade-leave-active { transition: opacity 0.2s, transform 0.2s; }
+.ctx-fade-enter-from, .ctx-fade-leave-to { opacity: 0; transform: translateY(-3px); }
+
+/* 平板可拖拽调整尺寸 */
+.resize-dialog { resize: both; }
+
+/* [T1] 对话框收起/展开过渡 */
+.mia-dialog-enter-active {
+  transition: opacity 0.35s ease, transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.mia-dialog-leave-active {
+  transition: opacity 0.25s ease, transform 0.25s ease-in;
+}
+.mia-dialog-enter-from {
+  opacity: 0;
+  transform: scale(0.85) translateY(20px);
+}
+.mia-dialog-leave-to {
+  opacity: 0;
+  transform: scale(0.8) translateY(30px);
+}
 </style>

@@ -6,6 +6,10 @@ export default {
     ],
     theme: {
         extend: {
+            screens: {
+                'tablet': '2000px',
+                'tablet-landscape': '2800px',
+            },
             colors: {
                 'mia-pink': '#ffb6c1',
                 'mia-pink-dark': '#ff69b4',

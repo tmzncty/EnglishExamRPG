@@ -2,9 +2,10 @@ import axios from 'axios'
 import { useUserStore } from '../stores/useUserStore'
 
 // 创建 Axios 实例
+// AI 批改(非流式)最慢约 35s，给足 2 分钟避免超时
 const service = axios.create({
     baseURL: '/api', // Vite 代理转发
-    timeout: 60000,
+    timeout: 120000,
 })
 
 // 响应拦截器
@@ -13,10 +14,7 @@ service.interceptors.response.use(
         const res = response.data
         const userStore = useUserStore()
 
-        // 1. 自动处理 HP 变更 (headears 或 body)
-        // 假设后端在 response body 返回了 user_status 或 hp_change
-        // 我们的 API 设计: MiaInteractResult 返回 hp, max_hp, current_mood
-
+        // 1. 自动处理 HP 变更 (headers 或 body)
         if (res.hp !== undefined) {
             userStore.updateStatus({
                 hp: res.hp,

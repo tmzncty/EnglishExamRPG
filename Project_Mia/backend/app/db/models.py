@@ -225,6 +225,8 @@ class Conversation(ProfileBase):
     id = Column(Integer, primary_key=True, autoincrement=True)
     title = Column(String(100))  # 会话标题
     bound_q_id = Column(String(50), nullable=True)  # 绑定的题目ID
+    attempt_id = Column(Integer, nullable=True)  # [Stage 31.0] 绑定的作答批次
+    word_id = Column(String(50), nullable=True)   # [Stage 31.0] 绑定的单词
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     
@@ -245,6 +247,57 @@ class Message(ProfileBase):
     
     # 关系
     conversation = relationship("Conversation", back_populates="messages")
+
+
+class ExamAttempt(ProfileBase):
+    """[Stage 31.0] 作答批次表"""
+    __tablename__ = 'exam_attempts'
+    
+    attempt_id = Column(Integer, primary_key=True, autoincrement=True)
+    slot_id = Column(Integer, default=0)
+    paper_id = Column(String(20), nullable=False, index=True)
+    attempt_number = Column(Integer, default=1)
+    status = Column(String(20), default='in_progress')  # 'in_progress', 'finished'
+    total_time = Column(Integer, default=0)  # 秒
+    total_score = Column(Float, default=0)
+    started_at = Column(DateTime, default=datetime.utcnow)
+    finished_at = Column(DateTime, nullable=True)
+
+
+class AttemptQuestionTime(ProfileBase):
+    """[Stage 31.0] 每题耗时表"""
+    __tablename__ = 'attempt_question_times'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    attempt_id = Column(Integer, nullable=False, index=True)
+    q_id = Column(String(50), nullable=False)
+    time_spent = Column(Integer, default=0)
+
+
+class VocabSession(ProfileBase):
+    """[Stage 31.0] 背词会话表"""
+    __tablename__ = 'vocab_sessions'
+    
+    session_id = Column(Integer, primary_key=True, autoincrement=True)
+    slot_id = Column(Integer, default=0)
+    started_at = Column(DateTime, default=datetime.utcnow)
+    finished_at = Column(DateTime, nullable=True)
+    total_time = Column(Integer, default=0)
+    words_learned = Column(Integer, default=0)
+    words_reviewed = Column(Integer, default=0)
+
+
+class VocabSessionWord(ProfileBase):
+    """[Stage 31.0] 背词会话单词记录"""
+    __tablename__ = 'vocab_session_words'
+    
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    session_id = Column(Integer, nullable=False, index=True)
+    word = Column(String(50), nullable=False)
+    action = Column(String(20), default='learn')  # 'learn', 'review'
+    time_spent = Column(Integer, default=0)
+    result = Column(String(20), nullable=True)  # 'correct', 'forgot'
+    created_at = Column(DateTime, default=datetime.utcnow)
 
 
 # ============================================================================

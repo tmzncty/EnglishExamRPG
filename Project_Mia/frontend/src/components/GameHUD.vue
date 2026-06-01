@@ -7,7 +7,7 @@
   >
     <div class="flex items-center gap-3 bg-white/90 backdrop-blur-sm px-3 py-2 rounded-xl shadow-sm border border-gray-100">
       <!-- Level Badge -->
-      <div class="w-10 h-10 rounded-full bg-white border-2 border-mia-pink flex items-center justify-center text-mia-pink-dark font-bold text-xs shadow-sm shrink-0">
+      <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-white border-2 border-mia-pink flex items-center justify-center text-mia-pink-dark font-bold text-xs shadow-sm shrink-0 touch-target">
         Lv.{{ userStore.level }}
       </div>
       
@@ -34,7 +34,7 @@
         <div class="flex items-center gap-2 mt-1 ml-1">
             <button 
               @click="userStore.animateHpChange(20)"
-              class="px-2 py-0.5 bg-emerald-50 text-emerald-600 text-[10px] rounded hover:bg-emerald-100 transition-colors cursor-pointer border border-emerald-200 w-fit"
+              class="px-2 py-0.5 bg-emerald-50 text-emerald-600 text-[10px] rounded hover:bg-emerald-100 transition-colors cursor-pointer border border-emerald-200 w-fit min-h-[44px] min-w-[44px] flex items-center justify-center"
               title="临时休整：恢复 20 HP"
             >
               💊 休息
@@ -44,7 +44,7 @@
             <select 
                 v-model="userStore.currentSlotId" 
                 @change="handleSlotChange"
-                class="text-[10px] bg-white border border-gray-300 rounded px-1 py-0.5 outline-none text-gray-600 hover:border-rose-300 focus:border-rose-400 transition-colors cursor-pointer max-w-[90px] truncate"
+                class="text-[10px] bg-white border border-gray-300 rounded px-1 py-0.5 outline-none text-gray-600 hover:border-rose-300 focus:border-rose-400 transition-colors cursor-pointer max-w-[90px] truncate min-h-[44px]"
             >
                 <option v-for="slot in userStore.availableSlots" :key="slot.slot_id" :value="slot.slot_id">
                     {{ slot.slot_name }}
@@ -54,7 +54,7 @@
             <!-- [Stage 20.0] ⚙️ Settings Modal Trigger -->
              <button 
               @click="showSettingsModal = true"
-              class="px-1.5 py-0.5 bg-gray-50 text-gray-500 text-[10px] rounded hover:bg-gray-100 transition-colors cursor-pointer border border-gray-200 w-fit"
+              class="px-1.5 py-0.5 bg-gray-50 text-gray-500 text-[10px] rounded hover:bg-gray-100 transition-colors cursor-pointer border border-gray-200 w-fit min-h-[44px] min-w-[44px] flex items-center justify-center"
               title="存档管理"
             >
               ⚙️
@@ -85,7 +85,7 @@
         <div class="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
         
         <!-- Modal Content -->
-        <div class="relative bg-white rounded-2xl shadow-2xl w-[360px] max-h-[80vh] overflow-y-auto p-6 z-10">
+        <div class="relative bg-white rounded-2xl shadow-2xl max-w-[360px] w-full max-h-[80dvh] overflow-y-auto p-6 z-10">
           <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
             ⚙️ 存档管理
           </h3>

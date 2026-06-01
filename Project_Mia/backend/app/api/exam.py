@@ -35,35 +35,285 @@ def get_exams(db: Session = Depends(get_static_db)):
 
 
 @router.get("/exam/history")
-def get_exam_history(slot_id: int = 0):
+def get_exam_history(slot_id: int = 0, attempt_id: int = None):
     """
-    [Stage 14.0] 获取用户的答题记录
-    前端用于页面刷新后的状态恢复
+    [Stage 14.0 / 31.0] 获取用户的答题记录
+    若提供 attempt_id，返回该 attempt 的记录；否则返回最新 attempt 或全量（兼容旧流程）
     """
     history = {}
     try:
         with get_profile_conn() as conn:
             ensure_auto_save(conn)
-            rows = conn.execute("""
-                SELECT q_id, section_type, user_answer, score, is_correct, ai_feedback
-                FROM user_answers
-                WHERE slot_id = ?
-            """, (slot_id,)).fetchall()
+            if attempt_id:
+                rows = conn.execute("""
+                    SELECT q_id, section_type, user_answer, score, is_correct, ai_feedback
+                    FROM user_answers
+                    WHERE attempt_id = ?
+                """, (attempt_id,)).fetchall()
+            else:
+                rows = conn.execute("""
+                    SELECT q_id, section_type, user_answer, score, is_correct, ai_feedback
+                    FROM user_answers
+                    WHERE slot_id = ?
+                    ORDER BY updated_at DESC
+                """, (slot_id,)).fetchall()
             
             for r in rows:
-                history[r["q_id"]] = {
-                    "user_answer": r["user_answer"],
-                    "score":       r["score"],
-                    "is_correct":  bool(r["is_correct"]),
-                    "ai_feedback": r["ai_feedback"],
-                    "section_type": r["section_type"]
-                }
+                # 只保留每题最新的一条（attempt 模式下每题只有一条）
+                if r["q_id"] not in history:
+                    history[r["q_id"]] = {
+                        "user_answer": r["user_answer"],
+                        "score":       r["score"],
+                        "is_correct":  bool(r["is_correct"]),
+                        "ai_feedback": r["ai_feedback"],
+                        "section_type": r["section_type"]
+                    }
     except Exception as e:
         print(f"[exam] Fetch history failed: {e}")
-        # Return empty dict on error, don't crash
         return {}
 
     return history
+
+
+# ── [Stage 31.0] Attempt Lifecycle APIs ──────────────────────────────────
+
+@router.post("/exam/start_attempt")
+def start_attempt(data: Dict[str, Any]):
+    """
+    [Stage 31.0] 创建新的作答批次
+    请求体: { paper_id, slot_id? }
+    返回: { attempt_id, attempt_number, restored_time: { total_time, question_times } }
+    """
+    paper_id = data.get("paper_id")
+    slot_id  = data.get("slot_id", 0)
+    if not paper_id:
+        raise HTTPException(status_code=400, detail="paper_id is required")
+
+    try:
+        with get_profile_conn() as pconn:
+            ensure_auto_save(pconn)
+
+            # 查找该 paper 是否有 in_progress 的 attempt
+            existing = pconn.execute("""
+                SELECT attempt_id, attempt_number, total_time
+                FROM exam_attempts
+                WHERE slot_id = ? AND paper_id = ? AND status = 'in_progress'
+                ORDER BY started_at DESC LIMIT 1
+            """, (slot_id, paper_id)).fetchone()
+
+            if existing:
+                attempt_id = existing["attempt_id"]
+                attempt_number = existing["attempt_number"]
+                total_time = existing["total_time"] or 0
+
+                # 恢复每题耗时
+                qt_rows = pconn.execute("""
+                    SELECT q_id, time_spent FROM attempt_question_times
+                    WHERE attempt_id = ?
+                """, (attempt_id,)).fetchall()
+                question_times = {r["q_id"]: r["time_spent"] for r in qt_rows}
+
+                print(f"[exam] Resumed attempt {attempt_id} for {paper_id} (#{attempt_number}, {total_time}s)")
+                return {
+                    "attempt_id": attempt_id,
+                    "attempt_number": attempt_number,
+                    "restored_time": {
+                        "total_time": total_time,
+                        "question_times": question_times
+                    }
+                }
+
+            # 计算第几刷
+            count_row = pconn.execute("""
+                SELECT COUNT(*) as cnt FROM exam_attempts
+                WHERE slot_id = ? AND paper_id = ?
+            """, (slot_id, paper_id)).fetchone()
+            attempt_number = (count_row["cnt"] if count_row else 0) + 1
+
+            cursor = pconn.execute("""
+                INSERT INTO exam_attempts (slot_id, paper_id, attempt_number, status, total_time)
+                VALUES (?, ?, ?, 'in_progress', 0)
+            """, (slot_id, paper_id, attempt_number))
+            pconn.commit()
+            attempt_id = cursor.lastrowid
+
+            print(f"[exam] Created attempt {attempt_id} for {paper_id} (#{attempt_number})")
+            return {
+                "attempt_id": attempt_id,
+                "attempt_number": attempt_number,
+                "restored_time": {
+                    "total_time": 0,
+                    "question_times": {}
+                }
+            }
+    except Exception as e:
+        print(f"[exam] start_attempt failed: {e}")
+        import traceback; traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.post("/exam/sync_time")
+def sync_time(data: Dict[str, Any]):
+    """
+    [Stage 31.0] 心跳同步：前端每 10 秒或切题时调用
+    请求体: { attempt_id, total_time, question_times: { q_id: seconds } }
+    """
+    attempt_id     = data.get("attempt_id")
+    total_time     = data.get("total_time", 0)
+    question_times = data.get("question_times", {})
+
+    if not attempt_id:
+        return {"ok": False, "error": "attempt_id required"}
+
+    try:
+        with get_profile_conn() as pconn:
+            # 更新总耗时
+            pconn.execute("""
+                UPDATE exam_attempts SET total_time = ? WHERE attempt_id = ?
+            """, (total_time, attempt_id))
+
+            # UPSERT 每题耗时
+            for q_id, spent in question_times.items():
+                pconn.execute("""
+                    INSERT INTO attempt_question_times (attempt_id, q_id, time_spent)
+                    VALUES (?, ?, ?)
+                    ON CONFLICT(attempt_id, q_id) DO UPDATE SET time_spent = excluded.time_spent
+                """, (attempt_id, q_id, spent))
+
+            pconn.commit()
+        return {"ok": True}
+    except Exception as e:
+        print(f"[exam] sync_time failed: {e}")
+        return {"ok": False, "error": str(e)}
+
+
+@router.post("/exam/finish_attempt")
+def finish_attempt(data: Dict[str, Any]):
+    """
+    [Stage 31.0] 结束作答批次，汇总分数
+    请求体: { attempt_id }
+    """
+    attempt_id = data.get("attempt_id")
+    if not attempt_id:
+        return {"ok": False, "error": "attempt_id required"}
+
+    try:
+        with get_profile_conn() as pconn:
+            # 汇总该 attempt 的总分
+            score_row = pconn.execute("""
+                SELECT COALESCE(SUM(score), 0) as total_score
+                FROM user_answers WHERE attempt_id = ?
+            """, (attempt_id,)).fetchone()
+            total_score = score_row["total_score"] if score_row else 0
+
+            pconn.execute("""
+                UPDATE exam_attempts
+                SET status = 'finished',
+                    total_score = ?,
+                    finished_at = datetime('now', 'localtime')
+                WHERE attempt_id = ?
+            """, (total_score, attempt_id))
+            pconn.commit()
+
+        return {"ok": True, "total_score": total_score}
+    except Exception as e:
+        print(f"[exam] finish_attempt failed: {e}")
+        return {"ok": False, "error": str(e)}
+
+
+@router.get("/exam/attempts/{paper_id}")
+def get_paper_attempts(paper_id: str, slot_id: int = 0):
+    """
+    [Stage 31.0] 获取某试卷的所有作答批次
+    """
+    try:
+        with get_profile_conn() as pconn:
+            ensure_auto_save(pconn)
+            rows = pconn.execute("""
+                SELECT attempt_id, attempt_number, status, total_time, total_score,
+                       started_at, finished_at
+                FROM exam_attempts
+                WHERE slot_id = ? AND paper_id = ?
+                ORDER BY started_at DESC
+            """, (slot_id, paper_id)).fetchall()
+
+            return [{"attempt_id": r["attempt_id"],
+                     "attempt_number": r["attempt_number"],
+                     "status": r["status"],
+                     "total_time": r["total_time"],
+                     "total_score": r["total_score"],
+                     "started_at": r["started_at"],
+                     "finished_at": r["finished_at"]} for r in rows]
+    except Exception as e:
+        print(f"[exam] get_paper_attempts failed: {e}")
+        return []
+
+
+@router.get("/exam/attempt/{attempt_id}")
+def get_attempt_detail(attempt_id: int):
+    """
+    [Stage 31.0] 获取单次 attempt 详情
+    包含：attempt 元数据 + 所有答案 + 每题耗时 + 关联 Mia 对话
+    """
+    try:
+        with get_profile_conn() as pconn:
+            ensure_auto_save(pconn)
+
+            # 1. Attempt 元数据
+            attempt = pconn.execute("""
+                SELECT * FROM exam_attempts WHERE attempt_id = ?
+            """, (attempt_id,)).fetchone()
+            if not attempt:
+                raise HTTPException(status_code=404, detail="Attempt not found")
+
+            # 2. 答题记录
+            answers = pconn.execute("""
+                SELECT q_id, section_type, user_answer, score, is_correct, ai_feedback
+                FROM user_answers WHERE attempt_id = ?
+            """, (attempt_id,)).fetchall()
+
+            # 3. 每题耗时
+            times = pconn.execute("""
+                SELECT q_id, time_spent
+                FROM attempt_question_times WHERE attempt_id = ?
+            """, (attempt_id,)).fetchall()
+            time_map = {r["q_id"]: r["time_spent"] for r in times}
+
+            # 4. 关联 Mia 对话
+            conversations = []
+            try:
+                convs = pconn.execute("""
+                    SELECT c.id, c.title, c.bound_q_id, c.created_at,
+                           (SELECT content FROM messages WHERE conversation_id = c.id ORDER BY created_at DESC LIMIT 1) as last_msg
+                    FROM conversations c
+                    WHERE c.attempt_id = ?
+                    ORDER BY c.created_at
+                """, (attempt_id,)).fetchall()
+                conversations = [{"id": c["id"], "title": c["title"],
+                                  "bound_q_id": c["bound_q_id"],
+                                  "last_message": c["last_msg"],
+                                  "created_at": c["created_at"]} for c in convs]
+            except Exception:
+                pass  # conversations 表可能不存在
+
+            return {
+                "attempt": dict(attempt),
+                "answers": {a["q_id"]: {
+                    "user_answer": a["user_answer"],
+                    "score": a["score"],
+                    "is_correct": bool(a["is_correct"]),
+                    "ai_feedback": a["ai_feedback"],
+                    "section_type": a["section_type"],
+                    "time_spent": time_map.get(a["q_id"], 0)
+                } for a in answers},
+                "question_times": time_map,
+                "conversations": conversations
+            }
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"[exam] get_attempt_detail failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 
 @router.get("/exam/{paper_id}", response_model=Dict[str, Any])
@@ -178,11 +428,12 @@ def submit_objective(data: Dict[str, Any], db: Session = Depends(get_static_db))
     - 写入 femo_profile.db (HP 持久化)
     - 返回判题结果 + 最新 HP
     """
-    q_id     = data.get("q_id")
-    user_ans = data.get("answer")
-    slot_id  = data.get("slot_id", 0) # [Stage 15.0]
+    q_id       = data.get("q_id")
+    user_ans   = data.get("answer")
+    slot_id    = data.get("slot_id", 0) # [Stage 15.0]
+    attempt_id = data.get("attempt_id")  # [Stage 31.0]
     
-    print(f"[DEBUG] submit_objective: q_id={q_id}, ans={user_ans}, slot={slot_id}")
+    print(f"[DEBUG] submit_objective: q_id={q_id}, ans={user_ans}, slot={slot_id}, attempt={attempt_id}")
 
     q = db.query(Question).filter(Question.q_id == q_id).first()
     if not q:
@@ -238,20 +489,24 @@ def submit_objective(data: Dict[str, Any], db: Session = Depends(get_static_db))
                 pconn.execute("UPDATE game_saves SET hp=?, updated_at=datetime('now', 'localtime') WHERE slot_id=?", (new_hp, slot_id))
                 pconn.commit()
             
-            # ── [Stage 14.0] 答题记录持久化 ──
+            # ── [Stage 14.0 / 31.0] 答题记录持久化 (绑定 attempt_id) ──
             try:
+                if attempt_id:
+                    # 先删除同 attempt 同题旧记录再插入，允许重答
+                    pconn.execute("DELETE FROM user_answers WHERE attempt_id = ? AND q_id = ?", (attempt_id, q_id))
                 pconn.execute("""
-                    INSERT OR REPLACE INTO user_answers 
-                    (slot_id, q_id, section_type, user_answer, is_correct, score, ai_feedback, updated_at)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, datetime('now', 'localtime'))
+                    INSERT INTO user_answers 
+                    (attempt_id, slot_id, q_id, section_type, user_answer, is_correct, score, ai_feedback, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, datetime('now', 'localtime'))
                 """, (
+                    attempt_id,
                     slot_id,
                     q_id,
                     section_type,
                     str(user_ans),
                     is_correct,
-                    q.score if is_correct else 0, # objective score
-                    None, # No AI feedback for objective
+                    q.score if is_correct else 0,
+                    None,
                 ))
                 pconn.commit()
             except Exception as e:
@@ -296,6 +551,7 @@ async def submit_subjective(data: Dict[str, Any]):
     answer       = data.get("answer", "")
     section_type = data.get("section_type", "translation")
     slot_id      = data.get("slot_id", 0) # [Stage 15.0]
+    attempt_id   = data.get("attempt_id")  # [Stage 31.0]
 
     # ── 按题型决定满分和 HP 消耗 ──
     type_cfg = {
@@ -388,18 +644,21 @@ async def submit_subjective(data: Dict[str, Any]):
             pconn.execute("UPDATE game_saves SET hp=?, updated_at=datetime('now', 'localtime') WHERE slot_id=?", (new_hp, slot_id))
             pconn.commit()
 
-            # ── [Stage 14.0] 答题记录持久化 ──
+            # ── [Stage 14.0 / 31.0] 答题记录持久化 (绑定 attempt_id) ──
             try:
+                if attempt_id:
+                    pconn.execute("DELETE FROM user_answers WHERE attempt_id = ? AND q_id = ?", (attempt_id, q_id))
                 pconn.execute("""
-                    INSERT OR REPLACE INTO user_answers 
-                    (slot_id, q_id, section_type, user_answer, is_correct, score, ai_feedback, updated_at)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, datetime('now', 'localtime'))
+                    INSERT INTO user_answers 
+                    (attempt_id, slot_id, q_id, section_type, user_answer, is_correct, score, ai_feedback, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, datetime('now', 'localtime'))
                 """, (
+                    attempt_id,
                     slot_id,
                     q_id,
                     section_type,
                     answer,
-                    (score >= max_score * 0.6), # Pass/Fail heuristic
+                    (score >= max_score * 0.6),
                     score,
                     feedback,
                 ))
@@ -464,25 +723,24 @@ def get_exam_progress(paper_id: str, slot_id: int = 0, db: Session = Depends(get
 @router.delete("/exam/{paper_id}/reset")
 def reset_paper_progress(paper_id: str, slot_id: int = 0, db: Session = Depends(get_static_db)):
     """
-    [Stage 17.0] 重置试卷当前面板 (保留 answer_history_logs)
-    Deletes all user_answers for slot+paper. Historical logs survive.
+    [Stage 17.0 / 31.0] 重置试卷：结束当前 in_progress attempt，创建新 attempt
+    旧数据全部保留在历史 attempt 中
     """
-    deleted = 0
     try:
         with get_profile_conn() as pconn:
             ensure_auto_save(pconn)
-            q_ids = [q.q_id for q in db.query(Question).filter(Question.paper_id == paper_id).all()]
-            if q_ids:
-                placeholders = ",".join(["?"] * len(q_ids))
-                cursor = pconn.execute(
-                    f"DELETE FROM user_answers WHERE slot_id=? AND q_id IN ({placeholders})",
-                    (slot_id, *q_ids)
-                )
-                pconn.commit()
-                deleted = cursor.rowcount
-                print(f"[exam] Reset paper {paper_id} slot {slot_id}: deleted {deleted} rows")
+
+            # 结束当前 in_progress attempt
+            pconn.execute("""
+                UPDATE exam_attempts
+                SET status = 'finished', finished_at = datetime('now', 'localtime')
+                WHERE slot_id = ? AND paper_id = ? AND status = 'in_progress'
+            """, (slot_id, paper_id))
+            pconn.commit()
+
+            print(f"[exam] Reset paper {paper_id} slot {slot_id}: old attempts marked finished")
     except Exception as e:
         print(f"[exam] Reset failed: {e}")
         return {"success": False, "error": str(e)}
 
-    return {"success": True, "deleted": deleted}
+    return {"success": True}

@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen bg-[#f5f5f0] text-gray-900 flex font-sans overflow-hidden">
+  <div class="min-h-screen bg-[#f5f5f0] text-gray-900 flex flex-col tablet:flex-row font-sans">
     <!-- Sidebar: Attempts List -->
-    <div class="w-80 bg-white border-r border-gray-200 flex flex-col h-full shrink-0 shadow-sm relative z-10">
+    <div class="w-80 bg-white border-r border-gray-200 flex flex-col shrink-0 shadow-sm relative z-10 tablet:min-h-screen">
       <div class="p-6 border-b border-gray-100 flex items-center justify-between sticky top-0 bg-white bg-opacity-90 backdrop-blur">
         <h2 class="text-xl font-bold font-wenkai text-gray-800 flex items-center gap-2">
           <button @click="router.push('/')" class="text-gray-400 hover:text-rose-400 transition-colors">
@@ -11,7 +11,7 @@
         </h2>
       </div>
       
-      <div class="flex-1 overflow-y-auto custom-scrollbar p-4 flex flex-col gap-3">
+      <div class="flex-1 overflow-y-auto custom-scrollbar p-4 pb-[env(safe-area-inset-bottom,2rem)] flex flex-col gap-3">
         <div v-if="loadingAttempts" class="text-center text-sm text-gray-400 py-10">加载中...</div>
         <div v-else-if="!attempts.length" class="text-center text-sm text-gray-400 py-10">
           暂无作答记录
@@ -45,7 +45,7 @@
     </div>
 
     <!-- Main Content: Attempt Detail -->
-    <div class="flex-1 flex flex-col h-full bg-[#fdfdfc] overflow-y-auto custom-scrollbar relative">
+    <div class="flex-1 flex flex-col bg-[#fdfdfc] overflow-y-auto custom-scrollbar relative min-h-0">
       <div v-if="!selectedAttemptId" class="m-auto text-gray-400 flex flex-col items-center gap-4">
         <span class="text-5xl opacity-40">🗂️</span>
         <span class="font-wenkai text-lg">请在左侧选择一次作答记录</span>

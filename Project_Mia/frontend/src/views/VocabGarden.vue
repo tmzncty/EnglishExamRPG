@@ -1,20 +1,32 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-b from-emerald-50 to-teal-50 flex flex-col items-center relative overflow-hidden">
+  <div class="min-h-screen bg-gradient-to-b from-emerald-50 to-teal-50 flex flex-col items-center relative">
     
     <!-- 🌿 [Stage 20.0 / 21.0] Minimal Top Bar -->
-    <div class="w-full px-6 py-3 flex justify-between items-center z-20 sticky top-0">
+    <div class="w-full px-4 sm:px-6 lg:px-8 py-3 lg:py-4 flex justify-between items-center z-20 sticky top-0">
       
       <!-- 📚 [Stage 21.0] Dictionary Button -->
-      <button 
-        @click="openDictionary"
-        class="bg-white/70 backdrop-blur-md px-4 py-2 rounded-xl shadow-sm border border-teal-100 hover:bg-white transition-colors flex items-center gap-2 group cursor-pointer"
-      >
-        <span class="text-xl group-hover:scale-110 transition-transform">📚</span>
-        <span class="text-xs font-bold text-teal-700 hidden sm:inline">我的词库</span>
-      </button>
+      <div class="flex gap-2">
+        <button 
+          @click="openDictionary"
+          class="bg-white/70 backdrop-blur-md px-4 py-2 rounded-xl shadow-sm border border-teal-100 hover:bg-white transition-colors flex items-center gap-2 group cursor-pointer"
+        >
+          <span class="text-xl group-hover:scale-110 transition-transform">📚</span>
+          <span class="text-xs font-bold text-teal-700 hidden sm:inline">我的词库</span>
+        </button>
+
+        <!-- 🔄 [Stage 35.7] Force Sync Button -->
+        <button 
+          @click="forceSync"
+          class="bg-white/70 backdrop-blur-md px-3 py-2 rounded-xl shadow-sm border border-amber-100 hover:bg-white transition-colors flex items-center gap-2 group cursor-pointer bg-gradient-to-r from-amber-50 to-orange-50"
+          title="强制打破缓存，同步服务器最新队列"
+        >
+          <span class="text-lg group-active:rotate-180 transition-transform duration-500">🔄</span>
+          <span class="text-xs font-bold text-amber-700 hidden sm:inline">同步</span>
+        </button>
+      </div>
 
       <!-- 📊 [Stage 29.0] Glassmorphism Progress Dashboard -->
-      <div v-if="vocabStore.dailyProgress" class="w-44 sm:w-56 bg-white/60 backdrop-blur-xl border border-white/30 shadow-lg rounded-2xl p-2.5 sm:p-3 flex flex-col gap-1.5 sm:gap-2" id="progress-dashboard">
+      <div v-if="vocabStore.dailyProgress" class="w-44 sm:w-56 lg:w-64 xl:w-72 tablet:w-80 bg-white/60 backdrop-blur-xl border border-white/30 shadow-lg rounded-2xl p-2.5 sm:p-3 lg:p-4 flex flex-col gap-1.5 sm:gap-2" id="progress-dashboard">
          <!-- Row 1: Date & Time Engine -->
          <div class="flex items-center justify-between">
             <div class="flex items-center gap-1 font-bold text-teal-700 text-[9px] sm:text-[10px]">
@@ -66,161 +78,268 @@
       </div>
     </div>
 
-    <!-- 🌸 Main Card Area -->
-    <div class="flex-1 flex flex-col justify-center w-full max-w-md px-6 relative z-10 pb-32">
-      
-      <!-- Loading State -->
-      <div v-if="vocabStore.loading" class="text-center text-teal-600 animate-pulse">
+    <!-- 🌸 [v2] Mode-Switch Card Area -->
+
+    <div class="flex-1 flex flex-col justify-center w-full max-w-md lg:max-w-lg tablet:max-w-xl px-6 relative z-10 pb-[env(safe-area-inset-bottom,2rem)] tablet:pb-[env(safe-area-inset-bottom,1.5rem)]">
+
+      <!-- ⏳ Loading -->
+      <div v-if="pageLoading" class="text-center text-teal-600 animate-pulse">
         <div class="text-4xl mb-4">🌱</div>
-        <p>Connecting to the Garden...</p>
+        <p>Loading Garden...</p>
       </div>
 
-      <!-- Finish State (Compact Card) -->
-      <div v-else-if="!vocabStore.currentWord" class="relative w-full aspect-[3/4] flex items-center justify-center p-6">
-          <div class="w-full bg-white/90 rounded-3xl shadow-xl backdrop-blur-md border border-teal-100 p-8 flex flex-col items-center text-center transform transition-all hover:scale-[1.02]">
-            <div class="text-6xl mb-4 drop-shadow-md">🎉</div>
-            <h2 class="text-2xl font-black text-teal-800 mb-2">Garden Tended!</h2>
-            <p class="text-teal-600 mb-6 font-wenkai text-sm leading-relaxed">You've watered all your logic plants for today. Great job keeping your streak alive!</p>
-            
-            <div class="flex flex-col gap-3 w-full">
-                <!-- Endless Mode Button -->
-                <button 
-                    @click="handleEndlessMode"
-                    class="w-full py-3 bg-gradient-to-r from-orange-400 to-rose-500 text-white rounded-xl font-bold shadow-md shadow-rose-200 hover:shadow-lg hover:from-orange-500 hover:to-rose-600 border border-rose-300 transition-all active:scale-95 flex items-center justify-center gap-2"
-                >
-                    <span class="text-lg">🔥</span>
-                    <span>状态极佳：再背 10 个！</span>
-                </button>
-                
-                <button 
-                    @click="router.push('/')"
-                    class="w-full py-3 bg-teal-50 text-teal-700 rounded-xl font-bold border border-teal-200 hover:bg-teal-100 transition-all active:scale-95"
-                >
-                    Return to Hall
-                </button>
+      <!-- ── 🏠 DASHBOARD MODE ── -->
+      <div v-else-if="gardenMode === 'dashboard'" class="w-full max-w-lg mx-auto">
+
+        <!-- Stats Card -->
+        <div class="bg-white/90 rounded-3xl shadow-xl border border-teal-100 p-8 mb-6">
+          <h2 class="text-2xl font-black text-teal-800 mb-6 flex items-center gap-2">
+            <span>🌱</span> 词汇花园
+          </h2>
+
+          <!-- Key stats grid -->
+          <div class="grid grid-cols-2 gap-3 mb-6">
+            <div class="bg-teal-50 rounded-xl p-3 text-center">
+              <div class="text-3xl font-black text-teal-600">{{ progressStats.mastered || 0 }}</div>
+              <div class="text-[10px] text-teal-500 font-bold">📊 总进度 {{ ((progressStats.learned||0)/(progressStats.total_words||1)*100).toFixed(1) }}%</div>
+            </div>
+            <div class="bg-amber-50 rounded-xl p-3 text-center">
+              <div class="text-3xl font-black text-amber-600">{{ progressStats.days_until_exam || '?' }}</div>
+              <div class="text-[10px] text-amber-500 font-bold">⏰ 距考研 (天)</div>
+            </div>
+            <div class="bg-indigo-50 rounded-xl p-3 text-center">
+              <div class="text-3xl font-black text-indigo-500">{{ progressStats.graduated || 0 }}</div>
+              <div class="text-[10px] text-indigo-400 font-bold">🎓 已毕业</div>
+            </div>
+            <div class="bg-rose-50 rounded-xl p-3 text-center">
+              <div class="text-3xl font-black text-rose-400">{{ progressStats.mistake_book || 0 }}</div>
+              <div class="text-[10px] text-rose-400 font-bold">📌 顽固词</div>
             </div>
           </div>
+
+          <!-- Progress bar -->
+          <div class="mb-2">
+            <div class="flex justify-between text-[10px] font-bold text-gray-500 mb-1">
+              <span>{{ progressStats.learned || 0 }} / {{ progressStats.total_words || 0 }} 已学</span>
+              <span>{{ ((progressStats.learned||0)/(progressStats.total_words||1)*100).toFixed(1) }}%</span>
+            </div>
+            <div class="h-2 bg-gray-100 rounded-full overflow-hidden">
+              <div class="h-full bg-gradient-to-r from-teal-400 to-emerald-500 rounded-full transition-all duration-1000"
+                :style="{ width: ((progressStats.learned||0)/(progressStats.total_words||1)*100) + '%' }"></div>
+            </div>
+          </div>
+          <div v-if="progressStats.daily_needed > 0" class="text-[10px] text-gray-400 text-center mt-1">
+            💡 每天需学 {{ progressStats.daily_needed }} 词才能在考前学完全部
+          </div>
+
+          <!-- Action stats -->
+          <div class="flex gap-4 mt-5 text-center border-t border-gray-100 pt-4">
+            <div class="flex-1 bg-emerald-50/70 rounded-xl p-2.5">
+              <div class="font-black text-emerald-600 text-lg">{{ vocabStore.dailyProgress.to_review || 0 }}</div>
+              <div class="text-[10px] text-emerald-500 font-bold">🔄 待复习</div>
+            </div>
+            <div class="flex-1 bg-blue-50/70 rounded-xl p-2.5">
+              <div class="font-black text-blue-500 text-lg">{{ progressStats.unseen || 0 }}</div>
+              <div class="text-[10px] text-blue-400 font-bold">🆕 未学词</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-col gap-2.5">
+          <button @click="startScreening"
+            class="w-full py-3.5 bg-gradient-to-r from-indigo-400 to-purple-500 text-white rounded-2xl font-bold shadow-md shadow-indigo-200 hover:shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2">
+            <span class="text-lg">⚡</span>
+            <span>快速筛选 — 批量浏览，会的直接跳过</span>
+          </button>
+          <button @click="startLearning"
+            class="w-full py-3.5 bg-gradient-to-r from-teal-400 to-emerald-500 text-white rounded-2xl font-bold shadow-md shadow-teal-200 hover:shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2">
+            <span class="text-lg">📖</span>
+            <span>开始学习 — 混合新词+复习（每日 {{ userStore.dailyLimit || 30 }} 词）</span>
+          </button>
+          <button @click="startReviewOnly"
+            class="w-full py-3.5 bg-gradient-to-r from-amber-400 to-orange-500 text-white rounded-2xl font-bold shadow-md shadow-amber-200 hover:shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2"
+            :class="{ 'opacity-50': (vocabStore.dailyProgress.to_review || 0) === 0 }">
+            <span class="text-lg">🔄</span>
+            <span>只复习 — 清掉到期复习（{{ vocabStore.dailyProgress.to_review || 0 }} 词待复习）</span>
+          </button>
+        </div>
       </div>
 
-      <!-- Active Card -->
-      <div v-else class="relative w-full aspect-[3/4] perspective-1000">
-        <div 
-            class="w-full h-full relative transition-all duration-500 transform-style-3d"
+      <!-- ── 📖 LEARNING MODE (original card flow) ── -->
+      <template v-else-if="gardenMode === 'learning'">
+        <!-- Finish State -->
+        <div v-if="!vocabStore.currentWord" class="relative w-full aspect-[3/4] flex items-center justify-center p-6">
+          <div class="w-full bg-white/90 rounded-3xl shadow-xl backdrop-blur-md border border-teal-100 p-8 flex flex-col items-center text-center transform transition-all">
+            <div class="text-6xl mb-4 drop-shadow-md">🎉</div>
+            <h2 class="text-2xl font-black text-teal-800 mb-2">今日任务完成！</h2>
+            <p class="text-teal-600 mb-6 font-wenkai text-sm leading-relaxed">今天的词汇已全部完成。学有余力？继续追加吧！</p>
+            <div class="flex flex-col gap-3 w-full">
+              <button @click="continueLearning(10)"
+                class="w-full py-3 bg-gradient-to-r from-orange-400 to-rose-500 text-white rounded-xl font-bold shadow-md shadow-rose-200 hover:shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2">
+                <span class="text-lg">🔥</span> <span>再来 10 个</span>
+              </button>
+              <button @click="continueLearning(20)"
+                class="w-full py-3 bg-gradient-to-r from-amber-400 to-orange-500 text-white rounded-xl font-bold shadow-md shadow-amber-200 hover:shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2">
+                <span class="text-lg">🚀</span> <span>再来 20 个</span>
+              </button>
+              <button @click="gardenMode = 'dashboard'; refreshProgress()"
+                class="w-full py-3 bg-teal-50 text-teal-700 rounded-xl font-bold border border-teal-200 hover:bg-teal-100 transition-all active:scale-95">
+                🏠 今天够了，回去
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Active Card (original) -->
+        <div v-else class="relative w-full aspect-[3/4] max-h-[calc(100dvh-16rem)] tablet:max-h-[calc(100dvh-14rem)] perspective-1000">
+          <div class="w-full h-full relative transition-all duration-500 transform-style-3d"
             :class="{ 'rotate-y-180': isRevealed }"
             :style="cardStyle"
             @touchstart="handleTouchStart"
             @touchmove="handleTouchMove"
-            @touchend="handleTouchEnd"
-        >
-            <!-- FRONT: Question -->
+            @touchend="handleTouchEnd">
+            <!-- FRONT -->
             <div class="absolute inset-0 backface-hidden bg-white rounded-3xl shadow-xl border border-emerald-100 p-8 flex flex-col justify-between">
-                <div class="flex-1 flex flex-col justify-center items-center text-center">
-                    <h1 class="text-5xl font-black text-gray-800 mb-6 tracking-tight">{{ vocabStore.currentWord.word }}</h1>
-                    
-                    <!-- Sentence (First one) -->
-                    <div v-if="vocabStore.currentWord.sentences && vocabStore.currentWord.sentences.length" class="bg-emerald-50/50 p-4 rounded-xl border border-emerald-50 overflow-y-auto max-h-[50vh] custom-scrollbar">
-                        <p class="exam-sentence text-lg font-serif italic text-gray-600 leading-relaxed">
-                            "{{ vocabStore.currentWord.sentences[0].sentence }}"
-                        </p>
-                    </div>
+              <div class="flex-1 flex flex-col justify-center items-center text-center">
+                <h1 class="text-5xl tablet:text-6xl font-black text-gray-800 mb-2 tracking-tight">{{ vocabStore.currentWord.word }}</h1>
+                <p class="text-gray-400 mb-6 font-mono text-lg tablet:text-xl">/ {{ vocabStore.currentWord.phonetic || '...' }} /</p>
+                <div v-if="vocabStore.currentWord.sentences && vocabStore.currentWord.sentences.length" class="bg-emerald-50/50 p-5 rounded-xl border border-emerald-50 overflow-y-auto max-h-[40vh] custom-scrollbar w-full">
+                  <p class="exam-sentence text-lg font-serif italic text-gray-600 leading-relaxed">"{{ vocabStore.currentWord.sentences[0].sentence }}"</p>
                 </div>
-                
-                <div class="text-center text-gray-400 text-sm font-wenkai">
-                    Think about the meaning...
-                </div>
+              </div>
+              <div class="text-center text-gray-400 text-sm font-wenkai flex flex-col items-center gap-1">
+                <span>Space / 点击下方按钮 查看释义</span>
+                <span class="text-[10px] text-gray-300 tablet:hidden">← 翻面后左右滑动评分 →</span>
+              </div>
             </div>
-
-            <!-- BACK: Answer (Revealed) -->
+            <!-- BACK -->
             <div class="absolute inset-0 backface-hidden rotate-y-180 bg-white rounded-3xl shadow-xl border border-teal-100 flex flex-col overflow-hidden">
-                <div class="flex-1 overflow-y-auto custom-scrollbar p-8 pb-4">
-                    <div class="text-center border-b border-gray-100 pb-4 mb-4">
-                        <h2 class="text-3xl font-bold text-teal-700">{{ vocabStore.currentWord.word }}</h2>
-                        <p class="text-gray-400 mt-1 font-mono text-sm">/ {{ vocabStore.currentWord.phonetic || '...' }} /</p>
-                    </div>
-
-                    <!-- Meanings -->
-                    <div class="mb-6">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase mb-2">Meanings</h3>
-                        <ul class="space-y-2">
-                            <li v-for="(m, idx) in vocabStore.currentWord.meanings" :key="idx" class="text-gray-700 font-medium leading-relaxed">
-                                {{ m }}
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Notes & Context -->
-                    <div class="mb-2">
-                        <h3 class="text-xs font-bold text-gray-400 uppercase mb-2">Notes & Context</h3>
-                        <p class="text-sm text-gray-500 leading-relaxed mb-3">
-                            Part of Speech: <span class="font-mono bg-gray-100 px-1 rounded">{{ vocabStore.currentWord.pos }}</span>
-                        </p>
-                        
-                        <!-- Show sentence context and translation if available -->
-                        <div v-if="vocabStore.currentWord.sentences && vocabStore.currentWord.sentences.length > 0" class="p-4 bg-emerald-50/50 rounded-xl text-sm font-wenkai relative border border-emerald-50 text-gray-700">
-                            <p class="exam-sentence mb-2 italic leading-relaxed text-gray-600">"{{ vocabStore.currentWord.sentences[0].sentence }}"</p>
-                            <p v-if="vocabStore.currentWord.sentences[0].translation" class="text-teal-800 leading-relaxed">{{ vocabStore.currentWord.sentences[0].translation }}</p>
-                            
-                            <div class="mt-3 text-right">
-                               <button 
-                                 @click="goToExam(vocabStore.currentWord.sentences[0])"
-                                 class="text-xs font-bold text-teal-600 hover:text-teal-800 underline underline-offset-2 decoration-teal-300 transition-colors bg-white/50 px-2 py-1 rounded"
-                               >
-                                  [🔗 去原卷看看]
-                               </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- [Stage 23.0] 💡 Global Mia AI Explanation Button -->
-                    <div class="mt-4 mb-2">
-                        <button
-                            @click="callMiaGlobal"
-                            class="w-full py-2.5 rounded-xl border border-amber-200 text-amber-600 bg-amber-50 text-sm font-bold hover:bg-amber-100 active:scale-95 transition-all flex items-center justify-center gap-2"
-                        >
-                            <span>💡</span>
-                            <span>呼叫 Mia 详细讲解</span>
-                        </button>
-                    </div>
+              <div class="flex-1 overflow-y-auto custom-scrollbar p-8 pb-4">
+                <div class="text-center border-b border-gray-100 pb-4 mb-4">
+                  <h2 class="text-4xl tablet:text-5xl font-bold text-teal-700">{{ vocabStore.currentWord.word }}</h2>
+                  <p class="text-gray-400 mt-1 font-mono text-base tablet:text-lg">/ {{ vocabStore.currentWord.phonetic || '...' }} /</p>
+                  <p v-if="vocabStore.currentWord.pos" class="text-xs text-gray-400 mt-1"><span class="font-mono bg-gray-100 px-2 py-0.5 rounded-full">{{ vocabStore.currentWord.pos }}</span></p>
                 </div>
-
-                <!-- 🎮 Grading Action Bar (Visible when Back) -->
-                <div class="p-6 pt-2 bg-gradient-to-t from-white via-white shrink-0 z-10 flex justify-between gap-4">
-                    <button 
-                        id="btn-forgot"
-                        @click="handleAnswer(0)"
-                        class="flex-1 py-3 bg-white border-2 border-rose-200 text-rose-500 rounded-xl font-bold shadow-sm hover:bg-rose-50 active:scale-95 transition-all flex items-center justify-center gap-2"
-                        :disabled="vocabStore.submitting"
-                        :class="{ 'opacity-50 cursor-not-allowed': vocabStore.submitting }"
-                    >
-                        <span class="text-xl">❌</span>
-                        <span>记错了 (Forgot)</span>
-                    </button>
-
-                    <button 
-                        id="btn-correct"
-                        @click="handleAnswer(5)"
-                        class="flex-1 py-3 bg-teal-500 border-2 border-teal-500 text-white rounded-xl font-bold shadow-sm hover:bg-teal-600 active:scale-95 transition-all flex items-center justify-center gap-2"
-                        :disabled="vocabStore.submitting"
-                        :class="{ 'opacity-50 cursor-not-allowed': vocabStore.submitting }"
-                    >
-                        <span class="text-xl">✅</span>
-                        <span>记对了 (Correct)</span>
-                    </button>
+                <div class="mb-5">
+                  <h3 class="text-xs font-bold text-gray-400 uppercase mb-3 tracking-wide">释义 Meanings</h3>
+                  <ul class="space-y-2.5">
+                    <li v-for="(m, idx) in vocabStore.currentWord.meanings" :key="idx" class="text-gray-700 font-medium leading-relaxed text-base tablet:text-lg pl-4 border-l-2 border-teal-200">{{ m }}</li>
+                  </ul>
                 </div>
+                <div v-if="vocabStore.currentWord.sentences && vocabStore.currentWord.sentences.length > 0" class="p-5 bg-emerald-50/50 rounded-xl text-sm font-wenkai relative border border-emerald-50 text-gray-700 mb-4">
+                  <p class="exam-sentence mb-2 italic leading-relaxed text-gray-600">"{{ vocabStore.currentWord.sentences[0].sentence }}"</p>
+                  <p v-if="vocabStore.currentWord.sentences[0].translation" class="text-teal-800 leading-relaxed">{{ vocabStore.currentWord.sentences[0].translation }}</p>
+                  <div class="mt-3 text-right">
+                    <button @click="goToExam(vocabStore.currentWord.sentences[0])" class="text-xs font-bold text-teal-600 hover:text-teal-800 underline underline-offset-2 decoration-teal-300 transition-colors bg-white/50 px-2 py-1 rounded">[🔗 去原卷看看]</button>
+                  </div>
+                </div>
+                <div class="mt-2 mb-2">
+                  <button @click="callMiaGlobal" class="w-full py-2.5 rounded-xl border border-amber-200 text-amber-600 bg-amber-50 text-sm font-bold hover:bg-amber-100 active:scale-95 transition-all flex items-center justify-center gap-2">
+                    <span>💡</span> <span>呼叫 Mia 详细讲解</span>
+                  </button>
+                </div>
+              </div>
+              <div class="p-6 pt-2 bg-gradient-to-t from-white via-white shrink-0 z-10 flex justify-between gap-4">
+                <button id="btn-forgot" @click="handleAnswer(0)"
+                  class="flex-1 py-3 lg:py-4 bg-white border-2 border-rose-200 text-rose-500 rounded-xl font-bold shadow-sm hover:bg-rose-50 active:scale-95 transition-all flex items-center justify-center gap-2 touch-target"
+                  :disabled="vocabStore.submitting" :class="{ 'opacity-50 cursor-not-allowed': vocabStore.submitting }">
+                  <span class="text-xl">❌</span>
+                  <span class="flex flex-col items-start leading-tight"><span>记错了</span><span class="text-[10px] font-normal text-rose-300">← 左滑 / 按 1</span></span>
+                </button>
+                <button id="btn-correct" @click="handleAnswer(5)"
+                  class="flex-1 py-3 lg:py-4 bg-teal-500 border-2 border-teal-500 text-white rounded-xl font-bold shadow-md hover:bg-teal-600 active:scale-95 transition-all flex items-center justify-center gap-2 touch-target"
+                  :disabled="vocabStore.submitting" :class="{ 'opacity-50 cursor-not-allowed': vocabStore.submitting }">
+                  <span class="flex flex-col items-end leading-tight"><span>记对了</span><span class="text-[10px] font-normal text-teal-200">右滑 → / 按 2</span></span>
+                  <span class="text-xl">✅</span>
+                </button>
+              </div>
             </div>
+          </div>
         </div>
+      </template>
+
+      <!-- ── ⚡ SCREENING MODE ── -->
+      <template v-else-if="gardenMode === 'screening'">
+        <!-- Done -->
+        <div v-if="screeningDone" class="w-full max-w-lg mx-auto">
+          <div class="bg-white/90 rounded-3xl shadow-xl border border-indigo-100 p-8 flex flex-col items-center text-center">
+            <div class="text-6xl mb-4">⚡</div>
+            <h2 class="text-2xl font-black text-indigo-700 mb-2">筛选完成！</h2>
+            <p class="text-indigo-500 mb-2 font-bold">{{ screeningSkipped }} 词已标记为已会</p>
+            <p class="text-gray-400 mb-6 font-wenkai text-sm">还剩 {{ screeningWords.length }} 词等待学习</p>
+            <div class="flex flex-col gap-3 w-full">
+              <button @click="gardenMode = 'dashboard'; refreshProgress()"
+                class="w-full py-3 bg-gradient-to-r from-teal-400 to-emerald-500 text-white rounded-xl font-bold shadow-md active:scale-95 transition-all">
+                📖 开始学习这些词
+              </button>
+              <button @click="gardenMode = 'dashboard'; refreshProgress()"
+                class="w-full py-3 bg-teal-50 text-teal-700 rounded-xl font-bold border border-teal-200 hover:bg-teal-100 transition-all active:scale-95">
+                🏠 返回花园
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Screening Card -->
+        <div v-else class="relative w-full aspect-[3/4] max-h-[calc(100dvh-16rem)] tablet:max-h-[calc(100dvh-14rem)] perspective-1000">
+          <div class="w-full h-full relative transition-all duration-500"
+            :style="screeningCardStyle"
+            @touchstart="handleScreeningTouchStart"
+            @touchmove="handleScreeningTouchMove"
+            @touchend="handleScreeningTouchEnd">
+            <div class="absolute inset-0 bg-white rounded-3xl shadow-xl border border-indigo-100 p-8 flex flex-col justify-between">
+              <div class="flex-1 flex flex-col justify-center items-center text-center">
+                <div class="text-[10px] font-bold text-indigo-400 mb-2">{{ screeningIndex + 1 }} / {{ screeningWords.length }}</div>
+                <h1 class="text-5xl tablet:text-6xl font-black text-gray-800 mb-2 tracking-tight">{{ currentScreeningWord?.word }}</h1>
+                <p class="text-gray-400 mb-6 font-mono text-lg tablet:text-xl">/ {{ currentScreeningWord?.phonetic || '...' }} /</p>
+                <p v-if="currentScreeningWord?.meanings?.length" class="text-sm text-gray-500 font-wenkai leading-relaxed max-w-[80%]">
+                  {{ currentScreeningWord.meanings.slice(0, 2).join('；') }}
+                </p>
+              </div>
+              <div class="flex justify-between gap-4">
+                <button @click="screeningSkip"
+                  class="flex-1 py-3 bg-white border-2 border-emerald-200 text-emerald-500 rounded-xl font-bold shadow-sm hover:bg-emerald-50 active:scale-95 transition-all flex items-center justify-center gap-2 touch-target">
+                  <span>✅</span> <span>认识了</span>
+                </button>
+                <button @click="screeningKeep"
+                  class="flex-1 py-3 bg-white border-2 border-amber-200 text-amber-500 rounded-xl font-bold shadow-sm hover:bg-amber-50 active:scale-95 transition-all flex items-center justify-center gap-2 touch-target">
+                  <span>📌</span> <span>需要学</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Screening progress -->
+          <div class="mt-4 w-full">
+            <div class="flex justify-between text-[10px] text-gray-400 mb-1">
+              <span>筛选进度</span><span>{{ screeningIndex }} / {{ screeningWords.length }}</span>
+            </div>
+            <div class="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+              <div class="h-full bg-indigo-400 rounded-full transition-all duration-300"
+                :style="{ width: (screeningIndex / Math.max(1, screeningWords.length) * 100) + '%' }"></div>
+            </div>
+          </div>
+        </div>
+      </template>
+
+      <!-- ── 🤷 Fallback -->
+      <div v-else class="text-center text-gray-400 py-12">
+        <div class="text-4xl mb-3">🌿</div>
+        <p>加载中…</p>
       </div>
     </div>
 
-    <!-- 🎮 Action Bar (Only visible when Front) -->
-    <div v-if="vocabStore.currentWord && !isRevealed" class="fixed bottom-20 left-0 w-full px-8 flex justify-center z-30">
-        <button 
+
+    <!-- 🎮 [v2] Action Bar — only in Learning mode when Front card showing -->
+    <div v-if="gardenMode === 'learning' && vocabStore.currentWord && !isRevealed" class="fixed bottom-20 left-0 w-full px-8 flex justify-center z-30">
+        <button
             id="btn-show-answer"
             @click="isRevealed = true"
-            class="w-full max-w-sm py-4 bg-teal-500 border-2 border-teal-500 text-white rounded-2xl font-bold shadow-lg hover:bg-teal-600 active:scale-95 transition-all flex flex-col items-center"
+            class="w-full max-w-sm tablet:max-w-md py-4 tablet:py-5 bg-teal-500 border-2 border-teal-500 text-white rounded-2xl font-bold shadow-lg hover:bg-teal-600 active:scale-95 transition-all flex flex-col items-center"
         >
             <span class="text-2xl mb-1">👆</span>
-            <span>点击查看释义 (Show Answer)</span>
+            <span>点击查看释义</span>
+            <span class="text-[10px] font-normal text-teal-200 mt-0.5">或按空格键 Space</span>
         </button>
     </div>
 
@@ -308,7 +427,7 @@
           <div v-if="dictLoading" class="text-center py-20 text-gray-400 animate-pulse font-bold">
             正在加载浩瀚词海...
           </div>
-          <div v-else-if="paginatedDictList.length" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-6">
+          <div v-else-if="paginatedDictList.length" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 tablet:grid-cols-5 gap-4 pb-6">
             <div 
               v-for="item in paginatedDictList" :key="item.word"
               class="flex items-center justify-between p-4 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all hover:-translate-y-0.5"
@@ -395,6 +514,46 @@ const isRevealed = ref(false)
 const showReward = ref(false)
 const rewardText = ref({ hp: '', exp: '' })
 
+// ── [v2] Garden Mode & Screening State ──
+const gardenMode = ref('dashboard')   // 'dashboard' | 'learning' | 'screening'
+const pageLoading = ref(false)
+const progressStats = ref({
+  total_words: 0, learned: 0, mastered: 0, graduated: 0,
+  mistake_book: 0, unseen: 0, days_until_exam: 0, daily_needed: 0
+})
+
+// Screening state
+const screeningWords = ref([])
+const screeningIndex = ref(0)
+const screeningSkipped = ref(0)
+const screeningDone = ref(false)
+const screeningSkipBatch = ref([])  // words to batch-mark
+let _screenBatchTimer = null
+
+const screeningTouchStartX = ref(null)
+const screeningTouchCurrentX = ref(null)
+const screeningSwipeOffset = computed(() => {
+  if (screeningTouchStartX.value === null || screeningTouchCurrentX.value === null) return 0
+  return screeningTouchCurrentX.value - screeningTouchStartX.value
+})
+const screeningCardStyle = computed(() => {
+  const offset = screeningSwipeOffset.value
+  if (offset === 0) return {}
+  const clamped = Math.max(-100, Math.min(100, offset))
+  const rotate = clamped * 0.1
+  const intensity = Math.abs(clamped) / 100
+  const shadowColor = clamped > 0 ? `rgba(16, 185, 129, ${intensity * 0.5})` : `rgba(245, 158, 11, ${intensity * 0.5})`
+  return {
+    transform: `translateX(${clamped}px) rotate(${rotate}deg)`,
+    boxShadow: `0 ${Math.abs(clamped) / 4}px ${Math.abs(clamped) / 2}px ${shadowColor}`,
+    transition: screeningTouchStartX.value ? 'none' : 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease'
+  }
+})
+const currentScreeningWord = computed(() => {
+  if (!screeningWords.value.length || screeningIndex.value >= screeningWords.value.length) return null
+  return screeningWords.value[screeningIndex.value]
+})
+
 // [Stage 28.1] Swipe & Keyboard State
 const touchStartX = ref(null)
 const touchCurrentX = ref(null)
@@ -405,12 +564,18 @@ const swipeOffset = computed(() => {
 const cardStyle = computed(() => {
     if (swipeOffset.value === 0) return {}
     // Limits visual translation to a reasonable visual dragging area
-    const offset = Math.max(-100, Math.min(100, swipeOffset.value)) 
+    const offset = Math.max(-100, Math.min(100, swipeOffset.value))
     // Adds a slight rotation for flair when dragging
-    const rotate = offset * 0.1 
+    const rotate = offset * 0.1
+    // [T2] 滑动方向颜色反馈
+    const intensity = Math.abs(offset) / 100
+    const shadowColor = offset > 0
+      ? `rgba(20, 184, 166, ${intensity * 0.5})`  // teal for correct (right)
+      : `rgba(244, 63, 94, ${intensity * 0.5})`    // rose for forgot (left)
     return {
         transform: `translateX(${offset}px) rotate(${rotate}deg)`,
-        transition: touchStartX.value ? 'none' : 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)' 
+        boxShadow: `0 ${Math.abs(offset) / 4}px ${Math.abs(offset) / 2}px ${shadowColor}`,
+        transition: touchStartX.value ? 'none' : 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease'
         // Note: transition is none while dragging, smooth when released
     }
 })
@@ -490,42 +655,29 @@ const handleSliderInput = () => {
     }, 500)
 }
 
+// ── [v2] Init: Load stats first, show dashboard ──
 onMounted(async () => {
-    // Ensuring user slot is correct
-    if (!userStore.currentSlotId) {
-        await userStore.init()
-    }
-    
-    // Init local form variables once loaded
+    if (!userStore.currentSlotId) await userStore.init()
     localDailyLimit.value = userStore.dailyLimit || 30
-    
-    // [Stage 32.0] Load macro progress
-    await vocabStore.fetchGlobalStats()
 
-    // [Stage 35.1] Stale State Wipe Interceptor
-    const currentDay = getCurrentLogicalDay()
-    if (vocabStore.lastActiveLogicalDay && vocabStore.lastActiveLogicalDay !== currentDay) {
-        console.log(`[VocabGarden] Stale state detected! Wiping local cache. ${vocabStore.lastActiveLogicalDay} -> ${currentDay}`)
-        vocabStore.currentIndex = 0
-        vocabStore.todayFocusTime = 0
-        vocabStore.todayTasks = []
-        vocabStore.dailyProgress = { reviewed: 0, total: 0, new_learned: 0, to_review: 0 }
+    // Fetch global stats and progress stats in parallel
+    pageLoading.value = true
+    try {
+        await Promise.all([
+            vocabStore.fetchGlobalStats(),
+            refreshProgress()
+        ])
+        // Also fetch today's vocab silently so to_review is populated in dashboard
         await vocabStore.fetchTodayVocab()
-    } else {
-        const hasActiveSession = vocabStore.todayTasks.length > 0 &&
-                                 vocabStore.currentIndex < vocabStore.todayTasks.length
-        if (!hasActiveSession && !vocabStore.isFinished) {
-            await vocabStore.fetchTodayVocab()
-        }
+        gardenMode.value = 'dashboard'
+    } catch (e) {
+        console.error('VocabGarden init error:', e)
+    } finally {
+        pageLoading.value = false
     }
-    
-    // [Stage 30.0] Start Focus Timer
+
     vocabStore.startFocusTimer()
-
-    // [Stage 28.1] Bind Keyboard Shortcuts
     window.addEventListener('keydown', handleGlobalKeydown)
-
-    // [Stage 34.3] Auto-focus: ensure keyboard events land on <body>, not some random element
     document.activeElement?.blur()
 })
 
@@ -718,19 +870,155 @@ const callMiaGlobal = () => {
     const sentenceEn = vocabStore.currentWord.sentences?.[0]?.sentence || '';
     const prompt = `Mia，请给我详细讲解考研单词【${word}】的词根词缀，特别是它在这个真题例句中的用法和含义："${sentenceEn}"`
     
+    // [Stage 35.9] Fix: Emulate user input correctly
+    miaStore.history.push({ role: 'user', content: prompt })
     miaStore.dialogVisible = true;
-    miaStore.interact('vocab_chat', prompt)
+    
+    // Provide an object context matching what interact expects
+    miaStore.interact('vocab_chat', { message: prompt, rpg_mode: false })
 }
 
-// [Stage 32.0] Endless Mode Handler
-const handleEndlessMode = async () => {
-    vocabStore.loading = true
+
+// ── [v2] Garden Mode Functions ──
+
+// Fetch progress stats for dashboard
+const refreshProgress = async () => {
     try {
-        await vocabStore.addDailyLimit(10)
-    } finally {
-        vocabStore.loading = false
+        const res = await request.get('/vocab/progress_stats', {
+            params: { slot_id: userStore.currentSlotId }
+        })
+        if (res) {
+            progressStats.value = {
+                total_words: res.total_words || 0,
+                learned: res.learned || 0,
+                mastered: res.mastered || 0,
+                graduated: res.graduated || 0,
+                mistake_book: res.mistake_book || 0,
+                unseen: res.unseen || 0,
+                days_until_exam: res.days_until_exam || 0,
+                daily_needed: res.daily_needed || 0,
+            }
+        }
+    } catch (e) {
+        console.error('progress_stats error:', e)
     }
 }
+
+// ── Screening Mode ──
+const startScreening = async () => {
+    pageLoading.value = true
+    try {
+        const res = await request.get('/vocab/screening', {
+            params: { slot_id: userStore.currentSlotId, limit: 50 }
+        })
+        if (res && res.words) {
+            screeningWords.value = res.words
+            screeningIndex.value = 0
+            screeningSkipped.value = 0
+            screeningDone.value = false
+            screeningSkipBatch.value = []
+            gardenMode.value = 'screening'
+        }
+    } catch (e) {
+        console.error('screening error:', e)
+    } finally {
+        pageLoading.value = false
+    }
+}
+
+const _flushScreeningBatch = async () => {
+    if (!screeningSkipBatch.value.length) return
+    const batch = [...screeningSkipBatch.value]
+    screeningSkipBatch.value = []
+    try {
+        await request.post('/vocab/batch_mark', {
+            slot_id: userStore.currentSlotId,
+            words: batch,
+            action: 'skip'
+        })
+    } catch (e) {
+        console.error('batch_mark error:', e)
+    }
+}
+
+const screeningSkip = () => {
+    const word = currentScreeningWord.value
+    if (!word) return
+    screeningSkipBatch.value.push(word.word)
+    screeningSkipped.value++
+    screeningIndex.value++
+    if (screeningIndex.value >= screeningWords.value.length) {
+        _flushScreeningBatch().then(() => { screeningDone.value = true })
+    } else if (screeningSkipBatch.value.length >= 10) {
+        _flushScreeningBatch()
+    }
+}
+
+const screeningKeep = () => {
+    screeningIndex.value++
+    if (screeningIndex.value >= screeningWords.value.length) {
+        _flushScreeningBatch().then(() => { screeningDone.value = true })
+    }
+}
+
+// Screening touch handlers
+const handleScreeningTouchStart = (e) => {
+    if (!currentScreeningWord.value || screeningDone.value) return
+    screeningTouchStartX.value = e.touches[0].clientX
+    screeningTouchCurrentX.value = e.touches[0].clientX
+}
+const handleScreeningTouchMove = (e) => {
+    if (screeningTouchStartX.value === null) return
+    screeningTouchCurrentX.value = e.touches[0].clientX
+}
+const handleScreeningTouchEnd = () => {
+    if (screeningTouchStartX.value === null) return
+    const SWIPE_S = 50
+    if (screeningSwipeOffset.value < -SWIPE_S) screeningSkip()
+    else if (screeningSwipeOffset.value > SWIPE_S) screeningKeep()
+    screeningTouchStartX.value = null
+    screeningTouchCurrentX.value = null
+}
+
+// ── Learning Mode ──
+const startLearning = async () => {
+    pageLoading.value = true
+    try {
+        vocabStore.currentIndex = 0
+        await vocabStore.fetchTodayVocab()
+        gardenMode.value = 'learning'
+    } finally {
+        pageLoading.value = false
+    }
+}
+
+const startReviewOnly = () => {
+    startLearning()
+}
+
+const continueLearning = async (count) => {
+    pageLoading.value = true
+    try {
+        await vocabStore.addDailyLimit(count)
+        isRevealed.value = false
+        if (!vocabStore.currentWord) vocabStore.currentIndex = 0
+    } catch (e) {
+        console.error('continueLearning error:', e)
+    } finally {
+        pageLoading.value = false
+    }
+}
+
+// Keep backward compat
+const handleEndlessMode = async () => {
+    await continueLearning(10)
+}
+
+const forceSync = async () => {
+    await vocabStore.fetchTodayVocab()
+    await refreshProgress()
+}
+
 </script>
 
 <style scoped>

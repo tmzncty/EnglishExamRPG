@@ -107,9 +107,27 @@ def ensure_auto_save(conn: sqlite3.Connection):
         )
     """)
     
+    # ── [Stage 31.0] exam_attempts 表 ──────────────────────────────────────
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS exam_attempts (
+            attempt_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            slot_id INTEGER DEFAULT 0,
+            paper_id TEXT NOT NULL,
+            attempt_number INTEGER DEFAULT 1,
+            status TEXT DEFAULT 'in_progress',
+            total_time INTEGER DEFAULT 0,
+            total_score REAL DEFAULT 0,
+            started_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            finished_at TIMESTAMP
+        )
+    """)
+
+    # ── [Stage 31.0] user_answers 表 (带 attempt_id) ─────────────────────
+    # 新表定义 — 允许同一 slot+q_id 有多条记录（不同 attempt）
     conn.execute("""
         CREATE TABLE IF NOT EXISTS user_answers (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
+            attempt_id INTEGER,
             slot_id INTEGER DEFAULT 0,
             q_id TEXT NOT NULL,
             section_type TEXT,
@@ -117,35 +135,125 @@ def ensure_auto_save(conn: sqlite3.Connection):
             score REAL,
             is_correct BOOLEAN,
             ai_feedback TEXT,
-            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-            UNIQUE(slot_id, q_id)
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )
     """)
-    
-    # [Stage 14.1 Fix] 确保 user_answers 表有 slot_id 字段 (Migration)
+
+    # ── [Stage 31.0] user_answers 表重建迁移 ────────────────────────────
+    # 如果旧表还带有 UNIQUE(slot_id, q_id) 约束，必须重建去掉它
     try:
-        # Check if slot_id exists
         cursor = conn.execute("PRAGMA table_info(user_answers)")
         columns = [col["name"] for col in cursor.fetchall()]
-        if "slot_id" not in columns:
-            print("[helpers] Migrating user_answers: Adding slot_id column...")
+
+        needs_rebuild = "attempt_id" not in columns
+        if not needs_rebuild:
+            # 检查是否还残留旧的 UNIQUE(slot_id, q_id) 约束
+            idx_cursor = conn.execute("PRAGMA index_list(user_answers)")
+            for idx in idx_cursor.fetchall():
+                idx_info = conn.execute(f"PRAGMA index_info({idx['name']})").fetchall()
+                col_names = [c["name"] for c in idx_info]
+                if "slot_id" in col_names and "q_id" in col_names and "attempt_id" not in col_names:
+                    needs_rebuild = True
+                    break
+
+        if needs_rebuild:
+            print("[helpers] [Stage 31.0] Rebuilding user_answers table (adding attempt_id, removing old UNIQUE)...")
             try:
-                # SQLite doesn't support ADD COLUMN + UNIQUE constraint easily in one go for existing,
-                # but we just need the column for now.
-                # However, the UNIQUE constraint index might need recreation. 
-                # For simplicity in this hotfix, we add the column.
-                conn.execute("ALTER TABLE user_answers ADD COLUMN slot_id INTEGER DEFAULT 0")
-                
-                # We might need to recreate the index/unique constraint, but SQLite ALTER TABLE is limited.
-                # Let's trust that basic functionality works, or if critical, we recreate table.
-                # Given 'UNIQUE(slot_id, q_id)' is in CREATE statement, it won't be enforcing for old table unless we recreate.
-                # Let's recreate index manually to be safe.
-                conn.execute("CREATE UNIQUE INDEX IF NOT EXISTS idx_user_answers_slot_q ON user_answers(slot_id, q_id)")
+                conn.execute("""
+                    CREATE TABLE IF NOT EXISTS user_answers_new (
+                        id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        attempt_id INTEGER,
+                        slot_id INTEGER DEFAULT 0,
+                        q_id TEXT NOT NULL,
+                        section_type TEXT,
+                        user_answer TEXT,
+                        score REAL,
+                        is_correct BOOLEAN,
+                        ai_feedback TEXT,
+                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    )
+                """)
+
+                # 迁移旧数据 — 动态构建列映射
+                if "attempt_id" in columns:
+                    conn.execute("INSERT OR IGNORE INTO user_answers_new SELECT * FROM user_answers")
+                else:
+                    # 旧表无 attempt_id，填 NULL
+                    old_cols = "id, slot_id, q_id, section_type, user_answer, score, is_correct, ai_feedback, updated_at"
+                    conn.execute(f"""
+                        INSERT OR IGNORE INTO user_answers_new
+                        (id, attempt_id, slot_id, q_id, section_type, user_answer, score, is_correct, ai_feedback, updated_at)
+                        SELECT id, NULL, slot_id, q_id, section_type, user_answer, score, is_correct, ai_feedback, updated_at
+                        FROM user_answers
+                    """)
+
+                conn.execute("DROP TABLE user_answers")
+                conn.execute("ALTER TABLE user_answers_new RENAME TO user_answers")
+                conn.execute("CREATE INDEX IF NOT EXISTS idx_user_answers_attempt_q ON user_answers(attempt_id, q_id)")
                 conn.commit()
+                print("[helpers] [Stage 31.0] user_answers rebuild complete!")
             except Exception as e:
-                print(f"[helpers] Migration failed: {e}")
+                print(f"[helpers] [Stage 31.0] user_answers rebuild failed: {e}")
+                import traceback; traceback.print_exc()
+        else:
+            # 确保索引存在
+            conn.execute("CREATE INDEX IF NOT EXISTS idx_user_answers_attempt_q ON user_answers(attempt_id, q_id)")
+            conn.commit()
     except Exception as e:
-        print(f"[helpers] Schema check failed: {e}")
+        print(f"[helpers] [Stage 31.0] user_answers migration check failed: {e}")
+
+    # ── [Stage 31.0] attempt_question_times 表 ──────────────────────────
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS attempt_question_times (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            attempt_id INTEGER NOT NULL,
+            q_id TEXT NOT NULL,
+            time_spent INTEGER DEFAULT 0,
+            UNIQUE(attempt_id, q_id)
+        )
+    """)
+
+    # ── [Stage 31.0] vocab_sessions 表 ──────────────────────────────────
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS vocab_sessions (
+            session_id INTEGER PRIMARY KEY AUTOINCREMENT,
+            slot_id INTEGER DEFAULT 0,
+            started_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            finished_at TIMESTAMP,
+            total_time INTEGER DEFAULT 0,
+            words_learned INTEGER DEFAULT 0,
+            words_reviewed INTEGER DEFAULT 0
+        )
+    """)
+
+    # ── [Stage 31.0] vocab_session_words 表 ─────────────────────────────
+    conn.execute("""
+        CREATE TABLE IF NOT EXISTS vocab_session_words (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            session_id INTEGER NOT NULL,
+            word TEXT NOT NULL,
+            action TEXT DEFAULT 'learn',
+            time_spent INTEGER DEFAULT 0,
+            result TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+
+    # ── [Stage 31.0] conversations 表迁移: 添加 attempt_id + word_id ────
+    try:
+        cursor = conn.execute("PRAGMA table_info(conversations)")
+        conv_columns = [col["name"] for col in cursor.fetchall()]
+        if conv_columns:  # 表存在才迁移
+            if "attempt_id" not in conv_columns:
+                print("[helpers] [Stage 31.0] Migrating conversations: Adding attempt_id...")
+                conn.execute("ALTER TABLE conversations ADD COLUMN attempt_id INTEGER")
+                conn.commit()
+            if "word_id" not in conv_columns:
+                print("[helpers] [Stage 31.0] Migrating conversations: Adding word_id...")
+                conn.execute("ALTER TABLE conversations ADD COLUMN word_id TEXT")
+                conn.commit()
+    except Exception as e:
+        print(f"[helpers] [Stage 31.0] conversations migration failed: {e}")
 
     # [Stage 17.0] Migrations for daily_new_words_limit
     try:
@@ -251,6 +359,35 @@ def ensure_auto_save(conn: sqlite3.Connection):
 
     except Exception as e:
         print(f"[helpers] Schema check failed for game_saves 21.0 columns: {e}")
+
+    # [Stage 30.0] Migrations for Check-in & Time Engine
+    try:
+        cursor = conn.execute("PRAGMA table_info(game_saves)")
+        columns = [col["name"] for col in cursor.fetchall()]
+
+        if "daily_streak" not in columns:
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN daily_streak INTEGER DEFAULT 0")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for daily_streak: {e}")
+                
+        if "last_goal_met_date" not in columns:
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN last_goal_met_date TEXT DEFAULT ''")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for last_goal_met_date: {e}")
+
+        if "today_focus_time" not in columns:
+            try:
+                conn.execute("ALTER TABLE game_saves ADD COLUMN today_focus_time INTEGER DEFAULT 0")
+                conn.commit()
+            except Exception as e:
+                print(f"[helpers] Migration failed for today_focus_time: {e}")
+
+    except Exception as e:
+        print(f"[helpers] Schema check failed for game_saves 30.0 columns: {e}")
 
     # [Stage 21.0] Migrations for user_vocab_memory Pro-Level SRS Schema
     try:

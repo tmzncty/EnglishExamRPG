@@ -1,6 +1,18 @@
 import { defineStore } from 'pinia'
 import request from '../utils/request'
 
+// [T1] Persistent collapsed state helper
+const STORAGE_KEY = 'mia_collapsed'
+
+function loadCollapsed() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) ?? false }
+    catch { return false }
+}
+
+function saveCollapsed(val) {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(val))
+}
+
 export const useMiaStore = defineStore('mia', {
     state: () => ({
         dialogVisible: true,
@@ -10,9 +22,36 @@ export const useMiaStore = defineStore('mia', {
         conversationId: null,
         conversationList: [],
         showHistoryPanel: false,
+        // [T1] 平板/考试模式下收起 Mia (立绘 + 对话框)
+        miaCollapsed: loadCollapsed(),
+        // [T1] 是否由自动收起触发 (若用户手动展开则不再自动收起)
+        autoCollapsed: false,
     }),
 
     actions: {
+        // [T1] 切换 Mia 立绘+对话框 的收起/展开
+        toggleMiaCollapsed() {
+            this.miaCollapsed = !this.miaCollapsed
+            this.autoCollapsed = false // 手动操作，取消自动标记
+            saveCollapsed(this.miaCollapsed)
+        },
+        // [T1] 自动收起 (仅当未被手动展开)
+        autoCollapseMia() {
+            if (!this.miaCollapsed) {
+                this.miaCollapsed = true
+                this.autoCollapsed = true
+                saveCollapsed(true)
+            }
+        },
+        // [T1] 自动展开 (仅当之前由自动收起触发)
+        autoExpandMia() {
+            if (this.autoCollapsed) {
+                this.miaCollapsed = false
+                this.autoCollapsed = false
+                saveCollapsed(false)
+            }
+        },
+
         async speak(text) {
             this.dialogVisible = true
             this.isTyping = true
@@ -88,21 +127,22 @@ export const useMiaStore = defineStore('mia', {
                 }
 
                 // Prepare Payload
-                // console.log("🚀 [Frontend] Sending request with Conversation ID:", this.conversationId);
+                // 历史窗口：最多保留最近 8 条 (4轮对话)，避免 token 爆炸导致超时
+                // slice(0, -1) 去掉「当前用户消息」（后端从 message 字段单独拿），
+                // 再 slice(-8) 只取最后 8 条，足够上下文又不至于过重
+                const MAX_HISTORY = 8
+                const trimmedHistory = this.history.slice(0, -1).slice(-MAX_HISTORY)
+
                 const payload = {
                     context_type: contextType,
-                    conversation_id: this.conversationId, // Use correct state var name
+                    conversation_id: this.conversationId,
                     context_data: {
                         ...safeContext,
                         q_id: safeContext.q_id || null,
                         attempt_id: attemptId,  // [Stage 31.0]
                         word_id: wordId,        // [Stage 31.0]
                         rpg_mode: safeContext.rpg_mode !== undefined ? safeContext.rpg_mode : true,
-                        // Fix History Fragmentation: Slice off the last user message to avoid duplication 
-                        // (Agent constructs user_prompt separately), AND exclude the ghost bubble we are about to push?
-                        // Actually, at this point, ghost bubble is NOT pushed yet.
-                        // So we slice(0, -1) to remove the User message defined in 'message'.
-                        history: this.history.slice(0, -1)
+                        history: trimmedHistory
                     }
                 }
 

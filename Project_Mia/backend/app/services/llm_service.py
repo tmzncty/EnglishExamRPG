@@ -13,8 +13,26 @@ Date: 2026-02-18
 from typing import Optional, Dict, Any
 import json
 import re
+import os
 import httpx
 from app.core.config import settings
+
+# ── 日志轮转工具 ──
+_LLM_LOG_PATH = "llm_debug.log"
+_LLM_LOG_MAX_SIZE = 5 * 1024 * 1024  # 5 MB
+
+def _log_llm(message: str):
+    """写入 LLM debug 日志，超过 5MB 自动轮转（保留最近一份备份）"""
+    try:
+        if os.path.exists(_LLM_LOG_PATH) and os.path.getsize(_LLM_LOG_PATH) > _LLM_LOG_MAX_SIZE:
+            backup = _LLM_LOG_PATH + ".old"
+            if os.path.exists(backup):
+                os.remove(backup)
+            os.rename(_LLM_LOG_PATH, backup)
+        with open(_LLM_LOG_PATH, "a") as f:
+            f.write(message)
+    except Exception:
+        pass  # 日志写入失败不应影响主流程
 
 
 class LLMService:
@@ -28,10 +46,23 @@ class LLMService:
             from openai import AsyncOpenAI
             self.client = AsyncOpenAI(
                 api_key=settings.OPENAI_API_KEY,
-                base_url=settings.OPENAI_BASE_URL
+                base_url=settings.OPENAI_BASE_URL,
+                timeout=httpx.Timeout(connect=10.0, read=120.0, write=30.0, pool=5.0),
+                max_retries=0,
             )
             self.model = settings.OPENAI_MODEL
             self.api_key = settings.OPENAI_API_KEY # Ensure attribute exists for checks
+        
+        # 初始化 Vision 客户端 (图片批改 — Gemini via coreloop)
+        if settings.VISION_API_KEY:
+            from openai import AsyncOpenAI as VisionAsyncOpenAI
+            self.vision_client = VisionAsyncOpenAI(
+                api_key=settings.VISION_API_KEY,
+                base_url=settings.VISION_BASE_URL,
+                timeout=httpx.Timeout(connect=10.0, read=120.0, write=30.0, pool=5.0),
+                max_retries=0,
+            )
+            self.vision_model = settings.VISION_MODEL
         
         # 初始化 Google 客户端
         elif self.provider == "gemini":
@@ -67,126 +98,159 @@ class LLMService:
         temperature: float = 0.7,
         max_tokens: int = 1000,
         history: list = None,
-        # Added default None for image_base64 just in case, though it's already in sig
     ):
         """Streaming generator that supports conversation history"""
         history = history or []
-        
-        if self.provider == "openai":
-            messages = []
-            if system_prompt:
-                messages.append({"role": "system", "content": system_prompt})
-            
-            # Append history (ensure role is correct)
-            # Append history (ensure role is correct)
-            for msg in history:
-                role = "assistant" if msg["role"] == "assistant" else "user"
-                messages.append({"role": role, "content": msg["content"]})
-            
-            # 直接使用 self.model，绝对不允许任何 overrides!
-            current_model = self.model 
-            
-            if image_base64:
-                 if not image_base64.startswith("data:"):
-                     img_url = f"data:image/jpeg;base64,{image_base64}"
-                 else:
-                     img_url = image_base64
+        try:
+            # ── 图片路由: 有图就走 Vision 模型 ──
+            if image_base64 and hasattr(self, 'vision_client'):
+                messages = []
+                if system_prompt:
+                    messages.append({"role": "system", "content": system_prompt})
+                for msg in history:
+                    role = "assistant" if msg["role"] == "assistant" else "user"
+                    messages.append({"role": role, "content": msg["content"]})
+                img_url = image_base64 if image_base64.startswith("data:") else f"data:image/jpeg;base64,{image_base64}"
+                user_content = [
+                    {"type": "text", "text": prompt},
+                    {"type": "image_url", "image_url": {"url": img_url}}
+                ]
+                messages.append({"role": "user", "content": user_content})
+                stream = await self.vision_client.chat.completions.create(
+                    model=self.vision_model,
+                    messages=messages,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    stream=True,
+                    timeout=120.0,
+                )
+                async for chunk in stream:
+                    text = chunk.choices[0].delta.content or ""
+                    if text:
+                        yield text
+                return
 
-                 user_content = [
-                     {"type": "text", "text": prompt},
-                     {"type": "image_url", "image_url": {"url": img_url}}
-                 ]
-                 messages.append({"role": "user", "content": user_content})
-            else:
-                messages.append({"role": "user", "content": prompt})
+            if self.provider == "openai":
+                messages = []
+                if system_prompt:
+                    messages.append({"role": "system", "content": system_prompt})
+            
+                # Append history (ensure role is correct)
+                # Append history (ensure role is correct)
+                for msg in history:
+                    role = "assistant" if msg["role"] == "assistant" else "user"
+                    messages.append({"role": role, "content": msg["content"]})
+            
+                # 直接使用 self.model，绝对不允许任何 overrides!
+                current_model = self.model 
+            
+                if image_base64:
+                     if not image_base64.startswith("data:"):
+                         img_url = f"data:image/jpeg;base64,{image_base64}"
+                     else:
+                         img_url = image_base64
 
-            stream = await self.client.chat.completions.create(
-                model=current_model,
-                messages=messages,
-                temperature=temperature,
-                max_tokens=max_tokens,
-                stream=True
-            )
-            async for chunk in stream:
-                content = chunk.choices[0].delta.content or ""
-                if content:
-                    yield content
+                     user_content = [
+                         {"type": "text", "text": prompt},
+                         {"type": "image_url", "image_url": {"url": img_url}}
+                     ]
+                     messages.append({"role": "user", "content": user_content})
+                else:
+                    messages.append({"role": "user", "content": prompt})
 
-        elif self.provider == "gemini":
-            # Construct Google-style chat history
-            # Google Generative AI syntax: model.start_chat(history=[...])
-            # But here we use raw HTTP for simplicity or sdk
+                stream = await self.client.chat.completions.create(
+                    model=current_model,
+                    messages=messages,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    stream=True,
+                    timeout=120.0,  # reasoning 模型首 token 可能需要 15~20s，给足 120s
+                )
+                async for chunk in stream:
+                    content = chunk.choices[0].delta.content or ""
+                    if content:
+                        yield content
+
+            elif self.provider == "gemini":
+                # Construct Google-style chat history
+                # Google Generative AI syntax: model.start_chat(history=[...])
+                # But here we use raw HTTP for simplicity or sdk
             
-            # Since we implement via HTTP in _generate_gemini, let's adapt it to stream.
-            # However, standard HTTP streaming for Gemini requires specific endpoint/handling.
-            # To keep it robust without rewriting the whole HTTP client for stream, 
-            # I'll use the google-generativeai SDK if available, OR just fallback to simple logic?
-            # Existing code uses httpx.AsyncClient(). Let's stick to that but use stream=True endpoint?
-            # Gemini API "streamGenerateContent" endpoint: .../models/{model}:streamGenerateContent
+                # Since we implement via HTTP in _generate_gemini, let's adapt it to stream.
+                # However, standard HTTP streaming for Gemini requires specific endpoint/handling.
+                # To keep it robust without rewriting the whole HTTP client for stream, 
+                # I'll use the google-generativeai SDK if available, OR just fallback to simple logic?
+                # Existing code uses httpx.AsyncClient(). Let's stick to that but use stream=True endpoint?
+                # Gemini API "streamGenerateContent" endpoint: .../models/{model}:streamGenerateContent
             
-            url = f"{self.base_url}/{self.model}:streamGenerateContent?alt=sse"
+                url = f"{self.base_url}/{self.model}:streamGenerateContent?alt=sse"
             
-            contents = []
-            if system_prompt:
-                # Gemini system prompt is usually passed in generationConfig or as first 'user'/'model' turn?
-                # Official API supports 'system_instruction' now, or we just prepend to first user message.
-                # Let's verify existing logic: existing just prepended to prompt.
-                # For history support, we need to map internal history to Gemini contents.
-                pass
+                contents = []
+                if system_prompt:
+                    # Gemini system prompt is usually passed in generationConfig or as first 'user'/'model' turn?
+                    # Official API supports 'system_instruction' now, or we just prepend to first user message.
+                    # Let's verify existing logic: existing just prepended to prompt.
+                    # For history support, we need to map internal history to Gemini contents.
+                    pass
             
-            # Map history
-            # Gemini roles: 'user' -> 'user', 'assistant' -> 'model'
-            for msg in history:
-                role = "model" if msg["role"] == "assistant" else "user"
-                contents.append({"role": role, "parts": [{"text": msg["content"]}]})
+                # Map history
+                # Gemini roles: 'user' -> 'user', 'assistant' -> 'model'
+                for msg in history:
+                    role = "model" if msg["role"] == "assistant" else "user"
+                    contents.append({"role": role, "parts": [{"text": msg["content"]}]})
             
-            # Current turn
-            # If system_prompt is handled as prepend:
-            final_prompt = prompt
-            if system_prompt and not history:
-                 final_prompt = f"{system_prompt}\n\n{prompt}"
-            elif system_prompt and history:
-                 # Check previous comments
-                 if contents:
-                     contents[0]["parts"][0]["text"] = f"{system_prompt}\n\n{contents[0]['parts'][0]['text']}"
-                 else:
+                # Current turn
+                # If system_prompt is handled as prepend:
+                final_prompt = prompt
+                if system_prompt and not history:
                      final_prompt = f"{system_prompt}\n\n{prompt}"
+                elif system_prompt and history:
+                     # Check previous comments
+                     if contents:
+                         contents[0]["parts"][0]["text"] = f"{system_prompt}\n\n{contents[0]['parts'][0]['text']}"
+                     else:
+                         final_prompt = f"{system_prompt}\n\n{prompt}"
             
-            user_parts = [{"text": final_prompt}]
-            if image_base64:
-                # Gemini inline data
-                # Remove data prefix if present for Gemini 'inlineData' which expects raw base64
-                raw_b64 = image_base64
-                if "base64," in raw_b64:
-                    raw_b64 = raw_b64.split("base64,")[1]
+                user_parts = [{"text": final_prompt}]
+                if image_base64:
+                    # Gemini inline data
+                    # Remove data prefix if present for Gemini 'inlineData' which expects raw base64
+                    raw_b64 = image_base64
+                    if "base64," in raw_b64:
+                        raw_b64 = raw_b64.split("base64,")[1]
                 
-                user_parts.append({
-                    "inlineData": {
-                        "mimeType": "image/jpeg",
-                        "data": raw_b64
-                    }
-                })
+                    user_parts.append({
+                        "inlineData": {
+                            "mimeType": "image/jpeg",
+                            "data": raw_b64
+                        }
+                    })
 
-            contents.append({"role": "user", "parts": user_parts})
+                contents.append({"role": "user", "parts": user_parts})
 
-            payload = {
-                "contents": contents,
-                "generationConfig": {"temperature": temperature, "maxOutputTokens": max_tokens},
-            }
-            headers = {"Content-Type": "application/json", "x-goog-api-key": self.api_key}
+                payload = {
+                    "contents": contents,
+                    "generationConfig": {"temperature": temperature, "maxOutputTokens": max_tokens},
+                }
+                headers = {"Content-Type": "application/json", "x-goog-api-key": self.api_key}
 
-            async with httpx.AsyncClient() as client:
-                async with client.stream("POST", url, json=payload, headers=headers, timeout=60.0) as resp:
-                    resp.raise_for_status()
-                    async for line in resp.aiter_lines():
-                        if line.startswith("data:"):
-                            try:
-                                data = json.loads(line[5:])
-                                chunk = data["candidates"][0]["content"]["parts"][0]["text"]
-                                if chunk:
-                                    yield chunk
-                            except Exception:
-                                pass
+                async with httpx.AsyncClient() as client:
+                    async with client.stream("POST", url, json=payload, headers=headers, timeout=60.0) as resp:
+                        resp.raise_for_status()
+                        async for line in resp.aiter_lines():
+                            if line.startswith("data:"):
+                                try:
+                                    data = json.loads(line[5:])
+                                    chunk = data["candidates"][0]["content"]["parts"][0]["text"]
+                                    if chunk:
+                                        yield chunk
+                                except Exception:
+                                    pass
+
+        except Exception as e:
+            import traceback
+            _log_llm(f"generate_stream Error: {e}\n{traceback.format_exc()}\n")
+            yield f"\n[Mia 的神经网络暂时短路了，请稍后再试喵~]"
 
     async def generate_block(
         self,
@@ -194,7 +258,7 @@ class LLMService:
         image_base64: Optional[str] = None,
         system_prompt: Optional[str] = None,
         temperature: float = 0.7,
-        max_tokens: int = 1000,
+        max_tokens: int = 2500,  # 批改JSON回复 1000 太小会被截断→解析失败→Mock
     ) -> str:
         """Non-streaming generation for internal logic (more robust)"""
         msgs = []
@@ -211,6 +275,22 @@ class LLMService:
         
         msgs.append({"role": "user", "content": content})
 
+        # ── 图片路由: 有图就走 Vision 模型 ──
+        if image_base64 and hasattr(self, 'vision_client'):
+            try:
+                resp = await self.vision_client.chat.completions.create(
+                    model=self.vision_model,
+                    messages=msgs,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    stream=False
+                )
+                return resp.choices[0].message.content or ""
+            except Exception as e:
+                import traceback
+                _log_llm(f"generate_block Vision Error: {e}\n{traceback.format_exc()}\n")
+                return ""
+
         if self.provider == "openai":
             try:
                 resp = await self.client.chat.completions.create(
@@ -222,9 +302,9 @@ class LLMService:
                 )
                 return resp.choices[0].message.content or ""
             except Exception as e:
-                with open("llm_debug.log", "a") as f:
-                    f.write(f"generate_block Error: {e}\n")
-                raise e
+                import traceback
+                _log_llm(f"generate_block Error: {e}\n{traceback.format_exc()}\n")
+                return ""  # 优雅降级：返回空字符串而非崩溃
         else:
             # Fallback to stream if not openai (Gemini implementation in generate_stream)
             return await self.generate(prompt, image_base64, system_prompt, temperature, max_tokens)
@@ -265,8 +345,7 @@ class LLMService:
                     temperature=0.3,
                     max_tokens=1000,
                 )
-                with open("llm_debug.log", "a") as f:
-                    f.write(f"Attempt {attempt} RAW RESPONSE:\n{raw}\n" + "-"*20 + "\n")
+                _log_llm(f"Attempt {attempt} RAW RESPONSE:\n{raw}\n" + "-"*20 + "\n")
                 parsed = self._extract_json(raw)
                 if parsed and "score" in parsed:
                     return parsed
@@ -275,10 +354,7 @@ class LLMService:
                 print(f"\n[🔥 LLM Grading Error] Attempt {attempt} Failed: {e}")
                 print(traceback.format_exc())
                 
-                with open("llm_debug.log", "a") as f:
-                    f.write(f"Attempt {attempt} failed: {e}\n")
-                    f.write(traceback.format_exc())
-                    f.write("\n")
+                _log_llm(f"Attempt {attempt} failed: {e}\n{traceback.format_exc()}\n")
                 if attempt == 0:
                     continue  # 重试一次
                 # 第二次仍失败 → fallback

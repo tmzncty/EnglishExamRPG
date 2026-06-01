@@ -250,11 +250,15 @@ export const useExamStore = defineStore('exam', {
             this._syncTimeNow()
         },
 
-        // ── 心跳引擎 (Silent — 不触发 Loading) ──────────────────
+        // ── 心跳引擎 (Silent — 不触发 Loading) ── [T5] 不可见时静默跳过
         _startHeartbeat() {
             if (this._heartbeatInterval) return
             this._heartbeatInterval = setInterval(() => {
-                this._syncTimeNow()
+                // [T5] 页面不可见或失去焦点时跳过，避免无效网络请求
+                const isReallyInactive = document.hidden || (!document.hasFocus() && document.activeElement?.tagName !== 'IFRAME')
+                if (!isReallyInactive) {
+                    this._syncTimeNow()
+                }
             }, 10000) // 每 10 秒
         },
 

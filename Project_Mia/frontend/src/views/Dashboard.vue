@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-[#f5f5f0] text-gray-900 p-8 overflow-y-auto custom-scrollbar">
+  <div class="min-h-screen bg-[#f5f5f0] text-gray-900 p-4 sm:p-6 lg:p-8 pb-[env(safe-area-inset-bottom,2rem)] overflow-y-auto custom-scrollbar">
 
     <!-- Header -->
     <header class="mb-10 flex items-end justify-between">
@@ -13,14 +13,20 @@
       </div>
     </header>
 
-    <!-- Loading / Empty -->
-    <div v-if="!examStore.examList.length" class="text-center text-gray-400 py-24">
-      <div class="text-4xl mb-3">📄</div>
+    <!-- Loading -->
+    <div v-if="examStore.loading" class="text-center text-gray-400 py-24">
+      <div class="text-4xl mb-3">⏳</div>
       <p>正在加载试卷列表…</p>
     </div>
 
+    <!-- Empty / Error -->
+    <div v-else-if="!examStore.examList.length" class="text-center text-gray-400 py-24">
+      <div class="text-4xl mb-3">📄</div>
+      <p>列表为空或加载失败。请检查后端运行状态。</p>
+    </div>
+
     <!-- Paper Grid -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       <div
         v-for="paper in examStore.examList"
         :key="paper.paper_id"
@@ -43,13 +49,13 @@
           {{ paper.title }}
         </h3>
 
-        <!-- Progress Bar & Actions -->
+        <!-- Progress Bar & Actions — [T4] 接入真实进度数据 -->
         <div class="relative z-10 mt-auto pt-3">
           <div class="h-1.5 bg-gray-100 rounded-full overflow-hidden mb-2">
-            <div class="h-full bg-mia-pink rounded-full transition-all" style="width: 0%"></div>
+            <div class="h-full bg-mia-pink rounded-full transition-all duration-700" :style="{ width: (paperProgress[paper.paper_id] || 0) + '%' }"></div>
           </div>
           <div class="flex justify-between items-center text-xs text-gray-400 mt-1">
-            <span>0% 完成</span>
+            <span>{{ paperProgress[paper.paper_id] || 0 }}% 完成</span>
             <div class="flex items-center gap-2">
                 <button 
                   @click.stop="goToReport(paper.paper_id)" 
@@ -68,18 +74,46 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
+import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useExamStore } from '../stores/useExamStore'
 import { useUserStore } from '../stores/useUserStore'
+import request from '../utils/request'
 
 const router    = useRouter()
 const examStore = useExamStore()
 const userStore = useUserStore()
 
-onMounted(() => {
-  examStore.fetchExams()
+// [T4] Paper progress map: { paperId: percentage }
+const paperProgress = ref({})
+
+onMounted(async () => {
+  await examStore.fetchExams()
+  // [T4] Fetch progress for all papers
+  await fetchAllProgress()
 })
+
+// [T4] Batch fetch progress for all papers
+const fetchAllProgress = async () => {
+  const papers = examStore.examList
+  if (!papers.length) return
+  try {
+    const results = await Promise.allSettled(
+      papers.map(p =>
+        request.get(`/exam/${p.paper_id}/progress`, {
+          params: { slot_id: userStore.currentSlotId }
+        })
+      )
+    )
+    results.forEach((r, i) => {
+      if (r.status === 'fulfilled' && r.value) {
+        paperProgress.value[papers[i].paper_id] = r.value.percentage || 0
+      }
+    })
+  } catch (e) {
+    console.error('Progress fetch error:', e)
+  }
+}
 
 const goToPaper = (id) => {
   router.push(`/exam/${id}`)

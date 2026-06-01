@@ -1,5 +1,21 @@
 @import "tailwindcss";
+@config "../tailwind.config.js";
 
+/* ── Tailwind v4 自定义断点：高分辨率平板 ── */
+@theme {
+  --breakpoint-tablet: 2000px;
+  --breakpoint-tablet-landscape: 2800px;
+}
+
+/* ── 根字体响应式缩放 ──
+   桌面 (~1920px): 1rem ≈ 15.4px
+   平板 (3200px): 1rem = 20px (clamped)
+   配合 Tailwind 的 text-xs/text-sm/text-base 等 rem-based 类自动缩放 */
+html {
+  font-size: clamp(14px, 0.8vw, 20px);
+}
+
+/* ── WenKai 字体 ── */
 @font-face {
   font-family: 'WenKai';
   src: url('./assets/fonts/LXGWWenKaiMono-Medium.ttf') format('truetype');
@@ -8,20 +24,29 @@
   font-display: swap;
 }
 
-/* ── 全局基础 (Paper Mode) — body 和 html 都要设字体 ── */
+/* ── 全局基础 (Paper Mode) ── */
 html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  min-height: 100dvh;
   background-color: #f5f5f0;
   color: #1a1a1a;
-  overflow: hidden;
-  /* WenKai 必须在 body 上才会覆盖 Tailwind preflight */
+  overflow-x: hidden;
+  overflow-y: auto;
   font-family: "WenKai", "LXGW WenKai Mono", ui-sans-serif, system-ui, sans-serif;
 }
 
-/* 自定义滚动条 */
+/* ── 平板高分屏：硬编码 px 小字缩放 ──
+   将 text-[8px]~text-[11px] 的任意值类映射到 rem，使其随根字体放大 */
+@media (min-width: 2000px) {
+  .text-\[8px\]  { font-size: 0.5rem !important; }
+  .text-\[9px\]  { font-size: 0.563rem !important; }
+  .text-\[10px\] { font-size: 0.625rem !important; }
+  .text-\[11px\] { font-size: 0.688rem !important; }
+}
+
+/* ── 自定义滚动条 ── */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -39,8 +64,43 @@ body {
   background: #ff69b4;
 }
 
-/* 文字选中 */
+/* ── 文字选中 ── */
 ::selection {
   background-color: #ffb6c1;
   color: #1a1a1a;
+}
+
+/* ══════════════════════════════════════════
+   Tablet / Touch Adaptations (MIA Phase 16.1)
+   ══════════════════════════════════════════ */
+
+/* Apple HIG: minimum touch target 44×44px */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Suppress browser gestures on interactive / draggable regions */
+.touch-none-important {
+  touch-action: none !important;
+}
+
+
+/* ── [Adaptive Viewport] 确保内容不被浏览器工具栏裁掉 ── */
+/* 已在全局基础块中设置 min-height:100dvh + overflow-y:auto，此处仅保留移动端安全区 */
+
+/* 页面底部安全间距（用于底部固定导航） */
+.page-bottom-safe {
+  padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px));
+}
+
+/* 平板浏览器地址栏高度补偿 */
+@media (min-width: 2000px) {
+  body {
+    /* 平板浏览器 chrome 占用约 80~120px，提前预留 */
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
 }

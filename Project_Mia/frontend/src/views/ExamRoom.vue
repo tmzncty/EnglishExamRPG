@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen w-full flex flex-col bg-[#f5f5f0] text-gray-900">
+  <div class="min-h-screen w-full flex flex-col bg-[#f5f5f0] text-gray-900">
     <!-- 1. Toolbar -->
-    <div class="h-12 border-b border-gray-200 bg-white flex items-center px-4 gap-6 shrink-0 z-20 shadow-sm">
+    <div class="border-b border-gray-200 bg-white flex items-center px-4 gap-3 lg:gap-6 shrink-0 z-20 shadow-sm flex-wrap py-2">
       <button @click="$router.push('/')" class="text-gray-400 hover:text-gray-800 transition-colors">
           ← Home
       </button>
@@ -65,7 +65,7 @@
         <span class="text-xs">A-</span>
         <input 
           type="range" 
-          min="14" max="24" 
+          min="0.9" max="1.8" step="0.05"
           v-model="fontSize"
           class="w-24 h-1 bg-gray-600 rounded-lg appearance-none cursor-pointer accent-mia-pink"
         >
@@ -74,40 +74,51 @@
 
       <div class="w-px h-6 bg-gray-700 mx-2"></div>
 
-      <!-- Pen Controls -->
-      <div class="flex items-center gap-2 bg-gray-800 p-1 rounded-full border border-gray-700">
+      <!-- Mode Switch: Read / Draw / Erase -->
+      <div class="flex items-center gap-1 bg-gray-800 p-1 rounded-full border border-gray-700">
         <button 
           @click="setMode('read')"
-          :class="['p-1.5 rounded-full transition-all', mode === 'read' ? 'bg-mia-pink text-black' : 'hover:bg-gray-700']"
+          :class="['p-1.5 rounded-full transition-all text-sm', mode === 'read' ? 'bg-mia-pink text-black' : 'hover:bg-gray-700 text-gray-300']"
           title="阅读模式"
-        >
-          👆
-        </button>
+        >👆</button>
         <button 
           @click="setMode('draw')"
-          :class="['p-1.5 rounded-full transition-all', mode === 'draw' ? 'bg-mia-pink text-black' : 'hover:bg-gray-700']"
-          title="标注模式"
-        >
-          ✏️
-        </button>
+          :class="['p-1.5 rounded-full transition-all text-sm', mode === 'draw' ? 'bg-mia-pink text-black' : 'hover:bg-gray-700 text-gray-300']"
+          title="画笔标注"
+        >✏️</button>
+        <button 
+          @click="setMode('erase')"
+          :class="['p-1.5 rounded-full transition-all text-sm', mode === 'erase' ? 'bg-mia-pink text-black' : 'hover:bg-gray-700 text-gray-300']"
+          title="橡皮擦"
+        >🧹</button>
       </div>
 
-      <!-- Colors -->
-      <div v-show="mode === 'draw'" class="flex items-center gap-2 animate-fade-in-left">
-        <button @click="penColor = '#ff3b30'" class="w-5 h-5 rounded-full bg-red-500 border border-white" :class="{'ring-2 ring-mia-pink': penColor === '#ff3b30'}"></button>
-        <button @click="penColor = '#ffcc00'" class="w-5 h-5 rounded-full bg-yellow-400 border border-white" :class="{'ring-2 ring-mia-pink': penColor === '#ffcc00'}"></button>
-        <button @click="penColor = '#34c759'" class="w-5 h-5 rounded-full bg-green-500 border border-white" :class="{'ring-2 ring-mia-pink': penColor === '#34c759'}"></button>
+      <!-- Colors (draw/erase mode) -->
+      <div v-show="mode === 'draw' || mode === 'erase'" class="flex items-center gap-2 animate-fade-in-left">
+        <button @click="penColor = '#ff3b30'" class="w-6 h-6 lg:w-7 lg:h-7 rounded-full bg-red-500 border border-white touch-target" :class="{'ring-2 ring-mia-pink': penColor === '#ff3b30'}"></button>
+        <button @click="penColor = '#ffcc00'" class="w-6 h-6 lg:w-7 lg:h-7 rounded-full bg-yellow-400 border border-white touch-target" :class="{'ring-2 ring-mia-pink': penColor === '#ffcc00'}"></button>
+        <button @click="penColor = '#34c759'" class="w-6 h-6 lg:w-7 lg:h-7 rounded-full bg-green-500 border border-white touch-target" :class="{'ring-2 ring-mia-pink': penColor === '#34c759'}"></button>
+        <div class="w-px h-5 bg-gray-600 mx-1"></div>
+        <!-- Pen width -->
+        <button @click="penWidth = Math.max(1, penWidth - 1)" class="w-6 h-6 flex items-center justify-center text-xs text-gray-300 hover:text-white rounded-full hover:bg-gray-700 transition-colors" title="细笔">−</button>
+        <span class="text-[10px] text-gray-400 w-4 text-center">{{ penWidth }}</span>
+        <button @click="penWidth = Math.min(8, penWidth + 1)" class="w-6 h-6 flex items-center justify-center text-xs text-gray-300 hover:text-white rounded-full hover:bg-gray-700 transition-colors" title="粗笔">+</button>
       </div>
       
       <div class="flex-1"></div>
-      <button @click="clearInk" class="text-xs hover:text-red-400">Clear Ink</button>
+
+      <!-- Undo + Clear -->
+      <div v-show="mode === 'draw' || mode === 'erase'" class="flex items-center gap-1">
+        <button @click="undoInk" class="px-2 py-1 text-[10px] text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" title="撤销 (Ctrl+Z)">↩ 撤销</button>
+        <button @click="clearInk" class="px-2 py-1 text-[10px] text-gray-400 hover:text-red-400 hover:bg-gray-700 rounded transition-colors" title="清除全部">Clear</button>
+      </div>
     </div>
 
     <!-- 2. Main Layout (Sidebar + Content) -->
     <div class="flex-1 flex overflow-hidden relative">
       
       <!-- Sidebar Navigation -->
-      <div class="w-48 bg-white border-r border-gray-200 flex flex-col overflow-y-auto shrink-0 custom-scrollbar">
+      <div class="w-48 tablet:w-[clamp(192px,8vw,280px)] bg-white border-r border-gray-200 flex flex-col overflow-y-auto shrink-0 custom-scrollbar">
           <div v-if="loading" class="p-4 text-center text-gray-400 text-sm">Loading...</div>
           <template v-else>
               <div v-for="(item, idx) in navItems" :key="idx">
@@ -122,16 +133,19 @@
           </template>
       </div>
 
-      <!-- Content Split Screen -->
+      <!-- Content Split Screen — [T3] 可拖拽分隔线 -->
       <div class="flex-1 flex overflow-hidden" v-if="currentData">
           <!-- Left: Passage Panel -->
-          <div class="flex-1 border-r border-gray-200 bg-white relative overflow-auto custom-scrollbar">
-             <div class="relative min-h-full">
+          <div
+            class="overflow-y-auto overflow-x-hidden custom-scrollbar pb-16 tablet:pb-12 bg-white relative"
+            :style="{ width: (1 - splitRatio) * 100 + '%' }"
+          >
+             <div class="relative">
                 <!-- Article Text -->
                 <div 
-                  class="p-8 font-wenkai leading-loose text-justify text-gray-900 selection:bg-mia-pink selection:text-black transition-all"
+                  class="p-6 lg:p-8 tablet:p-10 font-wenkai leading-loose text-justify text-gray-900 selection:bg-mia-pink selection:text-black transition-all"
                   :class="{ 'select-none': mode === 'draw' }"
-                  :style="{ fontSize: fontSize + 'px' }"
+                  :style="{ fontSize: fontSize + 'rem' }"
                 >
                   <h2 class="text-xl font-bold mb-6 text-mia-pink">{{ currentData.label }}</h2>
                   
@@ -175,16 +189,32 @@
                   v-model:data="canvasData"
                   :mode="mode"
                   :color="penColor"
-                  :width="3"
+                  :width="penWidth"
                   :initial-data="initialAnnotation"
                 />
              </div>
           </div>
 
-          <!-- Right: Questions Panel -->
-          <div class="w-[450px] flex flex-col bg-[#fafafa] z-10 shadow-[-4px_0_12px_rgba(0,0,0,0.06)] border-l border-gray-200">
+          <!-- [T3] 可拖拽分隔线 -->
+          <div
+            ref="dividerRef"
+            class="w-1.5 bg-gray-200 hover:bg-rose-300 cursor-col-resize shrink-0 transition-colors relative group"
+            @mousedown="startDrag"
+            @touchstart.prevent="startDragTouch"
+          >
+            <div class="absolute inset-y-0 -left-1 -right-1"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-5 h-10 rounded-full bg-white border border-gray-300 shadow-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+              <span class="text-gray-400 text-xs">⋮</span>
+            </div>
+          </div>
+
+          <!-- Right: Questions Panel — [T3] 动态宽度 -->
+          <div
+            class="flex flex-col bg-[#fafafa] z-10 shadow-[-4px_0_12px_rgba(0,0,0,0.06)] border-l border-gray-200"
+            :style="{ width: splitRatio * 100 + '%', minWidth: '280px' }"
+          >
              <div class="p-4 border-b border-gray-200 font-semibold text-gray-600 text-sm tracking-wide">习题</div>
-             <div class="flex-1 overflow-auto p-4 pb-48 custom-scrollbar bg-[#fafafa]">
+             <div class="flex-1 overflow-y-auto overflow-x-hidden p-4 pb-32 tablet:pb-16 custom-scrollbar bg-[#fafafa]">
                  
                  <!-- 客观题：完形 / 阅读 -->
                  <template v-if="currentData.questions && currentData.questions.length > 0
@@ -249,6 +279,7 @@
 <script setup>
 import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import { useRoute } from 'vue-router'
+import { useWindowSize } from '@vueuse/core'
 import { useExamStore } from '../stores/useExamStore'
 import { useMiaStore } from '../stores/useMiaStore'
 import { useUserStore } from '../stores/useUserStore'
@@ -294,7 +325,16 @@ const resetPaper = async () => {
 }
 
 // State
-const fontSize = ref(18)
+// [T3] 平板检测
+const { width: winWidth } = useWindowSize()
+const isTablet = computed(() => winWidth.value >= 2000)
+
+// [T3] 可拖拽分栏比例 (right panel ratio, default 0.35 desktop / 0.40 tablet)
+const splitRatio = ref(isTablet.value ? 0.40 : 0.35)
+const dividerRef = ref(null)
+const isDragging = ref(false)
+
+const fontSize = ref(isTablet.value ? 1.25 : 1.1)
 const mode = ref('read')
 const penColor = ref('#ff3b30')
 const canvasData = ref('')
@@ -449,8 +489,62 @@ watch(canvasData, (val) => {
     }
 })
 
+// [T3] 可拖拽分隔线 handlers
+let _dragContainer = null
+
+const startDrag = (e) => {
+  e.preventDefault()
+  isDragging.value = true
+  _dragContainer = dividerRef.value?.parentElement
+  document.addEventListener('mousemove', onDrag)
+  document.addEventListener('mouseup', stopDrag)
+}
+const startDragTouch = (e) => {
+  e.preventDefault()
+  isDragging.value = true
+  _dragContainer = dividerRef.value?.parentElement
+  document.addEventListener('touchmove', onDragTouch)
+  document.addEventListener('touchend', stopDragTouch)
+}
+const onDrag = (e) => {
+  if (!isDragging.value || !_dragContainer) return
+  const rect = _dragContainer.getBoundingClientRect()
+  const ratio = 1 - (e.clientX - rect.left) / rect.width
+  splitRatio.value = Math.max(0.2, Math.min(0.6, ratio))
+}
+const onDragTouch = (e) => {
+  if (!isDragging.value || !_dragContainer) return
+  const rect = _dragContainer.getBoundingClientRect()
+  const ratio = 1 - (e.touches[0].clientX - rect.left) / rect.width
+  splitRatio.value = Math.max(0.2, Math.min(0.6, ratio))
+}
+const stopDrag = () => {
+  isDragging.value = false
+  document.removeEventListener('mousemove', onDrag)
+  document.removeEventListener('mouseup', stopDrag)
+}
+const stopDragTouch = () => {
+  isDragging.value = false
+  document.removeEventListener('touchmove', onDragTouch)
+  document.removeEventListener('touchend', stopDragTouch)
+}
+
+// [T3] Cleanup drag listeners on unmount
+onBeforeUnmount(() => {
+  document.removeEventListener('mousemove', onDrag)
+  document.removeEventListener('mouseup', stopDrag)
+  document.removeEventListener('touchmove', onDragTouch)
+  document.removeEventListener('touchend', stopDragTouch)
+})
+
 // Helpers
 const setMode = (m) => mode.value = m
+const penWidth = ref(2)
+
+const undoInk = () => {
+  inkCanvasRef.value?.undo()
+}
+
 const clearInk = () => {
     if(confirm('Clear current notes?')) inkCanvasRef.value?.clear()
 }
