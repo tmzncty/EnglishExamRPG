@@ -1,5 +1,8 @@
 # Project Mia: 赛博猫娘 AI 考研陪练 🐱🎮✨
 
+> [!IMPORTANT]
+> **项目状态：功能冻结 / 使用优先。** Project Mia 当前作为已经完成的个人学习工具保留，默认不再主动扩展功能、不再根据“还能加什么”继续开发，也不因为存在旧 TODO 或新想法自动开启新阶段。只有在真实学习使用中出现 bug、兼容性问题、数据损坏风险、安全问题或明确影响学习的摩擦时，才进行有边界的修复。原则是：**先使用，遇到实际问题再修；不要用继续开发学习软件替代学习本身。**
+
 > **v3.3 — The SRS Debt Collector Update**
 >
 > *"Review what you owe, learn only what you can afford."* — Mia
