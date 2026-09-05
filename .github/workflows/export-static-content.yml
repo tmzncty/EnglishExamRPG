@@ -1,0 +1,50 @@
+name: Export static content to text
+
+on:
+  push:
+    paths:
+      - "Project_Mia/backend/data/static_content.db"
+      - "Project_Mia/backend/scripts/export_static_content_text.py"
+      - ".github/workflows/export-static-content.yml"
+  pull_request:
+    paths:
+      - "Project_Mia/backend/data/static_content.db"
+      - "Project_Mia/backend/scripts/export_static_content_text.py"
+      - ".github/workflows/export-static-content.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Export SQLite content
+        run: python Project_Mia/backend/scripts/export_static_content_text.py
+
+      - name: Commit generated text projection
+        shell: bash
+        run: |
+          if git diff --quiet -- Project_Mia/backend/data_export; then
+            echo "Generated export is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Project_Mia/backend/data_export
+          git commit -m "Regenerate static content text export"
+          TARGET_BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+          git push origin "HEAD:${TARGET_BRANCH}"
