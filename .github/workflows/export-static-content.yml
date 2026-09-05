@@ -38,7 +38,7 @@ jobs:
       - name: Commit generated text projection
         shell: bash
         run: |
-          if git diff --quiet -- Project_Mia/backend/data_export; then
+          if [ -z "$(git status --porcelain -- Project_Mia/backend/data_export)" ]; then
             echo "Generated export is already current."
             exit 0
           fi
