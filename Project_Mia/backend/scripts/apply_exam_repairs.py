@@ -32,6 +32,23 @@ def encode_field(field: str, value: Any) -> Any:
         return json.dumps(value, ensure_ascii=False, sort_keys=True)
     return value
 
+def decode_jsonish(value: Any) -> Any:
+    """Decode legacy JSON fields that may have been serialized more than once."""
+    out = value
+    for _ in range(3):
+        if not isinstance(out, str):
+            break
+        text = out.strip()
+        if not text:
+            return None
+        try:
+            out = json.loads(text)
+        except json.JSONDecodeError:
+            break
+    return out
+
+
+
 
 def update_question(conn: sqlite3.Connection, op: dict[str, Any], valid_columns: set[str]) -> bool:
     q_id = op["q_id"]
@@ -105,14 +122,16 @@ def normalize_legacy(conn: sqlite3.Connection, config: dict[str, Any], valid_col
         h_years = set(config.get("reading_b_h_years", []))
         rows = conn.execute(
             """
-            SELECT q_id, paper_id
+            SELECT q_id, paper_id, options_json
             FROM questions
             WHERE paper_id GLOB '[0-9][0-9][0-9][0-9]-eng1'
               AND section_type = 'reading_b'
-              AND (options_json IS NULL OR trim(options_json) = '')
             """
         ).fetchall()
         for row in rows:
+            decoded = decode_jsonish(row["options_json"])
+            if isinstance(decoded, dict) and decoded:
+                continue
             letters = "ABCDEFGH" if row["paper_id"] in h_years else "ABCDEFG"
             options = json.dumps({c: c for c in letters}, ensure_ascii=False, sort_keys=True)
             conn.execute("UPDATE questions SET options_json = ? WHERE q_id = ?", (options, row["q_id"]))
@@ -175,13 +194,9 @@ def validate(conn: sqlite3.Connection) -> None:
                 if not raw:
                     errors.append(f"{r['q_id']}: missing objective options")
                     continue
-                try:
-                    opts = json.loads(raw)
-                except json.JSONDecodeError:
-                    errors.append(f"{r['q_id']}: malformed options_json")
-                    continue
+                opts = decode_jsonish(raw)
                 if not isinstance(opts, dict) or not opts:
-                    errors.append(f"{r['q_id']}: missing objective options after JSON parse")
+                    errors.append(f"{r['q_id']}: missing/malformed objective options after JSON decode")
                     continue
                 if r["correct_answer"] not in opts:
                     errors.append(
