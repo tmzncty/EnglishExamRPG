@@ -22,13 +22,14 @@ The SQLite database remains the source of truth. This directory exists so humans
 | 2023 | `2023-eng1` (English I) | 53 | 10 |
 | 2024 | `2024-eng1` (English I) | 52 | 9 |
 | 2025 | `2025-eng1` (English I) | 52 | 9 |
+| 2026 | `2026-eng1` (English I) | 52 | 9 |
 | 2026 | `test_paper_2026` (Test) | 3 | 3 |
 
 ## Export summary
 
-- papers: 17
-- questions: 839
-- markdown groups: 148
+- papers: 18
+- questions: 891
+- markdown groups: 157
 - dictionary entries: 6131
 - story rows: 0
 
