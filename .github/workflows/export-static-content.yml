@@ -4,11 +4,15 @@ on:
   push:
     paths:
       - "Project_Mia/backend/data/static_content.db"
+      - "Project_Mia/backend/data_import/**"
+      - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/export_static_content_text.py"
       - ".github/workflows/export-static-content.yml"
   pull_request:
     paths:
       - "Project_Mia/backend/data/static_content.db"
+      - "Project_Mia/backend/data_import/**"
+      - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/export_static_content_text.py"
       - ".github/workflows/export-static-content.yml"
   workflow_dispatch:
@@ -32,19 +36,32 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Import curated exam bundles
+        shell: bash
+        run: |
+          shopt -s nullglob
+          bundles=(Project_Mia/backend/data_import/*.json)
+          if (( ${#bundles[@]} == 0 )); then
+            echo "No curated exam bundles found."
+          else
+            for bundle in "${bundles[@]}"; do
+              python Project_Mia/backend/scripts/import_exam_bundle.py "${bundle}"
+            done
+          fi
+
       - name: Export SQLite content
         run: python Project_Mia/backend/scripts/export_static_content_text.py
 
-      - name: Commit generated text projection
+      - name: Commit database and generated text projection
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- Project_Mia/backend/data_export)" ]; then
-            echo "Generated export is already current."
+          if [ -z "$(git status --porcelain -- Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export)" ]; then
+            echo "Database and generated export are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Project_Mia/backend/data_export
-          git commit -m "Regenerate static content text export"
+          git add Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export
+          git commit -m "Import curated exams and regenerate static export"
           TARGET_BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
           git push origin "HEAD:${TARGET_BRANCH}"
