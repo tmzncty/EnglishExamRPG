@@ -18,6 +18,33 @@ from app.services.game_mechanics import game_mechanics
 
 router = APIRouter()
 
+def _question_tags(value: Any) -> List[str]:
+    """Normalize JSON/list question tags from SQLite/SQLAlchemy."""
+    if not value:
+        return []
+    if isinstance(value, list):
+        return [str(x) for x in value]
+    if isinstance(value, str):
+        try:
+            parsed = json.loads(value)
+            if isinstance(parsed, list):
+                return [str(x) for x in parsed]
+        except json.JSONDecodeError:
+            return [value]
+    return []
+
+def _accepted_objective_answers(q: Question) -> set[str]:
+    """Primary answer plus reviewed alternates recorded as accepted-answer:X tags."""
+    answers: set[str] = set()
+    if q.correct_answer:
+        answers.add(str(q.correct_answer))
+    for tag in _question_tags(q.tags):
+        if tag.startswith("accepted-answer:"):
+            alt = tag.split(":", 1)[1].strip()
+            if alt:
+                answers.add(alt)
+    return answers
+
 
 @router.get("/exams", response_model=List[Dict[str, Any]])
 def get_exams(db: Session = Depends(get_static_db)):
@@ -351,6 +378,7 @@ def get_exam_detail(paper_id: str, db: Session = Depends(get_static_db)):
         if raw_options is None and q.section_type == "reading_b":
             raw_options = READING_B_DEFAULT_OPTIONS
 
+        q_tags = _question_tags(q.tags)
         q_data = {
             "q_id": q.q_id,
             "question_number": q.question_number,
@@ -358,6 +386,7 @@ def get_exam_detail(paper_id: str, db: Session = Depends(get_static_db)):
             "options": raw_options,
             "q_type": q.q_type,
             "score": q.score,
+            "tags": q_tags,
         }
 
         st = q.section_type
@@ -372,8 +401,19 @@ def get_exam_detail(paper_id: str, db: Session = Depends(get_static_db)):
             if st not in grouped_reading:
                 grouped_reading[st] = {}
             if gn not in grouped_reading[st]:
-                grouped_reading[st][gn] = {"group_name": gn, "passage": q.passage_text, "questions": []}
+                grouped_reading[st][gn] = {
+                    "group_name": gn,
+                    "passage": q.passage_text,
+                    "questions": [],
+                    "integrity_warning": None,
+                }
             grouped_reading[st][gn]["questions"].append(q_data)
+            if "quarantine:verbatim-practice" in q_tags:
+                grouped_reading[st][gn]["integrity_warning"] = (
+                    "题库完整性警告：现有仓库中的该篇原始正文不完整。"
+                    "题干/答案已按已核资料修复，但暂不建议把本篇用于逐字真题训练或正式判分；"
+                    "待取得自有原始 PDF/DOCX 后再恢复完整正文。"
+                )
 
         elif st == "translation":
             if not sections["translation"]:
@@ -440,8 +480,11 @@ def submit_objective(data: Dict[str, Any], db: Session = Depends(get_static_db))
         print(f"[DEBUG] Question not found: {q_id}")
         return {"correct": False, "correct_answer": None, "hp_change": 0, "hp": 100}
 
-    is_correct  = (user_ans == q.correct_answer)
+    accepted_answers = _accepted_objective_answers(q)
+    user_answer_text = str(user_ans) if user_ans is not None else ""
+    is_correct = user_answer_text in accepted_answers
     section_type = q.section_type or "reading_a"
+    display_correct_answer = user_answer_text if is_correct else q.correct_answer
 
     # ── 计算题型伤害 (1:1 等价扣血) ──────────────────────────────────────────
     if is_correct:
@@ -531,7 +574,8 @@ def submit_objective(data: Dict[str, Any], db: Session = Depends(get_static_db))
 
     return {
         "correct":        is_correct,
-        "correct_answer": q.correct_answer,
+        "correct_answer": display_correct_answer,
+        "accepted_answers": sorted(accepted_answers),
         "hp_change":      hp_change,
         "hp":             new_hp,
         "max_hp":         max_hp,
