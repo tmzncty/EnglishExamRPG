@@ -6,6 +6,7 @@ on:
       - "Project_Mia/backend/data/static_content.db"
       - "Project_Mia/backend/data_import/**"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
+      - "Project_Mia/backend/scripts/apply_exam_repairs.py"
       - "Project_Mia/backend/scripts/export_static_content_text.py"
       - ".github/workflows/export-static-content.yml"
   pull_request:
@@ -13,6 +14,7 @@ on:
       - "Project_Mia/backend/data/static_content.db"
       - "Project_Mia/backend/data_import/**"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
+      - "Project_Mia/backend/scripts/apply_exam_repairs.py"
       - "Project_Mia/backend/scripts/export_static_content_text.py"
       - ".github/workflows/export-static-content.yml"
   workflow_dispatch:
@@ -48,6 +50,26 @@ jobs:
               python Project_Mia/backend/scripts/import_exam_bundle.py "${bundle}"
             done
           fi
+
+      - name: Apply reviewed integrity repairs
+        shell: bash
+        run: |
+          shopt -s nullglob
+          repairs=(Project_Mia/backend/data_import/repairs/*.json)
+          if (( ${#repairs[@]} == 0 )); then
+            echo "No reviewed repair files found."
+          else
+            for repair in "${repairs[@]}"; do
+              python Project_Mia/backend/scripts/apply_exam_repairs.py "${repair}"
+            done
+          fi
+
+      - name: Compile backend integrity code
+        run: |
+          python -m py_compile Project_Mia/backend/scripts/import_exam_bundle.py
+          python -m py_compile Project_Mia/backend/scripts/apply_exam_repairs.py
+          python -m py_compile Project_Mia/backend/scripts/export_static_content_text.py
+          python -m py_compile Project_Mia/backend/app/api/exam.py
 
       - name: Export SQLite content
         run: python Project_Mia/backend/scripts/export_static_content_text.py
