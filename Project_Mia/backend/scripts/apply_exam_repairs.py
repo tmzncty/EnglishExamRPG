@@ -180,6 +180,9 @@ def validate(conn: sqlite3.Connection) -> None:
                 except json.JSONDecodeError:
                     errors.append(f"{r['q_id']}: malformed options_json")
                     continue
+                if not isinstance(opts, dict) or not opts:
+                    errors.append(f"{r['q_id']}: missing objective options after JSON parse")
+                    continue
                 if r["correct_answer"] not in opts:
                     errors.append(
                         f"{r['q_id']}: answer {r['correct_answer']} absent from options {sorted(opts)}"
