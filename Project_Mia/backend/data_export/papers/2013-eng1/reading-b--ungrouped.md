@@ -34,6 +34,15 @@ During the late 1990s, national spending on social sciences and the humanities  
 
 ### Question 41
 
+Choose the most suitable option for blank 41.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** E
 
@@ -49,6 +58,15 @@ E
 
 ### Question 42
 
+Choose the most suitable option for blank 42.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** F
 
@@ -64,6 +82,15 @@ F
 
 ### Question 43
 
+Choose the most suitable option for blank 43.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** D
 
@@ -79,6 +106,15 @@ D
 
 ### Question 44
 
+Choose the most suitable option for blank 44.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** G
 
@@ -94,6 +130,15 @@ G
 
 ### Question 45
 
+Choose the most suitable option for blank 45.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** A
 

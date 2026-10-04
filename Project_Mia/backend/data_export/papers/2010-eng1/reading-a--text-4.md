@@ -52,13 +52,13 @@ According to Paragraph 4, McCreevy objects to the IASB’s attempt to
 
 - {"A": "keep away from political influences.", "B": "evade the pressure from their peers.", "C": "act on their own in rule-setting.", "D": "take gradual measures in reform."}
 
-**Correct answer:** A
+**Correct answer:** C
 
 **Analysis:**
 
-根据第四段，McCreevy反对IASB试图摆脱政治影响。对应第四段最后一句话：Charlie McCreevy, a European commissioner, warned the IASB that it did “not live in a political vacuum” but “in the real world” and that Europe could yet develop different rules.欧洲专员查理·麦克里维警告国际会计准则委员会，它不是生活在“政治真空中”，而是生活在“现实世界中”，欧洲可能还会制定不同的规则。 言外之意是，IASB应该考虑政治因素，不能脱离政治影响。
+McCreevy 强调 IASB 并非生活在“政治真空”中，并警告欧洲可能另行制定规则；他反对的是标准制定者脱离外部约束、独自制定规则，因此选 C。
 
-<!-- q_id=2010-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"lobbying\", \"illiquid\", \"toxic assets\", \"book value\"]" -->
+<!-- q_id=2010-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["lobbying", "illiquid", "toxic assets", "book value", "integrity-repair:2026-10", "answer-key-verified"] -->
 
 ### Question 39
 
@@ -80,10 +80,10 @@ The author’s attitude towards standard-setters is one of
 
 - {"A": "satisfaction.", "B": "skepticism.", "C": "objectiveness.", "D": "sympathy."}
 
-**Correct answer:** B
+**Correct answer:** D
 
 **Analysis:**
 
-作者对标准制定者的态度是怀疑的。通读全文可知，作者认为标准制定者受到了银行的游说，损害了其独立性，因此是持怀疑态度的。尤其是第二段和最后一段的转折，体现了作者的失望之情。
+全文批评政治与游说压力挤压标准制定者的独立空间，末段语气更接近对标准制定者处境的同情，而不是满意、客观中立或单纯怀疑，因此选 D。
 
-<!-- q_id=2010-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"lobbying\", \"illiquid\", \"toxic assets\", \"book value\"]" -->
+<!-- q_id=2010-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["lobbying", "illiquid", "toxic assets", "book value", "integrity-repair:2026-10", "answer-key-verified"] -->

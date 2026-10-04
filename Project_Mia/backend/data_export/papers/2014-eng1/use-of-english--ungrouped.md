@@ -28,6 +28,7 @@ we put the keys just a moment ago
 
 ### Question 2
 
+Choose the best word(s) for blank 2.
 
 - {"A": "fades", "B": "improves", "C": "collapses", "D": "recovers"}
 
@@ -41,6 +42,7 @@ we put the keys just a moment ago
 
 ### Question 3
 
+Choose the best word(s) for blank 3.
 
 - {"A": "Unless", "B": "While", "C": "Once", "D": "If"}
 
@@ -54,6 +56,7 @@ we put the keys just a moment ago
 
 ### Question 4
 
+Choose the best word(s) for blank 4.
 
 - {"A": "damaging", "B": "limited", "C": "uneven", "D": "obscure"}
 
@@ -67,6 +70,7 @@ we put the keys just a moment ago
 
 ### Question 5
 
+Choose the best word(s) for blank 5.
 
 - {"A": "relationship", "B": "environment", "C": "wellbeing", "D": "outlook"}
 
@@ -80,6 +84,7 @@ we put the keys just a moment ago
 
 ### Question 6
 
+Choose the best word(s) for blank 6.
 
 - {"A": "figures", "B": "finds", "C": "points", "D": "turns"}
 
@@ -93,6 +98,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 ### Question 7
 
+Choose the best word(s) for blank 7.
 
 - {"A": "responses", "B": "associations", "C": "workouts", "D": "roundabouts"}
 
@@ -106,6 +112,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 ### Question 8
 
+Choose the best word(s) for blank 8.
 
 - {"A": "genre", "B": "criterion", "C": "circumstances", "D": "functions"}
 
@@ -119,6 +126,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 ### Question 9
 
+Choose the best word(s) for blank 9.
 
 - {"A": "channel", "B": "process", "C": "condition", "D": "sequence"}
 
@@ -132,6 +140,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 ### Question 10
 
+Choose the best word(s) for blank 10.
 
 - {"A": "persist", "B": "feature", "C": "excel", "D": "believe"}
 
@@ -145,6 +154,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 ### Question 11
 
+Choose the best word(s) for blank 11.
 
 - {"A": "However", "B": "Moreover", "C": "Otherwise", "D": "Therefore"}
 
@@ -158,6 +168,7 @@ However表示转折，上文说能力是遗传的，下文说能力是可以通�
 
 ### Question 12
 
+Choose the best word(s) for blank 12.
 
 - {"A": "according to", "B": "regardless of", "C": "apart from", "D": "instead of"}
 
@@ -171,6 +182,7 @@ However表示转折，上文说能力是遗传的，下文说能力是可以通�
 
 ### Question 13
 
+Choose the best word(s) for blank 13.
 
 - {"A": "back", "B": "further", "C": "aside", "D": "around"}
 
@@ -184,6 +196,7 @@ Take it a step further表示更进一步。
 
 ### Question 14
 
+Choose the best word(s) for blank 14.
 
 - {"A": "framework", "B": "stability", "C": "flexibility", "D": "sharpness"}
 
@@ -197,6 +210,7 @@ Take it a step further表示更进一步。
 
 ### Question 15
 
+Choose the best word(s) for blank 15.
 
 - {"A": "hurries", "B": "reminds", "C": "allows", "D": "forces"}
 
@@ -210,6 +224,7 @@ Allow表示允许，许可，程序允许你系统地提高记忆力和注意力
 
 ### Question 16
 
+Choose the best word(s) for blank 16.
 
 - {"A": "order", "B": "track", "C": "pace", "D": "hold"}
 
@@ -223,6 +238,7 @@ Keep track of表示保持知晓，保持联络，程序跟踪你的进步。
 
 ### Question 17
 
+Choose the best word(s) for blank 17.
 
 - {"A": "on", "B": "to", "C": "for", "D": "with"}
 
@@ -236,6 +252,7 @@ Feedback on表示关于……的反馈。
 
 ### Question 18
 
+Choose the best word(s) for blank 18.
 
 - {"A": "habitually", "B": "constantly", "C": "irregularly", "D": "unusually"}
 
@@ -249,6 +266,7 @@ Constantly表示不断地，持续地，程序不断地调整和加强训练内�
 
 ### Question 19
 
+Choose the best word(s) for blank 19.
 
 - {"A": "carry", "B": "put", "C": "build", "D": "take"}
 
@@ -262,6 +280,7 @@ Build on表示用……作为进一步发展的基础，将……继续推进，
 
 ### Question 20
 
+Choose the best word(s) for blank 20.
 
 - {"A": "idle", "B": "risky", "C": "familiar", "D": "effective"}
 

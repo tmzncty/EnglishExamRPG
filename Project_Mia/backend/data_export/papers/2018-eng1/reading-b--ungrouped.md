@@ -20,6 +20,15 @@ The history of the EEOB began long before its foundations were laid. The first e
 
 ### Question 41
 
+Choose the most suitable option for blank 41.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** E
 
@@ -35,6 +44,15 @@ E
 
 ### Question 42
 
+Choose the most suitable option for blank 42.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** G
 
@@ -50,6 +68,15 @@ G
 
 ### Question 43
 
+Choose the most suitable option for blank 43.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** A
 
@@ -65,6 +92,15 @@ A
 
 ### Question 44
 
+Choose the most suitable option for blank 44.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** B
 
@@ -80,6 +116,15 @@ B
 
 ### Question 45
 
+Choose the most suitable option for blank 45.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** D
 

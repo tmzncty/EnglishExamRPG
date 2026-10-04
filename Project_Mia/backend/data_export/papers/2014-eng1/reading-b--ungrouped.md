@@ -22,6 +22,14 @@ In another case, American archaeologists René Million and George  Cowgill spent
 
 Paragraphs A, B, C, D, E, F, G
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** C
 
 **Answer key / reference answer:**
@@ -37,6 +45,14 @@ C
 ### Question 42
 
 Paragraphs A, B, C, D, E, F, G
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** F
 
@@ -54,6 +70,14 @@ F
 
 Paragraphs A, B, C, D, E, F, G
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** G
 
 **Answer key / reference answer:**
@@ -70,6 +94,14 @@ G
 
 Paragraphs A, B, C, D, E, F, G
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** D
 
 **Answer key / reference answer:**
@@ -85,6 +117,14 @@ D
 ### Question 45
 
 Paragraphs A, B, C, D, E, F, G
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** B
 

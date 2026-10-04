@@ -38,13 +38,13 @@ According to Paragraph 2, the achievements of the National Trust are now being
 
 - {"A": "largely overshadowed.", "B": "properly protected.", "C": "effectively reinforced.", "D": "gradually destroyed."}
 
-**Correct answer:** A
+**Correct answer:** D
 
 **Analysis:**
 
-A选项正确。第二段的后半部分提到，乡村正在被混凝土吞噬，需要持续的守护。暗示了National Trust的成就在一定程度上被忽视了。
+公开转录存在选项顺序冲突：一类版本把“largely overshadowed”列为 A，另一类列为 D，而多套答案表把答案标为 D。为避免因转载排版差异误判，本库以 D 为主标签，同时将 A 设为可接受答案，并保留争议标记。
 
-<!-- q_id=2016-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"endorse\", \"intrusion\", \"coherence\"]" -->
+<!-- q_id=2016-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["endorse", "intrusion", "coherence", "integrity-repair:2026-10", "public-option-order-discrepancy", "answer-label-verified:D", "accepted-answer:A", "answer-key-disputed:A/D"] -->
 
 ### Question 28
 

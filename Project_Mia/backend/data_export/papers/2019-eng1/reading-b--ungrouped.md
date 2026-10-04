@@ -22,6 +22,15 @@ There is a better way to win arguments. Imagine that you favor increasing the mi
 
 ### Question 41
 
+Choose the most suitable option for blank 41.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** E
 
@@ -37,6 +46,15 @@ E选项 logically precedes paragraph D by introducing Dale Carnegie and his view
 
 ### Question 42
 
+Choose the most suitable option for blank 42.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** D
 
@@ -52,6 +70,15 @@ D follows E logically by explaining Carnegie's viewpoint in more detail. It argu
 
 ### Question 43
 
+Choose the most suitable option for blank 43.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** G
 
@@ -67,6 +94,15 @@ G contrasts the ideas presented in previous paragraphs. It offers 'a better way 
 
 ### Question 44
 
+Choose the most suitable option for blank 44.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** B
 
@@ -82,6 +118,15 @@ B expands on the concept of successful discussions and argues that we need to av
 
 ### Question 45
 
+Choose the most suitable option for blank 45.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** A
 

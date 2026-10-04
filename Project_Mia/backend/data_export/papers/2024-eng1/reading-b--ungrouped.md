@@ -24,6 +24,14 @@ To those of you in the comments section who are having strong feelings about art
 
 Hannah
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** E
 
 **Answer key / reference answer:**
@@ -39,6 +47,14 @@ Hannah认为尼日利亚人应该能够在尼日利亚看到贝宁青铜器，�
 ### Question 42
 
 Buck
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** C
 
@@ -56,6 +72,14 @@ Buck认为复制品可以解决归还文物的问题，展览的背景比展品�
 
 Sara
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** F
 
 **Answer key / reference answer:**
@@ -72,6 +96,14 @@ Sara认为文物激发了她学习文化的兴趣，但同时她认为，文物�
 
 Victor
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** G
 
 **Answer key / reference answer:**
@@ -87,6 +119,14 @@ Victor认为外国应该归还文物，即使原籍国的安保不如外国，�
 ### Question 45
 
 Julia
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** B
 

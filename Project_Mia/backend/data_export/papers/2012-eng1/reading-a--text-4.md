@@ -40,13 +40,13 @@ Which of the following is true of Paragraph 2?
 
 - {"A": "Public-sector unions are prudent in taking actions.", "B": "Education is required for public-sector union membership.", "C": "Labor Party has long been fighting against public-sector unions.", "D": "Public-sector unions seldom get in trouble for their actions."}
 
-**Correct answer:** A
+**Correct answer:** D
 
 **Analysis:**
 
-第二段列举了公共部门工会蓬勃发展的原因，包括他们可以停止工作而不受太大影响。选项A的“prudent in taking actions”即工会行动谨慎，与“can shut things down without suffering much in the way of consequences”呼应
+第二段指出公共部门工会可以让重要服务停摆，却往往不必承担太多后果。D“公共部门工会很少因其行动惹上麻烦”是这一信息的同义概括；A“行动谨慎”并无原文依据。
 
-<!-- q_id=2012-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"norm\", \"stay put\", \"high achievers\", \"fat pay packets\", \"attract much criticism\", \"civil services\"]" -->
+<!-- q_id=2012-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["norm", "stay put", "high achievers", "fat pay packets", "attract much criticism", "civil services", "integrity-repair:2026-10", "answer-key-verified"] -->
 
 ### Question 38
 

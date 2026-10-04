@@ -2,37 +2,24 @@
 
 ### Passage
 
-Directions:
+2025 English I Writing Part A — normalized task reconstruction
 
-Write a letter of about 100 words to your university library, suggesting books you want them to purchase.
+Reply to your classmate Paul in about 100 words. Paul is excited that you plan to invite young craftspeople to campus for an innovative craft-making demonstration. Explain what they will show and tell him how he can help with the preparation.
 
-Do not use your own name in the email;use “Li Ming”instead.(10 points)
+Use “Li Ming” as your name.
 
 ---
 
 ### Question 51
 
-Write a letter of about 100 words to your university library, suggesting books you want them to purchase. Do not use your own name in the email;use “Li Ming”instead.(10 points)
+2025 English I Writing Part A — normalized task reconstruction
 
-**Answer key / reference answer:**
+Reply to your classmate Paul in about 100 words. Paul is excited that you plan to invite young craftspeople to campus for an innovative craft-making demonstration. Explain what they will show and tell him how he can help with the preparation.
 
-Dear University Library Staff,
-
-I am writing to suggest some books that I believe would greatly benefit our university students. As a student myself, I often find myself seeking resources beyond our current collection.
-
-I would like to recommend the following books:
-
-*   "Sapiens: A Brief History of Humankind" by Yuval Noah Harari: This book provides a comprehensive overview of human history and is relevant to various disciplines.
-*   "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin: Essential for computer science students and anyone interested in software development.
-*   "Thinking, Fast and Slow" by Daniel Kahneman: A valuable resource for understanding cognitive biases and decision-making processes.
-
-These books are highly acclaimed and widely recommended. I believe they would enrich our library's collection and cater to the diverse academic interests of our students. Thank you for considering my suggestions.
-
-Sincerely,
-Li Ming
+Use “Li Ming” as your name.
 
 **Analysis:**
 
-This is a sample letter of recommendation for books to a university library. It includes a clear and concise introduction, specific book suggestions with justifications, and a polite closing. The language is formal and appropriate for the context. The writer offers three suggestions across different academic fields for a range of student needs and highlights the value each book offers.
+The previous database row contained a different year's library-book recommendation task. This row now records the correct 2025 task in normalized, non-verbatim form. Restore exact typography from the user's own source PDF/DOCX when available.
 
-<!-- q_id=2025-eng1-writing_a-q51; difficulty=3; score=10.0 -->
+<!-- q_id=2025-eng1-writing_a-q51; difficulty=3; score=10.0; tags=["integrity-repair:2026-10", "normalized-task-reconstruction", "needs-owned-source-for-verbatim"] -->

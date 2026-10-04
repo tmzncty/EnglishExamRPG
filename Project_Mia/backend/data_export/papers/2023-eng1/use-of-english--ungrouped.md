@@ -256,40 +256,49 @@ Caravanserais were also an important marketplace for commodities and   15    in 
 
 It is    	18 that around 12,000 to 15,000 caravanserais were built along the Silk Road,     19	   only about 3,000 are known to remain today, many of which are in  	 20     .
 
-- {"A": "ensured", "B": "figured", "C": "presumed", "D": "estimated"}
-
-**Correct answer:** D
-
-**Analysis:**
-
-The sentence states 'around 12,000 to 15,000 caravanserais were built'. This is an approximation, not a precise number. Thus, 'estimated' is the most suitable word.
-
-<!-- q_id=2023-eng1-use_of_english-q18; difficulty=3; score=0.5; tags="[\"caravanserai\", \"karvan\", \"sardy\"]" -->
-
-### Question 19
-
-It is    	18 that around 12,000 to 15,000 caravanserais were built along the Silk Road,     19	   only about 3,000 are known to remain today, many of which are in  	 20     .
-
-- {"A": "while", "B": "once", "C": "since", "D": "unless"}
+- **A.** believed
+- **B.** predicted
+- **C.** recalled
+- **D.** implied
 
 **Correct answer:** A
 
 **Analysis:**
 
-The sentence presents a contrast: many were built, but few remain. 'While' introduces this contrast most effectively.
+The sentence states 'around 12,000 to 15,000 caravanserais were built'. This is an approximation, not a precise number. Thus, 'estimated' is the most suitable word.
 
-<!-- q_id=2023-eng1-use_of_english-q19; difficulty=3; score=0.5; tags="[\"caravanserai\", \"karvan\", \"sardy\"]" -->
+<!-- q_id=2023-eng1-use_of_english-q18; difficulty=3; score=0.5; tags=["caravanserai", "karvan", "sardy", "integrity-repair:2026-10", "original-options-restored"] -->
 
-### Question 20
+### Question 19
 
 It is    	18 that around 12,000 to 15,000 caravanserais were built along the Silk Road,     19	   only about 3,000 are known to remain today, many of which are in  	 20     .
 
-- {"A": "operation", "B": "isolation", "C": "obligation", "D": "disrepair"}
+- **A.** until
+- **B.** because
+- **C.** unless
+- **D.** although
 
 **Correct answer:** D
 
 **Analysis:**
 
+The sentence presents a contrast: many were built, but few remain. 'While' introduces this contrast most effectively.
+
+<!-- q_id=2023-eng1-use_of_english-q19; difficulty=3; score=0.5; tags=["caravanserai", "karvan", "sardy", "integrity-repair:2026-10", "original-options-restored"] -->
+
+### Question 20
+
+It is    	18 that around 12,000 to 15,000 caravanserais were built along the Silk Road,     19	   only about 3,000 are known to remain today, many of which are in  	 20     .
+
+- **A.** ruins
+- **B.** debt
+- **C.** fashion
+- **D.** series
+
+**Correct answer:** A
+
+**Analysis:**
+
 Since only 3000 remain today, it can be deduced that many are damaged or ruined. Thus, 'disrepair' meaning a state of deterioration, fits the context.
 
-<!-- q_id=2023-eng1-use_of_english-q20; difficulty=3; score=0.5; tags="[\"caravanserai\", \"karvan\", \"sardy\"]" -->
+<!-- q_id=2023-eng1-use_of_english-q20; difficulty=3; score=0.5; tags=["caravanserai", "karvan", "sardy", "integrity-repair:2026-10", "original-options-restored"] -->

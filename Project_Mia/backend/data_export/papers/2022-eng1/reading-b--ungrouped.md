@@ -28,6 +28,14 @@ Zoos are tools for thinking. Our research provides strong support for the value 
 
 Teri Byrd:
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** F
 
 **Answer key / reference answer:**
@@ -43,6 +51,14 @@ Teri Byrd认为动物园徒有其表，实则以盈利为目的，动物的生�
 ### Question 42
 
 Karen R. Sime:
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** C
 
@@ -60,6 +76,14 @@ Karen R. Sime承认动物园可能存在残忍之处，但她强调动物园的�
 
 Greg Newberry:
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** A
 
 **Answer key / reference answer:**
@@ -76,6 +100,14 @@ Greg Newberry强烈反对文章作者的观点，认为这是对动物保护工�
 
 Dean Gallea:
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** D
 
 **Answer key / reference answer:**
@@ -91,6 +123,14 @@ Dean Gallea认为动物园能满足人们接触野生动物的需求，从而避
 ### Question 45
 
 John Fraser:
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** G
 

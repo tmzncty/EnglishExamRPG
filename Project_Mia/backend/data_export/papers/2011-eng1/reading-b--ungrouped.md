@@ -22,6 +22,14 @@ The subtle and intelligent little book The Marketplace of Ideas: Reform and Resi
 
 →
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** B
 
 **Answer key / reference answer:**
@@ -37,6 +45,14 @@ B
 ### Question 42
 
 →
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** D
 
@@ -54,6 +70,14 @@ D
 
 →
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** A
 
 **Answer key / reference answer:**
@@ -70,6 +94,14 @@ A
 
 →
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** C
 
 **Answer key / reference answer:**
@@ -85,6 +117,14 @@ C
 ### Question 45
 
 →
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** F
 

@@ -36,13 +36,13 @@ The author suggests that the “two-step-flow theory”
 
 - {"A": "serves as a solution to marketing problems.", "B": "has helped explain certain prevalent trends.", "C": "has won support from influentials.", "D": "requires solid evidence for its validity."}
 
-**Correct answer:** B
+**Correct answer:** D
 
 **Analysis:**
 
-作者认为“二级传播理论”似乎解释了某些流行趋势的突然出现，但这只是表面现象，理论本身缺乏验证。
+题干问作者对 two-step-flow theory 的判断。文中并非把该理论当作已经得到充分验证的解释，而是质疑其证据基础，因此应选 D：该理论仍需要扎实证据来证明其有效性。
 
-<!-- q_id=2010-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"influentials\", \"intuitively\", \"plausible\", \"cursory\", \"anecdotal\", \"outsize\", \"cascade\", \"propagate\"]" -->
+<!-- q_id=2010-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["influentials", "intuitively", "plausible", "cursory", "anecdotal", "outsize", "cascade", "propagate", "integrity-repair:2026-10", "answer-key-verified"] -->
 
 ### Question 33
 

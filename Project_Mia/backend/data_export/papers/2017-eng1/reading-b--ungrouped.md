@@ -22,6 +22,14 @@ After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he traces
 
 The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** F
 
 **Answer key / reference answer:**
@@ -37,6 +45,14 @@ F
 ### Question 42
 
 The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** E
 
@@ -54,6 +70,14 @@ E
 
 The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** A
 
 **Answer key / reference answer:**
@@ -70,6 +94,14 @@ A
 
 The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** C
 
 **Answer key / reference answer:**
@@ -85,6 +117,14 @@ C
 ### Question 45
 
 The following paragraphs are given in a wrong order. For questions 41 -45, you are required to reorganize these paragraphs into a coherent text by choosing from the list A—G and filling them into the numbered boxes. Paragraphs B and D have been correctly placed. Mark your answers on the ANSWER SHEET.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** G
 

@@ -20,6 +20,14 @@ In people who score high in a test of neuroticism, a personality dimension assoc
 
 41.
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** C
 
 **Answer key / reference answer:**
@@ -35,6 +43,14 @@ C
 ### Question 42
 
 42.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** E
 
@@ -52,6 +68,14 @@ E
 
 43.
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** G
 
 **Answer key / reference answer:**
@@ -68,6 +92,14 @@ G
 
 44.
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** A
 
 **Answer key / reference answer:**
@@ -83,6 +115,14 @@ A
 ### Question 45
 
 45.
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** D
 

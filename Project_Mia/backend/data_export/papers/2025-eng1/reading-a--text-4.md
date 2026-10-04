@@ -32,15 +32,18 @@ The author mentions the artifacts from the past to
 
 Compared  with  digital  objects,tangible  artifacts
 
-- {"A": "are less subject to their creators'neglect", "B": "convey information in a more direct way", "C": "require more international preservation", "D": "are less likely to suffer serious damage"}
+- **A.** are less subject to their creators'neglect
+- **B.** convey information in a more direct way
+- **C.** require more intentional preservation
+- **D.** are less likely to suffer serious damage
 
-**Correct answer:** A
+**Correct answer:** B
 
 **Analysis:**
 
-根据文章第二段可知，有形的物品即使被创造者忽视，也有机会保存下来，而数字信息则不然。选项A符合此意。
+第二段明确指出，有形物“物本身就是传递信息的媒介”；数字对象则可能只保存了载体、格式过时后信息仍无法读取。因此与数字对象相比，有形物传递信息更直接，选 B。
 
-<!-- q_id=2025-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"ephemeral\", \"tangible\", \"metadata\"]" -->
+<!-- q_id=2025-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["ephemeral", "tangible", "metadata", "integrity-repair:2026-10", "answer-key-verified"] -->
 
 ### Question 38
 

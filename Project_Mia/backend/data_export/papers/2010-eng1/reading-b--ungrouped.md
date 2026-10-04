@@ -20,6 +20,14 @@ However, none of these requirements should deter large retailers (and even some 
 
 选择最合适的段落填入 41
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** B
 
 **Answer key / reference answer:**
@@ -35,6 +43,14 @@ B
 ### Question 42
 
 选择最合适的段落填入 42
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** F
 
@@ -52,6 +68,14 @@ F
 
 选择最合适的段落填入 43
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** D
 
 **Answer key / reference answer:**
@@ -68,6 +92,14 @@ D
 
 选择最合适的段落填入 44
 
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
+
 **Correct answer:** G
 
 **Answer key / reference answer:**
@@ -83,6 +115,14 @@ G
 ### Question 45
 
 选择最合适的段落填入 45
+
+- **A.** A
+- **B.** B
+- **C.** C
+- **D.** D
+- **E.** E
+- **F.** F
+- **G.** G
 
 **Correct answer:** A
 
