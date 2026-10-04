@@ -1,0 +1,1070 @@
+{
+  "schema_version": 1,
+  "title": "Legacy English I integrity repairs",
+  "note": "Reviewed repairs for confirmed answer-key, option-order, Part B structure, stray-row, and 2025 writing-source defects. 2025 Text 2 remains explicitly quarantined because the repository's owned source is incomplete.",
+  "source_notes": [
+    "2010 answer corrections cross-checked against CHSI/independent answer tables.",
+    "2012 Q37 cross-checked against CHSI and independent explanations.",
+    "2016 Q27 public transcriptions disagree on A/D option ordering but answer tables consistently use label D.",
+    "2020 cloze option order and answer labels restored from full-paper answer tables; option text already existed in the repository.",
+    "2023 Q18-20 and Part B restored from full-paper transcriptions; extra null-section writing row removed.",
+    "2025 objective keys cross-checked across multiple recent exam repositories; Q28 remains a documented C/D dispute and accepts both.",
+    "2025 Writing task/topic and table data cross-checked independently; normalized wording is used until the user's original DOCX/PDF is available."
+  ],
+  "delete_questions": [
+    "2023-eng1-writing-partB"
+  ],
+  "normalize": {
+    "fill_empty_cloze_content": true,
+    "fill_empty_reading_b_content": true,
+    "materialize_reading_b_letter_options": true,
+    "reading_b_h_years": [
+      "2023-eng1",
+      "2025-eng1"
+    ]
+  },
+  "updates": [
+    {
+      "q_id": "2010-eng1-reading_a-q32",
+      "fields": {
+        "correct_answer": "D",
+        "official_analysis": "题干问作者对 two-step-flow theory 的判断。文中并非把该理论当作已经得到充分验证的解释，而是质疑其证据基础，因此应选 D：该理论仍需要扎实证据来证明其有效性。",
+        "tags": [
+          "influentials",
+          "intuitively",
+          "plausible",
+          "cursory",
+          "anecdotal",
+          "outsize",
+          "cascade",
+          "propagate",
+          "integrity-repair:2026-10",
+          "answer-key-verified"
+        ]
+      }
+    },
+    {
+      "q_id": "2010-eng1-reading_a-q38",
+      "fields": {
+        "correct_answer": "C",
+        "official_analysis": "McCreevy 强调 IASB 并非生活在“政治真空”中，并警告欧洲可能另行制定规则；他反对的是标准制定者脱离外部约束、独自制定规则，因此选 C。",
+        "tags": [
+          "lobbying",
+          "illiquid",
+          "toxic assets",
+          "book value",
+          "integrity-repair:2026-10",
+          "answer-key-verified"
+        ]
+      }
+    },
+    {
+      "q_id": "2010-eng1-reading_a-q40",
+      "fields": {
+        "correct_answer": "D",
+        "official_analysis": "全文批评政治与游说压力挤压标准制定者的独立空间，末段语气更接近对标准制定者处境的同情，而不是满意、客观中立或单纯怀疑，因此选 D。",
+        "tags": [
+          "lobbying",
+          "illiquid",
+          "toxic assets",
+          "book value",
+          "integrity-repair:2026-10",
+          "answer-key-verified"
+        ]
+      }
+    },
+    {
+      "q_id": "2012-eng1-reading_a-q37",
+      "fields": {
+        "correct_answer": "D",
+        "official_analysis": "第二段指出公共部门工会可以让重要服务停摆，却往往不必承担太多后果。D“公共部门工会很少因其行动惹上麻烦”是这一信息的同义概括；A“行动谨慎”并无原文依据。",
+        "tags": [
+          "norm",
+          "stay put",
+          "high achievers",
+          "fat pay packets",
+          "attract much criticism",
+          "civil services",
+          "integrity-repair:2026-10",
+          "answer-key-verified"
+        ]
+      }
+    },
+    {
+      "q_id": "2016-eng1-reading_a-q27",
+      "fields": {
+        "correct_answer": "D",
+        "official_analysis": "多套同期/后续答案表一致把本题答案标为 D。公开转录版本对 A/D 的选项顺序存在冲突，因此保留当前卷面选项文本，同时把答案键恢复为 D，并标记该题存在公共转录的选项顺序差异。",
+        "tags": [
+          "endorse",
+          "intrusion",
+          "coherence",
+          "integrity-repair:2026-10",
+          "public-option-order-discrepancy",
+          "answer-label-verified:D"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q1",
+      "fields": {
+        "content": "Choose the best word(s) for blank 1.",
+        "options_json": {
+          "A": "In",
+          "B": "On",
+          "C": "Till",
+          "D": "Towards"
+        },
+        "correct_answer": "B",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q2",
+      "fields": {
+        "content": "Choose the best word(s) for blank 2.",
+        "options_json": {
+          "A": "match",
+          "B": "express",
+          "C": "satisfy",
+          "D": "influence"
+        },
+        "correct_answer": "A",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q3",
+      "fields": {
+        "content": "Choose the best word(s) for blank 3.",
+        "options_json": {
+          "A": "patience",
+          "B": "concern",
+          "C": "surprise",
+          "D": "enjoyment"
+        },
+        "correct_answer": "D",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q4",
+      "fields": {
+        "content": "Choose the best word(s) for blank 4.",
+        "options_json": {
+          "A": "intensified",
+          "B": "guaranteed",
+          "C": "compelled",
+          "D": "privileged"
+        },
+        "correct_answer": "B",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q5",
+      "fields": {
+        "content": "Choose the best word(s) for blank 5.",
+        "options_json": {
+          "A": "ignored",
+          "B": "received",
+          "C": "issued",
+          "D": "cancelled"
+        },
+        "correct_answer": "C",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q6",
+      "fields": {
+        "content": "Choose the best word(s) for blank 6.",
+        "options_json": {
+          "A": "under",
+          "B": "by",
+          "C": "for",
+          "D": "at"
+        },
+        "correct_answer": "D",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q7",
+      "fields": {
+        "content": "Choose the best word(s) for blank 7.",
+        "options_json": {
+          "A": "forget",
+          "B": "avoid",
+          "C": "finish",
+          "D": "regret"
+        },
+        "correct_answer": "B",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q8",
+      "fields": {
+        "content": "Choose the best word(s) for blank 8.",
+        "options_json": {
+          "A": "easily",
+          "B": "regularly",
+          "C": "partially",
+          "D": "initially"
+        },
+        "correct_answer": "C",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q9",
+      "fields": {
+        "content": "Choose the best word(s) for blank 9.",
+        "options_json": {
+          "A": "If",
+          "B": "Since",
+          "C": "While",
+          "D": "Unless"
+        },
+        "correct_answer": "C",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q10",
+      "fields": {
+        "content": "Choose the best word(s) for blank 10.",
+        "options_json": {
+          "A": "conclusive",
+          "B": "external",
+          "C": "secondary",
+          "D": "negative"
+        },
+        "correct_answer": "A",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q11",
+      "fields": {
+        "content": "Choose the best word(s) for blank 11.",
+        "options_json": {
+          "A": "likely",
+          "B": "bound",
+          "C": "insufficient",
+          "D": "slow"
+        },
+        "correct_answer": "A",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q12",
+      "fields": {
+        "content": "Choose the best word(s) for blank 12.",
+        "options_json": {
+          "A": "In addition to",
+          "B": "At the cost of",
+          "C": "On the basis of",
+          "D": "In contrast to"
+        },
+        "correct_answer": "C",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q13",
+      "fields": {
+        "content": "Choose the best word(s) for blank 13.",
+        "options_json": {
+          "A": "interesting",
+          "B": "fortunate",
+          "C": "urgent",
+          "D": "advisable"
+        },
+        "correct_answer": "D",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q14",
+      "fields": {
+        "content": "Choose the best word(s) for blank 14.",
+        "options_json": {
+          "A": "As usual",
+          "B": "After all",
+          "C": "By definition",
+          "D": "In particular"
+        },
+        "correct_answer": "B",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q15",
+      "fields": {
+        "content": "Choose the best word(s) for blank 15.",
+        "options_json": {
+          "A": "connection",
+          "B": "combination",
+          "C": "resemblance",
+          "D": "pattern"
+        },
+        "correct_answer": "A",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q16",
+      "fields": {
+        "content": "Choose the best word(s) for blank 16.",
+        "options_json": {
+          "A": "made",
+          "B": "used",
+          "C": "saved",
+          "D": "served"
+        },
+        "correct_answer": "D",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q17",
+      "fields": {
+        "content": "Choose the best word(s) for blank 17.",
+        "options_json": {
+          "A": "To be brief",
+          "B": "For instance",
+          "C": "To be fair",
+          "D": "In general"
+        },
+        "correct_answer": "C",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q18",
+      "fields": {
+        "content": "Choose the best word(s) for blank 18.",
+        "options_json": {
+          "A": "entirely",
+          "B": "gradually",
+          "C": "reluctantly",
+          "D": "carefully"
+        },
+        "correct_answer": "A",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q19",
+      "fields": {
+        "content": "Choose the best word(s) for blank 19.",
+        "options_json": {
+          "A": "promise",
+          "B": "competition",
+          "C": "experience",
+          "D": "campaign"
+        },
+        "correct_answer": "D",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2020-eng1-use_of_english-q20",
+      "fields": {
+        "content": "Choose the best word(s) for blank 20.",
+        "options_json": {
+          "A": "follow up",
+          "B": "end up",
+          "C": "open up",
+          "D": "pick up"
+        },
+        "correct_answer": "B",
+        "tags": [
+          "nonetheless",
+          "culinary",
+          "render",
+          "acrylamide",
+          "neurological",
+          "alarmist",
+          "integrity-repair:2026-10",
+          "option-order-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2023-eng1-use_of_english-q18",
+      "fields": {
+        "options_json": {
+          "A": "believed",
+          "B": "predicted",
+          "C": "recalled",
+          "D": "implied"
+        },
+        "correct_answer": "A",
+        "tags": [
+          "caravanserai",
+          "karvan",
+          "sardy",
+          "integrity-repair:2026-10",
+          "original-options-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2023-eng1-use_of_english-q19",
+      "fields": {
+        "options_json": {
+          "A": "until",
+          "B": "because",
+          "C": "unless",
+          "D": "although"
+        },
+        "correct_answer": "D",
+        "tags": [
+          "caravanserai",
+          "karvan",
+          "sardy",
+          "integrity-repair:2026-10",
+          "original-options-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2023-eng1-use_of_english-q20",
+      "fields": {
+        "options_json": {
+          "A": "ruins",
+          "B": "debt",
+          "C": "fashion",
+          "D": "series"
+        },
+        "correct_answer": "A",
+        "tags": [
+          "caravanserai",
+          "karvan",
+          "sardy",
+          "integrity-repair:2026-10",
+          "original-options-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2023-eng1-reading_b-q41",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, E and H are fixed in the sequence shown below.\n\nSequence: [41] → [A] → [42] → [E] → [43] → [H] → [44] → [45]\n\n[A] Last year marked the 150th anniversary of a series of Yellowstone photographs by the renowned landscape photographer William Henry Jackson. Jackson snapped the first-ever shots of iconic landmarks such as the Tetons, Old Faithful and the Colorado Rockies on a late 19th-century expedition through the Yellowstone Basin, conducted by the head of the U.S. Geological and Geographical Survey of the Territories, Ferdinand V. Hayden. The team included a meteorologist, a zoologist, a mineralogist, and an agricultural statistician.\n\n[B] Two centuries ago, the idea of preserving nature, rather than exploiting it, was a novel one to many US settlers. One of the turning points in public support for land conservation efforts—and recognizing the magnificence of the Yellowstone region in particular—came in the form of vivid photographs.\n\n[C] As an effective Washington operator, Hayden sensed that he could capitalize on the expedition’s stunning visuals. He asked Jackson to print out large copies and distributed them, along with reproductions of Moran's paintings, to each member of Congress. “The visualization, particularly those photographs, really hit home that this is something that has to be protected,” says Alicia Murphy, Yellowstone’s  park historian.\n\n[D] Throughout the trip, Jackson juggled multiple cameras and plate sizes using the collodion process that involved coating the plates with a chemical mixture, exposing them and developing the resulting images with a portable darkroom. The crude technique required educated guesses on exposure times, and involved heavy, awkward equipment—several men had to assist in its transportation. Despite these challenges, Jackson captured dozens of striking photos, ranging from majestic images like his now-famous snapshot of Old Faithful, to casual portraits of expedition members at the camp. While veterans of previous expeditions had written at length about stunning sights, these vivid photographs were another thing entirely.\n\n[E] The journey officially began in Ogden, Utah, on June 8, 1871. Over nearly four months, dozens of men made their way on horseback into Montana and traversed along the Yellowstone River and around Yellowstone Lake. That fall, they concluded the survey in Fort Bridger, Wyoming.\n\n[F] Though Native Americans (and later miners and fur trappers) had long recognized the area’s riches, most Americans did not. That’s why Hayden’s expedition aimed to produce a fuller understanding of the Yellowstone River region, from its hot springs and waterfalls to its variety of flora and fauna. In addition to the entourage of scientists, the team also included artists: Painter Thomas Moran and photographer Jackson were charged with capturing this astounding natural beauty and sharing it with the world.\n\n[G] The bill proved largely popular and sailed through Congress with large majorities in favor. In quick succession, the Senate and House passed legislation protecting Yellowstone in early 1872. That March, President Ulysses S. Grant signed an act into law that established Yellowstone as the world’s first national park. While some locals opposed the designation, the decision was largely accepted—and Jackson’s photos played a key role in the fight to protect the area. “I don’t believe that the legal protection would have happened in the time frame that it did without those images,” says Heather Hansen, journalist and author of Prophets and Moguls, Rangers and Rogues, Bison and Bears: 100 Years of the National Park Service.\n\n[H] Perhaps most importantly, these images provided documentary evidence that later made its way to government officials. Weeks after completing the expedition, Hayden collected his team’s observations into an extensive report aimed at convincing senators and representatives, along with colleagues at government agencies like the Department of the Interior, that Yellowstone ought to be preserved.",
+        "content": "Choose the paragraph for blank 41.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "B",
+        "answer_key": "B",
+        "tags": [
+          "renowned",
+          "iconic",
+          "expedition",
+          "collodion process",
+          "vivid",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2023-eng1-reading_b-q42",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, E and H are fixed in the sequence shown below.\n\nSequence: [41] → [A] → [42] → [E] → [43] → [H] → [44] → [45]\n\n[A] Last year marked the 150th anniversary of a series of Yellowstone photographs by the renowned landscape photographer William Henry Jackson. Jackson snapped the first-ever shots of iconic landmarks such as the Tetons, Old Faithful and the Colorado Rockies on a late 19th-century expedition through the Yellowstone Basin, conducted by the head of the U.S. Geological and Geographical Survey of the Territories, Ferdinand V. Hayden. The team included a meteorologist, a zoologist, a mineralogist, and an agricultural statistician.\n\n[B] Two centuries ago, the idea of preserving nature, rather than exploiting it, was a novel one to many US settlers. One of the turning points in public support for land conservation efforts—and recognizing the magnificence of the Yellowstone region in particular—came in the form of vivid photographs.\n\n[C] As an effective Washington operator, Hayden sensed that he could capitalize on the expedition’s stunning visuals. He asked Jackson to print out large copies and distributed them, along with reproductions of Moran's paintings, to each member of Congress. “The visualization, particularly those photographs, really hit home that this is something that has to be protected,” says Alicia Murphy, Yellowstone’s  park historian.\n\n[D] Throughout the trip, Jackson juggled multiple cameras and plate sizes using the collodion process that involved coating the plates with a chemical mixture, exposing them and developing the resulting images with a portable darkroom. The crude technique required educated guesses on exposure times, and involved heavy, awkward equipment—several men had to assist in its transportation. Despite these challenges, Jackson captured dozens of striking photos, ranging from majestic images like his now-famous snapshot of Old Faithful, to casual portraits of expedition members at the camp. While veterans of previous expeditions had written at length about stunning sights, these vivid photographs were another thing entirely.\n\n[E] The journey officially began in Ogden, Utah, on June 8, 1871. Over nearly four months, dozens of men made their way on horseback into Montana and traversed along the Yellowstone River and around Yellowstone Lake. That fall, they concluded the survey in Fort Bridger, Wyoming.\n\n[F] Though Native Americans (and later miners and fur trappers) had long recognized the area’s riches, most Americans did not. That’s why Hayden’s expedition aimed to produce a fuller understanding of the Yellowstone River region, from its hot springs and waterfalls to its variety of flora and fauna. In addition to the entourage of scientists, the team also included artists: Painter Thomas Moran and photographer Jackson were charged with capturing this astounding natural beauty and sharing it with the world.\n\n[G] The bill proved largely popular and sailed through Congress with large majorities in favor. In quick succession, the Senate and House passed legislation protecting Yellowstone in early 1872. That March, President Ulysses S. Grant signed an act into law that established Yellowstone as the world’s first national park. While some locals opposed the designation, the decision was largely accepted—and Jackson’s photos played a key role in the fight to protect the area. “I don’t believe that the legal protection would have happened in the time frame that it did without those images,” says Heather Hansen, journalist and author of Prophets and Moguls, Rangers and Rogues, Bison and Bears: 100 Years of the National Park Service.\n\n[H] Perhaps most importantly, these images provided documentary evidence that later made its way to government officials. Weeks after completing the expedition, Hayden collected his team’s observations into an extensive report aimed at convincing senators and representatives, along with colleagues at government agencies like the Department of the Interior, that Yellowstone ought to be preserved.",
+        "content": "Choose the paragraph for blank 42.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "F",
+        "answer_key": "F",
+        "tags": [
+          "renowned",
+          "iconic",
+          "expedition",
+          "collodion process",
+          "vivid",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2023-eng1-reading_b-q43",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, E and H are fixed in the sequence shown below.\n\nSequence: [41] → [A] → [42] → [E] → [43] → [H] → [44] → [45]\n\n[A] Last year marked the 150th anniversary of a series of Yellowstone photographs by the renowned landscape photographer William Henry Jackson. Jackson snapped the first-ever shots of iconic landmarks such as the Tetons, Old Faithful and the Colorado Rockies on a late 19th-century expedition through the Yellowstone Basin, conducted by the head of the U.S. Geological and Geographical Survey of the Territories, Ferdinand V. Hayden. The team included a meteorologist, a zoologist, a mineralogist, and an agricultural statistician.\n\n[B] Two centuries ago, the idea of preserving nature, rather than exploiting it, was a novel one to many US settlers. One of the turning points in public support for land conservation efforts—and recognizing the magnificence of the Yellowstone region in particular—came in the form of vivid photographs.\n\n[C] As an effective Washington operator, Hayden sensed that he could capitalize on the expedition’s stunning visuals. He asked Jackson to print out large copies and distributed them, along with reproductions of Moran's paintings, to each member of Congress. “The visualization, particularly those photographs, really hit home that this is something that has to be protected,” says Alicia Murphy, Yellowstone’s  park historian.\n\n[D] Throughout the trip, Jackson juggled multiple cameras and plate sizes using the collodion process that involved coating the plates with a chemical mixture, exposing them and developing the resulting images with a portable darkroom. The crude technique required educated guesses on exposure times, and involved heavy, awkward equipment—several men had to assist in its transportation. Despite these challenges, Jackson captured dozens of striking photos, ranging from majestic images like his now-famous snapshot of Old Faithful, to casual portraits of expedition members at the camp. While veterans of previous expeditions had written at length about stunning sights, these vivid photographs were another thing entirely.\n\n[E] The journey officially began in Ogden, Utah, on June 8, 1871. Over nearly four months, dozens of men made their way on horseback into Montana and traversed along the Yellowstone River and around Yellowstone Lake. That fall, they concluded the survey in Fort Bridger, Wyoming.\n\n[F] Though Native Americans (and later miners and fur trappers) had long recognized the area’s riches, most Americans did not. That’s why Hayden’s expedition aimed to produce a fuller understanding of the Yellowstone River region, from its hot springs and waterfalls to its variety of flora and fauna. In addition to the entourage of scientists, the team also included artists: Painter Thomas Moran and photographer Jackson were charged with capturing this astounding natural beauty and sharing it with the world.\n\n[G] The bill proved largely popular and sailed through Congress with large majorities in favor. In quick succession, the Senate and House passed legislation protecting Yellowstone in early 1872. That March, President Ulysses S. Grant signed an act into law that established Yellowstone as the world’s first national park. While some locals opposed the designation, the decision was largely accepted—and Jackson’s photos played a key role in the fight to protect the area. “I don’t believe that the legal protection would have happened in the time frame that it did without those images,” says Heather Hansen, journalist and author of Prophets and Moguls, Rangers and Rogues, Bison and Bears: 100 Years of the National Park Service.\n\n[H] Perhaps most importantly, these images provided documentary evidence that later made its way to government officials. Weeks after completing the expedition, Hayden collected his team’s observations into an extensive report aimed at convincing senators and representatives, along with colleagues at government agencies like the Department of the Interior, that Yellowstone ought to be preserved.",
+        "content": "Choose the paragraph for blank 43.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "D",
+        "answer_key": "D",
+        "tags": [
+          "renowned",
+          "iconic",
+          "expedition",
+          "collodion process",
+          "vivid",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2023-eng1-reading_b-q44",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, E and H are fixed in the sequence shown below.\n\nSequence: [41] → [A] → [42] → [E] → [43] → [H] → [44] → [45]\n\n[A] Last year marked the 150th anniversary of a series of Yellowstone photographs by the renowned landscape photographer William Henry Jackson. Jackson snapped the first-ever shots of iconic landmarks such as the Tetons, Old Faithful and the Colorado Rockies on a late 19th-century expedition through the Yellowstone Basin, conducted by the head of the U.S. Geological and Geographical Survey of the Territories, Ferdinand V. Hayden. The team included a meteorologist, a zoologist, a mineralogist, and an agricultural statistician.\n\n[B] Two centuries ago, the idea of preserving nature, rather than exploiting it, was a novel one to many US settlers. One of the turning points in public support for land conservation efforts—and recognizing the magnificence of the Yellowstone region in particular—came in the form of vivid photographs.\n\n[C] As an effective Washington operator, Hayden sensed that he could capitalize on the expedition’s stunning visuals. He asked Jackson to print out large copies and distributed them, along with reproductions of Moran's paintings, to each member of Congress. “The visualization, particularly those photographs, really hit home that this is something that has to be protected,” says Alicia Murphy, Yellowstone’s  park historian.\n\n[D] Throughout the trip, Jackson juggled multiple cameras and plate sizes using the collodion process that involved coating the plates with a chemical mixture, exposing them and developing the resulting images with a portable darkroom. The crude technique required educated guesses on exposure times, and involved heavy, awkward equipment—several men had to assist in its transportation. Despite these challenges, Jackson captured dozens of striking photos, ranging from majestic images like his now-famous snapshot of Old Faithful, to casual portraits of expedition members at the camp. While veterans of previous expeditions had written at length about stunning sights, these vivid photographs were another thing entirely.\n\n[E] The journey officially began in Ogden, Utah, on June 8, 1871. Over nearly four months, dozens of men made their way on horseback into Montana and traversed along the Yellowstone River and around Yellowstone Lake. That fall, they concluded the survey in Fort Bridger, Wyoming.\n\n[F] Though Native Americans (and later miners and fur trappers) had long recognized the area’s riches, most Americans did not. That’s why Hayden’s expedition aimed to produce a fuller understanding of the Yellowstone River region, from its hot springs and waterfalls to its variety of flora and fauna. In addition to the entourage of scientists, the team also included artists: Painter Thomas Moran and photographer Jackson were charged with capturing this astounding natural beauty and sharing it with the world.\n\n[G] The bill proved largely popular and sailed through Congress with large majorities in favor. In quick succession, the Senate and House passed legislation protecting Yellowstone in early 1872. That March, President Ulysses S. Grant signed an act into law that established Yellowstone as the world’s first national park. While some locals opposed the designation, the decision was largely accepted—and Jackson’s photos played a key role in the fight to protect the area. “I don’t believe that the legal protection would have happened in the time frame that it did without those images,” says Heather Hansen, journalist and author of Prophets and Moguls, Rangers and Rogues, Bison and Bears: 100 Years of the National Park Service.\n\n[H] Perhaps most importantly, these images provided documentary evidence that later made its way to government officials. Weeks after completing the expedition, Hayden collected his team’s observations into an extensive report aimed at convincing senators and representatives, along with colleagues at government agencies like the Department of the Interior, that Yellowstone ought to be preserved.",
+        "content": "Choose the paragraph for blank 44.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "C",
+        "answer_key": "C",
+        "tags": [
+          "renowned",
+          "iconic",
+          "expedition",
+          "collodion process",
+          "vivid",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2023-eng1-reading_b-q45",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, E and H are fixed in the sequence shown below.\n\nSequence: [41] → [A] → [42] → [E] → [43] → [H] → [44] → [45]\n\n[A] Last year marked the 150th anniversary of a series of Yellowstone photographs by the renowned landscape photographer William Henry Jackson. Jackson snapped the first-ever shots of iconic landmarks such as the Tetons, Old Faithful and the Colorado Rockies on a late 19th-century expedition through the Yellowstone Basin, conducted by the head of the U.S. Geological and Geographical Survey of the Territories, Ferdinand V. Hayden. The team included a meteorologist, a zoologist, a mineralogist, and an agricultural statistician.\n\n[B] Two centuries ago, the idea of preserving nature, rather than exploiting it, was a novel one to many US settlers. One of the turning points in public support for land conservation efforts—and recognizing the magnificence of the Yellowstone region in particular—came in the form of vivid photographs.\n\n[C] As an effective Washington operator, Hayden sensed that he could capitalize on the expedition’s stunning visuals. He asked Jackson to print out large copies and distributed them, along with reproductions of Moran's paintings, to each member of Congress. “The visualization, particularly those photographs, really hit home that this is something that has to be protected,” says Alicia Murphy, Yellowstone’s  park historian.\n\n[D] Throughout the trip, Jackson juggled multiple cameras and plate sizes using the collodion process that involved coating the plates with a chemical mixture, exposing them and developing the resulting images with a portable darkroom. The crude technique required educated guesses on exposure times, and involved heavy, awkward equipment—several men had to assist in its transportation. Despite these challenges, Jackson captured dozens of striking photos, ranging from majestic images like his now-famous snapshot of Old Faithful, to casual portraits of expedition members at the camp. While veterans of previous expeditions had written at length about stunning sights, these vivid photographs were another thing entirely.\n\n[E] The journey officially began in Ogden, Utah, on June 8, 1871. Over nearly four months, dozens of men made their way on horseback into Montana and traversed along the Yellowstone River and around Yellowstone Lake. That fall, they concluded the survey in Fort Bridger, Wyoming.\n\n[F] Though Native Americans (and later miners and fur trappers) had long recognized the area’s riches, most Americans did not. That’s why Hayden’s expedition aimed to produce a fuller understanding of the Yellowstone River region, from its hot springs and waterfalls to its variety of flora and fauna. In addition to the entourage of scientists, the team also included artists: Painter Thomas Moran and photographer Jackson were charged with capturing this astounding natural beauty and sharing it with the world.\n\n[G] The bill proved largely popular and sailed through Congress with large majorities in favor. In quick succession, the Senate and House passed legislation protecting Yellowstone in early 1872. That March, President Ulysses S. Grant signed an act into law that established Yellowstone as the world’s first national park. While some locals opposed the designation, the decision was largely accepted—and Jackson’s photos played a key role in the fight to protect the area. “I don’t believe that the legal protection would have happened in the time frame that it did without those images,” says Heather Hansen, journalist and author of Prophets and Moguls, Rangers and Rogues, Bison and Bears: 100 Years of the National Park Service.\n\n[H] Perhaps most importantly, these images provided documentary evidence that later made its way to government officials. Weeks after completing the expedition, Hayden collected his team’s observations into an extensive report aimed at convincing senators and representatives, along with colleagues at government agencies like the Department of the Interior, that Yellowstone ought to be preserved.",
+        "content": "Choose the paragraph for blank 45.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "G",
+        "answer_key": "G",
+        "tags": [
+          "renowned",
+          "iconic",
+          "expedition",
+          "collodion process",
+          "vivid",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q26",
+      "fields": {
+        "tags": [
+          "scale back",
+          "carbon emissions",
+          "unarguable",
+          "mushrooming",
+          "net-zero",
+          "source-incomplete-passage",
+          "quarantine:verbatim-practice",
+          "integrity-audit:2026-10"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q27",
+      "fields": {
+        "tags": [
+          "scale back",
+          "carbon emissions",
+          "unarguable",
+          "mushrooming",
+          "net-zero",
+          "source-incomplete-passage",
+          "quarantine:verbatim-practice",
+          "integrity-audit:2026-10"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q28",
+      "fields": {
+        "tags": [
+          "scale back",
+          "carbon emissions",
+          "unarguable",
+          "mushrooming",
+          "net-zero",
+          "source-incomplete-passage",
+          "quarantine:verbatim-practice",
+          "integrity-audit:2026-10"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q29",
+      "fields": {
+        "tags": [
+          "scale back",
+          "carbon emissions",
+          "unarguable",
+          "mushrooming",
+          "net-zero",
+          "source-incomplete-passage",
+          "quarantine:verbatim-practice",
+          "integrity-audit:2026-10"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q30",
+      "fields": {
+        "tags": [
+          "scale back",
+          "carbon emissions",
+          "unarguable",
+          "mushrooming",
+          "net-zero",
+          "source-incomplete-passage",
+          "quarantine:verbatim-practice",
+          "integrity-audit:2026-10"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q27",
+      "fields": {
+        "options_json": {
+          "A": "have caused grave consequences",
+          "B": "have aroused groundless worries",
+          "C": "are hard to handle at present",
+          "D": "are justifiable in the long run"
+        }
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q28",
+      "fields": {
+        "correct_answer": "C",
+        "official_analysis": "本题公开参考答案存在 C/D 分歧。多数近期逐题题库把 Green 的例子解释为“科学探索获得实际回报”，给 C；部分机构解析给 D。数据库以 C 为主答案，同时保留 D 为可接受争议答案，避免训练时把合理作答机械判错。",
+        "tags": [
+          "scale back",
+          "carbon emissions",
+          "unarguable",
+          "mushrooming",
+          "net-zero",
+          "accepted-answer:D",
+          "answer-key-disputed:C/D",
+          "primary-answer:C"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q29",
+      "fields": {
+        "content": "It can be learned from the last two paragraphs that LUMI ____",
+        "options_json": {
+          "A": "is a model of sustainability efforts",
+          "B": "Is a triumph against energy shortage",
+          "C": "owes much to global net-zero initiatives",
+          "D": "aims to explore the power of intelligence"
+        }
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_a-q37",
+      "fields": {
+        "options_json": {
+          "A": "are less subject to their creators'neglect",
+          "B": "convey information in a more direct way",
+          "C": "require more intentional preservation",
+          "D": "are less likely to suffer serious damage"
+        },
+        "correct_answer": "B",
+        "official_analysis": "第二段明确指出，有形物“物本身就是传递信息的媒介”；数字对象则可能只保存了载体、格式过时后信息仍无法读取。因此与数字对象相比，有形物传递信息更直接，选 B。",
+        "tags": [
+          "ephemeral",
+          "tangible",
+          "metadata",
+          "integrity-repair:2026-10",
+          "answer-key-verified"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_b-q41",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, C and H are fixed in the sequence shown below.\n\nSequence: [41] → [42] → [C] → [43] → [H] → [44] → [A] → [45]\n\n[A] Peters likes to photograph butterflies in a landscape, celebrating the beauty of their surroundings as well as the insects themselves.His pictures of a Glanville fritillary rising from the sea-pinks beside the chalk cliffs of Compton Bay on the Isle of Wight are particularly glorious.These take-off shots are even more challenging because they require a wide-angle lens,which means he must be less than 2cm from the butterfly.It's incredibly difficult to get that close to a skittish sun-warmed insect.Unlike some photographers,who \"cheat\"by keeping insects in a fridge to slow them down.Peters refuses to tamper with wild butterflies.\n\n[B] Peters' signature shot is a butterfly \"take-off\",showing the multiple wing-beats of one butterfly in one frame as it lifts off from a flower.How does he capture it?    Technology helps.A typical digital SLR camera shoots 20 frames a second.He uses a high-speed OM System which shoots 120 frames a second.\n\n[C] Britain has relatively few butterfly species compared with mainland Europe and 80% are in decline,mostly because intensive chemical farming has reduced many species to tiny fragments of habitat and small nature reserves.Global heating is benefiting some species but others are too isolated to find suitable new habitat,and gardening habits-paving over gardens and using pesticides -aren't helping either. Butterflies may not pollinate as many plants as wild bees and hoverflies, but because British butterflies are the best-studied group of insects in the world.they are an extremely useful indicator of the wider declines in flying insects.\n\n[D] Five years ago,at summer's end,Andrew Fusek Peters was diagnosed with bowel cancer.\"I was waiting for surgery,feeling really ill, sitting in my garden.It was amazing weather and there were painted lady butterflies everywhere,\"he says.\"They were a symbol of fragile life,of hope and defiance,and something appealed to my soul.\n\n[E] That makes it sound easy,and artificial,but Peters insists it is still a massive challenge.He typically takes between 10,000 and 20,000 shots to get one butterfly take-off sequence in focus.At such high shutter speeds, the depth of field is tiny,and as butterflies do not fly in a straight line they swiftly flutter out of focus.As well as thousands of attempts,it takes patience and field craft to anticipate a butterfly's likely flight-line-and catch it-in focus\n\n[F] So what's the appeal of a long,sweaty day in pursuit of an elusive, fast-moving wild animal?\"It just feels bloody brilliant,\"says Peters, \"If I've had a full day of good encounters with butterflies,met interesting butterfly people and I've got some good shots,that becomes a vault in my spiritual bank.It's a happy feeling.\"\n\n[G] A children's author and poet who had become a keen amateur photographer,Peters watched the butterflies and idly wondered if he could capture them in flight.It swiftly became an obsession as he recovered from a successful operation to remove the cancer.In recent summers,he has travelled the length and breadth of Britain to photograph all 58 native species of butterfly.Now the fruits of those summers have been published in a beautiful new book.\n\n[H] A butterfly takes off so quickly it is still impossible to react quickly enough to capture that take-off but if he half-presses the shutter, the camera saves the 70 previous frames before the moment he actually takes the picture.\"It's time travel,so I don't miss the moment of take-off,\" he says.After he's captured the butterfly taking off,he layers  10 to 15 frames together in Photoshop.",
+        "content": "Choose the paragraph for blank 41.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "D",
+        "answer_key": "D",
+        "tags": [
+          "fritillary",
+          "skittish",
+          "temper",
+          "signature",
+          "elusive",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_b-q42",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, C and H are fixed in the sequence shown below.\n\nSequence: [41] → [42] → [C] → [43] → [H] → [44] → [A] → [45]\n\n[A] Peters likes to photograph butterflies in a landscape, celebrating the beauty of their surroundings as well as the insects themselves.His pictures of a Glanville fritillary rising from the sea-pinks beside the chalk cliffs of Compton Bay on the Isle of Wight are particularly glorious.These take-off shots are even more challenging because they require a wide-angle lens,which means he must be less than 2cm from the butterfly.It's incredibly difficult to get that close to a skittish sun-warmed insect.Unlike some photographers,who \"cheat\"by keeping insects in a fridge to slow them down.Peters refuses to tamper with wild butterflies.\n\n[B] Peters' signature shot is a butterfly \"take-off\",showing the multiple wing-beats of one butterfly in one frame as it lifts off from a flower.How does he capture it?    Technology helps.A typical digital SLR camera shoots 20 frames a second.He uses a high-speed OM System which shoots 120 frames a second.\n\n[C] Britain has relatively few butterfly species compared with mainland Europe and 80% are in decline,mostly because intensive chemical farming has reduced many species to tiny fragments of habitat and small nature reserves.Global heating is benefiting some species but others are too isolated to find suitable new habitat,and gardening habits-paving over gardens and using pesticides -aren't helping either. Butterflies may not pollinate as many plants as wild bees and hoverflies, but because British butterflies are the best-studied group of insects in the world.they are an extremely useful indicator of the wider declines in flying insects.\n\n[D] Five years ago,at summer's end,Andrew Fusek Peters was diagnosed with bowel cancer.\"I was waiting for surgery,feeling really ill, sitting in my garden.It was amazing weather and there were painted lady butterflies everywhere,\"he says.\"They were a symbol of fragile life,of hope and defiance,and something appealed to my soul.\n\n[E] That makes it sound easy,and artificial,but Peters insists it is still a massive challenge.He typically takes between 10,000 and 20,000 shots to get one butterfly take-off sequence in focus.At such high shutter speeds, the depth of field is tiny,and as butterflies do not fly in a straight line they swiftly flutter out of focus.As well as thousands of attempts,it takes patience and field craft to anticipate a butterfly's likely flight-line-and catch it-in focus\n\n[F] So what's the appeal of a long,sweaty day in pursuit of an elusive, fast-moving wild animal?\"It just feels bloody brilliant,\"says Peters, \"If I've had a full day of good encounters with butterflies,met interesting butterfly people and I've got some good shots,that becomes a vault in my spiritual bank.It's a happy feeling.\"\n\n[G] A children's author and poet who had become a keen amateur photographer,Peters watched the butterflies and idly wondered if he could capture them in flight.It swiftly became an obsession as he recovered from a successful operation to remove the cancer.In recent summers,he has travelled the length and breadth of Britain to photograph all 58 native species of butterfly.Now the fruits of those summers have been published in a beautiful new book.\n\n[H] A butterfly takes off so quickly it is still impossible to react quickly enough to capture that take-off but if he half-presses the shutter, the camera saves the 70 previous frames before the moment he actually takes the picture.\"It's time travel,so I don't miss the moment of take-off,\" he says.After he's captured the butterfly taking off,he layers  10 to 15 frames together in Photoshop.",
+        "content": "Choose the paragraph for blank 42.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "G",
+        "answer_key": "G",
+        "tags": [
+          "fritillary",
+          "skittish",
+          "temper",
+          "signature",
+          "elusive",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_b-q43",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, C and H are fixed in the sequence shown below.\n\nSequence: [41] → [42] → [C] → [43] → [H] → [44] → [A] → [45]\n\n[A] Peters likes to photograph butterflies in a landscape, celebrating the beauty of their surroundings as well as the insects themselves.His pictures of a Glanville fritillary rising from the sea-pinks beside the chalk cliffs of Compton Bay on the Isle of Wight are particularly glorious.These take-off shots are even more challenging because they require a wide-angle lens,which means he must be less than 2cm from the butterfly.It's incredibly difficult to get that close to a skittish sun-warmed insect.Unlike some photographers,who \"cheat\"by keeping insects in a fridge to slow them down.Peters refuses to tamper with wild butterflies.\n\n[B] Peters' signature shot is a butterfly \"take-off\",showing the multiple wing-beats of one butterfly in one frame as it lifts off from a flower.How does he capture it?    Technology helps.A typical digital SLR camera shoots 20 frames a second.He uses a high-speed OM System which shoots 120 frames a second.\n\n[C] Britain has relatively few butterfly species compared with mainland Europe and 80% are in decline,mostly because intensive chemical farming has reduced many species to tiny fragments of habitat and small nature reserves.Global heating is benefiting some species but others are too isolated to find suitable new habitat,and gardening habits-paving over gardens and using pesticides -aren't helping either. Butterflies may not pollinate as many plants as wild bees and hoverflies, but because British butterflies are the best-studied group of insects in the world.they are an extremely useful indicator of the wider declines in flying insects.\n\n[D] Five years ago,at summer's end,Andrew Fusek Peters was diagnosed with bowel cancer.\"I was waiting for surgery,feeling really ill, sitting in my garden.It was amazing weather and there were painted lady butterflies everywhere,\"he says.\"They were a symbol of fragile life,of hope and defiance,and something appealed to my soul.\n\n[E] That makes it sound easy,and artificial,but Peters insists it is still a massive challenge.He typically takes between 10,000 and 20,000 shots to get one butterfly take-off sequence in focus.At such high shutter speeds, the depth of field is tiny,and as butterflies do not fly in a straight line they swiftly flutter out of focus.As well as thousands of attempts,it takes patience and field craft to anticipate a butterfly's likely flight-line-and catch it-in focus\n\n[F] So what's the appeal of a long,sweaty day in pursuit of an elusive, fast-moving wild animal?\"It just feels bloody brilliant,\"says Peters, \"If I've had a full day of good encounters with butterflies,met interesting butterfly people and I've got some good shots,that becomes a vault in my spiritual bank.It's a happy feeling.\"\n\n[G] A children's author and poet who had become a keen amateur photographer,Peters watched the butterflies and idly wondered if he could capture them in flight.It swiftly became an obsession as he recovered from a successful operation to remove the cancer.In recent summers,he has travelled the length and breadth of Britain to photograph all 58 native species of butterfly.Now the fruits of those summers have been published in a beautiful new book.\n\n[H] A butterfly takes off so quickly it is still impossible to react quickly enough to capture that take-off but if he half-presses the shutter, the camera saves the 70 previous frames before the moment he actually takes the picture.\"It's time travel,so I don't miss the moment of take-off,\" he says.After he's captured the butterfly taking off,he layers  10 to 15 frames together in Photoshop.",
+        "content": "Choose the paragraph for blank 43.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "B",
+        "answer_key": "B",
+        "tags": [
+          "fritillary",
+          "skittish",
+          "temper",
+          "signature",
+          "elusive",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_b-q44",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, C and H are fixed in the sequence shown below.\n\nSequence: [41] → [42] → [C] → [43] → [H] → [44] → [A] → [45]\n\n[A] Peters likes to photograph butterflies in a landscape, celebrating the beauty of their surroundings as well as the insects themselves.His pictures of a Glanville fritillary rising from the sea-pinks beside the chalk cliffs of Compton Bay on the Isle of Wight are particularly glorious.These take-off shots are even more challenging because they require a wide-angle lens,which means he must be less than 2cm from the butterfly.It's incredibly difficult to get that close to a skittish sun-warmed insect.Unlike some photographers,who \"cheat\"by keeping insects in a fridge to slow them down.Peters refuses to tamper with wild butterflies.\n\n[B] Peters' signature shot is a butterfly \"take-off\",showing the multiple wing-beats of one butterfly in one frame as it lifts off from a flower.How does he capture it?    Technology helps.A typical digital SLR camera shoots 20 frames a second.He uses a high-speed OM System which shoots 120 frames a second.\n\n[C] Britain has relatively few butterfly species compared with mainland Europe and 80% are in decline,mostly because intensive chemical farming has reduced many species to tiny fragments of habitat and small nature reserves.Global heating is benefiting some species but others are too isolated to find suitable new habitat,and gardening habits-paving over gardens and using pesticides -aren't helping either. Butterflies may not pollinate as many plants as wild bees and hoverflies, but because British butterflies are the best-studied group of insects in the world.they are an extremely useful indicator of the wider declines in flying insects.\n\n[D] Five years ago,at summer's end,Andrew Fusek Peters was diagnosed with bowel cancer.\"I was waiting for surgery,feeling really ill, sitting in my garden.It was amazing weather and there were painted lady butterflies everywhere,\"he says.\"They were a symbol of fragile life,of hope and defiance,and something appealed to my soul.\n\n[E] That makes it sound easy,and artificial,but Peters insists it is still a massive challenge.He typically takes between 10,000 and 20,000 shots to get one butterfly take-off sequence in focus.At such high shutter speeds, the depth of field is tiny,and as butterflies do not fly in a straight line they swiftly flutter out of focus.As well as thousands of attempts,it takes patience and field craft to anticipate a butterfly's likely flight-line-and catch it-in focus\n\n[F] So what's the appeal of a long,sweaty day in pursuit of an elusive, fast-moving wild animal?\"It just feels bloody brilliant,\"says Peters, \"If I've had a full day of good encounters with butterflies,met interesting butterfly people and I've got some good shots,that becomes a vault in my spiritual bank.It's a happy feeling.\"\n\n[G] A children's author and poet who had become a keen amateur photographer,Peters watched the butterflies and idly wondered if he could capture them in flight.It swiftly became an obsession as he recovered from a successful operation to remove the cancer.In recent summers,he has travelled the length and breadth of Britain to photograph all 58 native species of butterfly.Now the fruits of those summers have been published in a beautiful new book.\n\n[H] A butterfly takes off so quickly it is still impossible to react quickly enough to capture that take-off but if he half-presses the shutter, the camera saves the 70 previous frames before the moment he actually takes the picture.\"It's time travel,so I don't miss the moment of take-off,\" he says.After he's captured the butterfly taking off,he layers  10 to 15 frames together in Photoshop.",
+        "content": "Choose the paragraph for blank 44.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "E",
+        "answer_key": "E",
+        "tags": [
+          "fritillary",
+          "skittish",
+          "temper",
+          "signature",
+          "elusive",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-reading_b-q45",
+      "fields": {
+        "passage_text": "Directions (normalized): Reorder paragraphs A-H. Paragraphs A, C and H are fixed in the sequence shown below.\n\nSequence: [41] → [42] → [C] → [43] → [H] → [44] → [A] → [45]\n\n[A] Peters likes to photograph butterflies in a landscape, celebrating the beauty of their surroundings as well as the insects themselves.His pictures of a Glanville fritillary rising from the sea-pinks beside the chalk cliffs of Compton Bay on the Isle of Wight are particularly glorious.These take-off shots are even more challenging because they require a wide-angle lens,which means he must be less than 2cm from the butterfly.It's incredibly difficult to get that close to a skittish sun-warmed insect.Unlike some photographers,who \"cheat\"by keeping insects in a fridge to slow them down.Peters refuses to tamper with wild butterflies.\n\n[B] Peters' signature shot is a butterfly \"take-off\",showing the multiple wing-beats of one butterfly in one frame as it lifts off from a flower.How does he capture it?    Technology helps.A typical digital SLR camera shoots 20 frames a second.He uses a high-speed OM System which shoots 120 frames a second.\n\n[C] Britain has relatively few butterfly species compared with mainland Europe and 80% are in decline,mostly because intensive chemical farming has reduced many species to tiny fragments of habitat and small nature reserves.Global heating is benefiting some species but others are too isolated to find suitable new habitat,and gardening habits-paving over gardens and using pesticides -aren't helping either. Butterflies may not pollinate as many plants as wild bees and hoverflies, but because British butterflies are the best-studied group of insects in the world.they are an extremely useful indicator of the wider declines in flying insects.\n\n[D] Five years ago,at summer's end,Andrew Fusek Peters was diagnosed with bowel cancer.\"I was waiting for surgery,feeling really ill, sitting in my garden.It was amazing weather and there were painted lady butterflies everywhere,\"he says.\"They were a symbol of fragile life,of hope and defiance,and something appealed to my soul.\n\n[E] That makes it sound easy,and artificial,but Peters insists it is still a massive challenge.He typically takes between 10,000 and 20,000 shots to get one butterfly take-off sequence in focus.At such high shutter speeds, the depth of field is tiny,and as butterflies do not fly in a straight line they swiftly flutter out of focus.As well as thousands of attempts,it takes patience and field craft to anticipate a butterfly's likely flight-line-and catch it-in focus\n\n[F] So what's the appeal of a long,sweaty day in pursuit of an elusive, fast-moving wild animal?\"It just feels bloody brilliant,\"says Peters, \"If I've had a full day of good encounters with butterflies,met interesting butterfly people and I've got some good shots,that becomes a vault in my spiritual bank.It's a happy feeling.\"\n\n[G] A children's author and poet who had become a keen amateur photographer,Peters watched the butterflies and idly wondered if he could capture them in flight.It swiftly became an obsession as he recovered from a successful operation to remove the cancer.In recent summers,he has travelled the length and breadth of Britain to photograph all 58 native species of butterfly.Now the fruits of those summers have been published in a beautiful new book.\n\n[H] A butterfly takes off so quickly it is still impossible to react quickly enough to capture that take-off but if he half-presses the shutter, the camera saves the 70 previous frames before the moment he actually takes the picture.\"It's time travel,so I don't miss the moment of take-off,\" he says.After he's captured the butterfly taking off,he layers  10 to 15 frames together in Photoshop.",
+        "content": "Choose the paragraph for blank 45.",
+        "options_json": {
+          "A": "A",
+          "B": "B",
+          "C": "C",
+          "D": "D",
+          "E": "E",
+          "F": "F",
+          "G": "G",
+          "H": "H"
+        },
+        "correct_answer": "F",
+        "answer_key": "F",
+        "tags": [
+          "fritillary",
+          "skittish",
+          "temper",
+          "signature",
+          "elusive",
+          "integrity-repair:2026-10",
+          "part-b-structure-restored"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-writing_a-q51",
+      "fields": {
+        "passage_text": "2025 English I Writing Part A — normalized task reconstruction\n\nReply to your classmate Paul in about 100 words. Paul is excited that you plan to invite young craftspeople to campus for an innovative craft-making demonstration. Explain what they will show and tell him how he can help with the preparation.\n\nUse “Li Ming” as your name.",
+        "content": "2025 English I Writing Part A — normalized task reconstruction\n\nReply to your classmate Paul in about 100 words. Paul is excited that you plan to invite young craftspeople to campus for an innovative craft-making demonstration. Explain what they will show and tell him how he can help with the preparation.\n\nUse “Li Ming” as your name.",
+        "answer_key": null,
+        "official_analysis": "The previous database row contained a different year's library-book recommendation task. This row now records the correct 2025 task in normalized, non-verbatim form. Restore exact typography from the user's own source PDF/DOCX when available.",
+        "tags": [
+          "integrity-repair:2026-10",
+          "normalized-task-reconstruction",
+          "needs-owned-source-for-verbatim"
+        ]
+      }
+    },
+    {
+      "q_id": "2025-eng1-writing_b-q52",
+      "fields": {
+        "passage_text": "2025 English I Writing Part B — normalized task reconstruction\n\nWrite a 160–200 word essay based on the table. Briefly describe the data, interpret what it shows, and give your comments.\n\nTable: average number of major durable consumer goods owned per 100 households in China at year-end.\n2014 — air conditioners 75.2; washing machines 83.7; refrigerators/freezers 85.5.\n2017 — 96.1; 91.7; 95.3.\n2020 — 117.7; 96.7; 101.8.\n2023 — 145.9; 98.2; 103.4.",
+        "content": "2025 English I Writing Part B — normalized task reconstruction\n\nWrite a 160–200 word essay based on the table. Briefly describe the data, interpret what it shows, and give your comments.\n\nTable: average number of major durable consumer goods owned per 100 households in China at year-end.\n2014 — air conditioners 75.2; washing machines 83.7; refrigerators/freezers 85.5.\n2017 — 96.1; 91.7; 95.3.\n2020 — 117.7; 96.7; 101.8.\n2023 — 145.9; 98.2; 103.4.",
+        "answer_key": null,
+        "official_analysis": "The previous row used a generic/incorrect chart description. The table values and topic have been restored; the wording is normalized rather than claimed as a verbatim transcript.",
+        "tags": [
+          "integrity-repair:2026-10",
+          "normalized-task-reconstruction",
+          "table-data-restored"
+        ]
+      },
+      "image_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1080\" height=\"620\" viewBox=\"0 0 1080 620\">\n<rect width=\"1080\" height=\"620\" fill=\"white\"/>\n<text x=\"540\" y=\"55\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"28\">近年来全国居民平均每百户年末主要耐用消费品拥有量</text>\n<g font-family=\"sans-serif\" font-size=\"22\" text-anchor=\"middle\">\n<text x=\"150\" y=\"125\">年份</text><text x=\"390\" y=\"125\">空调（台）</text><text x=\"630\" y=\"125\">洗衣机（台）</text><text x=\"870\" y=\"125\">电冰箱（柜）（台）</text>\n<text x=\"150\" y=\"215\">2014</text><text x=\"390\" y=\"215\">75.2</text><text x=\"630\" y=\"215\">83.7</text><text x=\"870\" y=\"215\">85.5</text>\n<text x=\"150\" y=\"305\">2017</text><text x=\"390\" y=\"305\">96.1</text><text x=\"630\" y=\"305\">91.7</text><text x=\"870\" y=\"305\">95.3</text>\n<text x=\"150\" y=\"395\">2020</text><text x=\"390\" y=\"395\">117.7</text><text x=\"630\" y=\"395\">96.7</text><text x=\"870\" y=\"395\">101.8</text>\n<text x=\"150\" y=\"485\">2023</text><text x=\"390\" y=\"485\">145.9</text><text x=\"630\" y=\"485\">98.2</text><text x=\"870\" y=\"485\">103.4</text>\n</g>\n<g stroke=\"#444\" fill=\"none\" stroke-width=\"2\">\n<rect x=\"40\" y=\"85\" width=\"1000\" height=\"450\"/>\n<line x1=\"270\" y1=\"85\" x2=\"270\" y2=\"535\"/><line x1=\"510\" y1=\"85\" x2=\"510\" y2=\"535\"/><line x1=\"750\" y1=\"85\" x2=\"750\" y2=\"535\"/>\n<line x1=\"40\" y1=\"155\" x2=\"1040\" y2=\"155\"/><line x1=\"40\" y1=\"245\" x2=\"1040\" y2=\"245\"/><line x1=\"40\" y1=\"335\" x2=\"1040\" y2=\"335\"/><line x1=\"40\" y1=\"425\" x2=\"1040\" y2=\"425\"/>\n</g>\n</svg>"
+    }
+  ]
+}
