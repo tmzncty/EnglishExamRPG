@@ -94,14 +94,16 @@
       "q_id": "2016-eng1-reading_a-q27",
       "fields": {
         "correct_answer": "D",
-        "official_analysis": "多套同期/后续答案表一致把本题答案标为 D。公开转录版本对 A/D 的选项顺序存在冲突，因此保留当前卷面选项文本，同时把答案键恢复为 D，并标记该题存在公共转录的选项顺序差异。",
+        "official_analysis": "公开转录存在选项顺序冲突：一类版本把“largely overshadowed”列为 A，另一类列为 D，而多套答案表把答案标为 D。为避免因转载排版差异误判，本库以 D 为主标签，同时将 A 设为可接受答案，并保留争议标记。",
         "tags": [
           "endorse",
           "intrusion",
           "coherence",
           "integrity-repair:2026-10",
           "public-option-order-discrepancy",
-          "answer-label-verified:D"
+          "answer-label-verified:D",
+          "accepted-answer:A",
+          "answer-key-disputed:A/D"
         ]
       }
     },
