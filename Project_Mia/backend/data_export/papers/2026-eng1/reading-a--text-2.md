@@ -6,11 +6,11 @@
 
 There’s no business like show business — but in Los Angeles, it feels like there’s no business at all.
 
-If that sounds melodramatic, consider this: The Art Directors Guild, a labor union representing about 3,000 film workers, has suspended a training program and issued a statement explaining that “we cannot in good conscience encourage you to pursue our profession” This is a reaction to Hollywood’s decline, which is reaching a critical point for the industry and Southern California.
+If that sounds melodramatic, consider this: The Art Directors Guild, a labor union representing about 3,000 film workers, has suspended a training program and issued a statement explaining that “we cannot in good conscience encourage you to pursue our profession.” This is a reaction to Hollywood’s decline, which is reaching a critical point for the industry and Southern California.
 
 Production has been slipping away from Hollywood since the 1950s, but the effects have never been more apparent than at present. Other regions in the United States, Canada and Europe have steadily increased incentives to attract TV shows and movies, leaving California in the dust. Georgia offers up to 30% in transferable tax credits on film and TV production costs, plus an additional 10% increase on the base tax credit if the project includes a Georgia promotional logo.
 
-Even as California lost a huge volume of production to other locations, there was still plenty of film production taking place in Los Angeles before this year. We were kept afloat by “peak TV” the glut of content that was required by the explosion of streaming services.
+Even as California lost a huge volume of production to other locations, there was still plenty of film production taking place in Los Angeles before this year. We were kept afloat by “peak TV”: the glut of content that was required by the explosion of streaming services.
 
 But 2022 was the peak of peak TV. Back then platforms such as Netflix, Amazon and Apple TV hemorrhaged billions of dollars to generate content to attract new subscribers, resulting in 633 scripted series being released that year. As the streamers’ emphasis changed from subscriber growth to profitability, prices for the services went up and the number of new shows went down to 481 released in 2023, with the number expected to dip into the 300s within a few years.
 
