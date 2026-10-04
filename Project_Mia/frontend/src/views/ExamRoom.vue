@@ -175,8 +175,16 @@
                     <div v-else class="font-wenkai leading-relaxed text-gray-700">{{ currentData.prompt }}</div>
                   </div>
 
+                  <!-- Integrity warning for quarantined/incomplete source material -->
+                  <div
+                    v-if="currentData.integrity_warning"
+                    class="mb-4 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-900"
+                  >
+                    ⚠ {{ currentData.integrity_warning }}
+                  </div>
+
                   <!-- Dynamic Content: Passage (Fallback for Reading/Translation) -->
-                  <div v-else-if="currentData.passage" class="whitespace-pre-wrap">{{ currentData.passage }}</div>
+                  <div v-if="currentData.passage" class="whitespace-pre-wrap">{{ currentData.passage }}</div>
 
                   <div v-else class="text-gray-500 italic">[No passage content]</div>
                 </div>
