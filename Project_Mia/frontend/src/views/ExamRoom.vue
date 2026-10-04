@@ -149,6 +149,14 @@
                 >
                   <h2 class="text-xl font-bold mb-6 text-mia-pink">{{ currentData.label }}</h2>
                   
+                  <!-- Integrity warning for quarantined/incomplete source material -->
+                  <div
+                    v-if="currentData.integrity_warning"
+                    class="mb-4 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-900"
+                  >
+                    ⚠ {{ currentData.integrity_warning }}
+                  </div>
+
                   <!-- Writing B: base64 图片 prompt (Priority over passage) -->
                   <div v-if="currentData.type === 'writing_b'">
                     <div v-if="currentData.image && currentData.image.length > 100" class="flex flex-col items-center gap-3">
@@ -175,16 +183,8 @@
                     <div v-else class="font-wenkai leading-relaxed text-gray-700">{{ currentData.prompt }}</div>
                   </div>
 
-                  <!-- Integrity warning for quarantined/incomplete source material -->
-                  <div
-                    v-if="currentData.integrity_warning"
-                    class="mb-4 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm leading-relaxed text-amber-900"
-                  >
-                    ⚠ {{ currentData.integrity_warning }}
-                  </div>
-
                   <!-- Dynamic Content: Passage (Fallback for Reading/Translation) -->
-                  <div v-if="currentData.passage" class="whitespace-pre-wrap">{{ currentData.passage }}</div>
+                  <div v-else-if="currentData.passage" class="whitespace-pre-wrap">{{ currentData.passage }}</div>
 
                   <div v-else class="text-gray-500 italic">[No passage content]</div>
                 </div>
