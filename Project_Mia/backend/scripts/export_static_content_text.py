@@ -79,6 +79,22 @@ def export_group(path: Path, paper: dict[str, Any], group_rows: list[dict[str, A
     if first.get("group_name"):
         lines.append(f"\n## {first['group_name']}")
 
+    group_tags: set[str] = set()
+    for q in group_rows:
+        tags = parse_json(q.get("tags"))
+        if isinstance(tags, list):
+            group_tags.update(str(tag) for tag in tags)
+
+    if "quarantine:verbatim-practice" in group_tags:
+        lines.extend(
+            [
+                "",
+                "> **Integrity warning:** the repository's owned source for this passage is incomplete.",
+                "> Questions/keys have been reviewed where possible, but do not use this group for verbatim",
+                "> real-exam practice until an owned original PDF/DOCX is available.",
+            ]
+        )
+
     passages: list[str] = []
     seen: set[str] = set()
     for q in group_rows:
