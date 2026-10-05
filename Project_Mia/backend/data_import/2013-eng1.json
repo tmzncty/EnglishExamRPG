@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "review_status": "objective-reviewed",
+  "review_status": "in-review",
   "provenance": {
     "note": "Mechanical review draft exported from the pre-existing SQLite corpus. Do not treat as independently verified until review_status is changed.",
     "manual_review": {
-      "objective_keys": "manually-transcribed-and-cross-checked",
-      "answer_table": "https://english-exam.lazynote.cn/kaoyan/paper/2013-english-one/"
+      "rejected_pass": {
+        "status": "single-answer-table-pass-rejected",
+        "reason": "Answer-letter labels in the first public table were not stable against canonical option ordering (confirmed at 2020 Q1/Q3); question text, option mapping and answer must be verified together with independent sources."
+      }
     }
   },
   "paper": {
@@ -1004,7 +1006,7 @@
       "question_number": 27,
       "passage_text": "An old saying has it that half of all advertising budgets are wasted – the trouble is, no one knows which half. In the internet age, at least in theory, this fraction can be much reduced. By watching what people search for, click on and say online, companies can aim “behavioural” ads at those most likely to buy.\n\nIn the past couple of weeks a quarrel has illustrated the value to advertisers of such fine-grained information: Should advertisers assume that people are happy to be tracked and sent behavioural ads? Or should they have explicit permission?\n\nIn December 2010 America’s Federal Trade Commission (FTC) proposed adding a “do not track” (DNT) option to internet browsers, so that users could tell advertisers that they did not want to be followed. Microsoft’s Internet Explorer and Apple’s Safari both offer DNT; Google’s Chrome is due to do so this year. In February the FTC and the Digital Advertising Alliance (DAA) agreed that the industry would get cracking on responding to DNT requests.\n\nOn May 31st Microsoft set off the row. It said that Internet Explorer 10, the version due to appear with Windows 8, would have DNT as a default.\n\nAdvertisers are horrified. Human nature being what it is, most people stick with default settings. Few switch DNT on now, but if tracking is off it will stay off. Bob Liodice, the chief executive of the Association of National Advertisers, says consumers will be worse off if the industry cannot collect information about their preferences. People will not get fewer ads, he says. “They’ll get less meaningful, less targeted ads.”\n\nIt is not yet clear how advertisers will respond. Getting a DNT signal does not oblige anyone to stop tracking, although some companies have promised to do so. Unable to tell whether someone really objects to behavioural ads or whether they are sticking with Microsoft’s default, some may ignore a DNT signal and press on anyway.\n\nAlso unclear is why Microsoft has gone it alone. After all, it has an ad business too, which it says will comply with DNT requests, though it is still working out how. If it is trying to upset Google, which relies almost wholly on advertising, it has chosen an indirect method: there is no guarantee that DNT by default will become the norm. DNT does not seem an obviously huge selling point for windows 8 – though the firm has compared some of its other products favourably with Google’s on that count before. Brendon Lynch, Microsoft’s chief privacy officer, blogged: “We believe consumers should have more control.” Could it really be that simple?",
       "content": "“the industry” (Line 5, Para.3) refers to",
-      "correct_answer": "D",
+      "correct_answer": "A",
       "image_base64": null,
       "official_analysis": "被考词所在句③句指出∶FTC 和 DAA一致认为 the industry 将会对 DNT 要求迅速做出回应。该段①句指出 FTC提议在浏览器上添加 DNT 选项，可见这个提议的动作执行者是浏览器开发商;②句随后介绍微软 IE 浏览器、苹果 Safari 浏览器、谷歌 Chrome浏览器先后推出 DNT选项。由此可知，本段主要谈及浏览器供应商对于 DNT提议的回应问题，因此③句中 FTC 和 DAA 所提到的 the industry应该也是互联网浏览器开发商，【A】正确。",
       "ai_persona_prompt": "Seriously? This is basic contextual understanding. FTC proposed something for internet browsers. Microsoft, Apple, and Google, who MAKE internet browsers, reacted. So, 'the industry' obviously refers to the guys MAKING the browsers, not some random analysts or advertisers. Option A, duh!",

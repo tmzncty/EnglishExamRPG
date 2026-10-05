@@ -278,7 +278,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 - **C.** Therefore
 - **D.** Instead
 
-**Correct answer:** B
+**Correct answer:** C
 
 **Analysis:**
 

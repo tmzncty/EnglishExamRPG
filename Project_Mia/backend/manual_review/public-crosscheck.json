@@ -4,7 +4,23 @@
     "2010": {
       "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2010-english-one/",
       "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2010%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
-      "answer_mismatches": [],
+      "answer_mismatches": [
+        {
+          "q_id": "2010-eng1-reading_a-q32",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2010-eng1-reading_a-q38",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2010-eng1-reading_a-q40",
+          "db": "B",
+          "source": "D"
+        }
+      ],
       "missing_question_text": [
         "2010-eng1-writing_b-q52"
       ],
@@ -20,7 +36,7 @@
       "answer_pairs_found": 45,
       "counts": {
         "questions": 52,
-        "answer_mismatches": 0,
+        "answer_mismatches": 3,
         "missing_question_text": 1,
         "missing_options": 0,
         "passage_fingerprint_misses": 0,
@@ -51,7 +67,13 @@
     "2012": {
       "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2012-english-one/",
       "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2012%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
-      "answer_mismatches": [],
+      "answer_mismatches": [
+        {
+          "q_id": "2012-eng1-reading_a-q37",
+          "db": "A",
+          "source": "D"
+        }
+      ],
       "missing_question_text": [
         "2012-eng1-reading_b-q41",
         "2012-eng1-reading_b-q42",
@@ -76,7 +98,7 @@
       "answer_pairs_found": 45,
       "counts": {
         "questions": 52,
-        "answer_mismatches": 0,
+        "answer_mismatches": 1,
         "missing_question_text": 6,
         "missing_options": 0,
         "passage_fingerprint_misses": 0,
@@ -87,7 +109,13 @@
     "2013": {
       "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2013-english-one/",
       "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2013%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
-      "answer_mismatches": [],
+      "answer_mismatches": [
+        {
+          "q_id": "2013-eng1-reading_a-q27",
+          "db": "A",
+          "source": "D"
+        }
+      ],
       "missing_question_text": [
         "2013-eng1-writing_a-q51",
         "2013-eng1-writing_b-q52"
@@ -99,7 +127,7 @@
       "answer_pairs_found": 45,
       "counts": {
         "questions": 52,
-        "answer_mismatches": 0,
+        "answer_mismatches": 1,
         "missing_question_text": 2,
         "missing_options": 0,
         "passage_fingerprint_misses": 0,
@@ -193,7 +221,13 @@
     "2016": {
       "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2016-english-one/",
       "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2016%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
-      "answer_mismatches": [],
+      "answer_mismatches": [
+        {
+          "q_id": "2016-eng1-reading_a-q27",
+          "db": "A",
+          "source": "D"
+        }
+      ],
       "missing_question_text": [
         "2016-eng1-translation-q50"
       ],
@@ -204,7 +238,7 @@
       "answer_pairs_found": 45,
       "counts": {
         "questions": 52,
-        "answer_mismatches": 0,
+        "answer_mismatches": 1,
         "missing_question_text": 1,
         "missing_options": 0,
         "passage_fingerprint_misses": 0,
@@ -280,7 +314,103 @@
     "2020": {
       "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2020-english-one/",
       "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2020%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
-      "answer_mismatches": [],
+      "answer_mismatches": [
+        {
+          "q_id": "2020-eng1-use_of_english-q1",
+          "db": "C",
+          "source": "B"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q3",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q4",
+          "db": "D",
+          "source": "B"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q5",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q6",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q7",
+          "db": "D",
+          "source": "B"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q8",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q9",
+          "db": "D",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q10",
+          "db": "C",
+          "source": "A"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q11",
+          "db": "C",
+          "source": "A"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q12",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q13",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q14",
+          "db": "D",
+          "source": "B"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q15",
+          "db": "C",
+          "source": "A"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q16",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q17",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q18",
+          "db": "B",
+          "source": "A"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q19",
+          "db": "C",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q20",
+          "db": "D",
+          "source": "B"
+        }
+      ],
       "missing_question_text": [],
       "missing_options": [
         {
@@ -316,7 +446,7 @@
       "answer_pairs_found": 45,
       "counts": {
         "questions": 52,
-        "answer_mismatches": 0,
+        "answer_mismatches": 19,
         "missing_question_text": 0,
         "missing_options": 1,
         "passage_fingerprint_misses": 3,
@@ -327,7 +457,13 @@
     "2021": {
       "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2021-english-one/",
       "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2021%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
-      "answer_mismatches": [],
+      "answer_mismatches": [
+        {
+          "q_id": "2021-eng1-use_of_english-q16",
+          "db": "C",
+          "source": "B"
+        }
+      ],
       "missing_question_text": [
         "2021-eng1-reading_b-q41",
         "2021-eng1-reading_b-q43"
@@ -376,7 +512,7 @@
       "answer_pairs_found": 45,
       "counts": {
         "questions": 52,
-        "answer_mismatches": 0,
+        "answer_mismatches": 1,
         "missing_question_text": 2,
         "missing_options": 5,
         "passage_fingerprint_misses": 2,
@@ -444,7 +580,38 @@
     "2023": {
       "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2023-english-one/",
       "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2023%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
-      "answer_mismatches": [],
+      "answer_mismatches": [
+        {
+          "q_id": "2023-eng1-use_of_english-q18",
+          "db": "D",
+          "source": "A"
+        },
+        {
+          "q_id": "2023-eng1-use_of_english-q19",
+          "db": "A",
+          "source": "D"
+        },
+        {
+          "q_id": "2023-eng1-use_of_english-q20",
+          "db": "D",
+          "source": "A"
+        },
+        {
+          "q_id": "2023-eng1-reading_b-q41",
+          "db": "F",
+          "source": "B"
+        },
+        {
+          "q_id": "2023-eng1-reading_b-q42",
+          "db": "D",
+          "source": "F"
+        },
+        {
+          "q_id": "2023-eng1-reading_b-q43",
+          "db": "B",
+          "source": "D"
+        }
+      ],
       "missing_question_text": [],
       "missing_options": [],
       "passage_fingerprint_misses": [],
@@ -458,7 +625,7 @@
       "answer_pairs_found": 45,
       "counts": {
         "questions": 52,
-        "answer_mismatches": 0,
+        "answer_mismatches": 6,
         "missing_question_text": 0,
         "missing_options": 0,
         "passage_fingerprint_misses": 0,
@@ -502,7 +669,33 @@
     "2025": {
       "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2025-english-one/",
       "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2025%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
-      "answer_mismatches": [],
+      "answer_mismatches": [
+        {
+          "q_id": "2025-eng1-reading_a-q28",
+          "db": "D",
+          "source": "C"
+        },
+        {
+          "q_id": "2025-eng1-reading_a-q37",
+          "db": "A",
+          "source": "B"
+        },
+        {
+          "q_id": "2025-eng1-reading_b-q42",
+          "db": "B",
+          "source": "G"
+        },
+        {
+          "q_id": "2025-eng1-reading_b-q43",
+          "db": "H",
+          "source": "B"
+        },
+        {
+          "q_id": "2025-eng1-reading_b-q45",
+          "db": "A",
+          "source": "F"
+        }
+      ],
       "missing_question_text": [
         "2025-eng1-reading_a-q24",
         "2025-eng1-reading_a-q32",
@@ -565,7 +758,7 @@
       "answer_pairs_found": 45,
       "counts": {
         "questions": 52,
-        "answer_mismatches": 0,
+        "answer_mismatches": 5,
         "missing_question_text": 6,
         "missing_options": 5,
         "passage_fingerprint_misses": 4,

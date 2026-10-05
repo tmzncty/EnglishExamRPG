@@ -40,7 +40,7 @@ D
 
 选择42题应该填入的段落
 
-**Correct answer:** G
+**Correct answer:** B
 
 **Answer key / reference answer:**
 
@@ -56,7 +56,7 @@ B
 
 选择43题应该填入的段落
 
-**Correct answer:** B
+**Correct answer:** H
 
 **Answer key / reference answer:**
 
@@ -88,7 +88,7 @@ E
 
 选择45题应该填入的段落
 
-**Correct answer:** F
+**Correct answer:** A
 
 **Answer key / reference answer:**
 

@@ -46,7 +46,7 @@ Which of the following is true of Paragraph 2?
 - **C.** Labor Party has long been fighting against public-sector unions.
 - **D.** Public-sector unions seldom get in trouble for their actions.
 
-**Correct answer:** D
+**Correct answer:** A
 
 **Analysis:**
 

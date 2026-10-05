@@ -61,7 +61,7 @@ According to Paragraph 4, McCreevy objects to the IASB’s attempt to
 - **C.** act on their own in rule-setting.
 - **D.** take gradual measures in reform.
 
-**Correct answer:** C
+**Correct answer:** A
 
 **Analysis:**
 
@@ -95,7 +95,7 @@ The author’s attitude towards standard-setters is one of
 - **C.** objectiveness.
 - **D.** sympathy.
 
-**Correct answer:** D
+**Correct answer:** B
 
 **Analysis:**
 

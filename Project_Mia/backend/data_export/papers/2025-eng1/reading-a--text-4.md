@@ -40,7 +40,7 @@ Compared  with  digital  objects,tangible  artifacts
 - **C.** require more international preservation
 - **D.** are less likely to suffer serious damage
 
-**Correct answer:** B
+**Correct answer:** A
 
 **Analysis:**
 

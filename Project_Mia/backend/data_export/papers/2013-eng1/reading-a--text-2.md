@@ -46,7 +46,7 @@ It is suggested in Paragraph 1 that “behavioural” ads help advertisers to
 - **C.** e-commerce conductors.
 - **D.** online advertisers.
 
-**Correct answer:** D
+**Correct answer:** A
 
 **Analysis:**
 

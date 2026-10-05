@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "review_status": "objective-reviewed",
+  "review_status": "in-review",
   "provenance": {
     "note": "Mechanical review draft exported from the pre-existing SQLite corpus. Do not treat as independently verified until review_status is changed.",
     "manual_review": {
-      "objective_keys": "manually-transcribed-and-cross-checked",
-      "answer_table": "https://english-exam.lazynote.cn/kaoyan/paper/2017-english-one/"
+      "rejected_pass": {
+        "status": "single-answer-table-pass-rejected",
+        "reason": "Answer-letter labels in the first public table were not stable against canonical option ordering (confirmed at 2020 Q1/Q3); question text, option mapping and answer must be verified together with independent sources."
+      }
     }
   },
   "paper": {
