@@ -1,0 +1,818 @@
+{
+  "note": "Automated discrepancy finder only; human review is authoritative.",
+  "years": {
+    "2010": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2010-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2010%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [
+        {
+          "q_id": "2010-eng1-reading_a-q32",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2010-eng1-reading_a-q38",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2010-eng1-reading_a-q40",
+          "db": "B",
+          "source": "D"
+        }
+      ],
+      "missing_question_text": [
+        "2010-eng1-writing_b-q52"
+      ],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "bankers have been blaming themselves for their troubles in public behind the scenes they"
+        }
+      ],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 3,
+        "missing_question_text": 1,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 1,
+        "fetch_errors": 0
+      }
+    },
+    "2011": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2011-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2011%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 0,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2012": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2012-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2012%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [
+        {
+          "q_id": "2012-eng1-reading_a-q37",
+          "db": "A",
+          "source": "D"
+        }
+      ],
+      "missing_question_text": [
+        "2012-eng1-reading_b-q41",
+        "2012-eng1-reading_b-q42",
+        "2012-eng1-reading_b-q43",
+        "2012-eng1-reading_b-q44",
+        "2012-eng1-reading_b-q45",
+        "2012-eng1-writing_a-q51"
+      ],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "come on everybody s doing it that whispered message half invitation and half forcing"
+        },
+        {
+          "section": "reading_a",
+          "head": "a deal is a deal except apparently when entergy is involved the company a"
+        }
+      ],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 1,
+        "missing_question_text": 6,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 2,
+        "fetch_errors": 0
+      }
+    },
+    "2013": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2013-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2013%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [
+        {
+          "q_id": "2013-eng1-reading_a-q27",
+          "db": "A",
+          "source": "D"
+        }
+      ],
+      "missing_question_text": [
+        "2013-eng1-writing_a-q51",
+        "2013-eng1-writing_b-q52"
+      ],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 1,
+        "missing_question_text": 2,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2014": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2014-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2014%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [
+        "2014-eng1-reading_b-q41",
+        "2014-eng1-reading_b-q42",
+        "2014-eng1-reading_b-q43",
+        "2014-eng1-reading_b-q44",
+        "2014-eng1-reading_b-q45"
+      ],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 5,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2015": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2015-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2015%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [
+        "2015-eng1-reading_b-q41",
+        "2015-eng1-reading_b-q42",
+        "2015-eng1-reading_b-q43",
+        "2015-eng1-reading_b-q44",
+        "2015-eng1-reading_b-q45"
+      ],
+      "missing_options": [
+        {
+          "q_id": "2015-eng1-reading_b-q41",
+          "option": "A",
+          "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
+        },
+        {
+          "q_id": "2015-eng1-reading_b-q42",
+          "option": "A",
+          "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
+        },
+        {
+          "q_id": "2015-eng1-reading_b-q43",
+          "option": "A",
+          "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
+        },
+        {
+          "q_id": "2015-eng1-reading_b-q44",
+          "option": "A",
+          "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
+        },
+        {
+          "q_id": "2015-eng1-reading_b-q45",
+          "option": "A",
+          "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
+        }
+      ],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "just how much does the constitution protect your digital data the supreme court will"
+        }
+      ],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 5,
+        "missing_options": 5,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 1,
+        "fetch_errors": 0
+      }
+    },
+    "2016": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2016-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2016%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [
+        {
+          "q_id": "2016-eng1-reading_a-q27",
+          "db": "A",
+          "source": "D"
+        }
+      ],
+      "missing_question_text": [
+        "2016-eng1-translation-q50"
+      ],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 1,
+        "missing_question_text": 1,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2017": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2017-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2017%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 0,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2018": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2018-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2018%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "the u s postal service usps continues to bleed red ink it reported a"
+        }
+      ],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 0,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 1,
+        "fetch_errors": 0
+      }
+    },
+    "2019": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2019-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2019%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 0,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2020": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2020-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2020%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [
+        {
+          "q_id": "2020-eng1-use_of_english-q1",
+          "db": "C",
+          "source": "B"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q3",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q4",
+          "db": "D",
+          "source": "B"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q5",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q6",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q7",
+          "db": "D",
+          "source": "B"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q8",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q9",
+          "db": "D",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q10",
+          "db": "C",
+          "source": "A"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q11",
+          "db": "C",
+          "source": "A"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q12",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q13",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q14",
+          "db": "D",
+          "source": "B"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q15",
+          "db": "C",
+          "source": "A"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q16",
+          "db": "B",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q17",
+          "db": "A",
+          "source": "C"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q18",
+          "db": "B",
+          "source": "A"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q19",
+          "db": "C",
+          "source": "D"
+        },
+        {
+          "q_id": "2020-eng1-use_of_english-q20",
+          "db": "D",
+          "source": "B"
+        }
+      ],
+      "missing_question_text": [],
+      "missing_options": [
+        {
+          "q_id": "2020-eng1-reading_a-q39",
+          "option": "D",
+          "text": "needs to in involve more countries."
+        }
+      ],
+      "passage_fingerprint_misses": [
+        {
+          "section": "use_of_english",
+          "head": "even if families don t sit down to eat together as frequently as before",
+          "tail": "pushy and overprotective constant health scares just with one listening"
+        },
+        {
+          "section": "reading_a",
+          "head": "a group of labour mps among them yvette cooper are bringing in the new",
+          "tail": "this positive hope filled proposal and tum it into action"
+        },
+        {
+          "section": "reading_a",
+          "head": "progressives often support diversity mandates as a path to equality and a way to",
+          "tail": "their sponsors feelgood but do little to help average women"
+        }
+      ],
+      "independent_reading_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "scientific publishing has long been a licence to print money scientists need journals in"
+        }
+      ],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 19,
+        "missing_question_text": 0,
+        "missing_options": 1,
+        "passage_fingerprint_misses": 3,
+        "independent_reading_fingerprint_misses": 1,
+        "fetch_errors": 0
+      }
+    },
+    "2021": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2021-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2021%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [
+        {
+          "q_id": "2021-eng1-use_of_english-q16",
+          "db": "C",
+          "source": "B"
+        }
+      ],
+      "missing_question_text": [
+        "2021-eng1-reading_b-q41",
+        "2021-eng1-reading_b-q43"
+      ],
+      "missing_options": [
+        {
+          "q_id": "2021-eng1-reading_b-q41",
+          "option": "B",
+          "text": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate."
+        },
+        {
+          "q_id": "2021-eng1-reading_b-q42",
+          "option": "B",
+          "text": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate."
+        },
+        {
+          "q_id": "2021-eng1-reading_b-q43",
+          "option": "B",
+          "text": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate."
+        },
+        {
+          "q_id": "2021-eng1-reading_b-q44",
+          "option": "B",
+          "text": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate."
+        },
+        {
+          "q_id": "2021-eng1-reading_b-q45",
+          "option": "B",
+          "text": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate."
+        }
+      ],
+      "passage_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "last year marked the third year in a row of when indonesia s bleak",
+          "tail": "carbon dioxide emissions alone is more than the program costs"
+        },
+        {
+          "section": "translation",
+          "head": "world war ii was the watershed event for higher education in modem western societies",
+          "tail": "junior faculty and to some degree of students as well"
+        }
+      ],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 1,
+        "missing_question_text": 2,
+        "missing_options": 5,
+        "passage_fingerprint_misses": 2,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2022": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2022-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2022%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [],
+      "missing_options": [
+        {
+          "q_id": "2022-eng1-reading_a-q30",
+          "option": "C",
+          "text": "Degrees will no longer appeal them."
+        },
+        {
+          "q_id": "2022-eng1-reading_a-q32",
+          "option": "A",
+          "text": "art can off er audiences easy access to science."
+        },
+        {
+          "q_id": "2022-eng1-reading_a-q32",
+          "option": "B",
+          "text": "science can help with the expression of emoti ons."
+        },
+        {
+          "q_id": "2022-eng1-reading_a-q35",
+          "option": "B",
+          "text": "will intensify interdisciplinary competi tion."
+        }
+      ],
+      "passage_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "people often complain that plastics are too durable water bottles shopping bags and other",
+          "tail": "strong impact on how inthe future we ll be seen"
+        },
+        {
+          "section": "translation",
+          "head": "between 1807 and 1814 the lberian peninsula comprising spain and portugal was the scene",
+          "tail": "way up the promotion ladder speak volumes about british society"
+        }
+      ],
+      "independent_reading_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "people often complain that plastics are too durable water bottles shopping bags and other"
+        }
+      ],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 0,
+        "missing_options": 4,
+        "passage_fingerprint_misses": 2,
+        "independent_reading_fingerprint_misses": 1,
+        "fetch_errors": 0
+      }
+    },
+    "2023": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2023-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2023%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [
+        {
+          "q_id": "2023-eng1-use_of_english-q18",
+          "db": "D",
+          "source": "A"
+        },
+        {
+          "q_id": "2023-eng1-use_of_english-q19",
+          "db": "A",
+          "source": "D"
+        },
+        {
+          "q_id": "2023-eng1-use_of_english-q20",
+          "db": "D",
+          "source": "A"
+        },
+        {
+          "q_id": "2023-eng1-reading_b-q41",
+          "db": "F",
+          "source": "B"
+        },
+        {
+          "q_id": "2023-eng1-reading_b-q42",
+          "db": "D",
+          "source": "F"
+        },
+        {
+          "q_id": "2023-eng1-reading_b-q43",
+          "db": "B",
+          "source": "D"
+        }
+      ],
+      "missing_question_text": [],
+      "missing_options": [],
+      "passage_fingerprint_misses": [],
+      "independent_reading_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "scientific papers are the recordkeepers of progress in research each year researchers publish millions"
+        }
+      ],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 6,
+        "missing_question_text": 0,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 0,
+        "independent_reading_fingerprint_misses": 1,
+        "fetch_errors": 0
+      }
+    },
+    "2024": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2024-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2024%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [
+        "2024-eng1-writing_a-q51"
+      ],
+      "missing_options": [],
+      "passage_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "the miracle of the chesapeake bay lies not in its depths but in the",
+          "tail": "teaming with aquatic life it s worth the scenic drive"
+        },
+        {
+          "section": "writing_a",
+          "head": "directions read the following email from an international student and write a reply write",
+          "tail": "own name in your email use li ming instead points"
+        }
+      ],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 1,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 2,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2025": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2025-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2025%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [
+        {
+          "q_id": "2025-eng1-reading_a-q28",
+          "db": "D",
+          "source": "C"
+        },
+        {
+          "q_id": "2025-eng1-reading_a-q37",
+          "db": "A",
+          "source": "B"
+        },
+        {
+          "q_id": "2025-eng1-reading_b-q42",
+          "db": "B",
+          "source": "G"
+        },
+        {
+          "q_id": "2025-eng1-reading_b-q43",
+          "db": "H",
+          "source": "B"
+        },
+        {
+          "q_id": "2025-eng1-reading_b-q45",
+          "db": "A",
+          "source": "F"
+        }
+      ],
+      "missing_question_text": [
+        "2025-eng1-reading_a-q24",
+        "2025-eng1-reading_a-q32",
+        "2025-eng1-reading_a-q40",
+        "2025-eng1-translation-q46",
+        "2025-eng1-writing_a-q51",
+        "2025-eng1-writing_b-q52"
+      ],
+      "missing_options": [
+        {
+          "q_id": "2025-eng1-reading_a-q27",
+          "option": "B",
+          "text": "have caused groundless worries"
+        },
+        {
+          "q_id": "2025-eng1-reading_a-q28",
+          "option": "C",
+          "text": "the rewards of scientific endeavors"
+        },
+        {
+          "q_id": "2025-eng1-reading_a-q29",
+          "option": "C",
+          "text": "owes much to global het-20 initiatives"
+        },
+        {
+          "q_id": "2025-eng1-reading_a-q33",
+          "option": "C",
+          "text": "was urged to from an enforcement task force"
+        },
+        {
+          "q_id": "2025-eng1-reading_a-q37",
+          "option": "C",
+          "text": "require more international preservation"
+        }
+      ],
+      "passage_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "i was shocked to learn recently that some scientists want to scale back their",
+          "tail": "warms the people who live in the surrounding town ofkajaani"
+        },
+        {
+          "section": "reading_a",
+          "head": "visit any antiques store and you ll encounter artifacts from the past photographs letters",
+          "tail": "fakes manipulation and after the fact revision of primary sources"
+        },
+        {
+          "section": "writing_a",
+          "head": "directions write a letter of about 100 words to your university library suggesting books",
+          "tail": "own name in the email use li ming instead points"
+        },
+        {
+          "section": "writing_b",
+          "head": "directions write an essay of 160 200 words based on the following drawing in",
+          "tail": "comments you should write neatly on the answer sheet points"
+        }
+      ],
+      "independent_reading_fingerprint_misses": [],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 5,
+        "missing_question_text": 6,
+        "missing_options": 5,
+        "passage_fingerprint_misses": 4,
+        "independent_reading_fingerprint_misses": 0,
+        "fetch_errors": 0
+      }
+    },
+    "2026": {
+      "paper_url": "https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/",
+      "reading_crosscheck_url": "https://raw.githubusercontent.com/Destinnnnn/kaoyan-english-1-2005-2026/main/2026%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
+      "answer_mismatches": [],
+      "missing_question_text": [
+        "2026-eng1-reading_b-q41",
+        "2026-eng1-reading_b-q42",
+        "2026-eng1-reading_b-q43",
+        "2026-eng1-reading_b-q44",
+        "2026-eng1-reading_b-q45",
+        "2026-eng1-writing_a-q51",
+        "2026-eng1-writing_b-q52"
+      ],
+      "missing_options": [],
+      "passage_fingerprint_misses": [
+        {
+          "section": "writing_a",
+          "head": "read the following email from your friend paul and write him a reply hi",
+          "tail": "own name in your email use li ming instead points"
+        },
+        {
+          "section": "writing_b",
+          "head": "write an essay based on the charts below in your essay you should describe",
+          "tail": "partially accept do not accept primary concerns safety price convenience"
+        }
+      ],
+      "independent_reading_fingerprint_misses": [
+        {
+          "section": "reading_a",
+          "head": "for thousands of years donkeys have been critical for propelling human civilizations forward they"
+        },
+        {
+          "section": "reading_a",
+          "head": "the pioneers of wireless saw it as a gift to all the people sir"
+        }
+      ],
+      "fetch_errors": [],
+      "answer_pairs_found": 45,
+      "counts": {
+        "questions": 52,
+        "answer_mismatches": 0,
+        "missing_question_text": 7,
+        "missing_options": 0,
+        "passage_fingerprint_misses": 2,
+        "independent_reading_fingerprint_misses": 2,
+        "fetch_errors": 0
+      }
+    }
+  }
+}
