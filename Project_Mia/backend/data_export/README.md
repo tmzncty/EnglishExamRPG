@@ -27,7 +27,7 @@ The SQLite database remains the source of truth. This directory exists so humans
 ## Export summary
 
 - papers: 17
-- questions: 887
+- questions: 884
 - markdown groups: 153
 - dictionary entries: 6131
 - story rows: 0
