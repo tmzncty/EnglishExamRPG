@@ -6,6 +6,7 @@ on:
       - "Project_Mia/backend/data/static_content.db"
       - "Project_Mia/backend/data_import/**"
       - "Project_Mia/backend/scripts/bootstrap_legacy_bundles.py"
+      - "Project_Mia/backend/scripts/crosscheck_public_exam_sources.py"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/repair_exam_content.py"
       - "Project_Mia/backend/scripts/repair_writing_samples.py"
@@ -20,6 +21,7 @@ on:
       - "Project_Mia/backend/data/static_content.db"
       - "Project_Mia/backend/data_import/**"
       - "Project_Mia/backend/scripts/bootstrap_legacy_bundles.py"
+      - "Project_Mia/backend/scripts/crosscheck_public_exam_sources.py"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/repair_exam_content.py"
       - "Project_Mia/backend/scripts/repair_writing_samples.py"
@@ -81,22 +83,25 @@ jobs:
       - name: Run legacy answer completeness audit
         run: python Project_Mia/scripts/quality_check.py
 
+      - name: Cross-check independent public transcriptions
+        run: python Project_Mia/backend/scripts/crosscheck_public_exam_sources.py
+
       - name: Export SQLite content
         run: python Project_Mia/backend/scripts/export_static_content_text.py
 
       - name: Export question images into Markdown projection
         run: python Project_Mia/backend/scripts/export_exam_images.py
 
-      - name: Commit database, generated projection, and review drafts
+      - name: Commit database, generated projection, review drafts, and audit report
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export Project_Mia/backend/data_import)" ]; then
-            echo "Database, generated export, and review drafts are already current."
+          if [ -z "$(git status --porcelain -- Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export Project_Mia/backend/data_import Project_Mia/backend/manual_review)" ]; then
+            echo "Database, generated export, review drafts, and audit report are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export Project_Mia/backend/data_import
-          git commit -m "Bootstrap legacy exam bundle review drafts"
+          git add Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export Project_Mia/backend/data_import Project_Mia/backend/manual_review
+          git commit -m "Refresh manual corpus crosscheck report"
           TARGET_BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
           git push origin "HEAD:${TARGET_BRANCH}"
