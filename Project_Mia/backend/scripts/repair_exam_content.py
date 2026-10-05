@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Apply deterministic repairs to legacy English I exam content.
+"""Apply deterministic, write-idempotent repairs to legacy English I content.
 
-This script exists because older papers were imported from OCR-heavy sources before
-curated bundles were introduced.  Repairs here are intentionally narrow, asserted,
-and idempotent so the committed SQLite database can be rebuilt reproducibly.
+Older papers were imported from OCR-heavy sources before curated bundles existed.
+Repairs here are narrow and asserted. If the database already contains the desired
+values, this script performs no UPDATE at all, keeping the SQLite file byte-stable
+across repeated CI runs.
 
 Reference essays added below are study/model answers, not official scoring keys.
 """
@@ -14,6 +15,7 @@ import argparse
 import json
 import sqlite3
 from pathlib import Path
+from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_DB = REPO_ROOT / "Project_Mia/backend/data/static_content.db"
@@ -101,11 +103,36 @@ These figures suggest that eldercare robots already enjoy considerable public ac
 
 Therefore, developers and policymakers should focus first on strict safety standards, transparent testing and affordable pricing. Eldercare robots should also be designed as assistants rather than replacements for human caregivers. If technological efficiency is combined with dependable protection and genuine human care, these robots can become a useful part of an aging society."""
 
+ANALYSIS_2012 = "参考范文（非官方标准答案）。范文完整覆盖图画描述、寓意阐释和个人评论，并满足160–200词要求。"
+ANALYSIS_2026_A = "参考范文（非官方标准答案）。回复覆盖来信中的两个核心问题，并保持约100词的邮件体例。"
+ANALYSIS_2026_B = "参考范文（非官方标准答案）。范文先准确概括两组数据，再解释公众接受度与安全顾虑，最后提出规范、安全与人机协作建议；正文控制在160–200词。"
+
 
 def require_question(conn: sqlite3.Connection, q_id: str) -> None:
     row = conn.execute("SELECT 1 FROM questions WHERE q_id=?", (q_id,)).fetchone()
     if row is None:
         raise SystemExit(f"required question not found: {q_id}")
+
+
+def update_if_different(
+    conn: sqlite3.Connection, q_id: str, values: dict[str, Any]
+) -> bool:
+    """Update only when at least one selected field differs."""
+    require_question(conn, q_id)
+    fields = list(values)
+    row = conn.execute(
+        f"SELECT {', '.join(fields)} FROM questions WHERE q_id=?", (q_id,)
+    ).fetchone()
+    assert row is not None
+    if all(row[index] == values[field] for index, field in enumerate(fields)):
+        return False
+
+    assignments = ", ".join(f"{field}=?" for field in fields)
+    conn.execute(
+        f"UPDATE questions SET {assignments} WHERE q_id=?",
+        [values[field] for field in fields] + [q_id],
+    )
+    return True
 
 
 def main() -> int:
@@ -114,67 +141,56 @@ def main() -> int:
     args = parser.parse_args()
 
     conn = sqlite3.connect(args.db)
+    writes = 0
     try:
         # 2023 contained a second, unnumbered Writing B placeholder in addition to Q52.
+        before = conn.total_changes
         conn.execute("DELETE FROM questions WHERE q_id='2023-eng1-writing-partB'")
+        writes += conn.total_changes - before
 
         # Repair the OCR-heavy 2025 Text 1 transcription and question formatting.
         for number, (content, options) in QUESTIONS_2025.items():
             q_id = f"2025-eng1-reading_a-q{number}"
-            require_question(conn, q_id)
-            conn.execute(
-                """
-                UPDATE questions
-                SET passage_text=?, content=?, options_json=?
-                WHERE q_id=?
-                """,
-                (TEXT1_2025, content, json.dumps(options, ensure_ascii=False), q_id),
+            canonical_options = json.dumps(
+                options, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+            )
+            writes += int(
+                update_if_different(
+                    conn,
+                    q_id,
+                    {
+                        "passage_text": TEXT1_2025,
+                        "content": content,
+                        "options_json": canonical_options,
+                    },
+                )
             )
 
-        # Replace the visibly truncated 2012 Writing B sample with a complete model answer.
-        require_question(conn, "2012-eng1-writing_b-q52")
-        conn.execute(
-            """
-            UPDATE questions
-            SET answer_key=?, official_analysis=?
-            WHERE q_id='2012-eng1-writing_b-q52'
-            """,
-            (
-                MODEL_2012_Q52,
-                "参考范文（非官方标准答案）。范文完整覆盖图画描述、寓意阐释和个人评论，并满足160–200词要求。",
-            ),
+        writes += int(
+            update_if_different(
+                conn,
+                "2012-eng1-writing_b-q52",
+                {"answer_key": MODEL_2012_Q52, "official_analysis": ANALYSIS_2012},
+            )
+        )
+        writes += int(
+            update_if_different(
+                conn,
+                "2026-eng1-writing_a-q51",
+                {"answer_key": MODEL_2026_Q51, "official_analysis": ANALYSIS_2026_A},
+            )
+        )
+        writes += int(
+            update_if_different(
+                conn,
+                "2026-eng1-writing_b-q52",
+                {"answer_key": MODEL_2026_Q52, "official_analysis": ANALYSIS_2026_B},
+            )
         )
 
-        # Add study/reference essays for the newly curated 2026 writing tasks.
-        require_question(conn, "2026-eng1-writing_a-q51")
-        conn.execute(
-            """
-            UPDATE questions
-            SET answer_key=?, official_analysis=?
-            WHERE q_id='2026-eng1-writing_a-q51'
-            """,
-            (
-                MODEL_2026_Q51,
-                "参考范文（非官方标准答案）。回复覆盖来信中的两个核心问题，并保持约100词的邮件体例。",
-            ),
-        )
+        if conn.total_changes:
+            conn.commit()
 
-        require_question(conn, "2026-eng1-writing_b-q52")
-        conn.execute(
-            """
-            UPDATE questions
-            SET answer_key=?, official_analysis=?
-            WHERE q_id='2026-eng1-writing_b-q52'
-            """,
-            (
-                MODEL_2026_Q52,
-                "参考范文（非官方标准答案）。范文先准确概括两组数据，再解释公众接受度与安全顾虑，最后提出规范、安全与人机协作建议；正文控制在160–200词。",
-            ),
-        )
-
-        conn.commit()
-
-        # Assertions make accidental schema/data drift fail loudly in CI.
         duplicate = conn.execute(
             "SELECT COUNT(*) FROM questions WHERE q_id='2023-eng1-writing-partB'"
         ).fetchone()[0]
@@ -187,7 +203,7 @@ def main() -> int:
         if count_2023 != 52:
             raise SystemExit(f"2023-eng1 should have 52 questions after repair, got {count_2023}")
 
-        print("Applied deterministic English I content repairs")
+        print(f"Applied deterministic English I content repairs; writes: {writes}")
         return 0
     finally:
         conn.close()
