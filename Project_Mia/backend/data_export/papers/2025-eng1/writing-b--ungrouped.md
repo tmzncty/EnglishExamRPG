@@ -51,6 +51,6 @@ From my perspective, while increased consumption can boost the economy, it’s i
 2. 使用合适的连接词，使文章逻辑清晰，如'Generally', 'With', 'From my perspective'等。
 3. 注意语言的简洁性和流畅性，避免冗余和不必要的重复。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2025-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2025-eng1-writing_b-q52; difficulty=3; score=20.0 -->
