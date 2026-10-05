@@ -33,7 +33,7 @@ It can be learned from Paragraph 1 that
 
 根据第一段，《科学》期刊增加统计审查，其他期刊也在效仿，可知期刊正在加强统计审查。【B】正确。
 
-<!-- q_id=2015-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"statistical\", \"peer-review\", \"irreproducibility\", \"scrutiny\", \"editorial\", \"foresight\", \"advisory\"]" -->
+<!-- q_id=2015-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["statistical", "peer-review", "irreproducibility", "scrutiny", "editorial", "foresight", "advisory"] -->
 
 ### Question 32
 
@@ -50,7 +50,7 @@ The phrase “flagged up” (Para. 2) is the closest in meaning to
 
 根据第二段，原稿会被“flagged up”以接受额外审查，应理解为“标记”。【C】正确。
 
-<!-- q_id=2015-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"statistical\", \"peer-review\", \"irreproducibility\", \"scrutiny\", \"editorial\", \"foresight\", \"advisory\"]" -->
+<!-- q_id=2015-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["statistical", "peer-review", "irreproducibility", "scrutiny", "editorial", "foresight", "advisory"] -->
 
 ### Question 33
 
@@ -67,7 +67,7 @@ Giovanni Parmigiani believes that the establishment of the SBoRE may
 
 Parmigiani认为SBoRE的创立具有持久影响，并可能被其他期刊效仿。【D】正确。
 
-<!-- q_id=2015-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"statistical\", \"peer-review\", \"irreproducibility\", \"scrutiny\", \"editorial\", \"foresight\", \"advisory\"]" -->
+<!-- q_id=2015-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["statistical", "peer-review", "irreproducibility", "scrutiny", "editorial", "foresight", "advisory"] -->
 
 ### Question 34
 
@@ -84,7 +84,7 @@ David Vaux holds that what Science is doing now
 
 Vaux认为《科学》的做法有优点，但也有缺点，意味着有进一步改进的空间。【C】正确。
 
-<!-- q_id=2015-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"statistical\", \"peer-review\", \"irreproducibility\", \"scrutiny\", \"editorial\", \"foresight\", \"advisory\"]" -->
+<!-- q_id=2015-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["statistical", "peer-review", "irreproducibility", "scrutiny", "editorial", "foresight", "advisory"] -->
 
 ### Question 35
 
@@ -101,4 +101,4 @@ Which of the following is the best title of the text?
 
 文章主要讲述《科学》期刊加入到加强论文统计审查的行列中来，【A】最能概括文章主旨。
 
-<!-- q_id=2015-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"statistical\", \"peer-review\", \"irreproducibility\", \"scrutiny\", \"editorial\", \"foresight\", \"advisory\"]" -->
+<!-- q_id=2015-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["statistical", "peer-review", "irreproducibility", "scrutiny", "editorial", "foresight", "advisory"] -->

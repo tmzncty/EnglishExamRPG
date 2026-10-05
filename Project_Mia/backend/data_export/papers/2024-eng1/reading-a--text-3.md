@@ -37,7 +37,7 @@ What can be learned about Rutkowski from the first two paragraphs?
 
 从第一段可知Rutkowski的作品风格独特，第二段提到他的风格是AI艺术生成器Stable Diffusion中最常用的提示词之一，说明他在AI艺术生成器的用户中非常受欢迎。
 
-<!-- q_id=2024-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"prompt\", \"attribution\", \"coalition\", \"mitigate\", \"mobilization\"]" -->
+<!-- q_id=2024-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["prompt", "attribution", "coalition", "mitigate", "mobilization"] -->
 
 ### Question 32
 
@@ -54,7 +54,7 @@ The problem with open-source AI art generators is that they
 
 第三段明确指出开源AI艺术生成器的问题在于，它们未经许可和适当署名地抓取互联网上的图片。
 
-<!-- q_id=2024-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"prompt\", \"attribution\", \"coalition\", \"mitigate\", \"mobilization\"]" -->
+<!-- q_id=2024-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["prompt", "attribution", "coalition", "mitigate", "mobilization"] -->
 
 ### Question 33
 
@@ -71,7 +71,7 @@ After searching online, Rutkowski found
 
 第四段和第五段提到，Rutkowski在网上搜索后，发现很多作品署了他的名字，但并非他本人创作，而是AI生成的。
 
-<!-- q_id=2024-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"prompt\", \"attribution\", \"coalition\", \"mitigate\", \"mobilization\"]" -->
+<!-- q_id=2024-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["prompt", "attribution", "coalition", "mitigate", "mobilization"] -->
 
 ### Question 34
 
@@ -88,7 +88,7 @@ According to Ortiz,AI companies are advised to
 
 最后一段提到，Ortiz建议AI模型可以利用公共领域的图片进行训练，并与博物馆和艺术家建立合作关系，这实际上是建议AI公司采取不同的AI模型训练策略。
 
-<!-- q_id=2024-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"prompt\", \"attribution\", \"coalition\", \"mitigate\", \"mobilization\"]" -->
+<!-- q_id=2024-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["prompt", "attribution", "coalition", "mitigate", "mobilization"] -->
 
 ### Question 35
 
@@ -105,4 +105,4 @@ What is the text mainly about?
 
 文章主要讲述了艺术家（如Rutkowski和Ortiz）对AI艺术生成的回应，包括他们的担忧和采取的行动。文章的重点在于艺术家对AI的反应，而不是AI本身的角色、隐私问题或对AI发展的不同观点。
 
-<!-- q_id=2024-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"prompt\", \"attribution\", \"coalition\", \"mitigate\", \"mobilization\"]" -->
+<!-- q_id=2024-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["prompt", "attribution", "coalition", "mitigate", "mobilization"] -->

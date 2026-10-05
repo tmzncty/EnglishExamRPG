@@ -28,7 +28,7 @@ Scientists jumped to the rescue with some distinctly shaky evidence to the effec
 
 本句的主干结构是Scientists jumped to the rescue with some evidence to the effect that…。其中with短语作状语，修饰jumped to the rescue，evidence后面接一个同位语从句to the effect that...，进一步说明证据的内容。evidence前有两个修饰词：distinctly 和 shaky，都表达了证据不足的含义。翻译时注意“to the effect that”的翻译，可译为“大意是，意思是”。
 
-<!-- q_id=2010-eng1-translation-q46; difficulty=3; score=2.0; tags="[\"distinctly\", \"shaky\", \"roundabout\", \"intrinsic\", \"fancied\", \"constituent\", \"lopsided\"]" -->
+<!-- q_id=2010-eng1-translation-q46; difficulty=3; score=2.0; tags=["distinctly", "shaky", "roundabout", "intrinsic", "fancied", "constituent", "lopsided"] -->
 
 ### Question 47
 
@@ -42,7 +42,7 @@ But we have at least drawn nearer the point of admitting that birds should conti
 
 本句的主干结构是：But we have at least drawn nearer the point of admitting that…。draw nearer to the point of doing sth意为“越来越接近做…的程度”。Admitting后面接一个that引导的宾语从句。as a matter of intrinsic right 意为“作为一种内在的权利”，作状语，修饰continue。regardless of短语引导让步状语，进一步说明鸟类生存的权利。
 
-<!-- q_id=2010-eng1-translation-q47; difficulty=3; score=2.0; tags="[\"distinctly\", \"shaky\", \"roundabout\", \"intrinsic\", \"fancied\", \"constituent\", \"lopsided\"]" -->
+<!-- q_id=2010-eng1-translation-q47; difficulty=3; score=2.0; tags=["distinctly", "shaky", "roundabout", "intrinsic", "fancied", "constituent", "lopsided"] -->
 
 ### Question 48
 
@@ -56,7 +56,7 @@ Time was when biologists somewhat overworked the evidence that these creatures p
 
 本句的结构较为复杂。Time was when...是定语从句的常见结构，修饰time。that these creatures preserve the health of game by killing the physically weak, or that they prey only on "worthless" species. 是the evidence的同位语从句。 somewhat overworked 意为 “或多或少滥用”。翻译时需要对语序进行调整。
 
-<!-- q_id=2010-eng1-translation-q48; difficulty=3; score=2.0; tags="[\"distinctly\", \"shaky\", \"roundabout\", \"intrinsic\", \"fancied\", \"constituent\", \"lopsided\"]" -->
+<!-- q_id=2010-eng1-translation-q48; difficulty=3; score=2.0; tags=["distinctly", "shaky", "roundabout", "intrinsic", "fancied", "constituent", "lopsided"] -->
 
 ### Question 49
 
@@ -70,7 +70,7 @@ In Europe, where forestry is ecologically more advanced, the noncommercial tree 
 
 本句是一个主系表结构，其中where forestry is ecologically more advanced是一个非限制性定语从句，修饰Europe。to be preserved as such是不定式作目的状语，表示“为了被保护”。within reason作状语，表示“在合理的范围内”。翻译时，注意语序的调整，先翻译地点状语，再翻译主干，最后翻译目的状语。
 
-<!-- q_id=2010-eng1-translation-q49; difficulty=3; score=2.0; tags="[\"distinctly\", \"shaky\", \"roundabout\", \"intrinsic\", \"fancied\", \"constituent\", \"lopsided\"]" -->
+<!-- q_id=2010-eng1-translation-q49; difficulty=3; score=2.0; tags=["distinctly", "shaky", "roundabout", "intrinsic", "fancied", "constituent", "lopsided"] -->
 
 ### Question 50
 
@@ -84,4 +84,4 @@ It tends to ignore, and thus eventually to eliminate, many elements in the land 
 
 本句的主干结构是：It tends to ignore, and thus eventually to eliminate many elements...。其中that lack commercial value, but that are essential to its healthy functioning是两个并列的定语从句，修饰many elements。tends to ignore and eliminate是并列的谓语。翻译时，需要将两个定语从句放在被修饰词之前，并注意因果关系的表达，用“导致”一词。
 
-<!-- q_id=2010-eng1-translation-q50; difficulty=3; score=2.0; tags="[\"distinctly\", \"shaky\", \"roundabout\", \"intrinsic\", \"fancied\", \"constituent\", \"lopsided\"]" -->
+<!-- q_id=2010-eng1-translation-q50; difficulty=3; score=2.0; tags=["distinctly", "shaky", "roundabout", "intrinsic", "fancied", "constituent", "lopsided"] -->

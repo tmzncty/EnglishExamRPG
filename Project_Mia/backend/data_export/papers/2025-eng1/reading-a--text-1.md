@@ -35,7 +35,7 @@ The “rehearsal room” approach requires pupils to
 
 本题考察细节理解。根据第二段 "The research shows that the way actors work makes a big difference to the way children use language and also how they think about themselves," 可知，“rehearsal room”方法要求学生扮演莎士比亚戏剧中的角色。
 
-<!-- q_id=2025-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"groundbreaking\", \"rehearsal-worn\", \"pedagogy\", \"expansive\", \"embedding\", \"replicated\"]" -->
+<!-- q_id=2025-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["groundbreaking", "rehearsal room", "pedagogy", "expansive", "embedding", "replicated"] -->
 
 ### Question 22
 
@@ -52,7 +52,7 @@ The study divided the pupils into two groups to find whether
 
 本题考察目的。第三段提到将学生分成实验组和对照组，是为了研究采用RSC教学法后，学生的学习成果是否有所提高。因此，A选项是正确答案。
 
-<!-- q_id=2025-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"groundbreaking\", \"rehearsal-worn\", \"pedagogy\", \"expansive\", \"embedding\", \"replicated\"]" -->
+<!-- q_id=2025-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["groundbreaking", "rehearsal room", "pedagogy", "expansive", "embedding", "replicated"] -->
 
 ### Question 23
 
@@ -69,7 +69,7 @@ Control pupils’ reliance on “desert island clichés” shows their
 
 本题考察推理判断。第五段提到，对照组学生依赖“荒岛陈词滥调”，而实验组学生则更具扩展性，能更全面地描述天空、海洋和大气环境。这表明对照组学生在描述方面存在不足。
 
-<!-- q_id=2025-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"groundbreaking\", \"rehearsal-worn\", \"pedagogy\", \"expansive\", \"embedding\", \"replicated\"]" -->
+<!-- q_id=2025-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["groundbreaking", "rehearsal room", "pedagogy", "expansive", "embedding", "replicated"] -->
 
 ### Question 24
 
@@ -86,7 +86,7 @@ According to O'Hanlon, what can promote children's emotional literacy?
 
 本题考察细节理解。第六段O'Hanlon提到，情感理解与排练过程有关，孩子们需要设身处地地想象。这表明与文学人物产生共鸣可以促进孩子的情感素养。
 
-<!-- q_id=2025-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"groundbreaking\", \"rehearsal-worn\", \"pedagogy\", \"expansive\", \"embedding\", \"replicated\"]" -->
+<!-- q_id=2025-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["groundbreaking", "rehearsal room", "pedagogy", "expansive", "embedding", "replicated"] -->
 
 ### Question 25
 
@@ -103,4 +103,4 @@ It can be inferred from the last paragraph that
 
 本题考察推理判断。最后一段提到，莎士比亚使用了20000个单词，相比日常使用的2000个单词，这给孩子们的语言带来了巨大的扩展。因此，可以推断出这种新的教学方法可能最适合莎士比亚的作品。
 
-<!-- q_id=2025-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"groundbreaking\", \"rehearsal-worn\", \"pedagogy\", \"expansive\", \"embedding\", \"replicated\"]" -->
+<!-- q_id=2025-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["groundbreaking", "rehearsal room", "pedagogy", "expansive", "embedding", "replicated"] -->

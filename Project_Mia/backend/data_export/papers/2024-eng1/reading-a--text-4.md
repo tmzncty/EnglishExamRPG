@@ -31,7 +31,7 @@ The Chesapeake Bay is described in Paragraph 1 as
 
 第一段描述了切萨皮克湾的自然构造的复杂性，以及它为许多物种提供的家园，表明它是一个有价值的自然环境。
 
-<!-- q_id=2024-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"shallows\", \"surge\", \"repercussion\", \"watershed\", \"transcend\"]" -->
+<!-- q_id=2024-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["shallows", "surge", "repercussion", "watershed", "transcend"] -->
 
 ### Question 37
 
@@ -48,7 +48,7 @@ The U.S.Supreme Court's ruling in the Idaho case
 
 第二段提到最高法院的裁决使得EPA监管湿地和水道的权力减弱，因此B选项正确。
 
-<!-- q_id=2024-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"shallows\", \"surge\", \"repercussion\", \"watershed\", \"transcend\"]" -->
+<!-- q_id=2024-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["shallows", "surge", "repercussion", "watershed", "transcend"] -->
 
 ### Question 38
 
@@ -65,7 +65,7 @@ How does the author feel about the future of the Chesapeake Bay?
 
 作者在文章中表达了对最高法院裁决可能带来的负面影响的担忧，尤其是在没有其他州采取相同保护措施的情况下，因此A选项正确。
 
-<!-- q_id=2024-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"shallows\", \"surge\", \"repercussion\", \"watershed\", \"transcend\"]" -->
+<!-- q_id=2024-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["shallows", "surge", "repercussion", "watershed", "transcend"] -->
 
 ### Question 39
 
@@ -82,7 +82,7 @@ What can be inferred about the EPA's involvement in the Chesapeake Bay Program?
 
 第四段提到EPA在切萨皮克湾项目中的参与对于超越邻近州的影响至关重要，这意味着它确保了保护工作的协调。
 
-<!-- q_id=2024-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"shallows\", \"surge\", \"repercussion\", \"watershed\", \"transcend\"]" -->
+<!-- q_id=2024-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["shallows", "surge", "repercussion", "watershed", "transcend"] -->
 
 ### Question 40
 
@@ -99,4 +99,4 @@ The author holds that the state lawmakers should
 
 文章最后一段呼吁州议员重新审视他们自己的湿地保护措施，表明作者认为州议员应该重视湿地保护。
 
-<!-- q_id=2024-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"shallows\", \"surge\", \"repercussion\", \"watershed\", \"transcend\"]" -->
+<!-- q_id=2024-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["shallows", "surge", "repercussion", "watershed", "transcend"] -->

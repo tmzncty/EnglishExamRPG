@@ -35,7 +35,7 @@ The New York Times is considering ending its print edition partly due to
 
 第二段指出，制作纸质报纸的基础设施成本高昂，且在在线竞争对手没有相同财务限制的情况下，这种成本是过高的。读者也在远离纸质版。因此，高运营成本是《纽约时报》考虑停止印刷版的原因之一。
 
-<!-- q_id=2016-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"incentive\", \"ditch\", \"counterpart\", \"legacy\"]" -->
+<!-- q_id=2016-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["incentive", "ditch", "counterpart", "legacy"] -->
 
 ### Question 37
 
@@ -52,7 +52,7 @@ Peretti suggests that, in face of the present situation, the Times should
 
 佩雷蒂认为，《纽约时报》不应该浪费时间退出印刷业务，但前提是他们以正确的方式去做。加速这一转变对他们来说是有意义的。这暗示了佩雷蒂建议《纽约时报》应该进行战略调整，而不是彻底结束印刷版。
 
-<!-- q_id=2016-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"incentive\", \"ditch\", \"counterpart\", \"legacy\"]" -->
+<!-- q_id=2016-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["incentive", "ditch", "counterpart", "legacy"] -->
 
 ### Question 38
 
@@ -69,7 +69,7 @@ It can be inferred from Paragraphs 5 and 6 that a “legacy product”
 
 第五段和第六段提到，佩雷蒂建议将印刷版变成一种“legacy product”，针对最忠实的客户，让他们觉得自己在帮助维持他们所信仰的东西的质量。因此，“legacy product”是指为最忠实客户准备的产品。
 
-<!-- q_id=2016-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"incentive\", \"ditch\", \"counterpart\", \"legacy\"]" -->
+<!-- q_id=2016-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["incentive", "ditch", "counterpart", "legacy"] -->
 
 ### Question 39
 
@@ -86,7 +86,7 @@ Peretti believes that, in a changing world,
 
 最后一段佩雷蒂说，在市场和世界发生变化的情况下，最好更积极而不是不积极。这表明他认为，在不断变化的世界中，积极主动能够更好地应对挑战。
 
-<!-- q_id=2016-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"incentive\", \"ditch\", \"counterpart\", \"legacy\"]" -->
+<!-- q_id=2016-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["incentive", "ditch", "counterpart", "legacy"] -->
 
 ### Question 40
 
@@ -103,4 +103,4 @@ Which of the following would be the best title of the text?
 
 全文主要讨论了《纽约时报》如何应对印刷版衰落的问题，佩雷蒂的建议是将印刷版变成一种奢侈品，针对最忠实的客户。因此，将印刷报纸变成奢侈品是本文的最佳标题。
 
-<!-- q_id=2016-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"incentive\", \"ditch\", \"counterpart\", \"legacy\"]" -->
+<!-- q_id=2016-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["incentive", "ditch", "counterpart", "legacy"] -->

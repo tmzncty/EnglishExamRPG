@@ -37,7 +37,7 @@ A lot of students take up law as their profession due to
 【C】首先曲解文意，与③句'大多数学生根本没机会进入大律所'相悖；其次，即便能去大律所也是出于挣大钱的目的。
 【技巧总结】因果细节题的解答步骤为：一、锁定题干考查对象：'因'还是'果'；二、于文中找寻因果关联词，并于其上下文就'果'找'果'，就'因'找'因'；三、将找寻内容与选项匹配。如本题，由题干due to 知其考查'因'；再由题干关键词 a lots of students take up law as their profession 搜索至第二段②句发现，句中 tempting 为隐性因果关联词，其后为'果'其前为'因'；最后于 tempting 前文找寻发现 skyscrapers-full of money 匹配【D】中 financial rewards。
 
-<!-- q_id=2014-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"hostility\", \"generate\", \"ground\", \"inflation\", \"skyscraper\", \"pile\", \"nuisance\", \"filer\", \"tort\", \"costly\", \"excessive\", \"path\", \"the bar\", \"sensible\", \"implement\", \"stern\", \"restrictive\", \"guild\", \"opponent\", \"regulator\", \"isolate\", \"ethically\", \"liberalize\"]" -->
+<!-- q_id=2014-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["hostility", "generate", "ground", "inflation", "skyscraper", "pile", "nuisance", "filer", "tort", "costly", "excessive", "path", "the bar", "sensible", "implement", "stern", "restrictive", "guild", "opponent", "regulator", "isolate", "ethically", "liberalize"] -->
 
 ### Question 27
 
@@ -57,7 +57,7 @@ Which of the following adds to the costs of legal education in most American sta
 【A】由④句 undergraduate debts"本科债务"捏造出"本科学费更高"，而文中并未对比本科教育与法律教育费用高低;【B】由③句 law schools authorized by the American Bar Association 衍生出"接受专业协会的培训"，而文意实为"在美国律师协会许可的法学院学习";【C】由③句 for the bar exam"参加律考"衍生出"经得律师协会的准入许可"，而文意实为"律师资格考试费用高昂（而非准入许可）推高法律教育费用"。
 「技巧总结】借题干隐性因果表达词 adds to 可知本题亦考查因果关联（解题思路同 26）。解答步骤如下：首先根据题干关键词定位至第三段，尔后搜寻到④句中因果表达词 leaves，然后再沿着其前 This（回指③句内容）搜索至③句中发现句中实含三个因素（A then B and C），最后将三个因素与选项一一匹配可知【D】对应 A。捷径：本题题干中adds to 意表此题考查"增加的法律教育费用"，因此可先剔除与正常法律教育费用挂钩的选项，【D】中 another major展示了这一深层含义，并对应③句中 unrelated subject。
 
-<!-- q_id=2014-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"hostility\", \"generate\", \"ground\", \"inflation\", \"skyscraper\", \"pile\", \"nuisance\", \"filer\", \"tort\", \"costly\", \"excessive\", \"path\", \"the bar\", \"sensible\", \"implement\", \"stern\", \"restrictive\", \"guild\", \"opponent\", \"regulator\", \"isolate\", \"ethically\", \"liberalize\"]" -->
+<!-- q_id=2014-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["hostility", "generate", "ground", "inflation", "skyscraper", "pile", "nuisance", "filer", "tort", "costly", "excessive", "path", "the bar", "sensible", "implement", "stern", "restrictive", "guild", "opponent", "regulator", "isolate", "ethically", "liberalize"] -->
 
 ### Question 28
 
@@ -77,7 +77,7 @@ Hindrance to the reform of the legal system originates from
 【B】与①句'改革法律教育体制对律师和客户均有益'所暗藏的'律师和客户都支持改革'相悖;【C误将改革措施等同于改革障碍;【D】将第五段②句'非律师身份人士对律师行业行会式限制性所有权机构可能存在的批评'偷换成'非专业人士对法律体制改革的尖锐批评'。
 【技巧总结】借题干隐性因果表达词 originates from 可知本题亦为因果细节题，但并非只有因果表达词能够表达因果关联，有时候也可以通过语义逻辑传递因果关联，故解答时应一反常规'于文中找寻因果关联词'，另辟蹊径'于文中找到与题干 Hindrance 的近义表达（too conservative to implement them，其中 them指代 sensible ideas about/of reforming the system）'，然后再追其施动者（the state-level bodies that govern the prolession）即可快速找寻到正确答案。
 
-<!-- q_id=2014-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"hostility\", \"generate\", \"ground\", \"inflation\", \"skyscraper\", \"pile\", \"nuisance\", \"filer\", \"tort\", \"costly\", \"excessive\", \"path\", \"the bar\", \"sensible\", \"implement\", \"stern\", \"restrictive\", \"guild\", \"opponent\", \"regulator\", \"isolate\", \"ethically\", \"liberalize\"]" -->
+<!-- q_id=2014-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["hostility", "generate", "ground", "inflation", "skyscraper", "pile", "nuisance", "filer", "tort", "costly", "excessive", "path", "the bar", "sensible", "implement", "stern", "restrictive", "guild", "opponent", "regulator", "isolate", "ethically", "liberalize"] -->
 
 ### Question 29
 
@@ -97,7 +97,7 @@ The guild-like ownership structure is considered “restrictive” partly becaus
 【A】反向曲解④句'这一限制性所有权结构让律师没有赚钱的压力'，且和题干不构成因果关联;【C】将④句'让律师很好地为委托人服务'曲解为'使得该行业道德恶化'，且和题干不构成因果关联;【D】将'非律师身份者（non-lawyers）'偷换为'律师（lawyers）'。
 技巧总结】 本题形式上是不折不扣的因果细节题，但同 28 题，并不能在文中找寻到因果关联词;进而再仔细琢磨题干可发现，它实质上考查抽象概念'restrictive'；而解答抽象概念的关键在于'借助句群关联'。解答本题逻辑即为;第五段实为'总（①句）—分（②③④句）'结构，其中①句作者使用评注词 restrictive.②④句non-lawyers may not own any share ofa law firm、keeping outsiders out of a law firm 在一定程度上即为restrictive 的注解。
 
-<!-- q_id=2014-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"hostility\", \"generate\", \"ground\", \"inflation\", \"skyscraper\", \"pile\", \"nuisance\", \"filer\", \"tort\", \"costly\", \"excessive\", \"path\", \"the bar\", \"sensible\", \"implement\", \"stern\", \"restrictive\", \"guild\", \"opponent\", \"regulator\", \"isolate\", \"ethically\", \"liberalize\"]" -->
+<!-- q_id=2014-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["hostility", "generate", "ground", "inflation", "skyscraper", "pile", "nuisance", "filer", "tort", "costly", "excessive", "path", "the bar", "sensible", "implement", "stern", "restrictive", "guild", "opponent", "regulator", "isolate", "ethically", "liberalize"] -->
 
 ### Question 30
 
@@ -117,4 +117,4 @@ In this text, the author mainly discusses
 「A由第三段③句'想要成为一名律师所必须接受的教育路径'捏造出'在美国成为成功律师的影响因素'这个文中不存在的信息;【C】由第三段③句'成为律师首先必须学习四年非法律本科专业'及第四段③句'本科即可开始学习法律'衍生出文章在探讨'本科教育在美国法律教育中的作用'，而这并非文意重点;【D】将第五六段'美国律师事务所所有权制度有一定缺陷'这一局部内容夸大为文章核心内容。
 【技巧总结】解答主旨题的关键在从主题、脉络、尤其首末段展开。如本文，主题即为美国法律行业（由首段①句 with the possible exception of journalism 即可推知），纵观四个选项发现每个选项都跟法律沾边;故而再看首末段，借首段'美国律师饱受诟病（问题）'及末段'美国应效仿他国（建议）'可初步推断【B】'问题—解决'符合全文结构;然后再根据中间段落逻辑链一 There are many reasons→one→the other reason、逻辑链二 reforming the system would help both lawyers and their customers→allowing non-lawyers...would reduce costs and improve services to customers 可知全文着力'问题原因分析—有效解决途径'可最终敲定【B】正确。
 
-<!-- q_id=2014-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"hostility\", \"generate\", \"ground\", \"inflation\", \"skyscraper\", \"pile\", \"nuisance\", \"filer\", \"tort\", \"costly\", \"excessive\", \"path\", \"the bar\", \"sensible\", \"implement\", \"stern\", \"restrictive\", \"guild\", \"opponent\", \"regulator\", \"isolate\", \"ethically\", \"liberalize\"]" -->
+<!-- q_id=2014-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["hostility", "generate", "ground", "inflation", "skyscraper", "pile", "nuisance", "filer", "tort", "costly", "excessive", "path", "the bar", "sensible", "implement", "stern", "restrictive", "guild", "opponent", "regulator", "isolate", "ethically", "liberalize"] -->

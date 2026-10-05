@@ -35,7 +35,7 @@ Robert F. Kennedy is cited because he
 
 罗伯特·F·肯尼迪被引用是因为他对GDP评价低。文章第一段引用肯尼迪的话“GDP衡量一切，除了那些让生活有价值的东西”，这表明他对GDP持否定态度。
 
-<!-- q_id=2017-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"assess\", \"flawed\", \"prospects\", \"criteria\", \"consistent\", \"sole\", \"outcomes\", \"refocus\"]" -->
+<!-- q_id=2017-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["assess", "flawed", "prospects", "criteria", "consistent", "sole", "outcomes", "refocus"] -->
 
 ### Question 32
 
@@ -52,7 +52,7 @@ It can be inferred from Paragraph 2 that
 
 从第二段可以推断出，GDP作为衡量成功的标准在英国受到广泛质疑。第二段提到了英国在GDP数据表现良好的情况下仍然选择脱欧，这暗示了GDP作为衡量标准在英国的有效性受到了质疑。
 
-<!-- q_id=2017-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"assess\", \"flawed\", \"prospects\", \"criteria\", \"consistent\", \"sole\", \"outcomes\", \"refocus\"]" -->
+<!-- q_id=2017-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["assess", "flawed", "prospects", "criteria", "consistent", "sole", "outcomes", "refocus"] -->
 
 ### Question 33
 
@@ -69,7 +69,7 @@ Which of the following is true about the recent annual study?
 
 关于最近的年度研究，以下哪项是正确的？ 它的结果具有启发性。第三段提到该研究“sheds some light on that question”，这表明研究结果具有启发性。
 
-<!-- q_id=2017-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"assess\", \"flawed\", \"prospects\", \"criteria\", \"consistent\", \"sole\", \"outcomes\", \"refocus\"]" -->
+<!-- q_id=2017-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["assess", "flawed", "prospects", "criteria", "consistent", "sole", "outcomes", "refocus"] -->
 
 ### Question 34
 
@@ -86,7 +86,7 @@ In the last two paragraphs, the author suggests that
 
 最后两段中，作者暗示考虑GDP以外的因素至关重要。最后两段强调了GDP的局限性，并指出应该关注那些能够提升幸福感的因素，如环境质量和教育。
 
-<!-- q_id=2017-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"assess\", \"flawed\", \"prospects\", \"criteria\", \"consistent\", \"sole\", \"outcomes\", \"refocus\"]" -->
+<!-- q_id=2017-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["assess", "flawed", "prospects", "criteria", "consistent", "sole", "outcomes", "refocus"] -->
 
 ### Question 35
 
@@ -103,4 +103,4 @@ Which of the following is the best title for the text?
 
 以下哪项是文章的最佳标题？GDP高但福利不足，英国的教训。文章讨论了GDP作为衡量标准的局限性，并以英国为例说明了高GDP并不一定意味着国民幸福。
 
-<!-- q_id=2017-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"assess\", \"flawed\", \"prospects\", \"criteria\", \"consistent\", \"sole\", \"outcomes\", \"refocus\"]" -->
+<!-- q_id=2017-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["assess", "flawed", "prospects", "criteria", "consistent", "sole", "outcomes", "refocus"] -->

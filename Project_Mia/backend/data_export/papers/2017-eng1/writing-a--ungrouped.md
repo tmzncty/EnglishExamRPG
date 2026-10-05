@@ -33,4 +33,4 @@ Li Ming
 
 这篇范文结构清晰，语言流畅，符合邮件格式。首段欢迎并说明目的；主体段落分别推荐了故宫、长城和胡同三个景点，并给出了推荐理由；结尾表达了希望提供帮助的意愿。内容覆盖全面，语言表达得体，是一篇优秀的范文。
 
-<!-- q_id=2017-eng1-writing_a-q51; difficulty=3; score=10.0; tags="[\"newly-arrived\", \"tourist attractions\", \"recommend\", \"reasons\"]" -->
+<!-- q_id=2017-eng1-writing_a-q51; difficulty=3; score=10.0; tags=["newly-arrived", "tourist attractions", "recommend", "reasons"] -->

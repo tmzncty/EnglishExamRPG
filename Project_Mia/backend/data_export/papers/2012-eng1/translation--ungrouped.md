@@ -30,7 +30,7 @@ In physics, one approach takes this impulse for unification to its extreme, and 
 
 本句的主干是one approach takes this impulse to its extreme, and seeks a theory of everything。破折号后面是对theory of everything的解释说明。翻译时，可以按照句子顺序进行翻译，注意一些词组的翻译，例如impulse for unification，generative equation。
 
-<!-- q_id=2012-eng1-translation-q46; difficulty=3; score=2.0; tags="[\"unification\", \"explicatory\", \"lineage-specific\"]" -->
+<!-- q_id=2012-eng1-translation-q46; difficulty=3; score=2.0; tags=["unification", "explicatory", "lineage-specific"] -->
 
 ### Question 47
 
@@ -44,7 +44,7 @@ Here, Darwinism seems to offer justification, for if all humans share common ori
 
 本句是一个复杂的因果复合句，主句是Darwinism seems to offer justification，for引导的原因状语从句中又包含一个if引导的条件状语从句。翻译时，注意理清句子之间的逻辑关系，采用顺译的方法即可。
 
-<!-- q_id=2012-eng1-translation-q47; difficulty=3; score=2.0; tags="[\"unification\", \"explicatory\", \"lineage-specific\"]" -->
+<!-- q_id=2012-eng1-translation-q47; difficulty=3; score=2.0; tags=["unification", "explicatory", "lineage-specific"] -->
 
 ### Question 48
 
@@ -58,7 +58,7 @@ To filter out what is unique from what is shared might enable us to understand h
 
 本句的主语是To filter out what is unique from what is shared，谓语是might enable，宾语是us to understand how complex cultural behavior arose and what guides it in evolutionary or cognitive terms。翻译时，可以将主语部分译为动宾短语，并采用顺译的方法。
 
-<!-- q_id=2012-eng1-translation-q48; difficulty=3; score=2.0; tags="[\"unification\", \"explicatory\", \"lineage-specific\"]" -->
+<!-- q_id=2012-eng1-translation-q48; difficulty=3; score=2.0; tags=["unification", "explicatory", "lineage-specific"] -->
 
 ### Question 49
 
@@ -72,7 +72,7 @@ The second, by Joshua Greenberg, takes a more empirical approach to universality
 
 本句的主干是The second takes a more empirical approach to universality，by Joshua Greenberg是插入语。identifying traits (particularly in word order) shared by many languages是现在分词短语做状语，which are considered to represent biases that result from cognitive constraints是定语从句，修饰traits。翻译时，注意插入语的处理，以及定语从句的翻译方法。
 
-<!-- q_id=2012-eng1-translation-q49; difficulty=3; score=2.0; tags="[\"unification\", \"explicatory\", \"lineage-specific\"]" -->
+<!-- q_id=2012-eng1-translation-q49; difficulty=3; score=2.0; tags=["unification", "explicatory", "lineage-specific"] -->
 
 ### Question 50
 
@@ -86,4 +86,4 @@ Chomsky’s grammar should show patterns of language change that are independent
 
 本句是由whereas连接的并列句，前半句是Chomsky’s grammar should show patterns of language change，that are independent of the family tree or the pathway tracked through it是定语从句，修饰patterns of language change。后半句是Greenbergian universality predicts strong co-dependencies between particular types of word-order relations。翻译时，注意并列句的连接词，以及定语从句的翻译方法。
 
-<!-- q_id=2012-eng1-translation-q50; difficulty=3; score=2.0; tags="[\"unification\", \"explicatory\", \"lineage-specific\"]" -->
+<!-- q_id=2012-eng1-translation-q50; difficulty=3; score=2.0; tags=["unification", "explicatory", "lineage-specific"] -->

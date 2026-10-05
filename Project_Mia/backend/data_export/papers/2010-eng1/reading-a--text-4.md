@@ -33,7 +33,7 @@ Bankers complained that they were forced to
 
 银行家们抱怨说，他们被迫遵循不利的资产评估规则。对应第一段第二句：Their rules, moan the banks, have forced them to report enormous losses, and it’s just not fair. 这些规则迫使他们以第三方愿意支付的价格评估某些资产，而不是管理者和监管者希望他们获得的价格。
 
-<!-- q_id=2010-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"lobbying\", \"illiquid\", \"toxic assets\", \"book value\"]" -->
+<!-- q_id=2010-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["lobbying", "illiquid", "toxic assets", "book value"] -->
 
 ### Question 37
 
@@ -50,7 +50,7 @@ According to the author, the rule changes of the FASB may result in
 
 根据作者，FASB的规则变化可能导致其独立性减弱。对应第二段第一句：Unfortunately, banks’ lobbying now seems to be working. 不幸的是，银行的游说现在似乎正在奏效。联系上下文可知，放宽规则会损害标准制定者的独立性。
 
-<!-- q_id=2010-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"lobbying\", \"illiquid\", \"toxic assets\", \"book value\"]" -->
+<!-- q_id=2010-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["lobbying", "illiquid", "toxic assets", "book value"] -->
 
 ### Question 38
 
@@ -67,7 +67,7 @@ According to Paragraph 4, McCreevy objects to the IASB’s attempt to
 
 根据第四段，McCreevy反对IASB试图摆脱政治影响。对应第四段最后一句话：Charlie McCreevy, a European commissioner, warned the IASB that it did “not live in a political vacuum” but “in the real world” and that Europe could yet develop different rules.欧洲专员查理·麦克里维警告国际会计准则委员会，它不是生活在“政治真空中”，而是生活在“现实世界中”，欧洲可能还会制定不同的规则。 言外之意是，IASB应该考虑政治因素，不能脱离政治影响。
 
-<!-- q_id=2010-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"lobbying\", \"illiquid\", \"toxic assets\", \"book value\"]" -->
+<!-- q_id=2010-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["lobbying", "illiquid", "toxic assets", "book value"] -->
 
 ### Question 39
 
@@ -84,7 +84,7 @@ The author thinks the banks were “on the wrong planet” in that they
 
 作者认为银行“走错了星球”，因为他们夸大了资产的实际价值。对应第五段第一句：It was banks that were on the wrong planet, with accounts that vastly overvalued assets. 正是这些银行在错误的轨道上运转，它们的账目大大高估了资产价值。
 
-<!-- q_id=2010-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"lobbying\", \"illiquid\", \"toxic assets\", \"book value\"]" -->
+<!-- q_id=2010-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["lobbying", "illiquid", "toxic assets", "book value"] -->
 
 ### Question 40
 
@@ -101,4 +101,4 @@ The author’s attitude towards standard-setters is one of
 
 作者对标准制定者的态度是怀疑的。通读全文可知，作者认为标准制定者受到了银行的游说，损害了其独立性，因此是持怀疑态度的。尤其是第二段和最后一段的转折，体现了作者的失望之情。
 
-<!-- q_id=2010-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"lobbying\", \"illiquid\", \"toxic assets\", \"book value\"]" -->
+<!-- q_id=2010-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["lobbying", "illiquid", "toxic assets", "book value"] -->

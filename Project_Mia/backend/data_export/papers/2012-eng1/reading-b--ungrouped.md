@@ -42,7 +42,7 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项C承接前一句对于计算机功能的描述，说明了计算机不仅被发明出来，还在全球范围内被广泛应用。前文描述了计算机的各种功能，C选项是对这些功能的总结和升华，并引出了计算机的广泛应用。
 
-<!-- q_id=2012-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->
 
 ### Question 42
 
@@ -62,7 +62,7 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项D引出了下载和上传之间的“秘密战争”，这与后文讨论的被动消费和主动创造相关。D选项是对计算机带来的影响的进一步阐述，并为后文讨论下载和上传的对比埋下伏笔。
 
-<!-- q_id=2012-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->
 
 ### Question 43
 
@@ -82,7 +82,7 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项A延续了对人类独特创造能力的讨论，强调了超越下载的重要性。前文提到了人类能够创造各种事物，A选项则进一步强调了这些创造对于人类文化和本质的重要性，并指出仅仅停留在下载是不够的。
 
-<!-- q_id=2012-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->
 
 ### Question 44
 
@@ -102,7 +102,7 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项F解释了为什么人们仍然停留在下载模式，指出电视作为一种单向媒体对人们的影响。F选项是对金字塔结构形成原因的解释，强调了电视作为单向媒体的地位，为后文对比电视和计算机埋下伏笔。
 
-<!-- q_id=2012-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->
 
 ### Question 45
 
@@ -122,4 +122,4 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项G提出了计算机作为一种可以扭转这种趋势的工具，鼓励人们进行有意义的上传。G选项承接了对电视的批判，并提出了计算机作为一种解决方案，为后文讨论“stickiness”的概念做铺垫。
 
-<!-- q_id=2012-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->

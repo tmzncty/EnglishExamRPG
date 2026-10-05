@@ -29,7 +29,7 @@ The financial problem with the USPS is caused partly by
 
 首段①②③句指出 USPS 处于严重财政赤字状态，④⑤句说明根本原因∶技术变革使得对其核心产品需求降低，而其监管体系又致其无法灵活管理、适应新现实。可见"管理僵化"为内因，【B】正确。
 
-<!-- q_id=2018-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"bleed red ink\", \"rigid\", \"tolerance\", \"discontent\", \"gratitude\"]" -->
+<!-- q_id=2018-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["bleed red ink", "rigid", "tolerance", "discontent", "gratitude"] -->
 
 ### Question 37
 
@@ -46,7 +46,7 @@ According to Paragraph 2, the USPS fails to modernize itself due to
 
 第二段指出，由于各利益集团向国会施压、要求保护现状，近年来立法改革频频失败，导致邮政局无力偿还债务、唯有推迟现代化。可见 【A】正确。
 
-<!-- q_id=2018-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"bleed red ink\", \"rigid\", \"tolerance\", \"discontent\", \"gratitude\"]" -->
+<!-- q_id=2018-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["bleed red ink", "rigid", "tolerance", "discontent", "gratitude"] -->
 
 ### Question 38
 
@@ -63,7 +63,7 @@ The long-standing complaint by the USPS and its unions can be addressed by
 
 第三段②③句指出新法规提出的缓解 USPS财政困难的两种方式∶每封信邮资费率上涨1美分;将退休人员转人联邦医疗保险。④句指出，后一举措将大幅抵消预付退休人员医保造成的财政负担，化解 USPS 及其工会长久以来的抱怨。可见 【A】正确。
 
-<!-- q_id=2018-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"bleed red ink\", \"rigid\", \"tolerance\", \"discontent\", \"gratitude\"]" -->
+<!-- q_id=2018-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["bleed red ink", "rigid", "tolerance", "discontent", "gratitude"] -->
 
 ### Question 39
 
@@ -80,7 +80,7 @@ In the last paragraph, the author seems to view legislators with
 
 末段先评价法案"仅够邮政局勉强维持的最基本的必要之举，而非全面改革"，随后指出法案的两项重大疏漏，最后总结评价立法者"只是害怕 USPS 的短期崩溃令其政治难堪，并非认真对待邮政系统转型"，可见作者对立法者十分不满，【C】正确。
 
-<!-- q_id=2018-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"bleed red ink\", \"rigid\", \"tolerance\", \"discontent\", \"gratitude\"]" -->
+<!-- q_id=2018-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["bleed red ink", "rigid", "tolerance", "discontent", "gratitude"] -->
 
 ### Question 40
 
@@ -97,4 +97,4 @@ Which of the following would be the best title for the text?
 
 文章首两段提出问题"USPS 财政赤字严重"并分析原因"技术冲击、管理低化、改革阻力大"，末两段介绍新近法案内容并予以评价"虽会有所成效，却遗漏重点/治标不治本"。可见，全文论述对象为"USPS 改革脱困"，文章观点为"权宜之计无用，还需标本兼治"，【D】正确。
 
-<!-- q_id=2018-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"bleed red ink\", \"rigid\", \"tolerance\", \"discontent\", \"gratitude\"]" -->
+<!-- q_id=2018-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["bleed red ink", "rigid", "tolerance", "discontent", "gratitude"] -->

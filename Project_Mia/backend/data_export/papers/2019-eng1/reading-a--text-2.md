@@ -33,7 +33,7 @@ What is commonly regarded as the cause of grade inflation?
 
 根据题干关键词 grade inflation 定位至首段①句，该句指出∶"分数膨胀"往往被视作高等教育进入消费者时代的产物，即人们通常认为消费者文化是高等教育"分数膨胀"的原因，【D】正确。
 
-<!-- q_id=2019-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"inflation\", \"forgiveness\", \"registrar\", \"aligned\"]" -->
+<!-- q_id=2019-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["inflation", "forgiveness", "registrar", "aligned"] -->
 
 ### Question 27
 
@@ -50,7 +50,7 @@ What was the original purpose of grade forgiveness?
 
 根据题干关键词 the original purpose of grade forgiveness可定位至第三段②句，该句介绍数十年前"成绩宽恕"政策刚开始实行时的情形（When this practice first started...）∶仅针对大一新生，旨在为新生提供一次重修课程的机会，帮他们应对高中到大学的过渡，也即适应大学学习，【A】正确。
 
-<!-- q_id=2019-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"inflation\", \"forgiveness\", \"registrar\", \"aligned\"]" -->
+<!-- q_id=2019-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["inflation", "forgiveness", "registrar", "aligned"] -->
 
 ### Question 28
 
@@ -67,7 +67,7 @@ According to Paragraph 5, grade forgiveness enables colleges to
 
 第五段指出"成绩宽恕"满足了大学两方面的需要∶1.帮助公立大学获得更多政府拨款;2.提高学生对于学校的满意度。【A】符合第一项内容。
 
-<!-- q_id=2019-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"inflation\", \"forgiveness\", \"registrar\", \"aligned\"]" -->
+<!-- q_id=2019-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["inflation", "forgiveness", "registrar", "aligned"] -->
 
 ### Question 29
 
@@ -84,7 +84,7 @@ What does the phrase "to be aligned" (Line 5, Para. 6) most probably mean?
 
 所考词组位于第六段③句，而该句中 this 回指前文信息，需综合分析∶本段①句先揭示学校与学生之间关系的实质——商品/服务提供者 VS消费者，②句具体说明这一关系∶作为消费者的学生及其家长希望顺利拿到学位，作为商品/服务提供者的学校尽力产出合格或看起来合格（即符合学位授予条件）的学生，可见两者动机是一致的，to be aligned 意为"一致的，相同的"，【C】正确。
 
-<!-- q_id=2019-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"inflation\", \"forgiveness\", \"registrar\", \"aligned\"]" -->
+<!-- q_id=2019-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["inflation", "forgiveness", "registrar", "aligned"] -->
 
 ### Question 30
 
@@ -101,4 +101,4 @@ The author examines the practice of grade forgiveness by
 
 本题考查作者写作方式（examines...by...），需结合全文内容进行判断。文章第一至三段先介绍"成绩宽恕"政策的内容及其发展情况，特别指出近年来该政策日益普及的现状，第四至六段揭示政策产生和发展的原因，其中第四、五段先分别指出该政策符合学生和大学的需求，第六段总结原因，揭示学生和大学之间关系的实质是消费关系，"成绩宽恕"政策的加速施行是双方共同利益驱使的结果。可见，作者是借助"分析政策背后的原因和动机"来剖析政策、表明态度的，【B】正确。
 
-<!-- q_id=2019-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"inflation\", \"forgiveness\", \"registrar\", \"aligned\"]" -->
+<!-- q_id=2019-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["inflation", "forgiveness", "registrar", "aligned"] -->

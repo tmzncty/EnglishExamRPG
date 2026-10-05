@@ -35,7 +35,7 @@ According to the first two paragraphs,alloparenting refers to the practice of
 
 根据第一段，狩猎采集社会中每个孩子都由许多成年人照顾。第二段提到 Chaudhary 认为这种被称为 alloparenting 的做法可以减少儿童和父母的焦虑。因此 alloparenting 指的是在社区成员之间分担育儿责任。
 
-<!-- q_id=2024-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"contented\", \"alloparenting\", \"intensive mothering narrative\", \"knock-on\"]" -->
+<!-- q_id=2024-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["contented", "alloparenting", "intensive mothering narrative", "knock-on"] -->
 
 ### Question 27
 
@@ -52,7 +52,7 @@ The scheme in Germany is mentioned to illustrate
 
 第三段提到德国的一个项目将养老院和幼儿园配对，居民帮助照顾孩子，这是一种类似于 alloparenting 的安排。这个例子是为了说明将 alloparenting 融入西方社会的一种尝试。
 
-<!-- q_id=2024-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"contented\", \"alloparenting\", \"intensive mothering narrative\", \"knock-on\"]" -->
+<!-- q_id=2024-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["contented", "alloparenting", "intensive mothering narrative", "knock-on"] -->
 
 ### Question 28
 
@@ -69,7 +69,7 @@ According to Paragraph 4,the “intensive mothering narrative”
 
 第四段指出，西方核心家庭是一种新的发明，打破了进化历史。这种突然转向“intensive mothering narrative”的做法，可能是有害的。因此，“intensive mothering narrative”是偏离进化过程的。
 
-<!-- q_id=2024-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"contented\", \"alloparenting\", \"intensive mothering narrative\", \"knock-on\"]" -->
+<!-- q_id=2024-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["contented", "alloparenting", "intensive mothering narrative", "knock-on"] -->
 
 ### Question 29
 
@@ -86,7 +86,7 @@ What can be inferred about the nurseries in the UK?
 
 第六段提到，狩猎采集社会中婴儿可能有超过十个照料者，这与英国的托儿所形成鲜明对比，英国的法规要求一名照料者照顾四名两到三岁的儿童。由此可以推断，英国的托儿所应该提高照料者与儿童的比例。
 
-<!-- q_id=2024-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"contented\", \"alloparenting\", \"intensive mothering narrative\", \"knock-on\"]" -->
+<!-- q_id=2024-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["contented", "alloparenting", "intensive mothering narrative", "knock-on"] -->
 
 ### Question 30
 
@@ -103,4 +103,4 @@ Which of the following would be the best title for the text?
 
 文章主要讨论了从非洲的狩猎采集者那里获得的育儿经验，以及如何将这些经验融入西方社会，以带来更幸福的家庭。因此，最佳标题是“For a happier family,learn from the hunter-gatherers”。
 
-<!-- q_id=2024-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"contented\", \"alloparenting\", \"intensive mothering narrative\", \"knock-on\"]" -->
+<!-- q_id=2024-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["contented", "alloparenting", "intensive mothering narrative", "knock-on"] -->

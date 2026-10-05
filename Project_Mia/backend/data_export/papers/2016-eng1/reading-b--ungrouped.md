@@ -38,7 +38,7 @@ As an executive coach, I’ve seen image upgrades be particularly helpful during
 
 Paragraph 4 describes situations where an image upgrade can be beneficial, such as during career transitions or feeling stuck. It advises seeking feedback to determine if an upgrade is necessary. This aligns with the subheading "Decide if the time is right."
 
-<!-- q_id=2016-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->
 
 ### Question 42
 
@@ -58,7 +58,7 @@ Get clear on what impact you’re hoping to have. Are you looking to refresh you
 
 Paragraph 5 emphasizes the importance of defining your objectives for an image upgrade. It discusses different desired outcomes, such as being taken more seriously or appearing more approachable. Therefore, the most suitable heading is 'Know your goals.'
 
-<!-- q_id=2016-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->
 
 ### Question 43
 
@@ -78,7 +78,7 @@ Look at your work environment like an anthropologist. What are the norms of your
 
 Paragraph 6 advises observing the workplace environment to understand its norms, status symbols, and audience. The key is to understand the 'cultural context' to effectively manage your impact. The best match is 'Understand the context'.
 
-<!-- q_id=2016-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->
 
 ### Question 44
 
@@ -98,7 +98,7 @@ Enlist the support of professionals and share with them your goals and context. 
 
 Paragraph 7 specifically recommends seeking guidance from professionals such as stylists and photographers to help achieve your desired image. This directly corresponds to the subheading 'Work with professionals'.
 
-<!-- q_id=2016-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->
 
 ### Question 45
 
@@ -118,4 +118,4 @@ The point of a style upgrade isn’t to become more vain or to spend more time f
 
 Paragraph 8 focuses on making the image upgrade process streamlined and less time-consuming. It suggests strategies such as choosing a uniform and bulk-buying clothes to 'reduce decision fatigue,' aligning perfectly with the subheading 'Make it efficient.'
 
-<!-- q_id=2016-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->

@@ -27,7 +27,7 @@ we put the keys just a moment ago
 
 从语法上，that, when, why, where都可以引导宾语从句。从语义上来看，本句是忘记把钥匙放在哪里了，所以应该用where引导地点状语。
 
-<!-- q_id=2014-eng1-use_of_english-q1; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q1; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 2
 
@@ -43,7 +43,7 @@ we put the keys just a moment ago
 
 根据前文，人们的记忆力和头脑清晰度不如从前，因此这里应该选择fades，表示大脑功能衰退。
 
-<!-- q_id=2014-eng1-use_of_english-q2; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q2; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 3
 
@@ -59,7 +59,7 @@ we put the keys just a moment ago
 
 这里表示让步关系，虽然大脑失焦看似无害，但实际上可能对我们的职业、社会和个人生活产生影响。
 
-<!-- q_id=2014-eng1-use_of_english-q3; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q3; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 4
 
@@ -75,7 +75,7 @@ we put the keys just a moment ago
 
 根据上文，大脑失焦可能对我们的生活产生影响，这里应该选择damaging，表示有害的影响。
 
-<!-- q_id=2014-eng1-use_of_english-q4; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q4; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 5
 
@@ -91,7 +91,7 @@ we put the keys just a moment ago
 
 这里指的是对个人幸福造成影响，所以选择wellbeing。
 
-<!-- q_id=2014-eng1-use_of_english-q5; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q5; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 6
 
@@ -107,7 +107,7 @@ we put the keys just a moment ago
 
 Turn out表示结果是，被证明是，符合语境。
 
-<!-- q_id=2014-eng1-use_of_english-q6; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q6; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 7
 
@@ -123,7 +123,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 大脑需要锻炼，就像肌肉需要锻炼一样，所以这里应该选择workouts。
 
-<!-- q_id=2014-eng1-use_of_english-q7; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q7; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 8
 
@@ -139,7 +139,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 认知功能，functions符合语境。
 
-<!-- q_id=2014-eng1-use_of_english-q8; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q8; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 9
 
@@ -155,7 +155,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 思考本质上是在大脑中建立连接的过程。
 
-<!-- q_id=2014-eng1-use_of_english-q9; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q9; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 10
 
@@ -171,7 +171,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 我们擅长于建立促进智力的连接，excel符合语境。
 
-<!-- q_id=2014-eng1-use_of_english-q10; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q10; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 11
 
@@ -187,7 +187,7 @@ Turn out表示结果是，被证明是，符合语境。
 
 However表示转折，上文说能力是遗传的，下文说能力是可以通过后天努力获得的。
 
-<!-- q_id=2014-eng1-use_of_english-q11; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q11; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 12
 
@@ -203,7 +203,7 @@ However表示转折，上文说能力是遗传的，下文说能力是可以通�
 
 智力可以根据脑力训练而拓展或波动，according to表示根据。
 
-<!-- q_id=2014-eng1-use_of_english-q12; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q12; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 13
 
@@ -219,7 +219,7 @@ However表示转折，上文说能力是遗传的，下文说能力是可以通�
 
 Take it a step further表示更进一步。
 
-<!-- q_id=2014-eng1-use_of_english-q13; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q13; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 14
 
@@ -235,7 +235,7 @@ Take it a step further表示更进一步。
 
 恢复大脑灵敏度，sharpness符合语境。
 
-<!-- q_id=2014-eng1-use_of_english-q14; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q14; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 15
 
@@ -251,7 +251,7 @@ Take it a step further表示更进一步。
 
 Allow表示允许，许可，程序允许你系统地提高记忆力和注意力技能。
 
-<!-- q_id=2014-eng1-use_of_english-q15; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q15; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 16
 
@@ -267,7 +267,7 @@ Allow表示允许，许可，程序允许你系统地提高记忆力和注意力
 
 Keep track of表示保持知晓，保持联络，程序跟踪你的进步。
 
-<!-- q_id=2014-eng1-use_of_english-q16; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q16; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 17
 
@@ -283,7 +283,7 @@ Keep track of表示保持知晓，保持联络，程序跟踪你的进步。
 
 Feedback on表示关于……的反馈。
 
-<!-- q_id=2014-eng1-use_of_english-q17; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q17; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 18
 
@@ -299,7 +299,7 @@ Feedback on表示关于……的反馈。
 
 Constantly表示不断地，持续地，程序不断地调整和加强训练内容。
 
-<!-- q_id=2014-eng1-use_of_english-q18; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q18; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 19
 
@@ -315,7 +315,7 @@ Constantly表示不断地，持续地，程序不断地调整和加强训练内�
 
 Build on表示用……作为进一步发展的基础，将……继续推进，继续推进你的优势。
 
-<!-- q_id=2014-eng1-use_of_english-q19; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q19; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->
 
 ### Question 20
 
@@ -331,4 +331,4 @@ Build on表示用……作为进一步发展的基础，将……继续推进，
 
 有效的日常锻炼，effective符合语境。
 
-<!-- q_id=2014-eng1-use_of_english-q20; difficulty=3; score=0.5; tags="[\"acquaintance\", \"occurrence\", \"senior\", \"innocent\", \"systematically\", \"modify\", \"resistance\", \"vary\"]" -->
+<!-- q_id=2014-eng1-use_of_english-q20; difficulty=3; score=0.5; tags=["acquaintance", "occurrence", "senior", "innocent", "systematically", "modify", "resistance", "vary"] -->

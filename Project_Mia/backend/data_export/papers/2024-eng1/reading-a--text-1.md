@@ -35,7 +35,7 @@ The Romans buried the nails probably for the sake of
 
 根据文章第二段“Why had the Romans buried a million nails?The likely explanation is that the withdrawal was rushed,and they didn’t want the local Caledonians getting their hands on 10 tons of weapon-grade iron.”可知，罗马人埋藏钉子的原因是为了不让当地人获得这些铁钉。
 
-<!-- q_id=2024-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"curious\", \"millennia\", \"reclaim\", \"obsessed\", \"hype\", \"niche\"]" -->
+<!-- q_id=2024-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["curious", "millennia", "reclaim", "obsessed", "hype", "niche"] -->
 
 ### Question 22
 
@@ -52,7 +52,7 @@ The example of early 17th-century Virginians is used to
 
 文章第三段举了17世纪弗吉尼亚人的例子，他们会为了回收钉子而烧毁房屋，目的是为了说明钉子制作技术在当时的珍贵性。
 
-<!-- q_id=2024-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"curious\", \"millennia\", \"reclaim\", \"obsessed\", \"hype\", \"niche\"]" -->
+<!-- q_id=2024-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["curious", "millennia", "reclaim", "obsessed", "hype", "niche"] -->
 
 ### Question 23
 
@@ -69,7 +69,7 @@ What played the major role in lowering the price of nails after the late 1700s?
 
 根据文章第四段“although the falling price of nails was driven partly by cheaper iron and cheaper energy,most of the credit goes to nail manufacturers who simply found more efficient ways to turn steel into nails.”可知，钉子价格下降的主要原因是生产力的提高。
 
-<!-- q_id=2024-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"curious\", \"millennia\", \"reclaim\", \"obsessed\", \"hype\", \"niche\"]" -->
+<!-- q_id=2024-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["curious", "millennia", "reclaim", "obsessed", "hype", "niche"] -->
 
 ### Question 24
 
@@ -86,7 +86,7 @@ It can be learned from Paragraph 5 that nails
 
 文章第五段提到“Roman lamps and Roman chariots are very different from LED strips and sports cars,but Roman nails are still clearly nails.”，说明钉子从罗马时代至今基本没有改变。
 
-<!-- q_id=2024-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"curious\", \"millennia\", \"reclaim\", \"obsessed\", \"hype\", \"niche\"]" -->
+<!-- q_id=2024-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["curious", "millennia", "reclaim", "obsessed", "hype", "niche"] -->
 
 ### Question 25
 
@@ -103,4 +103,4 @@ Which of the following best summarises the last two paragraphs?
 
 最后两段强调了廉价技术如何改变世界，例如印刷术和太阳能电池板的例子，都说明了廉价技术带来革命性变革。
 
-<!-- q_id=2024-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"curious\", \"millennia\", \"reclaim\", \"obsessed\", \"hype\", \"niche\"]" -->
+<!-- q_id=2024-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["curious", "millennia", "reclaim", "obsessed", "hype", "niche"] -->

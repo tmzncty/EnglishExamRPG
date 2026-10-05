@@ -45,7 +45,7 @@ E
 
 根据空格后的内容“人类已经拥有了从转基因作物到人工肥料的各种必要农业技术工具来消除饥饿”，可知空格处也应该是一个关于全球挑战的例子，并且解决问题的关键在于人类行为和社会革新。选项E “这些问题的根本原因均在于人类行为”，因此E正确
 
-<!-- q_id=2013-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"flourishing\", \"eradicate\", \"disciplinary\", \"reluctant\", \"endeavor\"]" -->
+<!-- q_id=2013-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["flourishing", "eradicate", "disciplinary", "reluctant", "endeavor"] -->
 
 ### Question 42
 
@@ -60,7 +60,7 @@ F
 
 根据空格后的 “This is a shame”，可以推断出空格处的内容表达的是社会科学界在应对全球性挑战中存在的不足或错误。选项F“尽管存在这些种种因素，许多社会科学家似乎并不愿意去应对此类问题”，表明社会科学家不愿应对问题，从而作者认为是令人遗憾的
 
-<!-- q_id=2013-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"flourishing\", \"eradicate\", \"disciplinary\", \"reluctant\", \"endeavor\"]" -->
+<!-- q_id=2013-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["flourishing", "eradicate", "disciplinary", "reluctant", "endeavor"] -->
 
 ### Question 43
 
@@ -75,7 +75,7 @@ D
 
 空格前一句“关键词含有'环境变化'或者'气候变化'的论文的数量自2004年以来迅速增长”，表明社会科学界对全球问题的关注度在提升，而空格后的内容应与此相反。选项D“但是，总量仍然很少”，因此D正确
 
-<!-- q_id=2013-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"flourishing\", \"eradicate\", \"disciplinary\", \"reluctant\", \"endeavor\"]" -->
+<!-- q_id=2013-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["flourishing", "eradicate", "disciplinary", "reluctant", "endeavor"] -->
 
 ### Question 44
 
@@ -90,7 +90,7 @@ G
 
 空格后一句“只要所用方向正确，这个数目就足够了”，说明空格处是对 “这个数目”进行解释或描述。选项G “在总研发基金中所占比例约从4%到25%”，描述了对社会科学的投入情况，因此G正确
 
-<!-- q_id=2013-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"flourishing\", \"eradicate\", \"disciplinary\", \"reluctant\", \"endeavor\"]" -->
+<!-- q_id=2013-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["flourishing", "eradicate", "disciplinary", "reluctant", "endeavor"] -->
 
 ### Question 45
 
@@ -105,4 +105,4 @@ A
 
 空格前一句说欧盟改革方案“本意并非是要忽视社会科学，而是完全相反”，空格后说“这将会激发更多协作性努力”，说明空格处的内容也应该是对 “本意”进行解释。选项A“其目的是促进社会科学与其他学科领域协同合作”，解释了改革方案的意图，因此A正确
 
-<!-- q_id=2013-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"flourishing\", \"eradicate\", \"disciplinary\", \"reluctant\", \"endeavor\"]" -->
+<!-- q_id=2013-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["flourishing", "eradicate", "disciplinary", "reluctant", "endeavor"] -->

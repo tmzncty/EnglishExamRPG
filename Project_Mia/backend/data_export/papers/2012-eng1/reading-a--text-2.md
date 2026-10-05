@@ -33,7 +33,7 @@ The phrase “reneging on” (Line 3, Para. 1) is closest in meaning to
 
 reneging on意为“违背，放弃”，与dishonoring“不尊重，违背”意思相近。A condemning谴责，B reaffirming重申，D securing获得。
 
-<!-- q_id=2012-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"reneging on\", \"constitutionality\", \"desperate\", \"obscure\", \"patchwork\", \"pledging\"]" -->
+<!-- q_id=2012-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["reneging on", "constitutionality", "desperate", "obscure", "patchwork", "pledging"] -->
 
 ### Question 27
 
@@ -50,7 +50,7 @@ By entering into the 2002 agreement, Entergy intended to
 
 根据第三段，2002年协议的目的是为了获得购买核电站的许可。A 获得佛蒙特州监管机构的保护，B 寻求联邦立法机构的支持，C 获得经营许可证的延期，均不是2002年协议的目的。
 
-<!-- q_id=2012-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"reneging on\", \"constitutionality\", \"desperate\", \"obscure\", \"patchwork\", \"pledging\"]" -->
+<!-- q_id=2012-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["reneging on", "constitutionality", "desperate", "obscure", "patchwork", "pledging"] -->
 
 ### Question 28
 
@@ -67,7 +67,7 @@ According to Paragraph 4, Entergy seems to have problems with its
 
 第四段提到一系列事故以及公司做出误导性陈述，表明Entergy在管理实践方面存在问题。A 管理实践，B 技术创新，C 财务目标，D 商业远见，均不是第四段主要内容。
 
-<!-- q_id=2012-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"reneging on\", \"constitutionality\", \"desperate\", \"obscure\", \"patchwork\", \"pledging\"]" -->
+<!-- q_id=2012-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["reneging on", "constitutionality", "desperate", "obscure", "patchwork", "pledging"] -->
 
 ### Question 29
 
@@ -84,7 +84,7 @@ In the author’s view, the Vermont case will test
 
 第五段提到，法律学者认为佛蒙特州案件将会对检验“州政府的权力究竟有多大”提供一个先例。即，测试州在核问题上的权限。
 
-<!-- q_id=2012-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"reneging on\", \"constitutionality\", \"desperate\", \"obscure\", \"patchwork\", \"pledging\"]" -->
+<!-- q_id=2012-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["reneging on", "constitutionality", "desperate", "obscure", "patchwork", "pledging"] -->
 
 ### Question 30
 
@@ -101,4 +101,4 @@ It can be inferred from the last paragraph that
 
 最后一段提到NRC在审核Entergy的申请时应该考虑到Entergy公司的承诺到底价值几何，暗示其在其他地方的业务可能会受到影响。
 
-<!-- q_id=2012-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"reneging on\", \"constitutionality\", \"desperate\", \"obscure\", \"patchwork\", \"pledging\"]" -->
+<!-- q_id=2012-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["reneging on", "constitutionality", "desperate", "obscure", "patchwork", "pledging"] -->

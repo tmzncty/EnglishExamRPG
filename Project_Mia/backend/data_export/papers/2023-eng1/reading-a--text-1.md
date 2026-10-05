@@ -37,7 +37,7 @@ In Paragraph 1, the weather in Texas is mentioned to
 
 第一段提到天气是为了引出话题，说明会议讨论的激烈程度，形成对比。天气冷却，会议热烈，暗示辩论激烈。
 
-<!-- q_id=2023-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"sympathise\", \"dispute\", \"benchmark\", \"slanted\"]" -->
+<!-- q_id=2023-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["sympathise", "dispute", "benchmark", "slanted"] -->
 
 ### Question 22
 
@@ -54,7 +54,7 @@ What does Quinn think of Hardy?
 
 Quinn认为Hardy轻率地否定了学者和科学家的职业工作，认为他们的工作只是另一种错误的观点。
 
-<!-- q_id=2023-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"sympathise\", \"dispute\", \"benchmark\", \"slanted\"]" -->
+<!-- q_id=2023-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["sympathise", "dispute", "benchmark", "slanted"] -->
 
 ### Question 23
 
@@ -71,7 +71,7 @@ The study mentioned in Paragraph 5 shows that
 
 第五段中提到的研究表明，州公立学校的气候教育不足。研究显示只有不到一半的州获得了B+或更高的评价。
 
-<!-- q_id=2023-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"sympathise\", \"dispute\", \"benchmark\", \"slanted\"]" -->
+<!-- q_id=2023-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["sympathise", "dispute", "benchmark", "slanted"] -->
 
 ### Question 24
 
@@ -88,7 +88,7 @@ According to Branch, state-level science standards in the US
 
 Branch认为，州一级的科学标准影响有限，因为美国将决策权下放给地方学校董事会。
 
-<!-- q_id=2023-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"sympathise\", \"dispute\", \"benchmark\", \"slanted\"]" -->
+<!-- q_id=2023-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["sympathise", "dispute", "benchmark", "slanted"] -->
 
 ### Question 25
 
@@ -105,4 +105,4 @@ It is implied in the last paragraph that climate change teaching in some schools
 
 最后一段暗示，气候变化教学可能会受到外部力量的影响，例如能源行业协会赞助的材料。
 
-<!-- q_id=2023-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"sympathise\", \"dispute\", \"benchmark\", \"slanted\"]" -->
+<!-- q_id=2023-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["sympathise", "dispute", "benchmark", "slanted"] -->

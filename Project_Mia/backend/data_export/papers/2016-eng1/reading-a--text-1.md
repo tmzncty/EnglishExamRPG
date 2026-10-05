@@ -35,7 +35,7 @@ According to the first paragraph, what would happen in France?
 
 第一段指出，法国裁定其时尚业丧失了界定女性形体美的绝对权。这意味着法国将重新定义形体美。
 
-<!-- q_id=2016-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->
 
 ### Question 22
 
@@ -52,7 +52,7 @@ The phrase “impinging on” (Line 2, Para. 2) is closest in meaning to
 
 impinging on 指的是对健康造成损害。因此，doing harm to 是最接近的含义。
 
-<!-- q_id=2016-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->
 
 ### Question 23
 
@@ -69,7 +69,7 @@ Which of the following is true of the fashion industry?
 
 文章提到丹麦正在制定新的行业标准。因此，D选项是正确的。
 
-<!-- q_id=2016-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->
 
 ### Question 24
 
@@ -86,7 +86,7 @@ A designer is most likely to be rejected by CFW for
 
 根据丹麦时尚伦理宪章，设计师如果对模特的健康因素不关心，最有可能被CFW拒绝。
 
-<!-- q_id=2016-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->
 
 ### Question 25
 
@@ -103,4 +103,4 @@ Which of the following may be the best title of the text?
 
 文章讨论了时尚界对身体理想的挑战，因此，D选项最适合作为文章标题。
 
-<!-- q_id=2016-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->

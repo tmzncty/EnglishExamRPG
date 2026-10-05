@@ -41,7 +41,7 @@ The author believes that the bills sponsored by Lewis and Haddad will
 
 作者认为Lewis和Haddad发起的议案对于减少性别歧视几乎没有帮助。文章首段指出这种政策是一种虚伪的道德信号，受益者只有特权阶级，普通人无法从中获益。
 
-<!-- q_id=2020-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"mandate\", \"virtue-signaling\", \"parity\", \"quota\"]" -->
+<!-- q_id=2020-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["mandate", "virtue-signaling", "parity", "quota"] -->
 
 ### Question 32
 
@@ -58,7 +58,7 @@ Which of the following is true of the California measure?
 
 加州的措施可能违宪。文章第四段提到，州长承认该法律可能违宪，因为它明确地基于性别对人进行分类。
 
-<!-- q_id=2020-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"mandate\", \"virtue-signaling\", \"parity\", \"quota\"]" -->
+<!-- q_id=2020-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["mandate", "virtue-signaling", "parity", "quota"] -->
 
 ### Question 33
 
@@ -75,7 +75,7 @@ The author mentions the study by Catalyst to illustrate
 
 作者提到 Catalyst 的研究是为了说明政府干预是不必要的。第七段指出，女性在公司董事会中的比例一直在稳步增长，无需政府干预。
 
-<!-- q_id=2020-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"mandate\", \"virtue-signaling\", \"parity\", \"quota\"]" -->
+<!-- q_id=2020-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["mandate", "virtue-signaling", "parity", "quota"] -->
 
 ### Question 34
 
@@ -92,7 +92,7 @@ Norway’s adoption of a nationwide corporate gender quota has led to
 
 挪威采用全国性的公司性别配额导致了不合格的候选人进入董事会。第八段提到，要求公司将性别作为董事会成员的首要资格，将不可避免地导致经验不足的私营部门董事会。
 
-<!-- q_id=2020-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"mandate\", \"virtue-signaling\", \"parity\", \"quota\"]" -->
+<!-- q_id=2020-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["mandate", "virtue-signaling", "parity", "quota"] -->
 
 ### Question 35
 
@@ -109,4 +109,4 @@ Which of the following can be inferred from the text?
 
 从文中可以推断出，可行性应该是政策制定的首要考虑因素。作者反对性别配额政策，认为该政策并不能真正帮助到女性，反而可能产生负面影响，这暗示了政策制定时应该考虑可行性。
 
-<!-- q_id=2020-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"mandate\", \"virtue-signaling\", \"parity\", \"quota\"]" -->
+<!-- q_id=2020-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["mandate", "virtue-signaling", "parity", "quota"] -->

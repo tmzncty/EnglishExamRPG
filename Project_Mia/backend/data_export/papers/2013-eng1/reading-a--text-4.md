@@ -35,7 +35,7 @@ Three provisions of Arizona's plan were overturned because they
 
 根据第二段②③句和第三段②句，宪法规定只有国会有权制定统一的移民法，联邦法优先于州法。亚利桑那州试图制定与联邦法并行的政策，侵犯了联邦特权。
 
-<!-- q_id=2013-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"Constitution\", \"overturn\", \"contest\", \"provision\", \"explicitly\", \"assert\", \"invalidate\"]" -->
+<!-- q_id=2013-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["Constitution", "overturn", "contest", "provision", "explicitly", "assert", "invalidate"] -->
 
 ### Question 37
 
@@ -52,7 +52,7 @@ On which of the following did the Justices agree, according to Paragraph 4?
 
 根据第四段①句，大法官表示允许亚利桑那州警察对疑似非法移民者进行法律身份核查，表明大法官认同各州在移民执法问题上的合法角色。
 
-<!-- q_id=2013-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"Constitution\", \"overturn\", \"contest\", \"provision\", \"explicitly\", \"assert\", \"invalidate\"]" -->
+<!-- q_id=2013-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["Constitution", "overturn", "contest", "provision", "explicitly", "assert", "invalidate"] -->
 
 ### Question 38
 
@@ -69,7 +69,7 @@ It can be inferred from Paragraph 5 that the Alien and Sedition Acts
 
 第五段②句表明，州政府特权可追溯到《外国人和煽动叛乱法案》，Antonin 法官以此为论据极力捍卫州特权，因此此法案是支持州级拥有特权的。
 
-<!-- q_id=2013-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"Constitution\", \"overturn\", \"contest\", \"provision\", \"explicitly\", \"assert\", \"invalidate\"]" -->
+<!-- q_id=2013-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["Constitution", "overturn", "contest", "provision", "explicitly", "assert", "invalidate"] -->
 
 ### Question 39
 
@@ -86,7 +86,7 @@ The White House claims that its power of enforcement
 
 根据第六段②③句，白宫认定亚利桑那州法律与其执法优先权相抵触，并声称有权宣布任何它不认可的州法律无效，因此其执法权大于各州。
 
-<!-- q_id=2013-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"Constitution\", \"overturn\", \"contest\", \"provision\", \"explicitly\", \"assert\", \"invalidate\"]" -->
+<!-- q_id=2013-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["Constitution", "overturn", "contest", "provision", "explicitly", "assert", "invalidate"] -->
 
 ### Question 40
 
@@ -103,4 +103,4 @@ What can be learned from the last paragraph?
 
 第七段④句表明，联邦政府断言只要自己不愿履行国会的移民意愿，它也有权阻止各州履行。第五句指出所有法官对该断言一致投出反对票。因此，法院裁决意在打击奥巴马政府滥用行政权，限制其权力。
 
-<!-- q_id=2013-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"Constitution\", \"overturn\", \"contest\", \"provision\", \"explicitly\", \"assert\", \"invalidate\"]" -->
+<!-- q_id=2013-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["Constitution", "overturn", "contest", "provision", "explicitly", "assert", "invalidate"] -->

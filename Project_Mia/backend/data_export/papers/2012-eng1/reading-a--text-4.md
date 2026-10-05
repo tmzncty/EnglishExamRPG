@@ -35,7 +35,7 @@ It can be learned from the first paragraph that
 
 第一段指出，过去美国政府工作人员中只有十分之一是工会成员，现在是36%。这表明工会在公共部门的成员数量有所增加。选项C是对这一事实的概括。
 
-<!-- q_id=2012-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"norm\", \"stay put\", \"high achievers\", \"fat pay packets\", \"attract much criticism\", \"civil services\"]" -->
+<!-- q_id=2012-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["norm", "stay put", "high achievers", "fat pay packets", "attract much criticism", "civil services"] -->
 
 ### Question 37
 
@@ -52,7 +52,7 @@ Which of the following is true of Paragraph 2?
 
 第二段列举了公共部门工会蓬勃发展的原因，包括他们可以停止工作而不受太大影响。选项A的“prudent in taking actions”即工会行动谨慎，与“can shut things down without suffering much in the way of consequences”呼应
 
-<!-- q_id=2012-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"norm\", \"stay put\", \"high achievers\", \"fat pay packets\", \"attract much criticism\", \"civil services\"]" -->
+<!-- q_id=2012-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["norm", "stay put", "high achievers", "fat pay packets", "attract much criticism", "civil services"] -->
 
 ### Question 38
 
@@ -69,7 +69,7 @@ It can be learned from Paragraph 4 that the income in the state sector is
 
 第四段提到，政客们反复“backloaded”公共部门的工资协议，保持工资增长幅度不大，但增加了假期，尤其是已经很慷慨的养老金。这意味着国家部门的收入是通过福利和工作方式间接增加的。因此，B是正确的答案
 
-<!-- q_id=2012-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"norm\", \"stay put\", \"high achievers\", \"fat pay packets\", \"attract much criticism\", \"civil services\"]" -->
+<!-- q_id=2012-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["norm", "stay put", "high achievers", "fat pay packets", "attract much criticism", "civil services"] -->
 
 ### Question 39
 
@@ -86,7 +86,7 @@ The example of the unions in Wisconsin shows that unions
 
 威斯康星州的工会例子显示，他们为了反对共和党州长Scott Walker而团结了成千上万的支持者。这表明工会可能会成为公共部门改革的障碍。因此，C是正确答案。
 
-<!-- q_id=2012-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"norm\", \"stay put\", \"high achievers\", \"fat pay packets\", \"attract much criticism\", \"civil services\"]" -->
+<!-- q_id=2012-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["norm", "stay put", "high achievers", "fat pay packets", "attract much criticism", "civil services"] -->
 
 ### Question 40
 
@@ -103,4 +103,4 @@ John Donahue’s attitude towards the public-sector system is one of
 
 末段介绍 John Donahue 观点∶政府公共部门文化标准适合那些寻求安稳的人却不利于那些追求事业有成的人，这一缺乏激励的体制是美国面临的严重问题。可见他对当前公共部门体制持不满、担忧态度，【A】符合文意。
 
-<!-- q_id=2012-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"norm\", \"stay put\", \"high achievers\", \"fat pay packets\", \"attract much criticism\", \"civil services\"]" -->
+<!-- q_id=2012-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["norm", "stay put", "high achievers", "fat pay packets", "attract much criticism", "civil services"] -->

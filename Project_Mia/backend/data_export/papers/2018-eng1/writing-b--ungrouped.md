@@ -38,4 +38,4 @@ In my opinion, this situation calls for a multi-faceted approach. Universities s
 
 ![Question image](../../assets/2018-eng1-writing_b-q52.jpg)
 
-<!-- q_id=2018-eng1-writing_b-q52; difficulty=3; score=20.0; tags="[\"course selection system\", \"cutting-edge\", \"high score\", \"assessment system\", \"credit\"]" -->
+<!-- q_id=2018-eng1-writing_b-q52; difficulty=3; score=20.0; tags=["course selection system", "cutting-edge", "high score", "assessment system", "credit"] -->

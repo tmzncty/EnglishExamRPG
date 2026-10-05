@@ -35,7 +35,7 @@ Who will be most threatened by automation?
 
 根据第二段②句指出，美国的工作中约一半处于被自动化的高风险，中产阶级尤其不堪负担。④句进一步指出，许多中产职业已经引起、或很快会引起机器人的兴趣。可见，受自动化威胁最大的是中产阶级工人，【D】正确。
 
-<!-- q_id=2018-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"dismiss\", \"automate\", \"disproportionately\", \"squeeze\", \"alarmist\", \"upheaval\", \"Luddite\", \"loom\", \"rethink\", \"curriculum\", \"vocational\", \"supplement\", \"affordable\", \"underline\", \"fade\", \"dynamism\", \"era\", \"transition\", \"subsidy\", \"boost\", \"upend\", \"nuts\", \"indispensable\"]" -->
+<!-- q_id=2018-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["dismiss", "automate", "disproportionately", "squeeze", "alarmist", "upheaval", "Luddite", "loom", "rethink", "curriculum", "vocational", "supplement", "affordable", "underline", "fade", "dynamism", "era", "transition", "subsidy", "boost", "upend", "nuts", "indispensable"] -->
 
 ### Question 22
 
@@ -52,7 +52,7 @@ Which of the following best represents the author’s view?
 
 第三段①句作者指出，这（自动化对中产阶级工人的巨大威胁）并非危言耸听。⑤句提出∶在（自动化使工人受益之前的）中期阶段，中产阶级工人需要大量帮助以做出调整。可见，作者认为自动化会引发诸多问题，【C】正确。
 
-<!-- q_id=2018-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"dismiss\", \"automate\", \"disproportionately\", \"squeeze\", \"alarmist\", \"upheaval\", \"Luddite\", \"loom\", \"rethink\", \"curriculum\", \"vocational\", \"supplement\", \"affordable\", \"underline\", \"fade\", \"dynamism\", \"era\", \"transition\", \"subsidy\", \"boost\", \"upend\", \"nuts\", \"indispensable\"]" -->
+<!-- q_id=2018-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["dismiss", "automate", "disproportionately", "squeeze", "alarmist", "upheaval", "Luddite", "loom", "rethink", "curriculum", "vocational", "supplement", "affordable", "underline", "fade", "dynamism", "era", "transition", "subsidy", "boost", "upend", "nuts", "indispensable"] -->
 
 ### Question 23
 
@@ -69,7 +69,7 @@ Education in the age of automation should put more emphasis on
 
 第四段①句指出，自动化时代应该反思教育。②句则指出，从小学到大学的所有课程都应该少强调事实记忆，多强调创新及复杂沟通能力。可见【A】正确。
 
-<!-- q_id=2018-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"dismiss\", \"automate\", \"disproportionately\", \"squeeze\", \"alarmist\", \"upheaval\", \"Luddite\", \"loom\", \"rethink\", \"curriculum\", \"vocational\", \"supplement\", \"affordable\", \"underline\", \"fade\", \"dynamism\", \"era\", \"transition\", \"subsidy\", \"boost\", \"upend\", \"nuts\", \"indispensable\"]" -->
+<!-- q_id=2018-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["dismiss", "automate", "disproportionately", "squeeze", "alarmist", "upheaval", "Luddite", "loom", "rethink", "curriculum", "vocational", "supplement", "affordable", "underline", "fade", "dynamism", "era", "transition", "subsidy", "boost", "upend", "nuts", "indispensable"] -->
 
 ### Question 24
 
@@ -86,7 +86,7 @@ The author suggests that tax policies be aimed at
 
 第六段①句指出，自动化很可能导致资本收入和劳动收入之间差距拉大，所以必须重新考虑税收政策。②句进一步指出，应削减对低薪劳动的税收、扩大薪资补贴，以提高收入，鼓励工作，减少不平等。概括可知，作者建议通过税收政策阻止收入差距扩大，【D】正确。
 
-<!-- q_id=2018-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"dismiss\", \"automate\", \"disproportionately\", \"squeeze\", \"alarmist\", \"upheaval\", \"Luddite\", \"loom\", \"rethink\", \"curriculum\", \"vocational\", \"supplement\", \"affordable\", \"underline\", \"fade\", \"dynamism\", \"era\", \"transition\", \"subsidy\", \"boost\", \"upend\", \"nuts\", \"indispensable\"]" -->
+<!-- q_id=2018-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["dismiss", "automate", "disproportionately", "squeeze", "alarmist", "upheaval", "Luddite", "loom", "rethink", "curriculum", "vocational", "supplement", "affordable", "underline", "fade", "dynamism", "era", "transition", "subsidy", "boost", "upend", "nuts", "indispensable"] -->
 
 ### Question 25
 
@@ -103,4 +103,4 @@ In this text, the author presents a problem with
 
 本文前三段论证展现问题——美国中产阶级面临自动化的巨大威胁。第四至六段则从教育、经济、税收等多方面指出，应提供政策支持，助其平稳过渡。末段总结指出，帮助中产阶级适应自动化的政策必不可少。可见【B】正确。
 
-<!-- q_id=2018-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"dismiss\", \"automate\", \"disproportionately\", \"squeeze\", \"alarmist\", \"upheaval\", \"Luddite\", \"loom\", \"rethink\", \"curriculum\", \"vocational\", \"supplement\", \"affordable\", \"underline\", \"fade\", \"dynamism\", \"era\", \"transition\", \"subsidy\", \"boost\", \"upend\", \"nuts\", \"indispensable\"]" -->
+<!-- q_id=2018-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["dismiss", "automate", "disproportionately", "squeeze", "alarmist", "upheaval", "Luddite", "loom", "rethink", "curriculum", "vocational", "supplement", "affordable", "underline", "fade", "dynamism", "era", "transition", "subsidy", "boost", "upend", "nuts", "indispensable"] -->

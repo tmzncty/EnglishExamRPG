@@ -35,7 +35,7 @@ The Supreme Court will work out whether, during an arrest, it is legitimate to
 
 第一段指出，最高法院即将讨论在逮捕过程中，警方可否无证搜查嫌疑人的手机内容。即，最高法院将要解决的问题是"逮捕过程中，未经授权搜查嫌疑人手机内容是否合法"。
 
-<!-- q_id=2015-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"warrant\", \"sweeping\", \"assumption\", \"implications\", \"discard\", \"lame\", \"correspondence\", \"prohibition\", \"burdensome\", \"invalidate\", \"swallow\", \"disruptive\", \"specify\", \"sort out\"]" -->
+<!-- q_id=2015-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["warrant", "sweeping", "assumption", "implications", "discard", "lame", "correspondence", "prohibition", "burdensome", "invalidate", "swallow", "disruptive", "specify", "sort out"] -->
 
 ### Question 27
 
@@ -52,7 +52,7 @@ The author’s attitude toward California’s argument is one of
 
 第三段指出，最高法院若听从加州建议，则是谦虚到不计后果。第四段①句提议最高法院摒弃加州的蹩脚言论。可见作者并不赞同加州观点。
 
-<!-- q_id=2015-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"warrant\", \"sweeping\", \"assumption\", \"implications\", \"discard\", \"lame\", \"correspondence\", \"prohibition\", \"burdensome\", \"invalidate\", \"swallow\", \"disruptive\", \"specify\", \"sort out\"]" -->
+<!-- q_id=2015-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["warrant", "sweeping", "assumption", "implications", "discard", "lame", "correspondence", "prohibition", "burdensome", "invalidate", "swallow", "disruptive", "specify", "sort out"] -->
 
 ### Question 28
 
@@ -69,7 +69,7 @@ The author believes that exploring one’s phone contents is comparable to
 
 第四段指出：查看一个人的手机就犹如进入他或她的家（entering his or her home）。
 
-<!-- q_id=2015-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"warrant\", \"sweeping\", \"assumption\", \"implications\", \"discard\", \"lame\", \"correspondence\", \"prohibition\", \"burdensome\", \"invalidate\", \"swallow\", \"disruptive\", \"specify\", \"sort out\"]" -->
+<!-- q_id=2015-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["warrant", "sweeping", "assumption", "implications", "discard", "lame", "correspondence", "prohibition", "burdensome", "invalidate", "swallow", "disruptive", "specify", "sort out"] -->
 
 ### Question 29
 
@@ -86,7 +86,7 @@ In Paragraphs 5 and 6, the author shows his concern that
 
 第五段末句指出：公民有权要求私人文件得到宪法禁止无理搜查的保护。第六段转而指出，申明原则并不能减轻界限划定的挑战：搜查证并不难获取，紧急情况下可越过第四修正案进行搜查，等待搜查证时可采取措施不让嫌疑人删除信息。可见作者认为公民隐私并未受到有效保护。
 
-<!-- q_id=2015-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"warrant\", \"sweeping\", \"assumption\", \"implications\", \"discard\", \"lame\", \"correspondence\", \"prohibition\", \"burdensome\", \"invalidate\", \"swallow\", \"disruptive\", \"specify\", \"sort out\"]" -->
+<!-- q_id=2015-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["warrant", "sweeping", "assumption", "implications", "discard", "lame", "correspondence", "prohibition", "burdensome", "invalidate", "swallow", "disruptive", "specify", "sort out"] -->
 
 ### Question 30
 
@@ -103,4 +103,4 @@ Orin Kerr's comparison is quoted to indicate that
 
 末段③句，该句类比指出：当初汽车成为生活必需品时，法官们不得不为其确新规，同理，如今数字信息成为人类日常生活一部分，法官也应为该新兴领域明令新规。再根据"所举事例旨在为观点服务"原则，可将类比意图追溯到②句：新的颠覆性技术有时需要对宪法保护条例有新的运用。可见，作者类比意图在于说明新技术需要宪法新解释。
 
-<!-- q_id=2015-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"warrant\", \"sweeping\", \"assumption\", \"implications\", \"discard\", \"lame\", \"correspondence\", \"prohibition\", \"burdensome\", \"invalidate\", \"swallow\", \"disruptive\", \"specify\", \"sort out\"]" -->
+<!-- q_id=2015-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["warrant", "sweeping", "assumption", "implications", "discard", "lame", "correspondence", "prohibition", "burdensome", "invalidate", "swallow", "disruptive", "specify", "sort out"] -->

@@ -38,7 +38,7 @@ Companies are using artificial intelligence to remove some of the unconscious bi
 
 本段主题是AI在招聘实践中的改进。本段提到公司使用AI来消除招聘决策中的无意识偏见，Blendoor公司利用分析来识别招聘过程中的偏见。G选项'AI查看的简历比人类多，并选择更有希望的候选人'，与本段主题一致，是对上文AI消除招聘偏见的具体阐述。
 
-<!-- q_id=2021-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"depict\", \"sinister\", \"upend\", \"automation\", \"impending\", \"doom-and-gloom\", \"unconscious bias\", \"optimize\", \"outperform\", \"premiums\"]" -->
+<!-- q_id=2021-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["depict", "sinister", "upend", "automation", "impending", "doom-and-gloom", "unconscious bias", "optimize", "outperform", "premiums"] -->
 
 ### Question 42
 
@@ -58,7 +58,7 @@ Some AI software can analyze and optimize marketing email subject lines to incre
 
 本段描述AI在提高营销效率方面的应用。文中提到AI软件可以分析和优化营销邮件主题行以提高打开率，Phrasee公司声称其软件在邮件打开率方面优于人类10%。C选项'还有像Acquisio这样的公司，它可以分析Adwords、Bing和社交媒体等多个渠道的广告效果，并就广告资金在哪里能产生最佳效果提出调整或建议'，是对本段主题的具体扩展和例证。
 
-<!-- q_id=2021-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"depict\", \"sinister\", \"upend\", \"automation\", \"impending\", \"doom-and-gloom\", \"unconscious bias\", \"optimize\", \"outperform\", \"premiums\"]" -->
+<!-- q_id=2021-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["depict", "sinister", "upend", "automation", "impending", "doom-and-gloom", "unconscious bias", "optimize", "outperform", "premiums"] -->
 
 ### Question 43
 
@@ -78,7 +78,7 @@ Energy companies can use AI to help customers reduce their electricity bills, sa
 
 本段讨论AI如何帮助客户节省资金，以及公司如何优化能源使用和更准确地评估风险。E选项'以前，他们可能不会为那些感觉风险很高的人投保，或者收费过高，或者收费过低，然后这会花费公司金钱'，与保险公司利用AI模型更准确评估风险直接相关。
 
-<!-- q_id=2021-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"depict\", \"sinister\", \"upend\", \"automation\", \"impending\", \"doom-and-gloom\", \"unconscious bias\", \"optimize\", \"outperform\", \"premiums\"]" -->
+<!-- q_id=2021-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["depict", "sinister", "upend", "automation", "impending", "doom-and-gloom", "unconscious bias", "optimize", "outperform", "premiums"] -->
 
 ### Question 44
 
@@ -98,7 +98,7 @@ Energy companies can use AI to help customers reduce their electricity bills, sa
 
 本段前半部分讨论了机器学习提供更可靠的统计数据，使数据更有价值，帮助人们做出更明智的决策。B选项'一家会计师事务所BY使用AI系统来帮助审查审计期间的合同。这个过程，以及员工审查合同，更快、更准确'，与前半部分AI提高准确性直接相关，是对其具体应用场景的举例说明。
 
-<!-- q_id=2021-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"depict\", \"sinister\", \"upend\", \"automation\", \"impending\", \"doom-and-gloom\", \"unconscious bias\", \"optimize\", \"outperform\", \"premiums\"]" -->
+<!-- q_id=2021-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["depict", "sinister", "upend", "automation", "impending", "doom-and-gloom", "unconscious bias", "optimize", "outperform", "premiums"] -->
 
 ### Question 45
 
@@ -118,4 +118,4 @@ Energy companies can use AI to help customers reduce their electricity bills, sa
 
 本段强调AI在保护和维护基础设施方面的作用，即通过图像处理技术检查基础设施，预防设备故障或泄漏。D选项'你想要预测现在有什么需要注意的，并指出员工去哪里有帮助'，是预防性维护的另一种表达，与本段主题吻合。
 
-<!-- q_id=2021-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"depict\", \"sinister\", \"upend\", \"automation\", \"impending\", \"doom-and-gloom\", \"unconscious bias\", \"optimize\", \"outperform\", \"premiums\"]" -->
+<!-- q_id=2021-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["depict", "sinister", "upend", "automation", "impending", "doom-and-gloom", "unconscious bias", "optimize", "outperform", "premiums"] -->

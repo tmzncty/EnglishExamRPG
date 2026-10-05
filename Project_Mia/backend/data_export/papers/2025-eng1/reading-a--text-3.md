@@ -33,7 +33,7 @@ According to Paragraph 1,legitimate streaming services
 
 第一段提到，像 Disney、Peacock 和 Paramount 这样的流媒体服务每年亏损数十亿美元，引发了人们对这些服务永远无法像有线电视那样盈利的担忧。这表明这些流媒体服务面临着真正的威胁。
 
-<!-- q_id=2025-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"boon\", \"rake in\", \"curb\", \"consensus\", \"plateau\"]" -->
+<!-- q_id=2025-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["boon", "rake in", "curb", "consensus", "plateau"] -->
 
 ### Question 32
 
@@ -50,7 +50,7 @@ It can be learned that streamers like Netpix
 
 第三段提到，Netflix 等合法的在线业务的兴起实际上帮助遏制了数字盗版，这表明 Netflix 在打击非法文件共享方面发挥了作用。
 
-<!-- q_id=2025-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"boon\", \"rake in\", \"curb\", \"consensus\", \"plateau\"]" -->
+<!-- q_id=2025-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["boon", "rake in", "curb", "consensus", "plateau"] -->
 
 ### Question 33
 
@@ -67,7 +67,7 @@ It can be inferred from paragraph 4 that the MPA
 
 第四段提到，Rivkin 加入 MPA 是因为该组织五年前未能与硅谷达成共识，以赢得国会通过旨在阻止网络盗版的立法。这表明 MPA 曾被硅谷拒绝合作。
 
-<!-- q_id=2025-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"boon\", \"rake in\", \"curb\", \"consensus\", \"plateau\"]" -->
+<!-- q_id=2025-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["boon", "rake in", "curb", "consensus", "plateau"] -->
 
 ### Question 34
 
@@ -84,7 +84,7 @@ According to Hawley,digital piracy:
 
 最后一段提到，Hawley 认为虽然人们对新兴的对策和最佳实践可能使盗版在 2027 年开始趋于平稳感到乐观，但对于何时开始下降，利益相关者之间没有共识。这表明在不久的将来，数字盗版不太可能减少。
 
-<!-- q_id=2025-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"boon\", \"rake in\", \"curb\", \"consensus\", \"plateau\"]" -->
+<!-- q_id=2025-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["boon", "rake in", "curb", "consensus", "plateau"] -->
 
 ### Question 35
 
@@ -101,4 +101,4 @@ Which of the following is emphasized in the text?
 
 整篇文章都在强调非法流媒体造成的经济损失，例如，提到非法流媒体网站每年从广告和订阅中获得约 20 亿美元的收入，以及盗版给美国经济造成约 300 亿美元的损失。
 
-<!-- q_id=2025-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"boon\", \"rake in\", \"curb\", \"consensus\", \"plateau\"]" -->
+<!-- q_id=2025-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["boon", "rake in", "curb", "consensus", "plateau"] -->

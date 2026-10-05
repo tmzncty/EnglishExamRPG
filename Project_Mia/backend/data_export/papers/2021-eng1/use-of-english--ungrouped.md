@@ -29,7 +29,7 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 根据上下文，此处描述的是流体智力在年轻时达到顶峰。peaks意为“达到顶峰”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q1; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q1; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 2
 
@@ -46,7 +46,7 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 此处描述的是普遍现象，generally意为“通常，一般地”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q2; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q2; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 3
 
@@ -63,7 +63,7 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 此处表示转折关系，while意为“虽然，尽管”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q3; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q3; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 4
 
@@ -80,7 +80,7 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 腹部脂肪的“积累”与流体智力下降有关。accumulation意为“积累”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q4; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q4; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 5
 
@@ -97,7 +97,7 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 此处表示的是一种“可能性”，即生活方式因素可能有助于预防或延缓这种下降。possibility意为“可能性”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q5; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q5; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 6
 
@@ -114,7 +114,7 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 此处与prevent并列，表示“预防或延缓”这种下降。delay意为“延缓”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q6; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q6; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 7
 
@@ -131,7 +131,7 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 data包含了对精益肌肉和腹部脂肪的测量。included意为“包含”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q7; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q7; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 8
 
@@ -148,7 +148,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 研究人员将这些数据与报告的流体智力变化进行了“比较”。compared意为“比较”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q8; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q8; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 9
 
@@ -165,7 +165,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 此处表示“具有”较高腹部脂肪测量值的人。with意为“具有”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q9; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q9; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 10
 
@@ -182,7 +182,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 在流体智力测试中“得分”较差。scored意为“得分”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q10; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q10; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 11
 
@@ -199,7 +199,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 随着时间的“流逝”。went by意为“流逝”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q11; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q11; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 12
 
@@ -216,7 +216,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 这种关联可能“归因于”免疫力的变化。attributable意为“可归因于”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q12; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q12; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 13
 
@@ -233,7 +233,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 在男性中，免疫系统似乎没有“参与”其中。involved意为“参与”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q13; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q13; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 14
 
@@ -250,7 +250,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 未来的研究可以“解释”这些差异。explain意为“解释”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q14; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q14; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 15
 
@@ -267,7 +267,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 或许可以为男性和女性制定不同的“治疗”方法。treatments意为“治疗”，符合语境。
 
-<!-- q_id=2021-eng1-use_of_english-q15; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q15; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 16
 
@@ -284,7 +284,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 因为有解决措施，所以承接上文选择Therefore。表示因果关系。
 
-<!-- q_id=2021-eng1-use_of_english-q16; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q16; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 17
 
@@ -301,7 +301,7 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 take steps to do sth，采取措施做某事。
 
-<!-- q_id=2021-eng1-use_of_english-q17; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q17; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 18
 
@@ -318,7 +318,7 @@ take steps to do sth，采取措施做某事。
 
 well-being身心健康。
 
-<!-- q_id=2021-eng1-use_of_english-q18; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q18; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 19
 
@@ -335,7 +335,7 @@ well-being身心健康。
 
 level of exercise锻炼的程度。
 
-<!-- q_id=2021-eng1-use_of_english-q19; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q19; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->
 
 ### Question 20
 
@@ -352,4 +352,4 @@ level of exercise锻炼的程度。
 
 Mediterranean-style diet地中海式饮食。
 
-<!-- q_id=2021-eng1-use_of_english-q20; difficulty=3; score=0.5; tags="[\"Fluid intelligence\", \"levels out\", \"inevitable\", \"accumulation\", \"attributable\"]" -->
+<!-- q_id=2021-eng1-use_of_english-q20; difficulty=3; score=0.5; tags=["Fluid intelligence", "levels out", "inevitable", "accumulation", "attributable"] -->

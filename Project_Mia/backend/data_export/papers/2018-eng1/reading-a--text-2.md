@@ -33,7 +33,7 @@ According to Paragraphs 1 and 2, many young Americans cast doubts on
 
 根据第一段和第二段，可以推断出许多美国年轻人对社交媒体作为可靠新闻来源表示怀疑。第一段提到年轻人不喜欢通过总统的社交媒体获取新闻，第二段提到人们对所有媒体的不信任感上升，尤其是在社交媒体上。
 
-<!-- q_id=2018-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"disapprove\", \"implication\", \"beef up\", \"literacy\", \"verify\", \"perspective\", \"assume\", \"intimately\", \"projection\", \"conscious\", \"misinterpretation\", \"counteract\", \"discipline\"]" -->
+<!-- q_id=2018-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["disapprove", "implication", "beef up", "literacy", "verify", "perspective", "assume", "intimately", "projection", "conscious", "misinterpretation", "counteract", "discipline"] -->
 
 ### Question 27
 
@@ -50,7 +50,7 @@ The phrase “beef up” (Line 2, Para. 2) is closest in meaning to
 
 beef up在这里的意思是“增强”，在上下文中指增强媒体素养。因此，选项A“sharpen”最接近。
 
-<!-- q_id=2018-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"disapprove\", \"implication\", \"beef up\", \"literacy\", \"verify\", \"perspective\", \"assume\", \"intimately\", \"projection\", \"conscious\", \"misinterpretation\", \"counteract\", \"discipline\"]" -->
+<!-- q_id=2018-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["disapprove", "implication", "beef up", "literacy", "verify", "perspective", "assume", "intimately", "projection", "conscious", "misinterpretation", "counteract", "discipline"] -->
 
 ### Question 28
 
@@ -67,7 +67,7 @@ According to the Knight Foundation survey, young people
 
 奈特基金会的调查显示，年轻人通过参考不同的信息来源来验证新闻。第三段提到他们交叉检查信息来源，并且更倾向于从不同的角度获取新闻。
 
-<!-- q_id=2018-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"disapprove\", \"implication\", \"beef up\", \"literacy\", \"verify\", \"perspective\", \"assume\", \"intimately\", \"projection\", \"conscious\", \"misinterpretation\", \"counteract\", \"discipline\"]" -->
+<!-- q_id=2018-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["disapprove", "implication", "beef up", "literacy", "verify", "perspective", "assume", "intimately", "projection", "conscious", "misinterpretation", "counteract", "discipline"] -->
 
 ### Question 29
 
@@ -84,7 +84,7 @@ The Barna survey found that a main cause for the fake news problem is
 
 巴纳的调查显示，假新闻问题的主要原因是读者的误解。第五段提到，人们对新闻的误解和夸大是假新闻产生的主要原因。
 
-<!-- q_id=2018-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"disapprove\", \"implication\", \"beef up\", \"literacy\", \"verify\", \"perspective\", \"assume\", \"intimately\", \"projection\", \"conscious\", \"misinterpretation\", \"counteract\", \"discipline\"]" -->
+<!-- q_id=2018-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["disapprove", "implication", "beef up", "literacy", "verify", "perspective", "assume", "intimately", "projection", "conscious", "misinterpretation", "counteract", "discipline"] -->
 
 ### Question 30
 
@@ -101,4 +101,4 @@ Which of the following would be the best title for the text?
 
 最佳标题是“网上新闻分享辨识力的提升”。通篇文章都在讲年轻人对新闻辨识能力和责任心的提高。其余选项都只涉及文章的部分内容。
 
-<!-- q_id=2018-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"disapprove\", \"implication\", \"beef up\", \"literacy\", \"verify\", \"perspective\", \"assume\", \"intimately\", \"projection\", \"conscious\", \"misinterpretation\", \"counteract\", \"discipline\"]" -->
+<!-- q_id=2018-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["disapprove", "implication", "beef up", "literacy", "verify", "perspective", "assume", "intimately", "projection", "conscious", "misinterpretation", "counteract", "discipline"] -->

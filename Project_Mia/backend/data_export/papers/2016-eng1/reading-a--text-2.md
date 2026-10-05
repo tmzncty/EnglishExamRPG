@@ -33,7 +33,7 @@ Britain’s public sentiment about the countryside
 
 A选项正确，第一段提到，英国民众对乡村的喜爱与政治支持之间存在差距，也就是说民众的情感没有在政治上得到充分体现。
 
-<!-- q_id=2016-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"endorse\", \"intrusion\", \"coherence\"]" -->
+<!-- q_id=2016-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["endorse", "intrusion", "coherence"] -->
 
 ### Question 27
 
@@ -50,7 +50,7 @@ According to Paragraph 2, the achievements of the National Trust are now being
 
 A选项正确。第二段的后半部分提到，乡村正在被混凝土吞噬，需要持续的守护。暗示了National Trust的成就在一定程度上被忽视了。
 
-<!-- q_id=2016-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"endorse\", \"intrusion\", \"coherence\"]" -->
+<!-- q_id=2016-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["endorse", "intrusion", "coherence"] -->
 
 ### Question 28
 
@@ -67,7 +67,7 @@ Which of the following can be inferred from Paragraph 3?
 
 C选项正确，第三段提到，只有Ukip站在了保护乡村的一方，这可能会让它获得一些支持。
 
-<!-- q_id=2016-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"endorse\", \"intrusion\", \"coherence\"]" -->
+<!-- q_id=2016-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["endorse", "intrusion", "coherence"] -->
 
 ### Question 29
 
@@ -84,7 +84,7 @@ The author holds that George Osborne’s preference
 
 A选项正确，第五段提到George Osborne倾向于在乡村新建房屋而不是翻新城市房屋，作者认为这是不尊重乡村特点的表现。
 
-<!-- q_id=2016-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"endorse\", \"intrusion\", \"coherence\"]" -->
+<!-- q_id=2016-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["endorse", "intrusion", "coherence"] -->
 
 ### Question 30
 
@@ -101,4 +101,4 @@ In the last paragraph, the author shows his appreciation of
 
 C选项正确，最后一段提到英国的城乡规划使得它既保留了乡村的连贯性，又允许低密度的城市生活，作者对此表示赞赏。
 
-<!-- q_id=2016-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"endorse\", \"intrusion\", \"coherence\"]" -->
+<!-- q_id=2016-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["endorse", "intrusion", "coherence"] -->
