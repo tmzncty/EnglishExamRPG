@@ -8,6 +8,7 @@ on:
       - "Project_Mia/backend/scripts/bootstrap_legacy_bundles.py"
       - "Project_Mia/backend/scripts/apply_manual_objective_keys.py"
       - "Project_Mia/backend/scripts/crosscheck_public_exam_sources.py"
+      - "Project_Mia/backend/scripts/render_crosscheck_details.py"
       - "Project_Mia/backend/scripts/audit_manual_objective_keys.py"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/repair_exam_content.py"
@@ -25,6 +26,7 @@ on:
       - "Project_Mia/backend/scripts/bootstrap_legacy_bundles.py"
       - "Project_Mia/backend/scripts/apply_manual_objective_keys.py"
       - "Project_Mia/backend/scripts/crosscheck_public_exam_sources.py"
+      - "Project_Mia/backend/scripts/render_crosscheck_details.py"
       - "Project_Mia/backend/scripts/audit_manual_objective_keys.py"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/repair_exam_content.py"
@@ -93,6 +95,9 @@ jobs:
       - name: Cross-check independent public transcriptions
         run: python Project_Mia/backend/scripts/crosscheck_public_exam_sources.py
 
+      - name: Render manual review queue
+        run: python Project_Mia/backend/scripts/render_crosscheck_details.py
+
       - name: Compare manually transcribed objective keys
         run: python Project_Mia/backend/scripts/audit_manual_objective_keys.py
 
@@ -112,6 +117,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export Project_Mia/backend/data_import Project_Mia/backend/manual_review
-          git commit -m "Apply manual objective-key review"
+          git commit -m "Render detailed manual review queue"
           TARGET_BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
           git push origin "HEAD:${TARGET_BRANCH}"
