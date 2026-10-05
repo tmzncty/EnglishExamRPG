@@ -12,19 +12,32 @@ REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_DB = REPO_ROOT / "Project_Mia/backend/data/static_content.db"
 
 
-def normalize_options(raw: str | None) -> str | None:
+def decode_json_layers(raw: str | None):
     if not raw:
         return raw
     value = raw
-    for _ in range(2):
+    for _ in range(3):
         if not isinstance(value, str):
             break
         try:
             value = json.loads(value)
         except json.JSONDecodeError:
             break
+    return value
+
+
+def normalize_options(raw: str | None) -> str | None:
+    value = decode_json_layers(raw)
     if isinstance(value, (dict, list)):
         return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return raw
+
+
+def normalize_tags(raw: str | None) -> str | None:
+    value = decode_json_layers(raw)
+    if isinstance(value, list):
+        cleaned = ["rehearsal room" if item == "rehearsal-worn" else item for item in value]
+        return json.dumps(cleaned, ensure_ascii=False, separators=(",", ":"))
     return raw
 
 
@@ -36,11 +49,17 @@ def main() -> int:
     conn = sqlite3.connect(args.db)
     changed = 0
     try:
-        rows = conn.execute("SELECT q_id, options_json FROM questions WHERE options_json IS NOT NULL").fetchall()
-        for q_id, raw in rows:
-            normalized = normalize_options(raw)
-            if normalized != raw:
-                conn.execute("UPDATE questions SET options_json=? WHERE q_id=?", (normalized, q_id))
+        rows = conn.execute(
+            "SELECT q_id, options_json, tags FROM questions WHERE options_json IS NOT NULL OR tags IS NOT NULL"
+        ).fetchall()
+        for q_id, raw_options, raw_tags in rows:
+            options = normalize_options(raw_options)
+            tags = normalize_tags(raw_tags)
+            if options != raw_options:
+                conn.execute("UPDATE questions SET options_json=? WHERE q_id=?", (options, q_id))
+                changed += 1
+            if tags != raw_tags:
+                conn.execute("UPDATE questions SET tags=? WHERE q_id=?", (tags, q_id))
                 changed += 1
 
         # Test fixtures must never be committed as user-visible exam papers.
