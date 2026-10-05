@@ -82,6 +82,18 @@ QUESTIONS_2025 = {
     ),
 }
 
+WRITING_2025_CONTENT = """Directions:
+
+Write an essay of 160–200 words based on the following drawing. In your essay you should
+
+1) describe the drawing briefly,
+2) explain its intended meaning, and
+3) give your comments.
+
+You should write neatly on the ANSWER SHEET. (20 points)"""
+
+WRITING_2025_PASSAGE = WRITING_2025_CONTENT + "\n\n近年来全国居民平均每百户年末主要耐用消费品拥有量"
+
 MODEL_2012_Q52 = """As is vividly shown in the drawing, a bottle has fallen to the ground and part of its contents has spilled out. Faced with the same scene, two men react in completely different ways. One complains in despair that everything is gone, while the other feels relieved that some is still left. The contrast reveals how differently people may interpret the same setback.
 
 The picture reminds us that attitude can strongly influence our response to difficulties. A negative mindset tends to magnify losses and make us overlook what remains, whereas an optimistic outlook helps us recognize available resources and possible solutions. Optimism does not mean denying problems. Rather, it means accepting reality while still looking for a constructive way forward.
@@ -166,6 +178,13 @@ def main() -> int:
                 )
             )
 
+        writes += int(
+            update_if_different(
+                conn,
+                "2025-eng1-writing_b-q52",
+                {"passage_text": WRITING_2025_PASSAGE, "content": WRITING_2025_CONTENT},
+            )
+        )
         writes += int(
             update_if_different(
                 conn,
