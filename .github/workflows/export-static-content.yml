@@ -7,6 +7,7 @@ on:
       - "Project_Mia/backend/data_import/**"
       - "Project_Mia/backend/scripts/bootstrap_legacy_bundles.py"
       - "Project_Mia/backend/scripts/crosscheck_public_exam_sources.py"
+      - "Project_Mia/backend/scripts/audit_manual_objective_keys.py"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/repair_exam_content.py"
       - "Project_Mia/backend/scripts/repair_writing_samples.py"
@@ -22,6 +23,7 @@ on:
       - "Project_Mia/backend/data_import/**"
       - "Project_Mia/backend/scripts/bootstrap_legacy_bundles.py"
       - "Project_Mia/backend/scripts/crosscheck_public_exam_sources.py"
+      - "Project_Mia/backend/scripts/audit_manual_objective_keys.py"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/repair_exam_content.py"
       - "Project_Mia/backend/scripts/repair_writing_samples.py"
@@ -85,6 +87,9 @@ jobs:
 
       - name: Cross-check independent public transcriptions
         run: python Project_Mia/backend/scripts/crosscheck_public_exam_sources.py
+
+      - name: Compare manually transcribed objective keys
+        run: python Project_Mia/backend/scripts/audit_manual_objective_keys.py
 
       - name: Export SQLite content
         run: python Project_Mia/backend/scripts/export_static_content_text.py
