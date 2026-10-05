@@ -42,7 +42,7 @@ The author suggests that the “two-step-flow theory”
 - **C.** has won support from influentials.
 - **D.** requires solid evidence for its validity.
 
-**Correct answer:** B
+**Correct answer:** D
 
 **Analysis:**
 

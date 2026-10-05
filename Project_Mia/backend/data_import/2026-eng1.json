@@ -5,7 +5,11 @@
     "primary_pdf": "https://static.kaoyan.cn/file/question/2025/12/27/4644ae5c80a12b9a2135e54dc56c0724.pdf",
     "reading_crosscheck": "https://github.com/Destinnnnn/kaoyan-english-1-2005-2026/blob/main/2026%E5%B9%B4%E8%80%83%E7%A0%94%E8%8B%B1%E8%AF%AD%E4%B8%80%E9%98%85%E8%AF%BB%E7%B2%BE%E7%BF%BB.md",
     "cloze_crosscheck": "https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/section1/",
-    "full_paper_crosscheck": "https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/"
+    "full_paper_crosscheck": "https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/",
+    "manual_review": {
+      "objective_keys": "manually-transcribed-and-cross-checked",
+      "answer_table": "https://english-exam.lazynote.cn/kaoyan/paper/2026-english-one/"
+    }
   },
   "paper": {
     "paper_id": "2026-eng1",
@@ -1062,5 +1066,6 @@
       "score": 20,
       "tags": []
     }
-  ]
+  ],
+  "review_status": "objective-reviewed"
 }

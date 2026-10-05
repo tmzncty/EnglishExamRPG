@@ -57,7 +57,7 @@ The example of Green in Paragraph 5 is used to illustrate,
 - **C.** the rewards of scientific endeavors
 - **D.** the value of fostering human ingenuity
 
-**Correct answer:** D
+**Correct answer:** C
 
 **Analysis:**
 

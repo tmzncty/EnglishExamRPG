@@ -312,7 +312,7 @@ It is    	18 that around 12,000 to 15,000 caravanserais were built along the Sil
 - **C.** presumed
 - **D.** estimated
 
-**Correct answer:** D
+**Correct answer:** A
 
 **Analysis:**
 
@@ -329,7 +329,7 @@ It is    	18 that around 12,000 to 15,000 caravanserais were built along the Sil
 - **C.** since
 - **D.** unless
 
-**Correct answer:** A
+**Correct answer:** D
 
 **Analysis:**
 
@@ -346,7 +346,7 @@ It is    	18 that around 12,000 to 15,000 caravanserais were built along the Sil
 - **C.** obligation
 - **D.** disrepair
 
-**Correct answer:** D
+**Correct answer:** A
 
 **Analysis:**
 

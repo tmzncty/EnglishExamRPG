@@ -1,8 +1,12 @@
 {
   "schema_version": 1,
-  "review_status": "bootstrap-unverified",
+  "review_status": "objective-reviewed",
   "provenance": {
-    "note": "Mechanical review draft exported from the pre-existing SQLite corpus. Do not treat as independently verified until review_status is changed."
+    "note": "Mechanical review draft exported from the pre-existing SQLite corpus. Do not treat as independently verified until review_status is changed.",
+    "manual_review": {
+      "objective_keys": "manually-transcribed-and-cross-checked",
+      "answer_table": "https://english-exam.lazynote.cn/kaoyan/paper/2016-english-one/"
+    }
   },
   "paper": {
     "paper_id": "2016-eng1",
@@ -913,7 +917,7 @@
       "question_number": 27,
       "passage_text": "For the first time in history more people live in towns than in the country. In Britain this has had a curious result.While polls show Britons rate “the countryside” alongside the royal family, Shakespeare and the National Health Service (NHS) as what makes them proudest of their country, this has limited political support.\n\nA century ago Octavia Hill launched the National Trust not to rescue stylish houses but to save “the beauty of natural places for everyone forever.” It was specifically to provide city dwellers with spaces for leisure where they could experience “a refreshing air.” Hill’s pressure later led to the creation of national parks and green belts. They don’t make countryside any more, and every year concrete consumes more of it. It needs constant guardianship.\n\nAt the next election none of the big parties seem likely to endorse this sentiment. The Conservatives’ planning reform explicitly gives rural development priority over conservation, even authorising “off-plan” building where local people might object. The concept of sustainable development has been defined as profitable. Labour likewise wants to discontinue local planning where councils oppose development. The Liberal Democrats are silent. Only Ukip, sensing its chance, has sided with those pleading for a more considered approach to using green land. Its Campaign to Protect Rural England struck terror into many local Conservative parties.\n\nThe sensible place to build new houses, factories and offices is where people are, in cities and towns where infrastructure is in place. The London agents Stirling Ackroyd recently identified enough sites for half a million houses in the London area alone, with no intrusion on green belt. What is true of London is even truer of the provinces.\n\nThe idea that “housing crisis” equals “concreted meadows” is pure lobby talk. The issue is not the need for more houses but, as always, where to put them. Under lobby pressure, George Osborne favours rural new-build against urban renovation and renewal. He favours out-of-town shopping sites against high streets. This is not a free market but a biased one. Rural towns and villages have grown and will always grow. They do so best where building sticks to their edges and respects their character. We do not ruin urban conservation areas. Why ruin rural ones?\n\nDevelopment should be planned, not let rip. After the Netherlands, Britain is Europe’s most crowded country. Half a century of town and country planning has enabled it to retain an enviable rural coherence, while still permitting low-density urban living. There is no doubt of the alternative – the corrupted landscapes of southern Portugal, Spain or Ireland. Avoiding this rather than promoting it should unite the left and right of the political spectrum.",
       "content": "According to Paragraph 2, the achievements of the National Trust are now being",
-      "correct_answer": "A",
+      "correct_answer": "D",
       "image_base64": null,
       "official_analysis": "A选项正确。第二段的后半部分提到，乡村正在被混凝土吞噬，需要持续的守护。暗示了National Trust的成就在一定程度上被忽视了。",
       "ai_persona_prompt": "Hey, genius, the answer is A! The National Trust did some good, sure, but concrete's eating up the countryside! Overshadowed, people, overshadowed! Is this English or advanced astrophysics? It's A!",

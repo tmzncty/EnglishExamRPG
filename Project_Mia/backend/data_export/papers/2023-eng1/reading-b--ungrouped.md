@@ -24,7 +24,7 @@ Perhaps most importantly, these images provided documentary evidence that later 
 
 →A→
 
-**Correct answer:** F
+**Correct answer:** B
 
 **Answer key / reference answer:**
 
@@ -40,7 +40,7 @@ F项承接A项，具体介绍了Hayden考察的目的，并点明Jackson的任�
 
 → E→
 
-**Correct answer:** D
+**Correct answer:** F
 
 **Answer key / reference answer:**
 
@@ -56,7 +56,7 @@ D项承接E项的时间线，详细描述了Jackson在考察期间的摄影工�
 
 → H →
 
-**Correct answer:** B
+**Correct answer:** D
 
 **Answer key / reference answer:**
 

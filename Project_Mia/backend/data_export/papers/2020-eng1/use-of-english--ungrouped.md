@@ -21,7 +21,7 @@ Doubtless a piece of boiled beef can always be _16_ up on Sunday alongside some 
 - **C.** On
 - **D.** Till
 
-**Correct answer:** C
+**Correct answer:** B
 
 **Analysis:**
 
@@ -55,7 +55,7 @@ few culinary pleasures can match it 很少有烹饪的乐趣能与之相比。ma
 - **C.** surprise
 - **D.** concern
 
-**Correct answer:** B
+**Correct answer:** D
 
 **Analysis:**
 
@@ -72,7 +72,7 @@ the food police are determined that this enjoyment should be rendered yet anothe
 - **C.** compelled
 - **D.** guaranteed
 
-**Correct answer:** D
+**Correct answer:** B
 
 **Analysis:**
 
@@ -89,7 +89,7 @@ another guilty pleasure guaranteed to damage our health 另一种有罪的快乐
 - **C.** ignored
 - **D.** cancelled
 
-**Correct answer:** A
+**Correct answer:** C
 
 **Analysis:**
 
@@ -106,7 +106,7 @@ The Food Standards Authority (FSA) has issued a public warning 食品标准管�
 - **C.** for
 - **D.** by
 
-**Correct answer:** B
+**Correct answer:** D
 
 **Analysis:**
 
@@ -123,7 +123,7 @@ foods cooked at high temperatures 在高温下烹饪的食物。at表示在某�
 - **C.** finish
 - **D.** avoid
 
-**Correct answer:** D
+**Correct answer:** B
 
 **Analysis:**
 
@@ -140,7 +140,7 @@ people should avoid crisping their roast potatoes 人们应该避免把烤土豆
 - **C.** easily
 - **D.** initially
 
-**Correct answer:** A
+**Correct answer:** C
 
 **Analysis:**
 
@@ -157,7 +157,7 @@ only partially toast their bread 只是稍微烤一下他们的面包。partiall
 - **C.** If
 - **D.** While
 
-**Correct answer:** D
+**Correct answer:** C
 
 **Analysis:**
 
@@ -174,7 +174,7 @@ While studies have shown that acrylamide can cause neurological damage in mice, 
 - **C.** conclusive
 - **D.** negative
 
-**Correct answer:** C
+**Correct answer:** A
 
 **Analysis:**
 
@@ -191,7 +191,7 @@ there is no conclusive evidence that it causes cancer in humans. 没有确凿的
 - **C.** likely
 - **D.** slow
 
-**Correct answer:** C
+**Correct answer:** A
 
 **Analysis:**
 
@@ -208,7 +208,7 @@ Scientists say the compound is likely to cause cancer 科学家说这种化合�
 - **C.** In addition to
 - **D.** In contrast to
 
-**Correct answer:** A
+**Correct answer:** C
 
 **Analysis:**
 
@@ -225,7 +225,7 @@ On the basis of the precautionary principle, it could be argued that it is advis
 - **C.** urgent
 - **D.** fortunate
 
-**Correct answer:** B
+**Correct answer:** D
 
 **Analysis:**
 
@@ -242,7 +242,7 @@ it could be argued that it is advisable to follow the FSA advice 可以认为听
 - **C.** By definition
 - **D.** After all
 
-**Correct answer:** D
+**Correct answer:** B
 
 **Analysis:**
 
@@ -259,7 +259,7 @@ After all, it was rumoured that smoking caused cancer for years before the evide
 - **C.** connection
 - **D.** pattern
 
-**Correct answer:** C
+**Correct answer:** A
 
 **Analysis:**
 
@@ -276,7 +276,7 @@ the evidence was found to prove a connection 找到证据证明两者之间的�
 - **C.** saved
 - **D.** used
 
-**Correct answer:** B
+**Correct answer:** D
 
 **Analysis:**
 
@@ -293,7 +293,7 @@ Doubtless a piece of boiled beef can always be served up on Sunday 一块煮牛�
 - **C.** To be brief
 - **D.** In general
 
-**Correct answer:** A
+**Correct answer:** C
 
 **Analysis:**
 
@@ -310,7 +310,7 @@ To be fair, the FSA says it is not telling people to cut out roast foods. 公平
 - **C.** gradually
 - **D.** carefully
 
-**Correct answer:** B
+**Correct answer:** A
 
 **Analysis:**
 
@@ -327,7 +327,7 @@ the FSA says it is not telling people to cut out roast foods entirely FSA说它�
 - **C.** campaign
 - **D.** competition
 
-**Correct answer:** C
+**Correct answer:** D
 
 **Analysis:**
 
@@ -344,7 +344,7 @@ However, their campaign risks coming a cross as being pushy and overprotective. 
 - **C.** open up
 - **D.** end up
 
-**Correct answer:** D
+**Correct answer:** B
 
 **Analysis:**
 

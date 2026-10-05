@@ -1,8 +1,12 @@
 {
   "schema_version": 1,
-  "review_status": "bootstrap-unverified",
+  "review_status": "objective-reviewed",
   "provenance": {
-    "note": "Mechanical review draft exported from the pre-existing SQLite corpus. Do not treat as independently verified until review_status is changed."
+    "note": "Mechanical review draft exported from the pre-existing SQLite corpus. Do not treat as independently verified until review_status is changed.",
+    "manual_review": {
+      "objective_keys": "manually-transcribed-and-cross-checked",
+      "answer_table": "https://english-exam.lazynote.cn/kaoyan/paper/2015-english-one/"
+    }
   },
   "paper": {
     "paper_id": "2015-eng1",

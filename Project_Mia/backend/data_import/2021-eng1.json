@@ -1,8 +1,12 @@
 {
   "schema_version": 1,
-  "review_status": "bootstrap-unverified",
+  "review_status": "objective-reviewed",
   "provenance": {
-    "note": "Mechanical review draft exported from the pre-existing SQLite corpus. Do not treat as independently verified until review_status is changed."
+    "note": "Mechanical review draft exported from the pre-existing SQLite corpus. Do not treat as independently verified until review_status is changed.",
+    "manual_review": {
+      "objective_keys": "manually-transcribed-and-cross-checked",
+      "answer_table": "https://english-exam.lazynote.cn/kaoyan/paper/2021-english-one/"
+    }
   },
   "paper": {
     "paper_id": "2021-eng1",
@@ -480,7 +484,7 @@
       "question_number": 16,
       "passage_text": "Fluid intelligence is the type of intelligence that has to do with short-term memory and the ability to think quickly, logically, and abstractly in order to solve new problems.It _1_ in young adulthood, levels out for a period of time, and then _2_ starts to slowly decline as we age. But _3_ aging is inevitable, scientists are finding out that certain changes in brain function may not be.\n\nOne study found that muscle loss and the _4_ of body fat around the abdomen are associated with a decline in fluid intelligence. This suggests the _5_ that lifestyle factors might help prevent or _6_ this type of decline.\n\nThe researchers looked at data that _7_ measurements of lean muscle and abdominal fat from more than 4,000 middle-to-older-aged men and women and _8_ that data to reported changes in fluid intelligence over a six-year period. They found that middle-aged people _9_ higher measures of abdominal fat _10_ worse on measures of fluid intelligence as the years_11_.\n\nFor women, the association may be _12_ to changes in immunity that resulted from excess abdominal fat; in men, the immune system did not appear to be _13_. It is hoped that future studies could _14_ these differences and perhaps lead to different _15_ for men and women.\n\n_16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean muscle mass as you age in order to protect both your physical and mental_18_. The two highly recommended lifestyle approaches are maintaining or increasing your _19_ of aerobic exercise and following Mediterranean-style _20_ that is high in fiber and eliminates highly processed foods.",
       "content": "[A] Likewise [B]  Meanwhile [C] Therefore [D] Instead",
-      "correct_answer": "C",
+      "correct_answer": "B",
       "image_base64": null,
       "official_analysis": "因为有解决措施，所以承接上文选择Therefore。表示因果关系。",
       "ai_persona_prompt": "If you can reduce abdominal fat, THEREFORE you should! The first part causes the second part. It's not 'meanwhile' – what's the time?!",

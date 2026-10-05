@@ -44,7 +44,7 @@ According to Paragraph 2, the achievements of the National Trust are now being
 - **C.** effectively reinforced.
 - **D.** gradually destroyed.
 
-**Correct answer:** A
+**Correct answer:** D
 
 **Analysis:**
 

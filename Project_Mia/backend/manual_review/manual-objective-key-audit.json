@@ -11,27 +11,8 @@
   "years": {
     "2010": {
       "manual_key": "ABCBCBDACDCAADBADCBDBADABCDCBABDACCADCBDBFDGA",
-      "mismatches": [
-        {
-          "q_id": "2010-eng1-reading_a-q32",
-          "question_number": 32,
-          "db": "B",
-          "manual": "D"
-        },
-        {
-          "q_id": "2010-eng1-reading_a-q38",
-          "question_number": 38,
-          "db": "A",
-          "manual": "C"
-        },
-        {
-          "q_id": "2010-eng1-reading_a-q40",
-          "question_number": 40,
-          "db": "B",
-          "manual": "D"
-        }
-      ],
-      "mismatch_count": 3
+      "mismatches": [],
+      "mismatch_count": 0
     },
     "2011": {
       "manual_key": "CDBBABADCABCDCBDADACCBDBABDCACDCBAACDADBBDACF",
@@ -40,27 +21,13 @@
     },
     "2012": {
       "manual_key": "BABDCBDBABACCDACACDDDBACDCDADAABBDCCDBCACDAFG",
-      "mismatches": [
-        {
-          "q_id": "2012-eng1-reading_a-q37",
-          "question_number": 37,
-          "db": "A",
-          "manual": "D"
-        }
-      ],
-      "mismatch_count": 1
+      "mismatches": [],
+      "mismatch_count": 0
     },
     "2013": {
       "manual_key": "ABCDBDAADCACBCBCDDBAABDCCDDCBDBADBABCACDEFDGA",
-      "mismatches": [
-        {
-          "q_id": "2013-eng1-reading_a-q27",
-          "question_number": 27,
-          "db": "A",
-          "manual": "D"
-        }
-      ],
-      "mismatch_count": 1
+      "mismatches": [],
+      "mismatch_count": 0
     },
     "2014": {
       "manual_key": "DABACDCDBCAABDCBABCDACDAADDABBBCCBDADCCBCFGDB",
@@ -74,15 +41,8 @@
     },
     "2016": {
       "manual_key": "ADCACBDBDADCBBCABDBAADDCDADCACBCDABABBCBCFDEG",
-      "mismatches": [
-        {
-          "q_id": "2016-eng1-reading_a-q27",
-          "question_number": 27,
-          "db": "A",
-          "manual": "D"
-        }
-      ],
-      "mismatch_count": 1
+      "mismatches": [],
+      "mismatch_count": 0
     },
     "2017": {
       "manual_key": "BADCBDBCADABDBCACACDACDDCBABADDBDCACCABDFEACG",
@@ -101,135 +61,13 @@
     },
     "2020": {
       "manual_key": "BADBCDBCCAACDBADCADBCBDBCDACADACDCBCABCBCEGAD",
-      "mismatches": [
-        {
-          "q_id": "2020-eng1-use_of_english-q1",
-          "question_number": 1,
-          "db": "C",
-          "manual": "B"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q3",
-          "question_number": 3,
-          "db": "B",
-          "manual": "D"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q4",
-          "question_number": 4,
-          "db": "D",
-          "manual": "B"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q5",
-          "question_number": 5,
-          "db": "A",
-          "manual": "C"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q6",
-          "question_number": 6,
-          "db": "B",
-          "manual": "D"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q7",
-          "question_number": 7,
-          "db": "D",
-          "manual": "B"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q8",
-          "question_number": 8,
-          "db": "A",
-          "manual": "C"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q9",
-          "question_number": 9,
-          "db": "D",
-          "manual": "C"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q10",
-          "question_number": 10,
-          "db": "C",
-          "manual": "A"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q11",
-          "question_number": 11,
-          "db": "C",
-          "manual": "A"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q12",
-          "question_number": 12,
-          "db": "A",
-          "manual": "C"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q13",
-          "question_number": 13,
-          "db": "B",
-          "manual": "D"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q14",
-          "question_number": 14,
-          "db": "D",
-          "manual": "B"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q15",
-          "question_number": 15,
-          "db": "C",
-          "manual": "A"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q16",
-          "question_number": 16,
-          "db": "B",
-          "manual": "D"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q17",
-          "question_number": 17,
-          "db": "A",
-          "manual": "C"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q18",
-          "question_number": 18,
-          "db": "B",
-          "manual": "A"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q19",
-          "question_number": 19,
-          "db": "C",
-          "manual": "D"
-        },
-        {
-          "q_id": "2020-eng1-use_of_english-q20",
-          "question_number": 20,
-          "db": "D",
-          "manual": "B"
-        }
-      ],
-      "mismatch_count": 19
+      "mismatches": [],
+      "mismatch_count": 0
     },
     "2021": {
       "manual_key": "CDABAACBACDBCDDBDAACCBCDDBDCCAABDAACBBDAGCEBD",
-      "mismatches": [
-        {
-          "q_id": "2021-eng1-use_of_english-q16",
-          "question_number": 16,
-          "db": "C",
-          "manual": "B"
-        }
-      ],
-      "mismatch_count": 1
+      "mismatches": [],
+      "mismatch_count": 0
     },
     "2022": {
       "manual_key": "ACDCDBCBADCBACBDAADBACDDBCBCDABAABCDADBCFCADG",
@@ -238,45 +76,8 @@
     },
     "2023": {
       "manual_key": "CADCCABBADDCCBABDADACBACDADBCDACAADBCABDBFDCG",
-      "mismatches": [
-        {
-          "q_id": "2023-eng1-use_of_english-q18",
-          "question_number": 18,
-          "db": "D",
-          "manual": "A"
-        },
-        {
-          "q_id": "2023-eng1-use_of_english-q19",
-          "question_number": 19,
-          "db": "A",
-          "manual": "D"
-        },
-        {
-          "q_id": "2023-eng1-use_of_english-q20",
-          "question_number": 20,
-          "db": "D",
-          "manual": "A"
-        },
-        {
-          "q_id": "2023-eng1-reading_b-q41",
-          "question_number": 41,
-          "db": "F",
-          "manual": "B"
-        },
-        {
-          "q_id": "2023-eng1-reading_b-q42",
-          "question_number": 42,
-          "db": "D",
-          "manual": "F"
-        },
-        {
-          "q_id": "2023-eng1-reading_b-q43",
-          "question_number": 43,
-          "db": "B",
-          "manual": "D"
-        }
-      ],
-      "mismatch_count": 6
+      "mismatches": [],
+      "mismatch_count": 0
     },
     "2024": {
       "manual_key": "DCBABCADADACCDCBDCBADDABAABDCBBCCDAABADBECFGB",
@@ -285,39 +86,8 @@
     },
     "2025": {
       "manual_key": "BCBCBADAADDADCDCBBBACAABABDCACDAACDCBBCDDGBEF",
-      "mismatches": [
-        {
-          "q_id": "2025-eng1-reading_a-q28",
-          "question_number": 28,
-          "db": "D",
-          "manual": "C"
-        },
-        {
-          "q_id": "2025-eng1-reading_a-q37",
-          "question_number": 37,
-          "db": "A",
-          "manual": "B"
-        },
-        {
-          "q_id": "2025-eng1-reading_b-q42",
-          "question_number": 42,
-          "db": "B",
-          "manual": "G"
-        },
-        {
-          "q_id": "2025-eng1-reading_b-q43",
-          "question_number": 43,
-          "db": "H",
-          "manual": "B"
-        },
-        {
-          "q_id": "2025-eng1-reading_b-q45",
-          "question_number": 45,
-          "db": "A",
-          "manual": "F"
-        }
-      ],
-      "mismatch_count": 5
+      "mismatches": [],
+      "mismatch_count": 0
     },
     "2026": {
       "manual_key": "ADBCBCADADDDCABCCBBACDABBDABCAAACBDDCBDCBEAGD",
