@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Replace overlong legacy writing samples with exam-length study models.
 
-These are reference/model answers for practice, not official scoring keys.
+These are reference/model answers for practice, not official scoring keys. The
+script only writes rows whose answer actually differs, keeping repeated CI runs
+byte-stable when no repair is needed.
 """
 
 from __future__ import annotations
@@ -83,17 +85,25 @@ def main() -> int:
     args = parser.parse_args()
 
     conn = sqlite3.connect(args.db)
+    writes = 0
     try:
         for q_id, answer in SAMPLES.items():
-            exists = conn.execute("SELECT 1 FROM questions WHERE q_id=?", (q_id,)).fetchone()
-            if not exists:
+            row = conn.execute(
+                "SELECT answer_key FROM questions WHERE q_id=?", (q_id,)
+            ).fetchone()
+            if row is None:
                 raise SystemExit(f"required writing question missing: {q_id}")
+            if row[0] == answer:
+                continue
             conn.execute(
                 "UPDATE questions SET answer_key=? WHERE q_id=?",
                 (answer, q_id),
             )
-        conn.commit()
-        print(f"Updated {len(SAMPLES)} writing reference samples")
+            writes += 1
+
+        if writes:
+            conn.commit()
+        print(f"Updated writing reference samples; writes: {writes}")
         return 0
     finally:
         conn.close()
