@@ -5,6 +5,7 @@ on:
     paths:
       - "Project_Mia/backend/data/static_content.db"
       - "Project_Mia/backend/data_import/**"
+      - "Project_Mia/backend/scripts/bootstrap_legacy_bundles.py"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/repair_exam_content.py"
       - "Project_Mia/backend/scripts/repair_writing_samples.py"
@@ -18,6 +19,7 @@ on:
     paths:
       - "Project_Mia/backend/data/static_content.db"
       - "Project_Mia/backend/data_import/**"
+      - "Project_Mia/backend/scripts/bootstrap_legacy_bundles.py"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
       - "Project_Mia/backend/scripts/repair_exam_content.py"
       - "Project_Mia/backend/scripts/repair_writing_samples.py"
@@ -47,6 +49,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Bootstrap missing legacy bundle review drafts
+        run: python Project_Mia/backend/scripts/bootstrap_legacy_bundles.py
 
       - name: Import curated exam bundles
         shell: bash
@@ -82,16 +87,16 @@ jobs:
       - name: Export question images into Markdown projection
         run: python Project_Mia/backend/scripts/export_exam_images.py
 
-      - name: Commit database and generated text projection
+      - name: Commit database, generated projection, and review drafts
         shell: bash
         run: |
-          if [ -z "$(git status --porcelain -- Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export)" ]; then
-            echo "Database and generated export are already current."
+          if [ -z "$(git status --porcelain -- Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export Project_Mia/backend/data_import)" ]; then
+            echo "Database, generated export, and review drafts are already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export
-          git commit -m "Repair exams and regenerate static export"
+          git add Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export Project_Mia/backend/data_import
+          git commit -m "Bootstrap legacy exam bundle review drafts"
           TARGET_BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
           git push origin "HEAD:${TARGET_BRANCH}"
