@@ -1,0 +1,911 @@
+{
+  "note": "Read-only canonical option/order discrepancy finder.",
+  "years": {
+    "2010": {
+      "url": "https://www.guojiya.cn/exam/neem_2010_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 20,
+          "q_id": "2010-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "breaking",
+              "source": "The first and more important is the consumer's growing preference for eating out:"
+            },
+            "B": {
+              "bundle": "climbing",
+              "source": "Retail sales of food and drink in Europe's largest markets are at a standstill,"
+            },
+            "C": {
+              "bundle": "surpassing",
+              "source": "Will such variations bring about a change in the overall structure of the food and"
+            },
+            "D": {
+              "bundle": "hitting",
+              "source": "All in all, this clearly seems to be a market in which big retailers could profitably"
+            },
+            "E": {
+              "bundle": null,
+              "source": "Despite variations in detail, wholesale markets in the countries that have been"
+            },
+            "F": {
+              "bundle": null,
+              "source": "For example, wholesale food and drink sales came to $268 billion in France,"
+            },
+            "G": {
+              "bundle": null,
+              "source": "However, none of these requirements should deter large retailers (and even some"
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 1
+    },
+    "2011": {
+      "url": "https://www.guojiya.cn/exam/neem_2011_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 17,
+          "q_id": "2011-eng1-use_of_english-q17",
+          "answer": {
+            "bundle": "A",
+            "source": "D"
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2011-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "Eventually",
+              "source": "No disciplines have seized on professionalism with as much enthusiasm as the humanities. You can, Mr. Menand points out, become a lawyer in three years and a medical doctor in four. But the regular time it takes to get a doctoral degree in the humanities is nine years. Not surprisingly, up to half of all doctoral students in English drop out before getting their degrees."
+            },
+            "B": {
+              "bundle": "Consequently",
+              "source": "His concern is mainly with the humanities: literature, languages, philosophy and so on. These are disciplines that are going out of style: 22% of American college graduates now major in business compared with only 2% in history and 4% in English. However, many leading American universities want their undergraduates to have a grounding in the basic canon of ideas that every educated person should possess. But most find it difficult to agree on what a “general education” should look like. At Harvard, Mr. Menand notes, “the great books are read because they have been read” - they form a sort of social glue."
+            },
+            "C": {
+              "bundle": "Similarly",
+              "source": "Equally unsurprisingly, only about half end up with professorships for which they entered graduate school. There are simply too few posts. This is partly because universities continue to produce ever more PhDs. But fewer students want to study humanities subjects: English departments awarded more bachelor’s degrees in 1970-71 than they did 20 years later. Fewer students require fewer teachers. So, at the end of a decade of thesis-writing, many humanities students leave the profession to do something for which they have not been trained."
+            },
+            "D": {
+              "bundle": "Conversely",
+              "source": "One reason why it is hard to design and teach such courses is that they cut across the insistence by top American universities that liberal-arts education and professional education should be kept separate, taught in different schools. Many students experience both varieties. Although more than half of Harvard undergraduates end up in law, medicine or business, future doctors and lawyers must study a non-specialist liberal-arts degree before embarking on a professional qualification."
+            },
+            "E": {
+              "bundle": null,
+              "source": "Besides professionalising the professions by this separation, top American universities have professionalised the professor. The growth in public money for academic research has speeded the process: federal research grants rose fourfold between 1960 and 1990, but faculty teaching hours fell by half as research took its toll. Professionalism has turned the acquisition of a doctoral degree into a prerequisite for a successful academic career: as late as 1969 a third of American professors did not possess one. But the key idea behind professionalisation, argues Mr. Menand, is that “the knowledge and skills needed for a particular specialisation are transmissible but not transferable.” So disciplines acquire a monopoly not just over the production of knowledge, but also over the production of the producers of knowledge."
+            },
+            "F": {
+              "bundle": null,
+              "source": "The key to reforming higher education, concludes Mr. Menand, is to alter the way in which “the producers of knowledge are produced”. Otherwise, academics will continue to think dangerously alike, increasingly detached from the societies which they study, investigate and criticise. “Academic inquiry, at least in some fields, may need to become less exclusionary and more holistic.” Yet quite how that happens, Mr. Menand does not say."
+            },
+            "G": {
+              "bundle": null,
+              "source": "The subtle and intelligent little book The Marketplace of Ideas: Reform and Resistance in the American University should be read by every student thinking of applying to take a doctoral degree. They may then decide to go elsewhere. For something curious has been happening in American universities, and Louis Menand, a professor of English at Harvard University, captured it skilfully."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 2
+    },
+    "2012": {
+      "url": "https://www.guojiya.cn/exam/neem_2012_1",
+      "parsed_questions": 25,
+      "diffs": [
+        {
+          "question_number": 9,
+          "q_id": "2012-eng1-use_of_english-q9",
+          "answer": {
+            "bundle": "A",
+            "source": "B"
+          }
+        },
+        {
+          "question_number": 19,
+          "q_id": "2012-eng1-use_of_english-q19",
+          "options": {
+            "C": {
+              "bundle": "agreable",
+              "source": "agreeable"
+            }
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2012-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "by all means",
+              "source": "disapproval."
+            },
+            "B": {
+              "bundle": "at all costs",
+              "source": "appreciation."
+            },
+            "C": {
+              "bundle": "in a word",
+              "source": "tolerance."
+            },
+            "D": {
+              "bundle": "as a result",
+              "source": "indifference."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 3
+    },
+    "2013": {
+      "url": "https://www.guojiya.cn/exam/neem_2013_1",
+      "parsed_questions": 25,
+      "diffs": [
+        {
+          "question_number": 20,
+          "q_id": "2013-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "necessary",
+              "source": "Immigration issues are usually decided by Congress."
+            },
+            "B": {
+              "bundle": "possible",
+              "source": "The Administration is dominant over immigration issues."
+            },
+            "C": {
+              "bundle": "promising",
+              "source": "Justices wanted to strengthen its coordination with Congress."
+            },
+            "D": {
+              "bundle": "helpful",
+              "source": "Justices intended to check the power of the Administration."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 1
+    },
+    "2014": {
+      "url": "https://www.guojiya.cn/exam/neem_2014_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 20,
+          "q_id": "2014-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "idle",
+              "source": "Some archaeological sites have always been easily observable - for example, the Parthenon in Athens, Greece; the pyramids of Giza in Egypt; and the megaliths of Stonehenge in southern England. But these sites are exceptions to the norm. Most archaeological sites have been located by means of careful searching, while many others have been discovered by accident. Olduvai Gorge, an early hominid site in Tanzania, was found by a butterfly hunter who literally fell into its deep valley in 1911. Thousands of Aztec artifacts came to light during the digging of the Mexico City subway in the 1970s."
+            },
+            "B": {
+              "bundle": "risky",
+              "source": "In another case, American archaeologists Rene Million and George Cowgill spent years systematically mapping the entire city of Teotihuacan in the Valley of Mexico near what is now Mexico City. At its peak around AD 600, this city was one of the largest human settlements in the world. The researchers mapped not only the city's vast and ornate ceremonial areas, but also hundreds of simpler apartment complexes where common people lived."
+            },
+            "C": {
+              "bundle": "familiar",
+              "source": "How do archaeologists know where to find what they are looking for when there is nothing visible on the surface of the ground? Typically, they survey and sample (make test excavations on) large areas of terrain to determine where excavation will yield useful information. Surveys and test samples have also become important for understanding the larger landscapes that contain archaeological sites."
+            },
+            "D": {
+              "bundle": "effective",
+              "source": "Surveys can cover a single large settlement or entire landscapes. In one case, many researchers working around the ancient Maya city of Copan, Honduras, have located hundreds of small rural villages and individual dwellings by using aerial photographs and by making surveys on foot. The resulting settlement maps show how the distribution and density of the rural population around the city changed dramatically between AD 500 and 850, when Copan collapsed."
+            },
+            "E": {
+              "bundle": null,
+              "source": "To find their sites, archaeologists today rely heavily on systematic survey methods and a variety of high-technology tools and techniques. Airborne technologies, such as different types of radar and photographic equipment carried by airplanes or spacecraft, allow archaeologists to learn about what lies beneath the ground without digging. Aerial surveys locate general areas of interest or larger buried features, such as ancient buildings or fields."
+            },
+            "F": {
+              "bundle": null,
+              "source": "Most archaeological sites, however, are discovered by archaeologists who have set out to look for them. Such searches can take years. British archaeologist Howard Carter knew that the tomb of the Egyptian pharaoh Tutankhamun existed from information found in other sites. Carter sifted through rubble in the Valley of the Kings for seven years before he located the tomb in 1922. In the late 1800s British archaeologist Sir Arthur Evans combed antique dealers' stores in Athens, Greece. He was searching for tiny engraved seals attributed to the ancient Mycenaean culture that dominated Greece from the 1400s to 1200s BC. Evans's interpretations of these engravings eventually led him to find the Minoan palace at Knossos, on the island of Crete, in 1900."
+            },
+            "G": {
+              "bundle": null,
+              "source": "Ground surveys allow archaeologists to pinpoint the places where digs will be successful. Most ground surveys involve a lot of walking, looking for surface clues such as small fragments of pottery. They often include a certain amount of digging to test for buried materials at selected points across a landscape. Archaeologists also may locate buried remains by using such technologies as ground radar, magnetic-field recording, and metal detectors. Archaeologists commonly use computers to map sites and the landscapes around sites. Two- and three-dimensional maps are helpful tools in planning excavations, illustrating how sites look, and presenting the results of archaeological research."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 1
+    },
+    "2015": {
+      "url": "https://www.guojiya.cn/exam/neem_2015_1",
+      "parsed_questions": 25,
+      "diffs": [
+        {
+          "question_number": 3,
+          "q_id": "2015-eng1-use_of_english-q3",
+          "answer": {
+            "bundle": "C",
+            "source": "D"
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2015-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "see",
+              "source": "The quality of writings is of primary importance."
+            },
+            "B": {
+              "bundle": "show",
+              "source": "Moral awareness matters in editing a newspaper."
+            },
+            "C": {
+              "bundle": "prove",
+              "source": "Common humanity is central to news reporting."
+            },
+            "D": {
+              "bundle": "tell",
+              "source": "Journalists need stricter industrial regulations."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 2
+    },
+    "2016": {
+      "url": "https://www.guojiya.cn/exam/neem_2016_1",
+      "parsed_questions": 25,
+      "diffs": [
+        {
+          "question_number": 15,
+          "q_id": "2016-eng1-use_of_english-q15",
+          "options": {
+            "A": {
+              "bundle": "endowed",
+              "source": "isolated"
+            },
+            "B": {
+              "bundle": "equated",
+              "source": "persuaded"
+            },
+            "C": {
+              "bundle": "regarded",
+              "source": "viewed"
+            },
+            "D": {
+              "bundle": "impressed",
+              "source": "exposed"
+            }
+          }
+        },
+        {
+          "question_number": 16,
+          "q_id": "2016-eng1-use_of_english-q16",
+          "options": {
+            "B": {
+              "bundle": "whichever",
+              "source": "however"
+            },
+            "C": {
+              "bundle": "however",
+              "source": "whenever"
+            },
+            "D": {
+              "bundle": "whenever",
+              "source": "wherever"
+            }
+          }
+        },
+        {
+          "question_number": 17,
+          "q_id": "2016-eng1-use_of_english-q17",
+          "options": {
+            "A": {
+              "bundle": "transfer",
+              "source": "changed"
+            },
+            "C": {
+              "bundle": "redeem",
+              "source": "shaped"
+            },
+            "D": {
+              "bundle": "restore",
+              "source": "pushed"
+            }
+          }
+        },
+        {
+          "question_number": 18,
+          "q_id": "2016-eng1-use_of_english-q18",
+          "options": {
+            "A": {
+              "bundle": "scattered",
+              "source": "withdrawn"
+            },
+            "B": {
+              "bundle": "separated",
+              "source": "invested"
+            },
+            "C": {
+              "bundle": "withdrawn",
+              "source": "donated"
+            }
+          }
+        },
+        {
+          "question_number": 19,
+          "q_id": "2016-eng1-use_of_english-q19",
+          "options": {
+            "A": {
+              "bundle": "sums",
+              "source": "clears"
+            },
+            "B": {
+              "bundle": "crops",
+              "source": "shows"
+            },
+            "C": {
+              "bundle": "turns",
+              "source": "warms"
+            },
+            "D": {
+              "bundle": "builds",
+              "source": "breaks"
+            }
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2016-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "whereas",
+              "source": "Shift to Online Newspapers All at Once"
+            },
+            "B": {
+              "bundle": "lest",
+              "source": "Make Your Print Newspaper a Luxury Good"
+            },
+            "C": {
+              "bundle": "if",
+              "source": "Keep Your Newspapers Forever in Fashion"
+            },
+            "D": {
+              "bundle": "as",
+              "source": "Cherish the Newspaper Still in Your Hand"
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 6
+    },
+    "2017": {
+      "url": "https://www.guojiya.cn/exam/neem_2017_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 20,
+          "q_id": "2017-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "experiences",
+              "source": "The first published sketch, \"A Dinner at Poplar Walk\" brought tears to Dickens's eyes when he discovered it in the pages of The Monthly Magazine. From then on his sketches, which appeared under the pen name \"Boz\" in The Evening Chronicle, earned him a modest reputation."
+            },
+            "B": {
+              "bundle": "combines",
+              "source": "The runaway success of The Pickwick Papers, as it is generally known today, secured Dickens's fame. There were Pickwick coats and Pickwick cigars, and the plump, spectacled hero, Samuel Pickwick, became a national figure."
+            },
+            "C": {
+              "bundle": "justifies",
+              "source": "Soon after Sketches by Boz appeared, a publishing firm approached Dickens to write a story in monthly installments, as a backdrop for a series of woodcuts by the then-famous artist Robert Seymour, who had originated the idea for the story. With characteristic confidence, Dickens successfully insisted that Seymour's pictures illustrate his own story instead. After the first installment, Dickens wrote to the artist and asked him to correct a drawing Dickens felt was not faithful enough to his prose. Seymour made the change, went into his backyard, and expressed his displeasure by committing suicide. Dickens and his publishers simply pressed on with a new artist. The comic novel, The Posthumous Papers of the Pickwick Club, appeared serially in 1836 and 1837 and was first published in book form in 1837."
+            },
+            "D": {
+              "bundle": "influences",
+              "source": "Charles Dickens is probably the best-known and, to many people, the greatest English novelist of the 19th century. A moralist, satirist, and social reformer, Dickens crafted complex plots and striking characters that capture the panorama of English society."
+            },
+            "E": {
+              "bundle": null,
+              "source": "Soon after his father's release from prison, Dickens got a better job as errand boy in law offices. He taught himself shorthand to get an even better job later as a court stenographer and as a reporter in Parliament. At the same time, Dickens, who had a reporter's eye for transcribing the life around him, especially anything comic or odd, submitted short sketches to obscure magazines."
+            },
+            "F": {
+              "bundle": null,
+              "source": "Dickens was born in Portsmouth, on England's southern coast. His father was a clerk in the British Navy pay office — a respectable position, but with little social status. His paternal grandparents, a steward and a housekeeper, possessed even less status, having been servants, and Dickens later concealed their background. Dickens's mother supposedly came from a more respectable family. Yet two years before Dickens's birth, his mother's father was caught stealing and fled to Europe, never to return. The family's increasing poverty forced Dickens out of school at age 12 to work in Warren's Blacking Warehouse, a shoe-polish factory, where the other working boys mocked him as \"the young gentleman.\" His father was then imprisoned for debt. The humiliations of his father's imprisonment and his labor in the blacking factory formed Dickens's greatest wound and became his deepest secret. He could not confide them even to his wife, although they provide the unacknowledged foundation of his fiction."
+            },
+            "G": {
+              "bundle": null,
+              "source": "After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he traces an orphan's progress from the workhouse to the criminal slums of London. Nicholas Nickleby, his next novel, combines the darkness of Oliver Twist with the sunlight of Pickwick. The popularity of these novels consolidated Dickens as a nationally and internationally celebrated man of letters."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 1
+    },
+    "2018": {
+      "url": "https://www.guojiya.cn/exam/neem_2018_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 20,
+          "q_id": "2018-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "inflexible",
+              "source": "In December of 1869, Congress appointed a commission to select a site and prepare plans and cost estimates for a new State Department Building. The commission was also to consider possible arrangements for the War and Navy Departments. To the horror of some who expected a Greek Revival twin of the Treasury Building to be erected on the other side of the White House, the elaborate French Second Empire style design by Alfred Mullett was selected, and construction of a building to house all three departments began in June of 1871."
+            },
+            "B": {
+              "bundle": "incapable",
+              "source": "Completed in 1875, the State Department’s south wing was the first to be occupied, with its elegant four-story library (completed in 1876), Diplomatic Reception Room, and Secretary’s office decorated with carved wood, Oriental rugs, and stenciled wall patterns. The Navy Department moved into the east wing in 1879, where elaborate wall and ceiling stenciling and marquetry floors decorated the office of the Secretary."
+            },
+            "C": {
+              "bundle": "unreliable",
+              "source": "The State, War, and Navy Building, as it was originally known, housed the three Executive Branch Departments most intimately associated with formulating and conducting the nation’s foreign policy in the last quarter of the nineteenth century and the first quarter of the twentieth century — the period when the United States emerged as an international power. The building has housed some of the nation’s most significant diplomats and politicians and has been the scene of many historic events."
+            },
+            "D": {
+              "bundle": "unsuitable",
+              "source": "Many of the most celebrated national figures have participated in historical events that have taken place within the EEOB’s granite walls. Theodore and Franklin D. Roosevelt, William Howard Taft, Dwight D. Eisenhower, Lyndon B. Johnson, Gerald Ford, and George H. W. Bush all had offices in this building before becoming president. It has housed 16 Secretaries of the Navy, 21 Secretaries of War, and 24 Secretaries of State. Winston Churchill once walked its corridors and Japanese emissaries met here with Secretary of State Cordell Hull after the bombing of Pearl Harbor."
+            },
+            "E": {
+              "bundle": null,
+              "source": "The Eisenhower Executive Office Building (EEOB) commands a unique position in both the national history and the architectural heritage of the United States. Designed by Supervising Architect of the Treasury, Alfred B. Mullett, it was built from 1871 to 1888 to house the growing staffs of the State, War, and Navy Departments, and is considered one of the best examples of French Second Empire architecture in the country."
+            },
+            "F": {
+              "bundle": null,
+              "source": "Construction took 17 years as the building slowly rose wing by wing. When the EEOB was finished, it was the largest office building in Washington, with nearly 2 miles of black and white tiled corridors. Almost all of the interior detail is of cast iron or plaster; the use of wood was minimized to insure fire safety. Eight monumental curving staircases of granite with over 4,000 individually cast bronze balusters are capped by four skylight domes and two stained glass rotundas."
+            },
+            "G": {
+              "bundle": null,
+              "source": "The history of the EEOB began long before its foundations were laid. The first executive offices were constructed between 1799 and 1820. A series of fires (including those set by the British in 1814) and overcrowded conditions led to the construction of the existing Treasury Building. In 1866, the construction of the North Wing of the Treasury Building necessitated the demolition of the State Department building."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 1
+    },
+    "2019": {
+      "url": "https://www.guojiya.cn/exam/neem_2019_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 6,
+          "q_id": "2019-eng1-use_of_english-q6",
+          "options": {
+            "D": {
+              "bundle": "along",
+              "source": "alone"
+            }
+          }
+        },
+        {
+          "question_number": 13,
+          "q_id": "2019-eng1-use_of_english-q13",
+          "options": {
+            "B": {
+              "bundle": "In contrast",
+              "source": "In"
+            },
+            "C": {
+              "bundle": "On average",
+              "source": "ontrast [C] On average"
+            }
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2019-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "restrict",
+              "source": "These tools can help you win every argument - not in the unhelpful sense of"
+            },
+            "B": {
+              "bundle": "adapt",
+              "source": "Of course, many discussions are not so successful. Still, we need to be careful not"
+            },
+            "C": {
+              "bundle": "lead",
+              "source": "None of these will be easy but you can start even if others refuse to. Next time"
+            },
+            "D": {
+              "bundle": "expose",
+              "source": "Carnegie would be right if arguments were fights, which is how we often think of"
+            },
+            "E": {
+              "bundle": null,
+              "source": "In his 19 36 work How to Win Friends and Influence People, Dale Carnegie wrote:"
+            },
+            "F": {
+              "bundle": null,
+              "source": "These views of arguments also undermine reason. If you see a conversation as a"
+            },
+            "G": {
+              "bundle": null,
+              "source": "There is a better way to win arguments. Imagine that you favor increasing the"
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 3
+    },
+    "2020": {
+      "url": "https://www.guojiya.cn/exam/neem_2020_1",
+      "parsed_questions": 25,
+      "diffs": [
+        {
+          "question_number": 12,
+          "q_id": "2020-eng1-use_of_english-q12",
+          "options": {
+            "B": {
+              "bundle": "At the cost of",
+              "source": "At the"
+            },
+            "C": {
+              "bundle": "In addition to",
+              "source": "ost of [C] In addition to"
+            }
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2020-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "follow up",
+              "source": "France Is Confronted with Trade Sanctions"
+            },
+            "B": {
+              "bundle": "pick up",
+              "source": "France leads the charge on Digital Tax"
+            },
+            "C": {
+              "bundle": "open up",
+              "source": "France Says \" NO\" to Tech Multinationals"
+            },
+            "D": {
+              "bundle": "end up",
+              "source": "France Demands a Role in the Digital Economy"
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 2
+    },
+    "2021": {
+      "url": "https://www.guojiya.cn/exam/neem_2021_1",
+      "parsed_questions": 25,
+      "diffs": [
+        {
+          "question_number": 20,
+          "q_id": "2021-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "design",
+              "source": "Congress needs to take action to ensure net neutrality."
+            },
+            "B": {
+              "bundle": "routine",
+              "source": "The FCC should be put under strict supervision."
+            },
+            "C": {
+              "bundle": "diet",
+              "source": "Rules need to be set to diversify online services."
+            },
+            "D": {
+              "bundle": "prescription",
+              "source": "Broadband providers'rights should be protected."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 1
+    },
+    "2022": {
+      "url": "https://www.guojiya.cn/exam/neem_2022_1",
+      "parsed_questions": 25,
+      "diffs": [
+        {
+          "question_number": 20,
+          "q_id": "2022-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "humble",
+              "source": "has secured managers’ earnings."
+            },
+            "B": {
+              "bundle": "poor",
+              "source": "has produced undesired results."
+            },
+            "C": {
+              "bundle": "practical",
+              "source": "is beneficial to business owners."
+            },
+            "D": {
+              "bundle": "easy",
+              "source": "is difficult to put into practice"
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 1
+    },
+    "2023": {
+      "url": "https://www.guojiya.cn/exam/neem_2023_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 17,
+          "q_id": "2023-eng1-use_of_english-q17",
+          "options": {
+            "C": {
+              "bundle": "close in",
+              "source": "close in on"
+            }
+          }
+        },
+        {
+          "question_number": 18,
+          "q_id": "2023-eng1-use_of_english-q18",
+          "answer": {
+            "bundle": "D",
+            "source": "A"
+          },
+          "options": {
+            "A": {
+              "bundle": "ensured",
+              "source": "believed"
+            },
+            "B": {
+              "bundle": "figured",
+              "source": "predicted"
+            },
+            "C": {
+              "bundle": "presumed",
+              "source": "recalled"
+            },
+            "D": {
+              "bundle": "estimated",
+              "source": "implied"
+            }
+          }
+        },
+        {
+          "question_number": 19,
+          "q_id": "2023-eng1-use_of_english-q19",
+          "answer": {
+            "bundle": "A",
+            "source": "D"
+          },
+          "options": {
+            "A": {
+              "bundle": "while",
+              "source": "until"
+            },
+            "B": {
+              "bundle": "once",
+              "source": "because"
+            },
+            "C": {
+              "bundle": "since",
+              "source": "unless"
+            },
+            "D": {
+              "bundle": "unless",
+              "source": "although"
+            }
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2023-eng1-use_of_english-q20",
+          "answer": {
+            "bundle": "D",
+            "source": "A"
+          },
+          "options": {
+            "A": {
+              "bundle": "operation",
+              "source": "Last year marked the 150th anniversary of a series · of Yellowstone photographs by the renowned landscape photographer William • Henry Jackson. He captured the first-ever shots of iconic landmarks such as the Tetons, Old Faithful and the Colorado Rockies. Jackson snapped them on a late 19th-century expedition through the Yellowstone Basin that was conducted by the · head of the U. S. Geological and Geographical Survey of the Territories, Ferdinand V. Hayden. The team included a meteorologist, a zoologist, a mineralogist, and an agricultural statistician."
+            },
+            "B": {
+              "bundle": "isolation",
+              "source": "Two centuries ago, the idea of preserving nature, rather than exploiting it, was a novel one to. many U.S.. settlers. One of the turning points in public support for land conservation efforts-and recognizing the magnificence of the Yellowstone region in particular-came in the form of vivid photographs."
+            },
+            "C": {
+              "bundle": "obligation",
+              "source": "As an effective Washington operator, Hayden sensed that he could capitalize on the expedition's stunning visuals. He asked Jackson to print out large copies and distributed them, along with reproductions of Moran's paintings, to each member of Congress. \" The visualization, particularly those photographs, really hit home that this is something that has to be protected, \" says Murphy."
+            },
+            "D": {
+              "bundle": "disrepair",
+              "source": "Throughout the trip, Jackson juggled multiple cameras and plate sizes using the \" collodion process\" that required him to coat the plates with a chemical mixture, then expose them and develop the resulting images with a portable darkroom. The crude technique required educated guesses on exposure times, and involved heavy, awkward equipment-several men had to assist in its transportation. Despite these challenges, Jackson captured dozns of striking photos, ranging from majestic images like his now-famous snapshot of Old Faithful, to casual portraits of expedition members at the camp. While veterans of previous expeditions wrote at length about stunning trail sights, these vivid photographs were another thing entirely."
+            },
+            "E": {
+              "bundle": null,
+              "source": "The journey officially began in Ogden, Utah on June 8 , 1871. Over nearly four months, dozens of men made their way on horseback into Montana and traversed along the Yellowstone River and around Yellowstone Lake. That fall, they concluded the survey in Fort Bridger, Wyoming."
+            },
+            "F": {
+              "bundle": null,
+              "source": "Though Native Americans ( and later miners and fur trappers) had long recognized the area's riches, most Americans did not. That's why Hayden's expedition aimed to produce a fuller understanding of the Yellowstone River region, from its hot springs and waterfalls to its variety of flora and fauna. In addition to the entourage of scientists, the team also included artists: Painter Thomas Moran and photographer William Henry Jackson were charged with capturing this astounding natural beauty and sharing it with the world."
+            },
+            "G": {
+              "bundle": null,
+              "source": "The bill proved largely popular and sailed through Congress with large majorities in favor. In quick succession, the Senate and House passed legislation protecting Yellowstone in early 1872. That March, President Ulysses S. Grant signed an act into law that established Yellowstone as the world's first national park. Soon, some locals opposed the designation. Still, the decision was largely accepted-and Jackson's photos played a key role in the fight to protect the area. \"I don't believe that the legal protection would have happened in the timeframe that it did without those images, \" says Hansen, journalist and author of Prophets and Moguls, Rangers and Rogues, Bison and Bears: 100 Years of the National Park Service."
+            },
+            "H": {
+              "bundle": null,
+              "source": "Perhaps most importantly, the images provided documentary evidence that later made its way to government officials. Weeks after completing the expedition, Hayden collected his team's observations into an extensive report aimed at convincing Senators and Representatives, along with colleagues at government agencies like the Department of the Interior that Yellowstone ought to be preserved."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 4
+    },
+    "2024": {
+      "url": "https://www.guojiya.cn/exam/neem_2024_1",
+      "parsed_questions": 25,
+      "diffs": [
+        {
+          "question_number": 1,
+          "q_id": "2024-eng1-use_of_english-q1",
+          "options": {
+            "A": {
+              "bundle": "Through",
+              "source": "Though"
+            }
+          }
+        },
+        {
+          "question_number": 15,
+          "q_id": "2024-eng1-use_of_english-q15",
+          "options": {
+            "D": {
+              "bundle": "reasons",
+              "source": "resources"
+            }
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2024-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "appropriate",
+              "source": "be cautious about the influence of landowners"
+            },
+            "B": {
+              "bundle": "obvious",
+              "source": "attach due importance to wetlands protections"
+            },
+            "C": {
+              "bundle": "impressive",
+              "source": "recognize the need to expand wildlife refuges"
+            },
+            "D": {
+              "bundle": "delicate",
+              "source": "improve the well-being of endangered species"
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 3
+    },
+    "2025": {
+      "url": "https://www.guojiya.cn/exam/neem_2025_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 11,
+          "q_id": "2025-eng1-use_of_english-q11",
+          "options": {
+            "D": {
+              "bundle": "examining",
+              "source": "examine"
+            }
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2025-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "robust",
+              "source": "Peters likes to photograph butterflies in a landscape, celebrating the beauty of their surroundings as well as the insects themselves. His pictures of a Glanville fritillary rising from the sea-pinks beside the chalk cliffs of Compton Bay on the Isle of Wight are particularly glorious. These take-off shots are even more challenging because they require a wide-angle lens, which means he must be less than 2cm from the butterfly. It's incredibly difficult to get that close to a skittish, sun-warmed insect. Unlike some photographers, who “cheat” by keeping insects in a fridge to slow them down, Peters refuses to tamper with wild butterflies."
+            },
+            "B": {
+              "bundle": "diverse",
+              "source": "Peters' signature shot is a butterfly “take-off”, showing the multiple wing-beats of one butterfly in one frame as it lifts off from a flower. How does he capture it? Technology helps. A typical digital SLR camera shoots 20 frames a second. He uses a high-speed OM System which shoots 120 frames a second."
+            },
+            "C": {
+              "bundle": "marginal",
+              "source": "Britain has relatively few butterfly species compared with mainland Europe and 80% are in decline, mostly because intensive chemical farming has reduced many species to tiny fragments of habitat and small nature reserves. Global heating is benefiting some species but others are too isolated to find suitable new habitat, and gardening habits-paving over gardens and using pesticides-aren't helping either. Butterflies may not pollinate as many plants as wild bees and hoverflies, but because British butterflies are the best-studied group of insects in the world, they are an extremely useful indicator of the wider declines in flying insects."
+            },
+            "D": {
+              "bundle": "dependent",
+              "source": "Five years ago, at summer's end, Andrew Fusek Peters was diagnosed with bowel cancer. “I was waiting for surgery, feeling really ill, sitting in my garden. It was amazing weather and there were painted lady butterflies everywhere,” he says. “They were a symbol of fragile life, of hope and defiance, and something appealed to my soul.”"
+            },
+            "E": {
+              "bundle": null,
+              "source": "That makes it sound easy, and artificial, but Peters insists it is still a massive challenge. He typically takes between 10,000 and 20,000 shots to get one butterfly take-off sequence in focus. At such high shutter speeds, the depth of field is tiny, and as butterflies do not fly in a straight line they swiftly flutter out of focus. As well as thousands of attempts, it takes patience and fieldcraft to anticipate a butterfly's likely flight-line-and catch it-in focus."
+            },
+            "F": {
+              "bundle": null,
+              "source": "So what's the appeal of a long, sweaty day in pursuit of an elusive, fast-moving wild animal? “It just feels bloody brilliant,” says Peters. “If I've had a full day of good encounters with butterflies, met interesting butterfly people and I've got some good shots, that becomes a vault in my spiritual bank. It's a happy feeling.”"
+            },
+            "G": {
+              "bundle": null,
+              "source": "A children's author and poet who had become a keen amateur photographer, Peters watched the butterflies and idly wondered if he could capture them in flight. It swiftly became an obsession as he recovered from a successful operation to remove the cancer. In recent summers, he has travelled the length and breadth of Britain to photograph all 58 native species of butterfly. Now the fruits of those summers have been published in a beautiful new book."
+            },
+            "H": {
+              "bundle": null,
+              "source": "A butterfly takes off so quickly it is still impossible to react quickly enough to capture that take-off but if he half-presses the shutter, the camera saves the 70 previous frames before the moment he actually takes the picture. “It's time travel, so I don't miss the moment of take-off,” he says. After he's captured the butterfly taking off, he layers 10 to 15 frames together in Photoshop."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 2
+    },
+    "2026": {
+      "url": "https://www.guojiya.cn/exam/neem_2026_1",
+      "parsed_questions": 20,
+      "diffs": [
+        {
+          "question_number": 5,
+          "q_id": "2026-eng1-use_of_english-q5",
+          "options": {
+            "A": {
+              "bundle": "prospects",
+              "source": "prospect"
+            }
+          }
+        },
+        {
+          "question_number": 20,
+          "q_id": "2026-eng1-use_of_english-q20",
+          "options": {
+            "A": {
+              "bundle": "replace",
+              "source": "And just read a single poem. In his Oxford lectures, Seamus Heaney argued that a poem draws a picture of reality, a “glimpsed alternative” that sets up a contradiction with your own, in ways little and large. The negotiation, between you and it, is the heart of the matter. What does the poet see that you don't? What does the difference mean? It could be one of the best conversations you ever have. Forget self-help books; reading is self-help in action."
+            },
+            "B": {
+              "bundle": "seize",
+              "source": "But for the most part, this isn't what the business community does. I have yet to meet a chief executive who reads regularly. Many skip newspapers, and magazines are a stretch. They don't have time, they say. It's inefficient; they can get the information they need from those around them. At a pinch, they might pick up a business book before a long flight, in the hope that, like a cookbook, it will provide a foolproof recipe. Some are drawn to what I think of as “business car crash” books — the stories of Theranos, Purdue, or WeWork. But outside those narrow pools of interest, a vast ocean awaits, bountiful with simmering ideas, mental adventure and imaginative refreshment."
+            },
+            "C": {
+              "bundle": "share",
+              "source": "Neuroscientists have been at pains to demonstrate that the pleasure a book provides isn't indulgence; it's good for you. Reading will keep you better informed about the world but it can also improve our tech-shattered ability to concentrate. Standing in the shoes of others fine tunes our social understanding, useful as we struggle to understand friends, neighbours, customers and co-workers. Different parts of our brain engage as we simulate scenes, characters and mental states. Our imagination — remember that? — is rekindled."
+            },
+            "D": {
+              "bundle": "reflect",
+              "source": "It is undoubtedly true that all work and no play really does make Jack, or Jill, dull. The cure is right at hand, reading is cheap, easy and, most important, it's fun. Liberate your imagination this year."
+            },
+            "E": {
+              "bundle": null,
+              "source": "We are living through a golden age of science writing. So lucid and accessible that even lay readers can relish the unpredictability of discovery. Daunted by uncertainty? Stand in the shoes of scientists and witness the degree to which breakthroughs emerge from accidents, conflict and sheer mental stamina. “We are never sure of anything,” says the physicist (and writer) Carlo Rovelli."
+            },
+            "F": {
+              "bundle": null,
+              "source": "You don't need to get out more. If, like most business people, you spend your life dashing from office to plane, train to home, boardroom to washroom, what you really need to do is stay in more. Sit down — and read a book."
+            },
+            "G": {
+              "bundle": null,
+              "source": "Reading has also been found to make us more helpful, to reduce bias, and even to increase longevity — something we will enjoy all the more if we have a good book in our hands. (And yes, all these benefits are more closely associated with physical books than digital ones.)"
+            },
+            "H": {
+              "bundle": null,
+              "source": "Read fiction. Any fiction. Free yourself from algorithms and choose-anything you don't need technology for an immersive experience just surrender to narratives across time and place. Modern (Sebastian Barry or Olga Tokarczuk), classic (Virginia Woolf or James Baldwin) or genre (Stephen King, Margaret Atwood, Georges Simenon) — it doesn't matter. Fiction invites you to loiter the unseen lives of others. We are living through a golden age of translation too, so you can go anywhere in time or place."
+            }
+          }
+        }
+      ],
+      "errors": [],
+      "diff_count": 2
+    }
+  }
+}
