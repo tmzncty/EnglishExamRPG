@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""Write the manually transcribed 2010–2026 objective keys into curated bundles.
+"""Quarantine the rejected single-table objective-key pass.
 
-This is intentionally data-authoritative for Q1–Q45. The sequences were transcribed
-by hand from year-by-year answer tables and independently checked where the automated
-HTML parser disagreed. The script does not claim that non-objective content is fully
-reviewed; bootstrap drafts advance only to `objective-reviewed` here.
+A first manual transcription copied answer letters from one public answer table. During
+review of 2020 Q1/Q3, we discovered that this source had reordered option labels while
+keeping the semantic answer text, so applying its letters to the corpus was unsafe.
+
+This script deliberately restores the affected questions to the pre-pass baseline and
+marks legacy bundles as `in-review`. It must run before any independently verified
+question-level corrections. Nothing here is claimed as final truth; it only removes the
+known-bad single-source mutation so review can proceed from the prior corpus state.
 """
 
 from __future__ import annotations
@@ -15,85 +19,64 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[3]
 DATA_IMPORT = REPO_ROOT / "Project_Mia/backend/data_import"
 
-KEY_STRINGS = {
-    2010: "ABCBCBDACDCAADBADCBDBADABCDCBABDACCADCBDBFDGA",
-    2011: "CDBBABADCABCDCBDADACCBDBABDCACDCBAACDADBBDACF",
-    2012: "BABDCBDBABACCDACACDDDBACDCDADAABBDCCDBCACDAFG",
-    2013: "ABCDBDAADCACBCBCDDBAABDCCDDCBDBADBABCACDEFDGA",
-    2014: "DABACDCDBCAABDCBABCDACDAADDABBBCCBDADCCBCFGDB",
-    2015: "DBCACADABDBABDCCBDCADCBACCADDDBCDCAABACBCEGBA",
-    2016: "ADCACBDBDADCBBCABDBAADDCDADCACBCDABABBCBCFDEG",
-    2017: "BADCBDBCADABDBCACACDACDDCBABADDBDCACCABDFEACG",
-    2018: "CADBDBCDBABBACDACBACDCADBDABCABCDDBBAACDEGABD",
-    2019: "CCBDABDCADABDCBDAABCADBCBDAACBCDBACCDCBAEDGBA",
-    2020: "BADBCDBCCAACDBADCADBCBDBCDACADACDCBCABCBCEGAD",
-    2021: "CDABAACBACDBCDDBDAACCBCDDBDCCAABDAACBBDAGCEBD",
-    2022: "ACDCDBCBADCBACBDAADBACDDBCBCDABAABCDADBCFCADG",
-    2023: "CADCCABBADDCCBABDADACBACDADBCDACAADBCABDBFDCG",
-    2024: "DCBABCADADACCDCBDCBADDABAABDCBBCCDAABADBECFGB",
-    2025: "BCBCBADAADDADCDCBBBACAABABDCACDAACDCBBCDDGBEF",
-    2026: "ADBCBCADADDDCABCCBBACDABBDABCAAACBDDCBDCBEAGD",
-}
-
-SOURCES = {
-    "answer_table_template": "https://english-exam.lazynote.cn/kaoyan/paper/{year}-english-one/",
-    "2012_reading_21_25": "https://english-exam.lazynote.cn/kaoyan/sections/2012-english-one/section2-part-a-1/",
-    "2012_reading_26_30": "https://english-exam.lazynote.cn/kaoyan/sections/2012-english-one/section2-part-a-2/",
-    "2012_reading_31_35": "https://english-exam.lazynote.cn/kaoyan/sections/2012-english-one/section2-part-a-3/",
-    "2012_reading_36_40": "https://english-exam.lazynote.cn/kaoyan/sections/2012-english-one/section2-part-a-4/",
-    "2012_reading_41_45": "https://english-exam.lazynote.cn/kaoyan/sections/2012-english-one/section2-part-b/",
+# Values recorded immediately before the rejected single-table pass.
+BASELINE_ANSWERS = {
+    2010: {32: "B", 38: "A", 40: "B"},
+    2012: {37: "A"},
+    2013: {27: "A"},
+    2016: {27: "A"},
+    2020: {
+        1: "C", 3: "B", 4: "D", 5: "A", 6: "B", 7: "D", 8: "A", 9: "D",
+        10: "C", 11: "C", 12: "A", 13: "B", 14: "D", 15: "C", 16: "B",
+        17: "A", 18: "B", 19: "C", 20: "D",
+    },
+    2021: {16: "C"},
+    2023: {18: "D", 19: "A", 20: "D", 41: "F", 42: "D", 43: "B"},
+    2025: {28: "D", 37: "A", 42: "B", 43: "H", 45: "A"},
 }
 
 
 def main() -> int:
-    total_changes = 0
+    changed_total = 0
     for year in range(2010, 2027):
         path = DATA_IMPORT / f"{year}-eng1.json"
         bundle = json.loads(path.read_text(encoding="utf-8"))
-        sequence = KEY_STRINGS[year]
-        if len(sequence) != 45:
-            raise SystemExit(f"{year}: expected 45 manual objective answers")
-
         questions = {int(q["question_number"]): q for q in bundle["questions"]}
-        if sorted(questions) != list(range(1, 53)):
-            raise SystemExit(f"{year}: bundle question numbers are not exactly 1..52")
-
         changed = 0
-        for qn, expected in zip(range(1, 46), sequence):
-            q = questions[qn]
-            if q.get("correct_answer") != expected:
-                print(f"{year} Q{qn}: {q.get('correct_answer')} -> {expected}")
-                q["correct_answer"] = expected
+
+        for qn, answer in BASELINE_ANSWERS.get(year, {}).items():
+            if questions[qn].get("correct_answer") != answer:
+                print(f"restore {year} Q{qn}: {questions[qn].get('correct_answer')} -> {answer}")
+                questions[qn]["correct_answer"] = answer
                 changed += 1
 
-        provenance = bundle.setdefault("provenance", {})
-        audit = provenance.setdefault("manual_review", {})
-        desired_audit = {
-            "objective_keys": "manually-transcribed-and-cross-checked",
-            "answer_table": SOURCES["answer_table_template"].format(year=year),
-        }
-        if year == 2012:
-            desired_audit["section_sources"] = [SOURCES[key] for key in (
-                "2012_reading_21_25",
-                "2012_reading_26_30",
-                "2012_reading_31_35",
-                "2012_reading_36_40",
-                "2012_reading_41_45",
-            )]
-        if audit != desired_audit:
-            provenance["manual_review"] = desired_audit
+        if year != 2026 and bundle.get("review_status") != "in-review":
+            bundle["review_status"] = "in-review"
             changed += 1
 
-        if bundle.get("review_status") in {None, "bootstrap-unverified"}:
-            bundle["review_status"] = "objective-reviewed"
+        provenance = bundle.setdefault("provenance", {})
+        review = provenance.setdefault("manual_review", {})
+        rejected = {
+            "status": "single-answer-table-pass-rejected",
+            "reason": (
+                "Answer-letter labels in the first public table were not stable against "
+                "canonical option ordering (confirmed at 2020 Q1/Q3); question text, option "
+                "mapping and answer must be verified together with independent sources."
+            ),
+        }
+        if review.get("rejected_pass") != rejected:
+            review["rejected_pass"] = rejected
+            review.pop("objective_keys", None)
+            review.pop("answer_table", None)
+            review.pop("section_sources", None)
             changed += 1
 
         if changed:
             path.write_text(json.dumps(bundle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-            total_changes += changed
-        print(f"{year}: bundle changes {changed}")
+            changed_total += changed
+        print(f"{year}: quarantine changes {changed}")
 
-    print(f"Manual objective-key bundle changes: {total_changes}")
+    print(f"Quarantine changes: {changed_total}")
     return 0
 
 
