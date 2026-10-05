@@ -4,6 +4,11 @@
 The importer is deliberately idempotent: if the paper already matches the bundle,
 it performs no write at all. This matters because the export workflow may run again
 after committing the updated SQLite file and generated text projection.
+
+A curated bundle may intentionally omit enrichment fields such as reference answers
+or analyses. A null value for those fields is treated as "not supplied" so later
+human-reviewed enrichments are preserved. Supplying a non-null value remains
+authoritative and will be imported normally.
 """
 
 from __future__ import annotations
@@ -39,6 +44,11 @@ QUESTION_FIELDS = (
     "score",
     "tags",
 )
+
+# Null values in a bundle mean "no curated enrichment supplied yet" for these
+# fields. This lets deterministic repair/enrichment scripts coexist with bundles
+# without forcing a delete/reinsert cycle on every CI run.
+PRESERVE_IF_NULL_FIELDS = {"answer_key", "official_analysis"}
 
 
 def canonical_json(value: Any) -> str | None:
@@ -160,6 +170,8 @@ def paper_matches(conn: sqlite3.Connection, paper: dict[str, Any], questions: li
     for db_row, q in zip(existing_questions, desired):
         db_q = dict(db_row)
         for field in QUESTION_FIELDS:
+            if field in PRESERVE_IF_NULL_FIELDS and q.get(field) is None:
+                continue
             if normalize_db_value(field, db_q.get(field)) != normalize_db_value(field, q.get(field)):
                 return False
     return True
@@ -185,6 +197,12 @@ def main() -> int:
             print(f"{paper['paper_id']}: already matches bundle; no database write")
             return 0
 
+        existing_rows = conn.execute(
+            "SELECT * FROM questions WHERE paper_id = ?",
+            (paper["paper_id"],),
+        ).fetchall()
+        existing_by_qid = {row["q_id"]: dict(row) for row in existing_rows}
+
         paper_columns = [f for f in PAPER_FIELDS if f in paper]
         paper_values = [paper[f] for f in paper_columns]
         update_fields = [f for f in paper_columns if f != "paper_id"]
@@ -207,7 +225,12 @@ def main() -> int:
             f"VALUES ({', '.join('?' for _ in insert_fields)})"
         )
         for q in questions:
-            conn.execute(sql, [q.get(f) for f in insert_fields])
+            q_to_insert = dict(q)
+            existing = existing_by_qid.get(q["q_id"], {})
+            for field in PRESERVE_IF_NULL_FIELDS:
+                if q_to_insert.get(field) is None and existing.get(field) is not None:
+                    q_to_insert[field] = existing[field]
+            conn.execute(sql, [q_to_insert.get(f) for f in insert_fields])
 
         conn.commit()
         print(f"Imported {paper['paper_id']}: {len(questions)} questions, "
