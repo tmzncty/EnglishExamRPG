@@ -4,15 +4,13 @@
 
 Directions:
 
-Write an essay of 160-200 words based on the following drawing.In your essay you should
+Write an essay of 160–200 words based on the following drawing. In your essay you should
 
-1)describe the drawing briefly,
+1) describe the drawing briefly,
+2) explain its intended meaning, and
+3) give your comments.
 
-2)explain its intended meaning,and
-
-3)give your comments.
-
-You should write neatly on the ANSWER SHEET.(20 points)
+You should write neatly on the ANSWER SHEET. (20 points)
 
 近年来全国居民平均每百户年末主要耐用消费品拥有量
 
@@ -22,12 +20,13 @@ You should write neatly on the ANSWER SHEET.(20 points)
 
 Directions:
 
-Write an essay of 160-200 words based on the following drawing.In your essay you should
-1)describe the drawing briefly,
-2)explain its intended meaning,and
-3)give your comments.
+Write an essay of 160–200 words based on the following drawing. In your essay you should
 
-You should write neatly on the ANSWER SHEET.(20 points)
+1) describe the drawing briefly,
+2) explain its intended meaning, and
+3) give your comments.
+
+You should write neatly on the ANSWER SHEET. (20 points)
 
 **Answer key / reference answer:**
 
