@@ -22,15 +22,11 @@ Write a letter of about 100 words to the president of your university, suggestin
 
 Dear Mr. President,
 
-I am writing to you as a concerned student regarding the declining physical condition of our student body. I believe immediate action is necessary to address this issue.
+I am writing to suggest several ways to improve students’ physical condition. First, the university could provide more varied sports courses and encourage every student to exercise regularly. Second, sports facilities should stay open longer so that students can use them after classes. In addition, campus-wide activities such as running clubs, ball games and fitness challenges could make exercise more attractive and social. Short lectures on sleep, diet and injury prevention would also help students develop healthier habits.
 
-Firstly, I suggest making physical education classes mandatory for all students, regardless of their major. Secondly, the university should invest in upgrading and expanding our sports facilities. More accessible and modern facilities will encourage more students to participate in physical activities.
+I hope these suggestions will be considered and help create a more active campus.
 
-Thirdly, we could organize more university-wide sports events and competitions to foster a culture of fitness and friendly competition. Finally, promoting awareness campaigns about the importance of physical health through posters and workshops could also be beneficial.
-
-I hope you will consider these suggestions. Thank you for your time and attention to this important matter.
-
-Sincerely,
+Yours sincerely,
 Li Ming
 
 **Analysis:**

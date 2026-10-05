@@ -36,6 +36,6 @@ In my opinion, this situation calls for a multi-faceted approach. Universities s
 
 本范文首先描述了图画内容，点明主题。接着，从学生追求功利主义教育方式入手，批判了这种现象。随后，分析了这种现象的成因，包括外部压力和内部认知。最后，提出了针对大学、学生、社会等多方面的建议，旨在扭转这种不良风气，鼓励学生追求真正的知识和个人成长。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2018-eng1-writing_b-q52.jpg)
 
-<!-- q_id=2018-eng1-writing_b-q52; difficulty=3; score=20.0; tags="[\"course selection system\", \"cutting-edge\", \"high score\", \"assessment system\", \"credit\"]" -->
+<!-- q_id=2018-eng1-writing_b-q52; difficulty=3; score=20.0; tags=["course selection system", "cutting-edge", "high score", "assessment system", "credit"] -->

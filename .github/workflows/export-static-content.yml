@@ -6,14 +6,26 @@ on:
       - "Project_Mia/backend/data/static_content.db"
       - "Project_Mia/backend/data_import/**"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
+      - "Project_Mia/backend/scripts/repair_exam_content.py"
+      - "Project_Mia/backend/scripts/repair_writing_samples.py"
+      - "Project_Mia/backend/scripts/normalize_exam_storage.py"
+      - "Project_Mia/backend/scripts/validate_exam_catalog.py"
       - "Project_Mia/backend/scripts/export_static_content_text.py"
+      - "Project_Mia/backend/scripts/export_exam_images.py"
+      - "Project_Mia/scripts/quality_check.py"
       - ".github/workflows/export-static-content.yml"
   pull_request:
     paths:
       - "Project_Mia/backend/data/static_content.db"
       - "Project_Mia/backend/data_import/**"
       - "Project_Mia/backend/scripts/import_exam_bundle.py"
+      - "Project_Mia/backend/scripts/repair_exam_content.py"
+      - "Project_Mia/backend/scripts/repair_writing_samples.py"
+      - "Project_Mia/backend/scripts/normalize_exam_storage.py"
+      - "Project_Mia/backend/scripts/validate_exam_catalog.py"
       - "Project_Mia/backend/scripts/export_static_content_text.py"
+      - "Project_Mia/backend/scripts/export_exam_images.py"
+      - "Project_Mia/scripts/quality_check.py"
       - ".github/workflows/export-static-content.yml"
   workflow_dispatch:
 
@@ -49,8 +61,26 @@ jobs:
             done
           fi
 
+      - name: Apply deterministic legacy repairs
+        run: python Project_Mia/backend/scripts/repair_exam_content.py
+
+      - name: Repair writing samples to exam length
+        run: python Project_Mia/backend/scripts/repair_writing_samples.py
+
+      - name: Normalize catalog storage and remove committed test fixtures
+        run: python Project_Mia/backend/scripts/normalize_exam_storage.py
+
+      - name: Validate English I catalog structure and answers
+        run: python Project_Mia/backend/scripts/validate_exam_catalog.py
+
+      - name: Run legacy answer completeness audit
+        run: python Project_Mia/scripts/quality_check.py
+
       - name: Export SQLite content
         run: python Project_Mia/backend/scripts/export_static_content_text.py
+
+      - name: Export question images into Markdown projection
+        run: python Project_Mia/backend/scripts/export_exam_images.py
 
       - name: Commit database and generated text projection
         shell: bash
@@ -62,6 +92,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add Project_Mia/backend/data/static_content.db Project_Mia/backend/data_export
-          git commit -m "Import curated exams and regenerate static export"
+          git commit -m "Repair exams and regenerate static export"
           TARGET_BRANCH="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
           git push origin "HEAD:${TARGET_BRANCH}"

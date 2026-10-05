@@ -30,7 +30,7 @@ B
 
 选项B (For example...) 提出了批发销售额的具体数字，印证了前一段中“批发食品和饮料贸易是零售商所需要的市场”的观点，提供了具体的数据支持。
 
-<!-- q_id=2010-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"standstill\", \"hungry\", \"intricacies\", \"entrenched\", \"deter\", \"sluggish\", \"loom\"]" -->
+<!-- q_id=2010-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["standstill", "hungry", "intricacies", "entrenched", "deter", "sluggish", "loom"] -->
 
 ### Question 42
 
@@ -46,7 +46,7 @@ F
 
 选项F (All in all...) 总结了批发市场的优势，并提出大型零售商可以应用其规模和技能来获利。承接上文，进一步分析。
 
-<!-- q_id=2010-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"standstill\", \"hungry\", \"intricacies\", \"entrenched\", \"deter\", \"sluggish\", \"loom\"]" -->
+<!-- q_id=2010-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["standstill", "hungry", "intricacies", "entrenched", "deter", "sluggish", "loom"] -->
 
 ### Question 43
 
@@ -62,7 +62,7 @@ D
 
 选项D (Despite variations...) 描述了批发市场的构成要素，指出需求主要来自小型商店和餐饮服务商，并描述了欧洲批发市场的整体情况。分析了市场的需求端。
 
-<!-- q_id=2010-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"standstill\", \"hungry\", \"intricacies\", \"entrenched\", \"deter\", \"sluggish\", \"loom\"]" -->
+<!-- q_id=2010-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["standstill", "hungry", "intricacies", "entrenched", "deter", "sluggish", "loom"] -->
 
 ### Question 44
 
@@ -78,7 +78,7 @@ G
 
 选项G (However...) 提出即使存在困难，大型零售商也不应放弃尝试，因为掌握批发业务的复杂性可以获得可观的收益，为下文E段吃外食的习惯埋下伏笔。
 
-<!-- q_id=2010-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"standstill\", \"hungry\", \"intricacies\", \"entrenched\", \"deter\", \"sluggish\", \"loom\"]" -->
+<!-- q_id=2010-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["standstill", "hungry", "intricacies", "entrenched", "deter", "sluggish", "loom"] -->
 
 ### Question 45
 
@@ -94,4 +94,4 @@ A
 
 选项A (The first and more important...) 提到了消费者外出就餐偏好的增长，以及经济衰退的影响，这些都与上文G段中的盈利有关联，说明餐饮业务的蓬勃发展。
 
-<!-- q_id=2010-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"standstill\", \"hungry\", \"intricacies\", \"entrenched\", \"deter\", \"sluggish\", \"loom\"]" -->
+<!-- q_id=2010-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["standstill", "hungry", "intricacies", "entrenched", "deter", "sluggish", "loom"] -->

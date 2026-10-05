@@ -24,7 +24,13 @@ The point of a style upgrade isn’t to become more vain or to spend more time f
 
 As an executive coach, I’ve seen image upgrades be particularly helpful during transitions – when looking for a new job, stepping into a new or more public role, or changing work environments. If you’re in a period of change or just feeling stuck and in a rut, now may be a good time. If you’re not sure, ask for honest feedback from trusted friends, colleagues and professionals. Look for cues about how others perceive you. Maybe there’s no need for an upgrade and that’s OK.
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** C
 
@@ -32,13 +38,19 @@ As an executive coach, I’ve seen image upgrades be particularly helpful during
 
 Paragraph 4 describes situations where an image upgrade can be beneficial, such as during career transitions or feeling stuck. It advises seeking feedback to determine if an upgrade is necessary. This aligns with the subheading "Decide if the time is right."
 
-<!-- q_id=2016-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->
 
 ### Question 42
 
 Get clear on what impact you’re hoping to have. Are you looking to refresh your image or pivot it? For one person, the goal may be to be taken more seriously and enhance their professional image. For another, it may be to be perceived as more approachable, or more modern and stylish. For someone moving from finance to advertising, maybe they want to look more “SoHo.” (It’s OK to use characterizations like that.)
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** F
 
@@ -46,13 +58,19 @@ Get clear on what impact you’re hoping to have. Are you looking to refresh you
 
 Paragraph 5 emphasizes the importance of defining your objectives for an image upgrade. It discusses different desired outcomes, such as being taken more seriously or appearing more approachable. Therefore, the most suitable heading is 'Know your goals.'
 
-<!-- q_id=2016-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->
 
 ### Question 43
 
 Look at your work environment like an anthropologist. What are the norms of your environment? What conveys status? Who are your most important audiences? How do the people you respect and look up to present themselves? The better you understand the cultural context, the more control you can have over your impact.
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** D
 
@@ -60,13 +78,19 @@ Look at your work environment like an anthropologist. What are the norms of your
 
 Paragraph 6 advises observing the workplace environment to understand its norms, status symbols, and audience. The key is to understand the 'cultural context' to effectively manage your impact. The best match is 'Understand the context'.
 
-<!-- q_id=2016-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->
 
 ### Question 44
 
 Enlist the support of professionals and share with them your goals and context. Hire a personal stylist, or use the free styling service of a store like J.Crew. Try a hair stylist instead of a barber. Work with a professional photographer instead of your spouse or friend. It’s not as expensive as you might think.
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** E
 
@@ -74,13 +98,19 @@ Enlist the support of professionals and share with them your goals and context. 
 
 Paragraph 7 specifically recommends seeking guidance from professionals such as stylists and photographers to help achieve your desired image. This directly corresponds to the subheading 'Work with professionals'.
 
-<!-- q_id=2016-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->
 
 ### Question 45
 
 The point of a style upgrade isn’t to become more vain or to spend more time fussing over what to wear. Instead, use it as an opportunity to reduce decision fatigue. Pick a standard work uniform or a few go-to options. Buy all your clothes at once with a stylist instead of shopping alone, one article of clothing at a time.
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** G
 
@@ -88,4 +118,4 @@ The point of a style upgrade isn’t to become more vain or to spend more time f
 
 Paragraph 8 focuses on making the image upgrade process streamlined and less time-consuming. It suggests strategies such as choosing a uniform and bulk-buying clothes to 'reduce decision fatigue,' aligning perfectly with the subheading 'Make it efficient.'
 
-<!-- q_id=2016-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"impact\", \"competence\", \"trustworthiness\", \"likeability\", \"navigate\", \"rut\", \"cues\", \"pivot\", \"anthropologist\", \"enlist\", \"fussing\", \"decision fatigue\"]" -->
+<!-- q_id=2016-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["impact", "competence", "trustworthiness", "likeability", "navigate", "rut", "cues", "pivot", "anthropologist", "enlist", "fussing", "decision fatigue"] -->

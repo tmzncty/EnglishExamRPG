@@ -16,19 +16,13 @@ Write a letter of about 100 words to your university library, suggesting books y
 
 **Answer key / reference answer:**
 
-Dear University Library Staff,
+Dear Library Staff,
 
-I am writing to suggest some books that I believe would greatly benefit our university students. As a student myself, I often find myself seeking resources beyond our current collection.
+I am writing to suggest several books for our university library. I hope you could purchase more recent works on artificial intelligence and data science, because students in many majors now need a basic understanding of these fields. I would also recommend adding accessible books on Chinese history and traditional culture, which would be useful to both domestic and international students. Finally, a few practical guides to academic writing and research methods would help students prepare papers and projects.
 
-I would like to recommend the following books:
+These books would broaden the collection and meet a wide range of study needs. Thank you for considering my suggestions.
 
-*   "Sapiens: A Brief History of Humankind" by Yuval Noah Harari: This book provides a comprehensive overview of human history and is relevant to various disciplines.
-*   "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin: Essential for computer science students and anyone interested in software development.
-*   "Thinking, Fast and Slow" by Daniel Kahneman: A valuable resource for understanding cognitive biases and decision-making processes.
-
-These books are highly acclaimed and widely recommended. I believe they would enrich our library's collection and cater to the diverse academic interests of our students. Thank you for considering my suggestions.
-
-Sincerely,
+Yours sincerely,
 Li Ming
 
 **Analysis:**

@@ -24,7 +24,10 @@ Relying on ethical persuasion rather than law to address the misuse of body idea
 
 According to the first paragraph, what would happen in France?
 
-- {"A": "Physical beauty would be redefined.", "B": "New runways would be constructed.", "C": "Websites about dieting would thrive.", "D": "The fashion industry would decline."}
+- **A.** Physical beauty would be redefined.
+- **B.** New runways would be constructed.
+- **C.** Websites about dieting would thrive.
+- **D.** The fashion industry would decline.
 
 **Correct answer:** A
 
@@ -32,13 +35,16 @@ According to the first paragraph, what would happen in France?
 
 第一段指出，法国裁定其时尚业丧失了界定女性形体美的绝对权。这意味着法国将重新定义形体美。
 
-<!-- q_id=2016-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->
 
 ### Question 22
 
 The phrase “impinging on” (Line 2, Para. 2) is closest in meaning to
 
-- {"A": "indicating the state of.", "B": "heightening the value of.", "C": "losing faith in.", "D": "doing harm to."}
+- **A.** indicating the state of.
+- **B.** heightening the value of.
+- **C.** losing faith in.
+- **D.** doing harm to.
 
 **Correct answer:** D
 
@@ -46,13 +52,16 @@ The phrase “impinging on” (Line 2, Para. 2) is closest in meaning to
 
 impinging on 指的是对健康造成损害。因此，doing harm to 是最接近的含义。
 
-<!-- q_id=2016-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->
 
 ### Question 23
 
 Which of the following is true of the fashion industry?
 
-- {"A": "The French measures have already failed.", "B": "Its inherent problems are getting worse.", "C": "Models are no longer under peer pressure.", "D": "New standards are being set in Denmark."}
+- **A.** The French measures have already failed.
+- **B.** Its inherent problems are getting worse.
+- **C.** Models are no longer under peer pressure.
+- **D.** New standards are being set in Denmark.
 
 **Correct answer:** D
 
@@ -60,13 +69,16 @@ Which of the following is true of the fashion industry?
 
 文章提到丹麦正在制定新的行业标准。因此，D选项是正确的。
 
-<!-- q_id=2016-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->
 
 ### Question 24
 
 A designer is most likely to be rejected by CFW for
 
-- {"A": "pursuing perfect physical conditions.", "B": "caring too much about models’ character.", "C": "showing little concern for health factors.", "D": "setting a high age threshold for models."}
+- **A.** pursuing perfect physical conditions.
+- **B.** caring too much about models’ character.
+- **C.** showing little concern for health factors.
+- **D.** setting a high age threshold for models.
 
 **Correct answer:** C
 
@@ -74,13 +86,16 @@ A designer is most likely to be rejected by CFW for
 
 根据丹麦时尚伦理宪章，设计师如果对模特的健康因素不关心，最有可能被CFW拒绝。
 
-<!-- q_id=2016-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->
 
 ### Question 25
 
 Which of the following may be the best title of the text?
 
-- {"A": "The Great Threats to the Fashion Industry", "B": "Just Another Round of Struggle for Beauty", "C": "A Dilemma for the Starving Models in France", "D": "A Challenge to the Fashion Industry’s Body Ideals"}
+- **A.** The Great Threats to the Fashion Industry
+- **B.** Just Another Round of Struggle for Beauty
+- **C.** A Dilemma for the Starving Models in France
+- **D.** A Challenge to the Fashion Industry’s Body Ideals
 
 **Correct answer:** D
 
@@ -88,4 +103,4 @@ Which of the following may be the best title of the text?
 
 文章讨论了时尚界对身体理想的挑战，因此，D选项最适合作为文章标题。
 
-<!-- q_id=2016-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"innovator\", \"impinging on\", \"arbiters\", \"intangible\", \"adornment\", \"sanctions\"]" -->
+<!-- q_id=2016-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["innovator", "impinging on", "arbiters", "intangible", "adornment", "sanctions"] -->

@@ -26,7 +26,7 @@ Those societies came out of the war with levels of enrollment that had been roug
 
 本句主干为Those societies came out of the war with levels of enrollment。that引导定语从句，修饰levels of enrollment，其中roughly constant at 3-5% of the relevant age groups during the decades before the war为形容词短语做定语，修饰levels of enrollment。
 
-<!-- q_id=2021-eng1-translation-q46; difficulty=3; score=2.0; tags="[\"watershed\", \"enrollment\", \"fascism\", \"manifest\", \"strain\", \"norm\", \"apprenticeship\", \"innovation\"]" -->
+<!-- q_id=2021-eng1-translation-q46; difficulty=3; score=2.0; tags=["watershed", "enrollment", "fascism", "manifest", "strain", "norm", "apprenticeship", "innovation"] -->
 
 ### Question 47
 
@@ -40,7 +40,7 @@ And the demand that rose in those societies for entry to higher education extend
 
 本句主干为the demand extended to groups and social classes。that rose in those societies for entry to higher education为定语从句，修饰the demand；that had not thought of attending a university before the war也是定语从句，修饰groups and social classes。
 
-<!-- q_id=2021-eng1-translation-q47; difficulty=3; score=2.0; tags="[\"watershed\", \"enrollment\", \"fascism\", \"manifest\", \"strain\", \"norm\", \"apprenticeship\", \"innovation\"]" -->
+<!-- q_id=2021-eng1-translation-q47; difficulty=3; score=2.0; tags=["watershed", "enrollment", "fascism", "manifest", "strain", "norm", "apprenticeship", "innovation"] -->
 
 ### Question 48
 
@@ -54,7 +54,7 @@ in many countries of Western Europe, the numbers of students in higher education
 
 本句主干为the numbers of students doubled and doubled again。in many countries of Western Europe为状语，during the 1960s和by the middle of the 1970s也是时间状语，修饰两个并列的谓语。
 
-<!-- q_id=2021-eng1-translation-q48; difficulty=3; score=2.0; tags="[\"watershed\", \"enrollment\", \"fascism\", \"manifest\", \"strain\", \"norm\", \"apprenticeship\", \"innovation\"]" -->
+<!-- q_id=2021-eng1-translation-q48; difficulty=3; score=2.0; tags=["watershed", "enrollment", "fascism", "manifest", "strain", "norm", "apprenticeship", "innovation"] -->
 
 ### Question 49
 
@@ -68,7 +68,7 @@ and when the new staff are predominantly young men and women fresh from postgrad
 
 本句是when引导的状语从句，主句为they largely define the norms of academic life in that faculty。predominantly young men and women fresh from postgraduate study为形容词短语修饰the new staff。
 
-<!-- q_id=2021-eng1-translation-q49; difficulty=3; score=2.0; tags="[\"watershed\", \"enrollment\", \"fascism\", \"manifest\", \"strain\", \"norm\", \"apprenticeship\", \"innovation\"]" -->
+<!-- q_id=2021-eng1-translation-q49; difficulty=3; score=2.0; tags=["watershed", "enrollment", "fascism", "manifest", "strain", "norm", "apprenticeship", "innovation"] -->
 
 ### Question 50
 
@@ -82,4 +82,4 @@ High growth rates increased the chances for academic innovation; they also weake
 
 本句是由分号连接的两个并列分句。第一个分句主干为High growth rates increased the chances。第二个分句主干为they also weakened the forms and processes。by which引导定语从句，修饰the forms and processes。
 
-<!-- q_id=2021-eng1-translation-q50; difficulty=3; score=2.0; tags="[\"watershed\", \"enrollment\", \"fascism\", \"manifest\", \"strain\", \"norm\", \"apprenticeship\", \"innovation\"]" -->
+<!-- q_id=2021-eng1-translation-q50; difficulty=3; score=2.0; tags=["watershed", "enrollment", "fascism", "manifest", "strain", "norm", "apprenticeship", "innovation"] -->

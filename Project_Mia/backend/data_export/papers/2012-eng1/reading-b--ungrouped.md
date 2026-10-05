@@ -28,7 +28,13 @@ Of course, it is precisely these superfluous things that define human culture an
 
 Choose the most suitable one from the list A – G to fit into the numbered blanks.
 
-- {"A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.", "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.", "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.", "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.", "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.", "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.", "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."}
+- **A.** Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.
+- **B.** Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.
+- **C.** Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.
+- **D.** This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.
+- **E.** The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.
+- **F.** One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.
+- **G.** The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.
 
 **Correct answer:** C
 
@@ -36,13 +42,19 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项C承接前一句对于计算机功能的描述，说明了计算机不仅被发明出来，还在全球范围内被广泛应用。前文描述了计算机的各种功能，C选项是对这些功能的总结和升华，并引出了计算机的广泛应用。
 
-<!-- q_id=2012-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->
 
 ### Question 42
 
 Choose the most suitable one from the list A – G to fit into the numbered blanks.
 
-- {"A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.", "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.", "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.", "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.", "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.", "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.", "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."}
+- **A.** Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.
+- **B.** Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.
+- **C.** Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.
+- **D.** This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.
+- **E.** The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.
+- **F.** One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.
+- **G.** The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.
 
 **Correct answer:** D
 
@@ -50,13 +62,19 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项D引出了下载和上传之间的“秘密战争”，这与后文讨论的被动消费和主动创造相关。D选项是对计算机带来的影响的进一步阐述，并为后文讨论下载和上传的对比埋下伏笔。
 
-<!-- q_id=2012-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->
 
 ### Question 43
 
 Choose the most suitable one from the list A – G to fit into the numbered blanks.
 
-- {"A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.", "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.", "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.", "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.", "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.", "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.", "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."}
+- **A.** Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.
+- **B.** Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.
+- **C.** Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.
+- **D.** This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.
+- **E.** The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.
+- **F.** One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.
+- **G.** The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.
 
 **Correct answer:** A
 
@@ -64,13 +82,19 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项A延续了对人类独特创造能力的讨论，强调了超越下载的重要性。前文提到了人类能够创造各种事物，A选项则进一步强调了这些创造对于人类文化和本质的重要性，并指出仅仅停留在下载是不够的。
 
-<!-- q_id=2012-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->
 
 ### Question 44
 
 Choose the most suitable one from the list A – G to fit into the numbered blanks.
 
-- {"A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.", "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.", "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.", "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.", "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.", "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.", "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."}
+- **A.** Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.
+- **B.** Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.
+- **C.** Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.
+- **D.** This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.
+- **E.** The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.
+- **F.** One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.
+- **G.** The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.
 
 **Correct answer:** F
 
@@ -78,13 +102,19 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项F解释了为什么人们仍然停留在下载模式，指出电视作为一种单向媒体对人们的影响。F选项是对金字塔结构形成原因的解释，强调了电视作为单向媒体的地位，为后文对比电视和计算机埋下伏笔。
 
-<!-- q_id=2012-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->
 
 ### Question 45
 
 Choose the most suitable one from the list A – G to fit into the numbered blanks.
 
-- {"A": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.", "B": "Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.", "C": "Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.", "D": "This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.", "E": "The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.", "F": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.", "G": "The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."}
+- **A.** Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.
+- **B.** Applications like tumblr.com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.
+- **C.** Not only did they develop such a device but by the turn of the millennium       they had also managed to embed it in a worldwide system accessed by billions   of people every day.
+- **D.** This is because the networked computer has sparked a secret war between downloading and uploading – between  passive  consumption  and  active creation – whose outcome will shape our  collective  future  in  ways  we  can only begin to imagine.
+- **E.** The challenge the computer mounts to television thus bears little similarity to  one format being replaced by another in the manner of record players being replaced by CD players.
+- **F.** One reason for the persistence of this pyramid of production is that for the past half-century, much of the world’s media culture has been defined by a single medium – television – and television is defined by downloading.
+- **G.** The networked computer offers the first chance in  50  years  to  reverse  the  flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.
 
 **Correct answer:** G
 
@@ -92,4 +122,4 @@ Choose the most suitable one from the list A – G to fit into the numbered blan
 
 选项G提出了计算机作为一种可以扭转这种趋势的工具，鼓励人们进行有意义的上传。G选项承接了对电视的批判，并提出了计算机作为一种解决方案，为后文讨论“stickiness”的概念做铺垫。
 
-<!-- q_id=2012-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"fleeting\", \"marvels\", \"inheritor\", \"superfluous\", \"advent\", \"revolves around\", \"adhere\", \"constituent\"]" -->
+<!-- q_id=2012-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["fleeting", "marvels", "inheritor", "superfluous", "advent", "revolves around", "adhere", "constituent"] -->

@@ -32,6 +32,6 @@ In summary, self-discipline brings us lifelong benefits. It is thus necessary fo
 
 本文通过对比两幅图，揭示了自律的重要性。第一段描述了图画内容，左图描绘了积极主动完成作业的学生，右图则描绘了拖延懒散的学生。第二段深入分析了自律对个人发展的影响，强调了自律能够提高效率和质量，并指出缺乏自律的危害。最后一段总结全文，强调培养自律的重要性，呼吁大家培养自律的习惯。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2020-eng1-writing_b-q52.png)
 
 <!-- q_id=2020-eng1-writing_b-q52; difficulty=3; score=20.0 -->

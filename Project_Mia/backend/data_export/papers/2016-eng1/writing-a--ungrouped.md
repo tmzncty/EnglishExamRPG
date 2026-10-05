@@ -22,17 +22,10 @@ Suppose you are a librarian in your university. Write a notice of about 100 word
 
 Notice
 
-Dear International Students,
+Welcome to our university library. New international students can enter and borrow books with their student ID cards. The library provides printed books, journals, electronic databases, computers and quiet study areas. It is open from 8:00 a.m. to 10:00 p.m. on weekdays and from 9:00 a.m. to 5:00 p.m. at weekends. If you need help finding materials or using online resources, please ask the staff at the information desk. A short library tour will also be offered this Friday afternoon.
 
-Welcome to our university! As your librarian, I'm delighted to introduce you to our library. It’s a fantastic resource with a wide range of materials to support your studies.
+We hope the library will support both your study and campus life.
 
-Our library houses an extensive collection of books, journals, and online resources. You can access these resources using your student ID card. We also offer various services such as interlibrary loan, research assistance, and computer access. The library is open from 8:00 AM to 10:00 PM, Monday to Friday, and 9:00 AM to 5:00 PM on weekends.
-
-We are located in the heart of campus, near the student center. For any inquiries or assistance, please visit our information desk or email us at library@university.edu.
-
-We hope you find the library a valuable asset during your academic journey!
-
-Sincerely,
 Li Ming
 
 **Analysis:**

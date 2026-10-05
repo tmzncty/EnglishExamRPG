@@ -32,7 +32,7 @@ B
 
 选项B (His concern is mainly with the humanities...) 介绍了作者(路易斯·梅南德)的主要关注点，与上一段总起引入要讨论的主题和人物形成承接，与后面的具体分析构成总分结构。
 
-<!-- q_id=2011-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"professionalism\", \"humanities\", \"canon\", \"monopoly\", \"holistic\"]" -->
+<!-- q_id=2011-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["professionalism", "humanities", "canon", "monopoly", "holistic"] -->
 
 ### Question 42
 
@@ -48,7 +48,7 @@ D
 
 选项D (One reason why it is hard to design and teach such courses...) 分析了一种现象的原因，与上一段提到的现象 (通识教育难以达成共识) 形成因果关系。并且与下文的具体论述紧密结合。
 
-<!-- q_id=2011-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"professionalism\", \"humanities\", \"canon\", \"monopoly\", \"holistic\"]" -->
+<!-- q_id=2011-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["professionalism", "humanities", "canon", "monopoly", "holistic"] -->
 
 ### Question 43
 
@@ -64,7 +64,7 @@ A
 
 选项A (No disciplines have seized on professionalism with as much enthusiasm as the humanities...) 承接了上文对通识教育的讨论，并开始聚焦人文科学，与前文形成由宽泛到具体的逻辑关系。并且与下文 (人文学科博士学位难获得) 形成解释关系。
 
-<!-- q_id=2011-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"professionalism\", \"humanities\", \"canon\", \"monopoly\", \"holistic\"]" -->
+<!-- q_id=2011-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["professionalism", "humanities", "canon", "monopoly", "holistic"] -->
 
 ### Question 44
 
@@ -80,7 +80,7 @@ C
 
 选项C (Equally unsurprisingly, only about half end up with professorships...) 描述了人文学科博士毕业后的困境，与上文形成递进关系 (先是入学难，然后是毕业难)。体现了人文学科的困境。
 
-<!-- q_id=2011-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"professionalism\", \"humanities\", \"canon\", \"monopoly\", \"holistic\"]" -->
+<!-- q_id=2011-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["professionalism", "humanities", "canon", "monopoly", "holistic"] -->
 
 ### Question 45
 
@@ -96,4 +96,4 @@ F
 
 选项F (The key to reforming higher education, concludes Mr. Menand...) 对全文进行总结，提出了改革建议，照应了文章开头提出的问题。是典型的结论段特征。
 
-<!-- q_id=2011-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"professionalism\", \"humanities\", \"canon\", \"monopoly\", \"holistic\"]" -->
+<!-- q_id=2011-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["professionalism", "humanities", "canon", "monopoly", "holistic"] -->

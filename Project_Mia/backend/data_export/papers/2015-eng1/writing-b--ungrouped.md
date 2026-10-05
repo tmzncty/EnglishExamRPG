@@ -30,6 +30,6 @@ While smartphones offer numerous benefits, it's crucial to strike a balance betw
 
 This essay effectively addresses the prompt by providing a clear description of the picture, a thoughtful interpretation of its meaning, and insightful comments. The essay is well-organized with a clear introduction, body, and conclusion. The language is precise and appropriate for the task. The first paragraph provides a concise description of the picture, setting the stage for the essay. The second paragraph delves into the interpretation of the picture's meaning, highlighting the negative impact of smartphone use on interpersonal relationships. The third paragraph offers a balanced perspective, acknowledging the benefits of smartphones while emphasizing the importance of real-life engagement. The essay also correctly points out the sense of irony in the image. The structure is logical, and the conclusion nicely summarizes the main points and offers a solution.
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2015-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2015-eng1-writing_b-q52; difficulty=3; score=20.0 -->

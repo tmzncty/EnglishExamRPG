@@ -22,7 +22,10 @@ Nature’s poll findings suggest that this trend is as strong as ever, but, toma
 
 According to 	Paragraph 1, art-science collaborations have
 
-- {"A": "caught the attention of critics.", "B": "received favorable responses.", "C": "promoted academic publishing.", "D": "sparked heated public disputes."}
+- **A.** caught the attention of critics.
+- **B.** received favorable responses.
+- **C.** promoted academic publishing.
+- **D.** sparked heated public disputes.
 
 **Correct answer:** B
 
@@ -30,13 +33,16 @@ According to 	Paragraph 1, art-science collaborations have
 
 第一段介绍了《自然》杂志随附调查问卷的调查结果：大约350名读者接受了调查，他们用“富于启发、颇具挑战、振奋人心、饶有乐趣”来表达自己对科艺合作的感受，其中大约40%的人说自己与艺术家合作过，而且几乎所有人都表示希望在未来能与艺术家合作。可见，科艺合作已经得到了积极响应与一致认可,故 B项正确。
 
-<!-- q_id=2022-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"stimulating\", \"reimagine\", \"alliance\", \"stereotyping\"]" -->
+<!-- q_id=2022-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["stimulating", "reimagine", "alliance", "stereotyping"] -->
 
 ### Question 32
 
 The reworked version of The Four Seasons is mentioned to show that
 
-- {"A": "art can off er audiences easy access to science.", "B": "science can help with the expression of emoti ons.", "C": "public participation in science has a promising future.", "D": "art is effective in facilitating scientific innovations."}
+- **A.** art can off er audiences easy access to science.
+- **B.** science can help with the expression of emoti ons.
+- **C.** public participation in science has a promising future.
+- **D.** art is effective in facilitating scientific innovations.
 
 **Correct answer:** A
 
@@ -44,13 +50,16 @@ The reworked version of The Four Seasons is mentioned to show that
 
 第三段首句首先指出悉尼交响乐团上个月的《四季》改编之作就是艺术家与科学家携手打造、震撼全场的一个例子，②③句随后介绍了这一改编之作的具体信息：悉尼交响乐团利用最新气候预测数据对这部有着300年历史的乐曲进行了重构，旨在呼吁人们关注气候变化。上文主要论述艺术对于科学传播的重要作用，恰能与第三段全段形成“观点/论点一例子/论据”关联，共同说明“艺术是传播科学的有力媒介”,A项与之对应。
 
-<!-- q_id=2022-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"stimulating\", \"reimagine\", \"alliance\", \"stereotyping\"]" -->
+<!-- q_id=2022-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["stimulating", "reimagine", "alliance", "stereotyping"] -->
 
 ### Question 33
 
 Some artists seem to worry about in the art-science partnership
 
-- {"A": "their role may be underestimated.", "B": "their reputation may be impaired.", "C": "their creativity may be inhibited.", "D": "their work may be misguided."}
+- **A.** their role may be underestimated.
+- **B.** their reputation may be impaired.
+- **C.** their creativity may be inhibited.
+- **D.** their work may be misguided.
 
 **Correct answer:** A
 
@@ -58,13 +67,16 @@ Some artists seem to worry about in the art-science partnership
 
 第四段①句转承（But 表语义转折）上段指出真正的合作必须是相互成就的（暗示当前的科艺合作存在问题），②③句引出艺术家的担忧（间接说明问题）：艺术不应该只被视为科学的传播工具或研究对象（意即艺术还具有更多作用）。由此可见，在科艺合作的关系中，艺术家们认为他们的作用被低估了，A项正确。
 
-<!-- q_id=2022-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"stimulating\", \"reimagine\", \"alliance\", \"stereotyping\"]" -->
+<!-- q_id=2022-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["stimulating", "reimagine", "alliance", "stereotyping"] -->
 
 ### Question 34
 
 What does the author say about CAYS?
 
-- {"A": "It was headed alternately by artists and scientists.", "B": "It exemplified valuable art-science alliances.", "C": "Its projects aimed at advancing visual studies.", "D": "Its founders sought to raise the status of artists."}
+- **A.** It was headed alternately by artists and scientists.
+- **B.** It exemplified valuable art-science alliances.
+- **C.** Its projects aimed at advancing visual studies.
+- **D.** Its founders sought to raise the status of artists.
 
 **Correct answer:** B
 
@@ -72,13 +84,16 @@ What does the author say about CAYS?
 
 第五段①句点明麻省理工学院设立高级视觉研究中心（CAVS）的初衷“探索科技在人文艺术中的作用”，②③句揭示该中心促成科艺合作的关键因素“以双方的兴趣/利益共同点为基础”，④句补充指出该中心一直坚持与时俱进，谋求科学与艺术的深度融合。结合第四段末两句“真正最有价值的科艺合作是双方都有共同的利益关系，能够共同参与项目设计并评判彼此成果，这种合作才能既推动科技创新又赋能艺术”可判断，作者高度认可CAVS的做法，认为它是有价值的科艺联盟之典范，B项与之对应。
 
-<!-- q_id=2022-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"stimulating\", \"reimagine\", \"alliance\", \"stereotyping\"]" -->
+<!-- q_id=2022-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["stimulating", "reimagine", "alliance", "stereotyping"] -->
 
 ### Question 35
 
 In the last paragraph, the author holds that art-science collaborations
 
-- {"A": "are likely to go beyond public expectations.", "B": "will intensify interdisciplinary competi tion.", "C": "should do more than communicating science.", "D": "are becoming more popular than before."}
+- **A.** are likely to go beyond public expectations.
+- **B.** will intensify interdisciplinary competi tion.
+- **C.** should do more than communicating science.
+- **D.** are becoming more popular than before.
 
 **Correct answer:** C
 
@@ -86,4 +101,4 @@ In the last paragraph, the author holds that art-science collaborations
 
 末段①句指出科艺合作是大势所趋，为保证合作成功，双方都需要投入时间，并乐于接受意外与挑战。②句进一步升华观点：科艺合作应突破现有的合作边界，除了为传播科学服务外，还应探索更多的可能性。综上可知C项正确。
 
-<!-- q_id=2022-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"stimulating\", \"reimagine\", \"alliance\", \"stereotyping\"]" -->
+<!-- q_id=2022-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["stimulating", "reimagine", "alliance", "stereotyping"] -->

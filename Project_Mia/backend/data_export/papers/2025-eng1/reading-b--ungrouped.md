@@ -34,7 +34,7 @@ D
 
 41题前文G段介绍了Peters对拍摄蝴蝶产生兴趣的契机，D段讲述了Peters患病后蝴蝶给他的精神慰藉。两段在时间线上和情感上都存在顺承关系。
 
-<!-- q_id=2025-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"fritillary\", \"skittish\", \"temper\", \"signature\", \"elusive\"]" -->
+<!-- q_id=2025-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["fritillary", "skittish", "temper", "signature", "elusive"] -->
 
 ### Question 42
 
@@ -50,7 +50,7 @@ B
 
 42题承接D段，介绍了Peters是如何拍摄蝴蝶“take-off”的。B段详细描述了Peters使用的技术手段，与前文Peters对蝴蝶拍摄的兴趣形成呼应。
 
-<!-- q_id=2025-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"fritillary\", \"skittish\", \"temper\", \"signature\", \"elusive\"]" -->
+<!-- q_id=2025-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["fritillary", "skittish", "temper", "signature", "elusive"] -->
 
 ### Question 43
 
@@ -66,7 +66,7 @@ H
 
 43题承接B段，进一步详细介绍了拍摄蝴蝶起飞瞬间的技术细节。H段具体解释了Peters如何利用相机的高速连拍功能捕捉蝴蝶起飞的瞬间，并进行后期处理。
 
-<!-- q_id=2025-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"fritillary\", \"skittish\", \"temper\", \"signature\", \"elusive\"]" -->
+<!-- q_id=2025-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["fritillary", "skittish", "temper", "signature", "elusive"] -->
 
 ### Question 44
 
@@ -82,7 +82,7 @@ E
 
 44题承接H段，从另一个角度说明了拍摄的难度以及需要摄影师的耐心和技巧。E段继续强调了技术实现拍摄效果的难度，突出了Peters的耐心和技巧。
 
-<!-- q_id=2025-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"fritillary\", \"skittish\", \"temper\", \"signature\", \"elusive\"]" -->
+<!-- q_id=2025-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["fritillary", "skittish", "temper", "signature", "elusive"] -->
 
 ### Question 45
 
@@ -98,4 +98,4 @@ A
 
 45题介绍了彼得斯拍摄蝴蝶的风格和理念，强调了他对蝴蝶周围环境的关注和对自然真实的坚持。A段描述了Peters的摄影风格，以及他如何挑战自己，拒绝使用人为手段来拍摄蝴蝶，与前文的技术描述形成对比，更显其摄影的匠人精神。
 
-<!-- q_id=2025-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"fritillary\", \"skittish\", \"temper\", \"signature\", \"elusive\"]" -->
+<!-- q_id=2025-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["fritillary", "skittish", "temper", "signature", "elusive"] -->

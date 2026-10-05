@@ -22,11 +22,11 @@ Write an essay of 160-200 words based on the following pictures. In your essay, 
 
 **Answer key / reference answer:**
 
-The two pictures vividly depict contrasting scenarios related to reading. The left picture shows a person surrounded by a pile of books, appearing complacent and idle, seemingly content with merely possessing a collection. By contrast, the right picture portrays a person diligently reading a single book, completely absorbed in its content.
+The two pictures present a sharp contrast in attitudes toward reading. In the first, a man sits beside a large pile of books and proudly says that he owns many of them. In the second, another man is absorbed in reading a single book. The message is clear: possessing books is not the same as gaining knowledge from them.
 
-The pictures illustrate a prevalent phenomenon: the difference between 'having books' and 'reading books'. Many people accumulate books as a status symbol or a decorative item, without truly engaging with the knowledge they contain. This 'book hoarding' is essentially superficial. On the other hand, genuine reading involves active engagement, critical thinking, and a desire for intellectual growth. As the saying goes, 'It is not the number of books you own, but the wisdom you extract from them that matters.' Just as the renowned writer Lin Haiyin, who used to secretly read books in a bookstore due to financial constraints, demonstrates, a thirst for knowledge and consistent effort are more valuable than mere possession.
+Today, buying books has become easier than ever, and many people enjoy collecting attractive volumes or sharing reading lists online. Yet books have value only when we actually open them, think about their ideas and apply what we learn. A small number of books read carefully can be far more useful than a huge collection left untouched.
 
-In my opinion, we should focus on the substance of reading rather than the appearance of possessing books. True knowledge comes from diligent study and reflection. It is essential to cultivate a genuine interest in learning and to avoid the trap of superficial accumulation. As President Xi Jinping emphasized, 'Empty talk harms the country, hard work makes it flourish.' Only through dedicated effort and a sincere pursuit of knowledge can we achieve personal growth and contribute to the progress of society.
+For students, this contrast is especially meaningful. Instead of pursuing the appearance of being well read, we should develop a steady reading habit, take notes, question the author and connect new knowledge with our own experience. Genuine learning depends not on how many books stand on a shelf, but on how deeply we engage with them.
 
 **Analysis:**
 
@@ -41,6 +41,6 @@ In my opinion, we should focus on the substance of reading rather than the appea
 2. 解释含义：从图片入手，引申到社会现象，分析“有书”和“读书”的本质区别，可以结合名言警句或个人经历进行论证。
 3. 发表评论：结合自身实际，谈谈对读书的看法，提出合理建议，呼吁大家注重读书的质量而非数量。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2017-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2017-eng1-writing_b-q52; difficulty=3; score=20.0 -->

@@ -24,7 +24,10 @@ And more is at stake here than individual objects. Joana Lia Ferreira, anassista
 
 According to Paragraph 1, museums are faced with difficulties in
 
-- {"A": "maintaining their plastic items.", "B": "obtaining durable plastic artifacts.", "C": "handling outdated plastic exhibits.", "D": "classifying their plastic collections."}
+- **A.** maintaining their plastic items.
+- **B.** obtaining durable plastic artifacts.
+- **C.** handling outdated plastic exhibits.
+- **D.** classifying their plastic collections.
 
 **Correct answer:** A
 
@@ -32,13 +35,16 @@ According to Paragraph 1, museums are faced with difficulties in
 
 第一段指出塑料物品会随着时间推移而损坏，给博物馆保护工作带来困难。A选项概括了博物馆在维护塑料物品方面面临的挑战。
 
-<!-- q_id=2022-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"durable\", \"litter\", \"deteriorate\", \"biodegradable\", \"artifacts\", \"inherently\"]" -->
+<!-- q_id=2022-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["durable", "litter", "deteriorate", "biodegradable", "artifacts", "inherently"] -->
 
 ### Question 22
 
 Van Oosten believes that certain plastic objects are
 
-- {"A": "immune to decay.", "B": "improperly shaped.", "C": "inherently flawed.", "D": "complex in structure."}
+- **A.** immune to decay.
+- **B.** improperly shaped.
+- **C.** inherently flawed.
+- **D.** complex in structure.
 
 **Correct answer:** C
 
@@ -46,13 +52,16 @@ Van Oosten believes that certain plastic objects are
 
 Van Oosten认为某些塑料制品在制作过程中存在缺陷，导致它们容易损坏。C选项'inherently flawed'最能体现这个观点，对应原文'didn’t always know how to mix ingredients properly'。
 
-<!-- q_id=2022-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"durable\", \"litter\", \"deteriorate\", \"biodegradable\", \"artifacts\", \"inherently\"]" -->
+<!-- q_id=2022-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["durable", "litter", "deteriorate", "biodegradable", "artifacts", "inherently"] -->
 
 ### Question 23
 
 Museums stopped exhibiting some of Gilardi’s artworks to
 
-- {"A": "keep them from hurting visitors.", "B": "duplicate them for future display.", "C": "have their ingredients analyzed.", "D": "prevent them from further damage."}
+- **A.** keep them from hurting visitors.
+- **B.** duplicate them for future display.
+- **C.** have their ingredients analyzed.
+- **D.** prevent them from further damage.
 
 **Correct answer:** D
 
@@ -60,13 +69,16 @@ Museums stopped exhibiting some of Gilardi’s artworks to
 
 博物馆停止展出Gilardi作品是为了防止它们进一步损坏，因为这些作品容易受到光照影响。D选项'prevent them from further damage'准确反映了博物馆的意图，与原文'Museums locked some of them away in the dark'对应。
 
-<!-- q_id=2022-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"durable\", \"litter\", \"deteriorate\", \"biodegradable\", \"artifacts\", \"inherently\"]" -->
+<!-- q_id=2022-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["durable", "litter", "deteriorate", "biodegradable", "artifacts", "inherently"] -->
 
 ### Question 24
 
 The author thinks that preservation of plastics is
 
-- {"A": "costly.", "B": "unworthy.", "C": "unpopular.", "D": "challenging."}
+- **A.** costly.
+- **B.** unworthy.
+- **C.** unpopular.
+- **D.** challenging.
 
 **Correct answer:** D
 
@@ -74,13 +86,16 @@ The author thinks that preservation of plastics is
 
 作者认为保护塑料制品是一项充满挑战的工作，因为旧的塑料制品会继续损坏，而新的可降解塑料制品也难以保存。D选项'challenging'概括了这种困难。
 
-<!-- q_id=2022-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"durable\", \"litter\", \"deteriorate\", \"biodegradable\", \"artifacts\", \"inherently\"]" -->
+<!-- q_id=2022-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["durable", "litter", "deteriorate", "biodegradable", "artifacts", "inherently"] -->
 
 ### Question 25
 
 In Ferreira’s opinion, preservation of plastic artifacts
 
-- {"A": "will inspire future scientific research.", "B": "has profound historical significance.", "C": "will help us separate the material ages.", "D": "has an impact on today’s cultural life."}
+- **A.** will inspire future scientific research.
+- **B.** has profound historical significance.
+- **C.** will help us separate the material ages.
+- **D.** has an impact on today’s cultural life.
 
 **Correct answer:** B
 
@@ -88,4 +103,4 @@ In Ferreira’s opinion, preservation of plastic artifacts
 
 Ferreira认为保护塑料文物具有深远的历史意义，因为这会影响后人如何看待我们这个时代。B选项'has profound historical significance'准确地表达了这个观点，与原文'will have a strong impact on how in the future we’ll be seen'对应。
 
-<!-- q_id=2022-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"durable\", \"litter\", \"deteriorate\", \"biodegradable\", \"artifacts\", \"inherently\"]" -->
+<!-- q_id=2022-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["durable", "litter", "deteriorate", "biodegradable", "artifacts", "inherently"] -->

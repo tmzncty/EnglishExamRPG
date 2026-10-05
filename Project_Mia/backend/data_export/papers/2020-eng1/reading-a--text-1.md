@@ -18,7 +18,10 @@ A “town of culture” could be not just about the arts but about honouring a t
 
 Cooper and her colleagues argue that a “town of culture” award could
 
-- {"A": "consolidate the town-city ties in Britain.", "B": "promote cooperation among Britain’s towns.", "C": "increase the economic strength of Britain’s towns.", "D": "focus Britain’s limited resources on cultural events."}
+- **A.** consolidate the town-city ties in Britain.
+- **B.** promote cooperation among Britain’s towns.
+- **C.** increase the economic strength of Britain’s towns.
+- **D.** focus Britain’s limited resources on cultural events.
 
 **Correct answer:** C
 
@@ -26,13 +29,16 @@ Cooper and her colleagues argue that a “town of culture” award could
 
 库珀及其同事认为，‘文化城镇’奖可以增加英国城镇的经济实力。对应文章首段最后一句“吸引资金和创造就业”，因此C选项正确。
 
-<!-- q_id=2020-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"institute\", \"crown\", \"avalanche\", \"bid\", \"prestigious\", \"bagged\", \"cynic\", \"speculate\", \"hamlet\"]" -->
+<!-- q_id=2020-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["institute", "crown", "avalanche", "bid", "prestigious", "bagged", "cynic", "speculate", "hamlet"] -->
 
 ### Question 22
 
 According to Paragraph 2, the proposal might be regarded by some as
 
-- {"A": "a sensible compromise.", "B": "a self-deceiving attempt.", "C": "an eye-catching bonus.", "D": "an inaccessible target."}
+- **A.** a sensible compromise.
+- **B.** a self-deceiving attempt.
+- **C.** an eye-catching bonus.
+- **D.** an inaccessible target.
 
 **Correct answer:** B
 
@@ -40,13 +46,16 @@ According to Paragraph 2, the proposal might be regarded by some as
 
 根据第二段，一些人可能认为该提案是一种自欺欺人的尝试。该段表达了质疑者的观点，认为英国失去申请“欧洲文化之都”的资格后，设立“文化城镇”奖是一种自我安慰。
 
-<!-- q_id=2020-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"institute\", \"crown\", \"avalanche\", \"bid\", \"prestigious\", \"bagged\", \"cynic\", \"speculate\", \"hamlet\"]" -->
+<!-- q_id=2020-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["institute", "crown", "avalanche", "bid", "prestigious", "bagged", "cynic", "speculate", "hamlet"] -->
 
 ### Question 23
 
 The author suggests that a title holder is successful only if it
 
-- {"A": "endeavours to maintain its image.", "B": "meets the aspiration of its people.", "C": "brings its local arts to prominence.", "D": "commits to its long-term growth."}
+- **A.** endeavours to maintain its image.
+- **B.** meets the aspiration of its people.
+- **C.** brings its local arts to prominence.
+- **D.** commits to its long-term growth.
 
 **Correct answer:** D
 
@@ -54,13 +63,16 @@ The author suggests that a title holder is successful only if it
 
 作者认为，只有当头衔持有者致力于长期发展时，才能取得成功。对应第三段“leaving no lasting benefits to the community…transform the aspirations…nudge the self-image into a bolder and more optimistic light”，故选D。
 
-<!-- q_id=2020-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"institute\", \"crown\", \"avalanche\", \"bid\", \"prestigious\", \"bagged\", \"cynic\", \"speculate\", \"hamlet\"]" -->
+<!-- q_id=2020-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["institute", "crown", "avalanche", "bid", "prestigious", "bagged", "cynic", "speculate", "hamlet"] -->
 
 ### Question 24
 
 Glasgow is mentioned in Paragraph 3 to present
 
-- {"A": "a contrasting case.", "B": "a supporting example.", "C": "a background story.", "D": "a related topic."}
+- **A.** a contrasting case.
+- **B.** a supporting example.
+- **C.** a background story.
+- **D.** a related topic.
 
 **Correct answer:** B
 
@@ -68,13 +80,16 @@ Glasgow is mentioned in Paragraph 3 to present
 
 格拉斯哥在第三段中被提及，是为了提供一个支持性的例子。格拉斯哥的例子是为了支持第三段的论点：成功的文化头衔持有者能够带来长期的影响。
 
-<!-- q_id=2020-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"institute\", \"crown\", \"avalanche\", \"bid\", \"prestigious\", \"bagged\", \"cynic\", \"speculate\", \"hamlet\"]" -->
+<!-- q_id=2020-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["institute", "crown", "avalanche", "bid", "prestigious", "bagged", "cynic", "speculate", "hamlet"] -->
 
 ### Question 25
 
 What is the author’s attitude towards the proposal?
 
-- {"A": "Skeptical.", "B": "Objective.", "C": "Favourable.", "D": "Critical."}
+- **A.** Skeptical.
+- **B.** Objective.
+- **C.** Favourable.
+- **D.** Critical.
 
 **Correct answer:** C
 
@@ -82,4 +97,4 @@ What is the author’s attitude towards the proposal?
 
 作者对该提案的态度是赞成的。文章最后一段作者用should welcome表达了对文化部长的期望，表达了积极支持的态度。
 
-<!-- q_id=2020-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"institute\", \"crown\", \"avalanche\", \"bid\", \"prestigious\", \"bagged\", \"cynic\", \"speculate\", \"hamlet\"]" -->
+<!-- q_id=2020-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["institute", "crown", "avalanche", "bid", "prestigious", "bagged", "cynic", "speculate", "hamlet"] -->

@@ -24,7 +24,10 @@ Within companies, the right compensation design can provide incentives for execu
 
 According to Paragraph 1, one motive in imposing the new rule is to
 
-- {"A": "enhance bankers’ sense of responsibility.", "B": "help corporations achieve larger profits.", "C": "build a new system of financial regulation.", "D": "guarantee the bonuses of top executives."}
+- **A.** enhance bankers’ sense of responsibility.
+- **B.** help corporations achieve larger profits.
+- **C.** build a new system of financial regulation.
+- **D.** guarantee the bonuses of top executives.
 
 **Correct answer:** A
 
@@ -32,13 +35,16 @@ According to Paragraph 1, one motive in imposing the new rule is to
 
 根据第一段，新规的主要目的是让银行家对有害冒险负责，并重建公众信任，概括即为增强银行家的责任感，【A】正确。
 
-<!-- q_id=2019-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"regulator\", \"impose\", \"bonus\", \"clawback\", \"transient\", \"commissioner\", \"disclosure\"]" -->
+<!-- q_id=2019-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["regulator", "impose", "bonus", "clawback", "transient", "commissioner", "disclosure"] -->
 
 ### Question 22
 
 Alfred Marshall is quoted to indicate
 
-- {"A": "the conditions for generating quick profits.", "B": "governments’ impatience in decision-making.", "C": "the solid structure of publicly traded companies.", "D": "“short-termism” in economic activities."}
+- **A.** the conditions for generating quick profits.
+- **B.** governments’ impatience in decision-making.
+- **C.** the solid structure of publicly traded companies.
+- **D.** “short-termism” in economic activities.
 
 **Correct answer:** D
 
@@ -46,13 +52,16 @@ Alfred Marshall is quoted to indicate
 
 文中引用阿尔弗雷德·马歇尔之言是为了说明经济活动中的“短期主义”，【D】正确。第二段首先指出，Andrew Haldane 提出上市公司中“短期主义”（“Short-termism”）加剧。随后指出他援引 Alfred Marshall 之言，将“这种经济上的烦躁（this financial impatience）”形容为“从布丁里拣出葡萄干马上吃掉的孩子行为”。可见 this financial impatience 与 Short-termism 同指，援引 Marshall 之言意在形象说明经济行为中的“短期主义”。
 
-<!-- q_id=2019-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"regulator\", \"impose\", \"bonus\", \"clawback\", \"transient\", \"commissioner\", \"disclosure\"]" -->
+<!-- q_id=2019-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["regulator", "impose", "bonus", "clawback", "transient", "commissioner", "disclosure"] -->
 
 ### Question 23
 
 It is argued that the influence of transient investment on public companies can be
 
-- {"A": "indirect.", "B": "adverse.", "C": "minimal.", "D": "temporary."}
+- **A.** indirect.
+- **B.** adverse.
+- **C.** minimal.
+- **D.** temporary.
 
 **Correct answer:** B
 
@@ -60,13 +69,16 @@ It is argued that the influence of transient investment on public companies can 
 
 文章认为，短暂型投资对上市公司的影响是不利的，【B】正确。第三段②句指出，短暂投资者会妨碍公司投资长期研究或提升客户忠诚度。第四段②句也指出;短期主义思维盛行的代价是长期投资受损。可见短暂型投资的影响是消极的、不利的。
 
-<!-- q_id=2019-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"regulator\", \"impose\", \"bonus\", \"clawback\", \"transient\", \"commissioner\", \"disclosure\"]" -->
+<!-- q_id=2019-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["regulator", "impose", "bonus", "clawback", "transient", "commissioner", "disclosure"] -->
 
 ### Question 24
 
 The US and France examples are used to illustrate
 
-- {"A": "the obstacles to preventing “short-termism”.", "B": "the significance of long-term thinking.", "C": "the approaches to promoting “long-termism”.", "D": "the prevalence of short-term thinking."}
+- **A.** the obstacles to preventing “short-termism”.
+- **B.** the significance of long-term thinking.
+- **C.** the approaches to promoting “long-termism”.
+- **D.** the prevalence of short-term thinking.
 
 **Correct answer:** C
 
@@ -74,13 +86,16 @@ The US and France examples are used to illustrate
 
 美国和法国的例子被用来增进“长期主义”的方法，【C】正确。第五段指出，美国施行《萨班斯—奥克斯利法案》使得短期主义稍有削弱。第六段则先指出鼓励长期主义的方法还有很多，随后例举法国举措。综合可知，文中举美国和法国事例是为了说明“削弱短期主义、增进长期主义的方法”。
 
-<!-- q_id=2019-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"regulator\", \"impose\", \"bonus\", \"clawback\", \"transient\", \"commissioner\", \"disclosure\"]" -->
+<!-- q_id=2019-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["regulator", "impose", "bonus", "clawback", "transient", "commissioner", "disclosure"] -->
 
 ### Question 25
 
 Which of the following would be the best title for the text?
 
-- {"A": "Failure of Quarterly Capitalism", "B": "Patience as a Corporate Virtue", "C": "Decisiveness Required of Top Executives", "D": "Frustration of Risk-taking Bankers"}
+- **A.** Failure of Quarterly Capitalism
+- **B.** Patience as a Corporate Virtue
+- **C.** Decisiveness Required of Top Executives
+- **D.** Frustration of Risk-taking Bankers
 
 **Correct answer:** B
 
@@ -88,4 +103,4 @@ Which of the following would be the best title for the text?
 
 下列哪项是本文的最佳标题?【B】Patience as a Corporate Virtue (耐心，企业的美德)正确。文首段引入“英国银行业监管新规”并说明其长远目的“让银行及其他所有企业能够做出更长远的决策，为后代建立更强健的经济”。第二至四段剖析现状“上市公司中短期主义盛行”并明确其消极影响。第五至七段则说明削弱短期主义、鼓励长期主义的方法，可见，文章旨在倡导企业奉行长期主义、多些耐心，以为后代建立更强健的经济。
 
-<!-- q_id=2019-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"regulator\", \"impose\", \"bonus\", \"clawback\", \"transient\", \"commissioner\", \"disclosure\"]" -->
+<!-- q_id=2019-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["regulator", "impose", "bonus", "clawback", "transient", "commissioner", "disclosure"] -->

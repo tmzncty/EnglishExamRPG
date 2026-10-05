@@ -33,7 +33,7 @@ andthe creation of new forms under the incentive of classical tragedy and comedy
 （2）passing 最常见的含义，一是“流逝;消亡;死亡”，另一是“通过;经过”，但根据 creation（诞生）与之并列，可以推测此处不是“通过”，而应取“消亡”的含义。
 （3）incentive 本义指“刺激”，此处用以说明“新式戏剧借力古典悲剧及喜剧逐渐诞生”，故将其延伸处理为“启发”更符合语境。
 
-<!-- q_id=2018-eng1-translation-q46; difficulty=3; score=2.0; tags="[\"coincident\", \"incentive\", \"farcical\", \"grammar school\", \"prospered\", \"alliance\"]" -->
+<!-- q_id=2018-eng1-translation-q46; difficulty=3; score=2.0; tags=["coincident", "incentive", "farcical", "grammar school", "prospered", "alliance"] -->
 
 ### Question 47
 
@@ -65,7 +65,7 @@ might yet bring honor to England.
 （2）ignorant 意为“无知的;愚味的”或“不知道的;不了解的”。前一个义项主要用于带感情色彩的评判，而本句在陈述事实，所以应译为“不知道……”。
 （3）could、might、may 等情态助动词十do sth十yet 表示“早晚;总有一天（将来可能发生，尽管现在似乎没可能）”，可译成“或将……”。
 
-<!-- q_id=2018-eng1-translation-q47; difficulty=3; score=2.0; tags="[\"coincident\", \"incentive\", \"farcical\", \"grammar school\", \"prospered\", \"alliance\"]" -->
+<!-- q_id=2018-eng1-translation-q47; difficulty=3; score=2.0; tags=["coincident", "incentive", "farcical", "grammar school", "prospered", "alliance"] -->
 
 ### Question 48
 
@@ -92,7 +92,7 @@ with 结构修饰主语 university men，翻译时可前置，即“有文学抱
 （2）permanent 本义为“永久的;永恒的”，在这里形容剧院;而根据本段首句“首座公共剧院落成”可知这里所指的剧院是固定下来、非流动的，所以可译为“固定剧院”。
 （3）turn to 意为“转移（思考、处理、观察等的对象）”，指大学才子将注意力移向了剧场，所以可直接译成“转向（这些剧场）”。
 
-<!-- q_id=2018-eng1-translation-q48; difficulty=3; score=2.0; tags="[\"coincident\", \"incentive\", \"farcical\", \"grammar school\", \"prospered\", \"alliance\"]" -->
+<!-- q_id=2018-eng1-translation-q48; difficulty=3; score=2.0; tags=["coincident", "incentive", "farcical", "grammar school", "prospered", "alliance"] -->
 
 ### Question 49
 
@@ -118,7 +118,7 @@ A native literary drama had been created, its alliance with the public playhouse
 （1）native 意为“土生土长的;本地或本国出生的”，文中指英国出现了自己的文学戏剧，所以在此可译为“本土的/本国的”。
 （2）alliance 意为“联盟;同盟”，此处指“戏剧为公共剧院而写，公共剧院提供戏剧上演场所”这种互利互惠的关系。
 
-<!-- q_id=2018-eng1-translation-q49; difficulty=3; score=2.0; tags="[\"coincident\", \"incentive\", \"farcical\", \"grammar school\", \"prospered\", \"alliance\"]" -->
+<!-- q_id=2018-eng1-translation-q49; difficulty=3; score=2.0; tags=["coincident", "incentive", "farcical", "grammar school", "prospered", "alliance"] -->
 
 ### Question 50
 
@@ -132,4 +132,4 @@ To realize how great was the dramatic activity, we must remember further that ho
 
 这句话的结构是：To realize…，we must remember…。其中，To realize引导的是目的状语，we must remember…是主句，后面有两个并列的宾语从句，分别由that引导。第一个宾语从句是that hosts of plays have been lost，意思是“大量剧作已经遗失了”。第二个宾语从句是that probably there is no author of note whose entire work has survived，其中whose引导的是定语从句，修饰author of note。
 
-<!-- q_id=2018-eng1-translation-q50; difficulty=3; score=2.0; tags="[\"coincident\", \"incentive\", \"farcical\", \"grammar school\", \"prospered\", \"alliance\"]" -->
+<!-- q_id=2018-eng1-translation-q50; difficulty=3; score=2.0; tags=["coincident", "incentive", "farcical", "grammar school", "prospered", "alliance"] -->

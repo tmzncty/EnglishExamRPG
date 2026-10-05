@@ -20,7 +20,10 @@ It’s hard to imagine that many people are dumb enough to want children just be
 
 Jennifer Senior suggests in her article that raising a child can bring
 
-- {"A": "temporary delight.", "B": "enjoyment in progress.", "C": "happiness in retrospect.", "D": "lasting reward."}
+- **A.** temporary delight.
+- **B.** enjoyment in progress.
+- **C.** happiness in retrospect.
+- **D.** lasting reward.
 
 **Correct answer:** C
 
@@ -28,13 +31,16 @@ Jennifer Senior suggests in her article that raising a child can bring
 
 珍妮弗 ·西尼尔在 文中表明，养 育孩子能 够 带来 回想起的幸福。正确项【C】是对②③句中 consider being happy as a past-tense condition...later be sources of intense gratification and delight 的高度概括。
 
-<!-- q_id=2011-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"insightful\", \"provocative\", \"procreation\", \"glamorous\"]" -->
+<!-- q_id=2011-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["insightful", "provocative", "procreation", "glamorous"] -->
 
 ### Question 37
 
 We learn from Paragraph 2 that
 
-- {"A": "celebrity moms are a permanent source for gossip.", "B": "single mothers with babies deserve greater attention.", "C": "news about pregnant celebrities is entertaining.", "D": "having children is highly valued by the public."}
+- **A.** celebrity moms are a permanent source for gossip.
+- **B.** single mothers with babies deserve greater attention.
+- **C.** news about pregnant celebrities is entertaining.
+- **D.** having children is highly valued by the public.
 
 **Correct answer:** D
 
@@ -42,13 +48,16 @@ We learn from Paragraph 2 that
 
 由第二段可知 公众高度重视生儿育女。正确项【D】是对第二段内容的概括引申，也是对第三段首句的同义改写∶the public 对应 society;having children is highly valued 对应 so persistently celebrates procreation。
 
-<!-- q_id=2011-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"insightful\", \"provocative\", \"procreation\", \"glamorous\"]" -->
+<!-- q_id=2011-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["insightful", "provocative", "procreation", "glamorous"] -->
 
 ### Question 38
 
 It is suggested in Paragraph 3 that childless folks
 
-- {"A": "are constantly exposed to criticism.", "B": "are largely ignored by the media.", "C": "fail to fulfill their social responsibilities.", "D": "are less likely to be satisfied with their life."}
+- **A.** are constantly exposed to criticism.
+- **B.** are largely ignored by the media.
+- **C.** fail to fulfill their social responsibilities.
+- **D.** are less likely to be satisfied with their life.
 
 **Correct answer:** A
 
@@ -56,13 +65,16 @@ It is suggested in Paragraph 3 that childless folks
 
 第三段表明没有孩子的人们 不断地受到批评。正确项【A】是对第三段②③句信息...（not）fair..are bothered with the message that... 结合上下文做出的概括推理。
 
-<!-- q_id=2011-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"insightful\", \"provocative\", \"procreation\", \"glamorous\"]" -->
+<!-- q_id=2011-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["insightful", "provocative", "procreation", "glamorous"] -->
 
 ### Question 39
 
 According to Paragraph 4, the message conveyed by celebrity magazines is
 
-- {"A": "soothing.", "B": "ambiguous.", "C": "compensatory.", "D": "misleading."}
+- **A.** soothing.
+- **B.** ambiguous.
+- **C.** compensatory.
+- **D.** misleading.
 
 **Correct answer:** D
 
@@ -70,13 +82,16 @@ According to Paragraph 4, the message conveyed by celebrity magazines is
 
 根 据 第 四 段 可 知，名人 杂 志 传 达 的 信 息 具有误导性的。正确项【D】结合②③句，对第四段①句关键词 hugely unrealistic 同义改写。
 
-<!-- q_id=2011-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"insightful\", \"provocative\", \"procreation\", \"glamorous\"]" -->
+<!-- q_id=2011-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["insightful", "provocative", "procreation", "glamorous"] -->
 
 ### Question 40
 
 Which of the following can be inferred from the last paragraph?
 
-- {"A": "Having children contributes little to the glamour of celebrity moms.", "B": "Celebrity moms have influenced our attitude towards child rearing.", "C": "Having children intensifies our dissatisfaction with life.", "D": "We sometimes neglect the happiness from child rearing."}
+- **A.** Having children contributes little to the glamour of celebrity moms.
+- **B.** Celebrity moms have influenced our attitude towards child rearing.
+- **C.** Having children intensifies our dissatisfaction with life.
+- **D.** We sometimes neglect the happiness from child rearing.
 
 **Correct answer:** B
 
@@ -84,4 +99,4 @@ Which of the following can be inferred from the last paragraph?
 
 从最后一段中可推知下列哪一项?明星妈妈已经影响了我们对养育子女的态度。正确项【B】是对第五段②句 the images...contributing to our own dissatisfactions with the actual experience 的概括引申。
 
-<!-- q_id=2011-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"insightful\", \"provocative\", \"procreation\", \"glamorous\"]" -->
+<!-- q_id=2011-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["insightful", "provocative", "procreation", "glamorous"] -->

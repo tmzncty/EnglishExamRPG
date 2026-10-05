@@ -35,6 +35,6 @@ This essay effectively addresses the prompt by describing the pictures, interpre
 2.  **Interpretation:** Explain the underlying message about leading by example and the impact of parental actions on children's motivation.
 3.  **Commentary/Conclusion:** Summarize the importance of parents embodying desired qualities and creating a nurturing environment for learning.
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2016-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2016-eng1-writing_b-q52; difficulty=3; score=20.0 -->

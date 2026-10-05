@@ -32,6 +32,6 @@ I believe this image highlights a crucial aspect of achieving success. Life is f
 
 本篇范文首先简要描述了图片内容，然后阐释了图片所蕴含的坚持不懈的重要性。接着，文章结合自身观点，论述了面对困难时应有的态度，即不轻言放弃，而是选择休息并继续努力。文章结构清晰，语言流畅，观点明确，能够有效完成写作任务。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2019-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2019-eng1-writing_b-q52; difficulty=3; score=20.0 -->

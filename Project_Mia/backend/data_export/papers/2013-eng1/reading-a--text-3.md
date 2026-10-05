@@ -24,7 +24,10 @@ This long perspective makes the pessimistic view of our prospects seem more like
 
 Our vision of the future used to be inspired by
 
-- {"A": "our desire for lives of fulfillment.", "B": "our faith in science and technology.", "C": "our awareness of potential risks.", "D": "our belief in equal opportunity."}
+- **A.** our desire for lives of fulfillment.
+- **B.** our faith in science and technology.
+- **C.** our awareness of potential risks.
+- **D.** our belief in equal opportunity.
 
 **Correct answer:** B
 
@@ -32,13 +35,16 @@ Our vision of the future used to be inspired by
 
 根据第一段，过去我们对未来的想象源于对科学技术的信心，科学技术能解决所有难题，让所有人过上充实和机遇满满的生活。
 
-<!-- q_id=2013-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"utopia\", \"misplaced\", \"assurance\"]" -->
+<!-- q_id=2013-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["utopia", "misplaced", "assurance"] -->
 
 ### Question 32
 
 The IUCN's "Red List" suggests that human beings are
 
-- {"A": "a sustained species.", "B": "the world's dominant power.", "C": "a threat to the environment.", "D": "a misplaced race."}
+- **A.** a sustained species.
+- **B.** the world's dominant power.
+- **C.** a threat to the environment.
+- **D.** a misplaced race.
 
 **Correct answer:** A
 
@@ -46,13 +52,16 @@ The IUCN's "Red List" suggests that human beings are
 
 根据第三段，世界自然保护联盟《濒危物种红色名录》表明，人类被列为“无危物种”，因为其分布广泛，适应性强，数量持续增加，并且不存在导致数量整体下降的重大威胁。
 
-<!-- q_id=2013-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"utopia\", \"misplaced\", \"assurance\"]" -->
+<!-- q_id=2013-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["utopia", "misplaced", "assurance"] -->
 
 ### Question 33
 
 Which of the following is true according to Paragraph 5?
 
-- {"A": "The interest in science fiction is on the rise.", "B": "Arc helps limit the scope of futurological studies.", "C": "Technology offers solutions to social problems.", "D": "Our immediate future is hard to conceive."}
+- **A.** The interest in science fiction is on the rise.
+- **B.** Arc helps limit the scope of futurological studies.
+- **C.** Technology offers solutions to social problems.
+- **D.** Our immediate future is hard to conceive.
 
 **Correct answer:** D
 
@@ -60,13 +69,16 @@ Which of the following is true according to Paragraph 5?
 
 第五段首句指出，思考人类长远未来比思考近期未来更容易，随后解释为何近期未来不好预测，所以我们的近期未来是难以设想的。线索：it may be easier to think about such lengthy timescales than about the more immediate future
 
-<!-- q_id=2013-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"utopia\", \"misplaced\", \"assurance\"]" -->
+<!-- q_id=2013-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["utopia", "misplaced", "assurance"] -->
 
 ### Question 34
 
 To ensure the future of mankind, it is crucial to
 
-- {"A": "adopt an optimistic view of the world.", "B": "draw on our experience from the past.", "C": "explore our planet's abundant resources.", "D": "curb our ambition to reshape history."}
+- **A.** adopt an optimistic view of the world.
+- **B.** draw on our experience from the past.
+- **C.** explore our planet's abundant resources.
+- **D.** curb our ambition to reshape history.
 
 **Correct answer:** B
 
@@ -74,13 +86,16 @@ To ensure the future of mankind, it is crucial to
 
 根据第六段第二句“正如通常情况那样，过去掌握着通向未来的钥匙”可知，为保证人类的未来，关键是从过去汲取经验。
 
-<!-- q_id=2013-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"utopia\", \"misplaced\", \"assurance\"]" -->
+<!-- q_id=2013-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["utopia", "misplaced", "assurance"] -->
 
 ### Question 35
 
 Which of the following would be the best title for the text?
 
-- {"A": "The Ever-bright Prospects of Mankind.", "B": "Science, Technology and Humanity.", "C": "Evolution of the Human Species.", "D": "Uncertainty about Our Future."}
+- **A.** The Ever-bright Prospects of Mankind.
+- **B.** Science, Technology and Humanity.
+- **C.** Evolution of the Human Species.
+- **D.** Uncertainty about Our Future.
 
 **Correct answer:** A
 
@@ -88,4 +103,4 @@ Which of the following would be the best title for the text?
 
 全文驳斥了人们对未来的悲观态度，并通过分析，认为人类的未来依然光明。
 
-<!-- q_id=2013-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"utopia\", \"misplaced\", \"assurance\"]" -->
+<!-- q_id=2013-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["utopia", "misplaced", "assurance"] -->

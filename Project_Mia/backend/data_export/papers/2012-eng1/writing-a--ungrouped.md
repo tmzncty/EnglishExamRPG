@@ -36,4 +36,4 @@ Li Ming
 3.  **结尾**: 表达祝愿，并告知对方如有问题可联系学生会。
 该范文语言表达流畅自然，用词准确，内容充实，结构完整，符合考研英语写作的要求。
 
-<!-- q_id=2012-eng1-writing_a-q51; difficulty=3; score=10.0; tags="[\"facilitate\", \"overcome language barriers\", \"practice diligently\", \"it is advisable to...\", \"boast\", \"fulfilling\"]" -->
+<!-- q_id=2012-eng1-writing_a-q51; difficulty=3; score=10.0; tags=["facilitate", "overcome language barriers", "practice diligently", "it is advisable to...", "boast", "fulfilling"] -->

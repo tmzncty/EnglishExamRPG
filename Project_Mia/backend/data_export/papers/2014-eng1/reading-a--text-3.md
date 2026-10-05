@@ -20,7 +20,10 @@ As much as some scientists may complain about the new awards, two things seem cl
 
 The Fundamental Physics Prize is seen as
 
-- {"A": "a symbol of the entrepreneurs’ wealth.", "B": "a handsome reward for researchers.", "C": "a possible replacement of the Nobel Prizes.", "D": "an example of bankers’ investments."}
+- **A.** a symbol of the entrepreneurs’ wealth.
+- **B.** a handsome reward for researchers.
+- **C.** a possible replacement of the Nobel Prizes.
+- **D.** an example of bankers’ investments.
 
 **Correct answer:** B
 
@@ -28,13 +31,16 @@ The Fundamental Physics Prize is seen as
 
 根据首段内容，尤其是“a string of lucrative awards for researchers have joined the Nobel Prizes in recent years”一句可知，基础物理学奖被看作是对研究人员的丰厚奖赏。选项B是对原文的同义改写。
 
-<!-- q_id=2014-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"lucrative\", \"benefactor\", \"upstart\", \"distort\", \"status quo\", \"perpetuate\", \"scattered\", \"legitimacy\", \"mechanism\", \"gratitude\", \"grace\"]" -->
+<!-- q_id=2014-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["lucrative", "benefactor", "upstart", "distort", "status quo", "perpetuate", "scattered", "legitimacy", "mechanism", "gratitude", "grace"] -->
 
 ### Question 32
 
 The critics think that the new awards will most benefit
 
-- {"A": "the profit-oriented scientists.", "B": "the achievement-based system.", "C": "the founders of the new awards.", "D": "peer-review-led research."}
+- **A.** the profit-oriented scientists.
+- **B.** the achievement-based system.
+- **C.** the founders of the new awards.
+- **D.** peer-review-led research.
 
 **Correct answer:** C
 
@@ -42,13 +48,16 @@ The critics think that the new awards will most benefit
 
 第二段中，批评者认为新奖项是“an exercise in self-promotion for those behind them”，即新奖项的最大受益者是新奖项的设立者，目的是自我炒作。因此C选项正确。
 
-<!-- q_id=2014-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"lucrative\", \"benefactor\", \"upstart\", \"distort\", \"status quo\", \"perpetuate\", \"scattered\", \"legitimacy\", \"mechanism\", \"gratitude\", \"grace\"]" -->
+<!-- q_id=2014-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["lucrative", "benefactor", "upstart", "distort", "status quo", "perpetuate", "scattered", "legitimacy", "mechanism", "gratitude", "grace"] -->
 
 ### Question 33
 
 The discovery of the Higgs boson is a typical case which involves
 
-- {"A": "legitimate concerns over the new prizes.", "B": "controversies over the recipients’ status.", "C": "the joint effort of modern researchers.", "D": "the demonstration of research findings."}
+- **A.** legitimate concerns over the new prizes.
+- **B.** controversies over the recipients’ status.
+- **C.** the joint effort of modern researchers.
+- **D.** the demonstration of research findings.
 
 **Correct answer:** C
 
@@ -56,13 +65,16 @@ The discovery of the Higgs boson is a typical case which involves
 
 第四段提到，诺贝尔基金会对获奖人数的限制已经不适应现代科研合作的性质，并以Higgs boson的发现为例，说明其是现代研究者共同努力的结果。因此C选项正确。
 
-<!-- q_id=2014-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"lucrative\", \"benefactor\", \"upstart\", \"distort\", \"status quo\", \"perpetuate\", \"scattered\", \"legitimacy\", \"mechanism\", \"gratitude\", \"grace\"]" -->
+<!-- q_id=2014-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["lucrative", "benefactor", "upstart", "distort", "status quo", "perpetuate", "scattered", "legitimacy", "mechanism", "gratitude", "grace"] -->
 
 ### Question 34
 
 According to Paragraph 4, which of the following is true of the Nobels?
 
-- {"A": "History has never cast doubt on them.", "B": "Their endurance has done justice to them.", "C": "They are the most representative honor.", "D": "Their legitimacy has long been in dispute."}
+- **A.** History has never cast doubt on them.
+- **B.** Their endurance has done justice to them.
+- **C.** They are the most representative honor.
+- **D.** Their legitimacy has long been in dispute.
 
 **Correct answer:** B
 
@@ -70,13 +82,16 @@ According to Paragraph 4, which of the following is true of the Nobels?
 
 第四段提到“Time, rather than intention, has given them legitimacy.”说明诺贝尔奖的合理性来自于时间的积累，因此B选项正确。endurance对应Time, legitimacy对应done justice to them.
 
-<!-- q_id=2014-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"lucrative\", \"benefactor\", \"upstart\", \"distort\", \"status quo\", \"perpetuate\", \"scattered\", \"legitimacy\", \"mechanism\", \"gratitude\", \"grace\"]" -->
+<!-- q_id=2014-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["lucrative", "benefactor", "upstart", "distort", "status quo", "perpetuate", "scattered", "legitimacy", "mechanism", "gratitude", "grace"] -->
 
 ### Question 35
 
 The author believes that the new awards are
 
-- {"A": "unworthy of public attention.", "B": "subject to undesirable changes.", "C": "harmful to the culture of research.", "D": "acceptable despite the criticism."}
+- **A.** unworthy of public attention.
+- **B.** subject to undesirable changes.
+- **C.** harmful to the culture of research.
+- **D.** acceptable despite the criticism.
 
 **Correct answer:** D
 
@@ -84,4 +99,4 @@ The author believes that the new awards are
 
 文章最后一段，作者提到“It is wise to take such gifts with gratitude and grace.”，表明作者认为新奖项尽管受到批评，仍然值得接受。因此D选项正确。
 
-<!-- q_id=2014-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"lucrative\", \"benefactor\", \"upstart\", \"distort\", \"status quo\", \"perpetuate\", \"scattered\", \"legitimacy\", \"mechanism\", \"gratitude\", \"grace\"]" -->
+<!-- q_id=2014-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["lucrative", "benefactor", "upstart", "distort", "status quo", "perpetuate", "scattered", "legitimacy", "mechanism", "gratitude", "grace"] -->

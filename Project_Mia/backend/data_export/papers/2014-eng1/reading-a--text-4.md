@@ -22,7 +22,10 @@ The AAAS displays great enthusiasm for liberal education. Yet its report may wel
 
 According to Paragraph 1, what is the author’s attitude toward the AAAS’s report?
 
-- {"A": "Critical.", "B": "Appreciative.", "C": "Contemptuous.", "D": "Tolerant."}
+- **A.** Critical.
+- **B.** Appreciative.
+- **C.** Contemptuous.
+- **D.** Tolerant.
 
 **Correct answer:** A
 
@@ -30,13 +33,16 @@ According to Paragraph 1, what is the author’s attitude toward the AAAS’s re
 
 首段采取欲抑先扬手法，先退而指出报告优点∶肯定了人文社科的重要性;后进而指出其缺点∶未能触及人文教育危机的实质，最终可能是弊大于利。优点的推出旨在引出缺点的所在，故【A】正确。
 
-<!-- q_id=2014-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"affirm\", \"regrettably\", \"address\", \"presuppose\", \"coherent\", \"illiberal\", \"deprived\", \"inquiry\", \"routinely\", \"portray\", \"obscure\", \"illuminate\"]" -->
+<!-- q_id=2014-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["affirm", "regrettably", "address", "presuppose", "coherent", "illiberal", "deprived", "inquiry", "routinely", "portray", "obscure", "illuminate"] -->
 
 ### Question 37
 
 Influential figures in the Congress required that the AAAS report on how to
 
-- {"A": "define the government’s role in education.", "B": "safeguard individuals’ rights to education.", "C": "retain people’s interest in liberal education.", "D": "keep a leading position in liberal education."}
+- **A.** define the government’s role in education.
+- **B.** safeguard individuals’ rights to education.
+- **C.** retain people’s interest in liberal education.
+- **D.** keep a leading position in liberal education.
 
 **Correct answer:** D
 
@@ -44,13 +50,16 @@ Influential figures in the Congress required that the AAAS report on how to
 
 第二段首句明确指出∶国会重要人物要求 AAAS 确定相关措施以维持国家在人文与社会科学教育研究领域的卓越地位，可 见【D】正确。
 
-<!-- q_id=2014-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"affirm\", \"regrettably\", \"address\", \"presuppose\", \"coherent\", \"illiberal\", \"deprived\", \"inquiry\", \"routinely\", \"portray\", \"obscure\", \"illuminate\"]" -->
+<!-- q_id=2014-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["affirm", "regrettably", "address", "presuppose", "coherent", "illiberal", "deprived", "inquiry", "routinely", "portray", "obscure", "illuminate"] -->
 
 ### Question 38
 
 According to Paragraph 3, the report suggests
 
-- {"A": "an exclusive study of American history.", "B": "a greater emphasis on theoretical subjects.", "C": "the application of emerging technologies.", "D": "funding for the study of foreign languages."}
+- **A.** an exclusive study of American history.
+- **B.** a greater emphasis on theoretical subjects.
+- **C.** the application of emerging technologies.
+- **D.** funding for the study of foreign languages.
 
 **Correct answer:** C
 
@@ -58,13 +67,16 @@ According to Paragraph 3, the report suggests
 
 第三段②句指出∶报告鼓励使用新数字技术。可 见【C】正确。
 
-<!-- q_id=2014-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"affirm\", \"regrettably\", \"address\", \"presuppose\", \"coherent\", \"illiberal\", \"deprived\", \"inquiry\", \"routinely\", \"portray\", \"obscure\", \"illuminate\"]" -->
+<!-- q_id=2014-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["affirm", "regrettably", "address", "presuppose", "coherent", "illiberal", "deprived", "inquiry", "routinely", "portray", "obscure", "illuminate"] -->
 
 ### Question 39
 
 The author implies in Paragraph 5 that professors are
 
-- {"A": "supportive of free markets.", "B": "conservative about public policy.", "C": "biased against classical liberal ideas.", "D": "cautious about intellectual investigation."}
+- **A.** supportive of free markets.
+- **B.** conservative about public policy.
+- **C.** biased against classical liberal ideas.
+- **D.** cautious about intellectual investigation.
 
 **Correct answer:** C
 
@@ -72,13 +84,16 @@ The author implies in Paragraph 5 that professors are
 
 第五段指出教授们认为古典人文思想属于非常规、非正当合理的学术研究范围，而作者对人文思想是持积极肯定态度。由此可知，作者实质暗示教授们对古典人文思想持有偏见，【C】正确。
 
-<!-- q_id=2014-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"affirm\", \"regrettably\", \"address\", \"presuppose\", \"coherent\", \"illiberal\", \"deprived\", \"inquiry\", \"routinely\", \"portray\", \"obscure\", \"illuminate\"]" -->
+<!-- q_id=2014-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["affirm", "regrettably", "address", "presuppose", "coherent", "illiberal", "deprived", "inquiry", "routinely", "portray", "obscure", "illuminate"] -->
 
 ### Question 40
 
 Which of the following would be the best title for the text?
 
-- {"A": "Ways to Grasp “The Heart of the Matter”", "B": "Illiberal Education and “The Heart of the Matter”", "C": "The AAAS’s Contribution to Liberal Education", "D": "Progressive Policy vs. Liberal Education"}
+- **A.** Ways to Grasp “The Heart of the Matter”
+- **B.** Illiberal Education and “The Heart of the Matter”
+- **C.** The AAAS’s Contribution to Liberal Education
+- **D.** Progressive Policy vs. Liberal Education
 
 **Correct answer:** B
 
@@ -86,4 +101,4 @@ Which of the following would be the best title for the text?
 
 文首段点题∶《问题的核心》虽值得赞赏，却未触及当前美国人文教育危机的本质，其结果最终可能是弊大于利;第二段退而补充《问题的核心》的出台背景;第三至五段详细阐述主题;《问题的核心》所设目标总体而言值得欣赏，但它从未触及'人文教育非人文的本质'这一问题核心;文末段重申主题∶《问题的核心》未能深刻全面分析'人文教育非人文'这一挑战性难题，其结果很可能阻碍人文教育改革。由此可见，【B】最能概括文意。
 
-<!-- q_id=2014-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"affirm\", \"regrettably\", \"address\", \"presuppose\", \"coherent\", \"illiberal\", \"deprived\", \"inquiry\", \"routinely\", \"portray\", \"obscure\", \"illuminate\"]" -->
+<!-- q_id=2014-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["affirm", "regrettably", "address", "presuppose", "coherent", "illiberal", "deprived", "inquiry", "routinely", "portray", "obscure", "illuminate"] -->

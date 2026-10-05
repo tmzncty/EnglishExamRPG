@@ -22,7 +22,10 @@ France’s planned tax is a clear warning: Unless a broad consensus  can  be    
 
 The French Senate has passed a bill to
 
-- {"A": "regulate digital services platforms.", "B": "protect French companies” interests.", "C": "impose a levy on tech multinationals.", "D": "curb the influence of advertising."}
+- **A.** regulate digital services platforms.
+- **B.** protect French companies” interests.
+- **C.** impose a levy on tech multinationals.
+- **D.** curb the influence of advertising.
 
 **Correct answer:** C
 
@@ -36,7 +39,10 @@ The French Senate has passed a bill to
 
 It can be learned from Paragraph 2 that the digital services tax
 
-- {"A": "may trigger countermeasures against France.", "B": "is apt to arouse criticism at home and abroad.", "C": "aims to ease international trade tensions.", "D": "will prompt the tech giants to quit France."}
+- **A.** may trigger countermeasures against France.
+- **B.** is apt to arouse criticism at home and abroad.
+- **C.** aims to ease international trade tensions.
+- **D.** will prompt the tech giants to quit France.
 
 **Correct answer:** A
 
@@ -50,7 +56,10 @@ It can be learned from Paragraph 2 that the digital services tax
 
 The countries adopting the unilateral measures share the opinion that
 
-- {"A": "redistribution of tech giants’ revenue must be ensured.", "B": "the current international tax system needs upgrading.", "C": "tech multinationals’ monopoly should be prevented.", "D": "all countries ought to enjoy equal taxing rights."}
+- **A.** redistribution of tech giants’ revenue must be ensured.
+- **B.** the current international tax system needs upgrading.
+- **C.** tech multinationals’ monopoly should be prevented.
+- **D.** all countries ought to enjoy equal taxing rights.
 
 **Correct answer:** B
 
@@ -64,7 +73,10 @@ The countries adopting the unilateral measures share the opinion that
 
 It can be learned from Paragraph 5 that the OECD’s current work
 
-- {"A": "is being resisted  by  US  companies.", "B": "needs to be readjusted immediately.", "C": "is faced with uncertain prospects.", "D": "needs to in involve more countries."}
+- **A.** is being resisted  by  US  companies.
+- **B.** needs to be readjusted immediately.
+- **C.** is faced with uncertain prospects.
+- **D.** needs to in involve more countries.
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ It can be learned from Paragraph 5 that the OECD’s current work
 
 Which of the following might be the best title for this text?
 
-- {"A": "France Is Confronted with Trade Sanctions", "B": "France leads the charge on Digital Tax", "C": "France Says “ NO ” to Tech Multinationals", "D": "France Demands a Role in the Digital Economy"}
+- **A.** France Is Confronted with Trade Sanctions
+- **B.** France leads the charge on Digital Tax
+- **C.** France Says “ NO ” to Tech Multinationals
+- **D.** France Demands a Role in the Digital Economy
 
 **Correct answer:** B
 

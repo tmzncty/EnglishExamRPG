@@ -24,7 +24,10 @@ The TSA cannot continue diverting resources into underused PreCheck lanes while 
 
 The crash of EgyptAir Flight 804 is mentioned to
 
-- {"A": "explain American’s tolerance of current security checks.", "B": "stress the urgency to strengthen security worldwide.", "C": "highlight the necessity of upgrading major U.S. airports.", "D": "emphasize the importance of privacy protection."}
+- **A.** explain American’s tolerance of current security checks.
+- **B.** stress the urgency to strengthen security worldwide.
+- **C.** highlight the necessity of upgrading major U.S. airports.
+- **D.** emphasize the importance of privacy protection.
 
 **Correct answer:** A
 
@@ -32,13 +35,16 @@ The crash of EgyptAir Flight 804 is mentioned to
 
 埃及航空804的坠毁是为了解释美国民众对于现在安检的容忍度。文章第二段提到埃及航空的坠毁是为了说明安检的必要性，因为人们需要安全感，所以可以容忍耗时的安检。
 
-<!-- q_id=2017-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"tolerate\", \"undermine\", \"expedited\", \"sticker shock\"]" -->
+<!-- q_id=2017-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["tolerate", "undermine", "expedited", "sticker shock"] -->
 
 ### Question 22
 
 Which of the following contributes to long waits at major airports?
 
-- {"A": "New restrictions on carry-on bags.", "B": "The declining efficiency of the TSA.", "C": "An increase in the number of travelers.", "D": "Frequent unexpected secret checks."}
+- **A.** New restrictions on carry-on bags.
+- **B.** The declining efficiency of the TSA.
+- **C.** An increase in the number of travelers.
+- **D.** Frequent unexpected secret checks.
 
 **Correct answer:** C
 
@@ -46,13 +52,16 @@ Which of the following contributes to long waits at major airports?
 
 导致主要机场长时间等待的原因是旅客人数的增加。文章第三段提到，安检措施的加强，加上由于经济好转和低油价而导致的航空旅行人数增加，导致了主要的机场长时间的等待。
 
-<!-- q_id=2017-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"tolerate\", \"undermine\", \"expedited\", \"sticker shock\"]" -->
+<!-- q_id=2017-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["tolerate", "undermine", "expedited", "sticker shock"] -->
 
 ### Question 23
 
 The word “expedited” (Line 4, Para. 5) is closest in meaning to
 
-- {"A": "quieter.", "B": "cheaper.", "C": "wider.", "D": "faster."}
+- **A.** quieter.
+- **B.** cheaper.
+- **C.** wider.
+- **D.** faster.
 
 **Correct answer:** D
 
@@ -60,13 +69,16 @@ The word “expedited” (Line 4, Para. 5) is closest in meaning to
 
 expedited的意思是“快速的”，在第五段中，文章提到通过背景调查的乘客可以使用快速安检通道，所以选择D。
 
-<!-- q_id=2017-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"tolerate\", \"undermine\", \"expedited\", \"sticker shock\"]" -->
+<!-- q_id=2017-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["tolerate", "undermine", "expedited", "sticker shock"] -->
 
 ### Question 24
 
 One problem with the PreCheck program is
 
-- {"A": "a dramatic reduction of its scale.", "B": "its wrongly-directed implementation.", "C": "the government’s reluctance to back it.", "D": "an unreasonable price for enrollment."}
+- **A.** a dramatic reduction of its scale.
+- **B.** its wrongly-directed implementation.
+- **C.** the government’s reluctance to back it.
+- **D.** an unreasonable price for enrollment.
 
 **Correct answer:** D
 
@@ -74,13 +86,16 @@ One problem with the PreCheck program is
 
 预检计划的一个问题是注册价格不合理。文章第六段提到，预检计划的注册价格过高是一个问题，所以导致很多人不愿意注册。
 
-<!-- q_id=2017-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"tolerate\", \"undermine\", \"expedited\", \"sticker shock\"]" -->
+<!-- q_id=2017-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["tolerate", "undermine", "expedited", "sticker shock"] -->
 
 ### Question 25
 
 Which of the following would be the best title for the text?
 
-- {"A": "Less Screening for More Safety", "B": "PreCheck – a Belated Solution", "C": "Getting Stuck in Security Lines", "D": "Underused PreCheck Lanes"}
+- **A.** Less Screening for More Safety
+- **B.** PreCheck – a Belated Solution
+- **C.** Getting Stuck in Security Lines
+- **D.** Underused PreCheck Lanes
 
 **Correct answer:** C
 
@@ -88,4 +103,4 @@ Which of the following would be the best title for the text?
 
 最适合本文的标题是“陷入安检队伍中”。整篇文章都在讨论安检队伍过长的问题，所以C最合适。
 
-<!-- q_id=2017-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"tolerate\", \"undermine\", \"expedited\", \"sticker shock\"]" -->
+<!-- q_id=2017-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["tolerate", "undermine", "expedited", "sticker shock"] -->

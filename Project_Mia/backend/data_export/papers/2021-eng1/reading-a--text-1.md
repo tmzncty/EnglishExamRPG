@@ -18,7 +18,10 @@ The Government has pledged to change the law to introduce a minimum service requ
 
 The author holds that this year’s increase in rail passenger fares
 
-- {"A": "has kept pace with inflation.", "B": "is a big surprise to commuters.", "C": "remains an unreasonable measure.", "D": "will ease train operators’ burden."}
+- **A.** has kept pace with inflation.
+- **B.** is a big surprise to commuters.
+- **C.** remains an unreasonable measure.
+- **D.** will ease train operators’ burden.
 
 **Correct answer:** C
 
@@ -32,7 +35,10 @@ The author holds that this year’s increase in rail passenger fares
 
 The stockbroker in Paragraph 2 is used to stand for
 
-- {"A": "car drivers.", "B": "rail travelers.", "C": "local investors.", "D": "ordinary taxpayers."}
+- **A.** car drivers.
+- **B.** rail travelers.
+- **C.** local investors.
+- **D.** ordinary taxpayers.
 
 **Correct answer:** B
 
@@ -46,7 +52,10 @@ The stockbroker in Paragraph 2 is used to stand for
 
 It is indicated in Paragraph 3 that train operators
 
-- {"A": "are offering compensation to commuters.", "B": "are trying to repair relations with the unions.", "C": "have failed to provide an adequate service.", "D": "have suffered huge losses owing to the strikes."}
+- **A.** are offering compensation to commuters.
+- **B.** are trying to repair relations with the unions.
+- **C.** have failed to provide an adequate service.
+- **D.** have suffered huge losses owing to the strikes.
 
 **Correct answer:** C
 
@@ -60,7 +69,10 @@ It is indicated in Paragraph 3 that train operators
 
 If unable to calm down passengers, the railways may have to face
 
-- {"A": "the loss of investment.", "B": "the collapse of operations.", "C": "a reduction of revenue.", "D": "a change of ownership."}
+- **A.** the loss of investment.
+- **B.** the collapse of operations.
+- **C.** a reduction of revenue.
+- **D.** a change of ownership.
 
 **Correct answer:** D
 
@@ -74,7 +86,10 @@ If unable to calm down passengers, the railways may have to face
 
 Which of the following would be the best title for the text?
 
-- {"A": "Who Are to Blame for the Strikes?", "B": "Constant Complaining Doesn’t Work", "C": "Can Nationalisation Bring Hope?", "D": "Ever-rising Fares Aren’t Sustainable"}
+- **A.** Who Are to Blame for the Strikes?
+- **B.** Constant Complaining Doesn’t Work
+- **C.** Can Nationalisation Bring Hope?
+- **D.** Ever-rising Fares Aren’t Sustainable
 
 **Correct answer:** D
 

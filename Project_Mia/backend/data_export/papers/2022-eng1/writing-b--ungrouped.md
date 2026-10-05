@@ -35,6 +35,6 @@ In conclusion, the illustration serves as a potent reminder to cultivate intelle
 
 这篇范文首先简要描述了图片内容，点明了两个学生对跨专业讲座的不同态度。接着，文章阐述了图片的寓意，强调了跨学科学习的重要性，并分析了其益处。最后，文章总结了观点，再次强调了培养求知欲和终身学习的重要性。文章结构完整，语言流畅，逻辑清晰，符合题目要求。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2022-eng1-writing_b-q52.png)
 
 <!-- q_id=2022-eng1-writing_b-q52; difficulty=3; score=20.0 -->

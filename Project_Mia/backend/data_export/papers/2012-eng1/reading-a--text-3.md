@@ -20,7 +20,10 @@ In the end, credibility “happens” to a discovery claim – a process that co
 
 According to the first paragraph, the process of discovery is characterized by its
 
-- {"A": "uncertainty and complexity.", "B": "misconception and deceptiveness.", "C": "logicality and objectivity.", "D": "systematicness and regularity."}
+- **A.** uncertainty and complexity.
+- **B.** misconception and deceptiveness.
+- **C.** logicality and objectivity.
+- **D.** systematicness and regularity.
 
 **Correct answer:** A
 
@@ -28,13 +31,16 @@ According to the first paragraph, the process of discovery is characterized by i
 
 第一段指出科学发现过程并非理想化的客观过程，而是受到主观因素影响的复杂过程。uncertainty and complexity对应原文ambiguous and complicated route。
 
-<!-- q_id=2012-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"objective\", \"credibility\", \"novelty\"]" -->
+<!-- q_id=2012-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["objective", "credibility", "novelty"] -->
 
 ### Question 32
 
 It can be inferred from Paragraph 2 that credibility process requires
 
-- {"A": "strict inspection.", "B": "shared efforts.", "C": "individual wisdom.", "D": "persistent innovation."}
+- **A.** strict inspection.
+- **B.** shared efforts.
+- **C.** individual wisdom.
+- **D.** persistent innovation.
 
 **Correct answer:** B
 
@@ -42,13 +48,16 @@ It can be inferred from Paragraph 2 that credibility process requires
 
 第二段强调将发现声明转化为成熟的发现需要集体审查和接受。shared efforts对应原文collective scrutiny and acceptance。
 
-<!-- q_id=2012-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"objective\", \"credibility\", \"novelty\"]" -->
+<!-- q_id=2012-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["objective", "credibility", "novelty"] -->
 
 ### Question 33
 
 Paragraph 3 shows that a discovery claim becomes credible after it
 
-- {"A": "has attracted the attention of the general public.", "B": "has been examined by the scientific community.", "C": "has received recognition from editors and reviewers.", "D": "has been frequently quoted by peer scientists."}
+- **A.** has attracted the attention of the general public.
+- **B.** has been examined by the scientific community.
+- **C.** has received recognition from editors and reviewers.
+- **D.** has been frequently quoted by peer scientists.
 
 **Correct answer:** B
 
@@ -56,13 +65,16 @@ Paragraph 3 shows that a discovery claim becomes credible after it
 
 第三段说明发现声明需要经过科学界的审查、编辑的把关以及其他科学家的使用才能成为可信的发现。has been examined by the scientific community是对原文editors and reviewers act as gatekeepers by controlling the publication process; other scientists use the new finding to suit their own purposes的概括。
 
-<!-- q_id=2012-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"objective\", \"credibility\", \"novelty\"]" -->
+<!-- q_id=2012-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["objective", "credibility", "novelty"] -->
 
 ### Question 34
 
 Albert Szent-Györgyi would most likely agree that
 
-- {"A": "scientific claims will survive challenges.", "B": "discoveries today inspire future research.", "C": "efforts to make discoveries are justified.", "D": "scientific work calls for a critical mind."}
+- **A.** scientific claims will survive challenges.
+- **B.** discoveries today inspire future research.
+- **C.** efforts to make discoveries are justified.
+- **D.** scientific work calls for a critical mind.
 
 **Correct answer:** D
 
@@ -70,13 +82,16 @@ Albert Szent-Györgyi would most likely agree that
 
 根据Albert Szent-Györgyi的名言“seeing what everybody has seen and thinking what nobody has thought”，可知他认为科学工作需要批判性思维。scientific work calls for a critical mind是对这句话的概括。
 
-<!-- q_id=2012-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"objective\", \"credibility\", \"novelty\"]" -->
+<!-- q_id=2012-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["objective", "credibility", "novelty"] -->
 
 ### Question 35
 
 Which of the following would be the best title of the text?
 
-- {"A": "Novelty as an Engine of Scientific Development.", "B": "Collective Scrutiny in Scientific Discovery.", "C": "Evolution of Credibility in Doing Science.", "D": "Challenge to Credibility at the Gate to Science."}
+- **A.** Novelty as an Engine of Scientific Development.
+- **B.** Collective Scrutiny in Scientific Discovery.
+- **C.** Evolution of Credibility in Doing Science.
+- **D.** Challenge to Credibility at the Gate to Science.
 
 **Correct answer:** C
 
@@ -84,4 +99,4 @@ Which of the following would be the best title of the text?
 
 全文围绕科学发现的“取信过程”（即，可信度从无到有的发展过程）展开论述。C既锁定全文讨论对象（科学发现的可信度），也覆盖了全篇内容（可信度的发展过程），是对主旨的高度概括。
 
-<!-- q_id=2012-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"objective\", \"credibility\", \"novelty\"]" -->
+<!-- q_id=2012-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["objective", "credibility", "novelty"] -->

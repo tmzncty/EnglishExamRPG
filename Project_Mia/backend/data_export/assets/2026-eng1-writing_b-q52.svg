@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+<rect width="1000" height="520" fill="white"/>
+<text x="500" y="40" text-anchor="middle" font-size="28" font-family="sans-serif">一项关于养老机器人的消费者接受度和首要关注点调查</text>
+<text x="250" y="90" text-anchor="middle" font-size="22" font-family="sans-serif">消费者接受度</text>
+<circle cx="250" cy="260" r="145" fill="none" stroke="#333" stroke-width="3"/>
+<line x1="250" y1="260" x2="250" y2="115" stroke="#333" stroke-width="2"/>
+<line x1="250" y1="260" x2="386" y2="310" stroke="#333" stroke-width="2"/>
+<line x1="250" y1="260" x2="157" y2="371" stroke="#333" stroke-width="2"/>
+<text x="175" y="230" text-anchor="middle" font-size="22" font-family="sans-serif">完全接受</text><text x="175" y="260" text-anchor="middle" font-size="24" font-weight="bold" font-family="sans-serif">39.3%</text>
+<text x="320" y="205" text-anchor="middle" font-size="22" font-family="sans-serif">不接受</text><text x="320" y="235" text-anchor="middle" font-size="24" font-weight="bold" font-family="sans-serif">27.9%</text>
+<text x="290" y="355" text-anchor="middle" font-size="22" font-family="sans-serif">部分接受</text><text x="290" y="385" text-anchor="middle" font-size="24" font-weight="bold" font-family="sans-serif">32.8%</text>
+<text x="720" y="90" text-anchor="middle" font-size="22" font-family="sans-serif">首要关注点</text>
+<line x1="540" y1="410" x2="920" y2="410" stroke="#333" stroke-width="2"/>
+<rect x="590" y="170" width="70" height="240" fill="#888"/><text x="625" y="150" text-anchor="middle" font-size="26" font-weight="bold" font-family="sans-serif">46.3%</text><text x="625" y="455" text-anchor="middle" font-size="26" font-family="sans-serif">安全</text>
+<rect x="705" y="281" width="70" height="129" fill="#888"/><text x="740" y="260" text-anchor="middle" font-size="26" font-weight="bold" font-family="sans-serif">24.9%</text><text x="740" y="455" text-anchor="middle" font-size="26" font-family="sans-serif">价格</text>
+<rect x="820" y="355" width="70" height="55" fill="#888"/><text x="855" y="335" text-anchor="middle" font-size="26" font-weight="bold" font-family="sans-serif">10.7%</text><text x="855" y="455" text-anchor="middle" font-size="26" font-family="sans-serif">便利</text>
+</svg>

@@ -30,7 +30,7 @@ They sometimes travel more than sixty miles to find food or water, and are very 
 
 本句结构简单，主干为They travel and are good at working out…，注意miles的翻译，可以翻译为“英里”，也可以翻译为“路程”。“work out”在这里的意思是“弄明白，计算出”。
 
-<!-- q_id=2024-eng1-translation-q46; difficulty=3; score=2.0; tags="[\"folklore\", \"savanna\", \"distributed\", \"habitat\", \"spatial acuity\", \"waterhole\", \"volatile chemicals\", \"signature\", \"herbivores\", \"foraging\", \"patches\", \"hippocampal structures\", \"cognitive maps\"]" -->
+<!-- q_id=2024-eng1-translation-q46; difficulty=3; score=2.0; tags=["folklore", "savanna", "distributed", "habitat", "spatial acuity", "waterhole", "volatile chemicals", "signature", "herbivores", "foraging", "patches", "hippocampal structures", "cognitive maps"] -->
 
 ### Question 47
 
@@ -44,7 +44,7 @@ The researchers are convinced that the elephants always know precisely where the
 
 本句的主干是The researchers are convinced that…，that引导的是宾语从句。In relation to…是一个常见的介词短语，表示“相对于…”。as well as 连接两个并列的动词短语，following familiar routes.
 
-<!-- q_id=2024-eng1-translation-q47; difficulty=3; score=2.0; tags="[\"folklore\", \"savanna\", \"distributed\", \"habitat\", \"spatial acuity\", \"waterhole\", \"volatile chemicals\", \"signature\", \"herbivores\", \"foraging\", \"patches\", \"hippocampal structures\", \"cognitive maps\"]" -->
+<!-- q_id=2024-eng1-translation-q47; difficulty=3; score=2.0; tags=["folklore", "savanna", "distributed", "habitat", "spatial acuity", "waterhole", "volatile chemicals", "signature", "herbivores", "foraging", "patches", "hippocampal structures", "cognitive maps"] -->
 
 ### Question 48
 
@@ -58,7 +58,7 @@ One possibility was that they merely used their eyes and tried out the plants th
 
 本句是一个复合句，由一个主句和一个but引导的转折分句构成。 not least because 表示“尤其因为”。result in 导致
 
-<!-- q_id=2024-eng1-translation-q48; difficulty=3; score=2.0; tags="[\"folklore\", \"savanna\", \"distributed\", \"habitat\", \"spatial acuity\", \"waterhole\", \"volatile chemicals\", \"signature\", \"herbivores\", \"foraging\", \"patches\", \"hippocampal structures\", \"cognitive maps\"]" -->
+<!-- q_id=2024-eng1-translation-q48; difficulty=3; score=2.0; tags=["folklore", "savanna", "distributed", "habitat", "spatial acuity", "waterhole", "volatile chemicals", "signature", "herbivores", "foraging", "patches", "hippocampal structures", "cognitive maps"] -->
 
 ### Question 49
 
@@ -72,7 +72,7 @@ The volatile chemicals produced by plants can be carried a long way, and they ar
 
 本句由两个分句构成， 分句之间用and连接。冒号后面的内容是对characteristic的解释说明。produced by plants是后置定语，修饰chemicals。
 
-<!-- q_id=2024-eng1-translation-q49; difficulty=3; score=2.0; tags="[\"folklore\", \"savanna\", \"distributed\", \"habitat\", \"spatial acuity\", \"waterhole\", \"volatile chemicals\", \"signature\", \"herbivores\", \"foraging\", \"patches\", \"hippocampal structures\", \"cognitive maps\"]" -->
+<!-- q_id=2024-eng1-translation-q49; difficulty=3; score=2.0; tags=["folklore", "savanna", "distributed", "habitat", "spatial acuity", "waterhole", "volatile chemicals", "signature", "herbivores", "foraging", "patches", "hippocampal structures", "cognitive maps"] -->
 
 ### Question 50
 
@@ -86,4 +86,4 @@ The experiment showed that elephants may well use smell to identify patches of t
 
 本句主干为The experiment showed that...，that引导宾语从句，从句中，use smell to identify...and to assess...是use...to do...结构，表示“用…来做…”。patches of trees that are good to eat，that are good to eat是定语从句，修饰patches of trees
 
-<!-- q_id=2024-eng1-translation-q50; difficulty=3; score=2.0; tags="[\"folklore\", \"savanna\", \"distributed\", \"habitat\", \"spatial acuity\", \"waterhole\", \"volatile chemicals\", \"signature\", \"herbivores\", \"foraging\", \"patches\", \"hippocampal structures\", \"cognitive maps\"]" -->
+<!-- q_id=2024-eng1-translation-q50; difficulty=3; score=2.0; tags=["folklore", "savanna", "distributed", "habitat", "spatial acuity", "waterhole", "volatile chemicals", "signature", "herbivores", "foraging", "patches", "hippocampal structures", "cognitive maps"] -->

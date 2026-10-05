@@ -18,7 +18,10 @@ This  phenomenon  is  frightening  because  it's  pervasive,from  the photos on 
 
 The author mentions the artifacts from the past to
 
-- {"A": "introduce the collection of antiques", "B": "contrast them with everyday items", "C": "bring up the issue of preservation", "D": "comment on their historical value"}
+- **A.** introduce the collection of antiques
+- **B.** contrast them with everyday items
+- **C.** bring up the issue of preservation
+- **D.** comment on their historical value
 
 **Correct answer:** C
 
@@ -26,13 +29,16 @@ The author mentions the artifacts from the past to
 
 作者提到过去的古董是为了引出保存的问题，因为这些古董虽然经历了很长时间，但依然存在，引发了对于数字信息长期保存的思考。选项C与此意相符。
 
-<!-- q_id=2025-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"ephemeral\", \"tangible\", \"metadata\"]" -->
+<!-- q_id=2025-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["ephemeral", "tangible", "metadata"] -->
 
 ### Question 37
 
 Compared  with  digital  objects,tangible  artifacts
 
-- {"A": "are less subject to their creators'neglect", "B": "convey information in a more direct way", "C": "require more international preservation", "D": "are less likely to suffer serious damage"}
+- **A.** are less subject to their creators'neglect
+- **B.** convey information in a more direct way
+- **C.** require more international preservation
+- **D.** are less likely to suffer serious damage
 
 **Correct answer:** A
 
@@ -40,13 +46,16 @@ Compared  with  digital  objects,tangible  artifacts
 
 根据文章第二段可知，有形的物品即使被创造者忽视，也有机会保存下来，而数字信息则不然。选项A符合此意。
 
-<!-- q_id=2025-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"ephemeral\", \"tangible\", \"metadata\"]" -->
+<!-- q_id=2025-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["ephemeral", "tangible", "metadata"] -->
 
 ### Question 38
 
 According to Paragraph 3,librarians work may result in
 
-- {"A": "oversupply of materials", "B": "undervaluation of libraries", "C": "researchers'underperformance", "D": "users'overreliance  on  technology"}
+- **A.** oversupply of materials
+- **B.** undervaluation of libraries
+- **C.** researchers'underperformance
+- **D.** users'overreliance  on  technology
 
 **Correct answer:** B
 
@@ -54,13 +63,16 @@ According to Paragraph 3,librarians work may result in
 
 第三段提到，当用户认为所有信息都在手机或电脑里时，可能会低估图书馆的重要性。选项B与之对应。
 
-<!-- q_id=2025-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"ephemeral\", \"tangible\", \"metadata\"]" -->
+<!-- q_id=2025-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["ephemeral", "tangible", "metadata"] -->
 
 ### Question 39
 
 The "ZIP disk"is cited as an example to show
 
-- {"A": "the hazard of retrieving files through unusual means.", "B": "the infeasibility of constantly migrating digital assets.", "C": "the possibility of losing information in obsolete formats.", "D": "the inconvenience of storing information on analog devices."}
+- **A.** the hazard of retrieving files through unusual means.
+- **B.** the infeasibility of constantly migrating digital assets.
+- **C.** the possibility of losing information in obsolete formats.
+- **D.** the inconvenience of storing information on analog devices.
 
 **Correct answer:** C
 
@@ -68,13 +80,16 @@ The "ZIP disk"is cited as an example to show
 
 作者引用ZIP磁盘的例子是为了说明当技术进步，格式过时时，信息可能会丢失。选项C正确。
 
-<!-- q_id=2025-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"ephemeral\", \"tangible\", \"metadata\"]" -->
+<!-- q_id=2025-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["ephemeral", "tangible", "metadata"] -->
 
 ### Question 40
 
 Which of the following statements best summarizes the test?
 
-- {"A": "Hard work should be done to preserve artifacts.", "B": "Contributions of librarians should be recognized.", "C": "Accessing databases is essential to researchers.", "D": "Keeping digital historical records is a challenge"}
+- **A.** Hard work should be done to preserve artifacts.
+- **B.** Contributions of librarians should be recognized.
+- **C.** Accessing databases is essential to researchers.
+- **D.** Keeping digital historical records is a challenge
 
 **Correct answer:** D
 
@@ -82,4 +97,4 @@ Which of the following statements best summarizes the test?
 
 全文主要讨论了保存数字历史记录的挑战，包括技术更新、数据量大、真伪性等问题。选项D最能概括文章主题。
 
-<!-- q_id=2025-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"ephemeral\", \"tangible\", \"metadata\"]" -->
+<!-- q_id=2025-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["ephemeral", "tangible", "metadata"] -->

@@ -22,7 +22,10 @@ The astronomy community is making compromises to change  its use of  Mauna Kea. 
 
 Queen Liliuokalani’s remark in Paragraph 1 indicates
 
-- {"A": "her conservative view on the historical role of astronomy.", "B": "the importance of astronomy in ancient Hawaiian society.", "C": "the regrettable decline of astronomy in ancient times.", "D": "her appreciation of star watchers’ feats in her time."}
+- **A.** her conservative view on the historical role of astronomy.
+- **B.** the importance of astronomy in ancient Hawaiian society.
+- **C.** the regrettable decline of astronomy in ancient times.
+- **D.** her appreciation of star watchers’ feats in her time.
 
 **Correct answer:** B
 
@@ -30,13 +33,16 @@ Queen Liliuokalani’s remark in Paragraph 1 indicates
 
 第一段中利留卡拉尼女王的言论表明天文学在古代夏威夷社会的重要性。【B】正确。选项是对首段的合理推断，其中 the importance 对应 the most esteemed。其他选项均为干扰。
 
-<!-- q_id=2017-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"reign\", \"cosmos\", \"dormant\", \"worship\", \"unsurpassed\", \"vocal\", \"occupation\", \"prioritize\", \"fragile\", \"relic\", \"renaissance\", \"dawn\", \"primal\", \"compromise\", \"visibility\", \"archaeological\", \"lifetime\", \"heritage\"]" -->
+<!-- q_id=2017-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["reign", "cosmos", "dormant", "worship", "unsurpassed", "vocal", "occupation", "prioritize", "fragile", "relic", "renaissance", "dawn", "primal", "compromise", "visibility", "archaeological", "lifetime", "heritage"] -->
 
 ### Question 27
 
 Mauna Kea is deemed as an ideal astronomical site due to
 
-- {"A": "its geographical features.", "B": "its protective surroundings.", "C": "its religious implications.", "D": "its existing infrastructure."}
+- **A.** its geographical features.
+- **B.** its protective surroundings.
+- **C.** its religious implications.
+- **D.** its existing infrastructure.
 
 **Correct answer:** A
 
@@ -44,13 +50,16 @@ Mauna Kea is deemed as an ideal astronomical site due to
 
 莫纳克亚山因其地理特征被视为一个理想的天文观测场地。题干+正确项是对第二段的合理推断。其他选项均为干扰，偷换概念或者无中生有。
 
-<!-- q_id=2017-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"reign\", \"cosmos\", \"dormant\", \"worship\", \"unsurpassed\", \"vocal\", \"occupation\", \"prioritize\", \"fragile\", \"relic\", \"renaissance\", \"dawn\", \"primal\", \"compromise\", \"visibility\", \"archaeological\", \"lifetime\", \"heritage\"]" -->
+<!-- q_id=2017-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["reign", "cosmos", "dormant", "worship", "unsurpassed", "vocal", "occupation", "prioritize", "fragile", "relic", "renaissance", "dawn", "primal", "compromise", "visibility", "archaeological", "lifetime", "heritage"] -->
 
 ### Question 28
 
 The construction of the TMT is opposed by some locals partly because
 
-- {"A": "it may risk ruining their intellectual life.", "B": "it reminds them of a humiliating history.", "C": "their culture will lose a chance of revival.", "D": "they fear losing control of Mauna Kea."}
+- **A.** it may risk ruining their intellectual life.
+- **B.** it reminds them of a humiliating history.
+- **C.** their culture will lose a chance of revival.
+- **D.** they fear losing control of Mauna Kea.
 
 **Correct answer:** B
 
@@ -58,13 +67,16 @@ The construction of the TMT is opposed by some locals partly because
 
 一些当地人反对建设 TMT 的部分原因是，它让他们回想起屈辱的历史。【B】正确。正确项是对第三段的合理概括. 其他选项均曲解文意。
 
-<!-- q_id=2017-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"reign\", \"cosmos\", \"dormant\", \"worship\", \"unsurpassed\", \"vocal\", \"occupation\", \"prioritize\", \"fragile\", \"relic\", \"renaissance\", \"dawn\", \"primal\", \"compromise\", \"visibility\", \"archaeological\", \"lifetime\", \"heritage\"]" -->
+<!-- q_id=2017-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["reign", "cosmos", "dormant", "worship", "unsurpassed", "vocal", "occupation", "prioritize", "fragile", "relic", "renaissance", "dawn", "primal", "compromise", "visibility", "archaeological", "lifetime", "heritage"] -->
 
 ### Question 29
 
 It can be inferred from Paragraph 5 that progress in today’s astronomy
 
-- {"A": "is fulfilling the dreams of ancient Hawaiians.", "B": "helps spread Hawaiian culture across the world.", "C": "may uncover the origin of Hawaiian culture.", "D": "will eventually soften Hawaiians’ hostility."}
+- **A.** is fulfilling the dreams of ancient Hawaiians.
+- **B.** helps spread Hawaiian culture across the world.
+- **C.** may uncover the origin of Hawaiian culture.
+- **D.** will eventually soften Hawaiians’ hostility.
 
 **Correct answer:** A
 
@@ -72,13 +84,16 @@ It can be inferred from Paragraph 5 that progress in today’s astronomy
 
 从第五段可以推断，今天天文学取得的进步，正在实现古代夏威夷人的梦想。选项是对第五段主旨的合理引申。其他选项均为过度推断
 
-<!-- q_id=2017-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"reign\", \"cosmos\", \"dormant\", \"worship\", \"unsurpassed\", \"vocal\", \"occupation\", \"prioritize\", \"fragile\", \"relic\", \"renaissance\", \"dawn\", \"primal\", \"compromise\", \"visibility\", \"archaeological\", \"lifetime\", \"heritage\"]" -->
+<!-- q_id=2017-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["reign", "cosmos", "dormant", "worship", "unsurpassed", "vocal", "occupation", "prioritize", "fragile", "relic", "renaissance", "dawn", "primal", "compromise", "visibility", "archaeological", "lifetime", "heritage"] -->
 
 ### Question 30
 
 The author’s attitude toward choosing Mauna Kea as the TMT site is one of
 
-- {"A": "severe criticism.", "B": "passive acceptance.", "C": "slight hesitancy.", "D": "full approval."}
+- **A.** severe criticism.
+- **B.** passive acceptance.
+- **C.** slight hesitancy.
+- **D.** full approval.
 
 **Correct answer:** D
 
@@ -86,4 +101,4 @@ The author’s attitude toward choosing Mauna Kea as the TMT site is one of
 
 对选择莫纳克亚山作为 TMT 台址，作者持完全赞同的态度. 由文中的情感色彩以及对天文学的积极态度可以推断。其他选项都是歪曲作者态度。
 
-<!-- q_id=2017-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"reign\", \"cosmos\", \"dormant\", \"worship\", \"unsurpassed\", \"vocal\", \"occupation\", \"prioritize\", \"fragile\", \"relic\", \"renaissance\", \"dawn\", \"primal\", \"compromise\", \"visibility\", \"archaeological\", \"lifetime\", \"heritage\"]" -->
+<!-- q_id=2017-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["reign", "cosmos", "dormant", "worship", "unsurpassed", "vocal", "occupation", "prioritize", "fragile", "relic", "renaissance", "dawn", "primal", "compromise", "visibility", "archaeological", "lifetime", "heritage"] -->

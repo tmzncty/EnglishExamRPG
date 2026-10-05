@@ -32,6 +32,6 @@ I believe that embracing cultural diversity is essential for progress and develo
 
 这篇范文首先对图片进行了简要描述，点明了文化“火锅”的主题。然后，解释了图画的寓意，即文化融合是有益的，并在全球化背景下强调了文化交流的重要性。最后，作者表达了自己的观点，认为拥抱文化多样性对于进步和发展至关重要。文章结构清晰，语言流畅，观点明确，符合题目要求。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2010-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2010-eng1-writing_b-q52; difficulty=3; score=20.0 -->

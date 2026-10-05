@@ -22,7 +22,10 @@ The purpose of editing the News of the World was not to promote reader understan
 
 According to the first two paragraphs, Elisabeth was upset by
 
-- {"A": "the consequences of the current sorting mechanism.", "B": "companies’ financial loss due to immoral practices.", "C": "governmental ineffectiveness on moral issues.", "D": "the wide misuse of integrity among institutions."}
+- **A.** the consequences of the current sorting mechanism.
+- **B.** companies’ financial loss due to immoral practices.
+- **C.** governmental ineffectiveness on moral issues.
+- **D.** the wide misuse of integrity among institutions.
 
 **Correct answer:** A
 
@@ -30,13 +33,16 @@ According to the first two paragraphs, Elisabeth was upset by
 
 题干＋正确项【A】是对前两段的概括∶题干中 upset 对应原文 unsettling，表明 Elisabeth 的担忧态度;the consequences of the current sorting mechanism 对应第二段①②句 could become one of the most dangerous goals、was wounding...，would lose its way...，是担忧的具体内容。
 
-<!-- q_id=2015-eng1-reading_a-q36; difficulty=3; score=2.0; tags="[\"unsettling\", \"dearth\", \"integrity\", \"collapse\", \"collective\", \"accountable\", \"doctrine\", \"flexibility\", \"shareholder\", \"circulation\", \"proportionality\", \"conspire\", \"predecessor\", \"revelation\", \"inquire\"]" -->
+<!-- q_id=2015-eng1-reading_a-q36; difficulty=3; score=2.0; tags=["unsettling", "dearth", "integrity", "collapse", "collective", "accountable", "doctrine", "flexibility", "shareholder", "circulation", "proportionality", "conspire", "predecessor", "revelation", "inquire"] -->
 
 ### Question 37
 
 It can be inferred from Paragraph 3 that
 
-- {"A": "Glenn Mulcaire may deny phone hacking as a crime.", "B": "more journalists may be found guilty of phone hacking.", "C": "Andy Coulson should be held innocent of the charge.", "D": "phone hacking will be accepted on certain occasions."}
+- **A.** Glenn Mulcaire may deny phone hacking as a crime.
+- **B.** more journalists may be found guilty of phone hacking.
+- **C.** Andy Coulson should be held innocent of the charge.
+- **D.** phone hacking will be accepted on certain occasions.
 
 **Correct answer:** B
 
@@ -44,13 +50,16 @@ It can be inferred from Paragraph 3 that
 
 【B】是对第三段④⑤句 Others await trial（其他人尚待审判）、This long story still unfolds（这一长串事件仍在展开）以及首句 the wider issue of dearth of integrity still stands 的明确解读。
 
-<!-- q_id=2015-eng1-reading_a-q37; difficulty=3; score=2.0; tags="[\"unsettling\", \"dearth\", \"integrity\", \"collapse\", \"collective\", \"accountable\", \"doctrine\", \"flexibility\", \"shareholder\", \"circulation\", \"proportionality\", \"conspire\", \"predecessor\", \"revelation\", \"inquire\"]" -->
+<!-- q_id=2015-eng1-reading_a-q37; difficulty=3; score=2.0; tags=["unsettling", "dearth", "integrity", "collapse", "collective", "accountable", "doctrine", "flexibility", "shareholder", "circulation", "proportionality", "conspire", "predecessor", "revelation", "inquire"] -->
 
 ### Question 38
 
 The author believes that Rebekah Brooks’s defence
 
-- {"A": "was hardly convincing.", "B": "centered on trivial issues.", "C": "revealed a cunning personality.", "D": "was part of a conspiracy."}
+- **A.** was hardly convincing.
+- **B.** centered on trivial issues.
+- **C.** revealed a cunning personality.
+- **D.** was part of a conspiracy.
 
 **Correct answer:** A
 
@@ -58,13 +67,16 @@ The author believes that Rebekah Brooks’s defence
 
 【A】概括了排比强调结构 how little she knew...how little she thought...she never inquired 以及 astonishing 一词所反映的作者的质疑态度。
 
-<!-- q_id=2015-eng1-reading_a-q38; difficulty=3; score=2.0; tags="[\"unsettling\", \"dearth\", \"integrity\", \"collapse\", \"collective\", \"accountable\", \"doctrine\", \"flexibility\", \"shareholder\", \"circulation\", \"proportionality\", \"conspire\", \"predecessor\", \"revelation\", \"inquire\"]" -->
+<!-- q_id=2015-eng1-reading_a-q38; difficulty=3; score=2.0; tags=["unsettling", "dearth", "integrity", "collapse", "collective", "accountable", "doctrine", "flexibility", "shareholder", "circulation", "proportionality", "conspire", "predecessor", "revelation", "inquire"] -->
 
 ### Question 39
 
 The author holds that the current collective doctrine shows
 
-- {"A": "a marginalized lifestyle.", "B": "unfair wealth distribution.", "C": "generally distorted values.", "D": "a rigid moral code."}
+- **A.** a marginalized lifestyle.
+- **B.** unfair wealth distribution.
+- **C.** generally distorted values.
+- **D.** a rigid moral code.
 
 **Correct answer:** C
 
@@ -72,13 +84,16 @@ The author holds that the current collective doctrine shows
 
 【C】既提炼了④⑤句所述信条表现中所蕴含的作者批驳和愤懑之情，又反映了①句所述这一信条所导致的畸形现象。
 
-<!-- q_id=2015-eng1-reading_a-q39; difficulty=3; score=2.0; tags="[\"unsettling\", \"dearth\", \"integrity\", \"collapse\", \"collective\", \"accountable\", \"doctrine\", \"flexibility\", \"shareholder\", \"circulation\", \"proportionality\", \"conspire\", \"predecessor\", \"revelation\", \"inquire\"]" -->
+<!-- q_id=2015-eng1-reading_a-q39; difficulty=3; score=2.0; tags=["unsettling", "dearth", "integrity", "collapse", "collective", "accountable", "doctrine", "flexibility", "shareholder", "circulation", "proportionality", "conspire", "predecessor", "revelation", "inquire"] -->
 
 ### Question 40
 
 Which of the following is suggested in the last paragraph?
 
-- {"A": "The quality of writings is of primary importance.", "B": "Moral awareness matters in editing a newspaper.", "C": "Common humanity is central to news reporting.", "D": "Journalists need stricter industrial regulations."}
+- **A.** The quality of writings is of primary importance.
+- **B.** Moral awareness matters in editing a newspaper.
+- **C.** Common humanity is central to news reporting.
+- **D.** Journalists need stricter industrial regulations.
 
 **Correct answer:** B
 
@@ -86,4 +101,4 @@ Which of the following is suggested in the last paragraph?
 
 【B】是从末段①②句对《世界新闻报》错误做法的批驳中反向推知的正确方式，是对 to be fair in what was written、to betray common humanity、not to ruin lives...的准确概括。
 
-<!-- q_id=2015-eng1-reading_a-q40; difficulty=3; score=2.0; tags="[\"unsettling\", \"dearth\", \"integrity\", \"collapse\", \"collective\", \"accountable\", \"doctrine\", \"flexibility\", \"shareholder\", \"circulation\", \"proportionality\", \"conspire\", \"predecessor\", \"revelation\", \"inquire\"]" -->
+<!-- q_id=2015-eng1-reading_a-q40; difficulty=3; score=2.0; tags=["unsettling", "dearth", "integrity", "collapse", "collective", "accountable", "doctrine", "flexibility", "shareholder", "circulation", "proportionality", "conspire", "predecessor", "revelation", "inquire"] -->

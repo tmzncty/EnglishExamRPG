@@ -30,7 +30,7 @@ C
 
 段落2主要描述了眼神交流在母婴关系中的积极作用，以及在成人社交中作为友好信号的作用，因此选择C (Eye contact can be a friendly social signal)。本段的关键词是：mutual gaze, complimentary sign of paying attention, signal availability and confidence。
 
-<!-- q_id=2020-eng1-reading_b-q41; difficulty=3; score=2.0; tags="[\"antagonistic\", \"instinctively\", \"neuroticism\"]" -->
+<!-- q_id=2020-eng1-reading_b-q41; difficulty=3; score=2.0; tags=["antagonistic", "instinctively", "neuroticism"] -->
 
 ### Question 42
 
@@ -46,7 +46,7 @@ E
 
 段落3主要探讨了眼神交流背后的生物学因素，如催产素的影响和大脑区域的反应。因此选择E (Biological factors behind eye contact are being investigated)。本段的关键词是：hormone oxytocin, brain regions, brain scanning。
 
-<!-- q_id=2020-eng1-reading_b-q42; difficulty=3; score=2.0; tags="[\"antagonistic\", \"instinctively\", \"neuroticism\"]" -->
+<!-- q_id=2020-eng1-reading_b-q42; difficulty=3; score=2.0; tags=["antagonistic", "instinctively", "neuroticism"] -->
 
 ### Question 43
 
@@ -62,7 +62,7 @@ G
 
 段落4讨论了眼神交流在不同情境下的不同含义，尤其是在对抗情境下，眼神交流可能与控制和恐吓相关。因此选择G (Eye contact can also be aggressive)。虽然也提到了friendly situations，但adversarial situations是本段的重点。关键词：dominance or intimidation in adversarial situations.
 
-<!-- q_id=2020-eng1-reading_b-q43; difficulty=3; score=2.0; tags="[\"antagonistic\", \"instinctively\", \"neuroticism\"]" -->
+<!-- q_id=2020-eng1-reading_b-q43; difficulty=3; score=2.0; tags=["antagonistic", "instinctively", "neuroticism"] -->
 
 ### Question 44
 
@@ -78,7 +78,7 @@ A
 
 段落5描述了我们看人脸或图片时，眼睛会短暂地停留在某些部位（眼睛或嘴巴），然后跳到其他部位。因此选择A (Eye fixations are brief)。本段关键词：pauses, jump to another spot, series of snapshots。
 
-<!-- q_id=2020-eng1-reading_b-q44; difficulty=3; score=2.0; tags="[\"antagonistic\", \"instinctively\", \"neuroticism\"]" -->
+<!-- q_id=2020-eng1-reading_b-q44; difficulty=3; score=2.0; tags=["antagonistic", "instinctively", "neuroticism"] -->
 
 ### Question 45
 
@@ -94,4 +94,4 @@ D
 
 段落6讨论了性格如何影响人们对眼神交流的反应，尤其是在神经质人格的人群中，眼神交流会触发更多的回避行为。因此选择D (Personality can affect how a person reacts to eye contact)。关键词：neuroticism, avoidance, negative emotions.
 
-<!-- q_id=2020-eng1-reading_b-q45; difficulty=3; score=2.0; tags="[\"antagonistic\", \"instinctively\", \"neuroticism\"]" -->
+<!-- q_id=2020-eng1-reading_b-q45; difficulty=3; score=2.0; tags=["antagonistic", "instinctively", "neuroticism"] -->

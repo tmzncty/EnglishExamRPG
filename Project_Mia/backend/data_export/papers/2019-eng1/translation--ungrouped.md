@@ -24,7 +24,7 @@ There is a great deal of this kind  of nonsense in the medical journals which, w
 
 本句主干是 There is a great deal of nonsense in medical journals。 which 引导非限制性定语从句，修饰 nonsense。when taken up by broadcasters and the lay press 是一个时间状语从句，修饰 generates。翻译时需要注意语序和词义的准确性。
 
-<!-- q_id=2019-eng1-translation-q46; difficulty=3; score=2.0; tags="[\"pernicious\", \"lay\", \"entail\", \"ambiguity\", \"metrics\"]" -->
+<!-- q_id=2019-eng1-translation-q46; difficulty=3; score=2.0; tags=["pernicious", "lay", "entail", "ambiguity", "metrics"] -->
 
 ### Question 47
 
@@ -38,7 +38,7 @@ nowadays anyone applying for a research post has to have published twice the num
 
 本句主干是 anyone has to have published twice the number of papers。applying for a research post 是现在分词短语作后置定语，修饰 anyone。that 引导定语从句，修饰 papers。 twice the number of 是倍数表达，翻译时要准确表达倍数关系。
 
-<!-- q_id=2019-eng1-translation-q47; difficulty=3; score=2.0; tags="[\"pernicious\", \"lay\", \"entail\", \"ambiguity\", \"metrics\"]" -->
+<!-- q_id=2019-eng1-translation-q47; difficulty=3; score=2.0; tags=["pernicious", "lay", "entail", "ambiguity", "metrics"] -->
 
 ### Question 48
 
@@ -52,7 +52,7 @@ Attempts have been made to curb this tendency, for example, by trying to incorpo
 
 本句是被动语态，主语是 Attempts。 for example 引导一个介词短语，作方式状语，by trying to incorporate...into... 是固定搭配。翻译时需要注意被动语态的转换和固定搭配的表达。
 
-<!-- q_id=2019-eng1-translation-q48; difficulty=3; score=2.0; tags="[\"pernicious\", \"lay\", \"entail\", \"ambiguity\", \"metrics\"]" -->
+<!-- q_id=2019-eng1-translation-q48; difficulty=3; score=2.0; tags=["pernicious", "lay", "entail", "ambiguity", "metrics"] -->
 
 ### Question 49
 
@@ -66,7 +66,7 @@ This would be reasonable if it were not for the fact that scientists can easily 
 
 本句是虚拟语气，主句是 This would be reasonable。 if it were not for 是虚拟语气的标志。 that 引导同位语从句，解释 fact。 or 连接两个并列的动词短语。翻译时需要注意虚拟语气的表达和并列结构的翻译。
 
-<!-- q_id=2019-eng1-translation-q49; difficulty=3; score=2.0; tags="[\"pernicious\", \"lay\", \"entail\", \"ambiguity\", \"metrics\"]" -->
+<!-- q_id=2019-eng1-translation-q49; difficulty=3; score=2.0; tags=["pernicious", "lay", "entail", "ambiguity", "metrics"] -->
 
 ### Question 50
 
@@ -80,4 +80,4 @@ If we are serious about ensuring that our science is both meaningful and reprodu
 
 本句是一个if引导的条件状语从句。主句是we must ensure that our institutions encourage that kind of science，其中that our institutions encourage that kind of science是ensure的宾语从句。In that condition clause，there is another that our science is both meaningful and reproducible clause acting as the object of ensuring.
 
-<!-- q_id=2019-eng1-translation-q50; difficulty=3; score=2.0; tags="[\"pernicious\", \"lay\", \"entail\", \"ambiguity\", \"metrics\"]" -->
+<!-- q_id=2019-eng1-translation-q50; difficulty=3; score=2.0; tags=["pernicious", "lay", "entail", "ambiguity", "metrics"] -->

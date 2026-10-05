@@ -32,6 +32,6 @@ This cartoon resonates deeply with the traditional Chinese values of respect for
 
 这篇范文首先简要描述了图画内容，抓住了三十年前和现在两个时间节点的对比以及母女角色的转变。其次，对图画的寓意进行了深刻解读，点明了家庭责任的循环和孝道的重要性。最后，文章结合社会现实，呼吁人们重视家庭纽带，履行赡养父母的义务。文章结构完整，语言流畅，主题明确，是一篇优秀的范文。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2014-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2014-eng1-writing_b-q52; difficulty=3; score=20.0 -->

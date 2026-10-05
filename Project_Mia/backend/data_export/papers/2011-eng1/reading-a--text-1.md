@@ -20,7 +20,10 @@ One possible response is for classical performers to program attractive new musi
 
 We learn from Paragraph 1 that Gilbert’s appointment has
 
-- {"A": "incurred criticism.", "B": "raised suspicion.", "C": "received acclaim.", "D": "aroused curiosity."}
+- **A.** incurred criticism.
+- **B.** raised suspicion.
+- **C.** received acclaim.
+- **D.** aroused curiosity.
 
 **Correct answer:** C
 
@@ -28,13 +31,16 @@ We learn from Paragraph 1 that Gilbert’s appointment has
 
 第一段指出，Gilbert的任命在古典音乐界引起了广泛讨论，并且总体来说是积极的。“Hooray! At last!”评论家Anthony Tommasini写道，表达了对任命的赞同。因此，C选项“受到称赞”是正确的。
 
-<!-- q_id=2011-eng1-reading_a-q21; difficulty=3; score=2.0; tags="[\"sober-sided\", \"unpretentious\", \"formidable\", \"devoted\", \"repertoire\", \"markedly\", \"vibrant\"]" -->
+<!-- q_id=2011-eng1-reading_a-q21; difficulty=3; score=2.0; tags=["sober-sided", "unpretentious", "formidable", "devoted", "repertoire", "markedly", "vibrant"] -->
 
 ### Question 22
 
 Tommasini regards Gilbert as an artist who is
 
-- {"A": "influential.", "B": "modest.", "C": "respectable.", "D": "talented."}
+- **A.** influential.
+- **B.** modest.
+- **C.** respectable.
+- **D.** talented.
 
 **Correct answer:** B
 
@@ -42,13 +48,16 @@ Tommasini regards Gilbert as an artist who is
 
 第二段中，Tommasini称Gilbert为“一位谦逊的音乐家，没有令人敬畏的指挥家的气派”。因此，B选项“谦逊的”是正确的。
 
-<!-- q_id=2011-eng1-reading_a-q22; difficulty=3; score=2.0; tags="[\"sober-sided\", \"unpretentious\", \"formidable\", \"devoted\", \"repertoire\", \"markedly\", \"vibrant\"]" -->
+<!-- q_id=2011-eng1-reading_a-q22; difficulty=3; score=2.0; tags=["sober-sided", "unpretentious", "formidable", "devoted", "repertoire", "markedly", "vibrant"] -->
 
 ### Question 23
 
 The author believes that the devoted concertgoers
 
-- {"A": "ignore the expenses of live performances.", "B": "reject most kinds of recorded performances.", "C": "exaggerate the variety of live performances.", "D": "overestimate the value of live performances."}
+- **A.** ignore the expenses of live performances.
+- **B.** reject most kinds of recorded performances.
+- **C.** exaggerate the variety of live performances.
+- **D.** overestimate the value of live performances.
 
 **Correct answer:** D
 
@@ -56,13 +65,16 @@ The author believes that the devoted concertgoers
 
 作者认为忠实的音乐会听众没有抓住问题的关键，因为他们认为录音不能取代现场演奏。但作者指出，录音在质量、可获得性和便利性方面都优于现场演奏，因此这些听众高估了现场演奏的价值。
 
-<!-- q_id=2011-eng1-reading_a-q23; difficulty=3; score=2.0; tags="[\"sober-sided\", \"unpretentious\", \"formidable\", \"devoted\", \"repertoire\", \"markedly\", \"vibrant\"]" -->
+<!-- q_id=2011-eng1-reading_a-q23; difficulty=3; score=2.0; tags=["sober-sided", "unpretentious", "formidable", "devoted", "repertoire", "markedly", "vibrant"] -->
 
 ### Question 24
 
 According to the text, which of the following is true of recordings?
 
-- {"A": "They are often inferior to live concerts in quality.", "B": "They are easily accessible to the general public.", "C": "They help improve the quality of music.", "D": "They have only covered masterpieces."}
+- **A.** They are often inferior to live concerts in quality.
+- **B.** They are easily accessible to the general public.
+- **C.** They help improve the quality of music.
+- **D.** They have only covered masterpieces.
 
 **Correct answer:** B
 
@@ -70,13 +82,16 @@ According to the text, which of the following is true of recordings?
 
 第四段指出，录音价格低廉，随处可得，艺术品质大多比当今的现场演奏高。因此，B选项“它们很容易为大众所获得”是正确的。
 
-<!-- q_id=2011-eng1-reading_a-q24; difficulty=3; score=2.0; tags="[\"sober-sided\", \"unpretentious\", \"formidable\", \"devoted\", \"repertoire\", \"markedly\", \"vibrant\"]" -->
+<!-- q_id=2011-eng1-reading_a-q24; difficulty=3; score=2.0; tags=["sober-sided", "unpretentious", "formidable", "devoted", "repertoire", "markedly", "vibrant"] -->
 
 ### Question 25
 
 Regarding Gilbert’s role in revitalizing the Philharmonic, the author feels
 
-- {"A": "doubtful.", "B": "enthusiastic.", "C": "confident.", "D": "puzzled."}
+- **A.** doubtful.
+- **B.** enthusiastic.
+- **C.** confident.
+- **D.** puzzled.
 
 **Correct answer:** A
 
@@ -84,4 +99,4 @@ Regarding Gilbert’s role in revitalizing the Philharmonic, the author feels
 
 作者在第五段提出了疑问，并指出仅仅扩大乐团的曲目是不够的。这表明作者对Gilbert在振兴爱乐乐团方面的作用持怀疑态度。
 
-<!-- q_id=2011-eng1-reading_a-q25; difficulty=3; score=2.0; tags="[\"sober-sided\", \"unpretentious\", \"formidable\", \"devoted\", \"repertoire\", \"markedly\", \"vibrant\"]" -->
+<!-- q_id=2011-eng1-reading_a-q25; difficulty=3; score=2.0; tags=["sober-sided", "unpretentious", "formidable", "devoted", "repertoire", "markedly", "vibrant"] -->

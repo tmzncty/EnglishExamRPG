@@ -24,7 +24,10 @@ We shall see whether that plurality is a casualty of the current need among publ
 
 The author mentions two books in Paragraph 1 to present
 
-- {"A": "an ongoing conflict.", "B": "an intellectual concept.", "C": "a prevailing sentiment.", "D": "a literary phenomenon."}
+- **A.** an ongoing conflict.
+- **B.** an intellectual concept.
+- **C.** a prevailing sentiment.
+- **D.** a literary phenomenon.
 
 **Correct answer:** A
 
@@ -32,13 +35,16 @@ The author mentions two books in Paragraph 1 to present
 
 第一段作者提到两本书是为了引出企鹅兰登书屋和Waterstones之间的冲突，这两本书都是企鹅兰登书屋出版的，但在Waterstones可能不容易找到，暗示了二者之间的矛盾。
 
-<!-- q_id=2023-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"stand-off\", \"retire\", \"plurality\", \"casualty\"]" -->
+<!-- q_id=2023-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["stand-off", "retire", "plurality", "casualty"] -->
 
 ### Question 32
 
 Why did Waterstones shops retire PRH books to their relevant sections?
 
-- {"A": "To make them easily noticeable.", "B": "To comply with PRH’s requirement.", "C": "To respond to PRH’s business move.", "D": "To arrange them in a systematic way."}
+- **A.** To make them easily noticeable.
+- **B.** To comply with PRH’s requirement.
+- **C.** To respond to PRH’s business move.
+- **D.** To arrange them in a systematic way.
 
 **Correct answer:** C
 
@@ -46,13 +52,16 @@ Why did Waterstones shops retire PRH books to their relevant sections?
 
 第二段指出，由于PRH设置了信用额度，Waterstones将PRH的书籍从显眼位置撤下，这是一种商业反制行为。
 
-<!-- q_id=2023-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"stand-off\", \"retire\", \"plurality\", \"casualty\"]" -->
+<!-- q_id=2023-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["stand-off", "retire", "plurality", "casualty"] -->
 
 ### Question 33
 
 What message does the spokesperson for Waterstones seem to convey?
 
-- {"A": "Their customers remain loyal.", "B": "The credit limit will be removed.", "C": "Their stock is underestimated.", "D": "The book market is rather slack."}
+- **A.** Their customers remain loyal.
+- **B.** The credit limit will be removed.
+- **C.** Their stock is underestimated.
+- **D.** The book market is rather slack.
 
 **Correct answer:** A
 
@@ -60,13 +69,16 @@ What message does the spokesperson for Waterstones seem to convey?
 
 第三段Waterstones的发言人表示，尽管面临PRH的信用限制，他们仍在尽力确保顾客的购买体验，并强调店铺生意兴隆，顾客依然忠诚。
 
-<!-- q_id=2023-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"stand-off\", \"retire\", \"plurality\", \"casualty\"]" -->
+<!-- q_id=2023-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["stand-off", "retire", "plurality", "casualty"] -->
 
 ### Question 34
 
 What can be one consequence of the current dispute?
 
-- {"A": "Sales of books by mid-list PRH writers fall off considerably.", "B": "Lesser-known PRH writers become the target of criticism.", "C": "Waterstones staff hesitate to promote big-name authors’ books.", "D": "Waterstones branches suffer a severe reduction in revenue."}
+- **A.** Sales of books by mid-list PRH writers fall off considerably.
+- **B.** Lesser-known PRH writers become the target of criticism.
+- **C.** Waterstones staff hesitate to promote big-name authors’ books.
+- **D.** Waterstones branches suffer a severe reduction in revenue.
 
 **Correct answer:** A
 
@@ -74,13 +86,16 @@ What can be one consequence of the current dispute?
 
 第四段指出，这场争端会使PRH的作者受损，尤其是那些依赖Waterstones员工推广的中等作者。
 
-<!-- q_id=2023-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"stand-off\", \"retire\", \"plurality\", \"casualty\"]" -->
+<!-- q_id=2023-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["stand-off", "retire", "plurality", "casualty"] -->
 
 ### Question 35
 
 Which of the following statements best represents Lownie’s view?
 
-- {"A": "Small publishers ought to stick together.", "B": "Big publishers will lose their dominance.", "C": "The publishing industry is having a hard time.", "D": "The merger of publishers is a worrying trend."}
+- **A.** Small publishers ought to stick together.
+- **B.** Big publishers will lose their dominance.
+- **C.** The publishing industry is having a hard time.
+- **D.** The merger of publishers is a worrying trend.
 
 **Correct answer:** D
 
@@ -88,4 +103,4 @@ Which of the following statements best represents Lownie’s view?
 
 第六段文学经纪人Andrew Lownie认为，出版业权力集中化是一个令人担忧的趋势，会降低竞争，减少出版的多样性。
 
-<!-- q_id=2023-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"stand-off\", \"retire\", \"plurality\", \"casualty\"]" -->
+<!-- q_id=2023-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["stand-off", "retire", "plurality", "casualty"] -->

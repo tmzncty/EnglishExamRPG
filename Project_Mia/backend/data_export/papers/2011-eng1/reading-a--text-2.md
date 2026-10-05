@@ -22,7 +22,10 @@ Many recruiters say the old disgrace is fading for top performers. The financial
 
 When McGee announced his departure, his manner can best be described as being
 
-- {"A": "arrogant.", "B": "frank.", "C": "self-centered.", "D": "impulsive."}
+- **A.** arrogant.
+- **B.** frank.
+- **C.** self-centered.
+- **D.** impulsive.
 
 **Correct answer:** B
 
@@ -30,13 +33,16 @@ When McGee announced his departure, his manner can best be described as being
 
 首段前三句对麦基离职的说辞进行评价∶令人吃惊的坦率直接、与人们（此处尤指高管）通常做法不同的是，麦基直截了当表明自己辞职的理由，且将该理由公之于众，可见麦基辞职时的态度为坦率的,【B】正确。
 
-<!-- q_id=2011-eng1-reading_a-q26; difficulty=3; score=2.0; tags="[\"straight up\", \"vague\", \"poached\"]" -->
+<!-- q_id=2011-eng1-reading_a-q26; difficulty=3; score=2.0; tags=["straight up", "vague", "poached"] -->
 
 ### Question 27
 
 According to Paragraph 2, senior executives’ quitting may be spurred by
 
-- {"A": "their expectation of better financial status.", "B": "their need to reflect on their private life.", "C": "their strained relations with the boards.", "D": "their pursuit of new career goals."}
+- **A.** their expectation of better financial status.
+- **B.** their need to reflect on their private life.
+- **C.** their strained relations with the boards.
+- **D.** their pursuit of new career goals.
 
 **Correct answer:** D
 
@@ -44,13 +50,16 @@ According to Paragraph 2, senior executives’ quitting may be spurred by
 
 第二段主要分析了高管裸辞的原因∶麦基裸辞为了实现"管理一家公司"的职业目标，雅芳公司和美国运通公司二号高管为追求 CEO）职位而辞职，还有一些高管因继任计划未获董事会首肯而希望换份工作进一步发展。归纳便是∶高管裸辞主要由于想要"追求新的职业目标"，D】正确。
 
-<!-- q_id=2011-eng1-reading_a-q27; difficulty=3; score=2.0; tags="[\"straight up\", \"vague\", \"poached\"]" -->
+<!-- q_id=2011-eng1-reading_a-q27; difficulty=3; score=2.0; tags=["straight up", "vague", "poached"] -->
 
 ### Question 28
 
 The word “poached” (Line 3, Paragraph 4) most probably means
 
-- {"A": "approved of.", "B": "attended to.", "C": "hunted for.", "D": "guarded against."}
+- **A.** approved of.
+- **B.** attended to.
+- **C.** hunted for.
+- **D.** guarded against.
 
 **Correct answer:** C
 
@@ -58,13 +67,16 @@ The word “poached” (Line 3, Paragraph 4) most probably means
 
 被考词所在句上文（①句）点出段落要点∶为寻找更好职位而辞掉高级职位，这不符合惯例;所在句（②句）解释道∶多年来，高管和猎头们都遵循这样的规则∶最有吸引力的 CEO 是那些……;下文（③句）引证招聘者之言说明∶每一次人才搜寻工作，董事会都会要他从在任 CEO 中物色。纵观选项，唯有【C】"寻找"符合上下文所透露的语义∶人才搜寻。
 
-<!-- q_id=2011-eng1-reading_a-q28; difficulty=3; score=2.0; tags="[\"straight up\", \"vague\", \"poached\"]" -->
+<!-- q_id=2011-eng1-reading_a-q28; difficulty=3; score=2.0; tags=["straight up", "vague", "poached"] -->
 
 ### Question 29
 
 It can be inferred from the last paragraph that
 
-- {"A": "top performers used to cling to their posts.", "B": "loyalty of top performers is getting out-dated.", "C": "top performers care more about reputations.", "D": "it’s safer to stick to the traditional rules."}
+- **A.** top performers used to cling to their posts.
+- **B.** loyalty of top performers is getting out-dated.
+- **C.** top performers care more about reputations.
+- **D.** it’s safer to stick to the traditional rules.
 
 **Correct answer:** A
 
@@ -72,13 +84,16 @@ It can be inferred from the last paragraph that
 
 末段③句指出高端职场传统规则∶不挪窝更保险，原地不动最安全;换而言之，过去高级职员们常常坚守其职。【A】为正确选项。线索词：The traditional rule was it's safer to stay where you are.
 
-<!-- q_id=2011-eng1-reading_a-q29; difficulty=3; score=2.0; tags="[\"straight up\", \"vague\", \"poached\"]" -->
+<!-- q_id=2011-eng1-reading_a-q29; difficulty=3; score=2.0; tags=["straight up", "vague", "poached"] -->
 
 ### Question 30
 
 Which of the following is the best title for the text?
 
-- {"A": "CEOs: Where to Go?", "B": "CEOs: All the Way Up?", "C": "Top Managers Jump without a Net", "D": "The Only Way Out for Top Performers"}
+- **A.** CEOs: Where to Go?
+- **B.** CEOs: All the Way Up?
+- **C.** Top Managers Jump without a Net
+- **D.** The Only Way Out for Top Performers
 
 **Correct answer:** C
 
@@ -86,4 +101,4 @@ Which of the following is the best title for the text?
 
 首段介绍具体事例∶美国银行总裁高调裸辞;第二、三段借分析高管裸辞的内外在原因说明这一现象的普遍性;第四至六段总评该现象∶曾经是少有现象，如今更可接受、更加普遍。可见，全文都围绕着"高管裸辞"展开论述，并且"高管"和"裸辞"这两个主题关键词在文中反复出现，故【C】正确。
 
-<!-- q_id=2011-eng1-reading_a-q30; difficulty=3; score=2.0; tags="[\"straight up\", \"vague\", \"poached\"]" -->
+<!-- q_id=2011-eng1-reading_a-q30; difficulty=3; score=2.0; tags=["straight up", "vague", "poached"] -->

@@ -22,7 +22,10 @@ Researchers admit that their study does not answer the question of how much busi
 
 The author views Milton Friedman’s statement about CSR with
 
-- {"A": "tolerance.", "B": "skepticism.", "C": "approval.", "D": "uncertainty."}
+- **A.** tolerance.
+- **B.** skepticism.
+- **C.** approval.
+- **D.** uncertainty.
 
 **Correct answer:** B
 
@@ -30,13 +33,16 @@ The author views Milton Friedman’s statement about CSR with
 
 作者虽然引用了弗里德曼的观点，但随后提出了新的研究，表明CSR可能对公司产生积极影响，暗示作者对弗里德曼的观点持怀疑态度。
 
-<!-- q_id=2016-eng1-reading_a-q31; difficulty=3; score=2.0; tags="[\"premise\", \"clear-cut\", \"diffuse\", \"leniency\", \"merits\"]" -->
+<!-- q_id=2016-eng1-reading_a-q31; difficulty=3; score=2.0; tags=["premise", "clear-cut", "diffuse", "leniency", "merits"] -->
 
 ### Question 32
 
 According to Paragraph 2, CSR helps a company by
 
-- {"A": "guarding it against malpractices.", "B": "protecting it from being defamed.", "C": "winning trust from consumers.", "D": "raising the quality of its products."}
+- **A.** guarding it against malpractices.
+- **B.** protecting it from being defamed.
+- **C.** winning trust from consumers.
+- **D.** raising the quality of its products.
 
 **Correct answer:** C
 
@@ -44,13 +50,16 @@ According to Paragraph 2, CSR helps a company by
 
 第二段提到CSR可以通过提高产品质量的“信号”、顾客的间接捐赠意愿以及“光环效应”来帮助公司，这些都与赢得消费者信任有关。
 
-<!-- q_id=2016-eng1-reading_a-q32; difficulty=3; score=2.0; tags="[\"premise\", \"clear-cut\", \"diffuse\", \"leniency\", \"merits\"]" -->
+<!-- q_id=2016-eng1-reading_a-q32; difficulty=3; score=2.0; tags=["premise", "clear-cut", "diffuse", "leniency", "merits"] -->
 
 ### Question 33
 
 The expression “more lenient” (Para.4) is closest in meaning to
 
-- {"A": "less controversial.", "B": "more effective.", "C": "more lasting.", "D": "less severe."}
+- **A.** less controversial.
+- **B.** more effective.
+- **C.** more lasting.
+- **D.** less severe.
 
 **Correct answer:** D
 
@@ -58,13 +67,16 @@ The expression “more lenient” (Para.4) is closest in meaning to
 
 “more lenient penalties”指的是更宽大的处罚，也就是处罚更轻，因此less severe与之意思最接近。
 
-<!-- q_id=2016-eng1-reading_a-q33; difficulty=3; score=2.0; tags="[\"premise\", \"clear-cut\", \"diffuse\", \"leniency\", \"merits\"]" -->
+<!-- q_id=2016-eng1-reading_a-q33; difficulty=3; score=2.0; tags=["premise", "clear-cut", "diffuse", "leniency", "merits"] -->
 
 ### Question 34
 
 When prosecutors evaluate a case, a company’s CSR record
 
-- {"A": "has an impact on their decision.", "B": "comes across as reliable evidence.", "C": "increases the chance of being penalized.", "D": "constitutes part of the investigation."}
+- **A.** has an impact on their decision.
+- **B.** comes across as reliable evidence.
+- **C.** increases the chance of being penalized.
+- **D.** constitutes part of the investigation.
 
 **Correct answer:** A
 
@@ -72,13 +84,16 @@ When prosecutors evaluate a case, a company’s CSR record
 
 第五段指出，研究表明检察官在评估案件时，似乎会受到公司CSR记录的影响，尽管他们应该只基于案件事实进行评估。
 
-<!-- q_id=2016-eng1-reading_a-q34; difficulty=3; score=2.0; tags="[\"premise\", \"clear-cut\", \"diffuse\", \"leniency\", \"merits\"]" -->
+<!-- q_id=2016-eng1-reading_a-q34; difficulty=3; score=2.0; tags=["premise", "clear-cut", "diffuse", "leniency", "merits"] -->
 
 ### Question 35
 
 Which of the following is true of CSR, according to the last paragraph?
 
-- {"A": "Its negative effects on businesses are often overlooked.", "B": "The necessary amount of companies’ spending on it is unknown.", "C": "Companies’ financial capacity for it has been overestimated.", "D": "It has brought much benefit to the banking industry."}
+- **A.** Its negative effects on businesses are often overlooked.
+- **B.** The necessary amount of companies’ spending on it is unknown.
+- **C.** Companies’ financial capacity for it has been overestimated.
+- **D.** It has brought much benefit to the banking industry.
 
 **Correct answer:** B
 
@@ -86,4 +101,4 @@ Which of the following is true of CSR, according to the last paragraph?
 
 最后一段指出，研究人员承认他们的研究并没有回答企业应该在CSR上花费多少钱这个问题。
 
-<!-- q_id=2016-eng1-reading_a-q35; difficulty=3; score=2.0; tags="[\"premise\", \"clear-cut\", \"diffuse\", \"leniency\", \"merits\"]" -->
+<!-- q_id=2016-eng1-reading_a-q35; difficulty=3; score=2.0; tags=["premise", "clear-cut", "diffuse", "leniency", "merits"] -->
