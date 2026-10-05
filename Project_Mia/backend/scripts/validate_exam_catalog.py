@@ -71,6 +71,28 @@ def main() -> int:
         if test_count:
             errors.append(f"committed catalog still contains {test_count} Test paper(s)")
 
+        orphan_rows = conn.execute(
+            """
+            SELECT q.q_id, q.paper_id
+            FROM questions q
+            LEFT JOIN papers p ON p.paper_id = q.paper_id
+            WHERE p.paper_id IS NULL
+            ORDER BY q.q_id
+            """
+        ).fetchall()
+        if orphan_rows:
+            errors.append(
+                "orphan questions without parent paper: "
+                + ", ".join(f"{row['q_id']} ({row['paper_id']})" for row in orphan_rows)
+            )
+
+        total_questions = conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
+        expected_total = len(papers) * 52
+        if total_questions != expected_total:
+            errors.append(
+                f"catalog question total {total_questions} != expected {expected_total}"
+            )
+
         for paper in papers:
             paper_id = paper["paper_id"]
             qs = conn.execute(
@@ -148,7 +170,10 @@ def main() -> int:
             print(f"FAILED: {len(errors)} error(s), {len(warnings)} warning(s)")
             return 1
 
-        print(f"PASS: {len(papers)} English I papers, 2010–2026, structurally clean")
+        print(
+            f"PASS: {len(papers)} English I papers, {total_questions} questions, "
+            "2010–2026, structurally clean"
+        )
         if warnings:
             print(f"Warnings: {len(warnings)}")
         return 0
