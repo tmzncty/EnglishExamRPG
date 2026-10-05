@@ -68,11 +68,32 @@ def main() -> int:
             for row in conn.execute("SELECT paper_id FROM papers WHERE lower(COALESCE(exam_type, ''))='test'")
         ]
         for paper_id in test_papers:
+            q_count = conn.execute(
+                "SELECT COUNT(*) FROM questions WHERE paper_id=?", (paper_id,)
+            ).fetchone()[0]
             conn.execute("DELETE FROM questions WHERE paper_id=?", (paper_id,))
             conn.execute("DELETE FROM papers WHERE paper_id=?", (paper_id,))
-            changed += 1
+            changed += q_count + 1
 
-        conn.commit()
+        # Legacy manual test scripts left a few question rows after their Paper row
+        # was removed. A question with no parent Paper is unusable by the app and
+        # should never be part of the committed catalog/export.
+        orphans = conn.execute(
+            """
+            SELECT q.q_id, q.paper_id
+            FROM questions q
+            LEFT JOIN papers p ON p.paper_id = q.paper_id
+            WHERE p.paper_id IS NULL
+            ORDER BY q.q_id
+            """
+        ).fetchall()
+        if orphans:
+            print("Removing orphan questions: " + ", ".join(f"{q_id} ({paper_id})" for q_id, paper_id in orphans))
+            conn.executemany("DELETE FROM questions WHERE q_id=?", [(row[0],) for row in orphans])
+            changed += len(orphans)
+
+        if changed:
+            conn.commit()
         print(f"Normalized exam storage; changed units: {changed}")
         return 0
     finally:
