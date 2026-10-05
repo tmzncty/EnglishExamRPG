@@ -24,7 +24,10 @@ The most loyal customers would still get the product they favor, the idea goes, 
 
 The New York Times is considering ending its print edition partly due to
 
-- {"A": "the high cost of operation.", "B": "the increasing online ad sales.", "C": "the pressure from its investors.", "D": "the complaints from its readers."}
+- **A.** the high cost of operation.
+- **B.** the increasing online ad sales.
+- **C.** the pressure from its investors.
+- **D.** the complaints from its readers.
 
 **Correct answer:** A
 
@@ -38,7 +41,10 @@ The New York Times is considering ending its print edition partly due to
 
 Peretti suggests that, in face of the present situation, the Times should
 
-- {"A": "end the print edition for good.", "B": "make strategic adjustments.", "C": "seek new sources of readership.", "D": "aim for efficient management."}
+- **A.** end the print edition for good.
+- **B.** make strategic adjustments.
+- **C.** seek new sources of readership.
+- **D.** aim for efficient management.
 
 **Correct answer:** B
 
@@ -52,7 +58,10 @@ Peretti suggests that, in face of the present situation, the Times should
 
 It can be inferred from Paragraphs 5 and 6 that a “legacy product”
 
-- {"A": "helps restore the glory of former times.", "B": "is meant for the most loyal customers.", "C": "will have the cost of printing reduced.", "D": "expands the popularity of the paper."}
+- **A.** helps restore the glory of former times.
+- **B.** is meant for the most loyal customers.
+- **C.** will have the cost of printing reduced.
+- **D.** expands the popularity of the paper.
 
 **Correct answer:** B
 
@@ -66,7 +75,10 @@ It can be inferred from Paragraphs 5 and 6 that a “legacy product”
 
 Peretti believes that, in a changing world,
 
-- {"A": "traditional luxuries can stay unaffected.", "B": "cautiousness facilitates problem-solving.", "C": "aggressiveness better meets challenges.", "D": "legacy businesses are becoming outdated."}
+- **A.** traditional luxuries can stay unaffected.
+- **B.** cautiousness facilitates problem-solving.
+- **C.** aggressiveness better meets challenges.
+- **D.** legacy businesses are becoming outdated.
 
 **Correct answer:** C
 
@@ -80,7 +92,10 @@ Peretti believes that, in a changing world,
 
 Which of the following would be the best title of the text?
 
-- {"A": "Shift to Online Newspapers All at Once", "B": "Make Your Print Newspaper a Luxury Good", "C": "Keep Your Newspapers Forever in Fashion", "D": "Cherish the Newspaper Still in Your Hand"}
+- **A.** Shift to Online Newspapers All at Once
+- **B.** Make Your Print Newspaper a Luxury Good
+- **C.** Keep Your Newspapers Forever in Fashion
+- **D.** Cherish the Newspaper Still in Your Hand
 
 **Correct answer:** B
 

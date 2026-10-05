@@ -26,7 +26,10 @@ Across the Tasman Sea, Australia deals with the unjustified dismissal paradox by
 
 The personal grievance provisions of the ERA are intended to
 
-- {"A": "punish dubious corporate practices.", "B": "improve traditional hiring procedures.", "C": "exempt employers from certain duties.", "D": "protect the rights of ordinary workers."}
+- **A.** punish dubious corporate practices.
+- **B.** improve traditional hiring procedures.
+- **C.** exempt employers from certain duties.
+- **D.** protect the rights of ordinary workers.
 
 **Correct answer:** D
 
@@ -40,7 +43,10 @@ The personal grievance provisions of the ERA are intended to
 
 It can be learned from Paragraph 3 that the provisions may
 
-- {"A": "hinder business development.", "B": "undermine managers’ authority.", "C": "affect the public image of the firms.", "D": "worsen labor-management relations."}
+- **A.** hinder business development.
+- **B.** undermine managers’ authority.
+- **C.** affect the public image of the firms.
+- **D.** worsen labor-management relations.
 
 **Correct answer:** A
 
@@ -54,7 +60,10 @@ It can be learned from Paragraph 3 that the provisions may
 
 Which of the following measures would the Productivity Commission support?
 
-- {"A": "Imposing reasonable wage restraints.", "B": "Enforcing employment protection laws.", "C": "Limiting the powers of business owners.", "D": "Dismissing poorly performing managers."}
+- **A.** Imposing reasonable wage restraints.
+- **B.** Enforcing employment protection laws.
+- **C.** Limiting the powers of business owners.
+- **D.** Dismissing poorly performing managers.
 
 **Correct answer:** D
 
@@ -68,7 +77,10 @@ Which of the following measures would the Productivity Commission support?
 
 What might be an effect of ERA’s unjustified dismissal procedures?
 
-- {"A": "Highly paid managers lose their jobs.", "B": "Employees suffer from salary cuts.", "C": "Society sees a rise in overall well-being.", "D": "Employers need to hire new staff."}
+- **A.** Highly paid managers lose their jobs.
+- **B.** Employees suffer from salary cuts.
+- **C.** Society sees a rise in overall well-being.
+- **D.** Employers need to hire new staff.
 
 **Correct answer:** B
 
@@ -82,7 +94,10 @@ What might be an effect of ERA’s unjustified dismissal procedures?
 
 It can be inferred that the “high-income threshold” in Australia
 
-- {"A": "has secured managers’ earnings.", "B": "has produced undesired results.", "C": "is beneficial to business owners.", "D": "is difficult to put into practice"}
+- **A.** has secured managers’ earnings.
+- **B.** has produced undesired results.
+- **C.** is beneficial to business owners.
+- **D.** is difficult to put into practice
 
 **Correct answer:** C
 

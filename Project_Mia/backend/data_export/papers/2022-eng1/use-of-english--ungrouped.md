@@ -20,7 +20,10 @@ And what’s so great about consciousness, anyway? Plants can’t run away from 
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "coined", "B": "discovered", "C": "collected", "D": "issued"}
+- **A.** coined
+- **B.** discovered
+- **C.** collected
+- **D.** issued
 
 **Correct answer:** A
 
@@ -34,7 +37,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "attributed", "B": "directed", "C": "compared", "D": "confined"}
+- **A.** attributed
+- **B.** directed
+- **C.** compared
+- **D.** confined
 
 **Correct answer:** C
 
@@ -48,7 +54,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "Unless", "B": "When", "C": "Once", "D": "Though"}
+- **A.** Unless
+- **B.** When
+- **C.** Once
+- **D.** Though
 
 **Correct answer:** D
 
@@ -62,7 +71,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "coped with", "B": "consisted of", "C": "hinted at", "D": "extended to"}
+- **A.** coped with
+- **B.** consisted of
+- **C.** hinted at
+- **D.** extended to
 
 **Correct answer:** C
 
@@ -76,7 +88,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "suffers", "B": "benefits", "C": "develops", "D": "differs"}
+- **A.** suffers
+- **B.** benefits
+- **C.** develops
+- **D.** differs
 
 **Correct answer:** D
 
@@ -90,7 +105,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "acceptance", "B": "evidence", "C": "cultivation", "D": "creation"}
+- **A.** acceptance
+- **B.** evidence
+- **C.** cultivation
+- **D.** creation
 
 **Correct answer:** B
 
@@ -104,7 +122,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "doubted", "B": "denied", "C": "argued", "D": "requested"}
+- **A.** doubted
+- **B.** denied
+- **C.** argued
+- **D.** requested
 
 **Correct answer:** C
 
@@ -118,7 +139,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "adapting", "B": "forming", "C": "repairing", "D": "testing"}
+- **A.** adapting
+- **B.** forming
+- **C.** repairing
+- **D.** testing
 
 **Correct answer:** B
 
@@ -132,7 +156,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "analogous", "B": "essential", "C": "suitable", "D": "sensitive"}
+- **A.** analogous
+- **B.** essential
+- **C.** suitable
+- **D.** sensitive
 
 **Correct answer:** A
 
@@ -146,7 +173,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "just", "B": "ever", "C": "still", "D": "even"}
+- **A.** just
+- **B.** ever
+- **C.** still
+- **D.** even
 
 **Correct answer:** D
 
@@ -160,7 +190,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "restriction", "B": "experiment", "C": "perspective", "D": "demand"}
+- **A.** restriction
+- **B.** experiment
+- **C.** perspective
+- **D.** demand
 
 **Correct answer:** C
 
@@ -174,7 +207,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "attaching", "B": "reducing", "C": "returning", "D": "exposing"}
+- **A.** attaching
+- **B.** reducing
+- **C.** returning
+- **D.** exposing
 
 **Correct answer:** B
 
@@ -188,7 +224,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "However", "B": "Moreover", "C": "Therefore", "D": "Otherwise"}
+- **A.** However
+- **B.** Moreover
+- **C.** Therefore
+- **D.** Otherwise
 
 **Correct answer:** A
 
@@ -202,7 +241,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "temporarily", "B": "literally", "C": "superficially", "D": "imaginarily"}
+- **A.** temporarily
+- **B.** literally
+- **C.** superficially
+- **D.** imaginarily
 
 **Correct answer:** C
 
@@ -216,7 +258,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "list", "B": "level", "C": "label", "D": "load"}
+- **A.** list
+- **B.** level
+- **C.** label
+- **D.** load
 
 **Correct answer:** B
 
@@ -230,7 +275,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "recalled", "B": "agreed", "C": "questioned", "D": "added"}
+- **A.** recalled
+- **B.** agreed
+- **C.** questioned
+- **D.** added
 
 **Correct answer:** D
 
@@ -244,7 +292,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "chances", "B": "risks", "C": "excuses", "D": "assumptions"}
+- **A.** chances
+- **B.** risks
+- **C.** excuses
+- **D.** assumptions
 
 **Correct answer:** A
 
@@ -258,7 +309,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "danger", "B": "failure", "C": "warning", "D": "control"}
+- **A.** danger
+- **B.** failure
+- **C.** warning
+- **D.** control
 
 **Correct answer:** A
 
@@ -272,7 +326,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "represents", "B": "includes", "C": "reveals", "D": "recognizes"}
+- **A.** represents
+- **B.** includes
+- **C.** reveals
+- **D.** recognizes
 
 **Correct answer:** D
 
@@ -286,7 +343,10 @@ Read the following text. Choose the best word(s) for each numbered blank and mar
 
 Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "humble", "B": "poor", "C": "practical", "D": "easy"}
+- **A.** humble
+- **B.** poor
+- **C.** practical
+- **D.** easy
 
 **Correct answer:** B
 

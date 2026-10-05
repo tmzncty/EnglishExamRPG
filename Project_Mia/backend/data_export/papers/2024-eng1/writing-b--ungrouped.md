@@ -35,6 +35,6 @@ In my opinion, it is important to build more parks in cities. A higher number of
 2. 从不同角度（如身体、心理）分析公园的重要性。
 3. 提出建议，升华主题。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2024-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2024-eng1-writing_b-q52; difficulty=3; score=20.0 -->

@@ -22,7 +22,10 @@ Consulting   firm   Parks   Associates   predicts   that    legitimate   US stre
 
 According to Paragraph 1,legitimate streaming services
 
-- {"A": "have drawn lessons from Hollywood", "B": "have surpassed cable in revenue", "C": "are unpopular with advertisers", "D": "are confronted with a real threat"}
+- **A.** have drawn lessons from Hollywood
+- **B.** have surpassed cable in revenue
+- **C.** are unpopular with advertisers
+- **D.** are confronted with a real threat
 
 **Correct answer:** D
 
@@ -36,7 +39,10 @@ According to Paragraph 1,legitimate streaming services
 
 It can be learned that streamers like Netpix
 
-- {"A": "played a part in the fight against illegal file-sharing", "B": "reaped benefits from the war with digital pirates", "C": "promised to become big job creators in the US", "D": "used to collaborate with file uploading platforms"}
+- **A.** played a part in the fight against illegal file-sharing
+- **B.** reaped benefits from the war with digital pirates
+- **C.** promised to become big job creators in the US
+- **D.** used to collaborate with file uploading platforms
 
 **Correct answer:** A
 
@@ -50,7 +56,10 @@ It can be learned that streamers like Netpix
 
 It can be inferred from paragraph 4 that the MPA
 
-- {"A": "was denied cooperation by silicon valley", "B": "led a national protest against online piracy", "C": "was urged to from an enforcement task force", "D": "failed to win support from local authorities"}
+- **A.** was denied cooperation by silicon valley
+- **B.** led a national protest against online piracy
+- **C.** was urged to from an enforcement task force
+- **D.** failed to win support from local authorities
 
 **Correct answer:** A
 
@@ -64,7 +73,10 @@ It can be inferred from paragraph 4 that the MPA
 
 According to Hawley,digital piracy:
 
-- {"A": "cannot be checked in spite of new legislation", "B": "will possibly overwhelm legitimate streamers", "C": "is unlikely to diminish in the near future", "D": "has been underestimated by some analysts"}
+- **A.** cannot be checked in spite of new legislation
+- **B.** will possibly overwhelm legitimate streamers
+- **C.** is unlikely to diminish in the near future
+- **D.** has been underestimated by some analysts
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ According to Hawley,digital piracy:
 
 Which of the following is emphasized in the text?
 
-- {"A": "The need to coordinate anti-piracy action", "B": "The criminal nature of copyright violation", "C": "The prospect of eliminating online piracy", "D": "The economic harm from illegal streaming"}
+- **A.** The need to coordinate anti-piracy action
+- **B.** The criminal nature of copyright violation
+- **C.** The prospect of eliminating online piracy
+- **D.** The economic harm from illegal streaming
 
 **Correct answer:** D
 

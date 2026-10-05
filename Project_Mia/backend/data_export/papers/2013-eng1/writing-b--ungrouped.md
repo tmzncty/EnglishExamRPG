@@ -27,6 +27,6 @@ From my perspective, the most important thing is to choose a path that aligns wi
 
 本范文首先简要描述了图画的内容，然后解释了图画所蕴含的意义，即大学毕业生面临多种选择。最后，提出了自己的看法，认为选择应该与个人的兴趣、技能和长期目标相符。范文结构清晰，语言流畅，表达准确，符合题目要求。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2013-eng1-writing_b-q52.png)
 
 <!-- q_id=2013-eng1-writing_b-q52; difficulty=3; score=20.0 -->

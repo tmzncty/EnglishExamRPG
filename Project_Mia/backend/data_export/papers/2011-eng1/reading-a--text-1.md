@@ -20,7 +20,10 @@ One possible response is for classical performers to program attractive new musi
 
 We learn from Paragraph 1 that Gilbert’s appointment has
 
-- {"A": "incurred criticism.", "B": "raised suspicion.", "C": "received acclaim.", "D": "aroused curiosity."}
+- **A.** incurred criticism.
+- **B.** raised suspicion.
+- **C.** received acclaim.
+- **D.** aroused curiosity.
 
 **Correct answer:** C
 
@@ -34,7 +37,10 @@ We learn from Paragraph 1 that Gilbert’s appointment has
 
 Tommasini regards Gilbert as an artist who is
 
-- {"A": "influential.", "B": "modest.", "C": "respectable.", "D": "talented."}
+- **A.** influential.
+- **B.** modest.
+- **C.** respectable.
+- **D.** talented.
 
 **Correct answer:** B
 
@@ -48,7 +54,10 @@ Tommasini regards Gilbert as an artist who is
 
 The author believes that the devoted concertgoers
 
-- {"A": "ignore the expenses of live performances.", "B": "reject most kinds of recorded performances.", "C": "exaggerate the variety of live performances.", "D": "overestimate the value of live performances."}
+- **A.** ignore the expenses of live performances.
+- **B.** reject most kinds of recorded performances.
+- **C.** exaggerate the variety of live performances.
+- **D.** overestimate the value of live performances.
 
 **Correct answer:** D
 
@@ -62,7 +71,10 @@ The author believes that the devoted concertgoers
 
 According to the text, which of the following is true of recordings?
 
-- {"A": "They are often inferior to live concerts in quality.", "B": "They are easily accessible to the general public.", "C": "They help improve the quality of music.", "D": "They have only covered masterpieces."}
+- **A.** They are often inferior to live concerts in quality.
+- **B.** They are easily accessible to the general public.
+- **C.** They help improve the quality of music.
+- **D.** They have only covered masterpieces.
 
 **Correct answer:** B
 
@@ -76,7 +88,10 @@ According to the text, which of the following is true of recordings?
 
 Regarding Gilbert’s role in revitalizing the Philharmonic, the author feels
 
-- {"A": "doubtful.", "B": "enthusiastic.", "C": "confident.", "D": "puzzled."}
+- **A.** doubtful.
+- **B.** enthusiastic.
+- **C.** confident.
+- **D.** puzzled.
 
 **Correct answer:** A
 

@@ -20,7 +20,10 @@ And so we would call on state lawmakers from Richmond to Albany to consider revi
 
 The Chesapeake Bay is described in Paragraph 1 as
 
-- {"A": "a valuable natural environment", "B": "a controversial conservation area", "C": "a place with commercial potential", "D": "a headache for nearby communities"}
+- **A.** a valuable natural environment
+- **B.** a controversial conservation area
+- **C.** a place with commercial potential
+- **D.** a headache for nearby communities
 
 **Correct answer:** A
 
@@ -34,7 +37,10 @@ The Chesapeake Bay is described in Paragraph 1 as
 
 The U.S.Supreme Court's ruling in the Idaho case
 
-- {"A": "reinforces water pollution control", "B": "weakens the EPA's regulatory power", "C": "will end conflicts among local residents", "D": "may face opposition from mining operators"}
+- **A.** reinforces water pollution control
+- **B.** weakens the EPA's regulatory power
+- **C.** will end conflicts among local residents
+- **D.** may face opposition from mining operators
 
 **Correct answer:** B
 
@@ -48,7 +54,10 @@ The U.S.Supreme Court's ruling in the Idaho case
 
 How does the author feel about the future of the Chesapeake Bay?
 
-- {"A": "Worried.", "B": "Puzzled.", "C": "Relieved.", "D": "Encouraged."}
+- **A.** Worried.
+- **B.** Puzzled.
+- **C.** Relieved.
+- **D.** Encouraged.
 
 **Correct answer:** A
 
@@ -62,7 +71,10 @@ How does the author feel about the future of the Chesapeake Bay?
 
 What can be inferred about the EPA's involvement in the Chesapeake Bay Program?
 
-- {"A": "It has restored the balance among neighboring jurisdictions.", "B": "It has triggered a radical reform in commercial fisheries.", "C": "It has set a fine example of respecting state authorities.", "D": "It has ensured the coordination of protection efforts."}
+- **A.** It has restored the balance among neighboring jurisdictions.
+- **B.** It has triggered a radical reform in commercial fisheries.
+- **C.** It has set a fine example of respecting state authorities.
+- **D.** It has ensured the coordination of protection efforts.
 
 **Correct answer:** D
 
@@ -76,7 +88,10 @@ What can be inferred about the EPA's involvement in the Chesapeake Bay Program?
 
 The author holds that the state lawmakers should
 
-- {"A": "be cautious about the influence of land owners", "B": "attach due importance to wetlands protections", "C": "recognize the need to expand wildlife refuges", "D": "improve the wellbeing of endangered species"}
+- **A.** be cautious about the influence of land owners
+- **B.** attach due importance to wetlands protections
+- **C.** recognize the need to expand wildlife refuges
+- **D.** improve the wellbeing of endangered species
 
 **Correct answer:** B
 

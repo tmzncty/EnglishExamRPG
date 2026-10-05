@@ -24,7 +24,10 @@ John Donahue at Harvard’s Kennedy School points out that the norms of culture 
 
 It can be learned from the first paragraph that
 
-- {"A": "Teamsters still have a large body of members.", "B": "Jimmy Hoffa used to work as a civil servant.", "C": "unions have enlarged their public-sector membership.", "D": "the government has improved its relationship with unionists."}
+- **A.** Teamsters still have a large body of members.
+- **B.** Jimmy Hoffa used to work as a civil servant.
+- **C.** unions have enlarged their public-sector membership.
+- **D.** the government has improved its relationship with unionists.
 
 **Correct answer:** C
 
@@ -38,7 +41,10 @@ It can be learned from the first paragraph that
 
 Which of the following is true of Paragraph 2?
 
-- {"A": "Public-sector unions are prudent in taking actions.", "B": "Education is required for public-sector union membership.", "C": "Labor Party has long been fighting against public-sector unions.", "D": "Public-sector unions seldom get in trouble for their actions."}
+- **A.** Public-sector unions are prudent in taking actions.
+- **B.** Education is required for public-sector union membership.
+- **C.** Labor Party has long been fighting against public-sector unions.
+- **D.** Public-sector unions seldom get in trouble for their actions.
 
 **Correct answer:** A
 
@@ -52,7 +58,10 @@ Which of the following is true of Paragraph 2?
 
 It can be learned from Paragraph 4 that the income in the state sector is
 
-- {"A": "illegally secured.", "B": "indirectly augmented.", "C": "excessively increased.", "D": "fairly adjusted."}
+- **A.** illegally secured.
+- **B.** indirectly augmented.
+- **C.** excessively increased.
+- **D.** fairly adjusted.
 
 **Correct answer:** B
 
@@ -66,7 +75,10 @@ It can be learned from Paragraph 4 that the income in the state sector is
 
 The example of the unions in Wisconsin shows that unions
 
-- {"A": "often run against the current political system.", "B": "can change people’s political attitudes.", "C": "may be a barrier to public-sector reforms.", "D": "are dominant in the government."}
+- **A.** often run against the current political system.
+- **B.** can change people’s political attitudes.
+- **C.** may be a barrier to public-sector reforms.
+- **D.** are dominant in the government.
 
 **Correct answer:** C
 
@@ -80,7 +92,10 @@ The example of the unions in Wisconsin shows that unions
 
 John Donahue’s attitude towards the public-sector system is one of
 
-- {"A": "disapproval.", "B": "appreciation.", "C": "tolerance.", "D": "indifference."}
+- **A.** disapproval.
+- **B.** appreciation.
+- **C.** tolerance.
+- **D.** indifference.
 
 **Correct answer:** A
 

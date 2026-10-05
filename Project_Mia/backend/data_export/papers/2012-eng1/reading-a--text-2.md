@@ -22,7 +22,10 @@ The company seems to have concluded that its reputation in Vermont is already so
 
 The phrase “reneging on” (Line 3, Para. 1) is closest in meaning to
 
-- {"A": "condemning.", "B": "reaffirming.", "C": "dishonoring.", "D": "securing."}
+- **A.** condemning.
+- **B.** reaffirming.
+- **C.** dishonoring.
+- **D.** securing.
 
 **Correct answer:** C
 
@@ -36,7 +39,10 @@ reneging on意为“违背，放弃”，与dishonoring“不尊重，违背”�
 
 By entering into the 2002 agreement, Entergy intended to
 
-- {"A": "obtain protection from Vermont regulators.", "B": "seek favor from the federal legislature.", "C": "acquire an extension of its business license.", "D": "get permission to purchase a power plant."}
+- **A.** obtain protection from Vermont regulators.
+- **B.** seek favor from the federal legislature.
+- **C.** acquire an extension of its business license.
+- **D.** get permission to purchase a power plant.
 
 **Correct answer:** D
 
@@ -50,7 +56,10 @@ By entering into the 2002 agreement, Entergy intended to
 
 According to Paragraph 4, Entergy seems to have problems with its
 
-- {"A": "managerial practices.", "B": "technical innovativeness.", "C": "financial goals.", "D": "business vision."}
+- **A.** managerial practices.
+- **B.** technical innovativeness.
+- **C.** financial goals.
+- **D.** business vision.
 
 **Correct answer:** A
 
@@ -64,7 +73,10 @@ According to Paragraph 4, Entergy seems to have problems with its
 
 In the author’s view, the Vermont case will test
 
-- {"A": "Entergy’s capacity to fulfill all its promises.", "B": "the nature of states’ patchwork regulations.", "C": "the federal authority over nuclear issues.", "D": "the limits of states’ power over nuclear issues."}
+- **A.** Entergy’s capacity to fulfill all its promises.
+- **B.** the nature of states’ patchwork regulations.
+- **C.** the federal authority over nuclear issues.
+- **D.** the limits of states’ power over nuclear issues.
 
 **Correct answer:** D
 
@@ -78,7 +90,10 @@ In the author’s view, the Vermont case will test
 
 It can be inferred from the last paragraph that
 
-- {"A": "Entergy’s business elsewhere might be affected.", "B": "the authority of the NRC will be defied.", "C": "Entergy will withdraw its Plymouth application.", "D": "Vermont’s reputation might be damaged."}
+- **A.** Entergy’s business elsewhere might be affected.
+- **B.** the authority of the NRC will be defied.
+- **C.** Entergy will withdraw its Plymouth application.
+- **D.** Vermont’s reputation might be damaged.
 
 **Correct answer:** A
 

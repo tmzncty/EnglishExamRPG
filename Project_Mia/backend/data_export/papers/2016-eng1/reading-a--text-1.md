@@ -24,7 +24,10 @@ Relying on ethical persuasion rather than law to address the misuse of body idea
 
 According to the first paragraph, what would happen in France?
 
-- {"A": "Physical beauty would be redefined.", "B": "New runways would be constructed.", "C": "Websites about dieting would thrive.", "D": "The fashion industry would decline."}
+- **A.** Physical beauty would be redefined.
+- **B.** New runways would be constructed.
+- **C.** Websites about dieting would thrive.
+- **D.** The fashion industry would decline.
 
 **Correct answer:** A
 
@@ -38,7 +41,10 @@ According to the first paragraph, what would happen in France?
 
 The phrase “impinging on” (Line 2, Para. 2) is closest in meaning to
 
-- {"A": "indicating the state of.", "B": "heightening the value of.", "C": "losing faith in.", "D": "doing harm to."}
+- **A.** indicating the state of.
+- **B.** heightening the value of.
+- **C.** losing faith in.
+- **D.** doing harm to.
 
 **Correct answer:** D
 
@@ -52,7 +58,10 @@ impinging on 指的是对健康造成损害。因此，doing harm to 是最接�
 
 Which of the following is true of the fashion industry?
 
-- {"A": "The French measures have already failed.", "B": "Its inherent problems are getting worse.", "C": "Models are no longer under peer pressure.", "D": "New standards are being set in Denmark."}
+- **A.** The French measures have already failed.
+- **B.** Its inherent problems are getting worse.
+- **C.** Models are no longer under peer pressure.
+- **D.** New standards are being set in Denmark.
 
 **Correct answer:** D
 
@@ -66,7 +75,10 @@ Which of the following is true of the fashion industry?
 
 A designer is most likely to be rejected by CFW for
 
-- {"A": "pursuing perfect physical conditions.", "B": "caring too much about models’ character.", "C": "showing little concern for health factors.", "D": "setting a high age threshold for models."}
+- **A.** pursuing perfect physical conditions.
+- **B.** caring too much about models’ character.
+- **C.** showing little concern for health factors.
+- **D.** setting a high age threshold for models.
 
 **Correct answer:** C
 
@@ -80,7 +92,10 @@ A designer is most likely to be rejected by CFW for
 
 Which of the following may be the best title of the text?
 
-- {"A": "The Great Threats to the Fashion Industry", "B": "Just Another Round of Struggle for Beauty", "C": "A Dilemma for the Starving Models in France", "D": "A Challenge to the Fashion Industry’s Body Ideals"}
+- **A.** The Great Threats to the Fashion Industry
+- **B.** Just Another Round of Struggle for Beauty
+- **C.** A Dilemma for the Starving Models in France
+- **D.** A Challenge to the Fashion Industry’s Body Ideals
 
 **Correct answer:** D
 

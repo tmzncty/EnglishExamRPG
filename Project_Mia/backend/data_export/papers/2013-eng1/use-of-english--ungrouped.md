@@ -16,7 +16,10 @@ Dr Simonsohn found if the score of the previous candidate in a daily series of i
 
 the ability to make judgments which are unbiased by
 
-- {"A": "grants", "B": "submits", "C": "transmits", "D": "delivers"}
+- **A.** grants
+- **B.** submits
+- **C.** transmits
+- **D.** delivers
 
 **Correct answer:** A
 
@@ -32,7 +35,10 @@ A grants 同意，准予，授予;承认 。B submits 提交;顺从;使经受 �
 
 unbiased by
 
-- {"A": "minor", "B": "external", "C": "crucial", "D": "objective"}
+- **A.** minor
+- **B.** external
+- **C.** crucial
+- **D.** objective
 
 **Correct answer:** B
 
@@ -48,7 +54,10 @@ A minor 较小的，程度轻的，次要的。B external 外部的，外来的�
 
 consider the big
 
-- {"A": "issue", "B": "vision", "C": "picture", "D": "moment"}
+- **A.** issue
+- **B.** vision
+- **C.** picture
+- **D.** moment
 
 **Correct answer:** C
 
@@ -64,7 +73,10 @@ A issue 重要议题;争论的问题 。B vision 想象，幻想;眼力;远见�
 
 theorised that
 
-- {"A": "Above all", "B": "On average", "C": "In principle", "D": "For example"}
+- **A.** Above all
+- **B.** On average
+- **C.** In principle
+- **D.** For example
 
 **Correct answer:** D
 
@@ -80,7 +92,10 @@ A Above all 最重要的是;尤其是;首先。B On average 平均来看。C In 
 
 a judge of appearing too soft
 
-- {"A": "fond", "B": "fearful", "C": "capable", "D": "thoughtless"}
+- **A.** fond
+- **B.** fearful
+- **C.** capable
+- **D.** thoughtless
 
 **Correct answer:** B
 
@@ -96,7 +111,10 @@ A fond（of）喜爱…… 。B fearful（of）害怕……，担心…… 。C 
 
 too soft crime
 
-- {"A": "in", "B": "for", "C": "to", "D": "on"}
+- **A.** in
+- **B.** for
+- **C.** to
+- **D.** on
 
 **Correct answer:** D
 
@@ -112,7 +130,10 @@ A in 在……中;在……期间。B for 给，对;为了。C to 为了;向，�
 
 to send someone to prison he had already sentenced
 
-- {"A": "if", "B": "until", "C": "though", "D": "unless"}
+- **A.** if
+- **B.** until
+- **C.** though
+- **D.** unless
 
 **Correct answer:** A
 
@@ -128,7 +149,10 @@ A if 如果。B until 直到……为止。C though 虽然，尽管。D unless �
 
 To this idea, he turned to the university-admissions process.
 
-- {"A": "test", "B": "emphasize", "C": "share", "D": "promote"}
+- **A.** test
+- **B.** emphasize
+- **C.** share
+- **D.** promote
 
 **Correct answer:** A
 
@@ -144,7 +168,10 @@ A test 检验;考验 。B emphasize 强调;使突出。C share分享;共同拥�
 
 the of an applicant should not depend on the few others
 
-- {"A": "decision", "B": "quality", "C": "status", "D": "success"}
+- **A.** decision
+- **B.** quality
+- **C.** status
+- **D.** success
 
 **Correct answer:** D
 
@@ -160,7 +187,10 @@ A decision 决定;决策 。B quality 品质;特质。C status 地位，身份�
 
 others randomly for interview during the same day.
 
-- {"A": "found", "B": "studied", "C": "chosen", "D": "identified"}
+- **A.** found
+- **B.** studied
+- **C.** chosen
+- **D.** identified
 
 **Correct answer:** C
 
@@ -176,7 +206,10 @@ A found找到;碰到 。B studied研究 。C chosen 选择;选中。D identified
 
 Simonsohn suspected the truth was
 
-- {"A": "otherwise", "B": "defensible", "C": "replaceable", "D": "exceptional"}
+- **A.** otherwise
+- **B.** defensible
+- **C.** replaceable
+- **D.** exceptional
 
 **Correct answer:** A
 
@@ -192,7 +225,10 @@ A otherwise 不那样的，另外的 。B defensible 可辩解的，合乎情理
 
 9,323 MBA interviews by 31 admissions officers.
 
-- {"A": "inspired", "B": "expressed", "C": "conducted", "D": "secured"}
+- **A.** inspired
+- **B.** expressed
+- **C.** conducted
+- **D.** secured
 
 **Correct answer:** C
 
@@ -208,7 +244,10 @@ A inspired 鼓舞;激起 。B expressed 表达，表示 。C conducted组织，�
 
 The interviewers had applicants on a scale of one to five.
 
-- {"A": "assigned", "B": "rated", "C": "matched", "D": "arranged"}
+- **A.** assigned
+- **B.** rated
+- **C.** matched
+- **D.** arranged
 
 **Correct answer:** B
 
@@ -224,7 +263,10 @@ A assigned分配，指派 。B rated 划分等级，分等。C matched使相匹�
 
 This scale numerous factors into consideration.
 
-- {"A": "put", "B": "got", "C": "took", "D": "gave"}
+- **A.** put
+- **B.** got
+- **C.** took
+- **D.** gave
 
 **Correct answer:** C
 
@@ -240,7 +282,10 @@ A put 放，放置。B got 收到;得到，获得。C took 拿;做。D gave 递�
 
 The scores used in conjunction with an applicant’s score on the Graduate Management Admission Test
 
-- {"A": "instead", "B": "then", "C": "ever", "D": "rather"}
+- **A.** instead
+- **B.** then
+- **C.** ever
+- **D.** rather
 
 **Correct answer:** B
 
@@ -256,7 +301,10 @@ A instead 代替;反而 。B then然后，继而。C ever 曾经;从来。D rath
 
 a  standardised  exam which is out  of 800  points, to make  a   decision on whether to accept him or her.
 
-- {"A": "selected", "B": "passed", "C": "marked", "D": "introduced"}
+- **A.** selected
+- **B.** passed
+- **C.** marked
+- **D.** introduced
 
 **Correct answer:** C
 
@@ -272,7 +320,10 @@ A selected 挑选，选择 。B passed（考试）通过，合格 。C marked �
 
 than that of the one that,
 
-- {"A": "below", "B": "after", "C": "above", "D": "before"}
+- **A.** below
+- **B.** after
+- **C.** above
+- **D.** before
 
 **Correct answer:** D
 
@@ -288,7 +339,10 @@ A below在……之下。B after在……之后。C above在……之上。D bef
 
 the score for the next applicant would by an average of 0.075 points.
 
-- {"A": "jump", "B": "float", "C": "fluctuate", "D": "drop"}
+- **A.** jump
+- **B.** float
+- **C.** fluctuate
+- **D.** drop
 
 **Correct answer:** D
 
@@ -304,7 +358,10 @@ A jump 暴涨，猛增。B float 漂流;飘动;（使）汇率浮动。C fluctua
 
 This might sound small, but to the effects of such a decrease
 
-- {"A": "achieve", "B": "undo", "C": "maintain", "D": "disregard"}
+- **A.** achieve
+- **B.** undo
+- **C.** maintain
+- **D.** disregard
 
 **Correct answer:** B
 
@@ -320,7 +377,10 @@ A achieve 实现，达到。B undo 使无效，取消，废除。C maintain 保�
 
 need 30 more GMAT points than would otherwise have been
 
-- {"A": "necessary", "B": "possible", "C": "promising", "D": "helpful"}
+- **A.** necessary
+- **B.** possible
+- **C.** promising
+- **D.** helpful
 
 **Correct answer:** A
 

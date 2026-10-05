@@ -22,7 +22,10 @@ Researchers admit that their study does not answer the question of how much busi
 
 The author views Milton Friedman’s statement about CSR with
 
-- {"A": "tolerance.", "B": "skepticism.", "C": "approval.", "D": "uncertainty."}
+- **A.** tolerance.
+- **B.** skepticism.
+- **C.** approval.
+- **D.** uncertainty.
 
 **Correct answer:** B
 
@@ -36,7 +39,10 @@ The author views Milton Friedman’s statement about CSR with
 
 According to Paragraph 2, CSR helps a company by
 
-- {"A": "guarding it against malpractices.", "B": "protecting it from being defamed.", "C": "winning trust from consumers.", "D": "raising the quality of its products."}
+- **A.** guarding it against malpractices.
+- **B.** protecting it from being defamed.
+- **C.** winning trust from consumers.
+- **D.** raising the quality of its products.
 
 **Correct answer:** C
 
@@ -50,7 +56,10 @@ According to Paragraph 2, CSR helps a company by
 
 The expression “more lenient” (Para.4) is closest in meaning to
 
-- {"A": "less controversial.", "B": "more effective.", "C": "more lasting.", "D": "less severe."}
+- **A.** less controversial.
+- **B.** more effective.
+- **C.** more lasting.
+- **D.** less severe.
 
 **Correct answer:** D
 
@@ -64,7 +73,10 @@ The expression “more lenient” (Para.4) is closest in meaning to
 
 When prosecutors evaluate a case, a company’s CSR record
 
-- {"A": "has an impact on their decision.", "B": "comes across as reliable evidence.", "C": "increases the chance of being penalized.", "D": "constitutes part of the investigation."}
+- **A.** has an impact on their decision.
+- **B.** comes across as reliable evidence.
+- **C.** increases the chance of being penalized.
+- **D.** constitutes part of the investigation.
 
 **Correct answer:** A
 
@@ -78,7 +90,10 @@ When prosecutors evaluate a case, a company’s CSR record
 
 Which of the following is true of CSR, according to the last paragraph?
 
-- {"A": "Its negative effects on businesses are often overlooked.", "B": "The necessary amount of companies’ spending on it is unknown.", "C": "Companies’ financial capacity for it has been overestimated.", "D": "It has brought much benefit to the banking industry."}
+- **A.** Its negative effects on businesses are often overlooked.
+- **B.** The necessary amount of companies’ spending on it is unknown.
+- **C.** Companies’ financial capacity for it has been overestimated.
+- **D.** It has brought much benefit to the banking industry.
 
 **Correct answer:** B
 

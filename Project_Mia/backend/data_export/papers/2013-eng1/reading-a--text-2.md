@@ -24,7 +24,10 @@ Also unclear is why Microsoft has gone it alone. After all, it has an ad busines
 
 It is suggested in Paragraph 1 that “behavioural” ads help advertisers to
 
-- {"A": "provide better online services.", "B": "ease competition among themselves.", "C": "avoid complaints from consumers.", "D": "lower their operational costs."}
+- **A.** provide better online services.
+- **B.** ease competition among themselves.
+- **C.** avoid complaints from consumers.
+- **D.** lower their operational costs.
 
 **Correct answer:** D
 
@@ -38,7 +41,10 @@ It is suggested in Paragraph 1 that “behavioural” ads help advertisers to
 
 “the industry” (Line 5, Para.3) refers to
 
-- {"A": "internet browser developers.", "B": "digital information analysts.", "C": "e-commerce conductors.", "D": "online advertisers."}
+- **A.** internet browser developers.
+- **B.** digital information analysts.
+- **C.** e-commerce conductors.
+- **D.** online advertisers.
 
 **Correct answer:** A
 
@@ -52,7 +58,10 @@ It is suggested in Paragraph 1 that “behavioural” ads help advertisers to
 
 Bob Liodice holds that setting DNT as a default
 
-- {"A": "may cut the number of junk ads.", "B": "fails to affect the ad industry.", "C": "will not benefit consumers.", "D": "goes against human nature."}
+- **A.** may cut the number of junk ads.
+- **B.** fails to affect the ad industry.
+- **C.** will not benefit consumers.
+- **D.** goes against human nature.
 
 **Correct answer:** C
 
@@ -66,7 +75,10 @@ Bob Liodice holds that setting DNT as a default
 
 Which of the following is true according to Paragraph 6?
 
-- {"A": "Advertisers are willing to implement DNT.", "B": "DNT may not serve its intended purpose.", "C": "DNT is losing its popularity among consumers.", "D": "Advertisers are obliged to offer behavioural ads."}
+- **A.** Advertisers are willing to implement DNT.
+- **B.** DNT may not serve its intended purpose.
+- **C.** DNT is losing its popularity among consumers.
+- **D.** Advertisers are obliged to offer behavioural ads.
 
 **Correct answer:** B
 
@@ -80,7 +92,10 @@ Which of the following is true according to Paragraph 6?
 
 The author’s attitude towards what Brendon Lynch said in his blog is one of
 
-- {"A": "indulgence.", "B": "understanding.", "C": "appreciation.", "D": "skepticism."}
+- **A.** indulgence.
+- **B.** understanding.
+- **C.** appreciation.
+- **D.** skepticism.
 
 **Correct answer:** D
 

@@ -24,7 +24,10 @@ In some ways the scientific publishing model resembles the economy of the social
 
 Scientific publishing is seen as “a licence to print money” partly because
 
-- {"A": "its funding has enjoyed a steady increase.", "B": "its marketing strategy has been successful.", "C": "its payment for peer review is reduced.", "D": "its content acquisition costs nothing."}
+- **A.** its funding has enjoyed a steady increase.
+- **B.** its marketing strategy has been successful.
+- **C.** its payment for peer review is reduced.
+- **D.** its content acquisition costs nothing.
 
 **Correct answer:** D
 
@@ -38,7 +41,10 @@ Scientific publishing is seen as “a licence to print money” partly because
 
 According to Paragraphs 2 and 3, scientific publishers Elsevier have
 
-- {"A": "thrived mainly on university libraries.", "B": "gone through an existential crisis.", "C": "revived the publishing industry.", "D": "financed researchers generously."}
+- **A.** thrived mainly on university libraries.
+- **B.** gone through an existential crisis.
+- **C.** revived the publishing industry.
+- **D.** financed researchers generously.
 
 **Correct answer:** A
 
@@ -52,7 +58,10 @@ According to Paragraphs 2 and 3, scientific publishers Elsevier have
 
 How does the author feel about the success of Sci-Hub?
 
-- {"A": "Relieved.", "B": "Puzzled.", "C": "Concerned.", "D": "Encouraged."}
+- **A.** Relieved.
+- **B.** Puzzled.
+- **C.** Concerned.
+- **D.** Encouraged.
 
 **Correct answer:** C
 
@@ -66,7 +75,10 @@ How does the author feel about the success of Sci-Hub?
 
 It can be learned from Paragraphs 5 and 6 that open access terms
 
-- {"A": "allow publishers some room to make money.", "B": "render publishing much easier for scientists.", "C": "reduce the cost of publication substantially.", "D": "free universities from financial burdens."}
+- **A.** allow publishers some room to make money.
+- **B.** render publishing much easier for scientists.
+- **C.** reduce the cost of publication substantially.
+- **D.** free universities from financial burdens.
 
 **Correct answer:** A
 
@@ -80,7 +92,10 @@ It can be learned from Paragraphs 5 and 6 that open access terms
 
 Which of the following characterizes the scientific publishing model?
 
-- {"A": "Trial subscription is offered.", "B": "Labour triumphs over status.", "C": "Costs are well controlled.", "D": "The few feed on the many."}
+- **A.** Trial subscription is offered.
+- **B.** Labour triumphs over status.
+- **C.** Costs are well controlled.
+- **D.** The few feed on the many.
 
 **Correct answer:** D
 

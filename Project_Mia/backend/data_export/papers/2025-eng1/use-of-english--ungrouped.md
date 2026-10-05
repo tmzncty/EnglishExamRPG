@@ -18,7 +18,10 @@ Since the 1960s, underwater archaeology _15_ and tools had made huge advances. T
 
 relevant [B]prone [C]available [D]alien
 
-- {"A": "relevant", "B": "prone", "C": "available", "D": "alien"}
+- **A.** relevant
+- **B.** prone
+- **C.** available
+- **D.** alien
 
 **Correct answer:** B
 
@@ -32,7 +35,10 @@ prone to 易于遭受...的，符合语境。relevant 相关的；available 可�
 
 [A] accidentally [B] frequently [C] gradually [D] temporarily
 
-- {"A": "accidentally", "B": "frequently", "C": "gradually", "D": "temporarily"}
+- **A.** accidentally
+- **B.** frequently
+- **C.** gradually
+- **D.** temporarily
 
 **Correct answer:** C
 
@@ -46,7 +52,10 @@ gradually 逐渐地，符合语境。accidentally 意外地；frequently 频繁�
 
 [A] disguised [B] submerged [C] relocated [D] isolated
 
-- {"A": "disguised", "B": "submerged", "C": "relocated", "D": "isolated"}
+- **A.** disguised
+- **B.** submerged
+- **C.** relocated
+- **D.** isolated
 
 **Correct answer:** B
 
@@ -60,7 +69,10 @@ submerged 淹没，符合语境。disguised 伪装；relocated 重新安置；is
 
 [A] legends [B] programs [C] remains [D] surroundings
 
-- {"A": "legends", "B": "programs", "C": "remains", "D": "surroundings"}
+- **A.** legends
+- **B.** programs
+- **C.** remains
+- **D.** surroundings
 
 **Correct answer:** C
 
@@ -74,7 +86,10 @@ remains 遗骸，残骸，符合语境。legends 传说；programs 程序；surr
 
 [A] across [B] off [C] under [D] via
 
-- {"A": "across", "B": "off", "C": "under", "D": "via"}
+- **A.** across
+- **B.** off
+- **C.** under
+- **D.** via
 
 **Correct answer:** B
 
@@ -88,7 +103,10 @@ off the island of Laconia 远离拉科尼亚岛，符合语境。across 穿过�
 
 [A] currents [B] rivers [C] seasons [D] winds
 
-- {"A": "currents", "B": "rivers", "C": "seasons", "D": "winds"}
+- **A.** currents
+- **B.** rivers
+- **C.** seasons
+- **D.** winds
 
 **Correct answer:** A
 
@@ -102,7 +120,10 @@ currents 水流，海流，符合语境。rivers 河流；seasons 季节；winds
 
 [A] elevated [B] separated [C] comprised [D] protected
 
-- {"A": "elevated", "B": "separated", "C": "comprised", "D": "protected"}
+- **A.** elevated
+- **B.** separated
+- **C.** comprised
+- **D.** protected
 
 **Correct answer:** D
 
@@ -116,7 +137,10 @@ protected 保护，符合语境。elevated 提高；separated 分离；comprised
 
 [A] gathering [B] restoring [C] updating [D] supplying
 
-- {"A": "gathering", "B": "restoring", "C": "updating", "D": "supplying"}
+- **A.** gathering
+- **B.** restoring
+- **C.** updating
+- **D.** supplying
 
 **Correct answer:** A
 
@@ -130,7 +154,10 @@ gathering 收集，符合语境。restoring 恢复；updating 更新；supplying
 
 [A] when [B] until [C] after [D] once
 
-- {"A": "when", "B": "until", "C": "after", "D": "once"}
+- **A.** when
+- **B.** until
+- **C.** after
+- **D.** once
 
 **Correct answer:** A
 
@@ -144,7 +171,10 @@ when 当...时候，符合语境。until 直到；after 之后；once 一旦。
 
 [A] belongings [B] resources [C] products [D] structures
 
-- {"A": "belongings", "B": "resources", "C": "products", "D": "structures"}
+- **A.** belongings
+- **B.** resources
+- **C.** products
+- **D.** structures
 
 **Correct answer:** D
 
@@ -158,7 +188,10 @@ structures 建筑物，结构，符合语境。belongings 财产；resources 资
 
 [A] preserve [B] select [C] display [D] examining
 
-- {"A": "preserve", "B": "select", "C": "display", "D": "examining"}
+- **A.** preserve
+- **B.** select
+- **C.** display
+- **D.** examining
 
 **Correct answer:** D
 
@@ -172,7 +205,10 @@ examining 检查，考察，符合语境。preserve 保存；select 选择；dis
 
 [A] Despite [B] Unlike [C] Besides [D] Among
 
-- {"A": "Despite", "B": "Unlike", "C": "Besides", "D": "Among"}
+- **A.** Despite
+- **B.** Unlike
+- **C.** Besides
+- **D.** Among
 
 **Correct answer:** A
 
@@ -186,7 +222,10 @@ Despite 尽管，符合语境。Unlike 不像；Besides 除此之外；Among 在
 
 [A] unchallenged [B] unknown [C] unorganized [D] undisturbed
 
-- {"A": "unchallenged", "B": "unknown", "C": "unorganized", "D": "undisturbed"}
+- **A.** unchallenged
+- **B.** unknown
+- **C.** unorganized
+- **D.** undisturbed
 
 **Correct answer:** D
 
@@ -200,7 +239,10 @@ undisturbed 未受打扰的，符合语境。unchallenged 未受挑战的；unkn
 
 [A] suspended [B] transferred [C] resumed [D] canceled
 
-- {"A": "suspended", "B": "transferred", "C": "resumed", "D": "canceled"}
+- **A.** suspended
+- **B.** transferred
+- **C.** resumed
+- **D.** canceled
 
 **Correct answer:** C
 
@@ -214,7 +256,10 @@ resumed 重新开始，符合语境。suspended 暂停；transferred 转移；ca
 
 [A] policies [B] theories [C] documents [D] techniques
 
-- {"A": "policies", "B": "theories", "C": "documents", "D": "techniques"}
+- **A.** policies
+- **B.** theories
+- **C.** documents
+- **D.** techniques
 
 **Correct answer:** D
 
@@ -228,7 +273,10 @@ techniques 技术，符合语境。policies 政策；theories 理论；documents
 
 [A] ordered [B] provided [C] employed [D] adjusted
 
-- {"A": "ordered", "B": "provided", "C": "employed", "D": "adjusted"}
+- **A.** ordered
+- **B.** provided
+- **C.** employed
+- **D.** adjusted
 
 **Correct answer:** C
 
@@ -242,7 +290,10 @@ employed 使用，采用，符合语境。ordered 命令；provided 提供；adj
 
 [A] effect [B] light [C] reality [D] mind
 
-- {"A": "effect", "B": "light", "C": "reality", "D": "mind"}
+- **A.** effect
+- **B.** light
+- **C.** reality
+- **D.** mind
 
 **Correct answer:** B
 
@@ -256,7 +307,10 @@ light 公之于众，使...显现，符合语境。effect 影响；reality 现�
 
 [A] crossed [B] connected [C] blocked [D] altered
 
-- {"A": "crossed", "B": "connected", "C": "blocked", "D": "altered"}
+- **A.** crossed
+- **B.** connected
+- **C.** blocked
+- **D.** altered
 
 **Correct answer:** B
 
@@ -270,7 +324,10 @@ connected 连接，符合语境。crossed 穿过；blocked 阻挡；altered 改�
 
 [A] expecting [B] suggesting [C] predicting [D] recalling
 
-- {"A": "expecting", "B": "suggesting", "C": "predicting", "D": "recalling"}
+- **A.** expecting
+- **B.** suggesting
+- **C.** predicting
+- **D.** recalling
 
 **Correct answer:** B
 
@@ -284,7 +341,10 @@ suggesting 暗示，表明，符合语境。expecting 期望；predicting 预测
 
 [A] robust [B] diverse [C] marginal [D] dependent
 
-- {"A": "robust", "B": "diverse", "C": "marginal", "D": "dependent"}
+- **A.** robust
+- **B.** diverse
+- **C.** marginal
+- **D.** dependent
 
 **Correct answer:** A
 

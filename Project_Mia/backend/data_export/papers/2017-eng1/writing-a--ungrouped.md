@@ -22,17 +22,11 @@ You are to write an email to James Cook, a newly-arrived Australian professor, r
 
 Dear Professor Cook,
 
-Welcome to our city! I hope you're settling in well. I'm writing to recommend some tourist attractions that I think you might enjoy.
+Welcome to our city. I would like to recommend three places for your first visit. The Forbidden City is ideal if you are interested in Chinese history and traditional architecture. The Great Wall at Mutianyu offers magnificent mountain views and is usually less crowded than some other sections. You may also enjoy walking through the hutongs, where old courtyards, small restaurants and local shops provide a closer look at everyday life.
 
-Firstly, I highly recommend visiting the Forbidden City. As the former imperial palace, it showcases stunning architecture and a rich history. You can easily spend a whole day exploring its many halls and courtyards.
+These attractions show different sides of the city, from imperial history to natural scenery and local culture. I hope you enjoy exploring them.
 
-Secondly, the Great Wall is a must-see. I suggest going to the Mutianyu section, which is less crowded and offers breathtaking views of the surrounding mountains. It's an unforgettable experience.
-
-Finally, for a taste of local life, explore the hutongs. These traditional alleyways are filled with charming shops, restaurants, and teahouses. It's a great way to experience the city's culture.
-
-I hope these suggestions are helpful. Please let me know if you have any questions.
-
-Sincerely,
+Yours sincerely,
 Li Ming
 
 **Analysis:**

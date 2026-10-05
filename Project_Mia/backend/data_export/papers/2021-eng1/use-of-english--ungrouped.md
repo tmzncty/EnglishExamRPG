@@ -18,7 +18,10 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 [A] pauses [B] returns[C] peaks[D] fades
 
-- {"A": "pauses", "B": "returns", "C": "peaks", "D": "fades"}
+- **A.** pauses
+- **B.** returns
+- **C.** peaks
+- **D.** fades
 
 **Correct answer:** C
 
@@ -32,7 +35,10 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 [A] alternatively [B] formally[C] accidentally[D]generally
 
-- {"A": "alternatively", "B": "formally", "C": "accidentally", "D": "generally"}
+- **A.** alternatively
+- **B.** formally
+- **C.** accidentally
+- **D.** generally
 
 **Correct answer:** D
 
@@ -46,7 +52,10 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 [A] while [B] since [C]once [D]until
 
-- {"A": "while", "B": "since", "C": "once", "D": "until"}
+- **A.** while
+- **B.** since
+- **C.** once
+- **D.** until
 
 **Correct answer:** A
 
@@ -60,7 +69,10 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 [A] detection [B]  accumulation [C] consumption[D]separation
 
-- {"A": "detection", "B": "accumulation", "C": "consumption", "D": "separation"}
+- **A.** detection
+- **B.** accumulation
+- **C.** consumption
+- **D.** separation
 
 **Correct answer:** B
 
@@ -74,7 +86,10 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 [A] possibility[B]  decision[C] goal  [D] requirement
 
-- {"A": "possibility", "B": "decision", "C": "goal", "D": "requirement"}
+- **A.** possibility
+- **B.** decision
+- **C.** goal
+- **D.** requirement
 
 **Correct answer:** A
 
@@ -88,7 +103,10 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 [A] delay [B] ensure[C] seek [D]utilize
 
-- {"A": "delay", "B": "ensure", "C": "seek", "D": "utilize"}
+- **A.** delay
+- **B.** ensure
+- **C.** seek
+- **D.** utilize
 
 **Correct answer:** A
 
@@ -102,7 +120,10 @@ _16_ there are steps you can _17_ to help reduce abdominal fat and maintain lean
 
 [A] modified [B]  supported[C] included [D] predicted
 
-- {"A": "modified", "B": "supported", "C": "included", "D": "predicted"}
+- **A.** modified
+- **B.** supported
+- **C.** included
+- **D.** predicted
 
 **Correct answer:** C
 
@@ -116,7 +137,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] devoted [B]  compared[C] converted [D] applied
 
-- {"A": "devoted", "B": "compared", "C": "converted", "D": "applied"}
+- **A.** devoted
+- **B.** compared
+- **C.** converted
+- **D.** applied
 
 **Correct answer:** B
 
@@ -130,7 +154,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] with [B] above[C]by [D] against
 
-- {"A": "with", "B": "above", "C": "by", "D": "against"}
+- **A.** with
+- **B.** above
+- **C.** by
+- **D.** against
 
 **Correct answer:** A
 
@@ -144,7 +171,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] lived [B]  managed [C] scored[D] played
 
-- {"A": "lived", "B": "managed", "C": "scored", "D": "played"}
+- **A.** lived
+- **B.** managed
+- **C.** scored
+- **D.** played
 
 **Correct answer:** C
 
@@ -158,7 +188,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] ran out [B] set off[C] drew in[D] went by
 
-- {"A": "ran out", "B": "set off", "C": "drew in", "D": "went by"}
+- **A.** ran out
+- **B.** set off
+- **C.** drew in
+- **D.** went by
 
 **Correct answer:** D
 
@@ -172,7 +205,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] superior [B] attributable [C] parallel [D] resistant
 
-- {"A": "superior", "B": "attributable", "C": "parallel", "D": "resistant"}
+- **A.** superior
+- **B.** attributable
+- **C.** parallel
+- **D.** resistant
 
 **Correct answer:** B
 
@@ -186,7 +222,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] restored [B] isolated [C]involved [D] controlled
 
-- {"A": "restored", "B": "isolated", "C": "involved", "D": "controlled"}
+- **A.** restored
+- **B.** isolated
+- **C.** involved
+- **D.** controlled
 
 **Correct answer:** C
 
@@ -200,7 +239,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] alter[B] spread [C] remove [D] explain
 
-- {"A": "alter", "B": "spread", "C": "remove", "D": "explain"}
+- **A.** alter
+- **B.** spread
+- **C.** remove
+- **D.** explain
 
 **Correct answer:** D
 
@@ -214,7 +256,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] compensations [B]  symptoms [C] demands [D] treatments
 
-- {"A": "compensations", "B": "symptoms", "C": "demands", "D": "treatments"}
+- **A.** compensations
+- **B.** symptoms
+- **C.** demands
+- **D.** treatments
 
 **Correct answer:** D
 
@@ -228,7 +273,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] Likewise [B]  Meanwhile [C] Therefore [D] Instead
 
-- {"A": "Likewise", "B": "Meanwhile", "C": "Therefore", "D": "Instead"}
+- **A.** Likewise
+- **B.** Meanwhile
+- **C.** Therefore
+- **D.** Instead
 
 **Correct answer:** C
 
@@ -242,7 +290,10 @@ data包含了对精益肌肉和腹部脂肪的测量。included意为“包含�
 
 [A] change [B]  watch [C] count [D] take
 
-- {"A": "change", "B": "watch", "C": "count", "D": "take"}
+- **A.** change
+- **B.** watch
+- **C.** count
+- **D.** take
 
 **Correct answer:** D
 
@@ -256,7 +307,10 @@ take steps to do sth，采取措施做某事。
 
 [A] well-being [B] process [C] formation[D]coordination
 
-- {"A": "well-being", "B": "process", "C": "formation", "D": "coordination"}
+- **A.** well-being
+- **B.** process
+- **C.** formation
+- **D.** coordination
 
 **Correct answer:** A
 
@@ -270,7 +324,10 @@ well-being身心健康。
 
 [A] level [B] love[C] knowledge [D] space
 
-- {"A": "level", "B": "love", "C": "knowledge", "D": "space"}
+- **A.** level
+- **B.** love
+- **C.** knowledge
+- **D.** space
 
 **Correct answer:** A
 
@@ -284,7 +341,10 @@ level of exercise锻炼的程度。
 
 [A] design[B] routine [C] diet[D] prescription
 
-- {"A": "design", "B": "routine", "C": "diet", "D": "prescription"}
+- **A.** design
+- **B.** routine
+- **C.** diet
+- **D.** prescription
 
 **Correct answer:** C
 

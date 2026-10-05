@@ -24,7 +24,10 @@ Some powers do belong exclusively to the federal government, and control of citi
 
 Three provisions of Arizona's plan were overturned because they
 
-- {"A": "disturbed the power balance between different states.", "B": "overstepped the authority of federal immigration law.", "C": "deprived the federal police of Constitutional powers.", "D": "contradicted both the federal and state policies."}
+- **A.** disturbed the power balance between different states.
+- **B.** overstepped the authority of federal immigration law.
+- **C.** deprived the federal police of Constitutional powers.
+- **D.** contradicted both the federal and state policies.
 
 **Correct answer:** B
 
@@ -38,7 +41,10 @@ Three provisions of Arizona's plan were overturned because they
 
 On which of the following did the Justices agree, according to Paragraph 4?
 
-- {"A": "Congress's intervention in immigration enforcement.", "B": "Federal officers' duty to withhold immigrants' information.", "C": "States' legitimate role in immigration enforcement.", "D": "States' independence from federal immigration law."}
+- **A.** Congress's intervention in immigration enforcement.
+- **B.** Federal officers' duty to withhold immigrants' information.
+- **C.** States' legitimate role in immigration enforcement.
+- **D.** States' independence from federal immigration law.
 
 **Correct answer:** C
 
@@ -52,7 +58,10 @@ On which of the following did the Justices agree, according to Paragraph 4?
 
 It can be inferred from Paragraph 5 that the Alien and Sedition Acts
 
-- {"A": "stood in favor of the states.", "B": "supported the federal statute.", "C": "undermined the states' interests.", "D": "violated the Constitution."}
+- **A.** stood in favor of the states.
+- **B.** supported the federal statute.
+- **C.** undermined the states' interests.
+- **D.** violated the Constitution.
 
 **Correct answer:** A
 
@@ -66,7 +75,10 @@ It can be inferred from Paragraph 5 that the Alien and Sedition Acts
 
 The White House claims that its power of enforcement
 
-- {"A": "is dependent on the states' support.", "B": "is established by federal statutes.", "C": "outweighs that held by the states.", "D": "rarely goes against state laws."}
+- **A.** is dependent on the states' support.
+- **B.** is established by federal statutes.
+- **C.** outweighs that held by the states.
+- **D.** rarely goes against state laws.
 
 **Correct answer:** C
 
@@ -80,7 +92,10 @@ The White House claims that its power of enforcement
 
 What can be learned from the last paragraph?
 
-- {"A": "Immigration issues are usually decided by Congress.", "B": "The Administration is dominant over immigration issues.", "C": "Justices wanted to strengthen its coordination with Congress.", "D": "Justices intended to check the power of the Administration."}
+- **A.** Immigration issues are usually decided by Congress.
+- **B.** The Administration is dominant over immigration issues.
+- **C.** Justices wanted to strengthen its coordination with Congress.
+- **D.** Justices intended to check the power of the Administration.
 
 **Correct answer:** D
 

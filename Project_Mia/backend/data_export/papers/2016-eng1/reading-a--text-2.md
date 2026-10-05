@@ -22,7 +22,10 @@ Development should be planned, not let rip. After the Netherlands, Britain is Eu
 
 Britain’s public sentiment about the countryside
 
-- {"A": "is not well reflected in politics.", "B": "is fully backed by the royal family.", "C": "didn’t start till the Shakespearean age.", "D": "has brought much benefit to the NHS."}
+- **A.** is not well reflected in politics.
+- **B.** is fully backed by the royal family.
+- **C.** didn’t start till the Shakespearean age.
+- **D.** has brought much benefit to the NHS.
 
 **Correct answer:** A
 
@@ -36,7 +39,10 @@ A选项正确，第一段提到，英国民众对乡村的喜爱与政治支持�
 
 According to Paragraph 2, the achievements of the National Trust are now being
 
-- {"A": "largely overshadowed.", "B": "properly protected.", "C": "effectively reinforced.", "D": "gradually destroyed."}
+- **A.** largely overshadowed.
+- **B.** properly protected.
+- **C.** effectively reinforced.
+- **D.** gradually destroyed.
 
 **Correct answer:** A
 
@@ -50,7 +56,10 @@ A选项正确。第二段的后半部分提到，乡村正在被混凝土吞噬�
 
 Which of the following can be inferred from Paragraph 3?
 
-- {"A": "Labour is under attack for opposing development.", "B": "The Conservatives may abandon “off-plan” building.", "C": "Ukip may gain from its support for rural conservation.", "D": "The Liberal Democrats are losing political influence."}
+- **A.** Labour is under attack for opposing development.
+- **B.** The Conservatives may abandon “off-plan” building.
+- **C.** Ukip may gain from its support for rural conservation.
+- **D.** The Liberal Democrats are losing political influence.
 
 **Correct answer:** C
 
@@ -64,7 +73,10 @@ C选项正确，第三段提到，只有Ukip站在了保护乡村的一方，这
 
 The author holds that George Osborne’s preference
 
-- {"A": "shows his disregard for the character of rural areas.", "B": "stresses the necessity of easing the housing crisis.", "C": "highlights his firm stand against lobby pressure.", "D": "reveals a strong prejudice against urban areas."}
+- **A.** shows his disregard for the character of rural areas.
+- **B.** stresses the necessity of easing the housing crisis.
+- **C.** highlights his firm stand against lobby pressure.
+- **D.** reveals a strong prejudice against urban areas.
 
 **Correct answer:** A
 
@@ -78,7 +90,10 @@ A选项正确，第五段提到George Osborne倾向于在乡村新建房屋而�
 
 In the last paragraph, the author shows his appreciation of
 
-- {"A": "the size of population in Britain.", "B": "the enviable urban lifestyle in Britain.", "C": "the town-and-country planning in Britain.", "D": "the political life in today’s Britain."}
+- **A.** the size of population in Britain.
+- **B.** the enviable urban lifestyle in Britain.
+- **C.** the town-and-country planning in Britain.
+- **D.** the political life in today’s Britain.
 
 **Correct answer:** C
 

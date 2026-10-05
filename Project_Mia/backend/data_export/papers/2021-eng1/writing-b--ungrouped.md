@@ -35,6 +35,6 @@ Ultimately, the cartoon champions the importance of self-belief and the courage 
 
 这篇文章紧扣题目要求，围绕“坚持梦想”展开论述。第一段描述图画，并提炼出核心对话。第二段深入分析图画的寓意，指出社会期望与个人意愿之间的冲突，强调个人成就感的重要性。第三段总结全文，呼吁人们坚持自我，勇敢追逐梦想。文章结构清晰，语言流畅，论证充分，是一篇优秀的范文。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2021-eng1-writing_b-q52.png)
 
 <!-- q_id=2021-eng1-writing_b-q52; difficulty=3; score=20.0 -->

@@ -18,7 +18,10 @@ A “town of culture” could be not just about the arts but about honouring a t
 
 Cooper and her colleagues argue that a “town of culture” award could
 
-- {"A": "consolidate the town-city ties in Britain.", "B": "promote cooperation among Britain’s towns.", "C": "increase the economic strength of Britain’s towns.", "D": "focus Britain’s limited resources on cultural events."}
+- **A.** consolidate the town-city ties in Britain.
+- **B.** promote cooperation among Britain’s towns.
+- **C.** increase the economic strength of Britain’s towns.
+- **D.** focus Britain’s limited resources on cultural events.
 
 **Correct answer:** C
 
@@ -32,7 +35,10 @@ Cooper and her colleagues argue that a “town of culture” award could
 
 According to Paragraph 2, the proposal might be regarded by some as
 
-- {"A": "a sensible compromise.", "B": "a self-deceiving attempt.", "C": "an eye-catching bonus.", "D": "an inaccessible target."}
+- **A.** a sensible compromise.
+- **B.** a self-deceiving attempt.
+- **C.** an eye-catching bonus.
+- **D.** an inaccessible target.
 
 **Correct answer:** B
 
@@ -46,7 +52,10 @@ According to Paragraph 2, the proposal might be regarded by some as
 
 The author suggests that a title holder is successful only if it
 
-- {"A": "endeavours to maintain its image.", "B": "meets the aspiration of its people.", "C": "brings its local arts to prominence.", "D": "commits to its long-term growth."}
+- **A.** endeavours to maintain its image.
+- **B.** meets the aspiration of its people.
+- **C.** brings its local arts to prominence.
+- **D.** commits to its long-term growth.
 
 **Correct answer:** D
 
@@ -60,7 +69,10 @@ The author suggests that a title holder is successful only if it
 
 Glasgow is mentioned in Paragraph 3 to present
 
-- {"A": "a contrasting case.", "B": "a supporting example.", "C": "a background story.", "D": "a related topic."}
+- **A.** a contrasting case.
+- **B.** a supporting example.
+- **C.** a background story.
+- **D.** a related topic.
 
 **Correct answer:** B
 
@@ -74,7 +86,10 @@ Glasgow is mentioned in Paragraph 3 to present
 
 What is the author’s attitude towards the proposal?
 
-- {"A": "Skeptical.", "B": "Objective.", "C": "Favourable.", "D": "Critical."}
+- **A.** Skeptical.
+- **B.** Objective.
+- **C.** Favourable.
+- **D.** Critical.
 
 **Correct answer:** C
 

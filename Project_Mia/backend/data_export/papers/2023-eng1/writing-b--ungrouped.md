@@ -32,6 +32,6 @@ In summary, holding cultural events in the countryside is a commendable and sust
 
 这篇文章首先描述了图片，随后揭示了图片所蕴含的传统文化复兴的主题，并阐述了这一趋势对乡村振兴的积极意义。文章最后总结观点，呼吁年轻人为保护中国文化和回馈家乡做出贡献。文章结构完整，语言流畅，表达准确，符合考研英语写作的要求。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2023-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2023-eng1-writing_b-q52; difficulty=3; score=20.0 -->

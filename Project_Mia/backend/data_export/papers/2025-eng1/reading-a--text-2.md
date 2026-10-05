@@ -18,7 +18,10 @@ Every day,scientists,technologists and engineers are discovering new ways to exp
 
 The author expressed great surprise at some scientists'                  ·
 
-- {"A": "unwillingness to cut carbon emissions", "B": "intention to reduce their research", "C": "suspicions about sustainable energy", "D": "waste of electricity in their projects"}
+- **A.** unwillingness to cut carbon emissions
+- **B.** intention to reduce their research
+- **C.** suspicions about sustainable energy
+- **D.** waste of electricity in their projects
 
 **Correct answer:** B
 
@@ -32,7 +35,10 @@ The author expressed great surprise at some scientists'                  ·
 
 The author believes that carbon emissions from research                 ·
 
-- {"A": "have caused grave consequences", "B": "have caused groundless worries", "C": "are hard to handle at present", "D": "are justifiable in the long run"}
+- **A.** have caused grave consequences
+- **B.** have caused groundless worries
+- **C.** are hard to handle at present
+- **D.** are justifiable in the long run
 
 **Correct answer:** D
 
@@ -46,7 +52,10 @@ The author believes that carbon emissions from research                 ·
 
 The example of Green in Paragraph 5 is used to illustrate,
 
-- {"A": "the achievements of great scientists", "B": "the urgency of addressing climate change", "C": "the rewards of scientific endeavors", "D": "the value of fostering human ingenuity"}
+- **A.** the achievements of great scientists
+- **B.** the urgency of addressing climate change
+- **C.** the rewards of scientific endeavors
+- **D.** the value of fostering human ingenuity
 
 **Correct answer:** D
 
@@ -60,7 +69,10 @@ The example of Green in Paragraph 5 is used to illustrate,
 
 It can be learned from the last two paragraph
 
-- {"A": "Is a model of sustainability efforts", "B": "Is a triumph against energy shortage", "C": "owes much to global het-20 initiatives", "D": "aims to explore the power of intelligence"}
+- **A.** Is a model of sustainability efforts
+- **B.** Is a triumph against energy shortage
+- **C.** owes much to global het-20 initiatives
+- **D.** aims to explore the power of intelligence
 
 **Correct answer:** A
 
@@ -74,7 +86,10 @@ It can be learned from the last two paragraph
 
 Which  of  the  following  statements  would  the  author  agree  with?
 
-- {"A": "Emission-free modelling demands extra funding", "B": "The need for supercomputers is difficult to meet", "C": "Energy-intensive research work is inevitable.", "D": "The goals of researchers ought to be realistic."}
+- **A.** Emission-free modelling demands extra funding
+- **B.** The need for supercomputers is difficult to meet
+- **C.** Energy-intensive research work is inevitable.
+- **D.** The goals of researchers ought to be realistic.
 
 **Correct answer:** C
 

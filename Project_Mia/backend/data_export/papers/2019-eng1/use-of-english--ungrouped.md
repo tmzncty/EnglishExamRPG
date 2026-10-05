@@ -18,7 +18,10 @@ _18_, assuming you’re lost in an area humans tend to frequent, look for the _1
 
 of us just walk straight into the woods without a phone.
 
-- {"A": "Some", "B": "Most", "C": "Few", "D": "All"}
+- **A.** Some
+- **B.** Most
+- **C.** Few
+- **D.** All
 
 **Correct answer:** C
 
@@ -32,7 +35,10 @@ of us just walk straight into the woods without a phone.
 
 But phones _2_ on batteries, and batteries can die faster than we realize.
 
-- {"A": "put", "B": "take", "C": "run", "D": "come"}
+- **A.** put
+- **B.** take
+- **C.** run
+- **D.** come
 
 **Correct answer:** C
 
@@ -46,7 +52,10 @@ But phones _2_ on batteries, and batteries can die faster than we realize.
 
 _3_ you get lost without a phone or a compass, and you can't find north, we have a few tricks to help you navigate to civilization, one of which is to follow the land.
 
-- {"A": "Since", "B": "If", "C": "Though", "D": "Until"}
+- **A.** Since
+- **B.** If
+- **C.** Though
+- **D.** Until
 
 **Correct answer:** B
 
@@ -60,7 +69,10 @@ _3_ you get lost without a phone or a compass, and you can't find north, we have
 
 and you _4_ can't find north, we have a few tricks to help you navigate to civilization, one of which is to follow the land.
 
-- {"A": "formally", "B": "relatively", "C": "gradually", "D": "literally"}
+- **A.** formally
+- **B.** relatively
+- **C.** gradually
+- **D.** literally
 
 **Correct answer:** D
 
@@ -74,7 +86,10 @@ and you _4_ can't find north, we have a few tricks to help you navigate to civil
 
 we have a few tricks to help you navigate _5_ to civilization, one of which is to follow the land.
 
-- {"A": "back", "B": "next", "C": "around", "D": "away"}
+- **A.** back
+- **B.** next
+- **C.** around
+- **D.** away
 
 **Correct answer:** A
 
@@ -88,7 +103,10 @@ we have a few tricks to help you navigate _5_ to civilization, one of which is t
 
 When you find yourself well _6_ a trail, but not in a completely area of land, you have to answer two questions
 
-- {"A": "onto", "B": "off", "C": "across", "D": "along"}
+- **A.** onto
+- **B.** off
+- **C.** across
+- **D.** along
 
 **Correct answer:** B
 
@@ -102,7 +120,10 @@ When you find yourself well _6_ a trail, but not in a completely area of land, y
 
 When you find yourself well _6_ a trail, but not in a completely _7_ area, you have to answer two questions
 
-- {"A": "unattractive", "B": "uncrowded", "C": "unchanged", "D": "unfamiliar"}
+- **A.** unattractive
+- **B.** uncrowded
+- **C.** unchanged
+- **D.** unfamiliar
 
 **Correct answer:** D
 
@@ -116,7 +137,10 @@ but 表明'并非身处完全 ___的区域'与'发现自己远离小路（即迷
 
 Which _8_ is downhill, in this particular area? And where is the nearest water source?
 
-- {"A": "site", "B": "point", "C": "way", "D": "place"}
+- **A.** site
+- **B.** point
+- **C.** way
+- **D.** place
 
 **Correct answer:** C
 
@@ -130,7 +154,10 @@ Which _8_ is downhill, in this particular area? And where is the nearest water s
 
 _9_ ,if you head downhill, and follow any H2O you find, you should see signs of people.
 
-- {"A": "So", "B": "Yet", "C": "Instead", "D": "Besides"}
+- **A.** So
+- **B.** Yet
+- **C.** Instead
+- **D.** Besides
 
 **Correct answer:** A
 
@@ -144,7 +171,10 @@ _9_ ,if you head downhill, and follow any H2O you find, you should see signs of 
 
 if you head downhill, and follow any H2O you find, you should _10_ see signs of people.
 
-- {"A": "immediately", "B": "intentionally", "C": "unexpectedly", "D": "eventually"}
+- **A.** immediately
+- **B.** intentionally
+- **C.** unexpectedly
+- **D.** eventually
 
 **Correct answer:** D
 
@@ -158,7 +188,10 @@ if you head downhill, and follow any H2O you find, you should _10_ see signs of 
 
 If you've explored the area before, keep an eye out for familiar sights – you may be _11_ how quickly identifying a distinctive rock or tree can restore your bearings.
 
-- {"A": "surprised", "B": "annoyed", "C": "frightened", "D": "confused"}
+- **A.** surprised
+- **B.** annoyed
+- **C.** frightened
+- **D.** confused
 
 **Correct answer:** A
 
@@ -172,7 +205,10 @@ If you've explored the area before, keep an eye out for familiar sights – you 
 
 Another _12_: Climb high and look for signs of human habitation.
 
-- {"A": "problem", "B": "option", "C": "view", "D": "result"}
+- **A.** problem
+- **B.** option
+- **C.** view
+- **D.** result
 
 **Correct answer:** B
 
@@ -186,7 +222,10 @@ Another _12_: Climb high and look for signs of human habitation.
 
 _13__, even in dense forest, you should be able to gaps in the tree line due to roads, train tracks, and other paths people carve the woods.
 
-- {"A": "Above all", "B": "In contrast", "C": "On average", "D": "For example"}
+- **A.** Above all
+- **B.** In contrast
+- **C.** On average
+- **D.** For example
 
 **Correct answer:** D
 
@@ -200,7 +239,10 @@ _13__, even in dense forest, you should be able to gaps in the tree line due to 
 
 even in dense forest, you should be able to _14_ gaps in the tree line due to roads, train tracks, and other paths people carve the woods.
 
-- {"A": "bridge", "B": "avoid", "C": "spot", "D": "separate"}
+- **A.** bridge
+- **B.** avoid
+- **C.** spot
+- **D.** separate
 
 **Correct answer:** C
 
@@ -214,7 +256,10 @@ even in dense forest, you should be able to _14_ gaps in the tree line due to ro
 
 you should be able to _14_ gaps in the tree line due to roads, train tracks, and other paths people carve _15_ the woods.
 
-- {"A": "from", "B": "through", "C": "beyond", "D": "under"}
+- **A.** from
+- **B.** through
+- **C.** beyond
+- **D.** under
 
 **Correct answer:** B
 
@@ -228,7 +273,10 @@ you should be able to _14_ gaps in the tree line due to roads, train tracks, and
 
 Head toward these _16_ to find a way out.
 
-- {"A": "posts", "B": "links", "C": "shades", "D": "breaks"}
+- **A.** posts
+- **B.** links
+- **C.** shades
+- **D.** breaks
 
 **Correct answer:** D
 
@@ -242,7 +290,10 @@ Head toward these _16_ to find a way out.
 
 At night, scan the horizon for _17_ light sources, such as fires and streetlights, then walk toward the glow of light pollution.
 
-- {"A": "artificial", "B": "mysterious", "C": "hidden", "D": "limited"}
+- **A.** artificial
+- **B.** mysterious
+- **C.** hidden
+- **D.** limited
 
 **Correct answer:** A
 
@@ -256,7 +307,10 @@ At night, scan the horizon for _17_ light sources, such as fires and streetlight
 
 _18__, assuming you’re lost in an area humans tend to frequent, look for the we leave on the landscape.
 
-- {"A": "Finally", "B": "Consequently", "C": "Incidentally", "D": "Generally"}
+- **A.** Finally
+- **B.** Consequently
+- **C.** Incidentally
+- **D.** Generally
 
 **Correct answer:** A
 
@@ -270,7 +324,10 @@ _18__, assuming you’re lost in an area humans tend to frequent, look for the w
 
 assuming you’re lost in an area humans tend to frequent, look for the _19_ we leave on the landscape.
 
-- {"A": "memories", "B": "marks", "C": "notes", "D": "belongings"}
+- **A.** memories
+- **B.** marks
+- **C.** notes
+- **D.** belongings
 
 **Correct answer:** B
 
@@ -284,7 +341,10 @@ assuming you’re lost in an area humans tend to frequent, look for the _19_ we 
 
 Trail blazes, tire tracks, and other features can _20_ you to civilization.
 
-- {"A": "restrict", "B": "adapt", "C": "lead", "D": "expose"}
+- **A.** restrict
+- **B.** adapt
+- **C.** lead
+- **D.** expose
 
 **Correct answer:** C
 

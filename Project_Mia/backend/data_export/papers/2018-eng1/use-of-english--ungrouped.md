@@ -19,7 +19,10 @@ B. like
 C. for
 D. from
 
-- {"A": "on", "B": "like", "C": "for", "D": "from"}
+- **A.** on
+- **B.** like
+- **C.** for
+- **D.** from
 
 **Correct answer:** C
 
@@ -36,7 +39,10 @@ B. concern
 C. attention
 D. interest
 
-- {"A": "faith", "B": "concern", "C": "attention", "D": "interest"}
+- **A.** faith
+- **B.** concern
+- **C.** attention
+- **D.** interest
 
 **Correct answer:** A
 
@@ -53,7 +59,10 @@ B. debt
 C. hope
 D. price
 
-- {"A": "benefit", "B": "debt", "C": "hope", "D": "price"}
+- **A.** benefit
+- **B.** debt
+- **C.** hope
+- **D.** price
 
 **Correct answer:** D
 
@@ -70,7 +79,10 @@ B. Then
 C. Instead
 D. Again
 
-- {"A": "Therefore", "B": "Then", "C": "Instead", "D": "Again"}
+- **A.** Therefore
+- **B.** Then
+- **C.** Instead
+- **D.** Again
 
 **Correct answer:** B
 
@@ -87,7 +99,10 @@ B. Unless
 C. Although
 D. When
 
-- {"A": "Until", "B": "Unless", "C": "Although", "D": "When"}
+- **A.** Until
+- **B.** Unless
+- **C.** Although
+- **D.** When
 
 **Correct answer:** D
 
@@ -104,7 +119,10 @@ B. produces
 C. applies
 D. maintains
 
-- {"A": "selects", "B": "produces", "C": "applies", "D": "maintains"}
+- **A.** selects
+- **B.** produces
+- **C.** applies
+- **D.** maintains
 
 **Correct answer:** B
 
@@ -121,7 +139,10 @@ B. compete
 C. connect
 D. compare
 
-- {"A": "consult", "B": "compete", "C": "connect", "D": "compare"}
+- **A.** consult
+- **B.** compete
+- **C.** connect
+- **D.** compare
 
 **Correct answer:** C
 
@@ -138,7 +159,10 @@ B. by
 C. of
 D. to
 
-- {"A": "at", "B": "by", "C": "of", "D": "to"}
+- **A.** at
+- **B.** by
+- **C.** of
+- **D.** to
 
 **Correct answer:** D
 
@@ -155,7 +179,10 @@ B. mood
 C. period
 D. circle
 
-- {"A": "context", "B": "mood", "C": "period", "D": "circle"}
+- **A.** context
+- **B.** mood
+- **C.** period
+- **D.** circle
 
 **Correct answer:** B
 
@@ -172,7 +199,10 @@ B. substitutes
 C. colleagues
 D. supporters
 
-- {"A": "counterparts", "B": "substitutes", "C": "colleagues", "D": "supporters"}
+- **A.** counterparts
+- **B.** substitutes
+- **C.** colleagues
+- **D.** supporters
 
 **Correct answer:** A
 
@@ -189,7 +219,10 @@ B. Lucky
 C. Odd
 D. Ironic
 
-- {"A": "Funny", "B": "Lucky", "C": "Odd", "D": "Ironic"}
+- **A.** Funny
+- **B.** Lucky
+- **C.** Odd
+- **D.** Ironic
 
 **Correct answer:** B
 
@@ -206,7 +239,10 @@ B. protect
 C. surprise
 D. delight
 
-- {"A": "monitor", "B": "protect", "C": "surprise", "D": "delight"}
+- **A.** monitor
+- **B.** protect
+- **C.** surprise
+- **D.** delight
 
 **Correct answer:** B
 
@@ -223,7 +259,10 @@ B. within
 C. toward
 D. over
 
-- {"A": "between", "B": "within", "C": "toward", "D": "over"}
+- **A.** between
+- **B.** within
+- **C.** toward
+- **D.** over
 
 **Correct answer:** A
 
@@ -240,7 +279,10 @@ B. added
 C. introduced
 D. entrusted
 
-- {"A": "transferred", "B": "added", "C": "introduced", "D": "entrusted"}
+- **A.** transferred
+- **B.** added
+- **C.** introduced
+- **D.** entrusted
 
 **Correct answer:** C
 
@@ -257,7 +299,10 @@ B. back
 C. around
 D. inside
 
-- {"A": "out", "B": "back", "C": "around", "D": "inside"}
+- **A.** out
+- **B.** back
+- **C.** around
+- **D.** inside
 
 **Correct answer:** D
 
@@ -274,7 +319,10 @@ B. proved
 C. insisted
 D. remembered
 
-- {"A": "discovered", "B": "proved", "C": "insisted", "D": "remembered"}
+- **A.** discovered
+- **B.** proved
+- **C.** insisted
+- **D.** remembered
 
 **Correct answer:** A
 
@@ -291,7 +339,10 @@ B. wronged
 C. fooled
 D. mocked
 
-- {"A": "betrayed", "B": "wronged", "C": "fooled", "D": "mocked"}
+- **A.** betrayed
+- **B.** wronged
+- **C.** fooled
+- **D.** mocked
 
 **Correct answer:** C
 
@@ -308,7 +359,10 @@ B. willing
 C. hesitant
 D. entitled
 
-- {"A": "forced", "B": "willing", "C": "hesitant", "D": "entitled"}
+- **A.** forced
+- **B.** willing
+- **C.** hesitant
+- **D.** entitled
 
 **Correct answer:** B
 
@@ -325,7 +379,10 @@ B. As a result
 C. On the whole
 D. For instance
 
-- {"A": "In contrast", "B": "As a result", "C": "On the whole", "D": "For instance"}
+- **A.** In contrast
+- **B.** As a result
+- **C.** On the whole
+- **D.** For instance
 
 **Correct answer:** A
 
@@ -342,7 +399,10 @@ B. incapable
 C. unreliable
 D. unsuitable
 
-- {"A": "inflexible", "B": "incapable", "C": "unreliable", "D": "unsuitable"}
+- **A.** inflexible
+- **B.** incapable
+- **C.** unreliable
+- **D.** unsuitable
 
 **Correct answer:** C
 

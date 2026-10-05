@@ -26,7 +26,10 @@ Karla Ortiz,an illustrator based in San Francisco who found her work in Stable D
 
 What can be learned about Rutkowski from the first two paragraphs?
 
-- {"A": "He is enthusiastic about using AI models.", "B": "He is popular with users of an AI art generator.", "C": "He attracts admiration from other illustrators.", "D": "He specializes in classical painting digitalization."}
+- **A.** He is enthusiastic about using AI models.
+- **B.** He is popular with users of an AI art generator.
+- **C.** He attracts admiration from other illustrators.
+- **D.** He specializes in classical painting digitalization.
 
 **Correct answer:** B
 
@@ -40,7 +43,10 @@ What can be learned about Rutkowski from the first two paragraphs?
 
 The problem with open-source AI art generators is that they
 
-- {"A": "lack flexibility in responding to prompts", "B": "produce artworks in unpredictable styles", "C": "make unauthorized use of online images", "D": "collect user information without consent"}
+- **A.** lack flexibility in responding to prompts
+- **B.** produce artworks in unpredictable styles
+- **C.** make unauthorized use of online images
+- **D.** collect user information without consent
 
 **Correct answer:** C
 
@@ -54,7 +60,10 @@ The problem with open-source AI art generators is that they
 
 After searching online, Rutkowski found
 
-- {"A": "a unique way to reach audiences", "B": "a new method to identify AI images", "C": "AI-generated work bearing his name", "D": "heated disputes regarding his copyright"}
+- **A.** a unique way to reach audiences
+- **B.** a new method to identify AI images
+- **C.** AI-generated work bearing his name
+- **D.** heated disputes regarding his copyright
 
 **Correct answer:** C
 
@@ -68,7 +77,10 @@ After searching online, Rutkowski found
 
 According to Ortiz,AI companies are advised to
 
-- {"A": "campaign for new policies or regulation", "B": "offer their services to public institutions", "C": "strengthen their relationships with AI users", "D": "adopt a different strategy for AI model training"}
+- **A.** campaign for new policies or regulation
+- **B.** offer their services to public institutions
+- **C.** strengthen their relationships with AI users
+- **D.** adopt a different strategy for AI model training
 
 **Correct answer:** D
 
@@ -82,7 +94,10 @@ According to Ortiz,AI companies are advised to
 
 What is the text mainly about?
 
-- {"A": "Artists'responses to AI art generation.", "B": "AI's expanded role in artistic creation.", "C": "Privacy issues in the application of AI.", "D": "Opposing views on AI development."}
+- **A.** Artists'responses to AI art generation.
+- **B.** AI's expanded role in artistic creation.
+- **C.** Privacy issues in the application of AI.
+- **D.** Opposing views on AI development.
 
 **Correct answer:** A
 

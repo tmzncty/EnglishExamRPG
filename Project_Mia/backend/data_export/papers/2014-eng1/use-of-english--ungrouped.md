@@ -16,7 +16,10 @@ The Web-based program _15_ you to systematically improve your memory and attenti
 
 we put the keys just a moment ago
 
-- {"A": "that", "B": "when", "C": "why", "D": "where"}
+- **A.** that
+- **B.** when
+- **C.** why
+- **D.** where
 
 **Correct answer:** D
 
@@ -29,7 +32,10 @@ we put the keys just a moment ago
 ### Question 2
 
 
-- {"A": "fades", "B": "improves", "C": "collapses", "D": "recovers"}
+- **A.** fades
+- **B.** improves
+- **C.** collapses
+- **D.** recovers
 
 **Correct answer:** A
 
@@ -42,7 +48,10 @@ we put the keys just a moment ago
 ### Question 3
 
 
-- {"A": "Unless", "B": "While", "C": "Once", "D": "If"}
+- **A.** Unless
+- **B.** While
+- **C.** Once
+- **D.** If
 
 **Correct answer:** B
 
@@ -55,7 +64,10 @@ we put the keys just a moment ago
 ### Question 4
 
 
-- {"A": "damaging", "B": "limited", "C": "uneven", "D": "obscure"}
+- **A.** damaging
+- **B.** limited
+- **C.** uneven
+- **D.** obscure
 
 **Correct answer:** A
 
@@ -68,7 +80,10 @@ we put the keys just a moment ago
 ### Question 5
 
 
-- {"A": "relationship", "B": "environment", "C": "wellbeing", "D": "outlook"}
+- **A.** relationship
+- **B.** environment
+- **C.** wellbeing
+- **D.** outlook
 
 **Correct answer:** C
 
@@ -81,7 +96,10 @@ we put the keys just a moment ago
 ### Question 6
 
 
-- {"A": "figures", "B": "finds", "C": "points", "D": "turns"}
+- **A.** figures
+- **B.** finds
+- **C.** points
+- **D.** turns
 
 **Correct answer:** D
 
@@ -94,7 +112,10 @@ Turn out表示结果是，被证明是，符合语境。
 ### Question 7
 
 
-- {"A": "responses", "B": "associations", "C": "workouts", "D": "roundabouts"}
+- **A.** responses
+- **B.** associations
+- **C.** workouts
+- **D.** roundabouts
 
 **Correct answer:** C
 
@@ -107,7 +128,10 @@ Turn out表示结果是，被证明是，符合语境。
 ### Question 8
 
 
-- {"A": "genre", "B": "criterion", "C": "circumstances", "D": "functions"}
+- **A.** genre
+- **B.** criterion
+- **C.** circumstances
+- **D.** functions
 
 **Correct answer:** D
 
@@ -120,7 +144,10 @@ Turn out表示结果是，被证明是，符合语境。
 ### Question 9
 
 
-- {"A": "channel", "B": "process", "C": "condition", "D": "sequence"}
+- **A.** channel
+- **B.** process
+- **C.** condition
+- **D.** sequence
 
 **Correct answer:** B
 
@@ -133,7 +160,10 @@ Turn out表示结果是，被证明是，符合语境。
 ### Question 10
 
 
-- {"A": "persist", "B": "feature", "C": "excel", "D": "believe"}
+- **A.** persist
+- **B.** feature
+- **C.** excel
+- **D.** believe
 
 **Correct answer:** C
 
@@ -146,7 +176,10 @@ Turn out表示结果是，被证明是，符合语境。
 ### Question 11
 
 
-- {"A": "However", "B": "Moreover", "C": "Otherwise", "D": "Therefore"}
+- **A.** However
+- **B.** Moreover
+- **C.** Otherwise
+- **D.** Therefore
 
 **Correct answer:** A
 
@@ -159,7 +192,10 @@ However表示转折，上文说能力是遗传的，下文说能力是可以通�
 ### Question 12
 
 
-- {"A": "according to", "B": "regardless of", "C": "apart from", "D": "instead of"}
+- **A.** according to
+- **B.** regardless of
+- **C.** apart from
+- **D.** instead of
 
 **Correct answer:** A
 
@@ -172,7 +208,10 @@ However表示转折，上文说能力是遗传的，下文说能力是可以通�
 ### Question 13
 
 
-- {"A": "back", "B": "further", "C": "aside", "D": "around"}
+- **A.** back
+- **B.** further
+- **C.** aside
+- **D.** around
 
 **Correct answer:** B
 
@@ -185,7 +224,10 @@ Take it a step further表示更进一步。
 ### Question 14
 
 
-- {"A": "framework", "B": "stability", "C": "flexibility", "D": "sharpness"}
+- **A.** framework
+- **B.** stability
+- **C.** flexibility
+- **D.** sharpness
 
 **Correct answer:** D
 
@@ -198,7 +240,10 @@ Take it a step further表示更进一步。
 ### Question 15
 
 
-- {"A": "hurries", "B": "reminds", "C": "allows", "D": "forces"}
+- **A.** hurries
+- **B.** reminds
+- **C.** allows
+- **D.** forces
 
 **Correct answer:** C
 
@@ -211,7 +256,10 @@ Allow表示允许，许可，程序允许你系统地提高记忆力和注意力
 ### Question 16
 
 
-- {"A": "order", "B": "track", "C": "pace", "D": "hold"}
+- **A.** order
+- **B.** track
+- **C.** pace
+- **D.** hold
 
 **Correct answer:** B
 
@@ -224,7 +272,10 @@ Keep track of表示保持知晓，保持联络，程序跟踪你的进步。
 ### Question 17
 
 
-- {"A": "on", "B": "to", "C": "for", "D": "with"}
+- **A.** on
+- **B.** to
+- **C.** for
+- **D.** with
 
 **Correct answer:** A
 
@@ -237,7 +288,10 @@ Feedback on表示关于……的反馈。
 ### Question 18
 
 
-- {"A": "habitually", "B": "constantly", "C": "irregularly", "D": "unusually"}
+- **A.** habitually
+- **B.** constantly
+- **C.** irregularly
+- **D.** unusually
 
 **Correct answer:** B
 
@@ -250,7 +304,10 @@ Constantly表示不断地，持续地，程序不断地调整和加强训练内�
 ### Question 19
 
 
-- {"A": "carry", "B": "put", "C": "build", "D": "take"}
+- **A.** carry
+- **B.** put
+- **C.** build
+- **D.** take
 
 **Correct answer:** C
 
@@ -263,7 +320,10 @@ Build on表示用……作为进一步发展的基础，将……继续推进，
 ### Question 20
 
 
-- {"A": "idle", "B": "risky", "C": "familiar", "D": "effective"}
+- **A.** idle
+- **B.** risky
+- **C.** familiar
+- **D.** effective
 
 **Correct answer:** D
 

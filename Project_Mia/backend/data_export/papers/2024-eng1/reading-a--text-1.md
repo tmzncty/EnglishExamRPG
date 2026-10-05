@@ -24,7 +24,10 @@ The Gutenberg printing press transformed civilisation not by changing the nature
 
 The Romans buried the nails probably for the sake of
 
-- {"A": "saving them for future use", "B": "keeping them from rusting", "C": "letting them grow in value", "D": "hiding them from the locals"}
+- **A.** saving them for future use
+- **B.** keeping them from rusting
+- **C.** letting them grow in value
+- **D.** hiding them from the locals
 
 **Correct answer:** D
 
@@ -38,7 +41,10 @@ The Romans buried the nails probably for the sake of
 
 The example of early 17th-century Virginians is used to
 
-- {"A": "highlight the thriftiness of early American colonists", "B": "illustrate the high status of blacksmiths in that period", "C": "contrast the attitudes of different civilisations towards nails", "D": "show the preciousness of nail-making technology at that time"}
+- **A.** highlight the thriftiness of early American colonists
+- **B.** illustrate the high status of blacksmiths in that period
+- **C.** contrast the attitudes of different civilisations towards nails
+- **D.** show the preciousness of nail-making technology at that time
 
 **Correct answer:** D
 
@@ -52,7 +58,10 @@ The example of early 17th-century Virginians is used to
 
 What played the major role in lowering the price of nails after the late 1700s?
 
-- {"A": "Increased  productivity.", "B": "Wider use of new energies.", "C": "Fiercer market competition.", "D": "Reduced cost of raw materials."}
+- **A.** Increased  productivity.
+- **B.** Wider use of new energies.
+- **C.** Fiercer market competition.
+- **D.** Reduced cost of raw materials.
 
 **Correct answer:** A
 
@@ -66,7 +75,10 @@ What played the major role in lowering the price of nails after the late 1700s?
 
 It can be learned from Paragraph 5 that nails
 
-- {"A": "have undergone many technological improvements", "B": "have remained basically the same since Roman times", "C": "are less studied than other everyday products", "D": "are one of the world's most significant inventions"}
+- **A.** have undergone many technological improvements
+- **B.** have remained basically the same since Roman times
+- **C.** are less studied than other everyday products
+- **D.** are one of the world's most significant inventions
 
 **Correct answer:** B
 
@@ -80,7 +92,10 @@ It can be learned from Paragraph 5 that nails
 
 Which of the following best summarises the last two paragraphs?
 
-- {"A": "Cheap technologies bring about revolutionary change.", "B": "Technological innovation is integral to economic success.", "C": "Technology defines people's understanding of the world.", "D": "Sophisticated technologies develop from small inventions."}
+- **A.** Cheap technologies bring about revolutionary change.
+- **B.** Technological innovation is integral to economic success.
+- **C.** Technology defines people's understanding of the world.
+- **D.** Sophisticated technologies develop from small inventions.
 
 **Correct answer:** A
 

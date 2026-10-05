@@ -30,7 +30,10 @@ Next time somebody pushes corporate quotas as a way to promote gender equity, re
 
 The author believes that the bills sponsored by Lewis and Haddad will
 
-- {"A": "help little to reduce gender bias.", "B": "pose a threat to the state government.", "C": "raise women’s position in politics.", "D": "greatly broaden career options."}
+- **A.** help little to reduce gender bias.
+- **B.** pose a threat to the state government.
+- **C.** raise women’s position in politics.
+- **D.** greatly broaden career options.
 
 **Correct answer:** A
 
@@ -44,7 +47,10 @@ The author believes that the bills sponsored by Lewis and Haddad will
 
 Which of the following is true of the California measure?
 
-- {"A": "It has irritated private business owners.", "B": "It is welcomed by the Supreme Court.", "C": "It may go against the Constitution.", "D": "It will settle the prior controversies."}
+- **A.** It has irritated private business owners.
+- **B.** It is welcomed by the Supreme Court.
+- **C.** It may go against the Constitution.
+- **D.** It will settle the prior controversies.
 
 **Correct answer:** C
 
@@ -58,7 +64,10 @@ Which of the following is true of the California measure?
 
 The author mentions the study by Catalyst to illustrate
 
-- {"A": "the harm from arbitrary board decision.", "B": "the importance of constitutional guarantees.", "C": "the pressure on women in global corporations.", "D": "the needlessness of government interventions."}
+- **A.** the harm from arbitrary board decision.
+- **B.** the importance of constitutional guarantees.
+- **C.** the pressure on women in global corporations.
+- **D.** the needlessness of government interventions.
 
 **Correct answer:** D
 
@@ -72,7 +81,10 @@ The author mentions the study by Catalyst to illustrate
 
 Norway’s adoption of a nationwide corporate gender quota has led to
 
-- {"A": "the underestimation of elite women’s role.", "B": "the objection to female participation on boards.", "C": "the entry of unqualified candidates into the board.", "D": "the growing tension between labor and management."}
+- **A.** the underestimation of elite women’s role.
+- **B.** the objection to female participation on boards.
+- **C.** the entry of unqualified candidates into the board.
+- **D.** the growing tension between labor and management.
 
 **Correct answer:** C
 
@@ -86,7 +98,10 @@ Norway’s adoption of a nationwide corporate gender quota has led to
 
 Which of the following can be inferred from the text?
 
-- {"A": "Women’s need in employment should be considered.", "B": "Feasibility should be a prime concern in policymaking.", "C": "Everyone should try hard to promote social justice.", "D": "Major social issues should be the focus of legislation."}
+- **A.** Women’s need in employment should be considered.
+- **B.** Feasibility should be a prime concern in policymaking.
+- **C.** Everyone should try hard to promote social justice.
+- **D.** Major social issues should be the focus of legislation.
 
 **Correct answer:** B
 

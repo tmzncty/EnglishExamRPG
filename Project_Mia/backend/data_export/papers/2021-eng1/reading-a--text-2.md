@@ -26,7 +26,10 @@ Whether this research translates elsewhere is anybody’s guess.Ferraro suggests
 
 According to the first two paragraphs, CCT programs aim to
 
-- {"A": "facilitate healthcare reform.", "B": "help poor families get better off.", "C": "improve local education systems.", "D": "lower deforestation rates."}
+- **A.** facilitate healthcare reform.
+- **B.** help poor families get better off.
+- **C.** improve local education systems.
+- **D.** lower deforestation rates.
 
 **Correct answer:** B
 
@@ -40,7 +43,10 @@ According to the first two paragraphs, CCT programs aim to
 
 The study based on an area in Mexico is cited to show that
 
-- {"A": "cattle raising has been a major means of livelihood for the poor.", "B": "CCT programs have helped preserve traditional lifestyles.", "C": "antipoverty efforts require the participation of local farmers.", "D": "economic growth tends to cause environmental degradation."}
+- **A.** cattle raising has been a major means of livelihood for the poor.
+- **B.** CCT programs have helped preserve traditional lifestyles.
+- **C.** antipoverty efforts require the participation of local farmers.
+- **D.** economic growth tends to cause environmental degradation.
 
 **Correct answer:** D
 
@@ -54,7 +60,10 @@ The study based on an area in Mexico is cited to show that
 
 In his study about Indonesia, Ferraro intends to find out
 
-- {"A": "its acceptance level of CCTs.", "B": "its annual rate of poverty alleviation.", "C": "the relation of CCTs to its forest loss.", "D": "the role of its forests in climate change."}
+- **A.** its acceptance level of CCTs.
+- **B.** its annual rate of poverty alleviation.
+- **C.** the relation of CCTs to its forest loss.
+- **D.** the role of its forests in climate change.
 
 **Correct answer:** C
 
@@ -68,7 +77,10 @@ Ferraro在关于印度尼西亚的研究中，旨在找出CCT项目与其森林�
 
 According to Ferraro, the CCT program in Indonesia is most valuable in that
 
-- {"A": "it will benefit other Asian countries.", "B": "it will reduce regional inequality.", "C": "it can protect the environment.", "D": "it can benefit grain production."}
+- **A.** it will benefit other Asian countries.
+- **B.** it will reduce regional inequality.
+- **C.** it can protect the environment.
+- **D.** it can benefit grain production.
 
 **Correct answer:** C
 
@@ -82,7 +94,10 @@ According to Ferraro, the CCT program in Indonesia is most valuable in that
 
 What is the text centered on?
 
-- {"A": "The effects of a program.", "B": "The debates over a program.", "C": "The process of a study.", "D": "The transferability of a study."}
+- **A.** The effects of a program.
+- **B.** The debates over a program.
+- **C.** The process of a study.
+- **D.** The transferability of a study.
 
 **Correct answer:** A
 

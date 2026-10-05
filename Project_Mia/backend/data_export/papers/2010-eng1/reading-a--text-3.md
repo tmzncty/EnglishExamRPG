@@ -20,7 +20,10 @@ Building on this basic truth about interpersonal influence, the researchers stud
 
 By citing the book The Tipping Point, the author intends to
 
-- {"A": "analyze the consequences of social epidemics.", "B": "discuss influentials’ function in spreading ideas.", "C": "exemplify people’s intuitive response to social epidemics.", "D": "describe the essential characteristics of influentials."}
+- **A.** analyze the consequences of social epidemics.
+- **B.** discuss influentials’ function in spreading ideas.
+- **C.** exemplify people’s intuitive response to social epidemics.
+- **D.** describe the essential characteristics of influentials.
 
 **Correct answer:** B
 
@@ -34,7 +37,10 @@ By citing the book The Tipping Point, the author intends to
 
 The author suggests that the “two-step-flow theory”
 
-- {"A": "serves as a solution to marketing problems.", "B": "has helped explain certain prevalent trends.", "C": "has won support from influentials.", "D": "requires solid evidence for its validity."}
+- **A.** serves as a solution to marketing problems.
+- **B.** has helped explain certain prevalent trends.
+- **C.** has won support from influentials.
+- **D.** requires solid evidence for its validity.
 
 **Correct answer:** B
 
@@ -48,7 +54,10 @@ The author suggests that the “two-step-flow theory”
 
 What the researchers have observed recently shows that
 
-- {"A": "the power of influence goes with social interactions.", "B": "interpersonal links can be enhanced through the media.", "C": "influentials have more channels to reach the public.", "D": "most celebrities enjoy wide media attention."}
+- **A.** the power of influence goes with social interactions.
+- **B.** interpersonal links can be enhanced through the media.
+- **C.** influentials have more channels to reach the public.
+- **D.** most celebrities enjoy wide media attention.
 
 **Correct answer:** A
 
@@ -62,7 +71,10 @@ What the researchers have observed recently shows that
 
 The underlined phrase “these people” in Paragraph 4 refers to the ones who
 
-- {"A": "stay outside the network of social influence.", "B": "have little contact with the source of influence.", "C": "are influenced and then influence others.", "D": "are influenced by the initial influential."}
+- **A.** stay outside the network of social influence.
+- **B.** have little contact with the source of influence.
+- **C.** are influenced and then influence others.
+- **D.** are influenced by the initial influential.
 
 **Correct answer:** C
 
@@ -76,7 +88,10 @@ The underlined phrase “these people” in Paragraph 4 refers to the ones who
 
 What is the essential element in the dynamics of social influence?
 
-- {"A": "The eagerness to be accepted.", "B": "The impulse to influence others.", "C": "The readiness to be influenced.", "D": "The inclination to rely on others."}
+- **A.** The eagerness to be accepted.
+- **B.** The impulse to influence others.
+- **C.** The readiness to be influenced.
+- **D.** The inclination to rely on others.
 
 **Correct answer:** C
 

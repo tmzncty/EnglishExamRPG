@@ -18,7 +18,10 @@ The use of privacy law to curb the tech giants in this instance feels slightly m
 
 What is true of the agreement between the NHS and DeepMind?
 
-- {"A": "It caused conflicts among tech giants.", "B": "It failed to pay due attention to patients’ rights.", "C": "It fell short of the latter’s expectations.", "D": "It put both sides into a dangerous situation."}
+- **A.** It caused conflicts among tech giants.
+- **B.** It failed to pay due attention to patients’ rights.
+- **C.** It fell short of the latter’s expectations.
+- **D.** It put both sides into a dangerous situation.
 
 **Correct answer:** B
 
@@ -32,7 +35,10 @@ What is true of the agreement between the NHS and DeepMind?
 
 The NHS trust responded to Denham’s verdict with
 
-- {"A": "empty promises.", "B": "tough resistance.", "C": "necessary adjustments.", "D": "sincere apologies."}
+- **A.** empty promises.
+- **B.** tough resistance.
+- **C.** necessary adjustments.
+- **D.** sincere apologies.
 
 **Correct answer:** C
 
@@ -46,7 +52,10 @@ The NHS trust responded to Denham’s verdict with
 
 The author argues in Paragraph 2 that
 
-- {"A": "privacy protection must be secured at all costs.", "B": "leaking patients’ data is worse than selling it.", "C": "making profits from patients’ data is illegal.", "D": "the value of data comes from the processing of it."}
+- **A.** privacy protection must be secured at all costs.
+- **B.** leaking patients’ data is worse than selling it.
+- **C.** making profits from patients’ data is illegal.
+- **D.** the value of data comes from the processing of it.
 
 **Correct answer:** D
 
@@ -60,7 +69,10 @@ The author argues in Paragraph 2 that
 
 According to the last paragraph, the real worry arising from this deal is
 
-- {"A": "the vicious rivalry among big pharmas.", "B": "the ineffective enforcement of privacy law.", "C": "the uncontrolled use of new software.", "D": "the monopoly of big data by tech giants."}
+- **A.** the vicious rivalry among big pharmas.
+- **B.** the ineffective enforcement of privacy law.
+- **C.** the uncontrolled use of new software.
+- **D.** the monopoly of big data by tech giants.
 
 **Correct answer:** D
 
@@ -74,7 +86,10 @@ According to the last paragraph, the real worry arising from this deal is
 
 The author's attitude toward the application of AI to healthcare is
 
-- {"A": "ambiguous.", "B": "cautious.", "C": "appreciative.", "D": "contemptuous."}
+- **A.** ambiguous.
+- **B.** cautious.
+- **C.** appreciative.
+- **D.** contemptuous.
 
 **Correct answer:** B
 

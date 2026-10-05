@@ -22,7 +22,10 @@ Far less certain, however, is how successfully experts and bureaucrats can selec
 
 According to the first paragraph, peer pressure often emerges as
 
-- {"A": "a supplement to the social cure.", "B": "a stimulus to group dynamics.", "C": "an obstacle to social progress.", "D": "a cause of undesirable behaviors."}
+- **A.** a supplement to the social cure.
+- **B.** a stimulus to group dynamics.
+- **C.** an obstacle to social progress.
+- **D.** a cause of undesirable behaviors.
 
 **Correct answer:** D
 
@@ -36,7 +39,10 @@ According to the first paragraph, peer pressure often emerges as
 
 Rosenberg holds that public-health advocates should
 
-- {"A": "recruit professional advertisers.", "B": "learn from advertisers’ experience.", "C": "stay away from commercial advertisers.", "D": "recognize the limitations of advertisements."}
+- **A.** recruit professional advertisers.
+- **B.** learn from advertisers’ experience.
+- **C.** stay away from commercial advertisers.
+- **D.** recognize the limitations of advertisements.
 
 **Correct answer:** B
 
@@ -50,7 +56,10 @@ Rosenberg holds that public-health advocates should
 
 In the author’s view, Rosenberg’s book fails to
 
-- {"A": "adequately probe social and biological factors.", "B": "effectively evade the flaws of the social cure.", "C": "illustrate the functions of state funding.", "D": "produce a long-lasting social effect."}
+- **A.** adequately probe social and biological factors.
+- **B.** effectively evade the flaws of the social cure.
+- **C.** illustrate the functions of state funding.
+- **D.** produce a long-lasting social effect.
 
 **Correct answer:** A
 
@@ -64,7 +73,10 @@ In the author’s view, Rosenberg’s book fails to
 
 Paragraph 5 shows that our imitation of behaviors
 
-- {"A": "is harmful to our networks of friends.", "B": "will mislead behavioral studies.", "C": "occurs without our realizing it.", "D": "can produce negative health habits."}
+- **A.** is harmful to our networks of friends.
+- **B.** will mislead behavioral studies.
+- **C.** occurs without our realizing it.
+- **D.** can produce negative health habits.
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ Paragraph 5 shows that our imitation of behaviors
 
 The author suggests in the last paragraph that the effect of peer pressure is
 
-- {"A": "harmful.", "B": "desirable.", "C": "profound.", "D": "questionable."}
+- **A.** harmful.
+- **B.** desirable.
+- **C.** profound.
+- **D.** questionable.
 
 **Correct answer:** D
 

@@ -24,7 +24,10 @@ And more is at stake here than individual objects. Joana Lia Ferreira, anassista
 
 According to Paragraph 1, museums are faced with difficulties in
 
-- {"A": "maintaining their plastic items.", "B": "obtaining durable plastic artifacts.", "C": "handling outdated plastic exhibits.", "D": "classifying their plastic collections."}
+- **A.** maintaining their plastic items.
+- **B.** obtaining durable plastic artifacts.
+- **C.** handling outdated plastic exhibits.
+- **D.** classifying their plastic collections.
 
 **Correct answer:** A
 
@@ -38,7 +41,10 @@ According to Paragraph 1, museums are faced with difficulties in
 
 Van Oosten believes that certain plastic objects are
 
-- {"A": "immune to decay.", "B": "improperly shaped.", "C": "inherently flawed.", "D": "complex in structure."}
+- **A.** immune to decay.
+- **B.** improperly shaped.
+- **C.** inherently flawed.
+- **D.** complex in structure.
 
 **Correct answer:** C
 
@@ -52,7 +58,10 @@ Van Oosten认为某些塑料制品在制作过程中存在缺陷，导致它们�
 
 Museums stopped exhibiting some of Gilardi’s artworks to
 
-- {"A": "keep them from hurting visitors.", "B": "duplicate them for future display.", "C": "have their ingredients analyzed.", "D": "prevent them from further damage."}
+- **A.** keep them from hurting visitors.
+- **B.** duplicate them for future display.
+- **C.** have their ingredients analyzed.
+- **D.** prevent them from further damage.
 
 **Correct answer:** D
 
@@ -66,7 +75,10 @@ Museums stopped exhibiting some of Gilardi’s artworks to
 
 The author thinks that preservation of plastics is
 
-- {"A": "costly.", "B": "unworthy.", "C": "unpopular.", "D": "challenging."}
+- **A.** costly.
+- **B.** unworthy.
+- **C.** unpopular.
+- **D.** challenging.
 
 **Correct answer:** D
 
@@ -80,7 +92,10 @@ The author thinks that preservation of plastics is
 
 In Ferreira’s opinion, preservation of plastic artifacts
 
-- {"A": "will inspire future scientific research.", "B": "has profound historical significance.", "C": "will help us separate the material ages.", "D": "has an impact on today’s cultural life."}
+- **A.** will inspire future scientific research.
+- **B.** has profound historical significance.
+- **C.** will help us separate the material ages.
+- **D.** has an impact on today’s cultural life.
 
 **Correct answer:** B
 

@@ -24,7 +24,10 @@ Technology will improve society in ways big and small over the next few years, y
 
 Who will be most threatened by automation?
 
-- {"A": "Leading politicians.", "B": "Low-wage laborers.", "C": "Robot owners.", "D": "Middle-class workers."}
+- **A.** Leading politicians.
+- **B.** Low-wage laborers.
+- **C.** Robot owners.
+- **D.** Middle-class workers.
 
 **Correct answer:** D
 
@@ -38,7 +41,10 @@ Who will be most threatened by automation?
 
 Which of the following best represents the author’s view?
 
-- {"A": "Worries about automation are in fact groundless.", "B": "Optimists’ opinions on new tech find little support.", "C": "Issues arising from automation need to be tackled.", "D": "Negative consequences of new tech can be avoided."}
+- **A.** Worries about automation are in fact groundless.
+- **B.** Optimists’ opinions on new tech find little support.
+- **C.** Issues arising from automation need to be tackled.
+- **D.** Negative consequences of new tech can be avoided.
 
 **Correct answer:** C
 
@@ -52,7 +58,10 @@ Which of the following best represents the author’s view?
 
 Education in the age of automation should put more emphasis on
 
-- {"A": "creative potential.", "B": "job-hunting skills.", "C": "individual needs.", "D": "cooperative spirit."}
+- **A.** creative potential.
+- **B.** job-hunting skills.
+- **C.** individual needs.
+- **D.** cooperative spirit.
 
 **Correct answer:** A
 
@@ -66,7 +75,10 @@ Education in the age of automation should put more emphasis on
 
 The author suggests that tax policies be aimed at
 
-- {"A": "encouraging the development of automation.", "B": "increasing the return on capital investment.", "C": "easing the hostility between rich and poor.", "D": "preventing the income gap from widening."}
+- **A.** encouraging the development of automation.
+- **B.** increasing the return on capital investment.
+- **C.** easing the hostility between rich and poor.
+- **D.** preventing the income gap from widening.
 
 **Correct answer:** D
 
@@ -80,7 +92,10 @@ The author suggests that tax policies be aimed at
 
 In this text, the author presents a problem with
 
-- {"A": "opposing views on it.", "B": "possible solutions to it.", "C": "its alarming impacts.", "D": "its major variations."}
+- **A.** opposing views on it.
+- **B.** possible solutions to it.
+- **C.** its alarming impacts.
+- **D.** its major variations.
 
 **Correct answer:** B
 

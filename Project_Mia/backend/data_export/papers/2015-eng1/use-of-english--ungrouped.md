@@ -23,7 +23,10 @@ B. why
 C. how
 D. what
 
-- {"A": "when", "B": "why", "C": "how", "D": "what"}
+- **A.** when
+- **B.** why
+- **C.** how
+- **D.** what
 
 **Correct answer:** D
 
@@ -40,7 +43,10 @@ B. concluded
 C. withdrawn
 D. advised
 
-- {"A": "defended", "B": "concluded", "C": "withdrawn", "D": "advised"}
+- **A.** defended
+- **B.** concluded
+- **C.** withdrawn
+- **D.** advised
 
 **Correct answer:** B
 
@@ -57,7 +63,10 @@ B. with
 C. on
 D. by
 
-- {"A": "for", "B": "with", "C": "on", "D": "by"}
+- **A.** for
+- **B.** with
+- **C.** on
+- **D.** by
 
 **Correct answer:** C
 
@@ -74,7 +83,10 @@ B. sought
 C. separated
 D. connected
 
-- {"A": "compared", "B": "sought", "C": "separated", "D": "connected"}
+- **A.** compared
+- **B.** sought
+- **C.** separated
+- **D.** connected
 
 **Correct answer:** A
 
@@ -91,7 +103,10 @@ B. objects
 C. samples
 D. examples
 
-- {"A": "tests", "B": "objects", "C": "samples", "D": "examples"}
+- **A.** tests
+- **B.** objects
+- **C.** samples
+- **D.** examples
 
 **Correct answer:** C
 
@@ -108,7 +123,10 @@ B. unexpected
 C. unreliable
 D. incredible
 
-- {"A": "insignificant", "B": "unexpected", "C": "unreliable", "D": "incredible"}
+- **A.** insignificant
+- **B.** unexpected
+- **C.** unreliable
+- **D.** incredible
 
 **Correct answer:** A
 
@@ -125,7 +143,10 @@ B. miss
 C. seek
 D. know
 
-- {"A": "visit", "B": "miss", "C": "seek", "D": "know"}
+- **A.** visit
+- **B.** miss
+- **C.** seek
+- **D.** know
 
 **Correct answer:** D
 
@@ -142,7 +163,10 @@ B. influence
 C. favor
 D. surpass
 
-- {"A": "resemble", "B": "influence", "C": "favor", "D": "surpass"}
+- **A.** resemble
+- **B.** influence
+- **C.** favor
+- **D.** surpass
 
 **Correct answer:** A
 
@@ -159,7 +183,10 @@ B. also
 C. instead
 D. thus
 
-- {"A": "again", "B": "also", "C": "instead", "D": "thus"}
+- **A.** again
+- **B.** also
+- **C.** instead
+- **D.** thus
 
 **Correct answer:** B
 
@@ -176,7 +203,10 @@ B. Furthermore
 C. Likewise
 D. Perhaps
 
-- {"A": "Meanwhile", "B": "Furthermore", "C": "Likewise", "D": "Perhaps"}
+- **A.** Meanwhile
+- **B.** Furthermore
+- **C.** Likewise
+- **D.** Perhaps
 
 **Correct answer:** D
 
@@ -193,7 +223,10 @@ B. to
 C. from
 D. like
 
-- {"A": "about", "B": "to", "C": "from", "D": "like"}
+- **A.** about
+- **B.** to
+- **C.** from
+- **D.** like
 
 **Correct answer:** B
 
@@ -210,7 +243,10 @@ B. observe
 C. confuse
 D. limit
 
-- {"A": "drive", "B": "observe", "C": "confuse", "D": "limit"}
+- **A.** drive
+- **B.** observe
+- **C.** confuse
+- **D.** limit
 
 **Correct answer:** A
 
@@ -227,7 +263,10 @@ B. rather than
 C. regardless of
 D. along with
 
-- {"A": "according to", "B": "rather than", "C": "regardless of", "D": "along with"}
+- **A.** according to
+- **B.** rather than
+- **C.** regardless of
+- **D.** along with
 
 **Correct answer:** B
 
@@ -244,7 +283,10 @@ B. responses
 C. missions
 D. benefits
 
-- {"A": "chances", "B": "responses", "C": "missions", "D": "benefits"}
+- **A.** chances
+- **B.** responses
+- **C.** missions
+- **D.** benefits
 
 **Correct answer:** D
 
@@ -261,7 +303,10 @@ B. slower
 C. faster
 D. earlier
 
-- {"A": "later", "B": "slower", "C": "faster", "D": "earlier"}
+- **A.** later
+- **B.** slower
+- **C.** faster
+- **D.** earlier
 
 **Correct answer:** C
 
@@ -278,7 +323,10 @@ B. remember
 C. understand
 D. express
 
-- {"A": "forecast", "B": "remember", "C": "understand", "D": "express"}
+- **A.** forecast
+- **B.** remember
+- **C.** understand
+- **D.** express
 
 **Correct answer:** C
 
@@ -295,7 +343,10 @@ B. contributory
 C. controllable
 D. disruptive
 
-- {"A": "unpredictable", "B": "contributory", "C": "controllable", "D": "disruptive"}
+- **A.** unpredictable
+- **B.** contributory
+- **C.** controllable
+- **D.** disruptive
 
 **Correct answer:** B
 
@@ -312,7 +363,10 @@ B. decision
 C. arrangement
 D. tendency
 
-- {"A": "endeavor", "B": "decision", "C": "arrangement", "D": "tendency"}
+- **A.** endeavor
+- **B.** decision
+- **C.** arrangement
+- **D.** tendency
 
 **Correct answer:** D
 
@@ -329,7 +383,10 @@ B. religious
 C. ethnic
 D. economic
 
-- {"A": "political", "B": "religious", "C": "ethnic", "D": "economic"}
+- **A.** political
+- **B.** religious
+- **C.** ethnic
+- **D.** economic
 
 **Correct answer:** C
 
@@ -346,7 +403,10 @@ B. show
 C. prove
 D. tell
 
-- {"A": "see", "B": "show", "C": "prove", "D": "tell"}
+- **A.** see
+- **B.** show
+- **C.** prove
+- **D.** tell
 
 **Correct answer:** A
 

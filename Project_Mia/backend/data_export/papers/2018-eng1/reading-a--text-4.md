@@ -18,7 +18,10 @@ If it clears the House, this measure would still have to get through the Senate 
 
 The financial problem with the USPS is caused partly by
 
-- {"A": "its unbalanced budget.", "B": "its rigid management.", "C": "the cost for technical upgrading.", "D": "the withdrawal of bank support."}
+- **A.** its unbalanced budget.
+- **B.** its rigid management.
+- **C.** the cost for technical upgrading.
+- **D.** the withdrawal of bank support.
 
 **Correct answer:** B
 
@@ -32,7 +35,10 @@ The financial problem with the USPS is caused partly by
 
 According to Paragraph 2, the USPS fails to modernize itself due to
 
-- {"A": "the interference from interest groups.", "B": "the inadequate funding from Congress.", "C": "the shrinking demand for postal service.", "D": "the incompetence of postal unions."}
+- **A.** the interference from interest groups.
+- **B.** the inadequate funding from Congress.
+- **C.** the shrinking demand for postal service.
+- **D.** the incompetence of postal unions.
 
 **Correct answer:** A
 
@@ -46,7 +52,10 @@ According to Paragraph 2, the USPS fails to modernize itself due to
 
 The long-standing complaint by the USPS and its unions can be addressed by
 
-- {"A": "removing its burden of retiree health care.", "B": "making more investment in new vehicles.", "C": "adopting a new rate-increase mechanism.", "D": "attracting more first-class mail users."}
+- **A.** removing its burden of retiree health care.
+- **B.** making more investment in new vehicles.
+- **C.** adopting a new rate-increase mechanism.
+- **D.** attracting more first-class mail users.
 
 **Correct answer:** A
 
@@ -60,7 +69,10 @@ The long-standing complaint by the USPS and its unions can be addressed by
 
 In the last paragraph, the author seems to view legislators with
 
-- {"A": "respect.", "B": "tolerance.", "C": "discontent.", "D": "gratitude."}
+- **A.** respect.
+- **B.** tolerance.
+- **C.** discontent.
+- **D.** gratitude.
 
 **Correct answer:** C
 
@@ -74,7 +86,10 @@ In the last paragraph, the author seems to view legislators with
 
 Which of the following would be the best title for the text?
 
-- {"A": "The USPS Starts to Miss Its Good Old Days.", "B": "The Postal Service: Keep Away from My Cheese.", "C": "The USPS: Chronic Illness Requires a Quick Cure.", "D": "The Postal Service Needs More Than a Band-Aid."}
+- **A.** The USPS Starts to Miss Its Good Old Days.
+- **B.** The Postal Service: Keep Away from My Cheese.
+- **C.** The USPS: Chronic Illness Requires a Quick Cure.
+- **D.** The Postal Service Needs More Than a Band-Aid.
 
 **Correct answer:** D
 

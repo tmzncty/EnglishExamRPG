@@ -22,7 +22,10 @@ So when young people are critical of an over-tweeting president, they reveal a m
 
 According to Paragraphs 1 and 2, many young Americans cast doubts on
 
-- {"A": "the justification of the news-filtering practice.", "B": "people’s preference for social media platforms.", "C": "the administration’s ability to handle information.", "D": "social media as a reliable source of news."}
+- **A.** the justification of the news-filtering practice.
+- **B.** people’s preference for social media platforms.
+- **C.** the administration’s ability to handle information.
+- **D.** social media as a reliable source of news.
 
 **Correct answer:** D
 
@@ -36,7 +39,10 @@ According to Paragraphs 1 and 2, many young Americans cast doubts on
 
 The phrase “beef up” (Line 2, Para. 2) is closest in meaning to
 
-- {"A": "sharpen.", "B": "define.", "C": "boast.", "D": "share."}
+- **A.** sharpen.
+- **B.** define.
+- **C.** boast.
+- **D.** share.
 
 **Correct answer:** A
 
@@ -50,7 +56,10 @@ beef up在这里的意思是“增强”，在上下文中指增强媒体素养�
 
 According to the Knight Foundation survey, young people
 
-- {"A": "tend to voice their opinions in cyberspace.", "B": "verify news by referring to diverse sources.", "C": "have a strong sense of responsibility.", "D": "like to exchange views on “distributed trust”."}
+- **A.** tend to voice their opinions in cyberspace.
+- **B.** verify news by referring to diverse sources.
+- **C.** have a strong sense of responsibility.
+- **D.** like to exchange views on “distributed trust”.
 
 **Correct answer:** B
 
@@ -64,7 +73,10 @@ According to the Knight Foundation survey, young people
 
 The Barna survey found that a main cause for the fake news problem is
 
-- {"A": "readers’ outdated values.", "B": "journalists’ biased reporting.", "C": "readers’ misinterpretation.", "D": "journalists’ made-up stories."}
+- **A.** readers’ outdated values.
+- **B.** journalists’ biased reporting.
+- **C.** readers’ misinterpretation.
+- **D.** journalists’ made-up stories.
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ The Barna survey found that a main cause for the fake news problem is
 
 Which of the following would be the best title for the text?
 
-- {"A": "A Rise in Critical Skills for Sharing News Online.", "B": "A Counteraction Against the Over-tweeting Trend.", "C": "The Accumulation of Mutual Trust on Social Media.", "D": "The Platforms for Projection of Personal Interests."}
+- **A.** A Rise in Critical Skills for Sharing News Online.
+- **B.** A Counteraction Against the Over-tweeting Trend.
+- **C.** The Accumulation of Mutual Trust on Social Media.
+- **D.** The Platforms for Projection of Personal Interests.
 
 **Correct answer:** A
 

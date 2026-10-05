@@ -22,7 +22,10 @@ Many recruiters say the old disgrace is fading for top performers. The financial
 
 When McGee announced his departure, his manner can best be described as being
 
-- {"A": "arrogant.", "B": "frank.", "C": "self-centered.", "D": "impulsive."}
+- **A.** arrogant.
+- **B.** frank.
+- **C.** self-centered.
+- **D.** impulsive.
 
 **Correct answer:** B
 
@@ -36,7 +39,10 @@ When McGee announced his departure, his manner can best be described as being
 
 According to Paragraph 2, senior executives’ quitting may be spurred by
 
-- {"A": "their expectation of better financial status.", "B": "their need to reflect on their private life.", "C": "their strained relations with the boards.", "D": "their pursuit of new career goals."}
+- **A.** their expectation of better financial status.
+- **B.** their need to reflect on their private life.
+- **C.** their strained relations with the boards.
+- **D.** their pursuit of new career goals.
 
 **Correct answer:** D
 
@@ -50,7 +56,10 @@ According to Paragraph 2, senior executives’ quitting may be spurred by
 
 The word “poached” (Line 3, Paragraph 4) most probably means
 
-- {"A": "approved of.", "B": "attended to.", "C": "hunted for.", "D": "guarded against."}
+- **A.** approved of.
+- **B.** attended to.
+- **C.** hunted for.
+- **D.** guarded against.
 
 **Correct answer:** C
 
@@ -64,7 +73,10 @@ The word “poached” (Line 3, Paragraph 4) most probably means
 
 It can be inferred from the last paragraph that
 
-- {"A": "top performers used to cling to their posts.", "B": "loyalty of top performers is getting out-dated.", "C": "top performers care more about reputations.", "D": "it’s safer to stick to the traditional rules."}
+- **A.** top performers used to cling to their posts.
+- **B.** loyalty of top performers is getting out-dated.
+- **C.** top performers care more about reputations.
+- **D.** it’s safer to stick to the traditional rules.
 
 **Correct answer:** A
 
@@ -78,7 +90,10 @@ It can be inferred from the last paragraph that
 
 Which of the following is the best title for the text?
 
-- {"A": "CEOs: Where to Go?", "B": "CEOs: All the Way Up?", "C": "Top Managers Jump without a Net", "D": "The Only Way Out for Top Performers"}
+- **A.** CEOs: Where to Go?
+- **B.** CEOs: All the Way Up?
+- **C.** Top Managers Jump without a Net
+- **D.** The Only Way Out for Top Performers
 
 **Correct answer:** C
 

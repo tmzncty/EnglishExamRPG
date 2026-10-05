@@ -24,7 +24,10 @@ Hom said similar registration requirements could benefit struggling cities and t
 
 Which of the following is true of New England?
 
-- {"A": "Its housing supply is at a very low level.", "B": "Its communities are in need of funding.", "C": "Its rental vacancy rate is going up slowly.", "D": "Its home prices are under strict control."}
+- **A.** Its housing supply is at a very low level.
+- **B.** Its communities are in need of funding.
+- **C.** Its rental vacancy rate is going up slowly.
+- **D.** Its home prices are under strict control.
 
 **Correct answer:** A
 
@@ -38,7 +41,10 @@ Which of the following is true of New England?
 
 The bill mentioned in Paragraph 2 was intended to
 
-- {"A": "curb short-term rental speculation.", "B": "ensure the supply of cheap housing.", "C": "punish illegal dealings in housing.", "D": "allow a free short-term rental market."}
+- **A.** curb short-term rental speculation.
+- **B.** ensure the supply of cheap housing.
+- **C.** punish illegal dealings in housing.
+- **D.** allow a free short-term rental market.
 
 **Correct answer:** D
 
@@ -52,7 +58,10 @@ The bill mentioned in Paragraph 2 was intended to
 
 Compared with Castle, Taylor is more likely to support
 
-- {"A": "further investment in local tourism.", "B": "an increase in affordable housing.", "C": "strict management of real estate agents.", "D": "a favorable policy for short-term workers."}
+- **A.** further investment in local tourism.
+- **B.** an increase in affordable housing.
+- **C.** strict management of real estate agents.
+- **D.** a favorable policy for short-term workers.
 
 **Correct answer:** B
 
@@ -66,7 +75,10 @@ Compared with Castle, Taylor is more likely to support
 
 What does Hom emphasize in Paragraph 5?
 
-- {"A": "The urgency to upgrade short-term rental facilities.", "B": "The efficient operation of the local housing market.", "C": "The necessity to stop developers from evading taxes.", "D": "The proper procedures for renting out spare houses."}
+- **A.** The urgency to upgrade short-term rental facilities.
+- **B.** The efficient operation of the local housing market.
+- **C.** The necessity to stop developers from evading taxes.
+- **D.** The proper procedures for renting out spare houses.
 
 **Correct answer:** C
 
@@ -80,7 +92,10 @@ What does Hom emphasize in Paragraph 5?
 
 Hom holds that imposing registration requirements is
 
-- {"A": "an irrational decision.", "B": "an unfeasible proposal.", "C": "an unnecessary measure.", "D": "an inadequate solution."}
+- **A.** an irrational decision.
+- **B.** an unfeasible proposal.
+- **C.** an unnecessary measure.
+- **D.** an inadequate solution.
 
 **Correct answer:** D
 

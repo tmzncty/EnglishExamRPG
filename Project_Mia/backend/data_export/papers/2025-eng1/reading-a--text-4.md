@@ -18,7 +18,10 @@ This  phenomenon  is  frightening  because  it's  pervasive,from  the photos on 
 
 The author mentions the artifacts from the past to
 
-- {"A": "introduce the collection of antiques", "B": "contrast them with everyday items", "C": "bring up the issue of preservation", "D": "comment on their historical value"}
+- **A.** introduce the collection of antiques
+- **B.** contrast them with everyday items
+- **C.** bring up the issue of preservation
+- **D.** comment on their historical value
 
 **Correct answer:** C
 
@@ -32,7 +35,10 @@ The author mentions the artifacts from the past to
 
 Compared  with  digital  objects,tangible  artifacts
 
-- {"A": "are less subject to their creators'neglect", "B": "convey information in a more direct way", "C": "require more international preservation", "D": "are less likely to suffer serious damage"}
+- **A.** are less subject to their creators'neglect
+- **B.** convey information in a more direct way
+- **C.** require more international preservation
+- **D.** are less likely to suffer serious damage
 
 **Correct answer:** A
 
@@ -46,7 +52,10 @@ Compared  with  digital  objects,tangible  artifacts
 
 According to Paragraph 3,librarians work may result in
 
-- {"A": "oversupply of materials", "B": "undervaluation of libraries", "C": "researchers'underperformance", "D": "users'overreliance  on  technology"}
+- **A.** oversupply of materials
+- **B.** undervaluation of libraries
+- **C.** researchers'underperformance
+- **D.** users'overreliance  on  technology
 
 **Correct answer:** B
 
@@ -60,7 +69,10 @@ According to Paragraph 3,librarians work may result in
 
 The "ZIP disk"is cited as an example to show
 
-- {"A": "the hazard of retrieving files through unusual means.", "B": "the infeasibility of constantly migrating digital assets.", "C": "the possibility of losing information in obsolete formats.", "D": "the inconvenience of storing information on analog devices."}
+- **A.** the hazard of retrieving files through unusual means.
+- **B.** the infeasibility of constantly migrating digital assets.
+- **C.** the possibility of losing information in obsolete formats.
+- **D.** the inconvenience of storing information on analog devices.
 
 **Correct answer:** C
 
@@ -74,7 +86,10 @@ The "ZIP disk"is cited as an example to show
 
 Which of the following statements best summarizes the test?
 
-- {"A": "Hard work should be done to preserve artifacts.", "B": "Contributions of librarians should be recognized.", "C": "Accessing databases is essential to researchers.", "D": "Keeping digital historical records is a challenge"}
+- **A.** Hard work should be done to preserve artifacts.
+- **B.** Contributions of librarians should be recognized.
+- **C.** Accessing databases is essential to researchers.
+- **D.** Keeping digital historical records is a challenge
 
 **Correct answer:** D
 

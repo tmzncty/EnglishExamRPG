@@ -24,7 +24,10 @@ Retail trade groups praised the ruling, saying it levels the playing field for l
 
 The Supreme Court decision Thursday will
 
-- {"A": "better businesses' relations with states.", "B": "put most online businesses in a dilemma.", "C": "make more online shoppers pay sales tax.", "D": "force some states to cut sales tax."}
+- **A.** better businesses' relations with states.
+- **B.** put most online businesses in a dilemma.
+- **C.** make more online shoppers pay sales tax.
+- **D.** force some states to cut sales tax.
 
 **Correct answer:** C
 
@@ -38,7 +41,10 @@ The Supreme Court decision Thursday will
 
 It can be learned from Paragraphs 2 and 3 that the overruled decisions
 
-- {"A": "have led to the dominance of e-commerce.", "B": "have cost consumers a lot over the years.", "C": "were widely criticized by online purchasers.", "D": "were considered unfavorable by states."}
+- **A.** have led to the dominance of e-commerce.
+- **B.** have cost consumers a lot over the years.
+- **C.** were widely criticized by online purchasers.
+- **D.** were considered unfavorable by states.
 
 **Correct answer:** D
 
@@ -52,7 +58,10 @@ It can be learned from Paragraphs 2 and 3 that the overruled decisions
 
 According to Justice Anthony Kennedy, the physical presence rule has
 
-- {"A": "hindered economic development.", "B": "brought prosperity to the country.", "C": "harmed fair market competition.", "D": "boosted growth in states' revenue."}
+- **A.** hindered economic development.
+- **B.** brought prosperity to the country.
+- **C.** harmed fair market competition.
+- **D.** boosted growth in states' revenue.
 
 **Correct answer:** C
 
@@ -66,7 +75,10 @@ According to Justice Anthony Kennedy, the physical presence rule has
 
 Who are most likely to welcome the Supreme Court ruling?
 
-- {"A": "Internet entrepreneurs.", "B": "Big-chain owners.", "C": "Third-party sellers.", "D": "Small retailers."}
+- **A.** Internet entrepreneurs.
+- **B.** Big-chain owners.
+- **C.** Third-party sellers.
+- **D.** Small retailers.
 
 **Correct answer:** B
 
@@ -80,7 +92,10 @@ Who are most likely to welcome the Supreme Court ruling?
 
 In dealing with the Supreme Court decision Thursday, the author
 
-- {"A": "gives a factual account of it and discusses its consequences.", "B": "describes the long and complicated process of its making.", "C": "presents its main points with conflicting views on them.", "D": "cites some cases related to it and analyzes their implications."}
+- **A.** gives a factual account of it and discusses its consequences.
+- **B.** describes the long and complicated process of its making.
+- **C.** presents its main points with conflicting views on them.
+- **D.** cites some cases related to it and analyzes their implications.
 
 **Correct answer:** A
 

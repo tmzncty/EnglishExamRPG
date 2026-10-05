@@ -24,7 +24,10 @@ Within companies, the right compensation design can provide incentives for execu
 
 According to Paragraph 1, one motive in imposing the new rule is to
 
-- {"A": "enhance bankers’ sense of responsibility.", "B": "help corporations achieve larger profits.", "C": "build a new system of financial regulation.", "D": "guarantee the bonuses of top executives."}
+- **A.** enhance bankers’ sense of responsibility.
+- **B.** help corporations achieve larger profits.
+- **C.** build a new system of financial regulation.
+- **D.** guarantee the bonuses of top executives.
 
 **Correct answer:** A
 
@@ -38,7 +41,10 @@ According to Paragraph 1, one motive in imposing the new rule is to
 
 Alfred Marshall is quoted to indicate
 
-- {"A": "the conditions for generating quick profits.", "B": "governments’ impatience in decision-making.", "C": "the solid structure of publicly traded companies.", "D": "“short-termism” in economic activities."}
+- **A.** the conditions for generating quick profits.
+- **B.** governments’ impatience in decision-making.
+- **C.** the solid structure of publicly traded companies.
+- **D.** “short-termism” in economic activities.
 
 **Correct answer:** D
 
@@ -52,7 +58,10 @@ Alfred Marshall is quoted to indicate
 
 It is argued that the influence of transient investment on public companies can be
 
-- {"A": "indirect.", "B": "adverse.", "C": "minimal.", "D": "temporary."}
+- **A.** indirect.
+- **B.** adverse.
+- **C.** minimal.
+- **D.** temporary.
 
 **Correct answer:** B
 
@@ -66,7 +75,10 @@ It is argued that the influence of transient investment on public companies can 
 
 The US and France examples are used to illustrate
 
-- {"A": "the obstacles to preventing “short-termism”.", "B": "the significance of long-term thinking.", "C": "the approaches to promoting “long-termism”.", "D": "the prevalence of short-term thinking."}
+- **A.** the obstacles to preventing “short-termism”.
+- **B.** the significance of long-term thinking.
+- **C.** the approaches to promoting “long-termism”.
+- **D.** the prevalence of short-term thinking.
 
 **Correct answer:** C
 
@@ -80,7 +92,10 @@ The US and France examples are used to illustrate
 
 Which of the following would be the best title for the text?
 
-- {"A": "Failure of Quarterly Capitalism", "B": "Patience as a Corporate Virtue", "C": "Decisiveness Required of Top Executives", "D": "Frustration of Risk-taking Bankers"}
+- **A.** Failure of Quarterly Capitalism
+- **B.** Patience as a Corporate Virtue
+- **C.** Decisiveness Required of Top Executives
+- **D.** Frustration of Risk-taking Bankers
 
 **Correct answer:** B
 

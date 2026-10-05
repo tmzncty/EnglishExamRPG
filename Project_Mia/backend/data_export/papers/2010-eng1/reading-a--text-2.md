@@ -20,7 +20,10 @@ The Federal Circuit’s action comes in the wake of a series of recent decisions
 
 Business-method patents have recently aroused concern because of
 
-- {"A": "their limited value to businesses.", "B": "their connection with asset allocation.", "C": "the possible restriction on their granting.", "D": "the controversy over their authorization."}
+- **A.** their limited value to businesses.
+- **B.** their connection with asset allocation.
+- **C.** the possible restriction on their granting.
+- **D.** the controversy over their authorization.
 
 **Correct answer:** C
 
@@ -34,7 +37,10 @@ Business-method patents have recently aroused concern because of
 
 Which of the following is true of the Bilski case?
 
-- {"A": "Its ruling complies with the court decisions.", "B": "It involves a very big business transaction.", "C": "It has been dismissed by the Federal Circuit.", "D": "It may change the legal practices in the U.S."}
+- **A.** Its ruling complies with the court decisions.
+- **B.** It involves a very big business transaction.
+- **C.** It has been dismissed by the Federal Circuit.
+- **D.** It may change the legal practices in the U.S.
 
 **Correct answer:** D
 
@@ -48,7 +54,10 @@ Which of the following is true of the Bilski case?
 
 The word “about-face” (Line 1, Para. 3) most probably means
 
-- {"A": "loss of goodwill.", "B": "increase of hostility.", "C": "change of attitude.", "D": "enhancement of dignity."}
+- **A.** loss of goodwill.
+- **B.** increase of hostility.
+- **C.** change of attitude.
+- **D.** enhancement of dignity.
 
 **Correct answer:** C
 
@@ -62,7 +71,10 @@ The word “about-face” (Line 1, Para. 3) most probably means
 
 We learn from the last two paragraphs that business-method patents
 
-- {"A": "are immune to legal challenges.", "B": "are often unnecessarily issued.", "C": "lower the esteem for patent holders.", "D": "increase the incidence of risks."}
+- **A.** are immune to legal challenges.
+- **B.** are often unnecessarily issued.
+- **C.** lower the esteem for patent holders.
+- **D.** increase the incidence of risks.
 
 **Correct answer:** B
 
@@ -76,7 +88,10 @@ We learn from the last two paragraphs that business-method patents
 
 Which of the following would be the subject of the text?
 
-- {"A": "A looming threat to business-method patents.", "B": "Protection for business-method patent holders.", "C": "A legal case regarding business-method patents.", "D": "A prevailing trend against business-method patents."}
+- **A.** A looming threat to business-method patents.
+- **B.** Protection for business-method patent holders.
+- **C.** A legal case regarding business-method patents.
+- **D.** A prevailing trend against business-method patents.
 
 **Correct answer:** A
 

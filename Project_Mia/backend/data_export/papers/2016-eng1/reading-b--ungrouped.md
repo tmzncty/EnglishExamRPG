@@ -24,7 +24,13 @@ The point of a style upgrade isn’t to become more vain or to spend more time f
 
 As an executive coach, I’ve seen image upgrades be particularly helpful during transitions – when looking for a new job, stepping into a new or more public role, or changing work environments. If you’re in a period of change or just feeling stuck and in a rut, now may be a good time. If you’re not sure, ask for honest feedback from trusted friends, colleagues and professionals. Look for cues about how others perceive you. Maybe there’s no need for an upgrade and that’s OK.
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** C
 
@@ -38,7 +44,13 @@ Paragraph 4 describes situations where an image upgrade can be beneficial, such 
 
 Get clear on what impact you’re hoping to have. Are you looking to refresh your image or pivot it? For one person, the goal may be to be taken more seriously and enhance their professional image. For another, it may be to be perceived as more approachable, or more modern and stylish. For someone moving from finance to advertising, maybe they want to look more “SoHo.” (It’s OK to use characterizations like that.)
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** F
 
@@ -52,7 +64,13 @@ Paragraph 5 emphasizes the importance of defining your objectives for an image u
 
 Look at your work environment like an anthropologist. What are the norms of your environment? What conveys status? Who are your most important audiences? How do the people you respect and look up to present themselves? The better you understand the cultural context, the more control you can have over your impact.
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** D
 
@@ -66,7 +84,13 @@ Paragraph 6 advises observing the workplace environment to understand its norms,
 
 Enlist the support of professionals and share with them your goals and context. Hire a personal stylist, or use the free styling service of a store like J.Crew. Try a hair stylist instead of a barber. Work with a professional photographer instead of your spouse or friend. It’s not as expensive as you might think.
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** E
 
@@ -80,7 +104,13 @@ Paragraph 7 specifically recommends seeking guidance from professionals such as 
 
 The point of a style upgrade isn’t to become more vain or to spend more time fussing over what to wear. Instead, use it as an opportunity to reduce decision fatigue. Pick a standard work uniform or a few go-to options. Buy all your clothes at once with a stylist instead of shopping alone, one article of clothing at a time.
 
-- {"A": "Create a new image of yourself", "B": "Have confidence in yourself", "C": "Decide if the time is right", "D": "Understand the context", "E": "Work with professionals", "F": "Know your goals", "G": "Make it efficient"}
+- **A.** Create a new image of yourself
+- **B.** Have confidence in yourself
+- **C.** Decide if the time is right
+- **D.** Understand the context
+- **E.** Work with professionals
+- **F.** Know your goals
+- **G.** Make it efficient
 
 **Correct answer:** G
 

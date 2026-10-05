@@ -22,7 +22,10 @@ The endless legal battles and back-and-forth at the FCC cry out for Congress to 
 
 There has long been concern that broadband providers would
 
-- {"A": "bring web-based firms under control.", "B": "slow down the traffic on their network.", "C": "show partiality in treating clients.", "D": "intensify competition with their rivals."}
+- **A.** bring web-based firms under control.
+- **B.** slow down the traffic on their network.
+- **C.** show partiality in treating clients.
+- **D.** intensify competition with their rivals.
 
 **Correct answer:** C
 
@@ -36,7 +39,10 @@ There has long been concern that broadband providers would
 
 Faced with the demand for net neutrality rules, the FCC
 
-- {"A": "sticks to an out-of-date order.", "B": "takes an anti-regulatory stance.", "C": "has issued a special resolution.", "D": "has allowed the states to intervene."}
+- **A.** sticks to an out-of-date order.
+- **B.** takes an anti-regulatory stance.
+- **C.** has issued a special resolution.
+- **D.** has allowed the states to intervene.
 
 **Correct answer:** B
 
@@ -50,7 +56,10 @@ Faced with the demand for net neutrality rules, the FCC
 
 What can be learned about AT&T from Paragraph 3?
 
-- {"A": "It protects against unfair competition.", "B": "It engages in anti-competitive practices.", "C": "It is under the FCC’s investigation.", "D": "It is in pursuit of quality service."}
+- **A.** It protects against unfair competition.
+- **B.** It engages in anti-competitive practices.
+- **C.** It is under the FCC’s investigation.
+- **D.** It is in pursuit of quality service.
 
 **Correct answer:** B
 
@@ -64,7 +73,10 @@ What can be learned about AT&T from Paragraph 3?
 
 Judge Patricia Millett argues that the appeals court’s decision
 
-- {"A": "focus on trivialities.", "B": "conveys an ambiguous message.", "C": "is at odds with its earlier rulings.", "D": "is out of touch with reality."}
+- **A.** focus on trivialities.
+- **B.** conveys an ambiguous message.
+- **C.** is at odds with its earlier rulings.
+- **D.** is out of touch with reality.
 
 **Correct answer:** D
 
@@ -78,7 +90,10 @@ Judge Patricia Millett argues that the appeals court’s decision
 
 What does the author argue in the last paragraph?
 
-- {"A": "Congress needs to take action to ensure net neutrality.", "B": "The FCC should be put under strict supervision.", "C": "Rules need to be set to diversify online services.", "D": "Broadband providers’ rights should be protected."}
+- **A.** Congress needs to take action to ensure net neutrality.
+- **B.** The FCC should be put under strict supervision.
+- **C.** Rules need to be set to diversify online services.
+- **D.** Broadband providers’ rights should be protected.
 
 **Correct answer:** A
 

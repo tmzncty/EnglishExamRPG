@@ -22,7 +22,10 @@ The AAAS displays great enthusiasm for liberal education. Yet its report may wel
 
 According to Paragraph 1, what is the author’s attitude toward the AAAS’s report?
 
-- {"A": "Critical.", "B": "Appreciative.", "C": "Contemptuous.", "D": "Tolerant."}
+- **A.** Critical.
+- **B.** Appreciative.
+- **C.** Contemptuous.
+- **D.** Tolerant.
 
 **Correct answer:** A
 
@@ -36,7 +39,10 @@ According to Paragraph 1, what is the author’s attitude toward the AAAS’s re
 
 Influential figures in the Congress required that the AAAS report on how to
 
-- {"A": "define the government’s role in education.", "B": "safeguard individuals’ rights to education.", "C": "retain people’s interest in liberal education.", "D": "keep a leading position in liberal education."}
+- **A.** define the government’s role in education.
+- **B.** safeguard individuals’ rights to education.
+- **C.** retain people’s interest in liberal education.
+- **D.** keep a leading position in liberal education.
 
 **Correct answer:** D
 
@@ -50,7 +56,10 @@ Influential figures in the Congress required that the AAAS report on how to
 
 According to Paragraph 3, the report suggests
 
-- {"A": "an exclusive study of American history.", "B": "a greater emphasis on theoretical subjects.", "C": "the application of emerging technologies.", "D": "funding for the study of foreign languages."}
+- **A.** an exclusive study of American history.
+- **B.** a greater emphasis on theoretical subjects.
+- **C.** the application of emerging technologies.
+- **D.** funding for the study of foreign languages.
 
 **Correct answer:** C
 
@@ -64,7 +73,10 @@ According to Paragraph 3, the report suggests
 
 The author implies in Paragraph 5 that professors are
 
-- {"A": "supportive of free markets.", "B": "conservative about public policy.", "C": "biased against classical liberal ideas.", "D": "cautious about intellectual investigation."}
+- **A.** supportive of free markets.
+- **B.** conservative about public policy.
+- **C.** biased against classical liberal ideas.
+- **D.** cautious about intellectual investigation.
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ The author implies in Paragraph 5 that professors are
 
 Which of the following would be the best title for the text?
 
-- {"A": "Ways to Grasp “The Heart of the Matter”", "B": "Illiberal Education and “The Heart of the Matter”", "C": "The AAAS’s Contribution to Liberal Education", "D": "Progressive Policy vs. Liberal Education"}
+- **A.** Ways to Grasp “The Heart of the Matter”
+- **B.** Illiberal Education and “The Heart of the Matter”
+- **C.** The AAAS’s Contribution to Liberal Education
+- **D.** Progressive Policy vs. Liberal Education
 
 **Correct answer:** B
 

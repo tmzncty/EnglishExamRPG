@@ -18,7 +18,10 @@ But in Osborneland, your first instinct is to fall into dependency – permanent
 
 George Osborne’s scheme was intended to
 
-- {"A": "encourage jobseekers’ active engagement in job seeking.", "B": "provide the unemployed with easier access to benefits.", "C": "guarantee jobseekers’ legitimate right to benefits.", "D": "motivate the unemployed to report voluntarily."}
+- **A.** encourage jobseekers’ active engagement in job seeking.
+- **B.** provide the unemployed with easier access to benefits.
+- **C.** guarantee jobseekers’ legitimate right to benefits.
+- **D.** motivate the unemployed to report voluntarily.
 
 **Correct answer:** A
 
@@ -32,7 +35,10 @@ George Osborne’s scheme was intended to
 
 The phrase “to sign on” (Line 3, Para. 2) most probably means
 
-- {"A": "to check on the availability of jobs at the jobcentre.", "B": "to accept the government’s restrictions on the allowance.", "C": "to register for an allowance from the government.", "D": "to attend a governmental job-training program."}
+- **A.** to check on the availability of jobs at the jobcentre.
+- **B.** to accept the government’s restrictions on the allowance.
+- **C.** to register for an allowance from the government.
+- **D.** to attend a governmental job-training program.
 
 **Correct answer:** C
 
@@ -46,7 +52,10 @@ The phrase “to sign on” (Line 3, Para. 2) most probably means
 
 What prompted the chancellor to develop his scheme?
 
-- {"A": "A desire to secure a better life for all.", "B": "An eagerness to protect the unemployed.", "C": "An urge to be generous to the claimants.", "D": "A passion to ensure fairness for taxpayers."}
+- **A.** A desire to secure a better life for all.
+- **B.** An eagerness to protect the unemployed.
+- **C.** An urge to be generous to the claimants.
+- **D.** A passion to ensure fairness for taxpayers.
 
 **Correct answer:** D
 
@@ -60,7 +69,10 @@ What prompted the chancellor to develop his scheme?
 
 According to Paragraph 3, being unemployed makes one feel
 
-- {"A": "uneasy.", "B": "insulted.", "C": "enraged.", "D": "guilty."}
+- **A.** uneasy.
+- **B.** insulted.
+- **C.** enraged.
+- **D.** guilty.
 
 **Correct answer:** A
 
@@ -74,7 +86,10 @@ According to Paragraph 3, being unemployed makes one feel
 
 To which of the following would the author most probably agree?
 
-- {"A": "Unemployment benefits should not be made conditional.", "B": "The British welfare system indulges jobseekers’ laziness.", "C": "The jobseekers’ allowance has met their actual needs.", "D": "Osborne’s reforms will reduce the risk of unemployment."}
+- **A.** Unemployment benefits should not be made conditional.
+- **B.** The British welfare system indulges jobseekers’ laziness.
+- **C.** The jobseekers’ allowance has met their actual needs.
+- **D.** Osborne’s reforms will reduce the risk of unemployment.
 
 **Correct answer:** A
 

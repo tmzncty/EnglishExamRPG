@@ -24,7 +24,10 @@ While hunter-gatherer children learnt from observation and imitation in mixed- a
 
 According to the first two paragraphs,alloparenting refers to the practice of
 
-- {"A": "sharing childcare among community members", "B": "assigning babies to specific adult caregivers", "C": "teaching parenting skills to older children", "D": "carrying infants around by their parents"}
+- **A.** sharing childcare among community members
+- **B.** assigning babies to specific adult caregivers
+- **C.** teaching parenting skills to older children
+- **D.** carrying infants around by their parents
 
 **Correct answer:** A
 
@@ -38,7 +41,10 @@ According to the first two paragraphs,alloparenting refers to the practice of
 
 The scheme in Germany is mentioned to illustrate
 
-- {"A": "an attempt to facilitate intergenerational communication", "B": "an approach to integrating alloparenting into western society", "C": "the conventional parenting style in western culture", "D": "the differences between western and African ways of living"}
+- **A.** an attempt to facilitate intergenerational communication
+- **B.** an approach to integrating alloparenting into western society
+- **C.** the conventional parenting style in western culture
+- **D.** the differences between western and African ways of living
 
 **Correct answer:** B
 
@@ -52,7 +58,10 @@ The scheme in Germany is mentioned to illustrate
 
 According to Paragraph 4,the “intensive mothering narrative”
 
-- {"A": "alleviates parenting pressures", "B": "consolidates family relationships", "C": "results in the child-centred family", "D": "departs from the course of evolution"}
+- **A.** alleviates parenting pressures
+- **B.** consolidates family relationships
+- **C.** results in the child-centred family
+- **D.** departs from the course of evolution
 
 **Correct answer:** D
 
@@ -66,7 +75,10 @@ According to Paragraph 4,the “intensive mothering narrative”
 
 What can be inferred about the nurseries in the UK?
 
-- {"A": "They tend to fall short of official requirements.", "B": "They have difficulty finding enough caregivers.", "C": "They ought to improve their carer-to-child ratio.", "D": "They should try to prevent parental depression."}
+- **A.** They tend to fall short of official requirements.
+- **B.** They have difficulty finding enough caregivers.
+- **C.** They ought to improve their carer-to-child ratio.
+- **D.** They should try to prevent parental depression.
 
 **Correct answer:** C
 
@@ -80,7 +92,10 @@ What can be inferred about the nurseries in the UK?
 
 Which of the following would be the best title for the text?
 
-- {"A": "Instructive teaching:a dilemma for anxious parents", "B": "For a happier family,learn from the hunter-gatherers", "C": "Mixed-age playgroup,a better choice for lonely children", "D": "Tracing the history of parenting:from Africa to Europe"}
+- **A.** Instructive teaching:a dilemma for anxious parents
+- **B.** For a happier family,learn from the hunter-gatherers
+- **C.** Mixed-age playgroup,a better choice for lonely children
+- **D.** Tracing the history of parenting:from Africa to Europe
 
 **Correct answer:** B
 

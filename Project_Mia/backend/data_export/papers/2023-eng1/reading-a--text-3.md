@@ -24,7 +24,10 @@ We shall see whether that plurality is a casualty of the current need among publ
 
 The author mentions two books in Paragraph 1 to present
 
-- {"A": "an ongoing conflict.", "B": "an intellectual concept.", "C": "a prevailing sentiment.", "D": "a literary phenomenon."}
+- **A.** an ongoing conflict.
+- **B.** an intellectual concept.
+- **C.** a prevailing sentiment.
+- **D.** a literary phenomenon.
 
 **Correct answer:** A
 
@@ -38,7 +41,10 @@ The author mentions two books in Paragraph 1 to present
 
 Why did Waterstones shops retire PRH books to their relevant sections?
 
-- {"A": "To make them easily noticeable.", "B": "To comply with PRH’s requirement.", "C": "To respond to PRH’s business move.", "D": "To arrange them in a systematic way."}
+- **A.** To make them easily noticeable.
+- **B.** To comply with PRH’s requirement.
+- **C.** To respond to PRH’s business move.
+- **D.** To arrange them in a systematic way.
 
 **Correct answer:** C
 
@@ -52,7 +58,10 @@ Why did Waterstones shops retire PRH books to their relevant sections?
 
 What message does the spokesperson for Waterstones seem to convey?
 
-- {"A": "Their customers remain loyal.", "B": "The credit limit will be removed.", "C": "Their stock is underestimated.", "D": "The book market is rather slack."}
+- **A.** Their customers remain loyal.
+- **B.** The credit limit will be removed.
+- **C.** Their stock is underestimated.
+- **D.** The book market is rather slack.
 
 **Correct answer:** A
 
@@ -66,7 +75,10 @@ What message does the spokesperson for Waterstones seem to convey?
 
 What can be one consequence of the current dispute?
 
-- {"A": "Sales of books by mid-list PRH writers fall off considerably.", "B": "Lesser-known PRH writers become the target of criticism.", "C": "Waterstones staff hesitate to promote big-name authors’ books.", "D": "Waterstones branches suffer a severe reduction in revenue."}
+- **A.** Sales of books by mid-list PRH writers fall off considerably.
+- **B.** Lesser-known PRH writers become the target of criticism.
+- **C.** Waterstones staff hesitate to promote big-name authors’ books.
+- **D.** Waterstones branches suffer a severe reduction in revenue.
 
 **Correct answer:** A
 
@@ -80,7 +92,10 @@ What can be one consequence of the current dispute?
 
 Which of the following statements best represents Lownie’s view?
 
-- {"A": "Small publishers ought to stick together.", "B": "Big publishers will lose their dominance.", "C": "The publishing industry is having a hard time.", "D": "The merger of publishers is a worrying trend."}
+- **A.** Small publishers ought to stick together.
+- **B.** Big publishers will lose their dominance.
+- **C.** The publishing industry is having a hard time.
+- **D.** The merger of publishers is a worrying trend.
 
 **Correct answer:** D
 

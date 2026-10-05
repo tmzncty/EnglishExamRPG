@@ -26,7 +26,10 @@ The court’s ruling is a step forward in the struggle against both corruption a
 
 The underlined sentence (Para.1) most probably shows that the court
 
-- {"A": "avoided defining the extent of McDonnell’s duties.", "B": "made no compromise in convicting McDonnell.", "C": "was contemptuous of McDonnell’s conduct.", "D": "refused to comment on McDonnell’s ethics."}
+- **A.** avoided defining the extent of McDonnell’s duties.
+- **B.** made no compromise in convicting McDonnell.
+- **C.** was contemptuous of McDonnell’s conduct.
+- **D.** refused to comment on McDonnell’s ethics.
 
 **Correct answer:** C
 
@@ -40,7 +43,10 @@ The underlined sentence (Para.1) most probably shows that the court
 
 According to Paragraph 4, an official act is deemed corruptive only if it involves
 
-- {"A": "leaking secrets intentionally.", "B": "sizable gains in the form of gifts.", "C": "concrete returns for gift-givers.", "D": "breaking contracts officially."}
+- **A.** leaking secrets intentionally.
+- **B.** sizable gains in the form of gifts.
+- **C.** concrete returns for gift-givers.
+- **D.** breaking contracts officially.
 
 **Correct answer:** C
 
@@ -54,7 +60,10 @@ According to Paragraph 4, an official act is deemed corruptive only if it involv
 
 The court’s ruling is based on the assumption that public officials are
 
-- {"A": "justified in addressing the needs of their constituents.", "B": "qualified to deal independently with bureaucratic issues.", "C": "allowed to focus on the concerns of their supporters.", "D": "exempt from conviction on the charge of favoritism."}
+- **A.** justified in addressing the needs of their constituents.
+- **B.** qualified to deal independently with bureaucratic issues.
+- **C.** allowed to focus on the concerns of their supporters.
+- **D.** exempt from conviction on the charge of favoritism.
 
 **Correct answer:** A
 
@@ -68,7 +77,10 @@ The court’s ruling is based on the assumption that public officials are
 
 Well-enforced laws in government transparency are needed to
 
-- {"A": "awaken the conscience of officials.", "B": "guarantee fair play in official access.", "C": "allow for certain kinds of lobbying.", "D": "inspire hopes in average people."}
+- **A.** awaken the conscience of officials.
+- **B.** guarantee fair play in official access.
+- **C.** allow for certain kinds of lobbying.
+- **D.** inspire hopes in average people.
 
 **Correct answer:** B
 
@@ -82,7 +94,10 @@ Well-enforced laws in government transparency are needed to
 
 The author's attitude toward the court's ruling is
 
-- {"A": "sarcastic.", "B": "tolerant.", "C": "skeptical.", "D": "supportive."}
+- **A.** sarcastic.
+- **B.** tolerant.
+- **C.** skeptical.
+- **D.** supportive.
 
 **Correct answer:** D
 

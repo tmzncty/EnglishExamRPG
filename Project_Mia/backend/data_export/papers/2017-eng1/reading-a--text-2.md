@@ -22,7 +22,10 @@ The astronomy community is making compromises to change  its use of  Mauna Kea. 
 
 Queen Liliuokalani’s remark in Paragraph 1 indicates
 
-- {"A": "her conservative view on the historical role of astronomy.", "B": "the importance of astronomy in ancient Hawaiian society.", "C": "the regrettable decline of astronomy in ancient times.", "D": "her appreciation of star watchers’ feats in her time."}
+- **A.** her conservative view on the historical role of astronomy.
+- **B.** the importance of astronomy in ancient Hawaiian society.
+- **C.** the regrettable decline of astronomy in ancient times.
+- **D.** her appreciation of star watchers’ feats in her time.
 
 **Correct answer:** B
 
@@ -36,7 +39,10 @@ Queen Liliuokalani’s remark in Paragraph 1 indicates
 
 Mauna Kea is deemed as an ideal astronomical site due to
 
-- {"A": "its geographical features.", "B": "its protective surroundings.", "C": "its religious implications.", "D": "its existing infrastructure."}
+- **A.** its geographical features.
+- **B.** its protective surroundings.
+- **C.** its religious implications.
+- **D.** its existing infrastructure.
 
 **Correct answer:** A
 
@@ -50,7 +56,10 @@ Mauna Kea is deemed as an ideal astronomical site due to
 
 The construction of the TMT is opposed by some locals partly because
 
-- {"A": "it may risk ruining their intellectual life.", "B": "it reminds them of a humiliating history.", "C": "their culture will lose a chance of revival.", "D": "they fear losing control of Mauna Kea."}
+- **A.** it may risk ruining their intellectual life.
+- **B.** it reminds them of a humiliating history.
+- **C.** their culture will lose a chance of revival.
+- **D.** they fear losing control of Mauna Kea.
 
 **Correct answer:** B
 
@@ -64,7 +73,10 @@ The construction of the TMT is opposed by some locals partly because
 
 It can be inferred from Paragraph 5 that progress in today’s astronomy
 
-- {"A": "is fulfilling the dreams of ancient Hawaiians.", "B": "helps spread Hawaiian culture across the world.", "C": "may uncover the origin of Hawaiian culture.", "D": "will eventually soften Hawaiians’ hostility."}
+- **A.** is fulfilling the dreams of ancient Hawaiians.
+- **B.** helps spread Hawaiian culture across the world.
+- **C.** may uncover the origin of Hawaiian culture.
+- **D.** will eventually soften Hawaiians’ hostility.
 
 **Correct answer:** A
 
@@ -78,7 +90,10 @@ It can be inferred from Paragraph 5 that progress in today’s astronomy
 
 The author’s attitude toward choosing Mauna Kea as the TMT site is one of
 
-- {"A": "severe criticism.", "B": "passive acceptance.", "C": "slight hesitancy.", "D": "full approval."}
+- **A.** severe criticism.
+- **B.** passive acceptance.
+- **C.** slight hesitancy.
+- **D.** full approval.
 
 **Correct answer:** D
 

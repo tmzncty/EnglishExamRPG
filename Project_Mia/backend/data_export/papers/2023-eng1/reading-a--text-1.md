@@ -26,7 +26,10 @@ Branch points out that, even if a growing number of official guidelines and text
 
 In Paragraph 1, the weather in Texas is mentioned to
 
-- {"A": "forecast a policy shift in Texas schools.", "B": "stress the consequences of climate change.", "C": "indicate the atmosphere at the board meeting.", "D": "draw the public’s attention to energy shortages."}
+- **A.** forecast a policy shift in Texas schools.
+- **B.** stress the consequences of climate change.
+- **C.** indicate the atmosphere at the board meeting.
+- **D.** draw the public’s attention to energy shortages.
 
 **Correct answer:** C
 
@@ -40,7 +43,10 @@ In Paragraph 1, the weather in Texas is mentioned to
 
 What does Quinn think of Hardy?
 
-- {"A": "She exaggerates the existing panic.", "B": "She denies the value of scientific work.", "C": "She shows no concern for pre-teens.", "D": "She expresses self-contradictory views."}
+- **A.** She exaggerates the existing panic.
+- **B.** She denies the value of scientific work.
+- **C.** She shows no concern for pre-teens.
+- **D.** She expresses self-contradictory views.
 
 **Correct answer:** B
 
@@ -54,7 +60,10 @@ Quinn认为Hardy轻率地否定了学者和科学家的职业工作，认为他�
 
 The study mentioned in Paragraph 5 shows that
 
-- {"A": "climate education is insufficient at state public schools.", "B": "policymakers have little drive for science education.", "C": "Texas is reluctant to rewrite its science textbooks.", "D": "environmental teaching in some states lacks supervision."}
+- **A.** climate education is insufficient at state public schools.
+- **B.** policymakers have little drive for science education.
+- **C.** Texas is reluctant to rewrite its science textbooks.
+- **D.** environmental teaching in some states lacks supervision.
 
 **Correct answer:** A
 
@@ -68,7 +77,10 @@ The study mentioned in Paragraph 5 shows that
 
 According to Branch, state-level science standards in the US
 
-- {"A": "call for regular revision.", "B": "require urgent application.", "C": "have limited influence.", "D": "cater to local needs."}
+- **A.** call for regular revision.
+- **B.** require urgent application.
+- **C.** have limited influence.
+- **D.** cater to local needs.
 
 **Correct answer:** C
 
@@ -82,7 +94,10 @@ Branch认为，州一级的科学标准影响有限，因为美国将决策权�
 
 It is implied in the last paragraph that climate change teaching in some schools
 
-- {"A": "agrees to major public demands.", "B": "reflects teachers’ personal bias.", "C": "may misrepresent the energy sector.", "D": "can be swayed by external forces."}
+- **A.** agrees to major public demands.
+- **B.** reflects teachers’ personal bias.
+- **C.** may misrepresent the energy sector.
+- **D.** can be swayed by external forces.
 
 **Correct answer:** D
 

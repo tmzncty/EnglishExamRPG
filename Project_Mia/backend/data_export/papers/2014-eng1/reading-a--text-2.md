@@ -22,7 +22,10 @@ In fact, allowing non-lawyers to own shares in law firms would reduce costs and 
 
 A lot of students take up law as their profession due to
 
-- {"A": "the growing demand from clients", "B": "the increasing pressure of inflation", "C": "the prospect of working in big firms", "D": "the attraction of financial rewards"}
+- **A.** the growing demand from clients
+- **B.** the increasing pressure of inflation
+- **C.** the prospect of working in big firms
+- **D.** the attraction of financial rewards
 
 **Correct answer:** D
 
@@ -40,7 +43,10 @@ A lot of students take up law as their profession due to
 
 Which of the following adds to the costs of legal education in most American states?
 
-- {"A": "Higher tuition fees for undergraduate studies.", "B": "Receiving training by professional associations.", "C": "Admissions approval from the bar association.", "D": "Pursuing a bachelor's degree in another major."}
+- **A.** Higher tuition fees for undergraduate studies.
+- **B.** Receiving training by professional associations.
+- **C.** Admissions approval from the bar association.
+- **D.** Pursuing a bachelor's degree in another major.
 
 **Correct answer:** D
 
@@ -57,7 +63,10 @@ Which of the following adds to the costs of legal education in most American sta
 
 Hindrance to the reform of the legal system originates from
 
-- {"A": "the rigid bodies governing the profession", "B": "lawyers' and clients' strong resistance", "C": "the stern exam for would-be lawyers", "D": "non-professionals' sharp criticism"}
+- **A.** the rigid bodies governing the profession
+- **B.** lawyers' and clients' strong resistance
+- **C.** the stern exam for would-be lawyers
+- **D.** non-professionals' sharp criticism
 
 **Correct answer:** A
 
@@ -74,7 +83,10 @@ Hindrance to the reform of the legal system originates from
 
 The guild-like ownership structure is considered “restrictive” partly because it
 
-- {"A": "prevents lawyers from gaining due profits", "B": "bans outsiders' involvement in the profession", "C": "aggravates the ethical situation in the trade", "D": "keeps lawyers from holding law-firm shares"}
+- **A.** prevents lawyers from gaining due profits
+- **B.** bans outsiders' involvement in the profession
+- **C.** aggravates the ethical situation in the trade
+- **D.** keeps lawyers from holding law-firm shares
 
 **Correct answer:** B
 
@@ -91,7 +103,10 @@ The guild-like ownership structure is considered “restrictive” partly becaus
 
 In this text, the author mainly discusses
 
-- {"A": "the factors that help make a successful lawyer in America", "B": "a problem in America's legal profession and solutions to it", "C": "the role of undergraduate studies in America's legal education", "D": "flawed ownership of America's law firms and its causes"}
+- **A.** the factors that help make a successful lawyer in America
+- **B.** a problem in America's legal profession and solutions to it
+- **C.** the role of undergraduate studies in America's legal education
+- **D.** flawed ownership of America's law firms and its causes
 
 **Correct answer:** B
 

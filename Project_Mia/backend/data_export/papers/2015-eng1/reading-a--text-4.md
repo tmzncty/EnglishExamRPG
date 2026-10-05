@@ -22,7 +22,10 @@ The purpose of editing the News of the World was not to promote reader understan
 
 According to the first two paragraphs, Elisabeth was upset by
 
-- {"A": "the consequences of the current sorting mechanism.", "B": "companies’ financial loss due to immoral practices.", "C": "governmental ineffectiveness on moral issues.", "D": "the wide misuse of integrity among institutions."}
+- **A.** the consequences of the current sorting mechanism.
+- **B.** companies’ financial loss due to immoral practices.
+- **C.** governmental ineffectiveness on moral issues.
+- **D.** the wide misuse of integrity among institutions.
 
 **Correct answer:** A
 
@@ -36,7 +39,10 @@ According to the first two paragraphs, Elisabeth was upset by
 
 It can be inferred from Paragraph 3 that
 
-- {"A": "Glenn Mulcaire may deny phone hacking as a crime.", "B": "more journalists may be found guilty of phone hacking.", "C": "Andy Coulson should be held innocent of the charge.", "D": "phone hacking will be accepted on certain occasions."}
+- **A.** Glenn Mulcaire may deny phone hacking as a crime.
+- **B.** more journalists may be found guilty of phone hacking.
+- **C.** Andy Coulson should be held innocent of the charge.
+- **D.** phone hacking will be accepted on certain occasions.
 
 **Correct answer:** B
 
@@ -50,7 +56,10 @@ It can be inferred from Paragraph 3 that
 
 The author believes that Rebekah Brooks’s defence
 
-- {"A": "was hardly convincing.", "B": "centered on trivial issues.", "C": "revealed a cunning personality.", "D": "was part of a conspiracy."}
+- **A.** was hardly convincing.
+- **B.** centered on trivial issues.
+- **C.** revealed a cunning personality.
+- **D.** was part of a conspiracy.
 
 **Correct answer:** A
 
@@ -64,7 +73,10 @@ The author believes that Rebekah Brooks’s defence
 
 The author holds that the current collective doctrine shows
 
-- {"A": "a marginalized lifestyle.", "B": "unfair wealth distribution.", "C": "generally distorted values.", "D": "a rigid moral code."}
+- **A.** a marginalized lifestyle.
+- **B.** unfair wealth distribution.
+- **C.** generally distorted values.
+- **D.** a rigid moral code.
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ The author holds that the current collective doctrine shows
 
 Which of the following is suggested in the last paragraph?
 
-- {"A": "The quality of writings is of primary importance.", "B": "Moral awareness matters in editing a newspaper.", "C": "Common humanity is central to news reporting.", "D": "Journalists need stricter industrial regulations."}
+- **A.** The quality of writings is of primary importance.
+- **B.** Moral awareness matters in editing a newspaper.
+- **C.** Common humanity is central to news reporting.
+- **D.** Journalists need stricter industrial regulations.
 
 **Correct answer:** B
 

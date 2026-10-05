@@ -22,7 +22,10 @@ To get the system working again, losses must be recognized and dealt with. Ameri
 
 Bankers complained that they were forced to
 
-- {"A": "follow unfavorable asset evaluation rules.", "B": "collect payments from third parties.", "C": "cooperate with the price managers.", "D": "reevaluate some of their assets."}
+- **A.** follow unfavorable asset evaluation rules.
+- **B.** collect payments from third parties.
+- **C.** cooperate with the price managers.
+- **D.** reevaluate some of their assets.
 
 **Correct answer:** A
 
@@ -36,7 +39,10 @@ Bankers complained that they were forced to
 
 According to the author, the rule changes of the FASB may result in
 
-- {"A": "the diminishing role of management.", "B": "the revival of the banking system.", "C": "the banks’ long-term asset losses.", "D": "the weakening of its independence."}
+- **A.** the diminishing role of management.
+- **B.** the revival of the banking system.
+- **C.** the banks’ long-term asset losses.
+- **D.** the weakening of its independence.
 
 **Correct answer:** D
 
@@ -50,7 +56,10 @@ According to the author, the rule changes of the FASB may result in
 
 According to Paragraph 4, McCreevy objects to the IASB’s attempt to
 
-- {"A": "keep away from political influences.", "B": "evade the pressure from their peers.", "C": "act on their own in rule-setting.", "D": "take gradual measures in reform."}
+- **A.** keep away from political influences.
+- **B.** evade the pressure from their peers.
+- **C.** act on their own in rule-setting.
+- **D.** take gradual measures in reform.
 
 **Correct answer:** A
 
@@ -64,7 +73,10 @@ According to Paragraph 4, McCreevy objects to the IASB’s attempt to
 
 The author thinks the banks were “on the wrong planet” in that they
 
-- {"A": "misinterpreted market price indicators.", "B": "exaggerated the real value of their assets.", "C": "neglected the likely existence of bad debts.", "D": "denied booking losses in their sale of assets."}
+- **A.** misinterpreted market price indicators.
+- **B.** exaggerated the real value of their assets.
+- **C.** neglected the likely existence of bad debts.
+- **D.** denied booking losses in their sale of assets.
 
 **Correct answer:** B
 
@@ -78,7 +90,10 @@ The author thinks the banks were “on the wrong planet” in that they
 
 The author’s attitude towards standard-setters is one of
 
-- {"A": "satisfaction.", "B": "skepticism.", "C": "objectiveness.", "D": "sympathy."}
+- **A.** satisfaction.
+- **B.** skepticism.
+- **C.** objectiveness.
+- **D.** sympathy.
 
 **Correct answer:** B
 

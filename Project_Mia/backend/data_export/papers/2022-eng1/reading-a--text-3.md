@@ -22,7 +22,10 @@ Nature’s poll findings suggest that this trend is as strong as ever, but, toma
 
 According to 	Paragraph 1, art-science collaborations have
 
-- {"A": "caught the attention of critics.", "B": "received favorable responses.", "C": "promoted academic publishing.", "D": "sparked heated public disputes."}
+- **A.** caught the attention of critics.
+- **B.** received favorable responses.
+- **C.** promoted academic publishing.
+- **D.** sparked heated public disputes.
 
 **Correct answer:** B
 
@@ -36,7 +39,10 @@ According to 	Paragraph 1, art-science collaborations have
 
 The reworked version of The Four Seasons is mentioned to show that
 
-- {"A": "art can off er audiences easy access to science.", "B": "science can help with the expression of emoti ons.", "C": "public participation in science has a promising future.", "D": "art is effective in facilitating scientific innovations."}
+- **A.** art can off er audiences easy access to science.
+- **B.** science can help with the expression of emoti ons.
+- **C.** public participation in science has a promising future.
+- **D.** art is effective in facilitating scientific innovations.
 
 **Correct answer:** A
 
@@ -50,7 +56,10 @@ The reworked version of The Four Seasons is mentioned to show that
 
 Some artists seem to worry about in the art-science partnership
 
-- {"A": "their role may be underestimated.", "B": "their reputation may be impaired.", "C": "their creativity may be inhibited.", "D": "their work may be misguided."}
+- **A.** their role may be underestimated.
+- **B.** their reputation may be impaired.
+- **C.** their creativity may be inhibited.
+- **D.** their work may be misguided.
 
 **Correct answer:** A
 
@@ -64,7 +73,10 @@ Some artists seem to worry about in the art-science partnership
 
 What does the author say about CAYS?
 
-- {"A": "It was headed alternately by artists and scientists.", "B": "It exemplified valuable art-science alliances.", "C": "Its projects aimed at advancing visual studies.", "D": "Its founders sought to raise the status of artists."}
+- **A.** It was headed alternately by artists and scientists.
+- **B.** It exemplified valuable art-science alliances.
+- **C.** Its projects aimed at advancing visual studies.
+- **D.** Its founders sought to raise the status of artists.
 
 **Correct answer:** B
 
@@ -78,7 +90,10 @@ What does the author say about CAYS?
 
 In the last paragraph, the author holds that art-science collaborations
 
-- {"A": "are likely to go beyond public expectations.", "B": "will intensify interdisciplinary competi tion.", "C": "should do more than communicating science.", "D": "are becoming more popular than before."}
+- **A.** are likely to go beyond public expectations.
+- **B.** will intensify interdisciplinary competi tion.
+- **C.** should do more than communicating science.
+- **D.** are becoming more popular than before.
 
 **Correct answer:** C
 

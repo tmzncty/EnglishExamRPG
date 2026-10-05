@@ -16,7 +16,10 @@ Each automatic door system _16_ the light,sound,weight or movement in their vici
 
 Choose the best word(s)for numbered blank 1.
 
-- {"A": "Through", "B": "Despite", "C": "Besides", "D": "Without"}
+- **A.** Through
+- **B.** Despite
+- **C.** Besides
+- **D.** Without
 
 **Correct answer:** D
 
@@ -30,7 +33,10 @@ Without 表示“没有...的情况下”，符合句意，表示没有触摸也
 
 Choose the best word(s)for numbered blank 2.
 
-- {"A": "revealing", "B": "demanding", "C": "improving", "D": "tracing"}
+- **A.** revealing
+- **B.** demanding
+- **C.** improving
+- **D.** tracing
 
 **Correct answer:** C
 
@@ -44,7 +50,10 @@ improving 表示“改善”，符合句意，自动门对于改善残疾人进�
 
 Choose the best word(s)for numbered blank 3.
 
-- {"A": "experience", "B": "convenience", "C": "guidance", "D": "reference"}
+- **A.** experience
+- **B.** convenience
+- **C.** guidance
+- **D.** reference
 
 **Correct answer:** B
 
@@ -58,7 +67,10 @@ convenience 表示“便利”，符合句意，自动门有助于为商业建�
 
 Choose the best word(s)for numbered blank 4.
 
-- {"A": "previously", "B": "temporarily", "C": "successively", "D": "eventually"}
+- **A.** previously
+- **B.** temporarily
+- **C.** successively
+- **D.** eventually
 
 **Correct answer:** A
 
@@ -72,7 +84,10 @@ previously 表示“先前；以前”，符合句意，在六年前被发明。
 
 Choose the best word(s)for numbered blank 5.
 
-- {"A": "held on", "B": "started out", "C": "settled down", "D": "went by"}
+- **A.** held on
+- **B.** started out
+- **C.** settled down
+- **D.** went by
 
 **Correct answer:** B
 
@@ -86,7 +101,10 @@ started out 表示“开始时；起初”，符合句意，起初是作为一�
 
 Choose the best word(s)for numbered blank 6.
 
-- {"A": "relations", "B": "volumes", "C": "benefits", "D": "sources"}
+- **A.** relations
+- **B.** volumes
+- **C.** benefits
+- **D.** sources
 
 **Correct answer:** C
 
@@ -100,7 +118,10 @@ benefits 表示“好处；益处”，符合句意，它们的好处在我们�
 
 Choose the best word(s)for numbered blank 7.
 
-- {"A": "useful", "B": "simple", "C": "flexible", "D": "stable"}
+- **A.** useful
+- **B.** simple
+- **C.** flexible
+- **D.** stable
 
 **Correct answer:** A
 
@@ -114,7 +135,10 @@ useful 表示“有用的；实用的”，符合句意，在繁忙的地点或�
 
 Choose the best word(s)for numbered blank 8.
 
-- {"A": "call for", "B": "yield to", "C": "insist on", "D": "act as"}
+- **A.** call for
+- **B.** yield to
+- **C.** insist on
+- **D.** act as
 
 **Correct answer:** D
 
@@ -128,7 +152,10 @@ act as 表示“充当；起作用”，符合句意，这些门可以通过减�
 
 Choose the best word(s)for numbered blank 9.
 
-- {"A": "As well as", "B": "In terms of", "C": "Thanks to", "D": "Rather than"}
+- **A.** As well as
+- **B.** In terms of
+- **C.** Thanks to
+- **D.** Rather than
 
 **Correct answer:** A
 
@@ -142,7 +169,10 @@ As well as 表示“除...之外；也”，符合句意，除了让人们更容
 
 Choose the best word(s)for numbered blank 10.
 
-- {"A": "connected", "B": "shared", "C": "represented", "D": "occupied"}
+- **A.** connected
+- **B.** shared
+- **C.** represented
+- **D.** occupied
 
 **Correct answer:** D
 
@@ -156,7 +186,10 @@ occupied 表示“占据；占用”，符合句意，有助于减少它们所�
 
 Choose the best word(s)for numbered blank 11.
 
-- {"A": "allow", "B": "expect", "C": "require", "D": "direct"}
+- **A.** allow
+- **B.** expect
+- **C.** require
+- **D.** direct
 
 **Correct answer:** A
 
@@ -170,7 +203,10 @@ allow 表示“允许；使能够”，符合句意，这些门允许较小的�
 
 Choose the best word(s)for numbered blank 12.
 
-- {"A": "adopt", "B": "lead", "C": "clear", "D": "change"}
+- **A.** adopt
+- **B.** lead
+- **C.** clear
+- **D.** change
 
 **Correct answer:** C
 
@@ -184,7 +220,10 @@ clear the way 表示“让路；扫清障碍”，符合句意，不必为一扇
 
 Choose the best word(s)for numbered blank 13.
 
-- {"A": "adapting to", "B": "deriving from", "C": "relying on", "D": "pointing at"}
+- **A.** adapting to
+- **B.** deriving from
+- **C.** relying on
+- **D.** pointing at
 
 **Correct answer:** C
 
@@ -198,7 +237,10 @@ relying on 表示“依赖；依靠”，符合句意，每种都依赖于特定
 
 Choose the best word(s)for numbered blank 14.
 
-- {"A": "Once", "B": "Since", "C": "Unless", "D": "Although"}
+- **A.** Once
+- **B.** Since
+- **C.** Unless
+- **D.** Although
 
 **Correct answer:** D
 
@@ -212,7 +254,10 @@ Although 表示“虽然；尽管”，符合句意，虽然这些方法不同�
 
 Choose the best word(s)for numbered blank 15.
 
-- {"A": "records", "B": "positions", "C": "principles", "D": "reasons"}
+- **A.** records
+- **B.** positions
+- **C.** principles
+- **D.** reasons
 
 **Correct answer:** C
 
@@ -226,7 +271,10 @@ principles 表示“原则；原理”，符合句意，主要原则仍然相同
 
 Choose the best word(s)for numbered blank 16.
 
-- {"A": "controls", "B": "analyses", "C": "produces", "D": "mixes"}
+- **A.** controls
+- **B.** analyses
+- **C.** produces
+- **D.** mixes
 
 **Correct answer:** B
 
@@ -240,7 +288,10 @@ analyses 表示“分析”，符合句意，每个自动门系统分析其附�
 
 Choose the best word(s)for numbered blank 17.
 
-- {"A": "decorate", "B": "compare", "C": "protect", "D": "complement"}
+- **A.** decorate
+- **B.** compare
+- **C.** protect
+- **D.** complement
 
 **Correct answer:** D
 
@@ -254,7 +305,10 @@ complement 表示“补充；完善”，符合句意，传感器类型的选择
 
 Choose the best word(s)for numbered blank 18.
 
-- {"A": "In conclusion", "B": "By contrast", "C": "For example", "D": "Above all"}
+- **A.** In conclusion
+- **B.** By contrast
+- **C.** For example
+- **D.** Above all
 
 **Correct answer:** C
 
@@ -268,7 +322,10 @@ For example 表示“例如”，符合句意，举例说明繁忙的街道可�
 
 Choose the best word(s)for numbered blank 19.
 
-- {"A": "identify", "B": "suit", "C": "secure", "D": "include"}
+- **A.** identify
+- **B.** suit
+- **C.** secure
+- **D.** include
 
 **Correct answer:** B
 
@@ -282,7 +339,10 @@ suit 表示“适合；适宜”，符合句意，繁忙的街道可能不适合
 
 Choose the best word(s)for numbered blank 20.
 
-- {"A": "appropriate", "B": "obvious", "C": "impressive", "D": "delicate"}
+- **A.** appropriate
+- **B.** obvious
+- **C.** impressive
+- **D.** delicate
 
 **Correct answer:** A
 

@@ -18,7 +18,10 @@ If that happens, passionate consumers would try to persuade others to boycott pr
 
 Consumers may create “earned” media when they are
 
-- {"A": "obsessed with online shopping at certain Web sites.", "B": "inspired by product-promoting e-mails sent to them.", "C": "eager to help their friends promote quality products.", "D": "enthusiastic about recommending their favorite products."}
+- **A.** obsessed with online shopping at certain Web sites.
+- **B.** inspired by product-promoting e-mails sent to them.
+- **C.** eager to help their friends promote quality products.
+- **D.** enthusiastic about recommending their favorite products.
 
 **Correct answer:** D
 
@@ -32,7 +35,10 @@ Consumers may create “earned” media when they are
 
 According to Paragraph 2, sold media feature
 
-- {"A": "a safe business environment.", "B": "random competition.", "C": "strong user traffic.", "D": "flexibility in organization."}
+- **A.** a safe business environment.
+- **B.** random competition.
+- **C.** strong user traffic.
+- **D.** flexibility in organization.
 
 **Correct answer:** C
 
@@ -46,7 +52,10 @@ According to Paragraph 2, sold media feature
 
 The author indicates in Paragraph 3 that earned media
 
-- {"A": "invite constant conflicts with passionate consumers.", "B": "can be used to produce negative effects in marketing.", "C": "may be responsible for fiercer competition.", "D": "deserve all the negative comments about them."}
+- **A.** invite constant conflicts with passionate consumers.
+- **B.** can be used to produce negative effects in marketing.
+- **C.** may be responsible for fiercer competition.
+- **D.** deserve all the negative comments about them.
 
 **Correct answer:** B
 
@@ -60,7 +69,10 @@ The author indicates in Paragraph 3 that earned media
 
 Toyota Motor’s experience is cited as an example of
 
-- {"A": "responding effectively to hijacked media.", "B": "persuading customers into boycotting products.", "C": "cooperating with supportive consumers.", "D": "taking advantage of hijacked media."}
+- **A.** responding effectively to hijacked media.
+- **B.** persuading customers into boycotting products.
+- **C.** cooperating with supportive consumers.
+- **D.** taking advantage of hijacked media.
 
 **Correct answer:** A
 
@@ -74,7 +86,10 @@ Toyota Motor’s experience is cited as an example of
 
 Which of the following is the text mainly about?
 
-- {"A": "Alternatives to conventional paid media.", "B": "Conflict between hijacked and earned media.", "C": "Dominance of hijacked media.", "D": "Popularity of owned media."}
+- **A.** Alternatives to conventional paid media.
+- **B.** Conflict between hijacked and earned media.
+- **C.** Dominance of hijacked media.
+- **D.** Popularity of owned media.
 
 **Correct answer:** A
 

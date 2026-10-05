@@ -24,7 +24,10 @@ Older generations often talk about their degree in the present and personal tens
 
 The author suggests that Generation Z should
 
-- {"A": "be careful in choosing a college.", "B": "be diligent at each educational stage.", "C": "reassess the necessity of college education.", "D": "postpone their undergraduate application."}
+- **A.** be careful in choosing a college.
+- **B.** be diligent at each educational stage.
+- **C.** reassess the necessity of college education.
+- **D.** postpone their undergraduate application.
 
 **Correct answer:** C
 
@@ -38,7 +41,10 @@ The author suggests that Generation Z should
 
 The percentage of UK graduates in non-graduate roles reflects
 
-- {"A": "Millennial’s opinion about work.", "B": "the shrinking value of a degree.", "C": "public discontent with education.", "D": "the desired route of social mobility."}
+- **A.** Millennial’s opinion about work.
+- **B.** the shrinking value of a degree.
+- **C.** public discontent with education.
+- **D.** the desired route of social mobility.
 
 **Correct answer:** B
 
@@ -52,7 +58,10 @@ The percentage of UK graduates in non-graduate roles reflects
 
 The author considers it a good sign that
 
-- {"A": "Generation Z are seeking to earn a decent degree.", "B": "school leavers are willing to be skilled workers.", "C": "employers are taking a realistic attitude to degree.", "D": "parents are changing their minds about education."}
+- **A.** Generation Z are seeking to earn a decent degree.
+- **B.** school leavers are willing to be skilled workers.
+- **C.** employers are taking a realistic attitude to degree.
+- **D.** parents are changing their minds about education.
 
 **Correct answer:** C
 
@@ -66,7 +75,10 @@ The author considers it a good sign that
 
 It is advised in Paragraph 5 that those with one degree should
 
-- {"A": "make an early decision on their career.", "B": "attend on-the-job training programs.", "C": "team up with high-paid postgraduates.", "D": "further their studies in a specific field."}
+- **A.** make an early decision on their career.
+- **B.** attend on-the-job training programs.
+- **C.** team up with high-paid postgraduates.
+- **D.** further their studies in a specific field.
 
 **Correct answer:** D
 
@@ -80,7 +92,10 @@ It is advised in Paragraph 5 that those with one degree should
 
 What can be concluded about Generation Z from the last two paragraphs?
 
-- {"A": "Lifelong learning will define them.", "B": "They will make qualified educators.", "C": "Degrees will no longer appeal them.", "D": "They will have a limited choice of jobs."}
+- **A.** Lifelong learning will define them.
+- **B.** They will make qualified educators.
+- **C.** Degrees will no longer appeal them.
+- **D.** They will have a limited choice of jobs.
 
 **Correct answer:** A
 

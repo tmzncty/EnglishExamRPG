@@ -20,7 +20,10 @@ As much as some scientists may complain about the new awards, two things seem cl
 
 The Fundamental Physics Prize is seen as
 
-- {"A": "a symbol of the entrepreneurs’ wealth.", "B": "a handsome reward for researchers.", "C": "a possible replacement of the Nobel Prizes.", "D": "an example of bankers’ investments."}
+- **A.** a symbol of the entrepreneurs’ wealth.
+- **B.** a handsome reward for researchers.
+- **C.** a possible replacement of the Nobel Prizes.
+- **D.** an example of bankers’ investments.
 
 **Correct answer:** B
 
@@ -34,7 +37,10 @@ The Fundamental Physics Prize is seen as
 
 The critics think that the new awards will most benefit
 
-- {"A": "the profit-oriented scientists.", "B": "the achievement-based system.", "C": "the founders of the new awards.", "D": "peer-review-led research."}
+- **A.** the profit-oriented scientists.
+- **B.** the achievement-based system.
+- **C.** the founders of the new awards.
+- **D.** peer-review-led research.
 
 **Correct answer:** C
 
@@ -48,7 +54,10 @@ The critics think that the new awards will most benefit
 
 The discovery of the Higgs boson is a typical case which involves
 
-- {"A": "legitimate concerns over the new prizes.", "B": "controversies over the recipients’ status.", "C": "the joint effort of modern researchers.", "D": "the demonstration of research findings."}
+- **A.** legitimate concerns over the new prizes.
+- **B.** controversies over the recipients’ status.
+- **C.** the joint effort of modern researchers.
+- **D.** the demonstration of research findings.
 
 **Correct answer:** C
 
@@ -62,7 +71,10 @@ The discovery of the Higgs boson is a typical case which involves
 
 According to Paragraph 4, which of the following is true of the Nobels?
 
-- {"A": "History has never cast doubt on them.", "B": "Their endurance has done justice to them.", "C": "They are the most representative honor.", "D": "Their legitimacy has long been in dispute."}
+- **A.** History has never cast doubt on them.
+- **B.** Their endurance has done justice to them.
+- **C.** They are the most representative honor.
+- **D.** Their legitimacy has long been in dispute.
 
 **Correct answer:** B
 
@@ -76,7 +88,10 @@ According to Paragraph 4, which of the following is true of the Nobels?
 
 The author believes that the new awards are
 
-- {"A": "unworthy of public attention.", "B": "subject to undesirable changes.", "C": "harmful to the culture of research.", "D": "acceptable despite the criticism."}
+- **A.** unworthy of public attention.
+- **B.** subject to undesirable changes.
+- **C.** harmful to the culture of research.
+- **D.** acceptable despite the criticism.
 
 **Correct answer:** D
 

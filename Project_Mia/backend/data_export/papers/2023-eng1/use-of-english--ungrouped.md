@@ -18,7 +18,10 @@ Caravanserais were also an important marketplace for commodities and   15    in 
 
 They were typically    1     outside the walls of a city or village and were usually funded by local governments or     2     .
 
-- {"A": "displayed", "B": "occupied", "C": "located", "D": "equipped"}
+- **A.** displayed
+- **B.** occupied
+- **C.** located
+- **D.** equipped
 
 **Correct answer:** C
 
@@ -32,7 +35,10 @@ They were typically    1     outside the walls of a city or village and were usu
 
 They were typically    1     outside the walls of a city or village and were usually funded by local governments or     2     .
 
-- {"A": "privately", "B": "regularly", "C": "respectively", "D": "permanently"}
+- **A.** privately
+- **B.** regularly
+- **C.** respectively
+- **D.** permanently
 
 **Correct answer:** A
 
@@ -46,7 +52,10 @@ They were typically    1     outside the walls of a city or village and were usu
 
 The word “caravanserai” is a    3     of the Persian words “karvan”, which means a group of travellers or a caravan, and “sardy”, a palace or enclosed building.
 
-- {"A": "definition", "B": "transition", "C": "substitution", "D": "combination"}
+- **A.** definition
+- **B.** transition
+- **C.** substitution
+- **D.** combination
 
 **Correct answer:** D
 
@@ -60,7 +69,10 @@ The word “caravanserai” is a    3     of the Persian words “karvan”, whi
 
 The term caravan was used to    	4	     groups of people who travelled together across the ancient network for safety reasons,     	5      merchants, travellers or pilgrims.
 
-- {"A": "classify", "B": "record", "C": "describe", "D": "connect"}
+- **A.** classify
+- **B.** record
+- **C.** describe
+- **D.** connect
 
 **Correct answer:** C
 
@@ -74,7 +86,10 @@ The term caravan was used to    	4	     groups of people who travelled together 
 
 The term caravan was used to    	4	     groups of people who travelled together across the ancient network for safety reasons,     	5      merchants, travellers or pilgrims.
 
-- {"A": "apart from", "B": "instead of", "C": "such as", "D": "along with"}
+- **A.** apart from
+- **B.** instead of
+- **C.** such as
+- **D.** along with
 
 **Correct answer:** C
 
@@ -88,7 +103,10 @@ The term caravan was used to    	4	     groups of people who travelled together 
 
 From the 10th century onwards, as merchant and travel routes became more developed, the    6     of caravanserais increased and they served as a safe place for people to rest at night.
 
-- {"A": "construction", "B": "restoration", "C": "impression", "D": "evaluation"}
+- **A.** construction
+- **B.** restoration
+- **C.** impression
+- **D.** evaluation
 
 **Correct answer:** A
 
@@ -102,7 +120,10 @@ From the 10th century onwards, as merchant and travel routes became more develop
 
 Travellers on the Silk Road 		7     the possibility of being attacked by thieves or being        	8     to extreme weather conditions.
 
-- {"A": "doubted", "B": "faced", "C": "accepted", "D": "reduced"}
+- **A.** doubted
+- **B.** faced
+- **C.** accepted
+- **D.** reduced
 
 **Correct answer:** B
 
@@ -116,7 +137,10 @@ Travellers on the Silk Road 		7     the possibility of being attacked by thieves
 
 Travellers on the Silk Road 		7     the possibility of being attacked by thieves or being        	8     to extreme weather conditions.
 
-- {"A": "assigned", "B": "subjected", "C": "accustomed", "D": "opposed"}
+- **A.** assigned
+- **B.** subjected
+- **C.** accustomed
+- **D.** opposed
 
 **Correct answer:** B
 
@@ -130,7 +154,10 @@ Travellers on the Silk Road 		7     the possibility of being attacked by thieves
 
 For this reason, caravanserais were strategically placed     	9     they could be reached in a day's travel time.
 
-- {"A": "so that", "B": "even if", "C": "now that", "D": "in case"}
+- **A.** so that
+- **B.** even if
+- **C.** now that
+- **D.** in case
 
 **Correct answer:** A
 
@@ -144,7 +171,10 @@ For this reason, caravanserais were strategically placed     	9     they could b
 
 Caravanserais served as an informal   10    point for the various people who travelled the Silk Road.
 
-- {"A": "talking", "B": "starting", "C": "breaking", "D": "meeting"}
+- **A.** talking
+- **B.** starting
+- **C.** breaking
+- **D.** meeting
 
 **Correct answer:** D
 
@@ -158,7 +188,10 @@ Caravanserais served as an informal   10    point for the various people who tra
 
 Caravanserais served as an informal   10    point for the various people who travelled the Silk Road.    11    , these structures became important centres for cultural     12     and interaction, with travellers sharing their cultures, ideas and beliefs,      13	  taking knowledge with them, greatly    14     the development of several civilisations.
 
-- {"A": "By the way", "B": "On occasion", "C": "In comparison", "D": "As a result"}
+- **A.** By the way
+- **B.** On occasion
+- **C.** In comparison
+- **D.** As a result
 
 **Correct answer:** D
 
@@ -172,7 +205,10 @@ Caravanserais served as an informal   10    point for the various people who tra
 
 Caravanserais served as an informal   10    point for the various people who travelled the Silk Road.    11    , these structures became important centres for cultural     12     and interaction, with travellers sharing their cultures, ideas and beliefs,      13	  taking knowledge with them, greatly    14     the development of several civilisations.
 
-- {"A": "heritage", "B": "revival", "C": "exchange", "D": "status"}
+- **A.** heritage
+- **B.** revival
+- **C.** exchange
+- **D.** status
 
 **Correct answer:** C
 
@@ -186,7 +222,10 @@ Caravanserais served as an informal   10    point for the various people who tra
 
 Caravanserais served as an informal   10    point for the various people who travelled the Silk Road.    11    , these structures became important centres for cultural     12     and interaction, with travellers sharing their cultures, ideas and beliefs,      13	  taking knowledge with them, greatly    14     the development of several civilisations.
 
-- {"A": "with regard to", "B": "in spite of", "C": "as well as", "D": "in line with"}
+- **A.** with regard to
+- **B.** in spite of
+- **C.** as well as
+- **D.** in line with
 
 **Correct answer:** C
 
@@ -200,7 +239,10 @@ Caravanserais served as an informal   10    point for the various people who tra
 
 Caravanserais served as an informal   10    point for the various people who travelled the Silk Road.    11    , these structures became important centres for cultural     12     and interaction, with travellers sharing their cultures, ideas and beliefs,      13	  taking knowledge with them, greatly    14     the development of several civilisations.
 
-- {"A": "completing", "B": "influencing", "C": "resuming", "D": "pioneering"}
+- **A.** completing
+- **B.** influencing
+- **C.** resuming
+- **D.** pioneering
 
 **Correct answer:** B
 
@@ -214,7 +256,10 @@ Caravanserais served as an informal   10    point for the various people who tra
 
 Caravanserais were also an important marketplace for commodities and   15    in the trade of goods along the Silk Road.
 
-- {"A": "aided", "B": "invested", "C": "failed", "D": "competed"}
+- **A.** aided
+- **B.** invested
+- **C.** failed
+- **D.** competed
 
 **Correct answer:** A
 
@@ -228,7 +273,10 @@ Caravanserais were also an important marketplace for commodities and   15    in 
 
 Caravanserais were also an important marketplace for commodities and   15    in the trade of goods along the Silk Road.    16    , it was frequently the first stop for merchants looking to sell their wares and     17      supplies for their own journeys.
 
-- {"A": "Rather", "B": "Indeed", "C": "Otherwise", "D": "However"}
+- **A.** Rather
+- **B.** Indeed
+- **C.** Otherwise
+- **D.** However
 
 **Correct answer:** B
 
@@ -242,7 +290,10 @@ Caravanserais were also an important marketplace for commodities and   15    in 
 
 Caravanserais were also an important marketplace for commodities and   15    in the trade of goods along the Silk Road.    16    , it was frequently the first stop for merchants looking to sell their wares and     17      supplies for their own journeys.
 
-- {"A": "go in for", "B": "stand up for", "C": "close in", "D": "stock up on"}
+- **A.** go in for
+- **B.** stand up for
+- **C.** close in
+- **D.** stock up on
 
 **Correct answer:** D
 
@@ -256,7 +307,10 @@ Caravanserais were also an important marketplace for commodities and   15    in 
 
 It is    	18 that around 12,000 to 15,000 caravanserais were built along the Silk Road,     19	   only about 3,000 are known to remain today, many of which are in  	 20     .
 
-- {"A": "ensured", "B": "figured", "C": "presumed", "D": "estimated"}
+- **A.** ensured
+- **B.** figured
+- **C.** presumed
+- **D.** estimated
 
 **Correct answer:** D
 
@@ -270,7 +324,10 @@ The sentence states 'around 12,000 to 15,000 caravanserais were built'. This is 
 
 It is    	18 that around 12,000 to 15,000 caravanserais were built along the Silk Road,     19	   only about 3,000 are known to remain today, many of which are in  	 20     .
 
-- {"A": "while", "B": "once", "C": "since", "D": "unless"}
+- **A.** while
+- **B.** once
+- **C.** since
+- **D.** unless
 
 **Correct answer:** A
 
@@ -284,7 +341,10 @@ The sentence presents a contrast: many were built, but few remain. 'While' intro
 
 It is    	18 that around 12,000 to 15,000 caravanserais were built along the Silk Road,     19	   only about 3,000 are known to remain today, many of which are in  	 20     .
 
-- {"A": "operation", "B": "isolation", "C": "obligation", "D": "disrepair"}
+- **A.** operation
+- **B.** isolation
+- **C.** obligation
+- **D.** disrepair
 
 **Correct answer:** D
 

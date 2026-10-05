@@ -24,7 +24,10 @@ But the justices should not swallow California’s argument whole. New, disrupti
 
 The Supreme Court will work out whether, during an arrest, it is legitimate to
 
-- {"A": "prevent suspects from deleting their phone contents.", "B": "search for suspects’ mobile phones without a warrant.", "C": "check suspects’ phone contents without being authorized.", "D": "prohibit suspects from using their mobile phones."}
+- **A.** prevent suspects from deleting their phone contents.
+- **B.** search for suspects’ mobile phones without a warrant.
+- **C.** check suspects’ phone contents without being authorized.
+- **D.** prohibit suspects from using their mobile phones.
 
 **Correct answer:** C
 
@@ -38,7 +41,10 @@ The Supreme Court will work out whether, during an arrest, it is legitimate to
 
 The author’s attitude toward California’s argument is one of
 
-- {"A": "disapproval.", "B": "indifference.", "C": "tolerance.", "D": "cautiousness."}
+- **A.** disapproval.
+- **B.** indifference.
+- **C.** tolerance.
+- **D.** cautiousness.
 
 **Correct answer:** A
 
@@ -52,7 +58,10 @@ The author’s attitude toward California’s argument is one of
 
 The author believes that exploring one’s phone contents is comparable to
 
-- {"A": "going through one’s wallet.", "B": "handling one’s historical records.", "C": "scanning one’s correspondences.", "D": "getting into one’s residence."}
+- **A.** going through one’s wallet.
+- **B.** handling one’s historical records.
+- **C.** scanning one’s correspondences.
+- **D.** getting into one’s residence.
 
 **Correct answer:** D
 
@@ -66,7 +75,10 @@ The author believes that exploring one’s phone contents is comparable to
 
 In Paragraphs 5 and 6, the author shows his concern that
 
-- {"A": "principles are hard to be clearly expressed.", "B": "the court is giving police less room for action.", "C": "phones are used to store sensitive information.", "D": "citizens’ privacy is not effectively protected."}
+- **A.** principles are hard to be clearly expressed.
+- **B.** the court is giving police less room for action.
+- **C.** phones are used to store sensitive information.
+- **D.** citizens’ privacy is not effectively protected.
 
 **Correct answer:** D
 
@@ -80,7 +92,10 @@ In Paragraphs 5 and 6, the author shows his concern that
 
 Orin Kerr's comparison is quoted to indicate that
 
-- {"A": "the Constitution should be implemented flexibly.", "B": "principles of the Constitution should never be altered.", "C": "California's argument violates principles of the Constitution.", "D": "new technology requires reinterpretation of the Constitution."}
+- **A.** the Constitution should be implemented flexibly.
+- **B.** principles of the Constitution should never be altered.
+- **C.** California's argument violates principles of the Constitution.
+- **D.** new technology requires reinterpretation of the Constitution.
 
 **Correct answer:** D
 

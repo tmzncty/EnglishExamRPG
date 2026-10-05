@@ -22,7 +22,10 @@ Though several fast-fashion companies have made efforts to curb their impact on 
 
 Priestly criticizes her assistant for her
 
-- {"A": "insensitivity to fashion.", "B": "obsession with high fashion.", "C": "poor bargaining skill.", "D": "lack of imagination."}
+- **A.** insensitivity to fashion.
+- **B.** obsession with high fashion.
+- **C.** poor bargaining skill.
+- **D.** lack of imagination.
 
 **Correct answer:** A
 
@@ -36,7 +39,10 @@ Priestly criticizes her assistant for her
 
 According to Cline, mass-market labels urge consumers to
 
-- {"A": "combat unnecessary waste.", "B": "shop for their garments more frequently.", "C": "resist the influence of advertisements.", "D": "shut out the feverish fashion world."}
+- **A.** combat unnecessary waste.
+- **B.** shop for their garments more frequently.
+- **C.** resist the influence of advertisements.
+- **D.** shut out the feverish fashion world.
 
 **Correct answer:** B
 
@@ -50,7 +56,10 @@ According to Cline, mass-market labels urge consumers to
 
 The word “indictment” (Line 3, Para.2) is closest in meaning to
 
-- {"A": "tolerance.", "B": "indifference.", "C": "enthusiasm.", "D": "accusation."}
+- **A.** tolerance.
+- **B.** indifference.
+- **C.** enthusiasm.
+- **D.** accusation.
 
 **Correct answer:** D
 
@@ -64,7 +73,10 @@ indictment 一 词（第二段 第三 行）含义最接近于遣责。由考查
 
 Which of the following can be inferred from the last paragraph?
 
-- {"A": "Vanity has more often been found in idealists.", "B": "The fast-fashion industry ignores sustainability.", "C": "Pricing is vital to environment-friendly purchasing.", "D": "People are more interested in unaffordable garments."}
+- **A.** Vanity has more often been found in idealists.
+- **B.** The fast-fashion industry ignores sustainability.
+- **C.** Pricing is vital to environment-friendly purchasing.
+- **D.** People are more interested in unaffordable garments.
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ Which of the following can be inferred from the last paragraph?
 
 What is the subject of the text?
 
-- {"A": "Satire on an extravagant lifestyle.", "B": "Challenge to a high-fashion myth.", "C": "Criticism of the fast-fashion industry.", "D": "Exposure of a mass-market secret."}
+- **A.** Satire on an extravagant lifestyle.
+- **B.** Challenge to a high-fashion myth.
+- **C.** Criticism of the fast-fashion industry.
+- **D.** Exposure of a mass-market secret.
 
 **Correct answer:** C
 

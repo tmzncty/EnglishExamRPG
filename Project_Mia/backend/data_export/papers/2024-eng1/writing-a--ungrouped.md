@@ -23,17 +23,11 @@ Do not use your own name in your email;use "Li Ming"instead.(10 points)
 
 Dear Paul,
 
-I have just received your email, and I'm happy to offer some suggestions for your upcoming oral report on an ancient Chinese scientist. 
+I’m glad to help with your oral report. I suggest choosing one ancient Chinese scientist, such as Zhang Heng or Zu Chongzhi, rather than introducing too many people. You can organize the report around three points: the scientist’s background, major achievements and influence on later generations. A short story about the discovery or invention would make the opening more interesting, while a picture or simple diagram could help explain difficult ideas. Finally, practice the report several times so that you can speak clearly and keep within the time limit.
 
-Firstly, I advise you to select a specific scientist to focus on, such as Cai Lun, Zhang Heng, or Zu Chongzhi. This will make your presentation more coherent and engaging. 
+I hope these suggestions are useful. Good luck with your presentation!
 
-Next, conduct thorough research on your chosen scientist, emphasizing their key contributions, the impact of their work, and the relevant historical context. Remember to cover both their life and major discoveries.
-
-To captivate your audience, begin with an intriguing introduction. Consider using anecdotes and visuals to maintain engagement throughout your presentation. 
-
-Finally, practice your delivery to ensure fluency and confidence. Good luck with your report! I'm sure you'll do an excellent job.
-
-Sincerely yours,
+Yours,
 Li Ming
 
 **Analysis:**

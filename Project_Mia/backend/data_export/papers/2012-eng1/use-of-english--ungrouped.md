@@ -23,7 +23,10 @@ B. maintain
 C. modify
 D. recognize
 
-- {"A": "emphasize", "B": "maintain", "C": "modify", "D": "recognize"}
+- **A.** emphasize
+- **B.** maintain
+- **C.** modify
+- **D.** recognize
 
 **Correct answer:** B
 
@@ -40,7 +43,10 @@ B. lest
 C. before
 D. unless
 
-- {"A": "when", "B": "lest", "C": "before", "D": "unless"}
+- **A.** when
+- **B.** lest
+- **C.** before
+- **D.** unless
 
 **Correct answer:** A
 
@@ -57,7 +63,10 @@ B. weakened
 C. established
 D. eliminated
 
-- {"A": "restored", "B": "weakened", "C": "established", "D": "eliminated"}
+- **A.** restored
+- **B.** weakened
+- **C.** established
+- **D.** eliminated
 
 **Correct answer:** B
 
@@ -74,7 +83,10 @@ B. compromised
 C. suspected
 D. accepted
 
-- {"A": "challenged", "B": "compromised", "C": "suspected", "D": "accepted"}
+- **A.** challenged
+- **B.** compromised
+- **C.** suspected
+- **D.** accepted
 
 **Correct answer:** D
 
@@ -91,7 +103,10 @@ B. caught
 C. bound
 D. founded
 
-- {"A": "advanced", "B": "caught", "C": "bound", "D": "founded"}
+- **A.** advanced
+- **B.** caught
+- **C.** bound
+- **D.** founded
 
 **Correct answer:** C
 
@@ -108,7 +123,10 @@ B. subject
 C. immune
 D. prone
 
-- {"A": "resistant", "B": "subject", "C": "immune", "D": "prone"}
+- **A.** resistant
+- **B.** subject
+- **C.** immune
+- **D.** prone
 
 **Correct answer:** B
 
@@ -125,7 +143,10 @@ B. sticks
 C. leads
 D. applies
 
-- {"A": "resorts", "B": "sticks", "C": "leads", "D": "applies"}
+- **A.** resorts
+- **B.** sticks
+- **C.** leads
+- **D.** applies
 
 **Correct answer:** D
 
@@ -142,7 +163,10 @@ B. raise
 C. deny
 D. settle
 
-- {"A": "evade", "B": "raise", "C": "deny", "D": "settle"}
+- **A.** evade
+- **B.** raise
+- **C.** deny
+- **D.** settle
 
 **Correct answer:** B
 
@@ -159,7 +183,10 @@ B. barrier
 C. similarity
 D. conflict
 
-- {"A": "line", "B": "barrier", "C": "similarity", "D": "conflict"}
+- **A.** line
+- **B.** barrier
+- **C.** similarity
+- **D.** conflict
 
 **Correct answer:** A
 
@@ -176,7 +203,10 @@ B. as
 C. through
 D. towards
 
-- {"A": "by", "B": "as", "C": "through", "D": "towards"}
+- **A.** by
+- **B.** as
+- **C.** through
+- **D.** towards
 
 **Correct answer:** B
 
@@ -193,7 +223,10 @@ B. since
 C. provided
 D. though
 
-- {"A": "so", "B": "since", "C": "provided", "D": "though"}
+- **A.** so
+- **B.** since
+- **C.** provided
+- **D.** though
 
 **Correct answer:** A
 
@@ -210,7 +243,10 @@ B. satisfy
 C. upset
 D. replace
 
-- {"A": "serve", "B": "satisfy", "C": "upset", "D": "replace"}
+- **A.** serve
+- **B.** satisfy
+- **C.** upset
+- **D.** replace
 
 **Correct answer:** C
 
@@ -227,7 +263,10 @@ B. express
 C. cultivate
 D. offer
 
-- {"A": "confirm", "B": "express", "C": "cultivate", "D": "offer"}
+- **A.** confirm
+- **B.** express
+- **C.** cultivate
+- **D.** offer
 
 **Correct answer:** C
 
@@ -244,7 +283,10 @@ B. followed
 C. studied
 D. tied
 
-- {"A": "guarded", "B": "followed", "C": "studied", "D": "tied"}
+- **A.** guarded
+- **B.** followed
+- **C.** studied
+- **D.** tied
 
 **Correct answer:** D
 
@@ -261,7 +303,10 @@ B. theories
 C. divisions
 D. conventions
 
-- {"A": "concepts", "B": "theories", "C": "divisions", "D": "conventions"}
+- **A.** concepts
+- **B.** theories
+- **C.** divisions
+- **D.** conventions
 
 **Correct answer:** A
 
@@ -278,7 +323,10 @@ B. questions
 C. shapes
 D. controls
 
-- {"A": "excludes", "B": "questions", "C": "shapes", "D": "controls"}
+- **A.** excludes
+- **B.** questions
+- **C.** shapes
+- **D.** controls
 
 **Correct answer:** C
 
@@ -295,7 +343,10 @@ B. released
 C. ranked
 D. distorted
 
-- {"A": "dismissed", "B": "released", "C": "ranked", "D": "distorted"}
+- **A.** dismissed
+- **B.** released
+- **C.** ranked
+- **D.** distorted
 
 **Correct answer:** A
 
@@ -312,7 +363,10 @@ B. exploit
 C. address
 D. ignore
 
-- {"A": "suppress", "B": "exploit", "C": "address", "D": "ignore"}
+- **A.** suppress
+- **B.** exploit
+- **C.** address
+- **D.** ignore
 
 **Correct answer:** C
 
@@ -329,7 +383,10 @@ B. amiable
 C. agreable
 D. accountable
 
-- {"A": "accessible", "B": "amiable", "C": "agreable", "D": "accountable"}
+- **A.** accessible
+- **B.** amiable
+- **C.** agreable
+- **D.** accountable
 
 **Correct answer:** D
 
@@ -346,7 +403,10 @@ B. at all costs
 C. in a word
 D. as a result
 
-- {"A": "by all means", "B": "at all costs", "C": "in a word", "D": "as a result"}
+- **A.** by all means
+- **B.** at all costs
+- **C.** in a word
+- **D.** as a result
 
 **Correct answer:** D
 

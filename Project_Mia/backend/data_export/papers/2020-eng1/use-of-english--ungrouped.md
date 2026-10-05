@@ -16,7 +16,10 @@ Doubtless a piece of boiled beef can always be _16_ up on Sunday alongside some 
 
 [A] In [B] Towards [C] On [D] Till
 
-- {"A": "In", "B": "Towards", "C": "On", "D": "Till"}
+- **A.** In
+- **B.** Towards
+- **C.** On
+- **D.** Till
 
 **Correct answer:** C
 
@@ -30,7 +33,10 @@ On a cold winter's day 在一个寒冷的冬日。此处考查介词的用法，
 
 [A] match [B] express [C] satisfy [D] influence
 
-- {"A": "match", "B": "express", "C": "satisfy", "D": "influence"}
+- **A.** match
+- **B.** express
+- **C.** satisfy
+- **D.** influence
 
 **Correct answer:** A
 
@@ -44,7 +50,10 @@ few culinary pleasures can match it 很少有烹饪的乐趣能与之相比。ma
 
 [A] patience [B] enjoyment [C] surprise [D] concern
 
-- {"A": "patience", "B": "enjoyment", "C": "surprise", "D": "concern"}
+- **A.** patience
+- **B.** enjoyment
+- **C.** surprise
+- **D.** concern
 
 **Correct answer:** B
 
@@ -58,7 +67,10 @@ the food police are determined that this enjoyment should be rendered yet anothe
 
 [A] intensified [B] privileged [C] compelled [D] guaranteed
 
-- {"A": "intensified", "B": "privileged", "C": "compelled", "D": "guaranteed"}
+- **A.** intensified
+- **B.** privileged
+- **C.** compelled
+- **D.** guaranteed
 
 **Correct answer:** D
 
@@ -72,7 +84,10 @@ another guilty pleasure guaranteed to damage our health 另一种有罪的快乐
 
 [A] issued [B] received [C] ignored [D] cancelled
 
-- {"A": "issued", "B": "received", "C": "ignored", "D": "cancelled"}
+- **A.** issued
+- **B.** received
+- **C.** ignored
+- **D.** cancelled
 
 **Correct answer:** A
 
@@ -86,7 +101,10 @@ The Food Standards Authority (FSA) has issued a public warning 食品标准管�
 
 [A] under [B] at [C] for [D] by
 
-- {"A": "under", "B": "at", "C": "for", "D": "by"}
+- **A.** under
+- **B.** at
+- **C.** for
+- **D.** by
 
 **Correct answer:** B
 
@@ -100,7 +118,10 @@ foods cooked at high temperatures 在高温下烹饪的食物。at表示在某�
 
 [A] forget [B] regret [C] finish [D] avoid
 
-- {"A": "forget", "B": "regret", "C": "finish", "D": "avoid"}
+- **A.** forget
+- **B.** regret
+- **C.** finish
+- **D.** avoid
 
 **Correct answer:** D
 
@@ -114,7 +135,10 @@ people should avoid crisping their roast potatoes 人们应该避免把烤土豆
 
 [A] partially [B] regularly [C] easily [D] initially
 
-- {"A": "partially", "B": "regularly", "C": "easily", "D": "initially"}
+- **A.** partially
+- **B.** regularly
+- **C.** easily
+- **D.** initially
 
 **Correct answer:** A
 
@@ -128,7 +152,10 @@ only partially toast their bread 只是稍微烤一下他们的面包。partiall
 
 [A] Unless [B] Since [C] If [D] While
 
-- {"A": "Unless", "B": "Since", "C": "If", "D": "While"}
+- **A.** Unless
+- **B.** Since
+- **C.** If
+- **D.** While
 
 **Correct answer:** D
 
@@ -142,7 +169,10 @@ While studies have shown that acrylamide can cause neurological damage in mice, 
 
 [A] secondary [B] external [C] conclusive [D] negative
 
-- {"A": "secondary", "B": "external", "C": "conclusive", "D": "negative"}
+- **A.** secondary
+- **B.** external
+- **C.** conclusive
+- **D.** negative
 
 **Correct answer:** C
 
@@ -156,7 +186,10 @@ there is no conclusive evidence that it causes cancer in humans. 没有确凿的
 
 [A] insufficient [B] bound [C] likely [D] slow
 
-- {"A": "insufficient", "B": "bound", "C": "likely", "D": "slow"}
+- **A.** insufficient
+- **B.** bound
+- **C.** likely
+- **D.** slow
 
 **Correct answer:** C
 
@@ -170,7 +203,10 @@ Scientists say the compound is likely to cause cancer 科学家说这种化合�
 
 [A] On the basis of [B] At the cost of [C] In addition to [D] In contrast to
 
-- {"A": "On the basis of", "B": "At the cost of", "C": "In addition to", "D": "In contrast to"}
+- **A.** On the basis of
+- **B.** At the cost of
+- **C.** In addition to
+- **D.** In contrast to
 
 **Correct answer:** A
 
@@ -184,7 +220,10 @@ On the basis of the precautionary principle, it could be argued that it is advis
 
 [A] interesting [B] advisable [C] urgent [D] fortunate
 
-- {"A": "interesting", "B": "advisable", "C": "urgent", "D": "fortunate"}
+- **A.** interesting
+- **B.** advisable
+- **C.** urgent
+- **D.** fortunate
 
 **Correct answer:** B
 
@@ -198,7 +237,10 @@ it could be argued that it is advisable to follow the FSA advice 可以认为听
 
 [A] As usual [B] In particular [C] By definition [D] After all
 
-- {"A": "As usual", "B": "In particular", "C": "By definition", "D": "After all"}
+- **A.** As usual
+- **B.** In particular
+- **C.** By definition
+- **D.** After all
 
 **Correct answer:** D
 
@@ -212,7 +254,10 @@ After all, it was rumoured that smoking caused cancer for years before the evide
 
 [A] resemblance [B] combination [C] connection [D] pattern
 
-- {"A": "resemblance", "B": "combination", "C": "connection", "D": "pattern"}
+- **A.** resemblance
+- **B.** combination
+- **C.** connection
+- **D.** pattern
 
 **Correct answer:** C
 
@@ -226,7 +271,10 @@ the evidence was found to prove a connection 找到证据证明两者之间的�
 
 [A] made [B] served [C] saved [D] used
 
-- {"A": "made", "B": "served", "C": "saved", "D": "used"}
+- **A.** made
+- **B.** served
+- **C.** saved
+- **D.** used
 
 **Correct answer:** B
 
@@ -240,7 +288,10 @@ Doubtless a piece of boiled beef can always be served up on Sunday 一块煮牛�
 
 [A] To be fair [B] For instance [C] To be brief [D] In general
 
-- {"A": "To be fair", "B": "For instance", "C": "To be brief", "D": "In general"}
+- **A.** To be fair
+- **B.** For instance
+- **C.** To be brief
+- **D.** In general
 
 **Correct answer:** A
 
@@ -254,7 +305,10 @@ To be fair, the FSA says it is not telling people to cut out roast foods. 公平
 
 [A] reluctantly [B] entirely [C] gradually [D] carefully
 
-- {"A": "reluctantly", "B": "entirely", "C": "gradually", "D": "carefully"}
+- **A.** reluctantly
+- **B.** entirely
+- **C.** gradually
+- **D.** carefully
 
 **Correct answer:** B
 
@@ -268,7 +322,10 @@ the FSA says it is not telling people to cut out roast foods entirely FSA说它�
 
 [A] promise [B] experience [C] campaign [D] competition
 
-- {"A": "promise", "B": "experience", "C": "campaign", "D": "competition"}
+- **A.** promise
+- **B.** experience
+- **C.** campaign
+- **D.** competition
 
 **Correct answer:** C
 
@@ -282,7 +339,10 @@ However, their campaign risks coming a cross as being pushy and overprotective. 
 
 [A] follow up [B] pick up [C] open up [D] end up
 
-- {"A": "follow up", "B": "pick up", "C": "open up", "D": "end up"}
+- **A.** follow up
+- **B.** pick up
+- **C.** open up
+- **D.** end up
 
 **Correct answer:** D
 

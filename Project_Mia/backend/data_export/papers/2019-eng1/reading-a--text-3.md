@@ -28,7 +28,10 @@ To put it another way: How can we make sure that the thinking of intelligent mac
 
 Mary Shelley’s novel Frankenstein is mentioned because it
 
-- {"A": "fascinates AI scientists all over the world.", "B": "has remained popular for as long as 200 years.", "C": "involves some concerns raised by AI today.", "D": "has sparked serious ethical controversies."}
+- **A.** fascinates AI scientists all over the world.
+- **B.** has remained popular for as long as 200 years.
+- **C.** involves some concerns raised by AI today.
+- **D.** has sparked serious ethical controversies.
 
 **Correct answer:** C
 
@@ -42,7 +45,10 @@ Mary Shelley’s novel Frankenstein is mentioned because it
 
 In David Eagleman’s opinion, our current knowledge of consciousness
 
-- {"A": "helps explain artificial intelligence.", "B": "can be misleading to robot making.", "C": "inspires popular sci-fi TV series.", "D": "is too limited for us to reproduce it."}
+- **A.** helps explain artificial intelligence.
+- **B.** can be misleading to robot making.
+- **C.** inspires popular sci-fi TV series.
+- **D.** is too limited for us to reproduce it.
 
 **Correct answer:** D
 
@@ -56,7 +62,10 @@ In David Eagleman’s opinion, our current knowledge of consciousness
 
 The solution to the ethical issues brought by autonomous vehicles
 
-- {"A": "can hardly ever be found.", "B": "is still beyond our capacity.", "C": "causes little public concern.", "D": "has aroused much curiosity."}
+- **A.** can hardly ever be found.
+- **B.** is still beyond our capacity.
+- **C.** causes little public concern.
+- **D.** has aroused much curiosity.
 
 **Correct answer:** B
 
@@ -70,7 +79,10 @@ The solution to the ethical issues brought by autonomous vehicles
 
 The author's attitude toward Google's pledges is one of
 
-- {"A": "affirmation.", "B": "skepticism.", "C": "contempt.", "D": "respect."}
+- **A.** affirmation.
+- **B.** skepticism.
+- **C.** contempt.
+- **D.** respect.
 
 **Correct answer:** A
 
@@ -84,7 +96,10 @@ The author's attitude toward Google's pledges is one of
 
 Which of the following would be the best title for the text?
 
-- {"A": "AI's Future: In the Hands of Tech Giants", "B": "Frankenstein, the Novel Predicting the Age of AI", "C": "The Conscience of AI: Complex But Inevitable", "D": "AI Shall Be Killers Once Out of Control"}
+- **A.** AI's Future: In the Hands of Tech Giants
+- **B.** Frankenstein, the Novel Predicting the Age of AI
+- **C.** The Conscience of AI: Complex But Inevitable
+- **D.** AI Shall Be Killers Once Out of Control
 
 **Correct answer:** C
 

@@ -25,7 +25,10 @@ who are the monarchy’s worst enemies.
 
 According to the first two paragraphs, King Juan Carl of Spain
 
-- {"A": "eased his relationship with his rivals.", "B": "used to enjoy high public support.", "C": "was unpopular among European royals.", "D": "ended his reign in embarrassment."}
+- **A.** eased his relationship with his rivals.
+- **B.** used to enjoy high public support.
+- **C.** was unpopular among European royals.
+- **D.** ended his reign in embarrassment.
 
 **Correct answer:** D
 
@@ -40,7 +43,10 @@ According to the first two paragraphs, King Juan Carl of Spain
 
 Monarchs are kept as heads of state in Europe mostly
 
-- {"A": "to give voters more public figures to look up to.", "B": "to achieve a balance between tradition and reality.", "C": "owing to their undoubted and respectable status.", "D": "due to their everlasting political embodiment."}
+- **A.** to give voters more public figures to look up to.
+- **B.** to achieve a balance between tradition and reality.
+- **C.** owing to their undoubted and respectable status.
+- **D.** due to their everlasting political embodiment.
 
 **Correct answer:** C
 
@@ -55,7 +61,10 @@ Monarchs are kept as heads of state in Europe mostly
 
 Which of the following is shown to be odd, according to Paragraph 4?
 
-- {"A": "Aristocrats’ excessive reliance on inherited wealth.", "B": "The role of the nobility in modern democracies.", "C": "The simple lifestyle of the aristocratic families.", "D": "The nobility’s adherence to their privileges."}
+- **A.** Aristocrats’ excessive reliance on inherited wealth.
+- **B.** The role of the nobility in modern democracies.
+- **C.** The simple lifestyle of the aristocratic families.
+- **D.** The nobility’s adherence to their privileges.
 
 **Correct answer:** B
 
@@ -70,7 +79,10 @@ Which of the following is shown to be odd, according to Paragraph 4?
 
 The British royals “have most to fear” because Charles
 
-- {"A": "fails to adapt himself to his future role.", "B": "fails to change his lifestyle as advised.", "C": "takes republicans as his potential allies.", "D": "takes a tough line on political issues."}
+- **A.** fails to adapt himself to his future role.
+- **B.** fails to change his lifestyle as advised.
+- **C.** takes republicans as his potential allies.
+- **D.** takes a tough line on political issues.
 
 **Correct answer:** A
 
@@ -85,7 +97,10 @@ The British royals “have most to fear” because Charles
 
 Which of the following is the best title of the text?
 
-- {"A": "Carlos, Glory and Disgrace Combined", "B": "Charles, Anxious to Succeed to the Throne", "C": "Carlos, a Lesson for All European Monarchs", "D": "Charles, Slow to React to the Coming Threats"}
+- **A.** Carlos, Glory and Disgrace Combined
+- **B.** Charles, Anxious to Succeed to the Throne
+- **C.** Carlos, a Lesson for All European Monarchs
+- **D.** Charles, Slow to React to the Coming Threats
 
 **Correct answer:** C
 

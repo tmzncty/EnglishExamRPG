@@ -16,7 +16,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] among	[B] except	[C] despite	[D] like
 
-- {"A": "among", "B": "except", "C": "despite", "D": "like"}
+- **A.** among
+- **B.** except
+- **C.** despite
+- **D.** like
 
 **Correct answer:** C
 
@@ -30,7 +33,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] reflect	[B] demand	[C] indicate	[D] produce
 
-- {"A": "reflect", "B": "demand", "C": "indicate", "D": "produce"}
+- **A.** reflect
+- **B.** demand
+- **C.** indicate
+- **D.** produce
 
 **Correct answer:** D
 
@@ -44,7 +50,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] stabilizing	[B] boosting	[C] impairing	[D] determining
 
-- {"A": "stabilizing", "B": "boosting", "C": "impairing", "D": "determining"}
+- **A.** stabilizing
+- **B.** boosting
+- **C.** impairing
+- **D.** determining
 
 **Correct answer:** B
 
@@ -58,7 +67,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] transmit	[B] sustain	[C] evaluate	[D] observe
 
-- {"A": "transmit", "B": "sustain", "C": "evaluate", "D": "observe"}
+- **A.** transmit
+- **B.** sustain
+- **C.** evaluate
+- **D.** observe
 
 **Correct answer:** B
 
@@ -72,7 +84,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] measurable	[B] manageable	[C] affordable	[D] renewable
 
-- {"A": "measurable", "B": "manageable", "C": "affordable", "D": "renewable"}
+- **A.** measurable
+- **B.** manageable
+- **C.** affordable
+- **D.** renewable
 
 **Correct answer:** A
 
@@ -86,7 +101,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] In turn	[B] In fact	[C] In addition	[D] In brief
 
-- {"A": "In turn", "B": "In fact", "C": "In addition", "D": "In brief"}
+- **A.** In turn
+- **B.** In fact
+- **C.** In addition
+- **D.** In brief
 
 **Correct answer:** B
 
@@ -100,7 +118,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] opposite	[B] impossible	[C] average	[D] expected
 
-- {"A": "opposite", "B": "impossible", "C": "average", "D": "expected"}
+- **A.** opposite
+- **B.** impossible
+- **C.** average
+- **D.** expected
 
 **Correct answer:** A
 
@@ -114,7 +135,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] hardens	[B] weakens	[C] tightens	[D] relaxes
 
-- {"A": "hardens", "B": "weakens", "C": "tightens", "D": "relaxes"}
+- **A.** hardens
+- **B.** weakens
+- **C.** tightens
+- **D.** relaxes
 
 **Correct answer:** D
 
@@ -128,7 +152,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] aggravate	[B] generate	[C] moderate	[D] enhance
 
-- {"A": "aggravate", "B": "generate", "C": "moderate", "D": "enhance"}
+- **A.** aggravate
+- **B.** generate
+- **C.** moderate
+- **D.** enhance
 
 **Correct answer:** C
 
@@ -142,7 +169,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] physical	[B] mental	[C] subconscious	[D] internal
 
-- {"A": "physical", "B": "mental", "C": "subconscious", "D": "internal"}
+- **A.** physical
+- **B.** mental
+- **C.** subconscious
+- **D.** internal
 
 **Correct answer:** A
 
@@ -156,7 +186,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] Except for	[B] According to	[C] Due to	[D] As for
 
-- {"A": "Except for", "B": "According to", "C": "Due to", "D": "As for"}
+- **A.** Except for
+- **B.** According to
+- **C.** Due to
+- **D.** As for
 
 **Correct answer:** B
 
@@ -170,7 +203,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] with [B] on [C] in [D] at
 
-- {"A": "with", "B": "on", "C": "in", "D": "at"}
+- **A.** with
+- **B.** on
+- **C.** in
+- **D.** at
 
 **Correct answer:** C
 
@@ -184,7 +220,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] unless	[B] until	[C] if	[D] because
 
-- {"A": "unless", "B": "until", "C": "if", "D": "because"}
+- **A.** unless
+- **B.** until
+- **C.** if
+- **D.** because
 
 **Correct answer:** D
 
@@ -198,7 +237,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] exhausts	[B] follows	[C] precedes	[D] suppresses
 
-- {"A": "exhausts", "B": "follows", "C": "precedes", "D": "suppresses"}
+- **A.** exhausts
+- **B.** follows
+- **C.** precedes
+- **D.** suppresses
 
 **Correct answer:** C
 
@@ -212,7 +254,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] into	[B] from	[C] towards	[D] beyond
 
-- {"A": "into", "B": "from", "C": "towards", "D": "beyond"}
+- **A.** into
+- **B.** from
+- **C.** towards
+- **D.** beyond
 
 **Correct answer:** B
 
@@ -226,7 +271,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] fetch	[B] bite	[C] pick	[D] hold
 
-- {"A": "fetch", "B": "bite", "C": "pick", "D": "hold"}
+- **A.** fetch
+- **B.** bite
+- **C.** pick
+- **D.** hold
 
 **Correct answer:** D
 
@@ -240,7 +288,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] disappointed	[B] excited	[C] joyful	[D] indifferent
 
-- {"A": "disappointed", "B": "excited", "C": "joyful", "D": "indifferent"}
+- **A.** disappointed
+- **B.** excited
+- **C.** joyful
+- **D.** indifferent
 
 **Correct answer:** A
 
@@ -254,7 +305,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] adapted	[B] catered	[C] turned	[D] reacted
 
-- {"A": "adapted", "B": "catered", "C": "turned", "D": "reacted"}
+- **A.** adapted
+- **B.** catered
+- **C.** turned
+- **D.** reacted
 
 **Correct answer:** D
 
@@ -268,7 +322,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] suggesting	[B] requiring	[C] mentioning	[D] supposing
 
-- {"A": "suggesting", "B": "requiring", "C": "mentioning", "D": "supposing"}
+- **A.** suggesting
+- **B.** requiring
+- **C.** mentioning
+- **D.** supposing
 
 **Correct answer:** A
 
@@ -282,7 +339,10 @@ Although sadness also _14_ tears, evidence suggests that emotions can flow _15_ 
 
 [A] Eventually	[B] Consequently	[C] Similarly	[D] Conversely
 
-- {"A": "Eventually", "B": "Consequently", "C": "Similarly", "D": "Conversely"}
+- **A.** Eventually
+- **B.** Consequently
+- **C.** Similarly
+- **D.** Conversely
 
 **Correct answer:** C
 

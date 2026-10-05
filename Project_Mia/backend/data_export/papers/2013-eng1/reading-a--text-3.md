@@ -24,7 +24,10 @@ This long perspective makes the pessimistic view of our prospects seem more like
 
 Our vision of the future used to be inspired by
 
-- {"A": "our desire for lives of fulfillment.", "B": "our faith in science and technology.", "C": "our awareness of potential risks.", "D": "our belief in equal opportunity."}
+- **A.** our desire for lives of fulfillment.
+- **B.** our faith in science and technology.
+- **C.** our awareness of potential risks.
+- **D.** our belief in equal opportunity.
 
 **Correct answer:** B
 
@@ -38,7 +41,10 @@ Our vision of the future used to be inspired by
 
 The IUCN's "Red List" suggests that human beings are
 
-- {"A": "a sustained species.", "B": "the world's dominant power.", "C": "a threat to the environment.", "D": "a misplaced race."}
+- **A.** a sustained species.
+- **B.** the world's dominant power.
+- **C.** a threat to the environment.
+- **D.** a misplaced race.
 
 **Correct answer:** A
 
@@ -52,7 +58,10 @@ The IUCN's "Red List" suggests that human beings are
 
 Which of the following is true according to Paragraph 5?
 
-- {"A": "The interest in science fiction is on the rise.", "B": "Arc helps limit the scope of futurological studies.", "C": "Technology offers solutions to social problems.", "D": "Our immediate future is hard to conceive."}
+- **A.** The interest in science fiction is on the rise.
+- **B.** Arc helps limit the scope of futurological studies.
+- **C.** Technology offers solutions to social problems.
+- **D.** Our immediate future is hard to conceive.
 
 **Correct answer:** D
 
@@ -66,7 +75,10 @@ Which of the following is true according to Paragraph 5?
 
 To ensure the future of mankind, it is crucial to
 
-- {"A": "adopt an optimistic view of the world.", "B": "draw on our experience from the past.", "C": "explore our planet's abundant resources.", "D": "curb our ambition to reshape history."}
+- **A.** adopt an optimistic view of the world.
+- **B.** draw on our experience from the past.
+- **C.** explore our planet's abundant resources.
+- **D.** curb our ambition to reshape history.
 
 **Correct answer:** B
 
@@ -80,7 +92,10 @@ To ensure the future of mankind, it is crucial to
 
 Which of the following would be the best title for the text?
 
-- {"A": "The Ever-bright Prospects of Mankind.", "B": "Science, Technology and Humanity.", "C": "Evolution of the Human Species.", "D": "Uncertainty about Our Future."}
+- **A.** The Ever-bright Prospects of Mankind.
+- **B.** Science, Technology and Humanity.
+- **C.** Evolution of the Human Species.
+- **D.** Uncertainty about Our Future.
 
 **Correct answer:** A
 

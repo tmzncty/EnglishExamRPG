@@ -17,15 +17,11 @@ Suppose you are working for the “Aiding Rural Primary School” project of you
 
 Dear Volunteer,
 
-I am writing to provide details about our “Aiding Rural Primary School” project. We are delighted you are interested in volunteering.
+Thank you for your interest in our “Aiding Rural Primary School” project. The program will last two weeks during the summer vacation. Volunteers will assist local teachers with English classes, reading activities and sports, and may also organize simple cultural-exchange events. The school is about 100 kilometers from our university, and transportation will be arranged. Accommodation and meals will be provided at the school.
 
-The project involves spending two weeks at a rural primary school, assisting local teachers with English lessons and extracurricular activities. Volunteers will also help organize sports events and cultural exchange programs. The school is located approximately 100 kilometers from the city, and transportation will be provided.
+Before departure, we will hold an orientation covering teaching tasks, safety and local customs. Please bring basic personal necessities and any teaching materials you find useful. Feel free to contact me if you need further information.
 
-Accommodation will be arranged in the school dormitory, and meals will be provided by the school canteen. Volunteers are expected to cover their personal expenses. We will hold an orientation session before departure to brief volunteers on the project details and cultural sensitivities.
-
-Please let me know if you have any further questions. We look forward to welcoming you to the team.
-
-Yours sincerely,
+Yours,
 Li Ming
 
 **Analysis:**

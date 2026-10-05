@@ -22,7 +22,10 @@ A toothy grin ( especially when there were gaps or blackened gnashers) lacked cl
 
 According to Paragraph 1, the author’s posts on Twitter
 
-- {"A": "changed people’s impression of the Victorians.", "B": "highlighted social media’s role in Victorian studies.", "C": "re-evaluated the Victorian’s notion of public image.", "D": "illustrated the development of Victorian photography."}
+- **A.** changed people’s impression of the Victorians.
+- **B.** highlighted social media’s role in Victorian studies.
+- **C.** re-evaluated the Victorian’s notion of public image.
+- **D.** illustrated the development of Victorian photography.
 
 **Correct answer:** A
 
@@ -36,7 +39,10 @@ According to Paragraph 1, the author’s posts on Twitter
 
 What does the author say about the Victorian portraits he has collected?
 
-- {"A": "They are in popular use among historians.", "B": "They are rare among photographs of that age.", "C": "They mirror 19th-century social conventions.", "D": "They show effects of different exposure times."}
+- **A.** They are in popular use among historians.
+- **B.** They are rare among photographs of that age.
+- **C.** They mirror 19th-century social conventions.
+- **D.** They show effects of different exposure times.
 
 **Correct answer:** B
 
@@ -50,7 +56,10 @@ What does the author say about the Victorian portraits he has collected?
 
 What might have kept the Victorians from smiling for pictures in the 1890s?
 
-- {"A": "Their inherent social sensitiveness.", "B": "Their tension before the camera.", "C": "Their distrust of new inventions.", "D": "Their unhealthy dental condition."}
+- **A.** Their inherent social sensitiveness.
+- **B.** Their tension before the camera.
+- **C.** Their distrust of new inventions.
+- **D.** Their unhealthy dental condition.
 
 **Correct answer:** D
 
@@ -64,7 +73,10 @@ What might have kept the Victorians from smiling for pictures in the 1890s?
 
 Mark Twain is quoted to show that the disapproval of smiles in pictures was
 
-- {"A": "a deep-root belief.", "B": "a misguided attitude.", "C": "a controversial view.", "D": "a thought-provoking idea."}
+- **A.** a deep-root belief.
+- **B.** a misguided attitude.
+- **C.** a controversial view.
+- **D.** a thought-provoking idea.
 
 **Correct answer:** A
 
@@ -78,7 +90,10 @@ Mark Twain is quoted to show that the disapproval of smiles in pictures was
 
 Which of the following questions does the text answer?
 
-- {"A": "Why did most Victorians look stern in photographs?", "B": "Why did the Victorians start to view photographs?", "C": "What made photography develop in the Victorian period?", "D": "How did smiling in photographs become a post-Victorian norm?"}
+- **A.** Why did most Victorians look stern in photographs?
+- **B.** Why did the Victorians start to view photographs?
+- **C.** What made photography develop in the Victorian period?
+- **D.** How did smiling in photographs become a post-Victorian norm?
 
 **Correct answer:** A
 

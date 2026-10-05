@@ -20,7 +20,10 @@ It’s hard to imagine that many people are dumb enough to want children just be
 
 Jennifer Senior suggests in her article that raising a child can bring
 
-- {"A": "temporary delight.", "B": "enjoyment in progress.", "C": "happiness in retrospect.", "D": "lasting reward."}
+- **A.** temporary delight.
+- **B.** enjoyment in progress.
+- **C.** happiness in retrospect.
+- **D.** lasting reward.
 
 **Correct answer:** C
 
@@ -34,7 +37,10 @@ Jennifer Senior suggests in her article that raising a child can bring
 
 We learn from Paragraph 2 that
 
-- {"A": "celebrity moms are a permanent source for gossip.", "B": "single mothers with babies deserve greater attention.", "C": "news about pregnant celebrities is entertaining.", "D": "having children is highly valued by the public."}
+- **A.** celebrity moms are a permanent source for gossip.
+- **B.** single mothers with babies deserve greater attention.
+- **C.** news about pregnant celebrities is entertaining.
+- **D.** having children is highly valued by the public.
 
 **Correct answer:** D
 
@@ -48,7 +54,10 @@ We learn from Paragraph 2 that
 
 It is suggested in Paragraph 3 that childless folks
 
-- {"A": "are constantly exposed to criticism.", "B": "are largely ignored by the media.", "C": "fail to fulfill their social responsibilities.", "D": "are less likely to be satisfied with their life."}
+- **A.** are constantly exposed to criticism.
+- **B.** are largely ignored by the media.
+- **C.** fail to fulfill their social responsibilities.
+- **D.** are less likely to be satisfied with their life.
 
 **Correct answer:** A
 
@@ -62,7 +71,10 @@ It is suggested in Paragraph 3 that childless folks
 
 According to Paragraph 4, the message conveyed by celebrity magazines is
 
-- {"A": "soothing.", "B": "ambiguous.", "C": "compensatory.", "D": "misleading."}
+- **A.** soothing.
+- **B.** ambiguous.
+- **C.** compensatory.
+- **D.** misleading.
 
 **Correct answer:** D
 
@@ -76,7 +88,10 @@ According to Paragraph 4, the message conveyed by celebrity magazines is
 
 Which of the following can be inferred from the last paragraph?
 
-- {"A": "Having children contributes little to the glamour of celebrity moms.", "B": "Celebrity moms have influenced our attitude towards child rearing.", "C": "Having children intensifies our dissatisfaction with life.", "D": "We sometimes neglect the happiness from child rearing."}
+- **A.** Having children contributes little to the glamour of celebrity moms.
+- **B.** Celebrity moms have influenced our attitude towards child rearing.
+- **C.** Having children intensifies our dissatisfaction with life.
+- **D.** We sometimes neglect the happiness from child rearing.
 
 **Correct answer:** B
 

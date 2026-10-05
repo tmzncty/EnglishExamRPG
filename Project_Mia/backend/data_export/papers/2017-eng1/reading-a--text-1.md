@@ -24,7 +24,10 @@ The TSA cannot continue diverting resources into underused PreCheck lanes while 
 
 The crash of EgyptAir Flight 804 is mentioned to
 
-- {"A": "explain American’s tolerance of current security checks.", "B": "stress the urgency to strengthen security worldwide.", "C": "highlight the necessity of upgrading major U.S. airports.", "D": "emphasize the importance of privacy protection."}
+- **A.** explain American’s tolerance of current security checks.
+- **B.** stress the urgency to strengthen security worldwide.
+- **C.** highlight the necessity of upgrading major U.S. airports.
+- **D.** emphasize the importance of privacy protection.
 
 **Correct answer:** A
 
@@ -38,7 +41,10 @@ The crash of EgyptAir Flight 804 is mentioned to
 
 Which of the following contributes to long waits at major airports?
 
-- {"A": "New restrictions on carry-on bags.", "B": "The declining efficiency of the TSA.", "C": "An increase in the number of travelers.", "D": "Frequent unexpected secret checks."}
+- **A.** New restrictions on carry-on bags.
+- **B.** The declining efficiency of the TSA.
+- **C.** An increase in the number of travelers.
+- **D.** Frequent unexpected secret checks.
 
 **Correct answer:** C
 
@@ -52,7 +58,10 @@ Which of the following contributes to long waits at major airports?
 
 The word “expedited” (Line 4, Para. 5) is closest in meaning to
 
-- {"A": "quieter.", "B": "cheaper.", "C": "wider.", "D": "faster."}
+- **A.** quieter.
+- **B.** cheaper.
+- **C.** wider.
+- **D.** faster.
 
 **Correct answer:** D
 
@@ -66,7 +75,10 @@ expedited的意思是“快速的”，在第五段中，文章提到通过背�
 
 One problem with the PreCheck program is
 
-- {"A": "a dramatic reduction of its scale.", "B": "its wrongly-directed implementation.", "C": "the government’s reluctance to back it.", "D": "an unreasonable price for enrollment."}
+- **A.** a dramatic reduction of its scale.
+- **B.** its wrongly-directed implementation.
+- **C.** the government’s reluctance to back it.
+- **D.** an unreasonable price for enrollment.
 
 **Correct answer:** D
 
@@ -80,7 +92,10 @@ One problem with the PreCheck program is
 
 Which of the following would be the best title for the text?
 
-- {"A": "Less Screening for More Safety", "B": "PreCheck – a Belated Solution", "C": "Getting Stuck in Security Lines", "D": "Underused PreCheck Lanes"}
+- **A.** Less Screening for More Safety
+- **B.** PreCheck – a Belated Solution
+- **C.** Getting Stuck in Security Lines
+- **D.** Underused PreCheck Lanes
 
 **Correct answer:** C
 

@@ -16,7 +16,10 @@ Some experts _17_ the stress-reducing, health-related benefits of hugging to the
 
 helping you feel close and to people you care about, it turns out that hugs can bring a of health benefits
 
-- {"A": "Unlike", "B": "Besides", "C": "Despite", "D": "Throughout"}
+- **A.** Unlike
+- **B.** Besides
+- **C.** Despite
+- **D.** Throughout
 
 **Correct answer:** B
 
@@ -30,7 +33,10 @@ helping you feel close and to people you care about, it turns out that hugs can 
 
 helping you feel close and _2_ to people you care about
 
-- {"A": "connected", "B": "restricted", "C": "equal", "D": "inferior"}
+- **A.** connected
+- **B.** restricted
+- **C.** equal
+- **D.** inferior
 
 **Correct answer:** A
 
@@ -44,7 +50,10 @@ helping you feel close and _2_ to people you care about
 
 hugs can bring a _3_ of health benefits to your body and mind.
 
-- {"A": "choice", "B": "view", "C": "lesson", "D": "host"}
+- **A.** choice
+- **B.** view
+- **C.** lesson
+- **D.** host
 
 **Correct answer:** D
 
@@ -58,7 +67,10 @@ hugs can bring a _3_ of health benefits to your body and mind.
 
 a warm embrace might even help you _4_ getting sick this winter.
 
-- {"A": "recall", "B": "forget", "C": "avoid", "D": "keep"}
+- **A.** recall
+- **B.** forget
+- **C.** avoid
+- **D.** keep
 
 **Correct answer:** C
 
@@ -72,7 +84,10 @@ a warm embrace might even help you _4_ getting sick this winter.
 
 In a recent study _5_ over 400 healthy adults
 
-- {"A": "collecting", "B": "involving", "C": "guiding", "D": "affecting"}
+- **A.** collecting
+- **B.** involving
+- **C.** guiding
+- **D.** affecting
 
 **Correct answer:** B
 
@@ -86,7 +101,10 @@ In a recent study _5_ over 400 healthy adults
 
 the receipt of hugs _6_ the participants’ susceptibility to developing the common cold
 
-- {"A": "of", "B": "in", "C": "at", "D": "on"}
+- **A.** of
+- **B.** in
+- **C.** at
+- **D.** on
 
 **Correct answer:** D
 
@@ -100,7 +118,10 @@ the receipt of hugs _6_ the participants’ susceptibility to developing the com
 
 after being _7_ to the virus.
 
-- {"A": "devoted", "B": "exposed", "C": "lost", "D": "attracted"}
+- **A.** devoted
+- **B.** exposed
+- **C.** lost
+- **D.** attracted
 
 **Correct answer:** B
 
@@ -114,7 +135,10 @@ after being _7_ to the virus.
 
 less likely to come _8_ with a cold
 
-- {"A": "across", "B": "along", "C": "down", "D": "out"}
+- **A.** across
+- **B.** along
+- **C.** down
+- **D.** out
 
 **Correct answer:** C
 
@@ -128,7 +152,10 @@ less likely to come _8_ with a cold
 
 and the researchers _9_ that the stress-reducing effects of hugging
 
-- {"A": "calculated", "B": "denied", "C": "doubted", "D": "imagined"}
+- **A.** calculated
+- **B.** denied
+- **C.** doubted
+- **D.** imagined
 
 **Correct answer:** A
 
@@ -142,7 +169,10 @@ and the researchers _9_ that the stress-reducing effects of hugging
 
 stress-reducing effects of hugging _10_ about 32 percent of that beneficial effect.
 
-- {"A": "served", "B": "required", "C": "restored", "D": "explained"}
+- **A.** served
+- **B.** required
+- **C.** restored
+- **D.** explained
 
 **Correct answer:** D
 
@@ -156,7 +186,10 @@ stress-reducing effects of hugging _10_ about 32 percent of that beneficial effe
 
 _11_ among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe _12_.
 
-- {"A": "Even", "B": "Still", "C": "Rather", "D": "Thus"}
+- **A.** Even
+- **B.** Still
+- **C.** Rather
+- **D.** Thus
 
 **Correct answer:** A
 
@@ -170,7 +203,10 @@ _11_ among those who got a cold, the ones who felt greater social support and re
 
 had less severe _12_.
 
-- {"A": "defeats", "B": "symptoms", "C": "tests", "D": "errors"}
+- **A.** defeats
+- **B.** symptoms
+- **C.** tests
+- **D.** errors
 
 **Correct answer:** B
 
@@ -184,7 +220,10 @@ had less severe _12_.
 
 Hugging protects people who are under stress from the _13_ risk for colds
 
-- {"A": "minimized", "B": "highlighted", "C": "controlled", "D": "increased"}
+- **A.** minimized
+- **B.** highlighted
+- **C.** controlled
+- **D.** increased
 
 **Correct answer:** D
 
@@ -198,7 +237,10 @@ Hugging protects people who are under stress from the _13_ risk for colds
 
 that’s usually _14_ with stress
 
-- {"A": "equipped", "B": "associated", "C": "presented", "D": "compared"}
+- **A.** equipped
+- **B.** associated
+- **C.** presented
+- **D.** compared
 
 **Correct answer:** B
 
@@ -212,7 +254,10 @@ that’s usually _14_ with stress
 
 helps _15_ the feeling that others are there to help
 
-- {"A": "assess", "B": "moderate", "C": "generate", "D": "record"}
+- **A.** assess
+- **B.** moderate
+- **C.** generate
+- **D.** record
 
 **Correct answer:** C
 
@@ -226,7 +271,10 @@ helps _15_ the feeling that others are there to help
 
 to help _16_ difficulty.”
 
-- {"A": "in the face of", "B": "in the form of", "C": "in the way of", "D": "in the name of"}
+- **A.** in the face of
+- **B.** in the form of
+- **C.** in the way of
+- **D.** in the name of
 
 **Correct answer:** A
 
@@ -240,7 +288,10 @@ to help _16_ difficulty.”
 
 Some experts _17_ the stress-reducing, health-related benefits of hugging to the release of oxytocin
 
-- {"A": "transfer", "B": "commit", "C": "attribute", "D": "return"}
+- **A.** transfer
+- **B.** commit
+- **C.** attribute
+- **D.** return
 
 **Correct answer:** C
 
@@ -254,7 +305,10 @@ Some experts _17_ the stress-reducing, health-related benefits of hugging to the
 
 _18_ it promotes attachment in relationships
 
-- {"A": "because", "B": "unless", "C": "though", "D": "until"}
+- **A.** because
+- **B.** unless
+- **C.** though
+- **D.** until
 
 **Correct answer:** A
 
@@ -268,7 +322,10 @@ _18_ it promotes attachment in relationships
 
 But some of it _19_ in the brain,
 
-- {"A": "emerges", "B": "vanishes", "C": "remains", "D": "decreases"}
+- **A.** emerges
+- **B.** vanishes
+- **C.** remains
+- **D.** decreases
 
 **Correct answer:** C
 
@@ -282,7 +339,10 @@ But some of it _19_ in the brain,
 
 where it _20_ mood, behavior and physiology.
 
-- {"A": "experiences", "B": "combines", "C": "justifies", "D": "influences"}
+- **A.** experiences
+- **B.** combines
+- **C.** justifies
+- **D.** influences
 
 **Correct answer:** D
 

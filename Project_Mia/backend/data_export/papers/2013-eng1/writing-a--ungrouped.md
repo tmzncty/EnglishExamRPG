@@ -20,17 +20,13 @@ Write an e-mail of about 100 words to a foreign teacher in your college, invitin
 
 **Answer key / reference answer:**
 
-Dear Professor [Teacher's Last Name],
+Dear Professor Smith,
 
-I hope this email finds you well.
+On behalf of the Student Union, I am writing to invite you to serve as a judge for our English Speech Contest. The event will be held in the university auditorium from 2:00 to 5:00 p.m. this Friday. Contestants will give prepared speeches and answer questions from the judges. We would greatly value your expertise in English and your experience in public speaking. Your comments would also help the students improve their communication skills.
 
-On behalf of the Student Union, I am writing to cordially invite you to be a judge for our upcoming English Speech Contest. The contest is scheduled for [Date] from [Start Time] to [End Time] in the [Location, e.g., Auditorium].
+We sincerely hope you can join us. Please let me know if you are available.
 
-The theme of this year’s contest is [Theme]. Contestants will deliver a prepared speech followed by a Q&A session. Your expertise in English language and [Teacher's Field of Expertise, if known] would be invaluable in evaluating their performance based on their language proficiency, content delivery, and overall presentation skills.
-
-We would be honored if you could accept our invitation. Please let me know by [RSVP Date] if you are available. Thank you for your time and consideration.
-
-Sincerely,
+Yours sincerely,
 Li Ming
 
 **Analysis:**

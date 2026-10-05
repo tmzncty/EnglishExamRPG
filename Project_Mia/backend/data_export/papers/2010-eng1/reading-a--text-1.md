@@ -20,7 +20,10 @@ Is there any chance that Cardus’s criticism will enjoy a revival? The prospect
 
 It is indicated in Paragraphs 1 and 2 that
 
-- {"A": "arts criticism has disappeared from big-city newspapers.", "B": "English-language newspapers used to carry more arts reviews.", "C": "high-quality newspapers retain a large body of readers.", "D": "young readers doubt the suitability of criticism on dailies."}
+- **A.** arts criticism has disappeared from big-city newspapers.
+- **B.** English-language newspapers used to carry more arts reviews.
+- **C.** high-quality newspapers retain a large body of readers.
+- **D.** young readers doubt the suitability of criticism on dailies.
 
 **Correct answer:** B
 
@@ -34,7 +37,10 @@ It is indicated in Paragraphs 1 and 2 that
 
 Newspaper reviews in England before World War II were characterized by
 
-- {"A": "free themes.", "B": "casual style.", "C": "elaborate layout.", "D": "radical viewpoints."}
+- **A.** free themes.
+- **B.** casual style.
+- **C.** elaborate layout.
+- **D.** radical viewpoints.
 
 **Correct answer:** A
 
@@ -48,7 +54,10 @@ Newspaper reviews in England before World War II were characterized by
 
 Which of the following would Shaw and Newman most probably agree on?
 
-- {"A": "It is writers’ duty to fulfill journalistic goals.", "B": "It is contemptible for writers to be journalists.", "C": "Writers are likely to be tempted into journalism.", "D": "Not all writers are capable of journalistic writing."}
+- **A.** It is writers’ duty to fulfill journalistic goals.
+- **B.** It is contemptible for writers to be journalists.
+- **C.** Writers are likely to be tempted into journalism.
+- **D.** Not all writers are capable of journalistic writing.
 
 **Correct answer:** D
 
@@ -62,7 +71,10 @@ Which of the following would Shaw and Newman most probably agree on?
 
 What can be learned about Cardus according to the last two paragraphs?
 
-- {"A": "His music criticism may not appeal to readers today.", "B": "His reputation as a music critic has long been in dispute.", "C": "His style caters largely to modern specialists.", "D": "His writings fail to follow the amateur tradition."}
+- **A.** His music criticism may not appeal to readers today.
+- **B.** His reputation as a music critic has long been in dispute.
+- **C.** His style caters largely to modern specialists.
+- **D.** His writings fail to follow the amateur tradition.
 
 **Correct answer:** A
 
@@ -76,7 +88,10 @@ What can be learned about Cardus according to the last two paragraphs?
 
 What would be the best title for the text?
 
-- {"A": "Newspapers of the Good Old Days", "B": "The Lost Horizon in Newspapers", "C": "Mournful Decline of Journalism", "D": "Prominent Critics in Memory"}
+- **A.** Newspapers of the Good Old Days
+- **B.** The Lost Horizon in Newspapers
+- **C.** Mournful Decline of Journalism
+- **D.** Prominent Critics in Memory
 
 **Correct answer:** B
 

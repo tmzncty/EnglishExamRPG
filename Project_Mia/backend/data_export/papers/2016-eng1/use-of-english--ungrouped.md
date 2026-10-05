@@ -14,7 +14,10 @@ Divorce is legal and easy to _14_, but not common. Divorced persons are _15_ wit
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "as well as", "B": "by way of", "C": "on behalf of", "D": "with regard to"}
+- **A.** as well as
+- **B.** by way of
+- **C.** on behalf of
+- **D.** with regard to
 
 **Correct answer:** A
 
@@ -28,7 +31,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "adapt to", "B": "provide for", "C": "compete with", "D": "decide on"}
+- **A.** adapt to
+- **B.** provide for
+- **C.** compete with
+- **D.** decide on
 
 **Correct answer:** D
 
@@ -42,7 +48,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "renew", "B": "close", "C": "arrange", "D": "postpone"}
+- **A.** renew
+- **B.** close
+- **C.** arrange
+- **D.** postpone
 
 **Correct answer:** C
 
@@ -56,7 +65,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "In theory", "B": "In time", "C": "Above all", "D": "For example"}
+- **A.** In theory
+- **B.** In time
+- **C.** Above all
+- **D.** For example
 
 **Correct answer:** A
 
@@ -70,7 +82,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "Although", "B": "Lest", "C": "After", "D": "Unless"}
+- **A.** Although
+- **B.** Lest
+- **C.** After
+- **D.** Unless
 
 **Correct answer:** C
 
@@ -84,7 +99,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "within", "B": "into", "C": "from", "D": "through"}
+- **A.** within
+- **B.** into
+- **C.** from
+- **D.** through
 
 **Correct answer:** B
 
@@ -98,7 +116,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "since", "B": "or", "C": "so", "D": "but"}
+- **A.** since
+- **B.** or
+- **C.** so
+- **D.** but
 
 **Correct answer:** D
 
@@ -112,7 +133,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "test", "B": "recite", "C": "copy", "D": "create"}
+- **A.** test
+- **B.** recite
+- **C.** copy
+- **D.** create
 
 **Correct answer:** B
 
@@ -126,7 +150,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "folding", "B": "piling", "C": "wrapping", "D": "tying"}
+- **A.** folding
+- **B.** piling
+- **C.** wrapping
+- **D.** tying
 
 **Correct answer:** D
 
@@ -140,7 +167,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "passing", "B": "lighting", "C": "hiding", "D": "serving"}
+- **A.** passing
+- **B.** lighting
+- **C.** hiding
+- **D.** serving
 
 **Correct answer:** A
 
@@ -154,7 +184,10 @@ and表明空格后内容继续介绍婚礼习俗。该分句中的关键词 a ca
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "association", "B": "meeting", "C": "collection", "D": "union"}
+- **A.** association
+- **B.** meeting
+- **C.** collection
+- **D.** union
 
 **Correct answer:** D
 
@@ -168,7 +201,10 @@ to blessthe___（祝福_____）指出"在一圈婚姻美满且受尊敬的夫妇
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "grow", "B": "part", "C": "live", "D": "deal"}
+- **A.** grow
+- **B.** part
+- **C.** live
+- **D.** deal
 
 **Correct answer:** C
 
@@ -182,7 +218,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "whereas", "B": "until", "C": "for", "D": "if"}
+- **A.** whereas
+- **B.** until
+- **C.** for
+- **D.** if
 
 **Correct answer:** B
 
@@ -196,7 +235,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "follow", "B": "obtain", "C": "challenge", "D": "avoid"}
+- **A.** follow
+- **B.** obtain
+- **C.** challenge
+- **D.** avoid
 
 **Correct answer:** B
 
@@ -210,7 +252,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "endowed", "B": "equated", "C": "regarded", "D": "impressed"}
+- **A.** endowed
+- **B.** equated
+- **C.** regarded
+- **D.** impressed
 
 **Correct answer:** C
 
@@ -224,7 +269,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "whatever", "B": "whichever", "C": "however", "D": "whenever"}
+- **A.** whatever
+- **B.** whichever
+- **C.** however
+- **D.** whenever
 
 **Correct answer:** A
 
@@ -238,7 +286,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "transfer", "B": "brought", "C": "redeem", "D": "restore"}
+- **A.** transfer
+- **B.** brought
+- **C.** redeem
+- **D.** restore
 
 **Correct answer:** B
 
@@ -252,7 +303,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "scattered", "B": "separated", "C": "withdrawn", "D": "divided"}
+- **A.** scattered
+- **B.** separated
+- **C.** withdrawn
+- **D.** divided
 
 **Correct answer:** D
 
@@ -266,7 +320,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "sums", "B": "crops", "C": "turns", "D": "builds"}
+- **A.** sums
+- **B.** crops
+- **C.** turns
+- **D.** builds
 
 **Correct answer:** B
 
@@ -280,7 +337,10 @@ Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANS
 
 Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET.
 
-- {"A": "whereas", "B": "lest", "C": "if", "D": "as"}
+- **A.** whereas
+- **B.** lest
+- **C.** if
+- **D.** as
 
 **Correct answer:** A
 

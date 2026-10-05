@@ -22,7 +22,10 @@ Indeed, grade forgiveness is just another way that universities are responding t
 
 What is commonly regarded as the cause of grade inflation?
 
-- {"A": "The change of course catalogs.", "B": "Students' indifference to GPAs.", "C": "Colleges' neglect of GPAs.", "D": "The influence of consumer culture."}
+- **A.** The change of course catalogs.
+- **B.** Students' indifference to GPAs.
+- **C.** Colleges' neglect of GPAs.
+- **D.** The influence of consumer culture.
 
 **Correct answer:** D
 
@@ -36,7 +39,10 @@ What is commonly regarded as the cause of grade inflation?
 
 What was the original purpose of grade forgiveness?
 
-- {"A": "To help freshmen adapt to college learning.", "B": "To maintain colleges' graduation rates.", "C": "To prepare graduates for a challenging future.", "D": "To increase universities' income from tuition."}
+- **A.** To help freshmen adapt to college learning.
+- **B.** To maintain colleges' graduation rates.
+- **C.** To prepare graduates for a challenging future.
+- **D.** To increase universities' income from tuition.
 
 **Correct answer:** A
 
@@ -50,7 +56,10 @@ What was the original purpose of grade forgiveness?
 
 According to Paragraph 5, grade forgiveness enables colleges to
 
-- {"A": "obtain more financial support.", "B": "boost their student enrollments.", "C": "improve their teaching quality.", "D": "meet local governments' needs."}
+- **A.** obtain more financial support.
+- **B.** boost their student enrollments.
+- **C.** improve their teaching quality.
+- **D.** meet local governments' needs.
 
 **Correct answer:** A
 
@@ -64,7 +73,10 @@ According to Paragraph 5, grade forgiveness enables colleges to
 
 What does the phrase "to be aligned" (Line 5, Para. 6) most probably mean?
 
-- {"A": "To counterbalance each other.", "B": "To complement each other.", "C": "To be identical with each other.", "D": "To be contradictory to each other."}
+- **A.** To counterbalance each other.
+- **B.** To complement each other.
+- **C.** To be identical with each other.
+- **D.** To be contradictory to each other.
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ What does the phrase "to be aligned" (Line 5, Para. 6) most probably mean?
 
 The author examines the practice of grade forgiveness by
 
-- {"A": "assessing its feasibility.", "B": "analyzing the causes behind it.", "C": "comparing different views on it.", "D": "listing its long-run effects."}
+- **A.** assessing its feasibility.
+- **B.** analyzing the causes behind it.
+- **C.** comparing different views on it.
+- **D.** listing its long-run effects.
 
 **Correct answer:** B
 

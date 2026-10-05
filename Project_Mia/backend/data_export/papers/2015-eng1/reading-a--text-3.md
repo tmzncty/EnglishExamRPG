@@ -22,7 +22,10 @@ Professional scientists are expected to know how to analyse data, but statistica
 
 It can be learned from Paragraph 1 that
 
-- {"A": "Science intends to simplify its peer-review process.", "B": "journals are strengthening their statistical checks.", "C": "few journals are blamed for mistakes in data analysis.", "D": "lack of data analysis is common in research projects."}
+- **A.** Science intends to simplify its peer-review process.
+- **B.** journals are strengthening their statistical checks.
+- **C.** few journals are blamed for mistakes in data analysis.
+- **D.** lack of data analysis is common in research projects.
 
 **Correct answer:** B
 
@@ -36,7 +39,10 @@ It can be learned from Paragraph 1 that
 
 The phrase “flagged up” (Para. 2) is the closest in meaning to
 
-- {"A": "found.", "B": "revised.", "C": "marked.", "D": "stored."}
+- **A.** found.
+- **B.** revised.
+- **C.** marked.
+- **D.** stored.
 
 **Correct answer:** C
 
@@ -50,7 +56,10 @@ The phrase “flagged up” (Para. 2) is the closest in meaning to
 
 Giovanni Parmigiani believes that the establishment of the SBoRE may
 
-- {"A": "pose a threat to all its peers.", "B": "meet with strong opposition.", "C": "increase Science’s circulation.", "D": "set an example for other journals."}
+- **A.** pose a threat to all its peers.
+- **B.** meet with strong opposition.
+- **C.** increase Science’s circulation.
+- **D.** set an example for other journals.
 
 **Correct answer:** D
 
@@ -64,7 +73,10 @@ Parmigiani认为SBoRE的创立具有持久影响，并可能被其他期刊效�
 
 David Vaux holds that what Science is doing now
 
-- {"A": "adds to researchers’ workload.", "B": "diminishes the role of reviewers.", "C": "has room for further improvement.", "D": "is to fail in the foreseeable future."}
+- **A.** adds to researchers’ workload.
+- **B.** diminishes the role of reviewers.
+- **C.** has room for further improvement.
+- **D.** is to fail in the foreseeable future.
 
 **Correct answer:** C
 
@@ -78,7 +90,10 @@ Vaux认为《科学》的做法有优点，但也有缺点，意味着有进一�
 
 Which of the following is the best title of the text?
 
-- {"A": "Science Joins Push to Screen Statistics in Papers", "B": "Professional Statisticians Deserve More Respect", "C": "Data Analysis Finds Its Way onto Editors’ Desks", "D": "Statisticians Are Coming Back with Science"}
+- **A.** Science Joins Push to Screen Statistics in Papers
+- **B.** Professional Statisticians Deserve More Respect
+- **C.** Data Analysis Finds Its Way onto Editors’ Desks
+- **D.** Statisticians Are Coming Back with Science
 
 **Correct answer:** A
 

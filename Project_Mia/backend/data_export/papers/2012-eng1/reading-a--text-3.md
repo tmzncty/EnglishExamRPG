@@ -20,7 +20,10 @@ In the end, credibility “happens” to a discovery claim – a process that co
 
 According to the first paragraph, the process of discovery is characterized by its
 
-- {"A": "uncertainty and complexity.", "B": "misconception and deceptiveness.", "C": "logicality and objectivity.", "D": "systematicness and regularity."}
+- **A.** uncertainty and complexity.
+- **B.** misconception and deceptiveness.
+- **C.** logicality and objectivity.
+- **D.** systematicness and regularity.
 
 **Correct answer:** A
 
@@ -34,7 +37,10 @@ According to the first paragraph, the process of discovery is characterized by i
 
 It can be inferred from Paragraph 2 that credibility process requires
 
-- {"A": "strict inspection.", "B": "shared efforts.", "C": "individual wisdom.", "D": "persistent innovation."}
+- **A.** strict inspection.
+- **B.** shared efforts.
+- **C.** individual wisdom.
+- **D.** persistent innovation.
 
 **Correct answer:** B
 
@@ -48,7 +54,10 @@ It can be inferred from Paragraph 2 that credibility process requires
 
 Paragraph 3 shows that a discovery claim becomes credible after it
 
-- {"A": "has attracted the attention of the general public.", "B": "has been examined by the scientific community.", "C": "has received recognition from editors and reviewers.", "D": "has been frequently quoted by peer scientists."}
+- **A.** has attracted the attention of the general public.
+- **B.** has been examined by the scientific community.
+- **C.** has received recognition from editors and reviewers.
+- **D.** has been frequently quoted by peer scientists.
 
 **Correct answer:** B
 
@@ -62,7 +71,10 @@ Paragraph 3 shows that a discovery claim becomes credible after it
 
 Albert Szent-Györgyi would most likely agree that
 
-- {"A": "scientific claims will survive challenges.", "B": "discoveries today inspire future research.", "C": "efforts to make discoveries are justified.", "D": "scientific work calls for a critical mind."}
+- **A.** scientific claims will survive challenges.
+- **B.** discoveries today inspire future research.
+- **C.** efforts to make discoveries are justified.
+- **D.** scientific work calls for a critical mind.
 
 **Correct answer:** D
 
@@ -76,7 +88,10 @@ Albert Szent-Györgyi would most likely agree that
 
 Which of the following would be the best title of the text?
 
-- {"A": "Novelty as an Engine of Scientific Development.", "B": "Collective Scrutiny in Scientific Discovery.", "C": "Evolution of Credibility in Doing Science.", "D": "Challenge to Credibility at the Gate to Science."}
+- **A.** Novelty as an Engine of Scientific Development.
+- **B.** Collective Scrutiny in Scientific Discovery.
+- **C.** Evolution of Credibility in Doing Science.
+- **D.** Challenge to Credibility at the Gate to Science.
 
 **Correct answer:** C
 

@@ -24,7 +24,10 @@ The sharp hit to growth predicted around the world and in the UK could lead to a
 
 Robert F. Kennedy is cited because he
 
-- {"A": "praised the UK for its GDP.", "B": "identified GDP with happiness.", "C": "misinterpreted the role of GDP.", "D": "had a low opinion of GDP."}
+- **A.** praised the UK for its GDP.
+- **B.** identified GDP with happiness.
+- **C.** misinterpreted the role of GDP.
+- **D.** had a low opinion of GDP.
 
 **Correct answer:** D
 
@@ -38,7 +41,10 @@ Robert F. Kennedy is cited because he
 
 It can be inferred from Paragraph 2 that
 
-- {"A": "the UK is reluctant to remold its economic pattern.", "B": "GDP as the measure of success is widely defied in the UK.", "C": "the UK will contribute less to the world economy.", "D": "policymakers in the UK are paying less attention to GDP."}
+- **A.** the UK is reluctant to remold its economic pattern.
+- **B.** GDP as the measure of success is widely defied in the UK.
+- **C.** the UK will contribute less to the world economy.
+- **D.** policymakers in the UK are paying less attention to GDP.
 
 **Correct answer:** B
 
@@ -52,7 +58,10 @@ It can be inferred from Paragraph 2 that
 
 Which of the following is true about the recent annual study?
 
-- {"A": "It is sponsored by 163 countries.", "B": "It excludes GDP as an indicator.", "C": "Its criteria are questionable.", "D": "Its results are enlightening."}
+- **A.** It is sponsored by 163 countries.
+- **B.** It excludes GDP as an indicator.
+- **C.** Its criteria are questionable.
+- **D.** Its results are enlightening.
 
 **Correct answer:** D
 
@@ -66,7 +75,10 @@ Which of the following is true about the recent annual study?
 
 In the last two paragraphs, the author suggests that
 
-- {"A": "the UK is preparing for an economic boom.", "B": "high GDP foreshadows an economic decline.", "C": "it is essential to consider factors beyond GDP.", "D": "it requires caution to handle economic issues."}
+- **A.** the UK is preparing for an economic boom.
+- **B.** high GDP foreshadows an economic decline.
+- **C.** it is essential to consider factors beyond GDP.
+- **D.** it requires caution to handle economic issues.
 
 **Correct answer:** C
 
@@ -80,7 +92,10 @@ In the last two paragraphs, the author suggests that
 
 Which of the following is the best title for the text?
 
-- {"A": "High GDP But Inadequate Well-being, a UK Lesson", "B": "GDP Figures, a Window on Global Economic Health", "C": "Robert F. Kennedy, a Terminator of GDP", "D": "Brexit, the UK’s Gateway to Well-being"}
+- **A.** High GDP But Inadequate Well-being, a UK Lesson
+- **B.** GDP Figures, a Window on Global Economic Health
+- **C.** Robert F. Kennedy, a Terminator of GDP
+- **D.** Brexit, the UK’s Gateway to Well-being
 
 **Correct answer:** A
 

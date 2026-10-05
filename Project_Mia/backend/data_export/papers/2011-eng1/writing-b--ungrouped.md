@@ -30,6 +30,6 @@ To prevent such a tragedy, society must take collective action. Firstly, individ
 
 该范文首先简要描述了图画内容和揭示的主题。然后，分析了造成这种不文明行为的原因：游客环保意识淡薄。最后，从个人和社会两个层面提出了解决问题的措施：提高个人环保意识，加强政府监管和惩罚力度。文章结构清晰，逻辑严谨，语言表达流畅，符合考研写作的要求。
 
-> This question has an image in the SQLite source; base64 image data is intentionally omitted from the text export.
+![Question image](../../assets/2011-eng1-writing_b-q52.jpg)
 
 <!-- q_id=2011-eng1-writing_b-q52; difficulty=3; score=20.0 -->

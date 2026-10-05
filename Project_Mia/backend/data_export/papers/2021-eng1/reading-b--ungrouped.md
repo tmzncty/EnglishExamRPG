@@ -24,7 +24,13 @@ Improved accuracy
 
 Companies are using artificial intelligence to remove some of the unconscious biasfrom hiring decisions. “There are experiments that show that, naturally, the results of interviews are much more biased than what AI does,” says Pedro Domingos, author of The Master Algorithm: How the Quest for the Ultimate Learning Machine Will Remake Our World and a computer science professor at the University of Washington. (41)                            ” One company that’s doing this is called Blendoor. It uses analytics to help identify where there may be bias in the hiring process.
 
-- {"A": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.", "B": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.", "C": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.", "D": "You want to predict if something needs attention now and point to where it's useful for employees to go to.", "E": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.", "F": "We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.", "G": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates ."}
+- **A.** AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.
+- **B.** One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.
+- **C.** There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.
+- **D.** You want to predict if something needs attention now and point to where it's useful for employees to go to.
+- **E.** Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.
+- **F.** We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.
+- **G.** AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates .
 
 **Correct answer:** G
 
@@ -38,7 +44,13 @@ Companies are using artificial intelligence to remove some of the unconscious bi
 
 Some AI software can analyze and optimize marketing email subject lines to increase open rates. One company in the UK, Phrasee, claims their software can outperform humans by up to 10 percent when it comes to email open rates. This can mean millions more in revenue. (42) _________ These are "tools that help people use data, not a replacement for people,” says Patrick H. Winston, a professor of artificial intelligence and computer science at MIT.
 
-- {"A": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.", "B": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.", "C": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.", "D": "You want to predict if something needs attention now and point to where it's useful for employees to go to.", "E": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.", "F": "We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.", "G": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates ."}
+- **A.** AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.
+- **B.** One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.
+- **C.** There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.
+- **D.** You want to predict if something needs attention now and point to where it's useful for employees to go to.
+- **E.** Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.
+- **F.** We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.
+- **G.** AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates .
 
 **Correct answer:** C
 
@@ -52,7 +64,13 @@ Some AI software can analyze and optimize marketing email subject lines to incre
 
 Energy companies can use AI to help customers reduce their electricity bills, saving them money while helping the environment.Companies can also optimize their ownenergy use and cut down on the cost of electricity. Insurance companies, meanwhile, can base their premiums on AI models that more accurately access risk. Domingos says, “ (43)                                ”
 
-- {"A": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.", "B": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.", "C": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.", "D": "You want to predict if something needs attention now and point to where it's useful for employees to go to.", "E": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.", "F": "We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.", "G": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates ."}
+- **A.** AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.
+- **B.** One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.
+- **C.** There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.
+- **D.** You want to predict if something needs attention now and point to where it's useful for employees to go to.
+- **E.** Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.
+- **F.** We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.
+- **G.** AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates .
 
 **Correct answer:** E
 
@@ -66,7 +84,13 @@ Energy companies can use AI to help customers reduce their electricity bills, sa
 
 “Machine learning often provides a more reliable form of statistics which makes data more valuable,” says Winston. It “helps people make smarter decisions.” (44) __ Protecting and maintaining infrastructure A number of companies, particularly in energy and transportation, use AI image processing technology to inspect infrastructure and prevent equipment failure or leaks before they happen. "If they fail first and then you fix them , it’s very expensive,” says Domingos.
 
-- {"A": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.", "B": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.", "C": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.", "D": "You want to predict if something needs attention now and point to where it's useful for employees to go to.", "E": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.", "F": "We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.", "G": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates ."}
+- **A.** AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.
+- **B.** One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.
+- **C.** There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.
+- **D.** You want to predict if something needs attention now and point to where it's useful for employees to go to.
+- **E.** Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.
+- **F.** We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.
+- **G.** AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates .
 
 **Correct answer:** B
 
@@ -80,7 +104,13 @@ Energy companies can use AI to help customers reduce their electricity bills, sa
 
 “Machine learning often provides a more reliable form of statistics which makes data more valuable,” says Winston. It “helps people make smarter decisions.” (44) __ Protecting and maintaining infrastructure A number of companies, particularly in energy and transportation, use AI image processing technology to inspect infrastructure and prevent equipment failure or leaks before they happen. "If they fail first and then you fix them , it’s very expensive,” says Domingos. “(45)                                    ”
 
-- {"A": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.", "B": "One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.", "C": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.", "D": "You want to predict if something needs attention now and point to where it's useful for employees to go to.", "E": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.", "F": "We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.", "G": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates ."}
+- **A.** AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn’t have time for.
+- **B.** One accounting firm, BY, uses an AI system that helps review contracts during anaudit. This process, along with employees reviewing the · contracts, is faster and more accurate.
+- **C.** There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.
+- **D.** You want to predict if something needs attention now and point to where it's useful for employees to go to.
+- **E.** Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.
+- **F.** We’re also giving our customers better channels versus picking up the phone to accomplish something beyond human scale.
+- **G.** AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates .
 
 **Correct answer:** D
 
